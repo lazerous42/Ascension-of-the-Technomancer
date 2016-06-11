@@ -1,0 +1,59 @@
+{
+    "Blue Topaz": {
+        "template": "uniform",
+        "block": {
+            "name": "arsmagica2:vinteumOre",
+            "metadata": 2
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 3,
+        "numClusters": 4,
+        "minHeight": 40,
+        "maxHeight": 120,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Chimerite": {
+        "template": "uniform",
+        "block": {
+            "name": "arsmagica2:vinteumOre",
+            "metadata": 1
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 3,
+        "numClusters": 4,
+        "minHeight": 20,
+        "maxHeight": 41,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Vinteum": {
+        "template": "uniform",
+        "block": "arsmagica2:vinteumOre",
+        "material": "minecraft:stone",
+        "clusterSize": 3,
+        "numClusters": 3,
+        "minHeight": 12,
+        "maxHeight": 35,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

@@ -1,0 +1,284 @@
+{
+	"Aptite": {
+		"template": "uniform",
+		"block": {
+			"name": "gregtech:gt.blockores",
+			"metadata": 530
+		},
+		"clusterSize": 7,
+		"numClusters": 3,
+		"minHeight": 50,
+		"maxHeight": 200,
+		"retrogen": "false",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [-1,
+			1
+		]
+	},
+	"Copper": {
+		"template": "uniform",
+		"block": {
+			"name": "gregtech:gt.blockores",
+			"metadata": 35
+		},
+		"clusterSize": 7,
+		"numClusters": 5,
+		"minHeight": 42,
+		"maxHeight": 128,
+		"retrogen": "false",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [-1,
+			1
+		]
+	},
+	"Diamond": {
+		"template": "uniform",
+		"block": {
+			"name": "gregtech:gt.blockores",
+			"metadata": 500
+		},
+		"material": "minecraft:stone",
+		"clusterSize": 2,
+		"numClusters": 2,
+		"minHeight": 5,
+		"maxHeight": 16,
+		"retrogen": "false",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [-1,
+			1
+		]
+	},
+	"Emerald": {
+		"template": "uniform",
+		"block": {
+			"name": "gregtech:gt.blockores",
+			"metadata": 501
+		},
+		"material": "minecraft:stone",
+		"clusterSize": 2,
+		"numClusters": 1,
+		"minHeight": 5,
+		"maxHeight": 16,
+		"retrogen": "false",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [-1,
+			1
+		]
+	},
+	"Gold": {
+		"template": "uniform",
+		"block": {
+			"name": "gregtech:gt.blockores",
+			"metadata": 86
+		},
+		"material": "minecraft:stone",
+		"clusterSize": 3,
+		"numClusters": 3,
+		"minHeight": 1,
+		"maxHeight": 26,
+		"retrogen": "false",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [-1,
+			1
+		]
+	},
+	"Iron": {
+		"template": "uniform",
+		"block": {
+			"name": "gregtech:gt.blockores",
+			"metadata": 32
+		},
+		"material": "minecraft:stone",
+		"clusterSize": 5,
+		"numClusters": 5,
+		"minHeight": 5,
+		"maxHeight": 128,
+		"retrogen": "false",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [-1,
+			1
+		]
+	},
+	"Lapis": {
+		"template": "uniform",
+		"block": {
+			"name": "gregtech:gt.blockores",
+			"metadata": 526
+		},
+		"material": "minecraft:stone",
+		"clusterSize": 4,
+		"numClusters": 2,
+		"minHeight": 22,
+		"maxHeight": 48,
+		"retrogen": "false",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [-1,
+			1
+		]
+	},
+	"Lead": {
+		"template": "uniform",
+		"block": [{
+			"name": "gregtech:gt.blockores",
+			"metadata": 89,
+			"weight": 90
+		}, {
+			"name": "gregtech:gt.blockores",
+			"metadata": 54,
+			"weight": 10
+		}],
+		"clusterSize": 5,
+		"numClusters": 3,
+		"minHeight": 28,
+		"maxHeight": 50,
+		"retrogen": "false",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [-1,
+			1
+		]
+	},
+	"Mithril": {
+		"template": "uniform",
+		"block": {
+			"name": "gregtech:gt.blockores",
+			"metadata": 331
+		},
+		"clusterSize": 3,
+		"numClusters": 3,
+		"minHeight": 5,
+		"maxHeight": 30,
+		"retrogen": "false",
+		"biomeRestriction": "none",
+
+
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [-1,
+			1
+		]
+	},
+	"Nickel": {
+		"template": "uniform",
+		"block": [{
+			"name": "gregtech:gt.blockores",
+			"metadata": 34,
+			"weight": 97
+		}, {
+			"name": "gregtech:gt.blockores",
+			"metadata": 85,
+			"weight": 3
+		}],
+		"clusterSize": 3,
+		"numClusters": 4,
+		"minHeight": 5,
+		"maxHeight": 25,
+		"retrogen": "false",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [-1,
+			1
+		]
+	},
+	"Quartz": {
+		"template": "uniform",
+		"block": {
+			"name": "gregtech:gt.blockores",
+			"metadata": 522
+		},
+		"material": "minecraft:netherrack",
+		"clusterSize": 5,
+		"numClusters": 5,
+		"minHeight": 5,
+		"maxHeight": 122,
+		"retrogen": "false",
+		"biomeRestriction": "whitelist",
+		"biomes": [{
+			"type": "dictionary",
+			"entry": "NETHER"
+		}],
+		"dimensionRestriction": "none",
+		"dimensions": []
+	},
+	"Redstone": {
+		"template": "uniform",
+		"block": [{
+			"name": "gregtech:gt.blockores",
+			"metadata": 810,
+			"weight": 85
+		}, {
+			"name": "gregtech:gt.blockores",
+			"metadata": 812,
+			"weight": 15
+		}],
+		"material": "minecraft:stone",
+		"clusterSize": 6,
+		"numClusters": 4,
+		"minHeight": 1,
+		"maxHeight": 25,
+		"retrogen": "false",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [-1,
+			1
+		]
+	},
+	"Silver": {
+		"template": "uniform",
+		"block": [{
+			"name": "gregtech:gt.blockores",
+			"metadata": 54,
+			"weight": 80
+		}, {
+			"name": "gregtech:gt.blockores",
+			"metadata": 89,
+			"weight": 20
+		}],
+		"clusterSize": 5,
+		"numClusters": 3,
+		"minHeight": 5,
+		"maxHeight": 27,
+		"retrogen": "false",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [-1,
+			1
+		]
+	},
+	"Tin": {
+		"template": "uniform",
+		"block": {
+			"name": "gregtech:gt.blockores",
+			"metadata": 57
+		},
+		"clusterSize": 4,
+		"numClusters": 4,
+		"minHeight": 30,
+		"maxHeight": 60,
+		"retrogen": "false",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [-1,
+			1
+		]
+	}
+}

@@ -1,0 +1,19 @@
+{
+"RoseGold": {
+        "template": "normal",
+        "block": "MCA:tile.roseGoldOre",
+        "material": "minecraft:stone",
+        "clusterSize": 4,
+        "numClusters": 2,
+        "meanHeight": 30,
+        "maxVariance": 7,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

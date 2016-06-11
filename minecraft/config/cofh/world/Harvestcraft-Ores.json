@@ -1,0 +1,22 @@
+{
+    "Salt": {
+        "template": "uniform",
+        "block": "harvestcraft:salt",
+        "material": {
+            "name": "chisel:limestone",
+            "metadata": 0
+        },
+        "clusterSize": 8,
+        "numClusters": 750,
+        "minHeight": 1,
+        "maxHeight": 150,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "Zinc": {
+        "template": "uniform",
+        "block": {
+            "name": "Steamcraft:steamcraftOre",
+            "metadata": 1
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 3,
+        "numClusters": 4,
+        "minHeight": 45,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

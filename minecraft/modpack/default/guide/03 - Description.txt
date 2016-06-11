@@ -1,0 +1,11 @@
+Ascension of the Tehnomancer is a modpack designed for the hardcore player with an extensive knowledge of the 1.7.10 mod landscape.  It is assumed that you are for the most part aware of what the various major mods for this release of Minecraft contain, and how to make use of these components.  Recipes have been changed to increase the difficulty and provide cross mod integration for a more seemless gameplay experience.  Combat will play a much greater role in this pack than you are used to.  Monsters are going to be a constant threat throughout your entire playthrough, and resources will always be in short supply.  The first and most important thing to know about facing this challenge is;
+
+§0§l§nYou are going to die§r  
+
+This is an inevitability, so hardcore mode is ill advised.  The rest of this guide will be intended as an introduction to the challenges you will be facing so you can plan out your strategy accordingly.  It is highly recommended that you read through the remainder of document in it's entirety.
+
+Note from the author: This pack is currently being released as a beta of the final project.  What this means is that although this pack is "complete" and playable in it's current form, I do have plans to evntually add HQM to the pack to provide a more structured progression through the very large number of mods and bosses that exist in this pack.  This will likely be an optional, alternatte game mode so there is no danger to existing worlds by this planned change.  
+
+The recipes and progression used in this pack are based in part Infinity Evolved Expert mode, with a big fat side of GregTech(Infitech 2) thrown in for good measure.  Although there are countless changes from those recipes as the mod list differs substantially from those packs, they were the original jumping off point for the ideas implemented here, and this pack wouldn't be what it is without them.  
+
+§0§oThis is a formal thank you for all of the work that the FTB and the Infitech 2 teams put into those packs, and to all the other members of the Minecraft modding community whos' work I have learned from and built upon.§r

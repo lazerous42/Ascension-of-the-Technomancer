@@ -1,0 +1,335 @@
+## Dimension IDs                                                      ##
+########################################################################
+## In the form:                                                       ##
+## <dimension id>                                                     ##
+##    - Name: <dimension name>                                        ##
+##    - Height: <dimension height>                                    ##
+##    - Has Sky? <true if dimension has a sky>                        ##
+##    - Cloud Height: <height of dimension's clouds (only on client)> ##
+##    - Can Respawn Here? <true if players can respawn here>          ##
+##    - Terrain Scale: <distance travelled per block (nether is 8)>   ##
+########################################################################
+0
+	- Name: Overworld
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+-1
+	- Name: Nether
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 8.0
+
+
+1
+	- Name: The End
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 8.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-100
+	- Name: Underdark
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 256.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-112
+	- Name: The Last Millenium
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 256.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+-17
+	- Name: Wyvern Lair
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 76.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-19
+	- Name: Bedrock
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 0.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-37
+	- Name: Spirit World
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 0.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-38
+	- Name: Torment
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-39
+	- Name: Mirror
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-42
+	- Name: The Outer Lands
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 1.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+42
+	- Name: Soul Network Dimension
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+30
+	- Name: DimensionVoxponds
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+29
+	- Name: DimensionRunandor
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+28
+	- Name: DimensionPrecasia
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+27
+	- Name: DimensionMysterium
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+26
+	- Name: DimensionLunalus
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+25
+	- Name: DimensionLelyetia
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-73
+	- Name: Outer Lands
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 1.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+24
+	- Name: DimensionLabricon
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+23
+	- Name: DimensionBorean
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+22
+	- Name: DimensionIromine
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+21
+	- Name: DimensionImmortallis
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+20
+	- Name: DimensionHaven
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+19
+	- Name: DimensionGreckon
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+18
+	- Name: DimensionGardencia
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+17
+	- Name: DimensionDustopia
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+16
+	- Name: DimensionDeeplands
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+15
+	- Name: DimensionCrystevia
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+14
+	- Name: DimensionCreeponia
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+13
+	- Name: DimensionCeleve
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+12
+	- Name: DimensionCandyland
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+11
+	- Name: DimensionBarathos
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+10
+	- Name: DimensionAncientCavern
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+9
+	- Name: DimensionAbyss
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+7
+	- Name: Twilight Forest
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 161.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+

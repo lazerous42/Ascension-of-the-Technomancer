@@ -1,0 +1,85 @@
+{
+    "Electrotine": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "ProjRed|Exploration:projectred.exploration.ore",
+                "metadata": 6,
+                "weight": 70
+            },
+            {
+                "name": "minecraft:redstone_ore",
+                "weight": 30
+            }
+        ],
+        "clusterSize": 8,
+        "numClusters": 4,
+        "minHeight": 26,
+        "maxHeight": 52,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Ruby": {
+        "template": "uniform",
+        "block": {
+            "name": "ProjRed|Exploration:projectred.exploration.ore",
+            "metadata": 0
+        },
+        "clusterSize": 3,
+        "numClusters": 3,
+        "minHeight": 17,
+        "maxHeight": 32,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Sapphire": {
+        "template": "uniform",
+        "block": {
+            "name": "ProjRed|Exploration:projectred.exploration.ore",
+            "metadata": 1
+        },
+        "clusterSize": 4,
+        "numClusters": 3,
+        "minHeight": 33,
+        "maxHeight": 48,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Peridot": {
+        "template": "uniform",
+        "block": {
+            "name": "ProjRed|Exploration:projectred.exploration.ore",
+            "metadata": 2
+        },
+        "clusterSize": 5,
+        "numClusters": 3,
+        "minHeight": 49,
+        "maxHeight": 64,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

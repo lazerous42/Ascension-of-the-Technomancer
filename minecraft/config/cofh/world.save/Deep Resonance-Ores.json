@@ -1,0 +1,40 @@
+{
+"ResonatingOre": {
+        "template": "uniform",
+        "block": "deepresonance:oreResonating",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 6,
+        "minHeight": 2,
+        "maxHeight": 70,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    },
+"ResonatingCrystal": {
+        "template": "decoration",
+        "generator": "decoration",
+        "block": "deepresonance:resonatingCrystalBlock",
+        "material": [],
+        "genSurface": "minecraft:cobblestone",
+        "clusterSize": 30,
+        "numClusters": 100,
+        "genSky": "false",
+        "checkStay": "false",
+        "stackHeight": "1",
+	"xVariance": "8",
+	"yVariance": "4",
+	"zVariance": "8",
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    }  
+}

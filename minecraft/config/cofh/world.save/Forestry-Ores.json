@@ -1,0 +1,21 @@
+{
+    "Aptite": {
+        "template": "uniform",
+        "block": {
+            "name": "Forestry:resources",
+            "metadata": 0
+        },
+        "clusterSize": 16,
+        "numClusters": 3,
+        "minHeight": 50,
+        "maxHeight": 200,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "Uranium": {
+        "template": "uniform",
+        "block": "IC2:blockOreUran",
+        "material": "minecraft:stone",
+        "clusterSize": 3,
+        "numClusters": 6,
+        "minHeight": 2,
+        "maxHeight": 50,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}
