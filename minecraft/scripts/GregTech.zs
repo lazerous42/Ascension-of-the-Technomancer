@@ -6,7 +6,7 @@
 print("Initializing 'GregTech.zs'...");
 
 ##  Val Definitions
-val flour = <gregtech:gt.metaitem.01:2881>;
+val flour = <ore:foodFlour>;
 val dough = <gregtech:gt.metaitem.02:32559>;
 val rodIron = <gregtech:gt.metaitem.01:23032>;
 
@@ -40,6 +40,8 @@ val rodIron = <gregtech:gt.metaitem.01:23032>;
 recipes.removeShaped(rodIron,[[<ore:ingotIron>],[<ore:ingotIron>]]);
 
 ##  Dough
+recipes.remove(dough);
+recipes.addShapeless(dough, [flour, <minecraft:water_bucket>.giveBack(<minecraft:bucket>)]);
 recipes.addShapeless(dough, [flour, <minecraft:potion>.giveBack(<minecraft:glass_bottle>)]);
 recipes.addShapeless(dough, [flour, <harvestcraft:freshwaterItem>]);
 
