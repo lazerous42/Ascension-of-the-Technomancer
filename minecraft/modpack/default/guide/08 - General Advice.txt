@@ -41,3 +41,5 @@
 22)  Firm tofu counts as any meat.  You will however need a presser to do this and it does require later game materials to produce (or some lucky dungeon loot)
 
 23)  Avoid building your base near Roguelike Dungeons, this can be a source of lag due to the large numbers of mob spawners contained in it.
+
+24)  When making GregTech iron tools, if you create the whole tool at once (head and sticks on the crafting table at the same time) you will get the standard Minecraft vanilla tool.  If ou craft just the tool head and add the stick later, you will get the GregTech version.  This is important when crafting recipes require a vanilla tool (i.e. Blood Magic: Sigil of the Fast Miner)

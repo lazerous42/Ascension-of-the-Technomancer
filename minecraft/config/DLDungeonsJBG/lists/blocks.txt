@@ -2041,8 +2041,8 @@ gregtech:gt.blockgem1
 gregtech:gt.blockgem2
 gregtech:gt.blockgem3
 gregtech:gt.blockreinforced
-aura:storageBookshelfCoordinator
-aura:storageBookshelf
+aura:fairyTorch
+aura:magicRoad
 aura:auraNode
 aura:auraNodepump
 aura:auraNodeblack
@@ -2062,6 +2062,7 @@ aura:auraNodepumpCreative
 aura:auraNodepumpLightAlt
 aura:auraNodepumpRedstoneAlt
 aura:auraNodeflux
+aura:storageBookshelf
 aura:consumerBlockfurnace
 aura:consumerBlockplant
 aura:consumerBlockore
@@ -2076,16 +2077,15 @@ aura:consumerBlockoreAdv
 aura:consumerBlockminer
 aura:consumerBlockfish
 aura:consumerBlockend
-aura:magicRoad
+aura:monitor
 aura:trampoline
+aura:storageBookshelfCoordinator
 aura:fortifiedDirt
 aura:fortifiedWood
 aura:fortifiedGlass
 aura:fortifiedCobblestone
 aura:fortifiedStone
 aura:fortifiedObsidian
-aura:monitor
-aura:fairyTorch
 MineFactoryReloaded:conveyor
 MineFactoryReloaded:machineblock
 MineFactoryReloaded:machine.0
@@ -3076,35 +3076,35 @@ ExtraUtilities:etherealglass
 farlanders:Endumium Ore
 farlanders:Block of Endumium
 FlatSigns:blockFlatSign
+ThaumicTinkerer:darkQuartzStairs
 ThaumicTinkerer:animationTablet
-ThaumicTinkerer:fireOrder
+ThaumicTinkerer:platform
+ThaumicTinkerer:enchanter
+ThaumicTinkerer:gaseousShadow
+ThaumicTinkerer:repairer
+ThaumicTinkerer:fireEarth
+ThaumicTinkerer:infusedFarmland
+ThaumicTinkerer:gaseousLight
+ThaumicTinkerer:fireFire
+ThaumicTinkerer:spawner
+ThaumicTinkerer:Levitational Locomotive
+ThaumicTinkerer:fireChaos
+ThaumicTinkerer:infusedGrainBlock
+ThaumicTinkerer:interface
+ThaumicTinkerer:dislocator
+ThaumicTinkerer:Levitational Locomotive Relay
 ThaumicTinkerer:darkQuartzSlab
 ThaumicTinkerer:darkQuartzSlabFull
-ThaumicTinkerer:dislocator
-ThaumicTinkerer:fireChaos
 ThaumicTinkerer:funnel
-ThaumicTinkerer:enchanter
-ThaumicTinkerer:platform
-ThaumicTinkerer:darkQuartz
-ThaumicTinkerer:Levitational Locomotive Relay
-ThaumicTinkerer:bedrockPortal
-ThaumicTinkerer:interface
-ThaumicTinkerer:magnet
-ThaumicTinkerer:Levitational Locomotive
-ThaumicTinkerer:infusedGrainBlock
-ThaumicTinkerer:fireAir
-ThaumicTinkerer:fireEarth
-ThaumicTinkerer:repairer
-ThaumicTinkerer:spawner
-ThaumicTinkerer:warpGate
-ThaumicTinkerer:fireFire
-ThaumicTinkerer:gaseousLight
+ThaumicTinkerer:fireOrder
 ThaumicTinkerer:fireWater
-ThaumicTinkerer:gaseousShadow
-ThaumicTinkerer:infusedFarmland
-ThaumicTinkerer:forcefield
-ThaumicTinkerer:darkQuartzStairs
 ThaumicTinkerer:nitorGas
+ThaumicTinkerer:fireAir
+ThaumicTinkerer:warpGate
+ThaumicTinkerer:darkQuartz
+ThaumicTinkerer:magnet
+ThaumicTinkerer:bedrockPortal
+ThaumicTinkerer:forcefield
 ForbiddenMagic:ArcaneCake
 ForbiddenMagic:WrathCage
 ForbiddenMagic:InkFlower

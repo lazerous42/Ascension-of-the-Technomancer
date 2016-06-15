@@ -70,8 +70,14 @@ dyeRed.remove(<Botania:dye:14>);
 dyeBlack.remove(<Botania:dye:15>);
 
 ##  Make Boania and Havestcraft mortar and pestle as Oreict equivalent
+<ore:pestleAndMortar>.addAll(<ore:toolMortarandpestle>);
+<ore:pestleAndMortar>.mirror(<ore:toolMortarandpestle>);
 <ore:toolMortarandpestle>.addAll(<ore:pestleAndMortar>);
 <ore:toolMortarandpestle>.mirror(<ore:pestleAndMortar>);
+
+##  Sugar should allow food mortar and pestals, not just the GregTech ones
+recipes.addShapeless(<minecraft:sugar>, [<ore:toolMortarandpestle>, <minecraft:reeds>]);
+recipes.addShapeless(<minecraft:sugar>, [<ore:pestleAndMortar>, <minecraft:reeds>]);
 
 ##  BoP Flesh Block OD entry Removal to prevent exploit with MRF Meat Block crafting into 9 meat ingots
 val entry = <ore:blockMeatRaw>;

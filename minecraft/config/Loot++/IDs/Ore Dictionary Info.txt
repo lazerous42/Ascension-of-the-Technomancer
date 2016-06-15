@@ -108931,7 +108931,7 @@ Magneticraft:item.pebbles - 12
 
 
 pestleAndMortar
-Botania:pestleAndMortar - 0
+harvestcraft:mortarandpestleItem - 0
 
 
 petalBlack
@@ -163410,7 +163410,7 @@ toolMortarandpPestle
 
 
 toolMortarandpestle
-Botania:pestleAndMortar - 0
+harvestcraft:mortarandpestleItem - 0
 
 
 toolPot
