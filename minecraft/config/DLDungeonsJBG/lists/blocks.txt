@@ -2041,8 +2041,9 @@ gregtech:gt.blockgem1
 gregtech:gt.blockgem2
 gregtech:gt.blockgem3
 gregtech:gt.blockreinforced
+aura:trampoline
+aura:storageBookshelfCoordinator
 aura:fairyTorch
-aura:magicRoad
 aura:auraNode
 aura:auraNodepump
 aura:auraNodeblack
@@ -2077,15 +2078,14 @@ aura:consumerBlockoreAdv
 aura:consumerBlockminer
 aura:consumerBlockfish
 aura:consumerBlockend
-aura:monitor
-aura:trampoline
-aura:storageBookshelfCoordinator
 aura:fortifiedDirt
 aura:fortifiedWood
 aura:fortifiedGlass
 aura:fortifiedCobblestone
 aura:fortifiedStone
 aura:fortifiedObsidian
+aura:magicRoad
+aura:monitor
 MineFactoryReloaded:conveyor
 MineFactoryReloaded:machineblock
 MineFactoryReloaded:machine.0
@@ -3076,35 +3076,35 @@ ExtraUtilities:etherealglass
 farlanders:Endumium Ore
 farlanders:Block of Endumium
 FlatSigns:blockFlatSign
-ThaumicTinkerer:darkQuartzStairs
 ThaumicTinkerer:animationTablet
-ThaumicTinkerer:platform
-ThaumicTinkerer:enchanter
-ThaumicTinkerer:gaseousShadow
+ThaumicTinkerer:interface
+ThaumicTinkerer:forcefield
+ThaumicTinkerer:fireWater
+ThaumicTinkerer:darkQuartz
+ThaumicTinkerer:Levitational Locomotive
+ThaumicTinkerer:Levitational Locomotive Relay
 ThaumicTinkerer:repairer
-ThaumicTinkerer:fireEarth
-ThaumicTinkerer:infusedFarmland
+ThaumicTinkerer:warpGate
+ThaumicTinkerer:fireAir
+ThaumicTinkerer:enchanter
 ThaumicTinkerer:gaseousLight
 ThaumicTinkerer:fireFire
-ThaumicTinkerer:spawner
-ThaumicTinkerer:Levitational Locomotive
-ThaumicTinkerer:fireChaos
-ThaumicTinkerer:infusedGrainBlock
-ThaumicTinkerer:interface
+ThaumicTinkerer:infusedFarmland
 ThaumicTinkerer:dislocator
-ThaumicTinkerer:Levitational Locomotive Relay
+ThaumicTinkerer:darkQuartzStairs
+ThaumicTinkerer:funnel
+ThaumicTinkerer:magnet
+ThaumicTinkerer:platform
+ThaumicTinkerer:fireOrder
+ThaumicTinkerer:spawner
+ThaumicTinkerer:nitorGas
+ThaumicTinkerer:bedrockPortal
 ThaumicTinkerer:darkQuartzSlab
 ThaumicTinkerer:darkQuartzSlabFull
-ThaumicTinkerer:funnel
-ThaumicTinkerer:fireOrder
-ThaumicTinkerer:fireWater
-ThaumicTinkerer:nitorGas
-ThaumicTinkerer:fireAir
-ThaumicTinkerer:warpGate
-ThaumicTinkerer:darkQuartz
-ThaumicTinkerer:magnet
-ThaumicTinkerer:bedrockPortal
-ThaumicTinkerer:forcefield
+ThaumicTinkerer:gaseousShadow
+ThaumicTinkerer:fireChaos
+ThaumicTinkerer:fireEarth
+ThaumicTinkerer:infusedGrainBlock
 ForbiddenMagic:ArcaneCake
 ForbiddenMagic:WrathCage
 ForbiddenMagic:InkFlower
