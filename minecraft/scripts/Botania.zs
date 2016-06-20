@@ -11,9 +11,9 @@ import mods.botania.RuneAltar;
 
 print("Initializing 'Botania.zs'...");
 ##  Val Definitions
-val nuggetMithril = <ThermalFoundation:material:102>;
-val ingotMithril = <ThermalFoundation:material:70>;
-val blockMithril = <ThermalFoundation:Storage:6>;
+val nuggetMithril = <ore:nuggetMithril>;
+val ingotMithril = <ore:ingotMithril>;
+val blockMithril = <ore:blockMithril>;
 val dustRedstone = <ore:dustRedstone>;
 val nuggetGold = <ore:nuggetGold>;
 val blockIron = <ore:blockIron>;
