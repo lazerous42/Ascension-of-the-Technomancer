@@ -14,13 +14,18 @@ print("Initializing 'Botania.zs'...");
 val nuggetMithril = <ore:nuggetMithril>;
 val ingotMithril = <ore:ingotMithril>;
 val blockMithril = <ore:blockMithril>;
-val dustRedstone = <ore:dustRedstone>;
 val nuggetGold = <ore:nuggetGold>;
 val blockIron = <ore:blockIron>;
+val toughFabric = <ImmersiveEngineering:material:4>;
+val dustRedstone = <minecraft:redstone>;
+val dustGlowstone = <minecraft:glowstone_dust>;
+val dustElectrotine = <ProjRed|Core:projectred.core.part:56>;
 
 val manaCookie = <Botania:manaCookie>;
 val flowerMystical = <ore:flowerMystical>;
 val ingotManaSteel = <ore:ingotManasteel>;
+val manaweaveCloth = <Botania:manaResource:22>;
+val manaPowder = <Botania:manaResource:23>;
 
 ##  Dark Quartz OreDict
 #-  Use Thaumic Tinkerer recipe for Flugel Tiara 
@@ -38,6 +43,18 @@ ManaInfusion.addInfusion(<Botania:storage>, blockMithril, 6750);
 ##  Lexica Botania
 recipes.remove(<Botania:lexicon>);
 recipes.addShaped(<Botania:lexicon>, [[nuggetGold, flowerMystical, nuggetGold], [flowerMystical, <minecraft:book>, flowerMystical], [nuggetGold, flowerMystical, nuggetGold]]);
+
+##  Manaweave Cloth
+recipes.remove(manaweaveCloth);
+ManaInfusion.addInfusion(manaweaveCloth, toughFabric, 16000);
+
+##  Electrotine -> Redstone -> Glowstone loop
+ManaInfusion.removeRecipe(dustRedstone);
+ManaInfusion.addAlchemy(dustRedstone, dustElectrotine, 500);
+ManaInfusion.addAlchemy(dustElectrotine, dustGlowstone, 500);
+
+##  Mana Powder
+ManaInfusion.addInfusion(manaPowder, dustElectrotine, 1000);
 
 ##  Petal Apothocary
 recipes.remove(<Botania:altar>);

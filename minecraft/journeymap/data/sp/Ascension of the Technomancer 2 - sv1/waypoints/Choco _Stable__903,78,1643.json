@@ -1,0 +1,17 @@
+{
+  "id": "Choco \"Stable\"_903,78,1643",
+  "name": "Choco \"Stable\"",
+  "icon": "waypoint-normal.png",
+  "x": 903,
+  "y": 78,
+  "z": 1643,
+  "r": 211,
+  "g": 205,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

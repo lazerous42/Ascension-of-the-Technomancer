@@ -1,0 +1,17 @@
+{
+  "id": "Forest Maze Village_1017,77,2385",
+  "name": "Forest Maze Village",
+  "icon": "waypoint-normal.png",
+  "x": 1017,
+  "y": 77,
+  "z": 2385,
+  "r": 53,
+  "g": 129,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

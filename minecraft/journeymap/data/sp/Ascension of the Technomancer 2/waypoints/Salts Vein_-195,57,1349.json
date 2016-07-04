@@ -1,0 +1,17 @@
+{
+  "id": "Salts Vein_-195,57,1349",
+  "name": "Salts Vein",
+  "icon": "waypoint-normal.png",
+  "x": -195,
+  "y": 57,
+  "z": 1349,
+  "r": 31,
+  "g": 108,
+  "b": 100,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

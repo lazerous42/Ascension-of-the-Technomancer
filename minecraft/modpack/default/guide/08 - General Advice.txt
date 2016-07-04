@@ -43,3 +43,5 @@
 23)  Avoid building your base near Roguelike Dungeons, this can be a source of lag due to the large numbers of mob spawners contained in it.
 
 24)  When making GregTech iron tools, if you create the whole tool at once (head and sticks on the crafting table at the same time) you will get the standard Minecraft vanilla tool.  If ou craft just the tool head and add the stick later, you will get the GregTech version.  This is important when crafting recipes require a vanilla tool (i.e. Blood Magic: Sigil of the Fast Miner)
+
+25)  Wrought Iron tools are 50% more durable than normal iron tools.  Wrought iron can be created by smelting iron nuggets, or use the bloomery furnace from Garden Stuff.  The bloomery uses charcoal as fuel and takes in iron ingots and sand to produce wrought iron.  This method is much faster and more fuel efficient as the cost of a little sand.

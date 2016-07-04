@@ -1,0 +1,17 @@
+{
+  "id": "Quartz Vein_-342,53,1293",
+  "name": "Quartz Vein",
+  "icon": "waypoint-normal.png",
+  "x": -342,
+  "y": 53,
+  "z": 1293,
+  "r": 209,
+  "g": 11,
+  "b": 89,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

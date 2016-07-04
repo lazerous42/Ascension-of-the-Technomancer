@@ -1,0 +1,17 @@
+{
+  "id": "Manganese Vein_-404,18,1351",
+  "name": "Manganese Vein",
+  "icon": "waypoint-normal.png",
+  "x": -404,
+  "y": 18,
+  "z": 1351,
+  "r": 58,
+  "g": 161,
+  "b": 162,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

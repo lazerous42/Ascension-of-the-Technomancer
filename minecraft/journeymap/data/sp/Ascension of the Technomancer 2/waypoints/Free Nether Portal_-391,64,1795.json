@@ -1,0 +1,17 @@
+{
+  "id": "Free Nether Portal_-391,64,1795",
+  "name": "Free Nether Portal",
+  "icon": "waypoint-normal.png",
+  "x": -391,
+  "y": 64,
+  "z": 1795,
+  "r": 3,
+  "g": 204,
+  "b": 56,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

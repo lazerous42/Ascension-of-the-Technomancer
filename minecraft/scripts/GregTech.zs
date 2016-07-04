@@ -37,7 +37,7 @@ val rodIron = <gregtech:gt.metaitem.01:23032>;
 <ore:dyeBlack>.add(<gregtech:gt.metaitem.01:2536>);
 
 ##  Iron Rod ~ Remove toolless crafting
-recipes.removeShaped(rodIron,[[<ore:ingotIron>],[<ore:ingotIron>]]);
+recipes.removeShaped(rodIron * 4, [[<ore:ingotIron>, null, null],[<ore:ingotIron>, null, null], [null, null, null]]);
 
 ##  Dough
 recipes.remove(dough);

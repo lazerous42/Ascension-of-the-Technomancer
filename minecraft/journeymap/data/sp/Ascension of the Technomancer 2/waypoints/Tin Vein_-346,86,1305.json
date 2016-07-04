@@ -1,0 +1,17 @@
+{
+  "id": "Tin Vein_-346,86,1305",
+  "name": "Tin Vein",
+  "icon": "waypoint-normal.png",
+  "x": -346,
+  "y": 86,
+  "z": 1305,
+  "r": 95,
+  "g": 9,
+  "b": 170,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

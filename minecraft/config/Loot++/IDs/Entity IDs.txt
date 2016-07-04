@@ -113,6 +113,7 @@ EnderIO.weather_rocket
 Enderman
 EntityAuraCore
 EntityHorse
+EntityItemElement
 EntityPermItem
 EntityPrimedCharge
 EyeOfEnderSignal
@@ -791,6 +792,7 @@ freshwatermobs.zephyr
 gregtech.GT_Entity_Arrow
 gregtech.GT_Entity_Arrow_Potion
 headcrumbs.Human
+hoy.Hoy
 infernomobs.afrit
 infernomobs.cephignis
 infernomobs.cinder
@@ -1580,6 +1582,7 @@ plainsmobs.makaalpha
 plainsmobs.roc
 plainsmobs.ventoraptor
 plainsmobs.zoataur
+punt.Punt
 rangeEntity
 saltwatermobs.abtu
 saltwatermobs.ika
@@ -1594,6 +1597,10 @@ shadowmobs.grue
 shadowmobs.phantom
 shadowmobs.shade
 shadowmobs.spectralbolt
+smallboats.EntityBoatChest
+smallboats.EntityBoatGun
+smallboats.EntityBoatPart
+smallboats.EntitySmallBoat
 soundEntity
 swampmobs.aspid
 swampmobs.dweller
@@ -1605,6 +1612,7 @@ swampmobs.poisonray
 swampmobs.poisonrayend
 swampmobs.remobra
 swampmobs.venomshot
+whitehall.Whitehall
 witchery.attackbat
 witchery.babayaga
 witchery.banshee
@@ -1693,9 +1701,9 @@ witchery.wolfman
 62 - LavaSlime
 65 - Bat
 66 - Witch
-70 - Blizz
-71 - Blitz
-72 - Basalz
+71 - Blizz
+72 - Blitz
+73 - Basalz
 90 - Pig
 91 - Sheep
 92 - Cow

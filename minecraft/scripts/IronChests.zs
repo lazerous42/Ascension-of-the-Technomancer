@@ -9,10 +9,10 @@ import mods.buildcraft.AssemblyTable;
 print("Initializing 'IronChests.zs'...");
 
 ##  Val Statements
-val copperPlate = <gregtech:gt.metaitem.01:7035>;
-val ironPlate = <gregtech:gt.metaitem.01:7032>;
-val silverPlate = <gregtech:gt.metaitem.01:7054>;
-val goldPlate = <gregtech:gt.metaitem.01:7086>;
+val copperPlate = <gregtech:gt.metaitem.01:17035>;
+val ironPlate = <gregtech:gt.metaitem.01:17032>;
+val silverPlate = <gregtech:gt.metaitem.01:17054>;
+val goldPlate = <gregtech:gt.metaitem.01:17086>;
 
 ##  Upgrades
 recipes.remove(<IronChest:diamondObsidianUpgrade>);

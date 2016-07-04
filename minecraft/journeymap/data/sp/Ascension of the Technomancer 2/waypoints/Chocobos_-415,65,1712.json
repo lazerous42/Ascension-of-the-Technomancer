@@ -1,0 +1,17 @@
+{
+  "id": "Chocobos_-415,65,1712",
+  "name": "Chocobos",
+  "icon": "waypoint-normal.png",
+  "x": -415,
+  "y": 65,
+  "z": 1712,
+  "r": 255,
+  "g": 201,
+  "b": 42,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

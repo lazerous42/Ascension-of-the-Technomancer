@@ -1,0 +1,17 @@
+{
+  "id": "Magnitite_1610,64,1973",
+  "name": "Magnitite",
+  "icon": "waypoint-normal.png",
+  "x": 1610,
+  "y": 64,
+  "z": 1973,
+  "r": 97,
+  "g": 70,
+  "b": 147,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

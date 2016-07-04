@@ -1,0 +1,17 @@
+{
+  "id": "Lignite Vein_-629,71,1521",
+  "name": "Lignite Vein",
+  "icon": "waypoint-normal.png",
+  "x": -629,
+  "y": 71,
+  "z": 1521,
+  "r": 91,
+  "g": 223,
+  "b": 71,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

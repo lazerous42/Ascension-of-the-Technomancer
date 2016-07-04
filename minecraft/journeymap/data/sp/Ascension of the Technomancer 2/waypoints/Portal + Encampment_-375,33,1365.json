@@ -1,0 +1,17 @@
+{
+  "id": "Portal + Encampment_-375,33,1365",
+  "name": "Portal + Encampment",
+  "icon": "waypoint-normal.png",
+  "x": -375,
+  "y": 33,
+  "z": 1365,
+  "r": 25,
+  "g": 22,
+  "b": 129,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    7
+  ]
+}

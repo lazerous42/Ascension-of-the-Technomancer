@@ -1,0 +1,17 @@
+{
+  "id": "Jungle Temple_2212,64,2497",
+  "name": "Jungle Temple",
+  "icon": "waypoint-normal.png",
+  "x": 2212,
+  "y": 64,
+  "z": 2497,
+  "r": 114,
+  "g": 20,
+  "b": 146,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

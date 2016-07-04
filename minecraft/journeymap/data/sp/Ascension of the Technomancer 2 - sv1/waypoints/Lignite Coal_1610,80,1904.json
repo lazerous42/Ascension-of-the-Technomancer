@@ -1,0 +1,17 @@
+{
+  "id": "Lignite Coal_1610,80,1904",
+  "name": "Lignite Coal",
+  "icon": "waypoint-normal.png",
+  "x": 1610,
+  "y": 80,
+  "z": 1904,
+  "r": 95,
+  "g": 48,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

@@ -2041,16 +2041,16 @@ gregtech:gt.blockgem1
 gregtech:gt.blockgem2
 gregtech:gt.blockgem3
 gregtech:gt.blockreinforced
-aura:storageBookshelf
+aura:magicRoad
+aura:monitor
+aura:fairyTorch
+aura:storageBookshelfCoordinator
 aura:fortifiedDirt
 aura:fortifiedWood
 aura:fortifiedGlass
 aura:fortifiedCobblestone
 aura:fortifiedStone
 aura:fortifiedObsidian
-aura:magicRoad
-aura:fairyTorch
-aura:monitor
 aura:consumerBlockfurnace
 aura:consumerBlockplant
 aura:consumerBlockore
@@ -2065,8 +2065,6 @@ aura:consumerBlockoreAdv
 aura:consumerBlockminer
 aura:consumerBlockfish
 aura:consumerBlockend
-aura:storageBookshelfCoordinator
-aura:trampoline
 aura:auraNode
 aura:auraNodepump
 aura:auraNodeblack
@@ -2086,6 +2084,8 @@ aura:auraNodepumpCreative
 aura:auraNodepumpLightAlt
 aura:auraNodepumpRedstoneAlt
 aura:auraNodeflux
+aura:storageBookshelf
+aura:trampoline
 MineFactoryReloaded:conveyor
 MineFactoryReloaded:machineblock
 MineFactoryReloaded:machine.0
@@ -3076,35 +3076,35 @@ ExtraUtilities:etherealglass
 farlanders:Endumium Ore
 farlanders:Block of Endumium
 FlatSigns:blockFlatSign
-ThaumicTinkerer:fireAir
-ThaumicTinkerer:fireEarth
+ThaumicTinkerer:darkQuartz
+ThaumicTinkerer:interface
+ThaumicTinkerer:forcefield
+ThaumicTinkerer:fireWater
 ThaumicTinkerer:bedrockPortal
-ThaumicTinkerer:dislocator
-ThaumicTinkerer:spawner
 ThaumicTinkerer:gaseousShadow
-ThaumicTinkerer:enchanter
-ThaumicTinkerer:Levitational Locomotive Relay
-ThaumicTinkerer:darkQuartzStairs
+ThaumicTinkerer:infusedGrainBlock
 ThaumicTinkerer:magnet
 ThaumicTinkerer:warpGate
+ThaumicTinkerer:infusedFarmland
+ThaumicTinkerer:fireChaos
 ThaumicTinkerer:repairer
-ThaumicTinkerer:fireFire
 ThaumicTinkerer:gaseousLight
+ThaumicTinkerer:fireEarth
+ThaumicTinkerer:funnel
+ThaumicTinkerer:animationTablet
+ThaumicTinkerer:fireAir
+ThaumicTinkerer:Levitational Locomotive Relay
+ThaumicTinkerer:fireFire
 ThaumicTinkerer:darkQuartzSlab
 ThaumicTinkerer:darkQuartzSlabFull
-ThaumicTinkerer:infusedFarmland
-ThaumicTinkerer:nitorGas
-ThaumicTinkerer:forcefield
-ThaumicTinkerer:funnel
-ThaumicTinkerer:fireWater
-ThaumicTinkerer:infusedGrainBlock
-ThaumicTinkerer:fireChaos
+ThaumicTinkerer:enchanter
 ThaumicTinkerer:platform
 ThaumicTinkerer:Levitational Locomotive
-ThaumicTinkerer:darkQuartz
+ThaumicTinkerer:spawner
 ThaumicTinkerer:fireOrder
-ThaumicTinkerer:animationTablet
-ThaumicTinkerer:interface
+ThaumicTinkerer:nitorGas
+ThaumicTinkerer:darkQuartzStairs
+ThaumicTinkerer:dislocator
 ForbiddenMagic:ArcaneCake
 ForbiddenMagic:WrathCage
 ForbiddenMagic:InkFlower
@@ -3163,6 +3163,8 @@ gadomancy:BlockNodeManipulator
 gadomancy:BlockStoneMachine
 gadomancy:BlockAdditionalEldritchPortal
 gadomancy:BlockAuraPylon
+gadomancy:BlockKnowledgeBook
+gadomancy:BlockEssentiaCompressor
 GardenContainers:wood_window_box
 GardenContainers:stone_window_box
 GardenContainers:decorative_pot
@@ -3539,11 +3541,11 @@ OpenComputers:waypoint
 OpenComputers:endstone
 OpenComputers:netSplitter
 OpenComputers:transposer
-OpenPeripheral:ticketmachine
 OpenPeripheral:glassesbridge
 OpenPeripheral:pim
 OpenPeripheral:sensor
 OpenPeripheral:selector
+OpenPeripheral:ticketmachine
 pandorasbox:pandorasBox
 PneumaticCraft:plasticBlock
 PneumaticCraft:etchingAcid
@@ -3723,6 +3725,7 @@ Sanguimancy:BlockEtherealBoundCorrupted
 Sanguimancy:BlockEtherealBoundToggled
 Sanguimancy:BlockEtherealPersonal
 Sanguimancy:BlockAltarManipulator
+smallboats:BlockDisplaceWater
 SolarExpansion:solarPanelLeadstone
 SolarExpansion:solarPanelHardened
 SolarExpansion:solarPanelRedstone
