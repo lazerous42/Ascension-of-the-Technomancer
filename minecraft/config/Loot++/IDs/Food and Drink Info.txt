@@ -3207,6 +3207,13 @@ gregtech:gt.metaitem.02
 	- Food Info Unknown!
 
 
+hardcorewither:StarryApple
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 1.2
+
+
 harvestcraft:almondItem
 	- Megadata: 0
 	- Food or Drink? Food

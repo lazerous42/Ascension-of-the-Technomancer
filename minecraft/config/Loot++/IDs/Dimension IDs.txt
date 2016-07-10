@@ -162,20 +162,20 @@
 	- Terrain Scale: 1.0
 
 
-25
-	- Name: DimensionLelyetia
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 128.0
-	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
 -73
 	- Name: Outer Lands
 	- Height: 128
 	- Has Sky? false
 	- Cloud Height: 1.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+25
+	- Name: DimensionLelyetia
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
 	- Can Respawn Here? false
 	- Terrain Scale: 1.0
 

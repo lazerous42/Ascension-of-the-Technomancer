@@ -33,7 +33,7 @@
   "login": {
     "motd": [
       "Welcome to Ascension of the Technomancer!",
-      "Version 2.3.1"
+      "Version 2.4.0"
     ],
     "starting_items": [
       "minecraft:stone_sword 1 0",

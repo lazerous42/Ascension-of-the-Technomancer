@@ -195,6 +195,8 @@ Item
 ItemFrame
 LavaSlime
 LeashKnot
+MCA.EntityChoreFishHook
+MCA.EntityGrimReaper
 MCA.EntityHuman
 MineFactoryReloaded.DebugTracker
 MineFactoryReloaded.FishingRod
@@ -791,6 +793,9 @@ freshwatermobs.strider
 freshwatermobs.zephyr
 gregtech.GT_Entity_Arrow
 gregtech.GT_Entity_Arrow_Potion
+hardcorewither.BlazeMinion
+hardcorewither.GhastMinion
+hardcorewither.SkeletonMinion
 headcrumbs.Human
 hoy.Hoy
 infernomobs.afrit

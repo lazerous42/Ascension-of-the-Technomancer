@@ -81,6 +81,7 @@ HardcoreEnderExpansion.ParalyzedEnderman
 HardcoreEnderExpansion.ScorchedLens
 HardcoreEnderExpansion.VampireBat
 LavaSlime
+MCA.EntityGrimReaper
 MCA.EntityHuman
 MineFactoryReloaded.mfrEntityPinkSlime
 MushroomCow
@@ -424,6 +425,9 @@ freshwatermobs.jengu
 freshwatermobs.silex
 freshwatermobs.strider
 freshwatermobs.zephyr
+hardcorewither.BlazeMinion
+hardcorewither.GhastMinion
+hardcorewither.SkeletonMinion
 headcrumbs.Human
 infernomobs.afrit
 infernomobs.cephignis

@@ -14,22 +14,16 @@ val rodIron = <gregtech:gt.metaitem.01:23032>;
 #   Nikolite <-> Electrotine
 <ore:dustElectrotine>.add(<gregtech:gt.metaitem.01:2812>);
 <ore:dustNikolite>.addAll(<ore:dustElectrotine>);
-<ore:dustNikolite>.mirror(<ore:dustElectrotine>);
-<ore:dustElectrotine>.addAll(<ore:dustNikolite>);
+//<ore:dustNikolite>.mirror(<ore:dustElectrotine>);
+//<ore:dustElectrotine>.addAll(<ore:dustNikolite>);
 <ore:dustElectrotine>.mirror(<ore:dustNikolite>);
 
 #   Constantan <-> Cupronickel
 <ore:dustConstantan>.addAll(<ore:dustCupronickel>);
-<ore:dustConstantan>.mirror(<ore:dustCupronickel>);
-<ore:dustCupronickel>.addAll(<ore:dustConstantan>);
 <ore:dustCupronickel>.mirror(<ore:dustConstantan>);
 <ore:ingotConstantan>.addAll(<ore:ingotCupronickel>);
-<ore:ingotConstantan>.mirror(<ore:ingotCupronickel>);
-<ore:ingotCupronickel>.addAll(<ore:ingotConstantan>);
 <ore:ingotCupronickel>.mirror(<ore:ingotConstantan>);
 <ore:blockConstantan>.addAll(<ore:blockCupronickel>);
-<ore:blockConstantan>.mirror(<ore:blockCupronickel>);
-<ore:blockCupronickel>.addAll(<ore:blockConstantan>);
 <ore:blockCupronickel>.mirror(<ore:blockConstantan>);
 
 #   Coal/Charcoal Dust as black dye

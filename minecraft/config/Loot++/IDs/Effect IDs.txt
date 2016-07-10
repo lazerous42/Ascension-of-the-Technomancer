@@ -211,8 +211,8 @@
 
 
 30
-	- Name: Clarity
-	- Color: 0
+	- Name: potion.antiWither
+	- Color: 1310740
 	- Is Instant? false
 	- Is Bad? false
 

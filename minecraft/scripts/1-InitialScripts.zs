@@ -70,10 +70,8 @@ dyeRed.remove(<Botania:dye:14>);
 dyeBlack.remove(<Botania:dye:15>);
 
 ##  Make Boania and Havestcraft mortar and pestle as Oreict equivalent
-<ore:pestleAndMortar>.addAll(<ore:toolMortarandpestle>);
-<ore:pestleAndMortar>.mirror(<ore:toolMortarandpestle>);
-<ore:toolMortarandpestle>.addAll(<ore:pestleAndMortar>);
-<ore:toolMortarandpestle>.mirror(<ore:pestleAndMortar>);
+<ore:toolMortarandpestle>.add(<Botania:pestleAndMortar>);
+<ore:pestleAndMortar>.add(<harvestcraft:mortarandpestleItem>);
 
 ##  Sugar should allow food mortar and pestals, not just the GregTech ones
 recipes.addShapeless(<minecraft:sugar>, [<ore:toolMortarandpestle>, <minecraft:reeds>]);
