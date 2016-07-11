@@ -10,14 +10,6 @@ val flour = <ore:foodFlour>;
 val dough = <gregtech:gt.metaitem.02:32559>;
 val rodIron = <gregtech:gt.metaitem.01:23032>;
 
-##  OreDict
-#   Nikolite <-> Electrotine
-<ore:dustElectrotine>.add(<gregtech:gt.metaitem.01:2812>);
-<ore:dustNikolite>.addAll(<ore:dustElectrotine>);
-//<ore:dustNikolite>.mirror(<ore:dustElectrotine>);
-//<ore:dustElectrotine>.addAll(<ore:dustNikolite>);
-<ore:dustElectrotine>.mirror(<ore:dustNikolite>);
-
 #   Constantan <-> Cupronickel
 <ore:dustConstantan>.addAll(<ore:dustCupronickel>);
 <ore:dustCupronickel>.mirror(<ore:dustConstantan>);
