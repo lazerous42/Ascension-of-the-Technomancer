@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="WarpDrive" xmlns="WarpDrive" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:complexType name="forElement">
+		<xs:choice maxOccurs="unbounded" minOccurs="0">
+			<xs:element name="for" type="forElement" maxOccurs="unbounded" minOccurs="0" />
+			<xs:element name="fillerSet" type="fillerSetElement" maxOccurs="unbounded" minOccurs="0" />
+			<xs:element name="import" type="importElement" maxOccurs="unbounded" minOccurs="0" />
+			<xs:element name="filler" type="fillerElement" maxOccurs="unbounded" minOccurs="0" />
+			<xs:element name="structure" type="structureElement" maxOccurs="unbounded" minOccurs="0" />
+			<xs:element name="metashell" type="metashellElement" maxOccurs="unbounded" minOccurs="0" />
+			<xs:element name="shell" type="shellElement" maxOccurs="unbounded" minOccurs="0" />
+		</xs:choice>
+		<xs:attribute type="xs:string" name="variable" use="required" />
+		<xs:attribute type="xs:string" name="from" use="optional" />
+		<xs:attribute type="xs:string" name="to" use="optional" />
+		<xs:attribute type="xs:string" name="in" use="optional" />
+		<xs:attribute type="xs:string" name="mods" use="optional" />
+	</xs:complexType>
+
+	<xs:complexType name="fillerSetElement">
+		<xs:choice maxOccurs="unbounded" minOccurs="0">
+			<xs:element name="for" type="forElement" maxOccurs="unbounded" minOccurs="0" />
+			<xs:element name="import" type="importElement" maxOccurs="unbounded" minOccurs="0" />
+			<xs:element name="filler" type="fillerElement" maxOccurs="unbounded" minOccurs="0" />
+		</xs:choice>
+		<xs:attribute type="xs:string" name="group" use="required" />
+		<xs:attribute type="xs:string" name="name" use="required" />
+		<xs:attribute type="xs:string" name="weight" use="optional" />
+		<xs:attribute type="xs:string" name="ratio" use="optional" />
+		<xs:attribute type="xs:string" name="mods" use="optional" />
+	</xs:complexType>
+
+	<xs:complexType name="importElement">
+		<xs:attribute type="xs:string" name="group" use="required" />
+		<xs:attribute type="xs:string" name="name" use="optional" />
+		<xs:attribute type="xs:string" name="mods" use="optional" />
+	</xs:complexType>
+
+	<xs:complexType name="fillerElement">
+		<xs:attribute type="xs:string" name="block" use="required" />
+		<xs:attribute type="xs:string" name="metadata" use="optional" />
+		<xs:attribute type="xs:string" name="weight" use="optional" />
+		<xs:attribute type="xs:string" name="ratio" use="optional" />
+		<xs:attribute type="xs:string" name="mods" use="optional" />
+	</xs:complexType>
+
+	<xs:complexType name="structureElement">
+		<xs:choice maxOccurs="unbounded" minOccurs="0">
+			<xs:element name="for" type="forElement" maxOccurs="unbounded" minOccurs="0" />
+			<xs:element name="import" type="importElement" maxOccurs="unbounded" minOccurs="0" />
+            <xs:element name="schematic" type="schematicElement" maxOccurs="1" minOccurs="0" />
+			<xs:element name="metashell" type="metashellElement" maxOccurs="1" minOccurs="0" />
+			<xs:element name="shell" type="shellElement" maxOccurs="unbounded" minOccurs="0" />
+		</xs:choice>
+		<xs:attribute type="xs:string" name="group" use="required" />
+		<xs:attribute type="xs:string" name="name" use="required" />
+		<xs:attribute type="xs:string" name="weight" use="optional" />
+		<xs:attribute type="xs:string" name="ratio" use="optional" />
+		<xs:attribute type="xs:string" name="mods" use="optional" />
+	</xs:complexType>
+
+    <xs:complexType name="schematicElement">
+        <xs:attribute type="xs:string" name="group" use="required" />
+        <xs:attribute type="xs:string" name="name" use="optional" />
+        <xs:attribute type="xs:string" name="mods" use="optional" />
+    </xs:complexType>
+
+	<xs:complexType name="metashellElement">
+		<xs:attribute type="xs:string" name="block" use="optional" />
+		<xs:attribute type="xs:string" name="metadata" use="optional" />
+		<xs:attribute type="xs:string" name="minCount" use="required" />
+		<xs:attribute type="xs:string" name="maxCount" use="required" />
+		<xs:attribute type="xs:string" name="minRadius" use="required" />
+		<xs:attribute type="xs:string" name="relativeRadius" use="required" />
+		<xs:attribute type="xs:string" name="mods" use="optional" />
+	</xs:complexType>
+
+	<xs:complexType name="shellElement">
+		<xs:choice maxOccurs="unbounded" minOccurs="0">
+			<xs:element name="for" type="forElement" maxOccurs="unbounded" minOccurs="0" />
+			<xs:element name="import" type="importElement" maxOccurs="unbounded" minOccurs="0" />
+			<xs:element name="filler" type="fillerElement" maxOccurs="unbounded" minOccurs="0" />
+		</xs:choice>
+		<xs:attribute type="xs:string" name="name" use="required" />
+		<xs:attribute type="xs:string" name="minThickness" use="required" />
+		<xs:attribute type="xs:string" name="maxThickness" use="required" />
+		<xs:attribute type="xs:string" name="mods" use="optional" />
+	</xs:complexType>
+
+	<xs:element name="worldGeneration">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded" minOccurs="0">
+				<xs:element name="for" type="forElement" maxOccurs="unbounded" minOccurs="0" />
+				<xs:element name="fillerSet" type="fillerSetElement" maxOccurs="unbounded" minOccurs="0" />
+				<xs:element name="structure" type="structureElement" maxOccurs="unbounded" minOccurs="0" />
+			</xs:choice>
+			<xs:attribute type="xs:string" name="version" use="required" />
+			<xs:attribute type="xs:string" name="mods" use="optional" />
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -14,7 +14,7 @@ val dustRedstone = <ore:dustRedstone>;
 val ingotBrass = <ore:ingotBrass>;
 val ingotAluminum = <ore:ingotAluminum>;
 val quartzCertus = <appliedenergistics2:item.ItemMultiMaterial:0>;
-val tubeCertus = <Quadrum:tubeCertus>;
+val tubeCertus = <customthings:item>;
 
 ##  Add Aluminum Can Recipe
 recipes.addShaped(<Forestry:canEmpty> * 10,[[null,ingotAluminum,null],[ingotAluminum,null,ingotAluminum]]);

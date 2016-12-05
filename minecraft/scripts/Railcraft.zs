@@ -34,6 +34,7 @@ val tubeTin = <Forestry:thermionicTubes:1>;
 val circuitBoardRefined = <Forestry:chipsets:2>;
 val circuitBoardIntricate = <Forestry:chipsets:3>;
 
+val bottleCreosote = <Railcraft:fluid.creosote.bottle>;
 val crushedObsidian = <Railcraft:cube:4>;
 val hobbyistSteamEngine = <Railcraft:machine.beta:7>;
 val commercialSteamEngine = <Railcraft:machine.beta:8>;
@@ -45,6 +46,7 @@ val firestoneRefined = <Railcraft:firestone.refined:5000>;
 
 ##  OreDict Entries
 <ore:gearSteel>.add(<Railcraft:part.gear:2>);
+<ore:bottleCreosote>.add(bottleCreosote);
 
 ##  Remove Non-GregTech Gears
 recipes.remove(<Railcraft:part.gear>);

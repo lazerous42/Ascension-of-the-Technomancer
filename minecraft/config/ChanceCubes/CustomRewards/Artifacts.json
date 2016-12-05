@@ -1,0 +1,15 @@
+{
+ 
+	"artifact":
+	{
+		"chance": 0,
+		"Message":
+		[
+			{"message":"Ooo, What could it be?!"}
+		],
+		"Item":
+		[
+			{"item":{"id":"Artifacts:artifact","Damage":0,"Count":1}, "delay":20}
+		]
+}
+}

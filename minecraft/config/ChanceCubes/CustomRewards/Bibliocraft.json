@@ -1,0 +1,43 @@
+{
+
+	"BiblioTypewriter":
+	{
+		"chance": 0,
+		"Message":
+		[
+			{"message":"All you need now, is a million monkeys!"}
+		],
+		"Item":
+		[
+			{"item":{"id":"BiblioCraft:BiblioTypewriter","Damage":12,"Count":1}, "delay":20}
+		]
+	},
+
+	"BiblioWorkbench":
+	{
+		"chance": 15,
+		"Message":
+		[
+			{"message":"Time to Craft!"}
+		],
+		"Item":
+		[
+			{"item":{"id":"BiblioCraft:BiblioWorkbench","Count":1}, "delay":20},
+			{"item":{"id":"minecraft:book","Count":8}, "delay":40}
+		]
+	},
+
+	"BiblioBell":
+	{
+		"chance": 0,
+		"Message":
+		[
+			{"message":"DING! DING! DING! DING! DING! DING! DING!"}
+		],
+		"Item":
+		[
+			{"item":{"id":"BiblioCraft:BiblioBell","Count":1}, "delay":20}
+		]
+	}
+
+}

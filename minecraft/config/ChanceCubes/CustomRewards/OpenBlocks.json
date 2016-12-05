@@ -1,0 +1,388 @@
+{
+	"egg": {
+		"chance": 1,
+		"Item": [{
+			"item": {
+				"id": "OpenBlocks:goldenegg",
+				"Damage": 0,
+				"Count": 1
+			},
+			"delay": 20
+		}]
+	},
+	"TrophySlime": {
+		"chance": 5,
+		"Message": [{
+			"message": "You won the thing! Here's a trophy!"
+		}],
+		"Item": [{
+			"item": {
+				"id": "OpenBlocks:trophy",
+				"Count": 1,
+				"tag": {
+					"entity": "Slime"
+				}
+			}
+		}]
+	},
+	"TrophyCaveSpider": {
+		"chance": -15,
+		"Message": [{
+			"message": "You won the thing! Here's a trophy!"
+		}],
+		"Item": [{
+			"item": {
+				"id": "OpenBlocks:trophy",
+				"Count": 1,
+				"tag": {
+					"entity": "CaveSpider"
+				}
+			}
+		}]
+	},
+	"TrophyGolem": {
+		"chance": 15,
+		"Message": [{
+			"message": "You won the thing! Here's a trophy!"
+		}],
+		"Item": [{
+			"item": {
+				"id": "OpenBlocks:trophy",
+				"Count": 1,
+				"tag": {
+					"entity": "VillagerGolem"
+				}
+			}
+		}]
+	},
+	"TrophySnowman": {
+		"chance": 25,
+		"Message": [{
+			"message": "You won the thing! Here's a trophy!"
+		}],
+		"Item": [{
+			"item": {
+				"id": "OpenBlocks:trophy",
+				"Count": 1,
+				"tag": {
+					"entity": "SnowMan"
+				}
+			}
+		}]
+	},
+	"TrophyPig": {
+		"chance": 30,
+		"Message": [{
+			"message": "You won the thing! Here's a trophy!"
+		}],
+		"Item": [{
+			"item": {
+				"id": "OpenBlocks:trophy",
+				"Count": 1,
+				"tag": {
+					"entity": "Pig"
+				}
+			}
+		}]
+	},
+	"TrophyMooshroom": {
+		"chance": 35,
+		"Message": [{
+			"message": "You won the thing! Here's a trophy!"
+		}],
+		"Item": [{
+			"item": {
+				"id": "OpenBlocks:trophy",
+				"Count": 1,
+				"tag": {
+					"entity": "MushroomCow"
+				}
+			}
+		}]
+	},
+	"TrophySquid": {
+		"chance": -5,
+		"Message": [{
+			"message": "You won the thing! Here's a trophy!"
+		}],
+		"Item": [{
+			"item": {
+				"id": "OpenBlocks:trophy",
+				"Count": 1,
+				"tag": {
+					"entity": "Squid"
+				}
+			}
+		}]
+	},
+	"TrophyLavaSlime": {
+		"chance": -10,
+		"Message": [{
+			"message": "You won the thing! Here's a trophy!"
+		}],
+		"Item": [{
+			"item": {
+				"id": "OpenBlocks:trophy",
+				"Count": 1,
+				"tag": {
+					"entity": "LavaSlime"
+				}
+			}
+		}]
+	},
+	"TrophyEnderman": {
+		"chance": 40,
+		"Message": [{
+			"message": "You won the thing! Here's a trophy!"
+		}],
+		"Item": [{
+			"item": {
+				"id": "OpenBlocks:trophy",
+				"Count": 1,
+				"tag": {
+					"entity": "Enderman"
+				}
+			}
+		}]
+	},
+	"TrophyVillager": {
+		"chance": 50,
+		"Message": [{
+			"message": "You won the thing! Here's a trophy!"
+		}],
+		"Item": [{
+			"item": {
+				"id": "OpenBlocks:trophy",
+				"Count": 1,
+				"tag": {
+					"entity": "Villager"
+				}
+			}
+		}]
+	},
+	"TrophyOzelot": {
+		"chance": 55,
+		"Message": [{
+			"message": "You won the thing! Here's a trophy!"
+		}],
+		"Item": [{
+			"item": {
+				"id": "OpenBlocks:trophy",
+				"Count": 1,
+				"tag": {
+					"entity": "Ozelot"
+				}
+			}
+		}]
+	},
+	"TrophySheep": {
+		"chance": 65,
+		"Message": [{
+			"message": "You won the thing! Here's a trophy!"
+		}],
+		"Item": [{
+			"item": {
+				"id": "OpenBlocks:trophy",
+				"Count": 1,
+				"tag": {
+					"entity": "Ozelot"
+				}
+			}
+		}]
+	},
+	"TrophyBlaze": {
+		"chance": 70,
+		"Message": [{
+			"message": "You won the thing! Here's a trophy!"
+		}],
+		"Item": [{
+			"item": {
+				"id": "OpenBlocks:trophy",
+				"Count": 1,
+				"tag": {
+					"entity": "Blaze"
+				}
+			}
+		}]
+	},
+	"TrophySilverfish": {
+		"chance": 2,
+		"Message": [{
+			"message": "You won the thing! Here's a trophy!"
+		}],
+		"Item": [{
+			"item": {
+				"id": "OpenBlocks:trophy",
+				"Count": 1,
+				"tag": {
+					"entity": "Silverfish"
+				}
+			}
+		}]
+	},
+	"TrophySpider": {
+		"chance": -30,
+		"Message": [{
+			"message": "You won the thing! Here's a trophy!"
+		}],
+		"Item": [{
+			"item": {
+				"id": "OpenBlocks:trophy",
+				"Count": 1,
+				"tag": {
+					"entity": "Spider"
+				}
+			}
+		}]
+	},
+	"TrophyBat": {
+		"chance": -40,
+		"Message": [{
+			"message": "You won the thing! Here's a trophy!"
+		}],
+		"Item": [{
+			"item": {
+				"id": "OpenBlocks:trophy",
+				"Count": 1,
+				"tag": {
+					"entity": "Bat"
+				}
+			}
+		}]
+	},
+	"TrophyPigZombie": {
+		"chance": 75,
+		"Message": [{
+			"message": "You won the thing! Here's a trophy!"
+		}],
+		"Item": [{
+			"item": {
+				"id": "OpenBlocks:trophy",
+				"Count": 1,
+				"tag": {
+					"entity": "PigZombie"
+				}
+			}
+		}]
+	},
+	"TrophyGhast": {
+		"chance": 80,
+		"Message": [{
+			"message": "You won the thing! Here's a trophy!"
+		}],
+		"Item": [{
+			"item": {
+				"id": "OpenBlocks:trophy",
+				"Count": 1,
+				"tag": {
+					"entity": "Ghast"
+				}
+			}
+		}]
+	},
+	"TrophyWitch": {
+		"chance": 90,
+		"Message": [{
+			"message": "You won the thing! Here's a trophy!"
+		}],
+		"Item": [{
+			"item": {
+				"id": "OpenBlocks:trophy",
+				"Count": 1,
+				"tag": {
+					"entity": "Witch"
+				}
+			}
+		}]
+	},
+	"TrophyChicken": {
+		"chance": 13,
+		"Message": [{
+			"message": "You won the thing! Here's a trophy!"
+		}],
+		"Item": [{
+			"item": {
+				"id": "OpenBlocks:trophy",
+				"Count": 1,
+				"tag": {
+					"entity": "Chicken"
+				}
+			}
+		}]
+	},
+	"TrophyWolf": {
+		"chance": 23,
+		"Message": [{
+			"message": "You won the thing! Here's a trophy!"
+		}],
+		"Item": [{
+			"item": {
+				"id": "OpenBlocks:trophy",
+				"Count": 1,
+				"tag": {
+					"entity": "Wolf"
+				}
+			}
+		}]
+	},
+	"TrophyZombie": {
+		"chance": 33,
+		"Message": [{
+			"message": "You won the thing! Here's a trophy!"
+		}],
+		"Item": [{
+			"item": {
+				"id": "OpenBlocks:trophy",
+				"Count": 1,
+				"tag": {
+					"entity": "Zombie"
+				}
+			}
+		}]
+	},
+	"TrophySkeleton": {
+		"chance": 44,
+		"Message": [{
+			"message": "You won the thing! Here's a trophy!"
+		}],
+		"Item": [{
+			"item": {
+				"id": "OpenBlocks:trophy",
+				"Count": 1,
+				"tag": {
+					"entity": "Skeleton"
+				}
+			}
+		}]
+	},
+	"TrophyCreeper": {
+		"chance": 66,
+		"Message": [{
+			"message": "You won the thing! Here's a trophy!"
+		}],
+		"Item": [{
+			"item": {
+				"id": "OpenBlocks:trophy",
+				"Count": 1,
+				"tag": {
+					"entity": "Creeper"
+				}
+			}
+		}]
+	},
+	"TrophyCow": {
+		"chance": 90,
+		"Message": [{
+			"message": "You won the thing! Here's a trophy!"
+		}],
+		"Item": [{
+			"item": {
+				"id": "OpenBlocks:trophy",
+				"Count": 1,
+				"tag": {
+					"entity": "Cow"
+				}
+			}
+		}]
+	}
+}

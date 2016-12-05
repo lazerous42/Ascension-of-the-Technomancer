@@ -10,11 +10,13 @@ print("Initializing 'ImmersiveEngineering.zs'...");
 
 ##  Val Definitions
 val ingotIron = <ore:ingotIron>;
-
 val dustRedstone = <ore:dustRedstone>;
 val ingotCopper = <ore:ingotCopper>;
 val ingotSteel = <ore:ingotSteel>;
 val ingotConstantan = <ore:ingotConstantan>;
+val plankWood = <ore:plankWood>;
+val bottleCreosoteIE = <ImmersiveEngineering:fluidContainers>;
+val bottleCreosoteRC = <Railcraft:fluid.creosote.bottle>;
 
 val wireFineAnyCopper = <ore:wireFineAnyCopper>;
 val wireFineElectrum = <ore:wireFineElectrum>;
@@ -31,10 +33,18 @@ val stickTreated = <ImmersiveEngineering:material>;
 val planksTreated = <ImmersiveEngineering:treatedWood>;
 val engineersHammer = <ImmersiveEngineering:tool>;
 
+##  Creosote Bottle Oredict
+<ore:bottleCreosote>.add(bottleCreosoteIE);
+
 ##  Treated Sticks
 recipes.remove(<ImmersiveEngineering:material>);
 recipes.addShapedMirrored(<ImmersiveEngineering:material> * 2, [[<ImmersiveEngineering:treatedWood>, null], [<ImmersiveEngineering:treatedWood>, null]]);
 recipes.addShapedMirrored(<ImmersiveEngineering:material> * 4, [[<ore:craftingToolSaw>, null, null], [<ImmersiveEngineering:treatedWood>, null, null], [<ImmersiveEngineering:treatedWood>, null, null]]);
+
+##  Treated Planks Bottle Return Fix (using creosote bottles to make treated planks only returns one bottle no matter how many are in the crafting grid)
+recipes.removeShaped(planksTreated, [[plankWood, plankWood, plankWood], [plankWood, bottleCreosoteIE, plankWood], [plankWood, plankWood, plankWood]]);
+recipes.removeShaped(planksTreated, [[plankWood, plankWood, plankWood], [plankWood, bottleCreosoteRC, plankWood], [plankWood, plankWood, plankWood]]);
+recipes.addShaped(planksTreated * 8, [[plankWood, plankWood, plankWood], [plankWood, <ore:bottleCreosote>.giveBack(<minecraft:glass_bottle>), plankWood], [plankWood, plankWood, plankWood]]);
 
 ##  Engineers Hammer
 recipes.remove(engineersHammer);

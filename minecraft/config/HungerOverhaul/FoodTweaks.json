@@ -1,0 +1,7 @@
+{
+	"foods": [{
+		"name": "minecraft:mushroom_stew",
+		"hunger": 5,
+		"saturationModifier": 0.3
+	}]
+}

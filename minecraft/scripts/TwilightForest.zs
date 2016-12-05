@@ -5,7 +5,7 @@
 
 print("Initializing 'TwilightForest.zs'...");
 
-#remove uncrafting table
+# Remove uncrafting table
 recipes.remove(<TwilightForest:tile.TFUncraftingTable>);
 
 print("Initialized 'TwilightForest.zs'");

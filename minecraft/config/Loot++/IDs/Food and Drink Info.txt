@@ -1229,6 +1229,312 @@ Botania:manaCookie
 	- Saturation Amount: 0.1
 
 
+ChromatiCraft:chromaticraft_item_berry
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_berry
+	- Megadata: 1
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_berry
+	- Megadata: 2
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_berry
+	- Megadata: 3
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_berry
+	- Megadata: 4
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_berry
+	- Megadata: 5
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_berry
+	- Megadata: 6
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_berry
+	- Megadata: 7
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_berry
+	- Megadata: 8
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_berry
+	- Megadata: 9
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_berry
+	- Megadata: 10
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_berry
+	- Megadata: 11
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_berry
+	- Megadata: 12
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_berry
+	- Megadata: 13
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_berry
+	- Megadata: 14
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_berry
+	- Megadata: 15
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 1
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 65
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 33
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 16385
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 16449
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 16417
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 97
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 3
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 67
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 35
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 16387
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 16451
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 16419
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 99
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 6
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 70
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 38
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 16390
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 16454
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 16422
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 102
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 10
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 74
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 42
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 16394
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 16458
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 16426
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 106
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 11
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 75
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 43
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 16395
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 16459
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 16427
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ChromatiCraft:chromaticraft_item_potion
+	- Megadata: 107
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
 EnderIO:itemEnderFood
 	- Megadata: 0
 	- Food or Drink? Food
@@ -1909,6 +2215,37 @@ Forestry:waxCapsuleJuice
 	- Food Info Unknown!
 
 
+GalacticraftCore:item.basicItem
+	- Megadata: 15
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+GalacticraftCore:item.basicItem
+	- Megadata: 16
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+GalacticraftCore:item.basicItem
+	- Megadata: 17
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+GalacticraftCore:item.basicItem
+	- Megadata: 18
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+GalacticraftCore:item.cheeseCurd
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
 HardcoreEnderExpansion:infestation_remedy
 	- Megadata: 0
 	- Food or Drink? Drink
@@ -2333,6 +2670,47 @@ ThaumicExploration:taintBerry
 	- Megadata: 0
 	- Food or Drink? Food
 	- Food Amount: 1
+	- Saturation Amount: 0.3
+
+
+ThaumicHorizons:barChocolate
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 2.0
+
+
+ThaumicHorizons:bucketChocolate
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+ThaumicHorizons:iceCream
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 4.0
+
+
+ThaumicHorizons:meatCookedTH
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 7
+	- Saturation Amount: 0.7
+
+
+ThaumicHorizons:meatNuggetTH
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+ThaumicHorizons:meatTH
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
 	- Saturation Amount: 0.3
 
 

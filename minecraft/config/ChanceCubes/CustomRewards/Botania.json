@@ -1,0 +1,29 @@
+{
+
+	"FabPool":
+	{
+		"chance": 50,
+		"Message":
+		[
+			{"message":"FABULOUS!"}
+		],
+		"Item":
+		[
+			{"item":{"id":"Botania:pool","Count":1},"Damage":3, "delay":20}
+		]
+	},
+
+	"MiniIsland":
+	{
+		"chance": 50,
+		"Message":
+		[
+			{"message":"It's Floaty!"}
+		],
+		"Item":
+		[
+			{"item":{"id":"Botania:miniIsland","Count":1},"Damage":0, "delay":20}
+		]
+	}
+
+}

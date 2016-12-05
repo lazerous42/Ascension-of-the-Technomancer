@@ -1,0 +1,13 @@
+§0§l§nForeword from the Pack Author§r
+
+Ascension of the Technomancer is a very demanding pack, on both the player and the system.  Because of this, I personally recommend that you allocate 6GB to an SSP instance of this pack.  If you are playing SMP then you can probably work with 4GB for the client and 3-4GB for the server (depending on the player base size).  I am aware that this runs contrary to the typical advice of 4GB for large 1.7.10 packs.  The reason for this is due to the use of multiple very large mods (GregTech, Advent of Ascension, Chromaticraft) in addition to the standard 1.7.10 kitchen sink fare.  I also recommend that you launch the pack through MultiMC (It can directly load in FTB packs installed on your client).  For the convenience of those with a less technical background, I have provided the JVM arguments I personally use at the bottom of this page.  Just copy them into your instance settings on the system page.  These settings are for a machine with 12-16GB of RAM.  A strong single thread CPU core speed is also necessary for this pack (Minecraft can only use a single thread for the main game engine). 3.5Ghz+ is recommended.  Different hardware can have considerably variable performance, the only way to know for sure is to test things out on your system and see what works.  Fastcraft was included by default to ease the system burden.  If Fastcraft doesn't work for you, feel free to swap it out for CoFH Tweaks.  You cannot use both of them at the same time, and in most cases Fastcraft performs better.  Some systems don't seem to play nice with Fastcraft, so I figured I would mention a possible alternative here.
+
+Finally, if you are experiencing lag problems when generating new chunks, you can make use of the Chunkgen mod to pre-generate chunks of the overworld (or any other dimension).  It works best on servers with no players logged in, but can also be used in SSP type worlds.  The syntax for this command is shown below.
+
+§0§l§nJVM Settings§r
+Minimum Memory Allocation (-Xms): 6144 MB
+Maximum Memory Allocation (-Xmx): 6144 MB
+Java Args: -Xmn1G -d64 -XX:+DisableExplicitGC -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy -XX:MaxGCPauseMillis=80 -XX:+UseCompressedOops -XX:+UseCodeCacheFlushing -XX:ParallelGCThreads=4 -Dforge.forceNoStencil=true -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true
+
+§0§l§nChunkgen§r
+/chunkgen <x> <y> <height> <width> [dimension]

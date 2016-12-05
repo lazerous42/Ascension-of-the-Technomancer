@@ -18,7 +18,7 @@ print("Initializing 'AppliedEnergistics.zs'...");
 val tubeIron = <Forestry:thermionicTubes:3>;
 val tubeGold = <Forestry:thermionicTubes:4>;
 val tubeDiamond = <Forestry:thermionicTubes:5>;
-val tubeCertus = <Quadrum:tubeCertus>;
+val tubeCertus = <customthings:item>;
 val chipsetIron = <BuildCraft|Silicon:redstoneChipset:1>;
 val chipsetGold = <BuildCraft|Silicon:redstoneChipset:2>;
 val chipsetDiamond = <BuildCraft|Silicon:redstoneChipset:3>;
@@ -128,7 +128,7 @@ val FluixSmartCableYellow = <appliedenergistics2:item.ItemMultiPart:44>;
 
 ##  AE2 Grindstone Changes
 recipes.remove(<appliedenergistics2:tile.BlockCrank>);
-recipes.addShaped(<appliedenergistics2:tile.BlockCrank>, [[<ImmersiveEngineering:material>, <ImmersiveEngineering:material>, <ImmersiveEngineering:material>], [null, null, <ImmersiveEngineering:material>], [null, null, <ImmersiveEngineering:material>]]);
+recipes.addShapedMirrored(<appliedenergistics2:tile.BlockCrank>, [[<ImmersiveEngineering:material>, <ImmersiveEngineering:material>, <ImmersiveEngineering:material>], [null, null, <ImmersiveEngineering:material>], [null, null, <ImmersiveEngineering:material>]]);
 recipes.remove(<appliedenergistics2:tile.BlockGrinder>);
 recipes.addShaped(<appliedenergistics2:tile.BlockGrinder>, [[<ore:stone>, <ore:gearIron>, <ore:stone>], [<ore:crystalCertusQuartz>, <ore:stone>, <ore:crystalCertusQuartz>], [<ore:cobblestone>, <ore:crystalCertusQuartz>, <ore:cobblestone>]]);
 recipes.addShaped(<appliedenergistics2:tile.BlockGrinder>, [[<ore:stone>, <ore:gearIron>, <ore:stone>], [<ore:gemQuartz>, <ore:stone>, <ore:gemQuartz>], [<ore:cobblestone>, <ore:gemQuartz>, <ore:cobblestone>]]);

@@ -8,6 +8,9 @@ import minetweaker.item.IItemStack;
 
 print("Initializing 'Natura.zs'...");
 
+## Val Statements
+val mushroomStew = <minecraft:mushroom_stew>;
+
 ## OreDict Entries
 <ore:listAllberry>.add(<Natura:berry>);
 <ore:listAllfruit>.add(<Natura:berry>);
@@ -43,5 +46,15 @@ for meta in stickMeta {
     recipes.addShapedMirrored(<Natura:natura.stick>.definition.makeStack(meta) * 2, [[<Natura:planks>.definition.makeStack(meta), null], [<Natura:planks>.definition.makeStack(meta), null]]);
     recipes.addShapedMirrored(<Natura:natura.stick>.definition.makeStack(meta) * 4, [[<ore:craftingToolSaw>, null, null], [<Natura:planks>.definition.makeStack(meta), null, null], [<Natura:planks>.definition.makeStack(meta), null, null]]);
 }
+
+
+##  Remove Broken Mushroom Stew (incompatible with Spice of Life)
+recipes.removeShapeless(<Natura:natura.stewbowl>);
+recipes.removeShapeless(mushroomStew, [<ore:listAllmushroom>, <ore:listAllmushroom>, <minecraft:bowl>]);
+recipes.addShapeless(mushroomStew, [<ore:listAllmushroom>, <ore:listAllmushroom>, <minecraft:bowl>]);
+recipes.addShapeless(mushroomStew, [<Natura:Glowshroom>, <Natura:Glowshroom:1>, <Natura:Glowshroom:2>, <minecraft:bowl>]);
+
+##  Flint and Blaze Recipe
+recipes.addShaped(<Natura:natura.flintandblaze>, [[<minecraft:blaze_rod>, null], [null, <minecraft:flint>]]);
 
 print("Initialized 'Natura.zs'");

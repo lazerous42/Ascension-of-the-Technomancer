@@ -12,8 +12,16 @@
 		"biomes": [
 			"all"
 		],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+                "dimensionRestriction": "blacklist",
+                "dimensions": [
+                        -30,
+                        -29,
+                        -28,
+                        -27,
+                        -26,
+                        0,
+                        1
+                ]
 	},
 	"N-Diamond": {
 		"template": "uniform",
@@ -31,8 +39,16 @@
 		"biomes": [
 			"all"
 		],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+                "dimensionRestriction": "blacklist",
+                "dimensions": [
+                        -30,
+                        -29,
+                        -28,
+                        -27,
+                        -26,
+                        0,
+                        1
+                ]
 	},
 	"N-Gold": {
 		"template": "uniform",
@@ -50,8 +66,16 @@
 		"biomes": [
 			"all"
 		],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+                "dimensionRestriction": "blacklist",
+                "dimensions": [
+                        -30,
+                        -29,
+                        -28,
+                        -27,
+                        -26,
+                        0,
+                        1
+                ]
 	},
 	"N-Iron": {
 		"template": "uniform",
@@ -69,8 +93,16 @@
 		"biomes": [
 			"all"
 		],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+                "dimensionRestriction": "blacklist",
+                "dimensions": [
+                        -30,
+                        -29,
+                        -28,
+                        -27,
+                        -26,
+                        0,
+                        1
+                ]
 	},
 	"N-Lapis": {
 		"template": "uniform",
@@ -88,8 +120,16 @@
 		"biomes": [
 			"all"
 		],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+                "dimensionRestriction": "blacklist",
+                "dimensions": [
+                        -30,
+                        -29,
+                        -28,
+                        -27,
+                        -26,
+                        0,
+                        1
+                ]
 	},
 	"N-Redstone": {
 		"template": "uniform",
@@ -107,8 +147,16 @@
 		"biomes": [
 			"all"
 		],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+                "dimensionRestriction": "blacklist",
+                "dimensions": [
+                        -30,
+                        -29,
+                        -28,
+                        -27,
+                        -26,
+                        0,
+                        1
+                ]
 	},
 	"N-Copper": {
 		"template": "uniform",
@@ -126,8 +174,16 @@
 		"biomes": [
 			"all"
 		],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+                "dimensionRestriction": "blacklist",
+                "dimensions": [
+                        -30,
+                        -29,
+                        -28,
+                        -27,
+                        -26,
+                        0,
+                        1
+                ]
 	},
 	"N-Tin": {
 		"template": "uniform",
@@ -145,8 +201,16 @@
 		"biomes": [
 			"all"
 		],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+                "dimensionRestriction": "blacklist",
+                "dimensions": [
+                        -30,
+                        -29,
+                        -28,
+                        -27,
+                        -26,
+                        0,
+                        1
+                ]
 	},
 	"N-Emerald": {
 		"template": "uniform",
@@ -163,8 +227,16 @@
 		"biomes": [
 			"all"
 		],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+                "dimensionRestriction": "blacklist",
+                "dimensions": [
+                        -30,
+                        -29,
+                        -28,
+                        -27,
+                        -26,
+                        0,
+                        1
+                ]
 	},
 	"N-Silver": {
 		"template": "uniform",
@@ -182,8 +254,16 @@
 		"biomes": [
 			"all"
 		],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+                "dimensionRestriction": "blacklist",
+                "dimensions": [
+                        -30,
+                        -29,
+                        -28,
+                        -27,
+                        -26,
+                        0,
+                        1
+                ]
 	},
 	"N-Lead": {
 		"template": "uniform",
@@ -201,8 +281,16 @@
 		"biomes": [
 			"all"
 		],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+                "dimensionRestriction": "blacklist",
+                "dimensions": [
+                        -30,
+                        -29,
+                        -28,
+                        -27,
+                        -26,
+                        0,
+                        1
+                ]
 	},
 	"N-Ferrous": {
 		"template": "uniform",
@@ -220,15 +308,23 @@
 		"biomes": [
 			"all"
 		],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+                "dimensionRestriction": "blacklist",
+                "dimensions": [
+                        -30,
+                        -29,
+                        -28,
+                        -27,
+                        -26,
+                        0,
+                        1
+                ]
 	},
 	"N-Shiny": {
 		"template": "uniform",
 		"block": "NetherOres:tile.netherores.ore.1",
 		"material": "minecraft:netherrack",
 		"clusterSize": 3,
-		"numClusters": 11,
+		"numClusters": 4,
 		"minHeight": 1,
 		"maxHeight": 128,
 		"retrogen": "false",
@@ -236,8 +332,16 @@
 		"biomes": [
 			"all"
 		],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+                "dimensionRestriction": "blacklist",
+                "dimensions": [
+                        -30,
+                        -29,
+                        -28,
+                        -27,
+                        -26,
+                        0,
+                        1
+                ]
 	},
 	"N-Salt": {
 		"template": "uniform",
@@ -260,8 +364,16 @@
 		"biomes": [
 			"all"
 		],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+                "dimensionRestriction": "blacklist",
+                "dimensions": [
+                        -30,
+                        -29,
+                        -28,
+                        -27,
+                        -26,
+                        0,
+                        1
+                ]
 	},
 	"N-Saltpeter": {
 		"template": "uniform",
@@ -284,27 +396,16 @@
 		"biomes": [
 			"all"
 		],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
-	},
-	"N-Nikolite": {
-		"template": "uniform",
-		"block": {
-			"name": "NetherOres:tile.netherores.ore.0",
-			"metadata": 12
-		},
-		"material": "minecraft:netherrack",
-		"clusterSize": 3,
-		"numClusters": 6,
-		"minHeight": 1,
-		"maxHeight": 128,
-		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [
-			"all"
-		],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+                "dimensionRestriction": "blacklist",
+                "dimensions": [
+                        -30,
+                        -29,
+                        -28,
+                        -27,
+                        -26,
+                        0,
+                        1
+                ]
 	},
 	"N-Sulphur": {
 		"template": "uniform",
@@ -322,8 +423,16 @@
 		"biomes": [
 			"all"
 		],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+                "dimensionRestriction": "blacklist",
+                "dimensions": [
+                        -30,
+                        -29,
+                        -28,
+                        -27,
+                        -26,
+                        0,
+                        1
+                ]
 	},
 	"N-Uranium": {
 		"template": "uniform",
@@ -341,8 +450,16 @@
 		"biomes": [
 			"all"
 		],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+                "dimensionRestriction": "blacklist",
+                "dimensions": [
+                        -30,
+                        -29,
+                        -28,
+                        -27,
+                        -26,
+                        0,
+                        1
+                ]
 	},
 	"N-Mithril": {
 		"template": "uniform",
@@ -360,7 +477,15 @@
 		"biomes": [
 			"all"
 		],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+                "dimensionRestriction": "blacklist",
+                "dimensions": [
+                        -30,
+                        -29,
+                        -28,
+                        -27,
+                        -26,
+                        0,
+                        1
+                ]
 	}
 }

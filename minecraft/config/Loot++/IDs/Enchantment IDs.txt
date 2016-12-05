@@ -217,6 +217,62 @@
 	- Max Level: 1
 
 
+52
+	- Name: enchantment.chroma.aggromask
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 2
+
+
+53
+	- Name: enchantment.chroma.airminer
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 1
+
+
+54
+	- Name: enchantment.chroma.enderlock
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 1
+
+
+55
+	- Name: enchantment.chroma.harvestlevel
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 2
+
+
+56
+	- Name: enchantment.chroma.fastsink
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 1
+
+
+57
+	- Name: enchantment.chroma.rareloot
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 4
+
+
+58
+	- Name: enchantment.chroma.userepair
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 3
+
+
+59
+	- Name: enchantment.chroma.weaponaoe
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 5
+
+
 61
 	- Name: enchantment.lootBonusFishing
 	- Weight: 2

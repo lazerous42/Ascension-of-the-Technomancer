@@ -1,0 +1,16 @@
+{
+	"Wither Skull": {
+		"chance": 85,
+		"Message": [{
+			"message": "A real, bonefied Wither Skull!",
+			"delay": 20
+		}],
+		"Item": [{
+			"item": {
+				"id": "minecraft:skull",
+				"Count": 1,
+				"Damage": 1
+			}
+		}]
+	}
+}

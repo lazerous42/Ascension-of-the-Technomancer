@@ -1,0 +1,142 @@
+Welcome to Ascension of the Technomancer|by Lazerous42::1
+=== Getting Started ===::1
+The first part of this book provides some heavily recommended objectives you should try and accomplish as soon as possible.  This is a "kitchen sink" type pack, so you are free to do as you wish, but your options are rather limited in the early game and you will really want these basic objectives accomplished before attempting any of the other content::2
+Review the very helpful FTB Utils guide (in your inventory screen)::0
+Use your crystal ball and choose "I live alone" and claim your free house::0
+Create a full set of GregTech flint tools::0
+Craft a sleeping bag::0
+Locate a lignite vein::0
+Break Harvestcraft gardens until you find a peanut to plant::0
+Cross breed wheat and carrots to get sugarcane seeds::0
+Setup the ability to produce peanut butter and jelly sandwichs::0
+::1
+::1
+=== The Bronze Age ===::1
+Now that your core survival needs are met, it's time to build some basic machines for ore processing::2
+Locate a cassiterite (tin) vein::0
+Locate a tetrahedrite (copper) vein::0
+Locate a limonite (iron) vein::0
+Craft a bloomery furnace and make wrought iron tools::0
+Build a small coal boiler::0
+Build a steam macerator::0
+Craft the remaining GregTech bronze steam machines (compressor, forge hammer, extractor)::0
+Build a blast furnace (GT Bronze Brick, Railcraft, Immersive Engineering) and make your first steel::0
+=== Beginning's Ending ===::1
+Create a rubber farm::0
+Setup your first GregTech electricity generation::0
+Create a basic bending machine for cheaper plates::0
+Build a Rock Crusher::0
+Build a Carpenter::0
+Build a Thermionic Fabricator::0
+Setup an Assembly Table with some Lasers::0
+Create an RF power source, or use Immersive Engineering wires to convert GT electricity into RF::0
+Make your first Thermal Expansion Machine Frame::0
+::1
+::1
+=== Enter the Twilight ===::1
+Not the lame one.  No sparkles, I promise::2
+Open a twilight portal::0
+Kill the Naga::0
+Kill the Twilight Lich::0
+Kill the Minoshroom::0
+Kill the Hydra::0
+Kill the Knight Phantoms::0
+Kill the Ur Ghast::0
+Kill the Alpha Yeti::0
+Kill the Snow Queen::0
+Locate the Lamp of Cinders::0
+Use it to claim your prize, the Ship's Helm (Archimedes Ships) and build an Airship::0
+=== The Outer Planes ===::1
+An over-zealous use of interdimensional magic has linked our world with other realms filled with demonic monstrosities.  The only way to end the invasion of our world is to destroy the leaders of these outer planes and forever purge their corruption from the multiverse::2
+Reach an appropriate level of Thaumaturgy skill to infuse a dragon's egg with the magicks required to make an ancient portal blueprint::0
+Kill Smash (Overworld)::0
+Kill Corallus (Overworld)::0
+Kill King BamBamBam (Nether)::0
+Kill Nethengeic Wither (Nether)::0
+Kill the Rockrider (Haven)::0
+Kill the Four Guardians (Haven)::0
+Kill the Shadowlord (The Abyss)::0
+Kill the Elusive (The Abyss)::0
+Defeat the Skeletal Army (Precasa)::0
+Kill a Tyrosaur (Precasia)::0
+Kill King Shroomus (Mysterium)::0
+Kill Silverfoot (Iromine)::0
+Kill the Mechbot (Iromine)::0
+Hunt a Terrestrial under the light of the full moon::0
+Kill Visualent (Lunalus)::0
+Kill Kror (The Deeplands)::0
+Kill Vinocorne (Gardencia)::0
+Kill Bane (Greckon)::0
+Kill Clunkhead (Lands of Runandor)::0
+Kill Draycon (L'Borean)::0
+Kill the Hive King (Barathos)::0
+Kill Voxxulon (Vox Ponds)::0
+Defeat the Primordial Five (Dustopia)::0
+Kill Graw (Lands of Lelyetia)::0
+Kill Horon (Ancient Cavern)::0
+Kill Penumbra (Ancient Cavern)::0
+Kill Coniferon (Ancient Cavern)::0
+Kill Goldorth (Ancient Cavern)::0
+Kill Gyro (Celeve)::0
+Kill Crysocore (Crystevia)::0
+Kill Cotton Candor (Candyland)::0
+Slay the Immortals (Immortallis)::0
+Kill C.R.E.E.P (Creeponia)::0
+::1
+::1
+::1
+=== Technology Mastery ===::1
+Build a futurama tube network (TE viaducts)::0
+Build a full suit of Power Armor::0
+Automate something with robots or drones::0
+Protect your base(s) with roof mounted railguns::0
+Setup a forcefield generator::0
+Create an AE2 controller::0
+Build a fission reactor::0
+Detonate a nuclear device::0
+Setup UU-matter production::0
+Generate at least 1000 Rf/T with an endergenic generator::0
+Generate at least 1000 Rf/T using Deep Resonance::0
+Use a PRC to control the automation of something::0
+Build a fusion reactor::0
+Build an orbital base (space station)::0
+Travel to the Moon::0
+Travel to Mars::0
+Travel to the Asteroid Belt::0
+Achieve FTL velocities::0
+Travel to a dimension of your own design::0
+::1
+::1
+::1
+::1
+::1
+=== Magical Mastery ===::1
+Defeat the Gaia Guardian 1::0
+Defeat the Gaia Guardian 2::0
+Travel to the Outerland and beat back the eldritch horrors that dwell there::0
+Create Ichor::0
+Create a top tier blood altar::0
+Unlock the mysteries of the Chroma::0
+Survive a demon invasion::0
+Summon and kill the Water Guardian::0
+Summon and kill the Earth Guardian::0
+Summon and kill the Air Guardian::0
+Summon and kill the Arcane Guardian::0
+Summon and kill the Life Guardian::0
+Summon and kill the Nature Guardian::0
+Summon and kill the Lightining Guardian::0
+Summon and kill the Winter Guardian::0
+Summon and kill the Fire Guardian::0
+Summon and kill the Ender Guardian::0
+Defeat the Shade of Leonard::0
+Craft an angel ring::0
+::1
+::1
+::1
+::1
+=== Miscellaneous ===::1
+Fill up all entries in a Soul Gazer::0
+Get a wyvern mount (requires Mo' Creatures addon)::0
+Get married and have a child::0
+Open 25 chance cubes (Warning: filled with FUN!!!)::0
+Defeat Rahovart::0

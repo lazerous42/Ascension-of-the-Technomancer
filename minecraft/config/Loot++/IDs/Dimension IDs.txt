@@ -36,6 +36,15 @@
 	- Terrain Scale: 1.0
 
 
+-4
+	- Name: Hyperspace
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
 -100
 	- Name: Underdark
 	- Height: 128
@@ -68,6 +77,42 @@
 	- Height: 256
 	- Has Sky? true
 	- Cloud Height: 0.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-28
+	- Name: Moon
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-29
+	- Name: Mars
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+69
+	- Name: Pocket Plane
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-30
+	- Name: Asteroids
+	- Height: 256
+	- Has Sky? false
+	- Cloud Height: 128.0
 	- Can Respawn Here? false
 	- Terrain Scale: 1.0
 
@@ -162,20 +207,20 @@
 	- Terrain Scale: 1.0
 
 
--73
-	- Name: Outer Lands
-	- Height: 128
-	- Has Sky? false
-	- Cloud Height: 1.0
-	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
 25
 	- Name: DimensionLelyetia
 	- Height: 256
 	- Has Sky? true
 	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-73
+	- Name: Outer Lands
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 1.0
 	- Can Respawn Here? false
 	- Terrain Scale: 1.0
 
@@ -329,6 +374,24 @@
 	- Height: 256
 	- Has Sky? true
 	- Cloud Height: 161.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+-2
+	- Name: Chroma
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 186.89989
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+-3
+	- Name: Space
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
 	- Can Respawn Here? true
 	- Terrain Scale: 1.0
 

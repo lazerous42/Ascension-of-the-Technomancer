@@ -1,0 +1,107 @@
+{
+	
+	"AEFluix":
+	{
+		"chance": 25,
+		"Message":
+		[
+			{"message":"Do you want to build a ME System?"}
+		],
+		"Item":
+		[
+			{"item":{"id":"appliedenergistics2:tile.BlockFluix","Count":3},"delay":20}
+		]
+	},
+
+	"AEGrinder":
+	{
+		"chance": 0,
+		"Message":
+		[
+			{"message":"PunchStick!"}
+		],
+		"Item":
+		[
+			{"item":{"id":"appliedenergistics2:tile.BlockGrinder","Count":1},"delay":20}
+		]
+	},
+
+	"AECharger":
+	{
+		"chance": 10,
+		"Message":
+		[
+			{"message":"Shocking!"}
+		],
+		"Item":
+		[
+			{"item":{"id":"appliedenergistics2:tile.BlockCharger","Count":1},"delay":20}
+		]
+	},
+
+	"AE1k":
+	{
+		"chance": 20,
+		"Message":
+		[
+			{"message":"Better Than A Chest!"}
+		],
+		"Item":
+		[
+			{"item":{"id":"appliedenergistics2:item.ItemBasicStorageCell.1k","Count":1},"delay":20}
+		]
+	},
+
+	"AE4k":
+	{
+		"chance": 50,
+		"Message":
+		[
+			{"message":"Better Than A Chest!"}
+		],
+		"Item":
+		[
+			{"item":{"id":"appliedenergistics2:item.ItemBasicStorageCell.4k","Count":1},"delay":20}
+		]
+	},
+
+	"AECraftingTerminal":
+	{
+		"chance": 50,
+		"Message":
+		[
+			{"message":"Time to Craft!"}
+		],
+		"Item":
+		[
+			{"item":{"id":"appliedenergistics2:item.ItemMultiPart","Damage":360,"Count":1},"delay":20}
+		]
+	},
+
+	"AECable":
+	{
+		"chance": 25,
+		"Message":
+		[
+			{"message":"Cables For All!"}
+		],
+		"Item":
+		[
+			{"item":{"id":"appliedenergistics2:item.ItemMultiPart","Damage":16,"Count":32},"delay":20}
+		]
+	},
+
+	"AETrollController":
+	{
+		"chance": -25,
+		"Message":
+		[
+			{"message":"Do you want to build a ME System?"}
+		],
+		"Item":
+		[
+			{"item":{"id":"chisel:futura","Damage":4,"Count":1,tag:{display:{Name:"ME ConTROLLer"}}},"delay":20}
+		]
+	},
+
+}

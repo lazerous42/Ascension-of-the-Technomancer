@@ -211,8 +211,8 @@
 
 
 30
-	- Name: potion.antiWither
-	- Color: 1310740
+	- Name: Clarity
+	- Color: 0
 	- Is Instant? false
 	- Is Bad? false
 
@@ -869,15 +869,15 @@
 
 
 124
-	- Name: potion.fluxtaint
-	- Color: 6697847
+	- Name: potion.antiWither
+	- Color: 1310740
 	- Is Instant? false
-	- Is Bad? true
+	- Is Bad? false
 
 
 125
-	- Name: potion.visexhaust
-	- Color: 6702199
+	- Name: potion.fluxtaint
+	- Color: 6697847
 	- Is Instant? false
 	- Is Bad? true
 
@@ -1145,6 +1145,41 @@
 	- Name: Legendary Mana Restoration
 	- Color: 16776960
 	- Is Instant? true
+	- Is Bad? false
+
+
+175
+	- Name: Growth Accelerant
+	- Color: 43775
+	- Is Instant? false
+	- Is Bad? false
+
+
+176
+	- Name: Lumarhea
+	- Color: 2331135
+	- Is Instant? false
+	- Is Bad? true
+
+
+177
+	- Name: potion.regeneration
+	- Color: 13458603
+	- Is Instant? false
+	- Is Bad? false
+
+
+178
+	- Name: potion.saturation
+	- Color: 10836262
+	- Is Instant? false
+	- Is Bad? false
+
+
+179
+	- Name: Void Gaze
+	- Color: 6357134
+	- Is Instant? false
 	- Is Bad? false
 
 

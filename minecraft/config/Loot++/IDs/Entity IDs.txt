@@ -103,28 +103,67 @@ ChocoboPurple
 ChocoboRed
 ChocoboWhite
 ChocoboYellow
+ChromatiCraft.Ability Fireball
+ChromatiCraft.Aurora
+ChromatiCraft.Ball Lightning
+ChromatiCraft.CC Ender Crystal
+ChromatiCraft.ChainGun Shot
+ChromatiCraft.Dimension Flare
+ChromatiCraft.Laser Pulse
+ChromatiCraft.Light
+ChromatiCraft.Luma Burst
+ChromatiCraft.Meteor Shot
+ChromatiCraft.Particle Swarm
+ChromatiCraft.SplashGun Shot
+ChromatiCraft.TNT Pinball
+ChromatiCraft.Thrown Gem
+ChromatiCraft.Vacuum
 ClayGolem
 Cow
 Creeper
 CustomNpc
+DragonAPI.Tumbling Block
+ESM_Ghast
 EnderCrystal
 EnderDragon
 EnderIO.weather_rocket
 Enderman
-EntityAuraCore
 EntityHorse
-EntityItemElement
-EntityPermItem
 EntityPrimedCharge
 EyeOfEnderSignal
 FakeChairEntity
-FakePlayerEntity
 FallingSand
 Fireball
 FireworksRocketEntity
 Forestry.butterflyGE
 Forestry.cart.apiary
 Forestry.cart.beehouse
+GalacticraftCore.AlienVillager
+GalacticraftCore.Buggy
+GalacticraftCore.CelestialScreen
+GalacticraftCore.EvolvedCreeper
+GalacticraftCore.EvolvedSkeleton
+GalacticraftCore.EvolvedSkeletonBoss
+GalacticraftCore.EvolvedSpider
+GalacticraftCore.EvolvedZombie
+GalacticraftCore.GCFlag
+GalacticraftCore.Lander
+GalacticraftCore.Meteor
+GalacticraftCore.MeteorChunk
+GalacticraftCore.ParaChest
+GalacticraftCore.Spaceship
+GalacticraftMars.AstroMiner
+GalacticraftMars.CargoRocket
+GalacticraftMars.CreeperBoss
+GalacticraftMars.EntryPodAsteroids
+GalacticraftMars.GrappleHookGC
+GalacticraftMars.LandingBalloons
+GalacticraftMars.ProjectileTNT
+GalacticraftMars.Slimeling
+GalacticraftMars.Sludgeling
+GalacticraftMars.SmallAsteroidGC
+GalacticraftMars.SpaceshipT2
+GalacticraftMars.Tier3RocketGC
 Ghast
 Giant
 GraviSuite.PlasmaBall
@@ -276,6 +315,7 @@ MoCreatures.Wyvern
 Mob
 Monster
 MushroomCow
+NEAT_Zombie
 Natura.FlameSpider
 Natura.FlameSpiderBaby
 Natura.FusewoodArrow
@@ -542,6 +582,37 @@ Thaumcraft.ThaumSlime
 Thaumcraft.TravelingTrunk
 Thaumcraft.Wisp
 ThaumicExploration.TaintacleMinion
+ThaumicHorizons.BlastPhial
+ThaumicHorizons.BoatGreatwood
+ThaumicHorizons.BoatThaumium
+ThaumicHorizons.ChocolateCow
+ThaumicHorizons.ChromaticSheep
+ThaumicHorizons.Egg
+ThaumicHorizons.Endersteed
+ThaumicHorizons.Familiar
+ThaumicHorizons.GoldChicken
+ThaumicHorizons.GolemTH
+ThaumicHorizons.Gravekeeper
+ThaumicHorizons.GuardianPanther
+ThaumicHorizons.HorseSkeleton
+ThaumicHorizons.HorseZombie
+ThaumicHorizons.LightningBoltFinite
+ThaumicHorizons.LostSoul
+ThaumicHorizons.LunarWolf
+ThaumicHorizons.MeatSlime
+ThaumicHorizons.MedSlime
+ThaumicHorizons.MercurialSlime
+ThaumicHorizons.NetherHound
+ThaumicHorizons.NightmareTH
+ThaumicHorizons.OrePig
+ThaumicHorizons.PrimedAlchemite
+ThaumicHorizons.ScholarChicken
+ThaumicHorizons.Seawolf
+ThaumicHorizons.SelfShearingSheep
+ThaumicHorizons.Sheeder
+ThaumicHorizons.Syringe
+ThaumicHorizons.TaintEaterPig
+ThaumicHorizons.VoltSlime
 ThaumicTinkerer.ShadowbeamStaffBeam
 ThermalDynamics.Transport
 ThermalExpansion.florb
@@ -630,6 +701,9 @@ TwilightForest.tftwilightwandbolt
 Villager
 VillagerGolem
 WRTracker
+WarpDrive.EntityCamera
+WarpDrive.EntitySphereGenerator
+WarpDrive.EntityStarCore
 Witch
 WitherBoss
 WitherSkull
@@ -791,6 +865,10 @@ freshwatermobs.jengu
 freshwatermobs.silex
 freshwatermobs.strider
 freshwatermobs.zephyr
+gadomancy.EntityAuraCore
+gadomancy.EntityItemElement
+gadomancy.EntityPermItem
+gadomancy.FakePlayerEntity
 gregtech.GT_Entity_Arrow
 gregtech.GT_Entity_Arrow_Potion
 hardcorewither.BlazeMinion
@@ -1580,13 +1658,21 @@ npcskeleton
 npcvillager
 npczombiefemale
 npczombiemale
-pandorasbox.pandorasBox
+openmodularturrets.blazingClayProjectile
+openmodularturrets.bulletProjectile
+openmodularturrets.grenadeProjectile
+openmodularturrets.laserProjectile
+openmodularturrets.rocketProjectile
+opensecurity.energybolt
 plainsmobs.kobold
 plainsmobs.maka
 plainsmobs.makaalpha
 plainsmobs.roc
 plainsmobs.ventoraptor
 plainsmobs.zoataur
+powersuits.entityLuxCapacitor
+powersuits.entityPlasmaBolt
+powersuits.entitySpinningBlade
 punt.Punt
 rangeEntity
 saltwatermobs.abtu
@@ -1706,9 +1792,9 @@ witchery.wolfman
 62 - LavaSlime
 65 - Bat
 66 - Witch
-71 - Blizz
-72 - Blitz
-73 - Basalz
+69 - Blizz
+70 - Blitz
+71 - Basalz
 90 - Pig
 91 - Sheep
 92 - Cow
@@ -1719,6 +1805,15 @@ witchery.wolfman
 98 - Ozelot
 100 - EntityHorse
 120 - Villager
+256 - GalacticraftCore.EvolvedSpider
+257 - GalacticraftCore.EvolvedZombie
+258 - GalacticraftCore.EvolvedCreeper
+259 - GalacticraftCore.EvolvedSkeleton
+260 - GalacticraftCore.EvolvedSkeletonBoss
+261 - GalacticraftCore.AlienVillager
+262 - GalacticraftMars.Sludgeling
+263 - GalacticraftMars.Slimeling
+264 - GalacticraftMars.CreeperBoss
 301 - BiomesOPlenty.JungleSpider
 302 - BiomesOPlenty.Rosester
 303 - BiomesOPlenty.Glob

@@ -1,0 +1,186 @@
+{
+    "moon-iron": {
+        "template": "normal",
+        "block": {
+            "name": "InterstellarOres:oreMoon",
+            "metadata": 0
+        },
+        "material": [
+            {"name": "GalacticraftCore:tile.moonBlock", "metadata": 4}
+        ],
+        "clusterSize": 8,
+        "numClusters": 6,
+        "meanHeight": 48,
+        "maxVariance": 13,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -28
+        ]
+    },
+    "moon-gold": {
+        "template": "normal",
+        "block": {
+            "name": "InterstellarOres:oreMoon",
+            "metadata": 1
+        },
+        "material": [
+            {"name": "GalacticraftCore:tile.moonBlock", "metadata": 4}
+        ],
+        "clusterSize": 5,
+        "numClusters": 3,
+        "meanHeight": 18,
+        "maxVariance": 6,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -28
+        ]
+    },
+    "moon-copper": {
+        "template": "normal",
+        "block": {
+            "name": "InterstellarOres:oreMoon",
+            "metadata": 2
+        },
+        "material": [
+            {"name": "GalacticraftCore:tile.moonBlock", "metadata": 4}
+        ],
+        "clusterSize": 7,
+        "numClusters": 6,
+        "meanHeight": 58,
+        "maxVariance": 7,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -28
+        ]
+    },
+    "moon-tin": {
+        "template": "normal",
+        "block": {
+            "name": "InterstellarOres:oreMoon",
+            "metadata": 3
+        },
+        "material": [
+            {"name": "GalacticraftCore:tile.moonBlock", "metadata": 4}
+        ],
+        "clusterSize": 5,
+        "numClusters": 4,
+        "meanHeight": 37,
+        "maxVariance": 7,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -28
+        ]
+    },
+    "moon-silver": {
+        "template": "normal",
+        "block": [
+            {
+                "name": "InterstellarOres:oreMoon",
+                "metadata": 5,
+                "weight": 80
+            },
+            {
+                "name": "InterstellarOres:oreMoon",
+                "metadata": 4,
+                "weight": 20
+            }
+        ],
+        "material": [
+            {"name": "GalacticraftCore:tile.moonBlock", "metadata": 4}
+        ],
+        "clusterSize": 6,
+        "numClusters": 4,
+        "meanHeight": 24,
+        "maxVariance": 6,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -28
+        ]
+    },
+    "moon-lead": {
+        "template": "normal",
+        "block": [
+            {
+                "name": "InterstellarOres:oreMoon",
+                "metadata": 4,
+                "weight": 90
+            },
+            {
+                "name": "InterstellarOres:oreMoon",
+                "metadata": 5,
+                "weight": 10
+            }
+        ],
+        "material": [
+            {"name": "GalacticraftCore:tile.moonBlock", "metadata": 4}
+        ],
+        "clusterSize": 9,
+        "numClusters": 3,
+        "meanHeight": 28,
+        "maxVariance": 6,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -28
+        ]
+    },
+    "moon-nickel": {
+        "template": "uniform",
+        "block": {
+            "name": "InterstellarOres:oreMoon",
+            "metadata": 6
+        },
+        "material": [
+            {"name": "GalacticraftCore:tile.moonBlock", "metadata": 4}
+        ],
+        "clusterSize": 4,
+        "numClusters": 4,
+        "minHeight": 6,
+        "maxHeight": 16,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -28
+        ]
+    },
+    "moon-aluminum": {
+        "template": "uniform",
+        "block": {
+            "name": "InterstellarOres:oreMoon",
+            "metadata": 7
+        },
+        "material": [
+            {"name": "GalacticraftCore:tile.moonBlock", "metadata": 4}
+        ],
+        "clusterSize": 4,
+        "numClusters": 8,
+        "minHeight": 44,
+        "maxHeight": 62,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -28
+        ]
+    }
+}

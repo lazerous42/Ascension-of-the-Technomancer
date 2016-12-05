@@ -1,0 +1,81 @@
+{
+
+	"EIOLadder":
+	{
+		"chance": 0,
+		"Message":
+		[
+			{"message":"Better Ladders for ALL!"}
+		],
+		"Item":
+		[
+			{"item":{"id":"EnderIO:blockDarkSteelLadder","Count":16}, "delay":20}
+		]
+	},
+
+	"EIOCap1":
+	{
+		"chance": 25,
+		"Message":
+		[
+			{"message":"Over Powered!"}
+		],
+		"Item":
+		[
+			{"item":{"id":"EnderIO:itemBasicCapacitor","Count":8},"Damage":0, "delay":20}
+		]
+	},
+
+	"EIOCap2":
+	{
+		"chance": 50,
+		"Message":
+		[
+			{"message":"Over Powered!"}
+		],
+		"Item":
+		[
+			{"item":{"id":"EnderIO:itemBasicCapacitor","Count":4},"Damage":1, "delay":20}
+		]
+	},
+
+	"EIOCap3":
+	{
+		"chance": 75,
+		"Message":
+		[
+			{"message":"Over Powered!"}
+		],
+		"Item":
+		[
+			{"item":{"id":"EnderIO:itemBasicCapacitor","Count":2},"Damage":2, "delay":20}
+		]
+	},
+
+	"EIOYeta":
+	{
+		"chance": 0,
+		"Message":
+		[
+			{"message":"Over Powered!"}
+		],
+		"Item":
+		[
+			{"item":{"id":"EnderIO:itemYetaWrench","Count":1}, "delay":20}
+		]
+	},
+
+	"EIOBalls":
+	{
+		"chance": 75,
+		"Message":
+		[
+			{"message":"You Got Balls of Steel!"}
+		],
+		"Item":
+		[
+			{"item":{"id":"EnderIO:itemMaterial","Count":2},"Damage":7, "delay":20}
+		]
+	}
+
+}

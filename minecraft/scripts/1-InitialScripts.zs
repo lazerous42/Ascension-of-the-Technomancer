@@ -69,6 +69,9 @@ dyeGreen.remove(<Botania:dye:13>);
 dyeRed.remove(<Botania:dye:14>);
 dyeBlack.remove(<Botania:dye:15>);
 
+##  Convert Three Gravel to One Flint
+recipes.addShapeless(<minecraft:flint>, [<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]);
+
 ##  Make Boania and Havestcraft mortar and pestle as Oreict equivalent
 <ore:toolMortarandpestle>.add(<Botania:pestleAndMortar>);
 <ore:pestleAndMortar>.add(<harvestcraft:mortarandpestleItem>);

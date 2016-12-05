@@ -27,16 +27,19 @@ vanilla.loot.addChestLoot("dungeonChest", <aura:prismWhite>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <appliedenergistics2:item.ItemBasicStorageCell.64k>.weight(0.5), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <minecraft:beacon>.weight(0.5), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <ThermalFoundation:material:1024>.weight(5), 1, 8);
-vanilla.loot.addChestLoot("dungeonChest", <JABBA:moverDiamond>.weight(5), 1, 1);
+vanilla.loot.addChestLoot("dungeonChest", <JABBA:moverDiamond>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <EnderIO:itemBasicCapacitor:2>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <EnderIO:itemBasicCapacitor>.weight(10), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <EnderIO:itemBasicCapacitor:1>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <EnderIO:itemMaterial:1>.weight(25), 8, 16);
-vanilla.loot.addChestLoot("dungeonChest", <heart:healthHeart>.weight(2), 1, 1);
+vanilla.loot.addChestLoot("dungeonChest", <heart:healthHeart>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <heart:damageBuff>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <ThermalExpansion:Frame>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <harvestcraft:market>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <harvestcraft:presser>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("dungeonChest", <chancecubes:chancePendantTier1>.weight(5), 1, 1);
+vanilla.loot.addChestLoot("dungeonChest", <chancecubes:chancePendantTier2>.weight(4), 1, 1);
+vanilla.loot.addChestLoot("dungeonChest", <chancecubes:chancePendantTier3>.weight(3), 1, 1);
 #   Buffer Items
 vanilla.loot.addChestLoot("dungeonChest", <minecraft:coal>.weight(15), 1, 16);
 vanilla.loot.addChestLoot("dungeonChest", <minecraft:rotten_flesh>.weight(15), 1, 16);
@@ -78,11 +81,14 @@ vanilla.loot.addChestLoot("mineshaftCorridor", <Railcraft:fuel.coke>.weight(15),
 vanilla.loot.addChestLoot("mineshaftCorridor", <ImmersiveEngineering:drill>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <ExtraUtilities:cobblestone_compressed:5>.weight(3), 1, 2);
 vanilla.loot.addChestLoot("mineshaftCorridor", <Railcraft:cube>.weight(5), 1, 10);
-vanilla.loot.addChestLoot("mineshaftCorridor", <heart:healthHeart>.weight(2), 1, 1);
+vanilla.loot.addChestLoot("mineshaftCorridor", <heart:healthHeart>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <heart:damageBuff>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <ThermalExpansion:Frame>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <harvestcraft:market>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <harvestcraft:presser>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("mineshaftCorridor", <chancecubes:chancePendantTier1>.weight(5), 1, 1);
+vanilla.loot.addChestLoot("mineshaftCorridor", <chancecubes:chancePendantTier2>.weight(4), 1, 1);
+vanilla.loot.addChestLoot("mineshaftCorridor", <chancecubes:chancePendantTier3>.weight(3), 1, 1);
 #   Buffer Items
 vanilla.loot.addChestLoot("mineshaftCorridor", <minecraft:ender_pearl>.weight(10), 2, 6);
 vanilla.loot.addChestLoot("mineshaftCorridor", <minecraft:ender_eye>.weight(3), 1, 3);
@@ -137,6 +143,7 @@ vanilla.loot.addChestLoot("netherFortress", <minecraft:obsidian>.weight(15), 10,
 vanilla.loot.addChestLoot("netherFortress", <minecraft:nether_star>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("netherFortress", <Thaumcraft:ItemBowBone>.weight(7), 1, 1);
 vanilla.loot.addChestLoot("netherFortress", <minecraft:fire_charge>.weight(15), 1, 8);
+vanilla.loot.addChestLoot("netherFortress", <JABBA:moverDiamond>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("netherFortress", <aura:gemWhite>.weight(5), 1, 3);
 vanilla.loot.addChestLoot("netherFortress", <aura:gemGreen>.weight(5), 1, 3);
 vanilla.loot.addChestLoot("netherFortress", <aura:gemBlack>.weight(5), 1, 3);
@@ -150,11 +157,14 @@ vanilla.loot.addChestLoot("netherFortress", <aura:AuraCrystal:4>.weight(5), 1, 1
 vanilla.loot.addChestLoot("netherFortress", <Botania:fireRod>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("netherFortress", <Thaumcraft:FocusFire>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("netherFortress", <OpenBlocks:tank>.withTag({tank: {FluidName: "xpjuice", Amount: 32000}}).weight(5), 1, 2);
-vanilla.loot.addChestLoot("netherFortress", <heart:healthHeart>.weight(2), 1, 1);
+vanilla.loot.addChestLoot("netherFortress", <heart:healthHeart>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("netherFortress", <heart:damageBuff>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("netherFortress", <ThermalExpansion:Frame>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("netherFortress", <harvestcraft:market>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("netherFortress", <harvestcraft:presser>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("netherFortress", <chancecubes:chancePendantTier1>.weight(5), 1, 1);
+vanilla.loot.addChestLoot("netherFortress", <chancecubes:chancePendantTier2>.weight(4), 1, 1);
+vanilla.loot.addChestLoot("netherFortress", <chancecubes:chancePendantTier3>.weight(3), 1, 1);
 #   Buffer Items
 vanilla.loot.addChestLoot("netherFortress", <minecraft:ender_pearl>.weight(10), 2, 6);
 vanilla.loot.addChestLoot("netherFortress", <minecraft:ender_eye>.weight(3), 1, 3);
@@ -213,11 +223,14 @@ vanilla.loot.addChestLoot("pyramidDesertyChest", <witchery:ingredient:2>.weight(
 vanilla.loot.addChestLoot("pyramidDesertyChest", <witchery:ingredient:23>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <Botania:altar:6>.weight(15), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <AgriCraft:seedDesertNova>.weight(5), 1, 8);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <heart:healthHeart>.weight(2), 1, 1);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <heart:healthHeart>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <heart:damageBuff>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <ThermalExpansion:Frame>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <harvestcraft:market>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <harvestcraft:presser>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <chancecubes:chancePendantTier1>.weight(5), 1, 1);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <chancecubes:chancePendantTier2>.weight(4), 1, 1);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <chancecubes:chancePendantTier3>.weight(3), 1, 1);
 #   Buffer Items
 vanilla.loot.addChestLoot("pyramidDesertyChest", <minecraft:ender_pearl>.weight(10), 2, 6);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <minecraft:ender_eye>.weight(3), 1, 3);
@@ -283,11 +296,14 @@ vanilla.loot.addChestLoot("pyramidJungleChest", <aura:gemOrange>.weight(5), 1, 3
 vanilla.loot.addChestLoot("pyramidJungleChest", <aura:gemYellow>.weight(5), 1, 3);
 vanilla.loot.addChestLoot("pyramidJungleChest", <aura:gemBlue>.weight(5), 1, 3);
 vanilla.loot.addChestLoot("pyramidJungleChest", <aura:gemViolet>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidJungleChest", <heart:healthHeart>.weight(2), 1, 1);
+vanilla.loot.addChestLoot("pyramidJungleChest", <heart:healthHeart>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("pyramidJungleChest", <heart:damageBuff>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("pyramidJungleChest", <ThermalExpansion:Frame>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("pyramidJungleChest", <harvestcraft:market>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("pyramidJungleChest", <harvestcraft:presser>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("pyramidJungleChest", <chancecubes:chancePendantTier1>.weight(5), 1, 1);
+vanilla.loot.addChestLoot("pyramidJungleChest", <chancecubes:chancePendantTier2>.weight(4), 1, 1);
+vanilla.loot.addChestLoot("pyramidJungleChest", <chancecubes:chancePendantTier3>.weight(3), 1, 1);
 #   Buffer Items
 vanilla.loot.addChestLoot("pyramidJungleChest", <minecraft:ender_pearl>.weight(10), 2, 6);
 vanilla.loot.addChestLoot("pyramidJungleChest", <minecraft:ender_eye>.weight(3), 1, 3);
@@ -368,11 +384,14 @@ vanilla.loot.addChestLoot("strongholdCorridor", <minecraft:dragon_egg>.weight(0.
 vanilla.loot.addChestLoot("strongholdCorridor", <EnderIO:itemTravelStaff>.weight(10), 1, 1);
 vanilla.loot.addChestLoot("strongholdCorridor", <TwilightForest:item.enderBow>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("strongholdCorridor", <ExtraUtilities:plant/ender_lilly>.weight(15), 4, 8);
-vanilla.loot.addChestLoot("strongholdCorridor", <heart:healthHeart>.weight(2), 1, 1);
+vanilla.loot.addChestLoot("strongholdCorridor", <heart:healthHeart>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("strongholdCorridor", <heart:damageBuff>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("strongholdCorridor", <ThermalExpansion:Frame>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("strongholdCorridor", <harvestcraft:market>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("strongholdCorridor", <harvestcraft:presser>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("strongholdCorridor", <chancecubes:chancePendantTier1>.weight(5), 1, 1);
+vanilla.loot.addChestLoot("strongholdCorridor", <chancecubes:chancePendantTier2>.weight(4), 1, 1);
+vanilla.loot.addChestLoot("strongholdCorridor", <chancecubes:chancePendantTier3>.weight(3), 1, 1);
 #   Buffer Items
 vanilla.loot.addChestLoot("strongholdCorridor", <minecraft:ender_pearl>.weight(10), 2, 6);
 vanilla.loot.addChestLoot("strongholdCorridor", <minecraft:ender_eye>.weight(10), 1, 3);
@@ -410,11 +429,14 @@ vanilla.loot.addChestLoot("strongholdCrossing", <aura:ingotAngelSteel:6>.weight(
 vanilla.loot.addChestLoot("strongholdCrossing", <aura:ingotAngelSteel:10>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("strongholdCrossing", <aura:prismWhite>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("strongholdCrossing", <MineFactoryReloaded:safarinet.reusable>.weight(1), 1, 1);
-vanilla.loot.addChestLoot("strongholdCrossing", <heart:healthHeart>.weight(2), 1, 1);
+vanilla.loot.addChestLoot("strongholdCrossing", <heart:healthHeart>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("strongholdCrossing", <heart:damageBuff>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("strongholdCrossing", <ThermalExpansion:Frame>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("strongholdCrossing", <harvestcraft:market>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("strongholdCrossing", <harvestcraft:presser>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("strongholdCrossing", <chancecubes:chancePendantTier1>.weight(5), 1, 1);
+vanilla.loot.addChestLoot("strongholdCrossing", <chancecubes:chancePendantTier2>.weight(4), 1, 1);
+vanilla.loot.addChestLoot("strongholdCrossing", <chancecubes:chancePendantTier3>.weight(3), 1, 1);
 #   Buffer Items
 vanilla.loot.addChestLoot("strongholdCrossing", <minecraft:ender_pearl>.weight(10), 2, 6);
 vanilla.loot.addChestLoot("strongholdCrossing", <minecraft:ender_eye>.weight(10), 1, 3);
@@ -462,10 +484,13 @@ vanilla.loot.addChestLoot("strongholdLibrary", <witchery:biomenote>.weight(5), 1
 vanilla.loot.addChestLoot("strongholdLibrary", <witchery:cauldronbook>.weight(5), 1, 1);
 vanilla.loot.addChestLoot("strongholdLibrary", <witchery:vampirebook>.weight(5), 1, 1);
 vanilla.loot.addChestLoot("strongholdLibrary", <AgriCraft:journal>.weight(5), 1, 1);
-vanilla.loot.addChestLoot("strongholdLibrary", <heart:healthHeart>.weight(2), 1, 1);
+vanilla.loot.addChestLoot("strongholdLibrary", <heart:healthHeart>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("strongholdLibrary", <heart:damageBuff>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("strongholdLibrary", <harvestcraft:market>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("strongholdLibrary", <harvestcraft:presser>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("strongholdLibrary", <chancecubes:chancePendantTier1>.weight(5), 1, 1);
+vanilla.loot.addChestLoot("strongholdLibrary", <chancecubes:chancePendantTier2>.weight(4), 1, 1);
+vanilla.loot.addChestLoot("strongholdLibrary", <chancecubes:chancePendantTier3>.weight(3), 1, 1);
 
 ##  Village Blacksmith
 vanilla.loot.addChestLoot("villageBlacksmith", <Thaumcraft:ItemLootBag:0>.weight(5), 1, 1);
@@ -498,11 +523,14 @@ vanilla.loot.addChestLoot("villageBlacksmith", <TwilightForest:item.fieryIngot>.
 vanilla.loot.addChestLoot("villageBlacksmith", <aura:ingotAngelSteel>.weight(5), 1, 4);
 vanilla.loot.addChestLoot("villageBlacksmith", <aura:ingotAngelSteel:4>.weight(2), 1, 4);
 vanilla.loot.addChestLoot("villageBlacksmith", <aura:ingotAngelSteel:10>.weight(0.5), 1, 4);
-vanilla.loot.addChestLoot("villageBlacksmith", <heart:healthHeart>.weight(2), 1, 1);
+vanilla.loot.addChestLoot("villageBlacksmith", <heart:healthHeart>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("villageBlacksmith", <heart:damageBuff>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("villageBlacksmith", <ThermalExpansion:Frame>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("villageBlacksmith", <harvestcraft:market>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("villageBlacksmith", <harvestcraft:presser>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("villageBlacksmith", <chancecubes:chancePendantTier1>.weight(5), 1, 1);
+vanilla.loot.addChestLoot("villageBlacksmith", <chancecubes:chancePendantTier2>.weight(4), 1, 1);
+vanilla.loot.addChestLoot("villageBlacksmith", <chancecubes:chancePendantTier3>.weight(3), 1, 1);
 #   Buffer Items
 vanilla.loot.addChestLoot("villageBlacksmith", <minecraft:coal>.weight(25), 1, 16);
 vanilla.loot.addChestLoot("villageBlacksmith", <minecraft:coal:1>.weight(25), 1, 16);

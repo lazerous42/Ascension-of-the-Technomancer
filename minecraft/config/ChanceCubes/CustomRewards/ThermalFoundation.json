@@ -1,0 +1,30 @@
+{
+  "cryo": {
+    "Chance": -34,
+    "Block": [
+      {
+        "block": "minecraft:stonebrick",
+        "XOffSet": 0,
+        "YOffSet": 1,
+        "ZOffSet": 0,
+        "Block": "ThermalFoundation:FluidCryotheum",
+        "Falling": true,
+        "RelativeToPlayer": true
+      }
+    ]
+  },
+  "pyro": {
+    "Chance": -34,
+    "Block": [
+      {
+        "block": "minecraft:stonebrick",
+        "XOffSet": 0,
+        "YOffSet": 1,
+        "ZOffSet": 0,
+        "Block": "ThermalFoundation:FluidPyrotheum",
+        "Falling": true,
+        "RelativeToPlayer": true
+      }
+    ]
+  }
+}

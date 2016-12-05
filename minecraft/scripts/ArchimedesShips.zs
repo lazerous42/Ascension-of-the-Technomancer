@@ -24,6 +24,8 @@ val advancedAlloy = <IC2:itemPartAlloy>;
 val log = <ore:logWood>;
 val rawRubber = <IC2:itemHarz>;
 val rubber = <ore:itemRubber>;
+# For progression gating.  You want the airship, you must beat the Twilight Forest
+val lampOfCinders = <TwilightForest:item.lampOfCinders>;
 
 val shipsHelm = <ArchimedesShipsPlus:marker>;
 val steamEngine = <ArchimedesShipsPlus:engine>;
@@ -31,7 +33,8 @@ val floater = <ArchimedesShipsPlus:floater>;
 
 ##  Ships Helm
 recipes.remove(shipsHelm);
-QED.addShapedRecipe(shipsHelm, [[woodSpooky, advancedAlloy, woodSpooky], [gearPlatinum, advancedMachineCasing, gearPlatinum], [capacitorOctaditic, advancedPcb, capacitorOctaditic]]);
+QED.addShapedRecipe(shipsHelm, [[advancedPcb, advancedAlloy, advancedPcb], [gearPlatinum, advancedMachineCasing, gearPlatinum], [capacitorOctaditic, lampOfCinders, capacitorOctaditic]]);
+QED.addShapedRecipe(shipsHelm * 2, [[advancedPcb, advancedAlloy, advancedPcb], [gearPlatinum, advancedMachineCasing, gearPlatinum], [capacitorOctaditic, shipsHelm, capacitorOctaditic]]);
 
 ##  Ships Engine
 recipes.remove(steamEngine);
