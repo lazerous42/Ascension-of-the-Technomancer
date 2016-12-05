@@ -15,13 +15,13 @@ ChangeLog
 ~ Added Simple Achievements
 ~ Remove ghast breaching effect, too difficult and destructive.  Also, reduced range to 48 blocks and fire delay to 3 seconds
 ~ Added flint and blaze recipe to allow for fire creation without steel (however you do need a blaze rod from the overworld)
-----
+
 ~ Version 3.2.6
 ~ Reduced Hunger Overhaul food modifier from 1.75 down to 1.5.  Combat drains too much hunger
 ~ Turn off passive animal aggro, they attach themselves in pens
 ~ Fix splash.properties
 ~ Reduced spawn cap of AMBIENT from 15 to 10 for lag prevention
-----
+
 ~ Updated to version 3.2.5 (Release version)
 ~ Added Lycanites arctic mobs to Polar Chasm
 ~ Tweaked Hunger Overhaul logic to reduce effect on food value reduction
@@ -41,13 +41,13 @@ ChangeLog
 ~ Mod updates.  Updated pack to version 3.2.4
 ~ Added Wawla, Emotes, and the Secret Rooms Mod
 ~ Switched back to MonsterSwarm
-----
+
 ~ Version 3.2.3: Fix the Natura/Spice of Life bug.  Glowshroom soup and Natura Mushroom soup disabled.  Vanilla stew given boost and allowed to stack
 ~ Updated Epic Siege Mod configs to fit in with the early game of pack better (2 weeks until mod kicks in)
 ~ Swapped Monster Swarm for Epic Siege Mod
 ~ Vanilla mob spawns increased by 50%
 ~ Updated guide to document world events
-----
+
 ~ Version 3.2.2: The spreading evil update
 ~ Mobs will now swarm every 7 days and attempt to raid the players base
 ~ Mobs will now occasionally attack neutral entities, the CREATURE type spawn tick modifier has been halved to compensate for this
@@ -62,7 +62,7 @@ ChangeLog
 ~ Removed RTG base on structure spawning issues.  Reika mentioned that using terrain generator mods affects Chromaticraft structure spawn rates (and ocean temples are already to scarce)
 ~ Prevent general type ruins structures from spawning in the ocean
 ~ Quick update of spawn table backups to make the directory compare clean
-----
+
 ~ Version 3.1.2
 ~ Guide updated to reflect that Chococraft is now included, plus re wording and spelling and grammar tweaks.
 ~ Added chance cube pendants to loot tables
@@ -92,14 +92,14 @@ ChangeLog
 ~ Added Thaumic Horizons
 ~ Updated Doomlike Dungeons, with config flush to prevent crashes
 ~ Disallow crafting of pandora's boxes
-----
+
 ~ Version 3.0.1
 ~ Guide update with JVM args and world type info
 ~ Increased distance between village spawns (24 min, 60 max)
 ~ MFR "single block solution" machines will use 50% - 100% more power per work cycle
 ~ Dimension worldgen tweaks
 ~ Spawnlist cleanup (again)
-----
+
 ~ Version 3.0.0
 ~ Fixed some BoP biomes that were turned off in RWG by default
 ~ Hopefully prevented villages from spawning in the ocean
@@ -110,20 +110,20 @@ ChangeLog
 ~ Nether ores will now smelt directly to ingots thanks to GregTech providing a uranium ingot
 ~ Added Open Modular Turrets
 ~ Added Modular Power Suits
-----
+
 ~ Updated to version 2.4.2
 ~ Mod Version Updates
 ~ Unversion carpenters blocks cached resources
 ~ Added guide hint about Geonaks spawning from user placed ore blocks
 ~ Nether platinum way too common
-----
+
 ~ Update to version 2.4.1
 ~ Eliminate electrotine <-> nikolite conversion
 ~ Updated pack to version 2.4.0
 ~ Fixed lava mob spawns (except for khalk, he wants to be a cock and not spawn)
 ~ Added Hardcore wither
 ~ Corrected world reload bug (also /mt reload failure bug)
-----
+
 ~ version 2.3.1
 ~ Mod updates to 
 ~ Openblocks fan now uses GT roter
@@ -136,10 +136,10 @@ ChangeLog
      Electrotine -> Redstone -> Glowstone (Alchemy Catalyst)
 ~ Fix botania mana steel recipe
 ~ Fixed iron chests recipes
-----
+
 ~ Update to 2.2.0
 ~ Mod Updates
-----
+
 ~ Update to 2.1.4
 ~ Disable hardcore darkness in the twilight forest 
 ~ Disabled oreberries in the twilight
@@ -149,7 +149,7 @@ ChangeLog
 ~ Fixed GregTech dough recipe to use oredict
 ~ Updated Mo' Creatures and Chococraft installation notes
 ~ Added JustAnotherSpawnerRestore folder
-----
+
 ~ Update version to 2.1.1
 ~ Changed Spice of Life food history to use hunger restored as opposed to pure number of items consumed
 ~ Tweak notes page about installing Mo' Creatures and Chococraft
@@ -171,7 +171,7 @@ ChangeLog
 ~ Buildcraft engines can explode
 ~ Script bugfixes
 ~ Remove Advanced Solar Panels (not compatible with GregTech)
-----
+
 ~ Updated to 2.1.0b
 ~ Cleaned up modpack guide
 ~ Added Gendustry, Cooking for Blockheads, and GTTweaker
@@ -179,14 +179,14 @@ ChangeLog
 ~ Script updates for version 2.1.0b
 ~ Updated FTBUtils guide for the addition of GregTech and related changes.
 ~  Added Gravisuite
-----
+
 ~ Update to version 2.0.4b
 ~ Mod updates for version 2.0.4b
 ~ Re-introduced some "vanilla" type ore generation to counterbalance the difficulties of finding TG ore veins.  About 35% of the original AotT oregen will be used with CoFH type ore blocks as G non-ticking tile entity type ore blocks cannot be placed by CoFH Core.  This will also correct the issue with Geonach spawning.
 ~ Default Railcraft firestone generation will now be used for the material
 ~ Fixed recipes that involved plates to work correctly with GregTech
 ~ Allow the default crafting recipes for lumium, signalium, and enderium gears
-----
+
 ~ Version 2.0.3b: Minor mod updates, removed Optifine to test Radixcore crashing
 ~ Added Magneticraft
 ~ Disable Agricraft mod specific drops.  This was converting Harvestcraft grapes to GregTech grapes (about 50% of the time), preventing the conversion into seeds.  Als, this option is just plain fucking broken
@@ -196,12 +196,12 @@ ChangeLog
 ~ Disable the fucking EIO dirt slimes!!!
 ~ GregTech worldgen changes for non-flat bedrock
 ~ Revert CoFH oregen for GregTeh ores, it cannot handle tile entity ore blocks
-----
+
 ~ Version 2.0.2b, tweaks to Oreberry generation to eliminate "useless" element berries
 ~ Add in CoFH ore generation at lower values to compensate for the difficulty in finding appropriate ore veins from GregTech alone
 ~ Reduce frequency of witchwood forest
 ~ Added recipes/loot table records for health and damage increase items
-----
+
 ~ Updated to version 2.0.1b
 ~ Moar!!! mod updates
 ~ Update Loot++ files post TConstruct
@@ -209,10 +209,10 @@ ChangeLog
 ~ GregTech world gen tweaks
 ~ Removal of Tinkers Construct and related mods
 ~ Script changes for TiCon removal
-----
+
 ~ Version 2.0.0b GregTech branch initial commit
 ~ Remove non-GregTech gear production
 ~ Removed ComputerCraft in favor of OpenComputers
 ~ Initial setup of GregTech worldgen instead of cofh
 ~ Removed unnecessary oregen files
-----
+
