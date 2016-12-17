@@ -8,6 +8,15 @@ Welcome to the world of Ascension of the Technomancer, a high difficulty alterna
 Good luck friend.
 
 ChangeLog
+-- Update to Version 3.4.2
+-Toggle off LogisticsPipes.cfg update checker, it was throwing exceptions and it shouldn't be showing update messages to end users anyway
+-Adjust spectre dimension key to have a harder recipe (need void metal)
+-Added Chromic Lexicon to the stronghold library chests
+-Removed FastLeafDecay, Random Things provides this and will crash if it's present
+-Added more exclusions to Hardcore Darkness settings, specifically the Nether and Chroma (which shouldn't be affected by this anyway)
+-Increased spawn weights of many non-AoA mobs, especially lycanitesmobs
+-Smalll buffs to the stats of some of the Lycanites mobs that look as though they should be stronger.  This should bring them more into line with the tougher AoA overworld mobs
+
 -- Update to verions 3.3.0
 -Added Simple Achievements with achievement book to provide an early game guide and a set of late game objectives
 -Added Galacticraft + Galactic GregTech + Interstellar Ores

@@ -19915,6 +19915,7 @@ Natura:Natura.workbench - 12
 craftingTank
 BuildCraft|Factory:tankBlock - 0
 deepresonance:tankBlock - 0
+Ztones:tile.tankBlock - 0
 
 
 craftingTeleporter
@@ -63006,6 +63007,7 @@ gregtech:gt.metaitem.01 - 9884
 
 
 nuggetDiamond
+gregtech:gt.metaitem.01 - 9500
 Translocator:diamondNugget - 0
 
 
@@ -63040,6 +63042,7 @@ Botania:manaResource - 19
 
 
 nuggetEmerald
+gregtech:gt.metaitem.01 - 9501
 ForbiddenMagic:FMResource - 0
 
 
@@ -63957,7 +63960,12 @@ ExtraUtilities:color_obsidian - 1
 
 
 obsidianRod
+RandomThings:ingredient - 1
 WR-CBE|Core:obsidianStick - 0
+
+
+obsidianStick
+RandomThings:ingredient - 1
 
 
 obsidianWhite
@@ -87908,6 +87916,11 @@ stickNiobiumNitride
 
 
 stickNiobiumTitanium
+
+
+stickObsidian
+RandomThings:ingredient - 1
+WR-CBE|Core:obsidianStick - 0
 
 
 stickOlivine

@@ -378,11 +378,20 @@
 	- Terrain Scale: 1.0
 
 
+2
+	- Name: SpectreWorld
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: -5.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
 -2
 	- Name: Chroma
 	- Height: 256
 	- Has Sky? true
-	- Cloud Height: 186.89989
+	- Cloud Height: 122.25623
 	- Can Respawn Here? false
 	- Terrain Scale: 1.0
 

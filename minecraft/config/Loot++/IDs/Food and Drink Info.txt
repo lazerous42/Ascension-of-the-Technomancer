@@ -2575,6 +2575,42 @@ OpenComputers:item
 	- Food Info Unknown!
 
 
+RandomThings:imbue
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+RandomThings:imbue
+	- Megadata: 1
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+RandomThings:imbue
+	- Megadata: 2
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+RandomThings:imbue
+	- Megadata: 3
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+RandomThings:imbue
+	- Megadata: 4
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+RandomThings:imbue
+	- Megadata: 5
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
 Steamcraft:steamedBeef
 	- Megadata: 0
 	- Food or Drink? Food
@@ -2792,6 +2828,13 @@ TwilightForest:item.venisonRaw
 	- Food or Drink? Food
 	- Food Amount: 3
 	- Saturation Amount: 0.3
+
+
+Ztones:hunger
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 0
+	- Saturation Amount: 0.0
 
 
 arcticmobs:palesoup

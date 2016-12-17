@@ -405,6 +405,11 @@ Railcraft.railcraft.cart.track.relayer
 Railcraft.railcraft.cart.track.remover
 Railcraft.railcraft.cart.undercutter
 Railcraft.railcraft.cart.work
+RandomThings.HealingOrb
+RandomThings.bloodmoonCircle
+RandomThings.playerSoul
+RandomThings.reviveCircle
+RandomThings.spirit
 Sanguimancy.EntityChickenMinion
 Sanguimancy.EntityPlayerPointer
 Sheep

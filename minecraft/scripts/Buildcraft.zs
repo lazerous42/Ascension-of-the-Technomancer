@@ -38,6 +38,7 @@ recipes.remove(<BuildCraft|Core:woodenGearItem>);
 recipes.remove(<BuildCraft|Core:stoneGearItem>);
 recipes.remove(<BuildCraft|Core:ironGearItem>);
 recipes.remove(<BuildCraft|Core:goldGearItem>);
+recipes.remove(<BuildCraft|Core:diamondGearItem>);
 
 ##  Engines
 recipes.remove(<BuildCraft|Core:engineBlock:2>);

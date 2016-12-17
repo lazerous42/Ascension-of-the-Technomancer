@@ -19,6 +19,7 @@ Locate a limonite (iron) vein::0
 Craft a bloomery furnace and make wrought iron tools::0
 Build a small coal boiler::0
 Build a steam macerator::0
+Setup a charcoal pit::0
 Craft the remaining GregTech bronze steam machines (compressor, forge hammer, extractor)::0
 Build a blast furnace (GT Bronze Brick, Railcraft, Immersive Engineering) and make your first steel::0
 === Beginning's Ending ===::1

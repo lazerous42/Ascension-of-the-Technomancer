@@ -945,6 +945,34 @@
 	- Is Bad? false
 
 
+135
+	- Name: imbue.poison
+	- Color: 10145074
+	- Is Instant? false
+	- Is Bad? false
+
+
+136
+	- Name: imbue.experience
+	- Color: 14214234
+	- Is Instant? false
+	- Is Bad? false
+
+
+137
+	- Name: imbue.fire
+	- Color: 16729344
+	- Is Instant? false
+	- Is Bad? false
+
+
+138
+	- Name: imbue.wither
+	- Color: 3881787
+	- Is Instant? false
+	- Is Bad? false
+
+
 139
 	- Name: potion.binding
 	- Color: 0
@@ -1145,6 +1173,20 @@
 	- Name: Legendary Mana Restoration
 	- Color: 16776960
 	- Is Instant? true
+	- Is Bad? false
+
+
+168
+	- Name: imbue.weakness
+	- Color: 16777215
+	- Is Instant? false
+	- Is Bad? false
+
+
+169
+	- Name: imbue.spectre
+	- Color: 12578815
+	- Is Instant? false
 	- Is Bad? false
 
 

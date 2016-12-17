@@ -24,6 +24,9 @@ val gtHammer = <gregtech:gt.metatool.01:12>;
 <ore:dyeBlack>.add(<gregtech:gt.metaitem.01:2535>);
 <ore:dyeBlack>.add(<gregtech:gt.metaitem.01:2536>);
 
+## Fix wrought iron ingot -> conversion
+recipes.addShapeless(<gregtech:gt.metaitem.01:9304> * 9, [<gregtech:gt.metaitem.01:11304>]);
+
 ##  Iron Rod ~ Remove toolless crafting
 recipes.removeShaped(rodIron * 4, [[<ore:ingotIron>, null, null],[<ore:ingotIron>, null, null], [null, null, null]]);
 

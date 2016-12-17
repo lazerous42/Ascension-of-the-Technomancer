@@ -22,4 +22,5 @@ recipes.removeShaped(shipCore);
 QED.addShapedRecipe(shipCore, [[plateDeshDouble, ghastTear, plateDeshDouble], 
 			       [enderTunedCrystal, machineCasingMV, enderTunedCrystal], 
 			       [capacitiveCrystal, powerInterface, capacitiveCrystal]]);
+			       
 print("Initialized 'WarpDrive.zs'...");

@@ -100,7 +100,7 @@
 -1 is Occupied by: Nether, Provider: (id: -1, class: class biomesoplenty.common.world.WorldProviderBOPHell)
 0 is Occupied by: Overworld, Provider: (id: 0, class: class net.minecraft.world.WorldProviderSurface)
 1 is Occupied by: The End, Provider: (id: 1, class: class net.minecraft.world.WorldProviderEnd)
-2 is Avaible
+2 is Occupied by: SpectreWorld, Provider: (id: 2, class: class lumien.randomthings.Handler.Spectre.WorldProviderSpectre)
 3 is Avaible
 4 is Avaible
 5 is Avaible
