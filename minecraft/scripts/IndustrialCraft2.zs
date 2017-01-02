@@ -31,7 +31,7 @@ recipes.addShaped(<IC2:blockMachine2:11>, [[<IC2:itemPartAlloy>, <BuildCraft|Fac
 
 ##  Re-Batt
 recipes.remove(<IC2:itemBatREDischarged>);
-recipes.addShaped(<IC2:itemBatREDischarged>, [[null, <IC2:itemCable:13>, null], [<IC2:itemCasing:1>, <ore:dustElectrotine>, <IC2:itemCasing:1>], [<IC2:itemCasing:1>, <ore:dustElectrotine>, <IC2:itemCasing:1>]]);
+recipes.addShaped(<IC2:itemBatREDischarged>, [[null, <ore:craftingWireTin>, null], [<IC2:itemCasing:1>, <ore:dustElectrotine>, <IC2:itemCasing:1>], [<IC2:itemCasing:1>, <ore:dustElectrotine>, <IC2:itemCasing:1>]]);
 
 ##  Nerf Hammer Recipes
 //recipes.remove(<IC2:itemCasing:6>);

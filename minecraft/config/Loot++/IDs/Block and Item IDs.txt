@@ -6358,6 +6358,9 @@ customnpcs:npcX407Chest - 8289
 customnpcs:npcX407Head - 8288
 customnpcs:npcX407Legs - 8290
 customthings:item - 10051
+cuttingedge:evap - 11047
+cuttingedge:sapbucket - 11049
+cuttingedge:tap - 11048
 deepresonance:blockResonating - 3275
 deepresonance:crystalizerBlock - 3284
 deepresonance:deepResonanceManualItem - 8368

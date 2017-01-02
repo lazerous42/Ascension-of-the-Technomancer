@@ -86,6 +86,7 @@ recipes.addShaped(<ImmersiveEngineering:blueprint:1>, [[<ore:ingotHOPGraphite>, 
 
 ##  Metal Press Plate Recipies
 //MetalPress.addRecipe(plateBrass, <Steamcraft:steamcraftIngot:2>, <ImmersiveEngineering:mold>, 2400);
+//MetalPress.addRecipe(plateBrass, <Steamcraft:steamcraftIngot:2>, <ImmersiveEngineering:mold>, 2400);
 //MetalPress.addRecipe(plateBronze, <ThermalFoundation:material:73>, <ImmersiveEngineering:mold>, 2400);
 //MetalPress.addRecipe(plateBronze, <minecraft:gold_ingot>, <ImmersiveEngineering:mold>, 2400);
 //MetalPress.addRecipe(plateTin, <ThermalFoundation:material:65>, <ImmersiveEngineering:mold>, 2400);

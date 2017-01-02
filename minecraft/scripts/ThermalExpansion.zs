@@ -6,10 +6,15 @@
 ##  Imports
 import mods.buildcraft.AssemblyTable;
 import mods.thermalexpansion.Crucible;
+import mods.gregtech.AlloySmelter;
+import mods.gregtech.Extruder;
+import mods.gregtech.FluidSolidifier;
+import mods.immersiveengineering.MetalPress;
 
 print("Initializing 'ThermalExpansion.zs'...");
 
 ## Val Definitions
+val moldGear = <ImmersiveEngineering:mold:1>;
 val crushedObsidian = <Railcraft:cube:4>;
 val firestoneRaw = <Railcraft:firestone.raw>;
 val ingotInvar = <ore:ingotInvar>;
@@ -69,9 +74,102 @@ recipes.remove(<ThermalFoundation:material:131>);
 recipes.remove(<ThermalFoundation:material:132>);
 recipes.remove(<ThermalFoundation:material:133>);
 recipes.remove(<ThermalFoundation:material:134>);
-//recipes.remove(<ThermalFoundation:material:135>);
-//recipes.remove(<ThermalFoundation:material:136>);
-//recipes.remove(<ThermalFoundation:material:137>);
+recipes.remove(<ThermalFoundation:material:135>);
+recipes.remove(<ThermalFoundation:material:136>);
+recipes.remove(<ThermalFoundation:material:137>);
+recipes.remove(<ThermalFoundation:material:138>);
+recipes.remove(<ThermalFoundation:material:139>);
+recipes.remove(<ThermalFoundation:material:140>);
+
+## Now Gregify the gears
+# Iron Gear
+MetalPress.removeRecipe(<ThermalFoundation:material:12>);
+MetalPress.removeRecipe(<gregtech:gt.metaitem.02:31032>);
+MetalPress.addRecipe(<gregtech:gt.metaitem.02:31032>, <ore:ingotIron>, moldGear, 6400, 6);
+MetalPress.addRecipe(<gregtech:gt.metaitem.02:31032>, <ore:ingotWroughtIron>, moldGear, 6400, 6);
+# Gold Gear
+MetalPress.removeRecipe(<ThermalFoundation:material:13>);
+MetalPress.removeRecipe(<gregtech:gt.metaitem.02:31086>);
+MetalPress.addRecipe(<gregtech:gt.metaitem.02:31086>, <ore:ingotGold>, moldGear, 6400, 6);
+# Copper Gear
+MetalPress.removeRecipe(<ThermalFoundation:material:128>);
+MetalPress.removeRecipe(<gregtech:gt.metaitem.02:31035>);
+MetalPress.addRecipe(<gregtech:gt.metaitem.02:31035>, <ore:ingotCopper>, moldGear, 6400, 6);
+# Tin Gear
+MetalPress.removeRecipe(<ThermalFoundation:material:129>);
+MetalPress.removeRecipe(<gregtech:gt.metaitem.02:31057>);
+MetalPress.addRecipe(<gregtech:gt.metaitem.02:31057>, <ore:ingotTin>, moldGear, 6400, 6);
+# Silver Gear
+MetalPress.removeRecipe(<ThermalFoundation:material:130>);
+MetalPress.addRecipe(<ThermalFoundation:material:130>, <ore:ingotSilver>, moldGear, 6400, 6);
+recipes.addShaped(<ThermalFoundation:material:130>, [[<ore:stickSilver>, <ore:plateSilver>, <ore:stickSilver>], [<ore:plateSilver>, <ore:craftingToolWrench>, <ore:plateSilver>], [<ore:stickSilver>, <ore:plateSilver>, <ore:stickSilver>]]);
+AlloySmelter.addRecipe(<ThermalFoundation:material:130>, <ore:ingotSilver> * 6, <gregtech:gt.metaitem.01:32303> * 0, 760, 32);
+Extruder.addRecipe(<ThermalFoundation:material:130>, <ore:ingotSilver> * 4, <gregtech:gt.metaitem.01:32372> * 0, 300, 128);
+FluidSolidifier.addRecipe(<ThermalFoundation:material:130>, <gregtech:gt.metaitem.01:32303> * 0, <liquid:molten.silver> * 576, 120, 8);
+# Lead Gear
+MetalPress.removeRecipe(<ThermalFoundation:material:131>);
+MetalPress.addRecipe(<ThermalFoundation:material:131>, <ore:ingotLead>, moldGear, 6400, 6);
+recipes.addShaped(<ThermalFoundation:material:131>, [[<ore:stickLead>, <ore:plateLead>, <ore:stickLead>], [<ore:plateLead>, <ore:craftingToolWrench>, <ore:plateLead>], [<ore:stickLead>, <ore:plateLead>, <ore:stickLead>]]);
+AlloySmelter.addRecipe(<ThermalFoundation:material:131>, <ore:ingotLead> * 6, <gregtech:gt.metaitem.01:32303> * 0, 560, 32);
+Extruder.addRecipe(<ThermalFoundation:material:131>, <ore:ingotLead> * 4, <gregtech:gt.metaitem.01:32372> * 0, 300, 128);
+FluidSolidifier.addRecipe(<ThermalFoundation:material:131>, <gregtech:gt.metaitem.01:32303> * 0, <liquid:molten.lead> * 576, 120, 8);
+# Nickel Gear
+MetalPress.removeRecipe(<ThermalFoundation:material:132>);
+MetalPress.addRecipe(<ThermalFoundation:material:132>, <ore:ingotNickel>, moldGear, 6400, 6);
+recipes.addShaped(<ThermalFoundation:material:132>, [[<ore:stickNickel>, <ore:plateNickel>, <ore:stickNickel>], [<ore:plateNickel>, <ore:craftingToolWrench>, <ore:plateNickel>], [<ore:stickNickel>, <ore:plateNickel>, <ore:stickNickel>]]);
+AlloySmelter.addRecipe(<ThermalFoundation:material:132>, <ore:ingotNickel> * 6, <gregtech:gt.metaitem.01:32303> * 0, 760, 32);
+Extruder.addRecipe(<ThermalFoundation:material:132>, <ore:ingotNickel> * 4, <gregtech:gt.metaitem.01:32372> * 0, 300, 128);
+FluidSolidifier.addRecipe(<ThermalFoundation:material:132>, <gregtech:gt.metaitem.01:32303> * 0, <liquid:molten.nickel> * 576, 120, 8);
+# Platinum Gear
+MetalPress.removeRecipe(<ThermalFoundation:material:133>);
+MetalPress.addRecipe(<ThermalFoundation:material:133>, <ore:ingotPlatinum>, moldGear, 6400, 6);
+recipes.addShaped(<ThermalFoundation:material:133>, [[<ore:stickPlatinum>, <ore:platePlatinum>, <ore:stickPlatinum>], [<ore:platePlatinum>, <ore:craftingToolWrench>, <ore:platePlatinum>], [<ore:stickPlatinum>, <ore:platePlatinum>, <ore:stickPlatinum>]]);
+AlloySmelter.addRecipe(<ThermalFoundation:material:133>, <ore:ingotPlatinum> * 6, <gregtech:gt.metaitem.01:32303> * 0, 760, 32);
+Extruder.addRecipe(<ThermalFoundation:material:133>, <ore:ingotPlatinum> * 4, <gregtech:gt.metaitem.01:32372> * 0, 300, 128);
+FluidSolidifier.addRecipe(<ThermalFoundation:material:133>, <gregtech:gt.metaitem.01:32303> * 0, <liquid:molten.platinum> * 576, 120, 8);
+# Mithril Gear
+MetalPress.removeRecipe(<ThermalFoundation:material:134>);
+MetalPress.addRecipe(<ThermalFoundation:material:134>, <ore:ingotMithril>, moldGear, 6400, 6);
+recipes.addShaped(<ThermalFoundation:material:134>, [[<ore:stickMithril>, <ore:plateMithril>, <ore:stickMithril>], [<ore:plateMithril>, <ore:craftingToolWrench>, <ore:plateMithril>], [<ore:stickMithril>, <ore:plateMithril>, <ore:stickMithril>]]);
+AlloySmelter.addRecipe(<ThermalFoundation:material:134>, <ore:ingotMithril> * 6, <gregtech:gt.metaitem.01:32303> * 0, 760, 32);
+Extruder.addRecipe(<ThermalFoundation:material:134>, <ore:ingotMithril> * 4, <gregtech:gt.metaitem.01:32372> * 0, 300, 128);
+FluidSolidifier.addRecipe(<ThermalFoundation:material:134>, <gregtech:gt.metaitem.01:32303> * 0, <liquid:molten.mithril> * 576, 120, 8);
+# Electrum Gear
+MetalPress.removeRecipe(<ThermalFoundation:material:135>);
+MetalPress.addRecipe(<ThermalFoundation:material:135>, <ore:ingotElectrum>, moldGear, 6400, 6);
+recipes.addShaped(<ThermalFoundation:material:135>, [[<ore:stickElectrum>, <ore:plateElectrum>, <ore:stickElectrum>], [<ore:plateElectrum>, <ore:craftingToolWrench>, <ore:plateElectrum>], [<ore:stickElectrum>, <ore:plateElectrum>, <ore:stickElectrum>]]);
+AlloySmelter.addRecipe(<ThermalFoundation:material:135>, <ore:ingotElectrum> * 6, <gregtech:gt.metaitem.01:32303> * 0, 760, 32);
+Extruder.addRecipe(<ThermalFoundation:material:135>, <ore:ingotElectrum> * 4, <gregtech:gt.metaitem.01:32372> * 0, 300, 128);
+FluidSolidifier.addRecipe(<ThermalFoundation:material:135>, <gregtech:gt.metaitem.01:32303> * 0, <liquid:molten.electrum> * 576, 120, 8);
+# Invar Gear
+MetalPress.removeRecipe(<ThermalFoundation:material:136>);
+MetalPress.addRecipe(<ThermalFoundation:material:136>, <ore:ingotInvar>, moldGear, 6400, 6);
+recipes.addShaped(<ThermalFoundation:material:136>, [[<ore:stickInvar>, <ore:plateInvar>, <ore:stickInvar>], [<ore:plateInvar>, <ore:craftingToolWrench>, <ore:plateInvar>], [<ore:stickInvar>, <ore:plateInvar>, <ore:stickInvar>]]);
+AlloySmelter.addRecipe(<ThermalFoundation:material:136>, <ore:ingotInvar> * 6, <gregtech:gt.metaitem.01:32303> * 0, 760, 32);
+Extruder.addRecipe(<ThermalFoundation:material:136>, <ore:ingotInvar> * 4, <gregtech:gt.metaitem.01:32372> * 0, 300, 128);
+FluidSolidifier.addRecipe(<ThermalFoundation:material:136>, <gregtech:gt.metaitem.01:32303> * 0, <liquid:molten.invar> * 576, 120, 8);
+# Bronze Gear
+MetalPress.removeRecipe(<ThermalFoundation:material:137>);
+MetalPress.removeRecipe(<gregtech:gt.metaitem.02:31300>);
+MetalPress.addRecipe(<gregtech:gt.metaitem.02:31300>, <ore:ingotBronze>, moldGear, 6400, 6);
+# Signalium Gear
+MetalPress.removeRecipe(<ThermalFoundation:material:138>);
+MetalPress.addRecipe(<ThermalFoundation:material:138>, <ThermalFoundation:material:74>, moldGear, 6400, 6);
+AlloySmelter.addRecipe(<ThermalFoundation:material:138>, <ThermalFoundation:material:74> * 6, <gregtech:gt.metaitem.01:32303> * 0, 760, 32);
+Extruder.addRecipe(<ThermalFoundation:material:138>, <ThermalFoundation:material:74> * 4, <gregtech:gt.metaitem.01:32372> * 0, 300, 128);
+FluidSolidifier.addRecipe(<ThermalFoundation:material:138>, <gregtech:gt.metaitem.01:32303> * 0, <liquid:molten.signalum> * 576, 120, 8);
+# Lumium Gear
+MetalPress.removeRecipe(<ThermalFoundation:material:139>);
+MetalPress.addRecipe(<ThermalFoundation:material:139>, <ThermalFoundation:material:75>, moldGear, 6400, 6);
+AlloySmelter.addRecipe(<ThermalFoundation:material:139>, <ThermalFoundation:material:75> * 6, <gregtech:gt.metaitem.01:32303> * 0, 760, 32);
+Extruder.addRecipe(<ThermalFoundation:material:139>, <ThermalFoundation:material:75> * 4, <gregtech:gt.metaitem.01:32372> * 0, 300, 128);
+FluidSolidifier.addRecipe(<ThermalFoundation:material:139>, <gregtech:gt.metaitem.01:32303> * 0, <liquid:molten.lumium> * 576, 120, 8);
+# Enderium Gear
+MetalPress.removeRecipe(<ThermalFoundation:material:140>);
+MetalPress.addRecipe(<ThermalFoundation:material:140>, <ThermalFoundation:material:76>, moldGear, 6400, 6);
+AlloySmelter.addRecipe(<ThermalFoundation:material:140>, <ThermalFoundation:material:76> * 6, <gregtech:gt.metaitem.01:32303> * 0, 960, 32);
+Extruder.addRecipe(<ThermalFoundation:material:140>, <ThermalFoundation:material:76> * 4, <gregtech:gt.metaitem.01:32372> * 0, 400, 128);
+FluidSolidifier.addRecipe(<ThermalFoundation:material:140>, <gregtech:gt.metaitem.01:32303> * 0, <liquid:molten.enderium> * 576, 200, 8);
 
 ##  Machine Frames
 recipes.remove(<ThermalExpansion:Frame>);

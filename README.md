@@ -1,5 +1,5 @@
 # Ascension-of-the-Technomancer
-Newest Config Version 3.3.0
+Newest Config Version 3.5.1
 
 Hello there friend.  It seems as though you've met with a terrible fate, haven't you?  
 
@@ -8,6 +8,30 @@ Welcome to the world of Ascension of the Technomancer, a high difficulty alterna
 Good luck friend.
 
 ChangeLog
+-- Version 3.5.1
+- HOTFIX: RE-Battery is not craftable with GT tin cables.  Need to use ore dict entry for initial battery buffer batteries.
+- Added agricraft soil entry for Random Things fertilized dirt
+- Added cutting edge tree tapping kit
+- Turned off "slender man" effects for enderman.  This Epic Siege Mod effect seemed to get stuck on the player after aggroing an enderman, even after the enderman was killed.
+- Fixed ESM dimension mob stat multiplier syntax
+- commit missing eiramoticons.cfg file and OpenComputers dlls that were missed from the main 3.5.1 commit
+- Underdark, Twilight Forest, and The Outerlands now have mob base stat modifiers
+- Endermen now cause slenderman style effects
+- UI changes for better YouTubing.  Thaumcraft and Chromaticraft (hopefully) "mana" displays will now be rendered in the lower left to prevent standard face cam location from overlapping with them.
+- Enable player head drop on death 100% of the time for more funs
+- Added forge microblocks support for GregTech machine case blocks
+- Added Easter egg type message to Morpheus night passage text
+-- Update to version 3.5.0
+- 3.5.x mod updates
+- Added eiramoticons
+- Added Crafting Tweaks
+-- Version 3.4.3
+- Consolidate all gear recipes to follow GregTech guidelines
+- Added some ztones tweaks
+- Toggle off LogisticsPipes.cfg update checker, it was throwing exceptions and it shouldn't be showing update messages to end users anyway
+- Adjust spectre dimension key to have a harder recipe (need void metal), this time actually committing the change
+- Added Chromic Lexicon to the stronghold library chests
+- Adjust spectre dimension key to have a harder recipe (need void metal)
 -- Update to Version 3.4.2
 -Toggle off LogisticsPipes.cfg update checker, it was throwing exceptions and it shouldn't be showing update messages to end users anyway
 -Adjust spectre dimension key to have a harder recipe (need void metal)

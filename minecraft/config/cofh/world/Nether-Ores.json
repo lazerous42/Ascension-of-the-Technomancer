@@ -414,11 +414,11 @@
 			"metadata": 5
 		},
 		"material": "minecraft:netherrack",
-		"clusterSize": 3,
+		"clusterSize": 5,
 		"numClusters": 6,
 		"minHeight": 1,
 		"maxHeight": 128,
-		"retrogen": "false",
+		"retrogen": "true",
 		"biomeRestriction": "none",
 		"biomes": [
 			"all"
