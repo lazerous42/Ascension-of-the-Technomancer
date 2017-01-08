@@ -1,5 +1,5 @@
 # Ascension-of-the-Technomancer
-Newest Config Version 3.5.1
+Newest Config Version 3.5.4
 
 Hello there friend.  It seems as though you've met with a terrible fate, haven't you?  
 
@@ -8,6 +8,35 @@ Welcome to the world of Ascension of the Technomancer, a high difficulty alterna
 Good luck friend.
 
 ChangeLog
+
+-- Version 3.5.4
+- BUGFIX Addendum: 4 regular steel plates are required for the basic machine frame (instead of the dense one)
+- Chromaticraft lumen wheel moved to lower left corner of screen (where it was originally intended to be)
+- Added admin commands to guide
+-- Version 3.5.3
+- Redstone furnace can now make charcoal from all logs
+- Natura logs no longer smelt to charcoal in vanilla furnaces
+- Changed Chocopedia recipe to allow for any black dye, not just ink sacks
+- BUGFIX:  Need diamond gear for assembly table and GT recipe requires flawless diamonds and far too much infrastructure.  Changed to invar gear
+- Adjust deep resonance ore generation file to made resonating ore a little more common and hopefully file crystal generation.  This only applies to the location where these ores are allowed to generate
+- BUGFIX:  Hobbyist steam engine is referencing ore:gearBrass, this is not a gear added by GT.  It was switched back to gold gears
+- Changed Bibliocraft big writing book default text scale to 1.0
+- Added MOTD to inform players about retrogen
+-- Version 3.5.2
+- Retrogening vanilla coal deposits as well, tooo hard to find coal veins for coke/coal dust/coal chunks and other uses where charcoal is not allowed
+- Re-introduced railcraft ore spawning through cofh.  Sulfur, Saltpeter, and Firestones (rare) will be RETROGENED into existing worlds to address balance issues with vulcanizing rubber.
+- BUGFIX: RE-Battery is not craftable with GT tin cables.  Need to use ore dict entry for initial battery buffer batteries.
+- Added agricraft soil entry for Random Things fertilized dirt
+- Added cutting edge tree tapping kit
+- Turned off "slender man" effects for enderman.  This Epic Siege Mod effect seemed to get stuck on the player after aggroing an enderman, even after the enderman was killed.
+- Fixed ESM dimension mob stat multiplier syntax
+- commit missing eiramoticons.cfg file and OpenComputers dlls that were missed from the main 3.5.1 commit
+- Underdark, Twilight Forest, and The Outerlands now have mob base stat modifiers
+- Endermen now cause slenderman style effects
+- 3.5.x mod updates
+- Added eiramoticons
+- UI changes for better YouTubing.  Thaumcraft and Chromaticraft (hopefully) "mana" displays will now be rendered in the lower left to prevent standard face cam location from overlapping with them.
+- Enable player head drop on death 100% of the time for more funs
 -- Version 3.5.1
 - HOTFIX: RE-Battery is not craftable with GT tin cables.  Need to use ore dict entry for initial battery buffer batteries.
 - Added agricraft soil entry for Random Things fertilized dirt

@@ -43330,9 +43330,6 @@ gearAnyIron
 gregtech:gt.metaitem.02 - 31032
 
 
-gearBrass
-
-
 gearBronze
 Forestry:gearBronze - 0
 ThermalFoundation:material - 137

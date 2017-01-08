@@ -7,6 +7,7 @@ print("Initializing 'Buildcraft.zs'...");
 
 ## Val Definitions
 val woodPlanks = <ore:plankWood>;
+val diamond = <ore:gemDiamond>;
 val ingotIron = <ore:ingotIron>;
 val ingotGold = <ore:ingotGold>;
 val obsidian = <ore:blockObsidian>;
@@ -32,6 +33,7 @@ val pump = <BuildCraft|Factory:pumpBlock>;
 val floodGate = <BuildCraft|Factory:floodGateBlock>;
 val marker = <BuildCraft|Core:markerBlock>;
 val filler = <BuildCraft|Builders:fillerBlock>;
+val assemblyTable = <BuildCraft|Silicon:laserTableBlock>;
 
 ##  Remove non-GregTech gears
 recipes.remove(<BuildCraft|Core:woodenGearItem>);
@@ -47,6 +49,10 @@ recipes.remove(<BuildCraft|Core:engineBlock>);
 recipes.addShaped(<BuildCraft|Core:engineBlock>, [[woodPlanks, woodPlanks, woodPlanks], [null, circuitBoardBasic, null], [gearCopper, stickyPiston, gearCopper]]);
 recipes.addShaped(<BuildCraft|Core:engineBlock:1>, [[ingotIron, ingotIron, ingotIron], [null, circuitBoardRefined, null], [<ore:thermalexpansion:machineSilver>, stickyPiston, <ore:thermalexpansion:machineSilver>]]);
 recipes.addShaped(<BuildCraft|Core:engineBlock:2>, [[ingotGold, ingotGold, ingotGold], [null, circuitBoardIntricate, null], [<ore:thermalexpansion:machineNickel>, stickyPiston, <ore:thermalexpansion:machineNickel>]]);
+
+##  Assembly Table
+recipes.remove(assemblyTable);
+recipes.addShaped(assemblyTable, [[obsidian, diamond, obsidian], [obsidian, dustRedstone, obsidian], [obsidian, gearInvar, obsidian]]);
 
 ##  Laser
 recipes.remove(<BuildCraft|Silicon:laserBlock>);

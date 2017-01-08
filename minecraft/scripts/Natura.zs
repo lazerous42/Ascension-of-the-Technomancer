@@ -39,6 +39,19 @@ for meta, log in logs {
     recipes.addShapedMirrored(<Natura:planks>.definition.makeStack(meta) * 4, [[<ore:craftingToolSaw>, null], [log, null]]);
 }
 
+var charcoalLogs = [<Natura:tree>, 
+	    	    <Natura:tree:1>, 
+	            <Natura:tree:2>, 
+	            <Natura:tree:3>,
+	            <Natura:redwood>,
+	            <Natura:redwood:1>,
+	            <Natura:redwood:2>] as IItemStack[];
+for log in charcoalLogs {
+    furnace.remove(<minecraft:coal:1>, log);
+}
+
+## Remove ability to make charcoal from Natura logs in vanilla furnace
+
 ##  Stick Fixes
 var stickMeta = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] as int[];
 for meta in stickMeta {

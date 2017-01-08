@@ -43,6 +43,23 @@
             1
         ]
     },
+    "Coal": {
+        "template": "uniform",
+        "block": "coal_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 6,
+        "numClusters": 10,
+        "minHeight": 2,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
     "Iron": {
         "template": "uniform",
         "block": "iron_ore",
@@ -56,11 +73,6 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -30,
-            -29,
-            -28,
-            -27,
-            -26,
             -1,
             1
         ]
@@ -78,11 +90,6 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -30,
-            -29,
-            -28,
-            -27,
-            -26,
             -1,
             1
         ]
@@ -110,11 +117,6 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -30,
-            -29,
-            -28,
-            -27,
-            -26,
             -1,
             1
         ]
@@ -132,11 +134,6 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -30,
-            -29,
-            -28,
-            -27,
-            -26,
             -1,
             1
         ]
@@ -154,11 +151,6 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -30,
-            -29,
-            -28,
-            -27,
-            -26,
             -1,
             1
         ]
@@ -176,11 +168,6 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -30,
-            -29,
-            -28,
-            -27,
-            -26,
             -1,
             1
         ]
@@ -203,11 +190,6 @@
         ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -30,
-            -29,
-            -28,
-            -27,
-            -26,
             0,
             1
         ]

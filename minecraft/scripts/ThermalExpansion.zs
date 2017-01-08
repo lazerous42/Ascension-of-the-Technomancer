@@ -14,6 +14,7 @@ import mods.immersiveengineering.MetalPress;
 print("Initializing 'ThermalExpansion.zs'...");
 
 ## Val Definitions
+val plateSteel = <ore:plateSteel>;
 val moldGear = <ImmersiveEngineering:mold:1>;
 val crushedObsidian = <Railcraft:cube:4>;
 val firestoneRaw = <Railcraft:firestone.raw>;
@@ -176,7 +177,7 @@ recipes.remove(<ThermalExpansion:Frame>);
 recipes.remove(<ThermalExpansion:Frame:1>);
 recipes.remove(<ThermalExpansion:Frame:2>);
 recipes.remove(<ThermalExpansion:Frame:3>);
-AssemblyTable.addRecipe(<ThermalExpansion:Frame>, 400000, [<ore:plateDenseSteel>, crushedObsidian * 2, gearTin, chipsetIron, circuitBoardBasic]);
+AssemblyTable.addRecipe(<ThermalExpansion:Frame>, 400000, [plateSteel, plateSteel, plateSteel, plateSteel, crushedObsidian * 2, gearTin, chipsetIron, circuitBoardBasic]);
 AssemblyTable.addRecipe(<ThermalExpansion:Frame:1>, 2000000, [<ore:plateDenseSteel>, crushedObsidian * 2, gearElectrum, chipsetGold, circuitBoardRefined]);
 AssemblyTable.addRecipe(<ThermalExpansion:Frame:2>, 10000000, [<ore:plateDenseSteel>, crushedObsidian * 2, gearSignalum, chipsetDiamond, circuitBoardIntricate]);
 AssemblyTable.addRecipe(<ThermalExpansion:Frame:3>, 50000000, [<ore:plateDenseSteel>, crushedObsidian * 2, gearEnderium, chipsetEmerald, circuitBoardIntricate]);

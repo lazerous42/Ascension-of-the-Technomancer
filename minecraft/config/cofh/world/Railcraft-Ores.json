@@ -1,0 +1,72 @@
+{
+	"FireStone": {
+		"template": "uniform",
+		"block": {
+			"name": "Railcraft:ore",
+			"metadata": 5
+		},
+		"material": "minecraft:netherrack",
+		"clusterSize": 2,
+		"numClusters": 4,
+		"minHeight": 1,
+		"maxHeight": 127,
+		"retrogen": "true",
+		"biomeRestriction": "none",
+		"biomes": [
+			"all"
+		],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-30, 
+			-29, 
+			-28, 
+			-27, 
+			-26,
+			0,
+			1
+		]
+	},
+	"Saltpeter": {
+		"template": "uniform",
+		"block": {
+			"name": "Railcraft:ore",
+			"metadata": 1
+		},
+		"material": {
+			"name": "minecraft:sand",
+			"metadata": 0
+		},
+		"clusterSize": 4,
+		"numClusters": 30,
+		"minHeight": 50,
+		"maxHeight": 150,
+		"retrogen": "true",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
+	},
+	"Sulfur": {
+		"template": "uniform",
+		"block": {
+			"name": "Railcraft:ore",
+			"metadata": 0
+		},
+		"material": "minecraft:stone",
+		"clusterSize": 3,
+		"numClusters": 5,
+		"minHeight": 5,
+		"maxHeight": 42,
+		"retrogen": "true",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
+	}
+}

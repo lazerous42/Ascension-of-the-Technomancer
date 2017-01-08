@@ -20,7 +20,6 @@ val blockRedstone = <minecraft:redstone_block>;
 val bucketLava = <minecraft:lava_bucket>;
 
 val ingotBrass = <ore:ingotBrass>;
-val gearBrass = <ore:gearBrass>;
 val ingotEnderium = <ore:ingotEnderium>;
 val gearIron = <ore:gearIron>;
 val gearGoldPlated = <Railcraft:part.gear:0>;
@@ -75,7 +74,7 @@ recipes.addShaped(<Railcraft:machine.beta:10>,[[null,<minecraft:ender_pearl>,nul
 recipes.remove(hobbyistSteamEngine);
 recipes.remove(commercialSteamEngine);
 recipes.remove(industrialSteamEngine);
-recipes.addShaped(hobbyistSteamEngine,[[ingotBrass, ingotBrass, ingotBrass], [null, glass, null], [gearBrass, piston, gearBrass]]);
+recipes.addShaped(hobbyistSteamEngine,[[ingotBrass, ingotBrass, ingotBrass], [null, glass, null], [gearGold, piston, gearGold]]);
 recipes.addShaped(commercialSteamEngine, [[ingotBrass, ingotBrass, ingotBrass], [circuitBoardRefined, chipsetIron, circuitBoardRefined], [gearIron, piston, gearIron]]);
 recipes.addShaped(industrialSteamEngine, [[ingotBrass, ingotBrass, ingotBrass], [circuitBoardIntricate, chipsetGold, circuitBoardIntricate], [gearSteel, piston, gearSteel]]);
 
