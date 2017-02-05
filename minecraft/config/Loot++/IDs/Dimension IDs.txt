@@ -378,6 +378,24 @@
 	- Terrain Scale: 1.0
 
 
+4
+	- Name: Dungeons
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+3
+	- Name: Aether
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: -128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
 2
 	- Name: SpectreWorld
 	- Height: 128
@@ -391,7 +409,7 @@
 	- Name: Chroma
 	- Height: 256
 	- Has Sky? true
-	- Cloud Height: 126.12164
+	- Cloud Height: 185.37221
 	- Can Respawn Here? false
 	- Terrain Scale: 1.0
 

@@ -22,6 +22,11 @@ Build a steam macerator::0
 Setup a charcoal pit::0
 Craft the remaining GregTech bronze steam machines (compressor, forge hammer, extractor)::0
 Build a blast furnace (GT Bronze Brick, Railcraft, Immersive Engineering) and make your first steel::0
+::1
+::1
+::1
+::1
+::1
 === Beginning's Ending ===::1
 Create a rubber farm::0
 Setup your first GregTech electricity generation::0
@@ -34,6 +39,12 @@ Create an RF power source, or use Immersive Engineering wires to convert GT elec
 Make your first Thermal Expansion Machine Frame::0
 ::1
 ::1
+=== Is This Heaven? ===::1
+This must be paradise, the pigs can fly::2
+Enter the Aether Portal::0
+Find a Slider Portal::0
+Kill the Guardian of the Slider Dungeon::0
+Create Enchanted Gravitite::0
 === Enter the Twilight ===::1
 Not the lame one.  No sparkles, I promise::2
 Open a twilight portal::0
@@ -46,7 +57,7 @@ Kill the Ur Ghast::0
 Kill the Alpha Yeti::0
 Kill the Snow Queen::0
 Locate the Lamp of Cinders::0
-Use it to claim your prize, the Ship's Helm (Archimedes Ships) and build an Airship::0
+Use it to claim your prize, the Ship's Helm (Archimedes Ships) and Create an Ancient Portal Blueprint (Time to explore the outer planes!)::0
 === The Outer Planes ===::1
 An over-zealous use of interdimensional magic has linked our world with other realms filled with demonic monstrosities.  The only way to end the invasion of our world is to destroy the leaders of these outer planes and forever purge their corruption from the multiverse::2
 Reach an appropriate level of Thaumaturgy skill to infuse a dragon's egg with the magicks required to make an ancient portal blueprint::0

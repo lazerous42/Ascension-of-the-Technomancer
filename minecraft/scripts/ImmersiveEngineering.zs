@@ -23,12 +23,6 @@ val wireFineElectrum = <ore:wireFineElectrum>;
 val wireFineSteel = <ore:wireFineSteel>;
 val wireFineAluminium = <ore:wireFineAluminium>;
 
-//val plateBrass = <Steamcraft:steamcraftPlate:4>;
-//val plateBronze = <IC2:itemPlates:2>;
-//val plateGold = <IC2:itemPlates:3>;
-//val plateTin = <IC2:itemPlates:1>;
-//val plateZinc = <Steamcraft:steamcraftPlate:1>;
-
 val stickTreated = <ImmersiveEngineering:material>;
 val planksTreated = <ImmersiveEngineering:treatedWood>;
 val engineersHammer = <ImmersiveEngineering:tool>;

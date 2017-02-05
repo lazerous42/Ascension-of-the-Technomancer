@@ -1,4 +1,4 @@
-Total amount of occupied biome ids: 209
+Total amount of occupied biome ids: 210
 Table of occupied biome ids and their owners
 id:name(class)
 0 : Ocean (class biomesoplenty.common.biome.overridden.BiomeGenBOPOcean)
@@ -42,6 +42,7 @@ id:name(class)
 38 : Mesa Plateau F (class biomesoplenty.common.biome.overridden.BiomeGenBOPMesa)
 39 : Mesa Plateau (class biomesoplenty.common.biome.overridden.BiomeGenBOPMesa)
 40 : Space (class cr0s.warpdrive.world.BiomeSpace)
+41 : Aether (class net.aetherteam.aether.worldgen.BiomeGenAether)
 43 : Storage Cell (class appeng.spatial.BiomeGenStorage)
 50 : Abyss (class net.nevermine.dimension.abyss.BiomeGenAbyss)
 51 : Ancient Cavern (class net.nevermine.dimension.ancientcavern.BiomeGenAncientCavern)

@@ -1,0 +1,17 @@
+{
+  "id": "Doomlike Dungeon_-406,68,731",
+  "name": "Doomlike Dungeon",
+  "icon": "waypoint-normal.png",
+  "x": -406,
+  "y": 68,
+  "z": 731,
+  "r": 230,
+  "g": 88,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

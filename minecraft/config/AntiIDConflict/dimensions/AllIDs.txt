@@ -101,8 +101,8 @@
 0 is Occupied by: Overworld, Provider: (id: 0, class: class net.minecraft.world.WorldProviderSurface)
 1 is Occupied by: The End, Provider: (id: 1, class: class net.minecraft.world.WorldProviderEnd)
 2 is Occupied by: SpectreWorld, Provider: (id: 2, class: class lumien.randomthings.Handler.Spectre.WorldProviderSpectre)
-3 is Avaible
-4 is Avaible
+3 is Occupied by: Aether, Provider: (id: 3, class: class net.aetherteam.aether.worldgen.WorldProviderAether)
+4 is Occupied by: Dungeons, Provider: (id: 4, class: class net.aetherteam.aether.dungeons.worldgen.WorldProviderDungeons)
 5 is Avaible
 6 is Avaible
 7 is Avaible

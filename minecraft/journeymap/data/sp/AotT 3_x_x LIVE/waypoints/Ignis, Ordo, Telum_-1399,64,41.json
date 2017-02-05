@@ -1,0 +1,17 @@
+{
+  "id": "Ignis, Ordo, Telum_-1399,64,41",
+  "name": "Ignis, Ordo, Telum",
+  "icon": "waypoint-normal.png",
+  "x": -1399,
+  "y": 64,
+  "z": 41,
+  "r": 200,
+  "g": 39,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

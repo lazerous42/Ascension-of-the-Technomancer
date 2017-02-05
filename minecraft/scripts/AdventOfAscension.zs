@@ -5,7 +5,8 @@
 
 ## Imports
 import mods.botania.Orechid;
-import mods.thaumcraft.Infusion;
+//import mods.thaumcraft.Infusion;
+import mods.extraUtils.QED;
 
 print("Initializing 'AdventOfAscension.zs'...");
 
@@ -18,6 +19,8 @@ val furlionChopRaw = <nevermine:FurlionChopRaw>;
 val furlionChopCooked = <nevermine:FurlionChop>;
 val natureMelonSlice = <nevermine:NatureMelonSlice>;
 
+
+val lampOfCinders = <TwilightForest:item.lampOfCinders>;
 val manaDiamond = <Botania:manaResource:2>;
 val dragonEgg = <minecraft:dragon_egg>;
 val dragonStone = <Botania:manaResource:9>;
@@ -25,13 +28,14 @@ val imbuedSlate = <AWWayofTime:imbuedSlate>;
 val enderEssence = <arsmagica2:essence:9>;
 val arcanePrism = <aura:prismWhite>;
 val nullCatalyst = <witchery:ingredient:130>;
-val salisMundis = <Thaumcraft:blockCrystal:6>;
+val salisMundis = <Thaumcraft:ItemResource:14>;
 
 val ancientTeleporterBluePrint = <nevermine:AncientTeleporterBlueprint>;
 
 ##  Ancient Teleporter
+# Progression Gate, must complete Twilight Forest before venturing to AoA dimensions
 recipes.remove (ancientTeleporterBluePrint);
-Infusion.addRecipe("RESEARCH", dragonEgg, [dragonStone, imbuedSlate, enderEssence, manaDiamond, arcanePrism, nullCatalyst, salisMundis, manaDiamond], "iter 40, praecantatio 30, alienis 20, auram 20", ancientTeleporterBluePrint, 5);
+QED.addShapedRecipe(ancientTeleporterBluePrint, [[dragonStone, imbuedSlate, enderEssence], [manaDiamond, lampOfCinders, manaDiamond], [arcanePrism, nullCatalyst, salisMundis]]);
 
 ##  Food
 <ore:listAllmeatraw>.add(ursaRaw);

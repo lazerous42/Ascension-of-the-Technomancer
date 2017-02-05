@@ -1,0 +1,17 @@
+{
+  "id": "Perditio_-657,65,214",
+  "name": "Perditio",
+  "icon": "waypoint-normal.png",
+  "x": -657,
+  "y": 65,
+  "z": 214,
+  "r": 151,
+  "g": 106,
+  "b": 169,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

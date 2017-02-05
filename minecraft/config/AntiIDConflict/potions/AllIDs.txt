@@ -1,5 +1,5 @@
-Total amount of free potion ids: 194
-Total amount of occupied potion ids: 162
+Total amount of free potion ids: 192
+Total amount of occupied potion ids: 164
 Total amount of conflicted potion ids: 0
 All ids and their position:
 0 is Avaible
@@ -139,8 +139,8 @@ All ids and their position:
 134 is Avaible
 135 is Avaible
 136 is Avaible
-137 is Avaible
-138 is Avaible
+137 is Occupied by High Steps (net.aetherteam.aether.potions.AetherPotion)
+138 is Occupied by Slowfall (net.aetherteam.aether.potions.AetherPotion)
 139 is Occupied by potion.binding (flaxbeard.thaumicexploration.misc.TXPotion)
 140 is Occupied by potion.taintWithdrawl (flaxbeard.thaumicexploration.misc.TXTaintPotion)
 141 is Occupied by Amphibian (WayofTime.alchemicalWizardry.common.potion.PotionAmphibian)

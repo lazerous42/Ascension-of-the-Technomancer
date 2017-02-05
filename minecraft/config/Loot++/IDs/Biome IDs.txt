@@ -169,8 +169,12 @@
 	- Name: Space
 	- Forge Biome Types: DEAD WASTELAND 
 
+41
+	- Name: Aether
+	- Forge Biome Types: DRY PLAINS 
+
 42
-	- Name: WyvernBiome
+	- Name: Dungeons
 	- Forge Biome Types: FOREST MOUNTAIN 
 
 43

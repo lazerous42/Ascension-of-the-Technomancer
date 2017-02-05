@@ -64,7 +64,7 @@ recipes.remove(marker);
 recipes.remove(filler);
 recipes.remove(floodGate);
 recipes.remove(pump);
-recipes.addShaped(miningWell, [[<ore:plateDenseIron>, <ore:chipsetDiamond>, <ore:plateDenseIron>], [<ore:thermalexpansion:machineGold>, <ore:oc:srever1>, <ore:thermalexpansion:machineGold>], [null, <IC2:itemToolDrill:*>, null]]);
+recipes.addShaped(miningWell, [[<ore:plateDenseIron>, <ore:chipsetDiamond>, <ore:plateDenseIron>], [<ore:thermalexpansion:machineGold>, <ore:oc:server1>, <ore:thermalexpansion:machineGold>], [null, <IC2:itemToolDrill:*>, null]]);
 recipes.addShaped(filler, [[marker, <ore:ingotTin>, marker], [<ore:ingotTin>, miningWell, <ore:ingotTin>], [<ore:gearGold>, null, <ore:gearGold>]]);
 recipes.addShaped(floodGate, [[ingotNickel, gearSilver, ingotNickel], [gearSilver, pump, gearSilver], [ingotNickel, gearSilver, ingotNickel]]);
 recipes.addShapeless(marker, [tubeLapis, <minecraft:redstone_torch>]);

@@ -1,0 +1,17 @@
+{
+  "id": "Pyrope Vein_-1192,23,2208",
+  "name": "Pyrope Vein",
+  "icon": "waypoint-normal.png",
+  "x": -1192,
+  "y": 23,
+  "z": 2208,
+  "r": 1,
+  "g": 146,
+  "b": 213,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    -1
+  ]
+}

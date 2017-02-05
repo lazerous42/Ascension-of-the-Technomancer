@@ -1,4 +1,4 @@
-Total amount of occupied potion ids: 162
+Total amount of occupied potion ids: 164
 Table of occupied potion ids and their owners
 id:name(class)
 1 : potion.moveSpeed (net.minecraft.potion.Potion)
@@ -129,6 +129,8 @@ id:name(class)
 127 : Earth Imbued (thaumic.tinkerer.common.potion.DummyPotions)
 128 : Fire Imbued (thaumic.tinkerer.common.potion.DummyPotions)
 129 : Wated Imbued (thaumic.tinkerer.common.potion.DummyPotions)
+137 : High Steps (net.aetherteam.aether.potions.AetherPotion)
+138 : Slowfall (net.aetherteam.aether.potions.AetherPotion)
 139 : potion.binding (flaxbeard.thaumicexploration.misc.TXPotion)
 140 : potion.taintWithdrawl (flaxbeard.thaumicexploration.misc.TXTaintPotion)
 141 : Amphibian (WayofTime.alchemicalWizardry.common.potion.PotionAmphibian)

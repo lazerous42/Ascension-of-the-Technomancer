@@ -77,6 +77,15 @@ LightGray
 MonazitOre
 
 
+aetherRecord
+aether:aerwhaleMusicDisc - 0
+aether:labyrinthMusicDisc - 0
+aether:moaMusicDisc - 0
+aether:valkyrieMusicDisc - 0
+aether:silentFlightDisc - 0
+aether:recording892 - 0
+
+
 antiBlock
 chisel:antiBlock - 0
 
@@ -3033,6 +3042,7 @@ minecraft:lava_bucket - 0
 
 bucketMilk
 minecraft:milk_bucket - 0
+aether:skyrootMilkBucket - 0
 
 
 bucketPetrotheum
@@ -3049,6 +3059,7 @@ ThermalFoundation:bucket - 0
 
 bucketWater
 minecraft:water_bucket - 0
+aether:skyrootWaterBucket - 0
 
 
 burntQuartz
@@ -4588,6 +4599,7 @@ gregtech:gt.metaitem.01 - 30326
 
 
 cellNaquadria
+gregtech:gt.metaitem.01 - 30327
 
 
 cellNatruralGas
@@ -19374,6 +19386,9 @@ compressedForcicium
 
 
 compressedForcillium
+
+
+compressedGallium
 
 
 compressedGarnetRed
@@ -40389,6 +40404,14 @@ foilIron
 foilLead
 
 
+foilNaquadah
+gregtech:gt.metaitem.01 - 29324
+
+
+foilNiobiumTitanium
+gregtech:gt.metaitem.01 - 29360
+
+
 foilOsmiridium
 gregtech:gt.metaitem.01 - 29317
 
@@ -40417,6 +40440,14 @@ gregtech:gt.metaitem.01 - 29305
 
 
 foilTin
+
+
+foilVanadiumGallium
+gregtech:gt.metaitem.01 - 29357
+
+
+foilYttriumBariumCuprate
+gregtech:gt.metaitem.01 - 29358
 
 
 foilZinc
@@ -46040,6 +46071,9 @@ gregtech:gt.metaitem.01 - 8519
 gemGalena
 
 
+gemGallium
+
+
 gemGarnetRed
 gregtech:gt.metaitem.01 - 8527
 
@@ -50016,6 +50050,9 @@ ingotDoubleEuropium
 
 
 ingotDoubleFierySteel
+
+
+ingotDoubleGallium
 
 
 ingotDoubleGold
@@ -64423,9 +64460,6 @@ OpenComputers:item - 35
 
 oc:solarGeneratorUpgrade
 OpenComputers:item - 34
-
-
-oc:srever1
 
 
 oc:stoneEndstone
@@ -79103,6 +79137,12 @@ pebblesZinc
 Magneticraft:item.pebbles - 12
 
 
+pendant
+aether:ironPendant - 0
+aether:goldenPendant - 0
+aether:zanitePendant - 0
+
+
 pestleAndMortar
 Botania:pestleAndMortar - 0
 harvestcraft:mortarandpestleItem - 0
@@ -81372,6 +81412,9 @@ plankWoodYellow
 ExtraUtilities:colorWoodPlanks - 11
 
 
+planksWood
+
+
 plantBlack
 ChromatiCraft:chromaticraft_block_dyeflower - 0
 
@@ -82237,6 +82280,7 @@ gregtech:gt.metaitem.01 - 17519
 
 
 plateGallium
+gregtech:gt.metaitem.01 - 17037
 
 
 plateGarnetRed
@@ -83566,6 +83610,12 @@ reducedZinc
 resourceTaint
 Thaumcraft:ItemResource - 11
 ForbiddenMagic:NetherShard - 2
+
+
+ring
+aether:ironRing - 0
+aether:goldenRing - 0
+aether:zaniteRing - 0
 
 
 ringAdamantium

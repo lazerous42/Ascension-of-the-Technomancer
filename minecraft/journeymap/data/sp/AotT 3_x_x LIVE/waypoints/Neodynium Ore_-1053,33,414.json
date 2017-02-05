@@ -1,0 +1,17 @@
+{
+  "id": "Neodynium Ore_-1053,33,414",
+  "name": "Neodynium Ore",
+  "icon": "waypoint-normal.png",
+  "x": -1053,
+  "y": 33,
+  "z": 414,
+  "r": 86,
+  "g": 220,
+  "b": 83,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    7
+  ]
+}

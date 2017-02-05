@@ -1,5 +1,5 @@
 # Ascension-of-the-Technomancer
-Newest Config Version 3.5.4
+Newest Config Version 3.7.2
 
 Hello there friend.  It seems as though you've met with a terrible fate, haven't you?  
 
@@ -9,6 +9,32 @@ Good luck friend.
 
 ChangeLog
 
+- Version 3.7.2
+- EnderIO and RFTools machine frames are now crafted in the QED
+- Various recipe tweaks to EnderIO recipes to integrate with GregTech
+- Corrected bad formatting codes on the FTBUtils admin commands page
+- Added Achievements for the Aether
+-- Version 3.7.1
+- A few RFTools recipe tweaks
+-- Version 3.7.0
+- Added Mouse Tweaks for ease of inventory manipulation
+- Added Aether 2
+- Aether progression is now required for getting the airship (QED)
+- Twilight Forest progression is now required for accessing AoA dimensions (QED)
+-- Version 3.6.0
+- Multiple recipe bugfixes relating to IC2 or typos
+- BUGFIX:  Ender IO alloy furnace requires unavailable IC2 machines.  Corrected by requiring iron furnaces
+- Added a few more uses for electrotine
+- Update GregTech configs post-update
+- Updated GregTech
+- BUGFIX: Typo in manaweave cloth recipe was causing it to be 16000 mana, it should be 1600.  Even this is a little high, it was set to 1000 even
+- Fix bad Galacticraft download
+- Updated Galacticraft
+- Updated JourneyMap configs
+- Updated JourneyMap, ModularPowerSuits, and Open Modular Turrets
+-- Version 3.5.5
+- Witchery plants should require tilled garden soil to grow (except water artichoke)
+- Disallowed use of rainbow trees to create rainbow forests because the "allow danger in rainbow forests" setting still doesn't allow for hostile mob spawns
 -- Version 3.5.4
 - BUGFIX Addendum: 4 regular steel plates are required for the basic machine frame (instead of the dense one)
 - Chromaticraft lumen wheel moved to lower left corner of screen (where it was originally intended to be)

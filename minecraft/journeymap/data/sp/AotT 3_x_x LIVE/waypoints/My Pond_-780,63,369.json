@@ -1,0 +1,17 @@
+{
+  "id": "My Pond_-780,63,369",
+  "name": "My Pond",
+  "icon": "waypoint-normal.png",
+  "x": -780,
+  "y": 63,
+  "z": 369,
+  "r": 0,
+  "g": 135,
+  "b": 206,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

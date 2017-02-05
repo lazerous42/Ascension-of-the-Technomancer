@@ -4,45 +4,81 @@
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 ##  Imports
+import mods.chisel.Groups;
 import mods.thaumcraft.Crucible;
+import mods.extraUtils.QED;
+import mods.gregtech.AlloySmelter;
+import mods.gregtech.ChemicalBath;
+import mods.gregtech.Assembler;
+import mods.gregtech.Autoclave;
+import mods.gregtech.ChemicalReactor;
 
 print("Initializing 'EnderIO.zs'...");
 
 ##  Val Definitions
+var blazePowder = <minecraft:blaze_powder>;
+var enderPearl = <minecraft:ender_pearl>;
 val glass = <minecraft:glass>;
 val glassPane = <minecraft:glass_pane>;
 val furnace = <minecraft:furnace>;
 val comparator = <minecraft:comparator>;
+val nuggetSignalum = <ThermalFoundation:material:106>;
 val ingotIron = <ore:ingotIron>;
 val ingotSteel = <ore:ingotSteel>;
 val piston = <minecraft:piston>;
+var netherQuartz = <minecraft:quartz>;
+var blockQuartz = <minecraft:quartz_block>;
+var batteryHullSmall = <gregtech:gt.metaitem.01:32500>;
 val bookEnchanted = <minecraft:enchanted_book>;
 val crushedObsidian = <Railcraft:cube:4>;
 val ingotNickel = <ore:ingotNickel>;
 val ingotLumium = <ore:ingotLumium>;
+var soulSand = <minecraft:soul_sand>;
 val gearIron = <ore:gearIron>;
 val gearNickel = <ore:gearNickel>;
 val chipsetRedstone = <ore:chipsetRed>;
 val chipsetIron = <ore:chipsetIron>;
-val tubeCopper = <Forestry:thermionicTubes>;
-val tubeTin = <Forestry:thermionicTubes:1>;
-val tubeBronze = <Forestry:thermionicTubes:2>;
-val tubeIron = <Forestry:thermionicTubes:3>;
-val tubeGold = <Forestry:thermionicTubes:4>;
-val tubeDiamond = <Forestry:thermionicTubes:5>;
-val tubeObsidian = <Forestry:thermionicTubes:6>;
 val tubeBlazing = <Forestry:thermionicTubes:7>;
-val tubeRubberized = <Forestry:thermionicTubes:8>;
-val tubeEmerald = <Forestry:thermionicTubes:9>;
-val tubeApatine = <Forestry:thermionicTubes:10>;
-val tubeLapis = <Forestry:thermionicTubes:11>;
 val tubeEnder = <Forestry:thermionicTubes:12>;
-val tubeCertus = <customthings:item>;
 val ingotDarkSoularium = <simplyjetpacks:components:70>;
 val diamondMana = <Botania:manaResource:2>;
 val plateSilicon = <ore:plateSilicon>;
 val rammerheadHide = <nevermine:RammerheadHide>;
+val ingotElectrotineAlloy = <ore:ingotElectrotineAlloy>;
+var dustGlass = <gregtech:gt.metaitem.01:2890>;
+var itemIngotGold = <minecraft:gold_ingot>;
+var itemIngotIron = <minecraft:iron_ingot>;
+val itemDustDiamond = <gregtech:gt.metaitem.01:2500>;
+val itemDustEmerald = <gregtech:gt.metaitem.01:2501>;
+val itemDustEnderium = <gregtech:gt.metaitem.01:2321>;
+val itemDustEnderPearl = <gregtech:gt.metaitem.01:2532>;
+val itemDustPlatinum = <gregtech:gt.metaitem.01:2085>;
+val itemDustSilver = <gregtech:gt.metaitem.01:2054>;
 
+var liquidDyeBlack = <liquid:dye.watermixed.dyeblack>;
+var moltenChlorine = <liquid:chlorine>;
+val moltenEnergeticAlloy = <liquid:molten.energeticalloy>;
+val moltenEnderiumBase = <liquid:molten.enderiumbase>;
+var moltenGlowstone = <liquid:molten.glowstone>;
+val moltenPulsatingIron = <liquid:molten.pulsatingiron>;
+val moltenRedstone = <liquid:molten.redstone>;
+val moltenTin = <liquid:molten.tin>;
+val moltenVibrantAlloy = <liquid:molten.vibrantalloy>;
+
+var fusedQuartz = <EnderIO:blockFusedQuartz>;
+var fusedQuartzEnlighten = <EnderIO:blockFusedQuartz:2>;
+var clearGlass = <EnderIO:blockFusedQuartz:1>;
+var clearGlassEnlighten = <EnderIO:blockFusedQuartz:3>;
+var darkClearGlass = <EnderIO:blockFusedQuartz:5>;
+var darkFusedQuartz = <EnderIO:blockFusedQuartz:4>;
+val ingotEnergeticAlloy = <EnderIO:itemAlloy:1>;
+var ingotConductiveIron = <EnderIO:itemAlloy:4>;
+val ingotPulsatingIron = <EnderIO:itemAlloy:5>;
+val ingotSoularium = <EnderIO:itemAlloy:7>;
+val ingotVibrantAlloy = <EnderIO:itemAlloy:2>;
+val capacitorBasic = <EnderIO:itemBasicCapacitor>;
+val capacitorDualLayer = <EnderIO:itemBasicCapacitor:1>;
+val capacitorOctadic = <EnderIO:itemBasicCapacitor:2>;
 val silicon = <EnderIO:itemMaterial>;
 val probeConduit = <EnderIO:itemConduitProbe>;
 val conduitEnergy = <EnderIO:itemPowerConduit>;
@@ -58,6 +94,8 @@ val conduitBinder = <EnderIO:itemMaterial:1>;
 val enchanter = <EnderIO:blockEnchanter>;
 val gliderWing = <EnderIO:itemGliderWing>;
 val ingotDarkSteel = <ore:ingotDarkSteel>;
+val crystalPulsating = <EnderIO:itemMaterial:5>;
+val crystalVibrant = <EnderIO:itemMaterial:6>;
 
 ##  Conduit Probe
 recipes.remove(probeConduit);
@@ -78,9 +116,40 @@ recipes.addShaped(<EnderIO:itemMaterial:10>, [[null, <Forestry:craftingMaterial:
 ## Remove dark iron bars from OreDict
 <ore:barsIron>.remove(ironBarsDark);
 
+## Alloys
+# Enderium
+//ChemicalReactor.addRecipe(output, liquidOutput, input1, input2, liquidInput, durationTicks);
+ChemicalReactor.addRecipe(itemDustEnderium, null, itemDustEnderPearl, null, moltenEnderiumBase * 144, 200);
+ChemicalReactor.addRecipe(null, moltenEnderiumBase * 576, itemDustSilver, itemDustPlatinum, moltenTin * 288, 100);
+# Energetic Alloy
+//AlloySmelter.addRecipe(output, input1, input2, durationTicks, euPerTick);
+AlloySmelter.addRecipe(ingotEnergeticAlloy, itemIngotGold, blazePowder, 100, 16);
+# Vibrant Alloy
+AlloySmelter.addRecipe(ingotVibrantAlloy, ingotEnergeticAlloy, enderPearl, 100, 16);
+# Pulsating Iron
+AlloySmelter.addRecipe(ingotPulsatingIron, itemIngotIron, enderPearl, 100, 16);
+# Soularium
+AlloySmelter.addRecipe(ingotSoularium, itemIngotGold, soulSand, 100, 16);
+# Fused Quartz
+AlloySmelter.addRecipe(fusedQuartz, netherQuartz * 4, dustGlass, 200, 8);
+AlloySmelter.addRecipe(fusedQuartz, blockQuartz, dustGlass, 100, 16);
+# Enlightened Fused Quartz
+//ChemicalBath.addRecipe(outpu1, output2, output3, input, liquidInput, chance1, chance2, chance3, durationTicks, euPerTick);
+ChemicalBath.addRecipe([fusedQuartzEnlighten], fusedQuartz, moltenGlowstone * 576, [10000], 100, 8);
+# Enlightened Clear Glass
+//ChemicalBath.addRecipe([clearGlassEnlighten], clearGlass, moltenGlowstone * 576, [10000], 100, 4);
+# Conductive Iron
+ChemicalBath.addRecipe([ingotConductiveIron], itemIngotIron, moltenRedstone * 144, [10000], 200, 8);
+# Clear Glass
+ChemicalBath.addRecipe([clearGlass], glass, moltenChlorine * 50, [10000], 400, 2);
+# Dark Clear Glass
+ChemicalBath.addRecipe([darkClearGlass], clearGlass, liquidDyeBlack * 36, [10000], 400, 2);
+# Dark Fused Quartz
+ChemicalBath.addRecipe([darkFusedQuartz], fusedQuartz, liquidDyeBlack * 36, [10000], 400, 2);
+
 ##  Fluid Tank
 recipes.remove(fluidTank);
-recipes.addShaped(fluidTank, [[ingotNickel, ironBarsDark, ingotNickel], [ironBarsDark, glass, ironBarsDark], [ingotNickel, ironBarsDark, ingotNickel]]);
+recipes.addShaped(fluidTank, [[ingotElectrotineAlloy, ironBarsDark, ingotElectrotineAlloy], [ironBarsDark, glass, ironBarsDark], [ingotElectrotineAlloy, ironBarsDark, ingotElectrotineAlloy]]);
 
 ##  Glider Wing
 recipes.remove(<EnderIO:itemGliderWing>);
@@ -88,7 +157,7 @@ recipes.addShaped(<EnderIO:itemGliderWing>,[[null, null, <EnderIO:itemAlloy:6>],
 
 ##  Machine Chassis
 recipes.remove(machineChassis);
-recipes.addShaped(machineChassis, [[ingotLumium, ingotNickel, ingotLumium], [basicCapacitor, <ThermalExpansion:Frame>, basicCapacitor], [ingotNickel, ironBarsDark, ingotNickel]]);
+QED.addShapedRecipe(machineChassis, [[ingotLumium, ingotElectrotineAlloy, ingotLumium], [basicCapacitor, <ThermalExpansion:Frame>, basicCapacitor], [ingotNickel, ironBarsDark, ingotNickel]]);
 
 ##  Stirling Generator
 recipes.remove(stirlingGenerator);
@@ -104,19 +173,20 @@ recipes.addShaped(yetaWrench, [[ingotIron, null, ingotIron], [null, gearNickel, 
 
 ##  Sag Mill
 recipes.remove(<EnderIO:blockSagMill>);
-recipes.addShaped(<EnderIO:blockSagMill>, [[crushedObsidian, crushedObsidian, crushedObsidian], [piston, machineChassis, piston], [ingotIron, ingotIron, ingotIron]]);
+recipes.addShaped(<EnderIO:blockSagMill>, [[crushedObsidian, crushedObsidian, crushedObsidian], [piston, machineChassis, piston], [ingotElectrotineAlloy, ingotElectrotineAlloy, ingotElectrotineAlloy]]);
 
 ##  Capacitors
-recipes.remove(<EnderIO:itemBasicCapacitor:2>);
-recipes.remove(<EnderIO:itemBasicCapacitor:1>);
-recipes.remove(basicCapacitor);
-recipes.addShaped(<EnderIO:itemBasicCapacitor:2>, [[null, <EnderIO:itemAlloy:2>, null], [<EnderIO:itemBasicCapacitor:1>, tubeEnder, <EnderIO:itemBasicCapacitor:1>], [null, <EnderIO:itemAlloy:2>, null]]);
-recipes.addShaped(<EnderIO:itemBasicCapacitor:1>, [[null, <EnderIO:itemAlloy:1>, null], [basicCapacitor, tubeBlazing, basicCapacitor], [null, <EnderIO:itemAlloy:1>, null]]);
-recipes.addShaped(basicCapacitor, [[null, <ore:nuggetSignalum>, chipsetRedstone], [<ore:nuggetSignalum>, tubeLapis, <ore:nuggetSignalum>], [chipsetRedstone, <ore:nuggetSignalum>, null]]);
+//Assembler.addRecipe(output, input1, input2, liquid, durationTicks, euPerTick);
+recipes.remove(capacitorBasic);
+Assembler.addRecipe(capacitorBasic, batteryHullSmall, nuggetSignalum * 4, moltenRedstone * 288, 64, 8);
+recipes.remove(capacitorDualLayer);
+Assembler.addRecipe(capacitorDualLayer, capacitorBasic * 2, tubeEnder, moltenEnergeticAlloy * 864, 50, 40);
+recipes.remove(capacitorOctadic);
+Assembler.addRecipe(capacitorOctadic, capacitorDualLayer * 2, tubeBlazing, moltenVibrantAlloy * 864, 50, 40);
 
 ##  Alloy Furnance
 recipes.remove(<EnderIO:blockAlloySmelter>);
-recipes.addShaped(<EnderIO:blockAlloySmelter>, [[crushedObsidian, <IC2:blockMachine:13>, crushedObsidian], [<IC2:blockMachine:2>, machineChassis, <IC2:blockMachine:2>], [crushedObsidian, basicCapacitor, crushedObsidian]]);
+recipes.addShaped(<EnderIO:blockAlloySmelter>, [[crushedObsidian, <IC2:blockHeatGenerator:3>, crushedObsidian], [<IC2:blockGenerator>, machineChassis, <IC2:blockGenerator>], [crushedObsidian, basicCapacitor, crushedObsidian]]);
 
 ##  Reinforced Obsidian
 recipes.remove(<EnderIO:blockReinforcedObsidian>);
@@ -127,11 +197,15 @@ recipes.remove(enchanter);
 recipes.addShaped(enchanter, [[diamondMana, bookEnchanted, diamondMana], [ingotDarkSoularium, ingotDarkSoularium, ingotDarkSoularium], [null, ingotDarkSoularium, null]]);
 
 ##  Crystals
-recipes.remove(<EnderIO:itemMaterial:5>);
-recipes.remove(<EnderIO:itemMaterial:6>);
+//Autoclave.addRecipe(output, input, liquid, chance, durationTicks, euPerTick);
+# Vibrant Crystal
+recipes.remove(crystalVibrant);
+Autoclave.addRecipe(crystalVibrant, itemDustEmerald, moltenVibrantAlloy * 128, 8500, 1000, 24);
+# Pulsating
+recipes.remove(crystalPulsating);
+Autoclave.addRecipe(crystalPulsating, itemDustDiamond, moltenPulsatingIron * 128, 8500, 1000, 24);
+# Weather
 recipes.remove(<EnderIO:itemMaterial:10>);
-recipes.addShaped(<EnderIO:itemMaterial:5>, [[<ThermalFoundation:material:106>, <EnderIO:itemMaterial:3>, <ThermalFoundation:material:106>], [<EnderIO:itemMaterial:3>, tubeDiamond, <EnderIO:itemMaterial:3>], [<ThermalFoundation:material:106>, <EnderIO:itemMaterial:3>, <ThermalFoundation:material:106>]]);
-recipes.addShaped(<EnderIO:itemMaterial:6>, [[<ore:nuggetEnderium>, <ore:nuggetVibrantAlloy>, <ore:nuggetEnderium>], [<ore:nuggetVibrantAlloy>, tubeEmerald, <ore:nuggetVibrantAlloy>], [<ore:nuggetEnderium>, <ore:nuggetVibrantAlloy>, <ore:nuggetEnderium>]]);
 Crucible.addRecipe("WEATHERCRYSTAL", <EnderIO:itemMaterial:10>, <minecraft:diamond>, "tempestas 24, vitreus 8, praecantatio 8, machina 16");
 
 #
@@ -152,5 +226,26 @@ recipes.addShaped(<EnderIO:itemLiquidConduit:2> * 3, [[conduitBinder, <ThermalDy
 recipes.addShaped(<EnderIO:itemLiquidConduit:1> * 3, [[conduitBinder, <ThermalDynamics:servo:1>, conduitBinder], [<ThermalDynamics:ThermalDynamics_16>, <ThermalDynamics:ThermalDynamics_16>, <ThermalDynamics:ThermalDynamics_16>], [conduitBinder, <ThermalDynamics:servo:1>, conduitBinder]]);
 recipes.addShaped(<EnderIO:itemLiquidConduit> * 3, [[conduitBinder, <ThermalDynamics:servo>, conduitBinder], [<ThermalDynamics:ThermalDynamics_16>, <ThermalDynamics:ThermalDynamics_16>, <ThermalDynamics:ThermalDynamics_16>], [conduitBinder, <ThermalDynamics:servo>, conduitBinder]]);
 recipes.addShaped(<EnderIO:itemMaterial:2> * 8, [[<ore:dustStone>, <ore:dustStone>, <ore:dustStone>], [<ThermalExpansion:material:513>, <ore:ingotElectricalSteel>, <ThermalExpansion:material:513>], [<ore:dustStone>, <ore:dustStone>, <ore:dustStone>]]);
+
+# Chisel exploit fix
+Groups.removeGroup("glass");
+Groups.addGroup("glass2");
+Groups.addVariation("glass2", <minecraft:glass>);
+Groups.addVariation("glass2", <chisel:glass2>);
+Groups.addVariation("glass2", <chisel:glass:1>);
+Groups.addVariation("glass2", <chisel:glass:2>);
+Groups.addVariation("glass2", <chisel:glass:3>);
+Groups.addVariation("glass2", <chisel:glass:4>);
+Groups.addVariation("glass2", <chisel:glass:5>);
+Groups.addVariation("glass2", <chisel:glass:6>);
+Groups.addVariation("glass2", <chisel:glass:7>);
+Groups.addVariation("glass2", <chisel:glass:8>);
+Groups.addVariation("glass2", <chisel:glass:9>);
+Groups.addVariation("glass2", <chisel:glass:10>);
+Groups.addVariation("glass2", <chisel:glass:11>);
+Groups.addVariation("glass2", <chisel:glass:12>);
+Groups.addVariation("glass2", <chisel:glass:13>);
+Groups.addVariation("glass2", <chisel:glass:14>);
+Groups.addVariation("glass2", <chisel:glass:15>);
 
 print("Initialized 'EnderIO.zs'");

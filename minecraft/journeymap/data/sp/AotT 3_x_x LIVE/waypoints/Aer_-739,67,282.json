@@ -1,0 +1,17 @@
+{
+  "id": "Aer_-739,67,282",
+  "name": "Aer",
+  "icon": "waypoint-normal.png",
+  "x": -739,
+  "y": 67,
+  "z": 282,
+  "r": 216,
+  "g": 216,
+  "b": 120,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

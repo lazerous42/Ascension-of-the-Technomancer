@@ -1,0 +1,17 @@
+{
+  "id": "Coal Seam_-996,88,973",
+  "name": "Coal Seam",
+  "icon": "waypoint-normal.png",
+  "x": -996,
+  "y": 88,
+  "z": 973,
+  "r": 144,
+  "g": 199,
+  "b": 19,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

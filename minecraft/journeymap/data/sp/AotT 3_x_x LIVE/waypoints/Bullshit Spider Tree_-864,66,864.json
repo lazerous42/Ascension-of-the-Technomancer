@@ -1,0 +1,17 @@
+{
+  "id": "Bullshit Spider Tree_-864,66,864",
+  "name": "Bullshit Spider Tree",
+  "icon": "waypoint-normal.png",
+  "x": -864,
+  "y": 66,
+  "z": 864,
+  "r": 255,
+  "g": 161,
+  "b": 6,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

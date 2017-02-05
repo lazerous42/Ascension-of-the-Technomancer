@@ -1,0 +1,17 @@
+{
+  "id": "Witchwood Copper Mine_-960,80,1027",
+  "name": "Witchwood Copper Mine",
+  "icon": "waypoint-normal.png",
+  "x": -960,
+  "y": 80,
+  "z": 1027,
+  "r": 224,
+  "g": 95,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

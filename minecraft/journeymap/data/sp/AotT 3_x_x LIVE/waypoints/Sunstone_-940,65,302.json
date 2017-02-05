@@ -1,0 +1,17 @@
+{
+  "id": "Sunstone_-940,65,302",
+  "name": "Sunstone",
+  "icon": "waypoint-normal.png",
+  "x": -940,
+  "y": 65,
+  "z": 302,
+  "r": 222,
+  "g": 0,
+  "b": 18,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

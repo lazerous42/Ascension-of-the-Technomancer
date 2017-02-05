@@ -2837,6 +2837,179 @@ Ztones:hunger
 	- Saturation Amount: 0.0
 
 
+aether:blueBerry
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.6
+
+
+aether:blueberryLollipop
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 0.6
+
+
+aether:candyCane
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.6
+
+
+aether:candyCorn
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.6
+
+
+aether:cocoatrice
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 0.6
+
+
+aether:enchantedBerry
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.6
+
+
+aether:gingerBreadMan
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.6
+
+
+aether:gummySwet
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 20
+	- Saturation Amount: 0.6
+
+
+aether:gummySwet
+	- Megadata: 1
+	- Food or Drink? Food
+	- Food Amount: 20
+	- Saturation Amount: 0.6
+
+
+aether:gummySwet
+	- Megadata: 2
+	- Food or Drink? Food
+	- Food Amount: 20
+	- Saturation Amount: 0.6
+
+
+aether:healingStone
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 0
+	- Saturation Amount: 1.2
+
+
+aether:icestonePoprocks
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 0.6
+
+
+aether:jellyPumpkin
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 0.6
+
+
+aether:orange
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.6
+
+
+aether:orangeLollipop
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.6
+
+
+aether:rainbowStrawberry
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.6
+
+
+aether:skyrootMilkBucket
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+aether:skyrootPoisonBucket
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+aether:stomperPop
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 20
+	- Saturation Amount: 0.6
+
+
+aether:swetJelly
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 0.6
+
+
+aether:swetJelly
+	- Megadata: 1
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 0.6
+
+
+aether:swetJelly
+	- Megadata: 2
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 0.6
+
+
+aether:whiteApple
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 0
+	- Saturation Amount: 0.6
+
+
+aether:wrappedChocolates
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 0.6
+
+
+aether:wyndberry
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.6
+
+
 arcticmobs:palesoup
 	- Megadata: 0
 	- Food or Drink? Food

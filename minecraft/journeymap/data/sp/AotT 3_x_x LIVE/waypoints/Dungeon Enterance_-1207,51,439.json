@@ -1,0 +1,17 @@
+{
+  "id": "Dungeon Enterance_-1207,51,439",
+  "name": "Dungeon Enterance",
+  "icon": "waypoint-normal.png",
+  "x": -1207,
+  "y": 51,
+  "z": 439,
+  "r": 255,
+  "g": 58,
+  "b": 95,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

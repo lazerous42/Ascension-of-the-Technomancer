@@ -1,0 +1,17 @@
+{
+  "id": "Cassiterite Vein_-875,109,273",
+  "name": "Cassiterite Vein",
+  "icon": "waypoint-normal.png",
+  "x": -875,
+  "y": 109,
+  "z": 273,
+  "r": 24,
+  "g": 62,
+  "b": 100,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

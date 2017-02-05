@@ -1,0 +1,17 @@
+{
+  "id": "Coven Witches Chill Here_-525,72,709",
+  "name": "Coven Witches Chill Here",
+  "icon": "waypoint-normal.png",
+  "x": -525,
+  "y": 72,
+  "z": 709,
+  "r": 11,
+  "g": 115,
+  "b": 84,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

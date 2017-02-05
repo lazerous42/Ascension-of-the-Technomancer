@@ -1,0 +1,17 @@
+{
+  "id": "Perditio, Herba_-1347,65,356",
+  "name": "Perditio, Herba",
+  "icon": "waypoint-normal.png",
+  "x": -1347,
+  "y": 65,
+  "z": 356,
+  "r": 148,
+  "g": 19,
+  "b": 251,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

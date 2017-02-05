@@ -1,0 +1,17 @@
+{
+  "id": "Magnitite Vein_-1529,64,-60",
+  "name": "Magnitite Vein",
+  "icon": "waypoint-normal.png",
+  "x": -1529,
+  "y": 64,
+  "z": -60,
+  "r": 53,
+  "g": 228,
+  "b": 180,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

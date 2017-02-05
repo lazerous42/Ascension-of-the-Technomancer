@@ -1,0 +1,17 @@
+{
+  "id": "Tree of Spideriness_-1268,64,119",
+  "name": "Tree of Spideriness",
+  "icon": "waypoint-normal.png",
+  "x": -1268,
+  "y": 64,
+  "z": 119,
+  "r": 206,
+  "g": 21,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

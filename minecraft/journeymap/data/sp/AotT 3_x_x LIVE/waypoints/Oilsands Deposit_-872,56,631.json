@@ -1,0 +1,17 @@
+{
+  "id": "Oilsands Deposit_-872,56,631",
+  "name": "Oilsands Deposit",
+  "icon": "waypoint-normal.png",
+  "x": -872,
+  "y": 56,
+  "z": 631,
+  "r": 104,
+  "g": 45,
+  "b": 124,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

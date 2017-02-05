@@ -960,15 +960,15 @@
 
 
 137
-	- Name: imbue.fire
-	- Color: 16729344
+	- Name: High Steps
+	- Color: 11189537
 	- Is Instant? false
 	- Is Bad? false
 
 
 138
-	- Name: imbue.wither
-	- Color: 3881787
+	- Name: Slowfall
+	- Color: 14393875
 	- Is Instant? false
 	- Is Bad? false
 
@@ -1177,13 +1177,27 @@
 
 
 168
+	- Name: imbue.fire
+	- Color: 16729344
+	- Is Instant? false
+	- Is Bad? false
+
+
+169
+	- Name: imbue.wither
+	- Color: 3881787
+	- Is Instant? false
+	- Is Bad? false
+
+
+170
 	- Name: imbue.weakness
 	- Color: 16777215
 	- Is Instant? false
 	- Is Bad? false
 
 
-169
+171
 	- Name: imbue.spectre
 	- Color: 12578815
 	- Is Instant? false

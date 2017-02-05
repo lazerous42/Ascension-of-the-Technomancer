@@ -1,0 +1,17 @@
+{
+  "id": "Tungsten/Lithium Deposit_-1317,23,425",
+  "name": "Tungsten/Lithium Deposit",
+  "icon": "waypoint-normal.png",
+  "x": -1317,
+  "y": 23,
+  "z": 425,
+  "r": 87,
+  "g": 17,
+  "b": 194,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

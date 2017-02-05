@@ -1,0 +1,17 @@
+{
+  "id": "Bauxite_-1540,73,499",
+  "name": "Bauxite",
+  "icon": "waypoint-normal.png",
+  "x": -1540,
+  "y": 73,
+  "z": 499,
+  "r": 62,
+  "g": 127,
+  "b": 159,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

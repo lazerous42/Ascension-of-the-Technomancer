@@ -74,7 +74,13 @@ val magicSeeds = [seedMysticalRed,
 		  seedVishroom,
 		  seedAum,
 		  seedCerublossom,
-		  seedTarmaRoot] as IItemStack[];
+		  seedTarmaRoot,
+		  seedBelladonna,
+		  seedMandrake,
+		  seedSnowbell,
+		  seedWolfsbane,
+		  seedWormwood,
+		  seedGarlic] as IItemStack[];
 
 val tilledGardenSoil = <GardenCore:garden_farmland>;
 

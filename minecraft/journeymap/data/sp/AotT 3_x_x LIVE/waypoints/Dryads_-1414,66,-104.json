@@ -1,0 +1,17 @@
+{
+  "id": "Dryads_-1414,66,-104",
+  "name": "Dryads",
+  "icon": "waypoint-normal.png",
+  "x": -1414,
+  "y": 66,
+  "z": -104,
+  "r": 0,
+  "g": 189,
+  "b": 32,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

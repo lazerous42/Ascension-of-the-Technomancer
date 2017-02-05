@@ -1,0 +1,17 @@
+{
+  "id": "Bauxite Vein_-1230,81,561",
+  "name": "Bauxite Vein",
+  "icon": "waypoint-normal.png",
+  "x": -1230,
+  "y": 81,
+  "z": 561,
+  "r": 151,
+  "g": 50,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}

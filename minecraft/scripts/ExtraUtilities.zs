@@ -69,6 +69,7 @@ val primordialPearl = <Thaumcraft:ItemEldritchObject:3>;
 val blackAurem = <arsmagica2:blackAurem>;
 val fuelMOX = <IC2:itemMOX>;
 
+val quadCompressedCobblestone = <ExtraUtilities:cobblestone_compressed:3>;
 val drum = <ExtraUtilities:drum>;
 val obsidianEnderInfused = <ore:blockEnderObsidian>;
 val pumpEnderThermic = <ExtraUtilities:enderThermicPump>;
@@ -79,6 +80,7 @@ val pipeEnergy = <ExtraUtilities:pipes:11>;
 val pipeHyperRationing = <ExtraUtilities:pipes.1>;
 val transferNode = <ExtraUtilities:extractor_base>;
 val transferNodeLiquid = <ExtraUtilities:extractor_base:6>;
+val worldInteractionUpgrade = <ExtraUtilities:nodeUpgrade:2>;
 
 ##  Custom Generators
 recipes.remove(<ExtraUtilities:generator>);
@@ -135,6 +137,10 @@ recipes.addShaped(transferNodeLiquid, [[ingotBrass, pipeTransfer, ingotBrass], [
 recipes.removeShaped(ingotBedrockium);
 recipes.addShaped(ingotBedrockium, [[<ExtraUtilities:cobblestone_compressed:2>, <ExtraUtilities:cobblestone_compressed:3>, <ExtraUtilities:cobblestone_compressed:2>], [<ExtraUtilities:cobblestone_compressed:3>, fuelMOX, <ExtraUtilities:cobblestone_compressed:3>], [<ExtraUtilities:cobblestone_compressed:2>, <ExtraUtilities:cobblestone_compressed:3>, <ExtraUtilities:cobblestone_compressed:2>]]);
 
+##  World Interaction Upgrade
+recipes.removeShaped(worldInteractionUpgrade);
+recipes.addShaped(worldInteractionUpgrade, [[<minecraft:dye:4>, <ore:ingotElectrotineAlloy>, <minecraft:dye:4>], [<ore:ingotElectrotineAlloy>, <minecraft:diamond_pickaxe>, <ore:ingotElectrotineAlloy>], [<minecraft:dye:4>, <ore:ingotElectrotineAlloy>, <minecraft:dye:4>]]);
+
 ##  Quarry
 recipes.remove(<ExtraUtilities:enderQuarry>);
 recipes.addShaped(<ExtraUtilities:enderQuarry>, [[chipsetEmerald, <IC2:itemToolMiningLaser:*>, tubeEmerald], [<ThermalExpansion:Frame:11>, <MineFactoryReloaded:machine.2:1>, <IC2:blockElectric:2>], [capacitorOctadic, <BuildCraft|Builders:machineBlock>, capacitorOctadic]]);
@@ -174,10 +180,6 @@ Infusion.addRecipe("RESEARCH", ingotAngelSteel11, [<minecraft:dye:9>, blockNethe
 Infusion.addRecipe("RESEARCH", ingotAngelSteel11, [<minecraft:leather>, blockNetherStar, ingotIchorium, blockEnhancedGalgadorian, bloodOrbTranscendent, ingotIchorium, leonardsUrn, ingotMobius, ingotIchorium, primordialPearl, blackAurem, ingotIchorium], "volatus 50, alienis 50, iter 50, praecantatio 50", <ExtraUtilities:angelRing:3>, 10);
 Infusion.addRecipe("RESEARCH", ingotAngelSteel11, [<minecraft:gold_nugget>, blockNetherStar, ingotIchorium, blockEnhancedGalgadorian, bloodOrbTranscendent, ingotIchorium, leonardsUrn, ingotMobius, ingotIchorium, primordialPearl, blackAurem, ingotIchorium], "volatus 50, alienis 50, iter 50, praecantatio 50", <ExtraUtilities:angelRing:4>, 10);
 
-##  World Interaction Upgrade
-recipes.remove(<ExtraUtilities:nodeUpgrade:2>);
-recipes.addShaped(<ExtraUtilities:nodeUpgrade:2>, [[<minecraft:dye:4>, ingotIron, <minecraft:dye:4>], [ingotIron, <minecraft:diamond_pickaxe>, ingotIron], [<minecraft:dye:4>, ingotIron, <minecraft:dye:4>]]);
-
 ##  Spikes
 recipes.remove(<ExtraUtilities:spike_base_gold>);
 recipes.remove(<ExtraUtilities:spike_base_diamond>);
@@ -190,7 +192,7 @@ QED.addShapedRecipe(<ExtraUtilities:spike_base>, [[null, <minecraft:iron_sword>,
 
 ##  Ender Flux Crystal
 recipes.remove(<ExtraUtilities:endConstructor:2>);
-recipes.addShaped(<ExtraUtilities:endConstructor:2>, [[null, <ExtraUtilities:decorativeBlock1:12>, null], [<BuildCraft|Transport:pipeGate>, obsidianEnderInfused, <BuildCraft|Transport:pipeGate>], [obsidianEnderInfused, obsidianEnderInfused, obsidianEnderInfused]]);
+recipes.addShaped(<ExtraUtilities:endConstructor:2>, [[null, <ExtraUtilities:decorativeBlock1:12>, null], [<BuildCraft|Transport:pipeGate>, obsidianEnderInfused, <BuildCraft|Transport:pipeGate>], [obsidianEnderInfused, quadCompressedCobblestone, obsidianEnderInfused]]);
 
 ##  Qed
 recipes.remove(<ExtraUtilities:endConstructor>);

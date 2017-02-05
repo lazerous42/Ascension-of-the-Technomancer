@@ -1,5 +1,5 @@
-Total amount of free biome ids: 47
-Total amount of occupied biome ids: 209
+Total amount of free biome ids: 46
+Total amount of occupied biome ids: 210
 Total amount of conflicted biome ids: 0
 All ids and their position:
 0 is Occupied by Ocean (biomesoplenty.common.biome.overridden.BiomeGenBOPOcean)
@@ -43,7 +43,7 @@ All ids and their position:
 38 is Occupied by Mesa Plateau F (biomesoplenty.common.biome.overridden.BiomeGenBOPMesa)
 39 is Occupied by Mesa Plateau (biomesoplenty.common.biome.overridden.BiomeGenBOPMesa)
 40 is Occupied by Space (cr0s.warpdrive.world.BiomeSpace)
-41 is Avaible
+41 is Occupied by Aether (net.aetherteam.aether.worldgen.BiomeGenAether)
 42 is Avaible
 43 is Occupied by Storage Cell (appeng.spatial.BiomeGenStorage)
 44 is Avaible

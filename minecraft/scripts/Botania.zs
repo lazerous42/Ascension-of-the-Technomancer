@@ -46,7 +46,7 @@ recipes.addShaped(<Botania:lexicon>, [[nuggetGold, flowerMystical, nuggetGold], 
 
 ##  Manaweave Cloth
 recipes.remove(manaweaveCloth);
-ManaInfusion.addInfusion(manaweaveCloth, toughFabric, 16000);
+ManaInfusion.addInfusion(manaweaveCloth, toughFabric, 1000);
 
 ##  Electrotine -> Redstone -> Glowstone loop
 ManaInfusion.removeRecipe(dustRedstone);
