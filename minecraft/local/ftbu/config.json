@@ -34,8 +34,9 @@
     "motd": [
       "\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d",
       "Welcome to Ascension of the Technomancer!",
-      "Version 3.7.2",
-      "Enjoy your vacation in the scenic clouds of the Aether",
+      "Version 3.8.0",
+      "GregTech Updated to 5.9.28: New petroleum fluids will generate underground in new chunks",
+      "Map regeneration of unused chunks via MCEdit can be used to get the new fluids closer to home",
       "\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
     ],
     "starting_items": [

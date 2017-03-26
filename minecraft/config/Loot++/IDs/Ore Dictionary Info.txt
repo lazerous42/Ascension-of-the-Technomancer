@@ -799,6 +799,9 @@ blockGallium
 gregtech:gt.blockmetal3 - 6
 
 
+blockGalliumArsenide
+
+
 blockGarnetRed
 gregtech:gt.blockgem2 - 10
 
@@ -1181,6 +1184,13 @@ blockIgnatius
 
 
 blockIlmenite
+
+
+blockIndium
+gregtech:gt.blockmetal3 - 9
+
+
+blockIndiumGalliumPhosphide
 
 
 blockInfuscolium
@@ -4275,6 +4285,9 @@ cellGalena
 cellGallium
 
 
+cellGalliumArsenide
+
+
 cellGarnetRed
 
 
@@ -4397,6 +4410,9 @@ cellIlmenite
 
 
 cellIndium
+
+
+cellIndiumGalliumPhosphide
 
 
 cellInfusedAir
@@ -4864,6 +4880,7 @@ gregtech:gt.metaitem.01 - 31001
 
 
 cellPlasmaIndium
+gregtech:gt.metaitem.01 - 31056
 
 
 cellPlasmaIridium
@@ -5694,6 +5711,7 @@ Magneticraft:item.chunks - 12
 circuitAdvanced
 IC2:itemPartCircuitAdv - 0
 gregtech:gt.metaitem.01 - 32703
+gregtech:gt.metaitem.03 - 32082
 
 
 circuitBasic
@@ -5704,26 +5722,47 @@ gregtech:gt.metaitem.01 - 32701
 circuitData
 gregtech:gt.metaitem.01 - 32704
 gregtech:gt.metaitem.01 - 32708
+gregtech:gt.metaitem.03 - 32083
+gregtech:gt.metaitem.03 - 32085
 
 
 circuitElite
 gregtech:gt.metaitem.01 - 32705
+gregtech:gt.metaitem.03 - 32084
+gregtech:gt.metaitem.03 - 32086
+gregtech:gt.metaitem.03 - 32089
 
 
 circuitGood
 gregtech:gt.metaitem.01 - 32702
+gregtech:gt.metaitem.03 - 32079
+gregtech:gt.metaitem.03 - 32080
+
+
+circuitInfinite
+gregtech:gt.metaitem.03 - 32095
 
 
 circuitMaster
 gregtech:gt.metaitem.01 - 32706
+gregtech:gt.metaitem.01 - 32707
+gregtech:gt.metaitem.03 - 32087
+gregtech:gt.metaitem.03 - 32092
 
 
 circuitPrimitive
 gregtech:gt.metaitem.01 - 32700
 
 
+circuitSuperconductor
+gregtech:gt.metaitem.03 - 32091
+gregtech:gt.metaitem.03 - 32094
+
+
 circuitUltimate
-gregtech:gt.metaitem.01 - 32707
+gregtech:gt.metaitem.03 - 32088
+gregtech:gt.metaitem.03 - 32090
+gregtech:gt.metaitem.03 - 32093
 
 
 clay
@@ -9108,6 +9147,9 @@ clusterGalena
 clusterGallium
 
 
+clusterGalliumArsenide
+
+
 clusterGarnetRed
 
 
@@ -9890,6 +9932,9 @@ clusterImpureGalena
 clusterImpureGallium
 
 
+clusterImpureGalliumArsenide
+
+
 clusterImpureGarnetRed
 
 
@@ -10029,6 +10074,9 @@ clusterImpureIlmenite
 
 
 clusterImpureIndium
+
+
+clusterImpureIndiumGalliumPhosphide
 
 
 clusterImpureInfernal
@@ -11013,6 +11061,9 @@ clusterImpureZinc
 
 
 clusterIndium
+
+
+clusterIndiumGalliumPhosphide
 
 
 clusterInfernal
@@ -13281,6 +13332,9 @@ clusterPureGalena
 clusterPureGallium
 
 
+clusterPureGalliumArsenide
+
+
 clusterPureGarnetRed
 
 
@@ -13420,6 +13474,9 @@ clusterPureIlmenite
 
 
 clusterPureIndium
+
+
+clusterPureIndiumGalliumPhosphide
 
 
 clusterPureInfernal
@@ -15755,6 +15812,9 @@ clusterSmallGalena
 clusterSmallGallium
 
 
+clusterSmallGalliumArsenide
+
+
 clusterSmallGarnetRed
 
 
@@ -15894,6 +15954,9 @@ clusterSmallIlmenite
 
 
 clusterSmallIndium
+
+
+clusterSmallIndiumGalliumPhosphide
 
 
 clusterSmallInfernal
@@ -17711,6 +17774,9 @@ clusterTinyGalena
 clusterTinyGallium
 
 
+clusterTinyGalliumArsenide
+
+
 clusterTinyGarnetRed
 
 
@@ -17853,6 +17919,9 @@ clusterTinyIlmenite
 
 
 clusterTinyIndium
+
+
+clusterTinyIndiumGalliumPhosphide
 
 
 clusterTinyInfernal
@@ -19391,6 +19460,9 @@ compressedForcillium
 compressedGallium
 
 
+compressedGalliumArsenide
+
+
 compressedGarnetRed
 
 
@@ -19427,6 +19499,9 @@ compressedHSSG
 
 
 compressedHSSS
+
+
+compressedIndiumGalliumPhosphide
 
 
 compressedInfusedAir
@@ -21431,6 +21506,9 @@ gregtech:gt.metaitem.01 - 7830
 crushedCentrifugedGallium
 
 
+crushedCentrifugedGalliumArsenide
+
+
 crushedCentrifugedGarnetRed
 gregtech:gt.metaitem.01 - 7527
 
@@ -21513,6 +21591,12 @@ crushedCentrifugedIce
 
 crushedCentrifugedIlmenite
 gregtech:gt.metaitem.01 - 7918
+
+
+crushedCentrifugedIndium
+
+
+crushedCentrifugedIndiumGalliumPhosphide
 
 
 crushedCentrifugedInfusedAir
@@ -23529,6 +23613,9 @@ crystalGalena
 crystalGallium
 
 
+crystalGalliumArsenide
+
+
 crystalGarnetRed
 
 
@@ -23602,6 +23689,12 @@ crystalIce
 
 
 crystalIlmenite
+
+
+crystalIndium
+
+
+crystalIndiumGalliumPhosphide
 
 
 crystalInfusedAir
@@ -24462,6 +24555,9 @@ crystallineGalena
 crystallineGallium
 
 
+crystallineGalliumArsenide
+
+
 crystallineGarnetRed
 
 
@@ -24535,6 +24631,12 @@ crystallineIce
 
 
 crystallineIlmenite
+
+
+crystallineIndium
+
+
+crystallineIndiumGalliumPhosphide
 
 
 crystallineInfusedAir
@@ -28366,6 +28468,10 @@ dustGallium
 gregtech:gt.metaitem.01 - 2037
 
 
+dustGalliumArsenide
+gregtech:gt.metaitem.01 - 2980
+
+
 dustGarnetRed
 gregtech:gt.metaitem.01 - 2527
 
@@ -29219,6 +29325,9 @@ gregtech:gt.metaitem.01 - 3830
 dustImpureGallium
 
 
+dustImpureGalliumArsenide
+
+
 dustImpureGarnetRed
 gregtech:gt.metaitem.01 - 3527
 
@@ -29369,6 +29478,9 @@ gregtech:gt.metaitem.01 - 3918
 
 
 dustImpureIndium
+
+
+dustImpureIndiumGalliumPhosphide
 
 
 dustImpureInfernal
@@ -30433,6 +30545,11 @@ gregtech:gt.metaitem.01 - 3036
 
 
 dustIndium
+gregtech:gt.metaitem.01 - 2056
+
+
+dustIndiumGalliumPhosphide
+gregtech:gt.metaitem.01 - 2981
 
 
 dustInfernal
@@ -32843,6 +32960,9 @@ gregtech:gt.metaitem.01 - 4830
 dustPureGallium
 
 
+dustPureGalliumArsenide
+
+
 dustPureGarnetRed
 gregtech:gt.metaitem.01 - 4527
 
@@ -32991,6 +33111,9 @@ gregtech:gt.metaitem.01 - 4918
 
 
 dustPureIndium
+
+
+dustPureIndiumGalliumPhosphide
 
 
 dustPureInfernal
@@ -35549,6 +35672,10 @@ dustSmallGallium
 gregtech:gt.metaitem.01 - 1037
 
 
+dustSmallGalliumArsenide
+gregtech:gt.metaitem.01 - 1980
+
+
 dustSmallGarnetRed
 gregtech:gt.metaitem.01 - 1527
 
@@ -35713,6 +35840,11 @@ gregtech:gt.metaitem.01 - 1918
 
 
 dustSmallIndium
+gregtech:gt.metaitem.01 - 1056
+
+
+dustSmallIndiumGalliumPhosphide
+gregtech:gt.metaitem.01 - 1981
 
 
 dustSmallInfernal
@@ -37852,6 +37984,10 @@ dustTinyGallium
 gregtech:gt.metaitem.01 - 37
 
 
+dustTinyGalliumArsenide
+gregtech:gt.metaitem.01 - 980
+
+
 dustTinyGarnetRed
 gregtech:gt.metaitem.01 - 527
 
@@ -38022,6 +38158,11 @@ gregtech:gt.metaitem.01 - 918
 
 
 dustTinyIndium
+gregtech:gt.metaitem.01 - 56
+
+
+dustTinyIndiumGalliumPhosphide
+gregtech:gt.metaitem.01 - 981
 
 
 dustTinyInfernal
@@ -40404,6 +40545,10 @@ foilIron
 foilLead
 
 
+foilManganese
+gregtech:gt.metaitem.01 - 29031
+
+
 foilNaquadah
 gregtech:gt.metaitem.01 - 29324
 
@@ -40428,8 +40573,15 @@ foilPlatinum
 gregtech:gt.metaitem.01 - 29085
 
 
+foilRedAlloy
+
+
 foilSilicon
 gregtech:gt.metaitem.01 - 29020
+
+
+foilSilicone
+gregtech:gt.metaitem.01 - 29471
 
 
 foilSolderingAlloy
@@ -43012,6 +43164,10 @@ frameGtGallium
 gregtech:gt.blockmachines - 4133
 
 
+frameGtGalliumArsenide
+gregtech:gt.blockmachines - 5076
+
+
 frameGtGold
 gregtech:gt.blockmachines - 4182
 
@@ -43026,6 +43182,14 @@ gregtech:gt.blockmachines - 4468
 
 frameGtHSSS
 gregtech:gt.blockmachines - 4470
+
+
+frameGtIndium
+gregtech:gt.blockmachines - 4152
+
+
+frameGtIndiumGalliumPhosphide
+gregtech:gt.blockmachines - 5077
 
 
 frameGtInfusedGold
@@ -45166,6 +45330,9 @@ gemExquisiteDiamond
 gregtech:gt.metaitem.02 - 30500
 
 
+gemExquisiteDilithium
+
+
 gemExquisiteDuranium
 
 
@@ -45174,6 +45341,12 @@ gemExquisiteElectrum
 
 gemExquisiteEmerald
 gregtech:gt.metaitem.02 - 30501
+
+
+gemExquisiteEnderEye
+
+
+gemExquisiteEnderPearl
 
 
 gemExquisiteEnderium
@@ -45190,6 +45363,12 @@ gemExquisiteFirestone
 
 gemExquisiteFoolsRuby
 gregtech:gt.metaitem.02 - 30512
+
+
+gemExquisiteForcicium
+
+
+gemExquisiteForcillium
 
 
 gemExquisiteGarnetRed
@@ -46074,6 +46253,9 @@ gemGalena
 gemGallium
 
 
+gemGalliumArsenide
+
+
 gemGarnetRed
 gregtech:gt.metaitem.01 - 8527
 
@@ -46139,6 +46321,9 @@ gemHeeStardust
 
 
 gemIlmenite
+
+
+gemIndiumGalliumPhosphide
 
 
 gemInfusedAir
@@ -50055,6 +50240,9 @@ ingotDoubleFierySteel
 ingotDoubleGallium
 
 
+ingotDoubleGalliumArsenide
+
+
 ingotDoubleGold
 
 
@@ -50065,6 +50253,9 @@ ingotDoubleHSSG
 
 
 ingotDoubleHSSS
+
+
+ingotDoubleIndiumGalliumPhosphide
 
 
 ingotDoubleInfusedGold
@@ -51143,6 +51334,10 @@ ingotGallium
 gregtech:gt.metaitem.01 - 11037
 
 
+ingotGalliumArsenide
+gregtech:gt.metaitem.01 - 11980
+
+
 ingotGarnetRed
 
 
@@ -52051,6 +52246,9 @@ ingotImpureGalena
 ingotImpureGallium
 
 
+ingotImpureGalliumArsenide
+
+
 ingotImpureGarnetRed
 
 
@@ -52190,6 +52388,9 @@ ingotImpureIlmenite
 
 
 ingotImpureIndium
+
+
+ingotImpureIndiumGalliumPhosphide
 
 
 ingotImpureInfernal
@@ -53174,6 +53375,11 @@ ingotImpureZinc
 
 
 ingotIndium
+gregtech:gt.metaitem.01 - 11056
+
+
+ingotIndiumGalliumPhosphide
+gregtech:gt.metaitem.01 - 11981
 
 
 ingotInfernal
@@ -55491,6 +55697,9 @@ ingotPureGalena
 ingotPureGallium
 
 
+ingotPureGalliumArsenide
+
+
 ingotPureGarnetRed
 
 
@@ -55630,6 +55839,9 @@ ingotPureIlmenite
 
 
 ingotPureIndium
+
+
+ingotPureIndiumGalliumPhosphide
 
 
 ingotPureInfernal
@@ -57986,6 +58198,9 @@ ingotSmallGalena
 ingotSmallGallium
 
 
+ingotSmallGalliumArsenide
+
+
 ingotSmallGarnetRed
 
 
@@ -58125,6 +58340,9 @@ ingotSmallIlmenite
 
 
 ingotSmallIndium
+
+
+ingotSmallIndiumGalliumPhosphide
 
 
 ingotSmallInfernal
@@ -59964,6 +60182,9 @@ ingotTinyGalena
 ingotTinyGallium
 
 
+ingotTinyGalliumArsenide
+
+
 ingotTinyGarnetRed
 
 
@@ -60106,6 +60327,9 @@ ingotTinyIlmenite
 
 
 ingotTinyIndium
+
+
+ingotTinyIndiumGalliumPhosphide
 
 
 ingotTinyInfernal
@@ -63134,6 +63358,10 @@ nuggetGallium
 gregtech:gt.metaitem.01 - 9037
 
 
+nuggetGalliumArsenide
+gregtech:gt.metaitem.01 - 9980
+
+
 nuggetGarnetRed
 
 
@@ -63213,6 +63441,14 @@ nuggetHydratedCoal
 
 
 nuggetIlmenite
+
+
+nuggetIndium
+gregtech:gt.metaitem.01 - 9056
+
+
+nuggetIndiumGalliumPhosphide
+gregtech:gt.metaitem.01 - 9981
 
 
 nuggetInfusedAir
@@ -64336,6 +64572,10 @@ OpenComputers:item - 22
 
 oc:materialTransistor
 OpenComputers:item - 23
+
+
+oc:mfu
+OpenComputers:item - 112
 
 
 oc:microcontrollerCase1
@@ -67727,6 +67967,9 @@ gregtech:gt.blockores.gc - 3830
 oreGallium
 
 
+oreGalliumArsenide
+
+
 oreGarnetRed
 gregtech:gt.blockores - 527
 gregtech:gt.blockores.gc - 527
@@ -68561,6 +68804,9 @@ oreImpureGalena
 oreImpureGallium
 
 
+oreImpureGalliumArsenide
+
+
 oreImpureGarnetRed
 
 
@@ -68700,6 +68946,9 @@ oreImpureIlmenite
 
 
 oreImpureIndium
+
+
+oreImpureIndiumGalliumPhosphide
 
 
 oreImpureInfernal
@@ -69684,6 +69933,9 @@ oreImpureZinc
 
 
 oreIndium
+
+
+oreIndiumGalliumPhosphide
 
 
 oreInfernal
@@ -72455,6 +72707,9 @@ orePureGalena
 orePureGallium
 
 
+orePureGalliumArsenide
+
+
 orePureGarnetRed
 
 
@@ -72594,6 +72849,9 @@ orePureIlmenite
 
 
 orePureIndium
+
+
+orePureIndiumGalliumPhosphide
 
 
 orePureInfernal
@@ -75126,6 +75384,9 @@ oreSmallGalena
 oreSmallGallium
 
 
+oreSmallGalliumArsenide
+
+
 oreSmallGarnetRed
 
 
@@ -75265,6 +75526,9 @@ oreSmallIlmenite
 
 
 oreSmallIndium
+
+
+oreSmallIndiumGalliumPhosphide
 
 
 oreSmallInfernal
@@ -77157,6 +77421,9 @@ oreTinyGalena
 oreTinyGallium
 
 
+oreTinyGalliumArsenide
+
+
 oreTinyGarnetRed
 
 
@@ -77299,6 +77566,9 @@ oreTinyIlmenite
 
 
 oreTinyIndium
+
+
+oreTinyIndiumGalliumPhosphide
 
 
 oreTinyInfernal
@@ -79346,6 +79616,9 @@ pipeHugeFierySteel
 pipeHugeGallium
 
 
+pipeHugeGalliumArsenide
+
+
 pipeHugeGlass
 
 
@@ -79359,6 +79632,12 @@ pipeHugeHSSG
 
 
 pipeHugeHSSS
+
+
+pipeHugeIndium
+
+
+pipeHugeIndiumGalliumPhosphide
 
 
 pipeHugeInfusedGold
@@ -79740,6 +80019,9 @@ pipeLargeFierySteel
 pipeLargeGallium
 
 
+pipeLargeGalliumArsenide
+
+
 pipeLargeGlass
 
 
@@ -79753,6 +80035,12 @@ pipeLargeHSSG
 
 
 pipeLargeHSSS
+
+
+pipeLargeIndium
+
+
+pipeLargeIndiumGalliumPhosphide
 
 
 pipeLargeInfusedGold
@@ -80145,6 +80433,9 @@ pipeMediumFierySteel
 pipeMediumGallium
 
 
+pipeMediumGalliumArsenide
+
+
 pipeMediumGlass
 
 
@@ -80158,6 +80449,12 @@ pipeMediumHSSG
 
 
 pipeMediumHSSS
+
+
+pipeMediumIndium
+
+
+pipeMediumIndiumGalliumPhosphide
 
 
 pipeMediumInfusedGold
@@ -80600,6 +80897,9 @@ pipeSmallFierySteel
 pipeSmallGallium
 
 
+pipeSmallGalliumArsenide
+
+
 pipeSmallGlass
 
 
@@ -80613,6 +80913,12 @@ pipeSmallHSSG
 
 
 pipeSmallHSSS
+
+
+pipeSmallIndium
+
+
+pipeSmallIndiumGalliumPhosphide
 
 
 pipeSmallInfusedGold
@@ -81001,6 +81307,9 @@ pipeTinyFierySteel
 pipeTinyGallium
 
 
+pipeTinyGalliumArsenide
+
+
 pipeTinyGlass
 
 
@@ -81014,6 +81323,12 @@ pipeTinyHSSG
 
 
 pipeTinyHSSS
+
+
+pipeTinyIndium
+
+
+pipeTinyIndiumGalliumPhosphide
 
 
 pipeTinyInfusedGold
@@ -82283,6 +82598,10 @@ plateGallium
 gregtech:gt.metaitem.01 - 17037
 
 
+plateGalliumArsenide
+gregtech:gt.metaitem.01 - 17980
+
+
 plateGarnetRed
 gregtech:gt.metaitem.01 - 17527
 
@@ -82331,6 +82650,13 @@ gregtech:gt.metaitem.01 - 17372
 
 plateHSSS
 gregtech:gt.metaitem.01 - 17374
+
+
+plateIndium
+
+
+plateIndiumGalliumPhosphide
+gregtech:gt.metaitem.01 - 17981
 
 
 plateInfusedAir
@@ -83841,6 +84167,10 @@ gregtech:gt.metaitem.01 - 28083
 ringPalladium
 
 
+ringPaper
+gregtech:gt.metaitem.01 - 28879
+
+
 ringPhasedGold
 
 
@@ -83887,6 +84217,9 @@ gregtech:gt.metaitem.01 - 28880
 
 
 ringSignalum
+
+
+ringSilicone
 
 
 ringSilver
@@ -87272,6 +87605,9 @@ stickFlint
 stickGallium
 
 
+stickGalliumArsenide
+
+
 stickGarnetRed
 gregtech:gt.metaitem.01 - 23527
 
@@ -87310,6 +87646,12 @@ gregtech:gt.metaitem.01 - 23372
 
 stickHSSS
 gregtech:gt.metaitem.01 - 23374
+
+
+stickIndium
+
+
+stickIndiumGalliumPhosphide
 
 
 stickInfusedAir
@@ -88817,6 +89159,9 @@ gregtech:gt.metaitem.02 - 3802
 toolHeadAxeGallium
 
 
+toolHeadAxeGalliumArsenide
+
+
 toolHeadAxeGarnetRed
 gregtech:gt.metaitem.02 - 3527
 
@@ -88862,6 +89207,12 @@ gregtech:gt.metaitem.02 - 3372
 
 toolHeadAxeHSSS
 gregtech:gt.metaitem.02 - 3374
+
+
+toolHeadAxeIndium
+
+
+toolHeadAxeIndiumGalliumPhosphide
 
 
 toolHeadAxeInfusedAir
@@ -90427,6 +90778,9 @@ gregtech:gt.metaitem.02 - 6346
 toolHeadFileGallium
 
 
+toolHeadFileGalliumArsenide
+
+
 toolHeadFileGlass
 
 
@@ -90448,6 +90802,12 @@ gregtech:gt.metaitem.02 - 6372
 
 toolHeadFileHSSS
 gregtech:gt.metaitem.02 - 6374
+
+
+toolHeadFileIndium
+
+
+toolHeadFileIndiumGalliumPhosphide
 
 
 toolHeadFileInfusedGold
@@ -90948,6 +91308,9 @@ gregtech:gt.metaitem.02 - 5802
 toolHeadHammerGallium
 
 
+toolHeadHammerGalliumArsenide
+
+
 toolHeadHammerGarnetRed
 gregtech:gt.metaitem.02 - 5527
 
@@ -90993,6 +91356,12 @@ gregtech:gt.metaitem.02 - 5372
 
 toolHeadHammerHSSS
 gregtech:gt.metaitem.02 - 5374
+
+
+toolHeadHammerIndium
+
+
+toolHeadHammerIndiumGalliumPhosphide
 
 
 toolHeadHammerInfusedAir
@@ -91564,6 +91933,9 @@ gregtech:gt.metaitem.02 - 4802
 toolHeadHoeGallium
 
 
+toolHeadHoeGalliumArsenide
+
+
 toolHeadHoeGarnetRed
 gregtech:gt.metaitem.02 - 4527
 
@@ -91609,6 +91981,12 @@ gregtech:gt.metaitem.02 - 4372
 
 toolHeadHoeHSSS
 gregtech:gt.metaitem.02 - 4374
+
+
+toolHeadHoeIndium
+
+
+toolHeadHoeIndiumGalliumPhosphide
 
 
 toolHeadHoeInfusedAir
@@ -92180,6 +92558,9 @@ gregtech:gt.metaitem.02 - 1802
 toolHeadPickaxeGallium
 
 
+toolHeadPickaxeGalliumArsenide
+
+
 toolHeadPickaxeGarnetRed
 gregtech:gt.metaitem.02 - 1527
 
@@ -92225,6 +92606,12 @@ gregtech:gt.metaitem.02 - 1372
 
 toolHeadPickaxeHSSS
 gregtech:gt.metaitem.02 - 1374
+
+
+toolHeadPickaxeIndium
+
+
+toolHeadPickaxeIndiumGalliumPhosphide
 
 
 toolHeadPickaxeInfusedAir
@@ -93242,6 +93629,9 @@ gregtech:gt.metaitem.02 - 7346
 toolHeadSawGallium
 
 
+toolHeadSawGalliumArsenide
+
+
 toolHeadSawGlass
 
 
@@ -93263,6 +93653,12 @@ gregtech:gt.metaitem.02 - 7372
 
 toolHeadSawHSSS
 gregtech:gt.metaitem.02 - 7374
+
+
+toolHeadSawIndium
+
+
+toolHeadSawIndiumGalliumPhosphide
 
 
 toolHeadSawInfusedGold
@@ -94241,6 +94637,9 @@ gregtech:gt.metaitem.02 - 2802
 toolHeadShovelGallium
 
 
+toolHeadShovelGalliumArsenide
+
+
 toolHeadShovelGarnetRed
 gregtech:gt.metaitem.02 - 2527
 
@@ -94286,6 +94685,12 @@ gregtech:gt.metaitem.02 - 2372
 
 toolHeadShovelHSSS
 gregtech:gt.metaitem.02 - 2374
+
+
+toolHeadShovelIndium
+
+
+toolHeadShovelIndiumGalliumPhosphide
 
 
 toolHeadShovelInfusedAir
@@ -94857,6 +95262,9 @@ gregtech:gt.metaitem.02 - 802
 toolHeadSwordGallium
 
 
+toolHeadSwordGalliumArsenide
+
+
 toolHeadSwordGarnetRed
 gregtech:gt.metaitem.02 - 527
 
@@ -94902,6 +95310,12 @@ gregtech:gt.metaitem.02 - 372
 
 toolHeadSwordHSSS
 gregtech:gt.metaitem.02 - 374
+
+
+toolHeadSwordIndium
+
+
+toolHeadSwordIndiumGalliumPhosphide
 
 
 toolHeadSwordInfusedAir
@@ -100753,6 +101167,9 @@ wireFineGold
 gregtech:gt.metaitem.02 - 19086
 
 
+wireFineGraphene
+
+
 wireFineIron
 gregtech:gt.metaitem.02 - 19032
 
@@ -100761,12 +101178,20 @@ wireFineLead
 gregtech:gt.metaitem.02 - 19089
 
 
+wireFineNiobiumTitanium
+gregtech:gt.metaitem.02 - 19360
+
+
 wireFineOsmium
 gregtech:gt.metaitem.02 - 19083
 
 
 wireFinePlatinum
 gregtech:gt.metaitem.02 - 19085
+
+
+wireFineRedAlloy
+gregtech:gt.metaitem.02 - 19308
 
 
 wireFineSolderingAlloy
@@ -100779,6 +101204,10 @@ gregtech:gt.metaitem.02 - 19305
 
 wireFineTin
 gregtech:gt.metaitem.02 - 19057
+
+
+wireFineYttriumBariumCuprate
+gregtech:gt.metaitem.02 - 19358
 
 
 wireGt01Adamantium
@@ -100919,6 +101348,9 @@ wireGt01FierySteel
 wireGt01Gallium
 
 
+wireGt01GalliumArsenide
+
+
 wireGt01Glass
 
 
@@ -100938,6 +101370,12 @@ gregtech:gt.blockmachines - 1700
 
 
 wireGt01HSSS
+
+
+wireGt01Indium
+
+
+wireGt01IndiumGalliumPhosphide
 
 
 wireGt01InfusedGold

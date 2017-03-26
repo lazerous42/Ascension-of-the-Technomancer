@@ -1,5 +1,5 @@
 # Ascension-of-the-Technomancer
-Newest Config Version 3.7.2
+Newest Config Version 3.8.0
 
 Hello there friend.  It seems as though you've met with a terrible fate, haven't you?  
 
@@ -8,7 +8,16 @@ Welcome to the world of Ascension of the Technomancer, a high difficulty alterna
 Good luck friend.
 
 ChangeLog
-
+- Version 3.8.0
+- Fix MOTD and starting items
+- Committing updated configs for version 3.8.0
+- Updated MOTD about new GT fluid spawns
+- Mod version updates
+- Reduced security time in GuardianChest.cfg down to 10 seconds.  This is to mitigate the use access bug (chest doesn't recognize you and makes you wait for 5 min to reclaim your items) while still providing damage protection until the user arrives.
+- BUGFIX: Switched Nuclear Control to use GregTech recipes
+- Get rid of shaders mod, it's just asking too much
+- Client directory cleanup/maintenance
+- Project Red configs are generating electrotine on their own.  COFH Core should be handling all generation of this resource.
 - Version 3.7.2
 - EnderIO and RFTools machine frames are now crafted in the QED
 - Various recipe tweaks to EnderIO recipes to integrate with GregTech

@@ -10628,6 +10628,10 @@ nevermine:waterweedsWhite - 1035
 nevermine:waterweedsYellow - 1034
 nevermine:zhinxGlass - 776
 obstrophiesaoa:otaoablocktrophy - 10940
+obstrophiesaoa:otitemabyssalcraftspecialsword - 11330
+obstrophiesaoa:otitemabyssalcraftsupersword - 11333
+obstrophiesaoa:otitemaetheriispecialsword - 11332
+obstrophiesaoa:otitemaetheriisupersword - 11331
 obstrophiesaoa:otitembetweenlandsspecialsword - 10981
 obstrophiesaoa:otitembetweenlandsspecialswordfaded - 10979
 obstrophiesaoa:otitembetweenlandssupersword - 10997
