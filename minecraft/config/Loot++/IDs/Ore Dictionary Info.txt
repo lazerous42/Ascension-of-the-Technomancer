@@ -682,6 +682,9 @@ blockDuranium
 gregtech:gt.blockmetal2 - 13
 
 
+blockEkectrum
+
+
 blockElectricalSteel
 EnderIO:blockIngotStorage - 0
 
@@ -790,6 +793,9 @@ Railcraft:cube - 0
 
 
 blockFullersEarth
+
+
+blockFzDarkIron
 
 
 blockGalena
@@ -3017,6 +3023,10 @@ ExtraUtilities:colorStoneBrick - 15
 
 bricksStoneYellow
 ExtraUtilities:colorStoneBrick - 11
+
+
+bronzeNugget
+MoarSigns:NuggetItems - 9
 
 
 bucket
@@ -19791,6 +19801,10 @@ ImmersiveEngineering:stoneDecoration - 4
 ImmersiveEngineering:stoneDecoration - 5
 
 
+copperNugget
+MoarSigns:NuggetItems - 10
+
+
 crafterWood
 Natura:Natura.workbench - 0
 Natura:Natura.workbench - 1
@@ -25225,6 +25239,9 @@ denseoreSilver
 
 
 denseoreTin
+
+
+diamondNugget
 
 
 dimensionalGem
@@ -61901,6 +61918,10 @@ chisel:lavastone - 0
 lead
 
 
+leadNugget
+MoarSigns:NuggetItems - 7
+
+
 leather
 
 
@@ -62995,6 +63016,7 @@ gregtech:gt.metaitem.01 - 9058
 nuggetAnyBronze
 ThermalFoundation:material - 105
 gregtech:gt.metaitem.01 - 9300
+MoarSigns:NuggetItems - 3
 
 
 nuggetAnyCopper
@@ -63006,6 +63028,7 @@ gregtech:gt.metaitem.01 - 9345
 MagicBees:beeNugget - 1
 Steamcraft:steamcraftNugget - 0
 ImmersiveEngineering:metal - 22
+MoarSigns:NuggetItems - 4
 
 
 nuggetAnyIron
@@ -63020,6 +63043,7 @@ Steamcraft:steamcraftNugget - 2
 GardenStuff:iron_nugget - 0
 GardenStuff:wrought_iron_nugget - 0
 ImmersiveEngineering:metal - 21
+MoarSigns:NuggetItems - 1
 
 
 nuggetApatite
@@ -63125,6 +63149,7 @@ Steamcraft:steamcraftNugget - 3
 nuggetBronze
 ThermalFoundation:material - 105
 gregtech:gt.metaitem.01 - 9300
+MoarSigns:NuggetItems - 3
 
 
 nuggetBrownLimonite
@@ -63235,6 +63260,7 @@ gregtech:gt.metaitem.01 - 9035
 MagicBees:beeNugget - 1
 Steamcraft:steamcraftNugget - 0
 ImmersiveEngineering:metal - 22
+MoarSigns:NuggetItems - 4
 
 
 nuggetCrudeOil
@@ -63267,6 +63293,7 @@ gregtech:gt.metaitem.01 - 9884
 nuggetDiamond
 gregtech:gt.metaitem.01 - 9500
 Translocator:diamondNugget - 0
+MoarSigns:NuggetItems - 0
 
 
 nuggetDiatomite
@@ -63302,6 +63329,7 @@ Botania:manaResource - 19
 nuggetEmerald
 gregtech:gt.metaitem.01 - 9501
 ForbiddenMagic:FMResource - 0
+MoarSigns:NuggetItems - 2
 
 
 nuggetEmery
@@ -63491,6 +63519,7 @@ MagicBees:beeNugget - 0
 Steamcraft:steamcraftNugget - 2
 GardenStuff:iron_nugget - 0
 ImmersiveEngineering:metal - 21
+MoarSigns:NuggetItems - 1
 
 
 nuggetIronCompressed
@@ -64023,6 +64052,7 @@ Railcraft:nugget - 3
 ThermalFoundation:material - 97
 gregtech:gt.metaitem.01 - 9057
 MagicBees:beeNugget - 2
+MoarSigns:NuggetItems - 5
 
 
 nuggetTinAlloy
@@ -87401,6 +87431,10 @@ arsmagica2:stairsWitchwood - 0
 stairsWood
 
 
+steelNugget
+MoarSigns:NuggetItems - 6
+
+
 steeleaf
 gregtech:gt.metaitem.01 - 11339
 TwilightForest:item.steeleafIngot - 0
@@ -88956,6 +88990,10 @@ thermalexpansion:machineTin
 Forestry:gearTin - 0
 ThermalFoundation:material - 129
 gregtech:gt.metaitem.02 - 31057
+
+
+tinNugget
+MoarSigns:NuggetItems - 8
 
 
 toolBakeware

@@ -120,7 +120,7 @@ RuneAltar.addRecipe(<Botania:rune:5>, [<ore:runeEarthB>, <ore:runeAirB>, <ore:sa
 RuneAltar.removeRecipe(<Botania:rune:6>);
 RuneAltar.addRecipe(<Botania:rune:6>, [<ore:runeFireB>, <ore:runeAirB>, <ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>, <minecraft:spider_eye>, <AWWayofTime:imbuedSlate>], 4000);
 RuneAltar.removeRecipe(<Botania:rune:7>);
-RuneAltar.addRecipe(<Botania:rune:7>, [<ore:runeWaterB>, <ore:runeEarthB>, <ore:blockSnow>, <ore:blockSnow>, <ore:blockWool>, <minecraft:cake>, <AWWayofTime:imbuedSlate>], 4000);
+RuneAltar.addRecipe(<Botania:rune:7>, [<ore:runeWaterB>, <ore:runeEarthB>, <minecraft:snow>, <minecraft:snow>, <ore:blockWool>, <minecraft:cake>, <AWWayofTime:imbuedSlate>], 4000);
 
 ##  Tier 3
 RuneAltar.removeRecipe(<Botania:rune:9>);

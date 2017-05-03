@@ -199,23 +199,23 @@ for j, manaPotionBundle in manaPotionBundles {
 for i, rune in runes {
 	recipes.remove(rune);
 }
-recipes.addShaped(runeBlank * 4, [[null, waystone, null], [dustVinteum, slateBlank, gemTopazBlue], [quicksilver, chimerite, null]]);
-Pylon.addRecipe(runeBlack, <aura:BLACK_AURA> * 5000, runeBlank);
-Pylon.addRecipe(runeBlue, <aura:BLUE_AURA> * 5000, runeBlank);
-Pylon.addRecipe(runeBrown, <aura:ORANGE_AURA> * 5000, runeBlank);
-Pylon.addRecipe(runeCyan, <aura:YELLOW_AURA> * 5000, runeBlank);
-Pylon.addRecipe(runeGrey, <aura:BLACK_AURA> * 5000, runeBlank);
-Pylon.addRecipe(runeGreen, <aura:GREEN_AURA> * 5000, runeBlank);
-Pylon.addRecipe(runeLightBlue, <aura:BLUE_AURA> * 5000, runeBlank);
-Pylon.addRecipe(runeLightGrey, <aura:WHITE_AURA> * 5000, runeBlank);
-Pylon.addRecipe(runeLime, <aura:GREEN_AURA> * 5000, runeBlank);
-Pylon.addRecipe(runeMagenta, <aura:VIOLET_AURA> * 5000, runeBlank);
-Pylon.addRecipe(runeOrange, <aura:ORANGE_AURA> * 5000, runeBlank);
-Pylon.addRecipe(runePink, <aura:RED_AURA> * 5000, runeBlank);
-Pylon.addRecipe(runePurple, <aura:VIOLET_AURA> * 5000, runeBlank);
-Pylon.addRecipe(runeRed, <aura:RED_AURA> * 5000, runeBlank);
-Pylon.addRecipe(runeWhite, <aura:WHITE_AURA> * 5000, runeBlank);
-Pylon.addRecipe(runeYellow, <aura:YELLOW_AURA> * 5000, runeBlank);
+recipes.addShaped(runeBlank * 3, [[null, waystone, null], [dustVinteum, slateBlank, gemTopazBlue], [quicksilver, chimerite, null]]);
+Pylon.addRecipe(runeBlack *3, <aura:BLACK_AURA> * 5000, runeBlank, <aura:BLACK_AURA> * 5000, runeBlank, <aura:BLACK_AURA> * 5000, runeBlank, <aura:BLACK_AURA> * 5000, <ChromatiCraft:chromaticraft_item_shard>);
+Pylon.addRecipe(runeBlue * 3, <aura:BLUE_AURA> * 5000, runeBlank, <aura:BLUE_AURA> * 5000, runeBlank, <aura:BLUE_AURA> * 5000, runeBlank, <aura:BLUE_AURA> * 5000, <ChromatiCraft:chromaticraft_item_shard:4>);
+Pylon.addRecipe(runeBrown * 3, <aura:ORANGE_AURA> * 5000, runeBlank, <aura:ORANGE_AURA> * 5000, runeBlank, <aura:ORANGE_AURA> * 5000, runeBlank, <aura:ORANGE_AURA> * 5000, <ChromatiCraft:chromaticraft_item_shard:3>);
+Pylon.addRecipe(runeCyan * 3, <aura:YELLOW_AURA> * 5000, runeBlank, <aura:YELLOW_AURA> * 5000, runeBlank, <aura:YELLOW_AURA> * 5000, runeBlank, <aura:YELLOW_AURA> * 5000, <ChromatiCraft:chromaticraft_item_shard:6>);
+Pylon.addRecipe(runeGrey * 3, <aura:BLACK_AURA> * 5000, runeBlank, <aura:BLACK_AURA> * 5000, runeBlank, <aura:BLACK_AURA> * 5000, runeBlank, <aura:BLACK_AURA> * 5000, <ChromatiCraft:chromaticraft_item_shard:8>);
+Pylon.addRecipe(runeGreen * 3, <aura:GREEN_AURA> * 5000, runeBlank, <aura:GREEN_AURA> * 5000, runeBlank, <aura:GREEN_AURA> * 5000, runeBlank, <aura:GREEN_AURA> * 5000, <ChromatiCraft:chromaticraft_item_shard:2>);
+Pylon.addRecipe(runeLightBlue * 3, <aura:BLUE_AURA> * 5000, runeBlank, <aura:BLUE_AURA> * 5000, runeBlank, <aura:BLUE_AURA> * 5000, runeBlank, <aura:BLUE_AURA> * 5000, <ChromatiCraft:chromaticraft_item_shard:12>);
+Pylon.addRecipe(runeLightGrey * 3, <aura:WHITE_AURA> * 5000, runeBlank, <aura:WHITE_AURA> * 5000, runeBlank, <aura:WHITE_AURA> * 5000, runeBlank, <aura:WHITE_AURA> * 5000, <ChromatiCraft:chromaticraft_item_shard:7>);
+Pylon.addRecipe(runeLime * 3, <aura:GREEN_AURA> * 5000, runeBlank, <aura:GREEN_AURA> * 5000, runeBlank, <aura:GREEN_AURA> * 5000, runeBlank, <aura:GREEN_AURA> * 5000, <ChromatiCraft:chromaticraft_item_shard:10>);
+Pylon.addRecipe(runeMagenta * 3, <aura:VIOLET_AURA> * 5000, runeBlank, <aura:VIOLET_AURA> * 5000, runeBlank, <aura:VIOLET_AURA> * 5000, runeBlank, <aura:VIOLET_AURA> * 5000, <ChromatiCraft:chromaticraft_item_shard:13>);
+Pylon.addRecipe(runeOrange * 3, <aura:ORANGE_AURA> * 5000, runeBlank, <aura:ORANGE_AURA> * 5000, runeBlank, <aura:ORANGE_AURA> * 5000, runeBlank, <aura:ORANGE_AURA> * 5000, <ChromatiCraft:chromaticraft_item_shard:14>);
+Pylon.addRecipe(runePink * 3, <aura:RED_AURA> * 5000, runeBlank, <aura:RED_AURA> * 5000, runeBlank, <aura:RED_AURA> * 5000, runeBlank, <aura:RED_AURA> * 5000, <ChromatiCraft:chromaticraft_item_shard:9>);
+Pylon.addRecipe(runePurple * 3, <aura:VIOLET_AURA> * 5000, runeBlank, <aura:VIOLET_AURA> * 5000, runeBlank, <aura:VIOLET_AURA> * 5000, runeBlank, <aura:VIOLET_AURA> * 5000, <ChromatiCraft:chromaticraft_item_shard:5>);
+Pylon.addRecipe(runeRed * 3, <aura:RED_AURA> * 5000, runeBlank, <aura:RED_AURA> * 5000, runeBlank, <aura:RED_AURA> * 5000, runeBlank, <aura:RED_AURA> * 5000, <ChromatiCraft:chromaticraft_item_shard:1>);
+Pylon.addRecipe(runeWhite * 3, <aura:WHITE_AURA> * 5000, runeBlank, <aura:WHITE_AURA> * 5000, runeBlank, <aura:WHITE_AURA> * 5000, runeBlank, <aura:WHITE_AURA> * 5000, <ChromatiCraft:chromaticraft_item_shard:15>);
+Pylon.addRecipe(runeYellow * 3, <aura:YELLOW_AURA> * 5000, runeBlank, <aura:YELLOW_AURA> * 5000, runeBlank, <aura:YELLOW_AURA> * 5000, runeBlank, <aura:YELLOW_AURA> * 5000, <ChromatiCraft:chromaticraft_item_shard:11>);
 
 ##  Crystal Phylactery
 recipes.remove(crystalPhylactery);

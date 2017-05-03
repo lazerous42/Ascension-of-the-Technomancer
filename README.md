@@ -8,7 +8,11 @@ Welcome to the world of Ascension of the Technomancer, a high difficulty alterna
 Good luck friend.
 
 ChangeLog
-- Version 3.8.0
+-- Version 3.8.2
+- BUGFIX: Corrected aura cascade vortex infusion crafting recipes of Ars Magica 2 runes.  Recipes cannot differ by aura color alone
+-- Version 3.8.1
+- Bugfix: Rune of winter required ore:blockSnow, which is not registered.  Reference changed to minecraft:snow
+-- Version 3.8.0
 - Fix MOTD and starting items
 - Committing updated configs for version 3.8.0
 - Updated MOTD about new GT fluid spawns
