@@ -4,6 +4,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 ##  Imports
+import mods.ic2.Compressor;
 import mods.thaumcraft.Arcane;
 import mods.thaumcraft.Crucible;
 import mods.thaumcraft.Infusion;
@@ -25,6 +26,10 @@ val blockSteel = <gregtech:gt.blockmetal6:13>;
 val entry = <ore:plankWood>;
 entry.remove(<Thaumcraft:blockWoodenDevice:6>);
 entry.remove(<Thaumcraft:blockWoodenDevice:7>);
+
+##  Thaumium Compressor Fix
+recipes.remove(<Thaumcraft:blockCosmeticSolid:4>);
+Compressor.addRecipe(<Thaumcraft:blockCosmeticSolid:4>, <ore:ingotThaumium> * 9);
 
 ##  Arcane Stone
 Arcane.removeRecipe(<Thaumcraft:blockCosmeticSolid:6>);

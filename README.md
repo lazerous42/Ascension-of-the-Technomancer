@@ -1,7 +1,7 @@
 # Ascension-of-the-Technomancer
-Current LIVE Config Version 3.8.1
+Current LIVE Config Version 3.8.2
 
-Repository Config Version 3.8.2
+Repository Config Version 3.8.3
 
 Hello there friend.  It seems as though you've met with a terrible fate, haven't you?  
 
@@ -10,6 +10,8 @@ Welcome to the world of Ascension of the Technomancer, a high difficulty alterna
 Good luck friend.
 
 ChangeLog
+-- Version 3.8.3
+- BUGFIX: GregTech unification was causing Ars Magica 2 blue topaz and Thaumium blocks not to be craftable because the compressor was only returning the GT variant
 -- Version 3.8.2
 - BUGFIX: Corrected aura cascade vortex infusion crafting recipes of Ars Magica 2 runes.  Recipes cannot differ by aura color alone
 -- Version 3.8.1

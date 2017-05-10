@@ -4,6 +4,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 import minetweaker.item.IItemStack;
+import mods.ic2.Compressor;
 import mods.bloodmagic.Alchemy;
 import mods.auraCascade.Pylon;
 
@@ -155,6 +156,10 @@ val runes = [runeBlack,
 	     runeRed,
 	     runeWhite,
 	     runeYellow] as IItemStack[];
+
+##  Blue Topaz Compressor Fix
+recipes.remove(blockTopazBlue);
+Compressor.addRecipe(blockTopazBlue, gemTopazBlue * 9);
 
 ##  Mana Potions
 #   Potions

@@ -45,11 +45,11 @@ val vortexController = <aura:auraNodecraftingCenter>;
 
 ##  Aura Crystal
 recipes.remove(auraCrystalWhite);
-recipes.addShaped(auraCrystalWhite * 2, [[dropQuicksilver, topazBlue, dropQuicksilver], [topazBlue, ingotSilver, topazBlue], [dropQuicksilver, topazBlue, dropQuicksilver]]);
+recipes.addShaped(auraCrystalWhite * 2, [[dropQuicksilver, ingotSilver, dropQuicksilver], [topazBlue, ingotSilver, topazBlue], [dropQuicksilver, topazBlue, dropQuicksilver]]);
 
 ##  Aura Node
 recipes.remove(auraNode);
-recipes.addShaped(auraNode, [[chimerite, chimerite, chimerite], [chimerite, diamondMana,chimerite], [chimerite, chimerite, chimerite]]);
+recipes.addShaped(auraNode, [[chimerite, ingotSilver, chimerite], [chimerite, diamondMana,chimerite], [chimerite, ingotSilver, chimerite]]);
 
 ##  Aura Pump Burning
 recipes.remove(burningAuraPump);
