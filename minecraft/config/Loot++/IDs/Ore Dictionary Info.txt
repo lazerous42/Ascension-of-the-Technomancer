@@ -4021,9 +4021,6 @@ cellBlizz
 cellBlueSteel
 
 
-cellBlueTopaz
-
-
 cellBluestone
 
 
@@ -5348,9 +5345,6 @@ cellTerbium
 cellTetrahedrite
 
 
-cellThaumium
-
-
 cellThorium
 
 
@@ -5817,9 +5811,6 @@ cleanGravelBeryllium
 cleanGravelBismuth
 
 
-cleanGravelBlueTopaz
-
-
 cleanGravelBrownLimonite
 
 
@@ -6198,9 +6189,6 @@ clumpBeryllium
 
 
 clumpBismuth
-
-
-clumpBlueTopaz
 
 
 clumpBrownLimonite
@@ -8010,6 +7998,9 @@ clusterChalcopyrite
 
 
 clusterCharcoal
+
+
+clusterChargedCertusQuartz
 
 
 clusterCheese
@@ -10900,9 +10891,6 @@ clusterImpureTeslatite
 
 
 clusterImpureTetrahedrite
-
-
-clusterImpureThaumium
 
 
 clusterImpureThorium
@@ -14300,9 +14288,6 @@ clusterPureTeslatite
 
 
 clusterPureTetrahedrite
-
-
-clusterPureThaumium
 
 
 clusterPureThorium
@@ -19335,9 +19320,6 @@ compressedBlackSteel
 compressedBlueSteel
 
 
-compressedBlueTopaz
-
-
 compressedBrass
 
 
@@ -19731,9 +19713,6 @@ compressedSterlingSilver
 
 
 compressedTanzanite
-
-
-compressedThaumium
 
 
 compressedThorium
@@ -22103,9 +22082,6 @@ crushedCentrifugedTetrahedrite
 gregtech:gt.metaitem.01 - 7840
 
 
-crushedCentrifugedThaumium
-
-
 crushedCentrifugedThorium
 gregtech:gt.metaitem.01 - 7096
 
@@ -23414,9 +23390,6 @@ crystalBlizz
 crystalBlueSteel
 
 
-crystalBlueTopaz
-
-
 crystalBluestone
 
 
@@ -24152,9 +24125,6 @@ crystalTanzanite
 crystalTetrahedrite
 
 
-crystalThaumium
-
-
 crystalThorium
 
 
@@ -24357,9 +24327,6 @@ crystallineBlizz
 
 
 crystallineBlueSteel
-
-
-crystallineBlueTopaz
 
 
 crystallineBluestone
@@ -25082,9 +25049,6 @@ crystallineTennantite
 crystallineTetrahedrite
 
 
-crystallineThaumium
-
-
 crystallineThorium
 
 
@@ -25308,9 +25272,6 @@ dirtyGravelBeryllium
 
 
 dirtyGravelBismuth
-
-
-dirtyGravelBlueTopaz
 
 
 dirtyGravelBrownLimonite
@@ -27262,6 +27223,9 @@ dustCharcoal
 Railcraft:dust - 3
 ThermalFoundation:material - 3
 gregtech:gt.metaitem.01 - 2536
+
+
+dustChargedCertusQuartz
 
 
 dustCheese
@@ -30379,9 +30343,6 @@ dustImpureTeslatite
 
 dustImpureTetrahedrite
 gregtech:gt.metaitem.01 - 3840
-
-
-dustImpureThaumium
 
 
 dustImpureThorium
@@ -34008,9 +33969,6 @@ dustPureTeslatite
 
 dustPureTetrahedrite
 gregtech:gt.metaitem.01 - 4840
-
-
-dustPureThaumium
 
 
 dustPureThorium
@@ -44672,6 +44630,9 @@ gemCharcoal
 minecraft:coal - 1
 
 
+gemChargedCertusQuartz
+
+
 gemCheese
 
 
@@ -45617,9 +45578,6 @@ gemExquisiteTanzanite
 gregtech:gt.metaitem.02 - 30508
 
 
-gemExquisiteThaumium
-
-
 gemExquisiteThorium
 
 
@@ -46197,9 +46155,6 @@ gemFlawlessSunstone
 
 gemFlawlessTanzanite
 gregtech:gt.metaitem.02 - 29508
-
-
-gemFlawlessThaumium
 
 
 gemFlawlessThorium
@@ -47933,9 +47888,6 @@ gemTennantite
 
 
 gemTetrahedrite
-
-
-gemThaumium
 
 
 gemThorium
@@ -49866,6 +49818,9 @@ ingotChalcopyrite
 ingotCharcoal
 
 
+ingotChargedCertusQuartz
+
+
 ingotCheese
 
 
@@ -50408,9 +50363,6 @@ ingotDoubleSteeleaf
 
 
 ingotDoubleSterlingSilver
-
-
-ingotDoubleThaumium
 
 
 ingotDoubleThorium
@@ -53221,9 +53173,6 @@ ingotImpureTeslatite
 
 
 ingotImpureTetrahedrite
-
-
-ingotImpureThaumium
 
 
 ingotImpureThorium
@@ -56672,9 +56621,6 @@ ingotPureTeslatite
 
 
 ingotPureTetrahedrite
-
-
-ingotPureThaumium
 
 
 ingotPureThorium
@@ -62727,6 +62673,10 @@ marble
 chisel:marble - 0
 
 
+materialAspectShard
+Thaumcraft:ItemShard - any
+
+
 materialCloth
 harvestcraft:wovencottonItem - 0
 
@@ -64061,9 +64011,6 @@ gregtech:gt.metaitem.01 - 9363
 
 nuggetTitanium
 gregtech:gt.metaitem.01 - 9028
-
-
-nuggetTopaz
 
 
 nuggetTritanium
@@ -66619,7 +66566,6 @@ InterstellarOres:oreAsteroid - 3
 InterstellarOres:oreIce - 2
 InterstellarOres:oreIce - 3
 appliedenergistics2:tile.OreQuartz - 0
-appliedenergistics2:tile.OreQuartzCharged - 0
 
 
 oreCeruclase
@@ -66634,6 +66580,10 @@ gregtech:gt.blockores.gc - 3855
 
 
 oreCharcoal
+
+
+oreChargedCertusQuartz
+appliedenergistics2:tile.OreQuartzCharged - 0
 
 
 oreCheese
@@ -69792,9 +69742,6 @@ oreImpureTeslatite
 
 
 oreImpureTetrahedrite
-
-
-oreImpureThaumium
 
 
 oreImpureThorium
@@ -73695,9 +73642,6 @@ orePureTeslatite
 
 
 orePureTetrahedrite
-
-
-orePureThaumium
 
 
 orePureThorium
@@ -79861,9 +79805,6 @@ pipeHugeTantalum
 pipeHugeTerrasteel
 
 
-pipeHugeThaumium
-
-
 pipeHugeThorium
 
 
@@ -80262,9 +80203,6 @@ pipeLargeTantalum
 
 
 pipeLargeTerrasteel
-
-
-pipeLargeThaumium
 
 
 pipeLargeThorium
@@ -80680,9 +80618,6 @@ pipeMediumTantalum
 
 
 pipeMediumTerrasteel
-
-
-pipeMediumThaumium
 
 
 pipeMediumThorium
@@ -81140,9 +81075,6 @@ pipeSmallTantalum
 pipeSmallTerrasteel
 
 
-pipeSmallThaumium
-
-
 pipeSmallThorium
 
 
@@ -81548,9 +81480,6 @@ pipeTinyTantalum
 
 
 pipeTinyTerrasteel
-
-
-pipeTinyThaumium
 
 
 pipeTinyThorium
@@ -83630,9 +83559,6 @@ reducedBeryllium
 reducedBismuth
 
 
-reducedBlueTopaz
-
-
 reducedBrownLimonite
 
 
@@ -84250,6 +84176,7 @@ ringSignalum
 
 
 ringSilicone
+gregtech:gt.metaitem.01 - 28471
 
 
 ringSilver
@@ -84276,9 +84203,6 @@ ringSterlingSilver
 
 
 ringTerrasteel
-
-
-ringThaumium
 
 
 ringThorium
@@ -85747,9 +85671,6 @@ shardBeryllium
 
 
 shardBismuth
-
-
-shardBlueTopaz
 
 
 shardBrownLimonite
@@ -101621,9 +101542,6 @@ wireGt01Tantalum
 
 
 wireGt01Terrasteel
-
-
-wireGt01Thaumium
 
 
 wireGt01Thorium
