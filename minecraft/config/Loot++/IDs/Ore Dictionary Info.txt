@@ -8000,9 +8000,6 @@ clusterChalcopyrite
 clusterCharcoal
 
 
-clusterChargedCertusQuartz
-
-
 clusterCheese
 
 
@@ -27225,9 +27222,6 @@ ThermalFoundation:material - 3
 gregtech:gt.metaitem.01 - 2536
 
 
-dustChargedCertusQuartz
-
-
 dustCheese
 gregtech:gt.metaitem.01 - 2894
 
@@ -44630,9 +44624,6 @@ gemCharcoal
 minecraft:coal - 1
 
 
-gemChargedCertusQuartz
-
-
 gemCheese
 
 
@@ -49816,9 +49807,6 @@ ingotChalcopyrite
 
 
 ingotCharcoal
-
-
-ingotChargedCertusQuartz
 
 
 ingotCheese
@@ -62673,10 +62661,6 @@ marble
 chisel:marble - 0
 
 
-materialAspectShard
-Thaumcraft:ItemShard - any
-
-
 materialCloth
 harvestcraft:wovencottonItem - 0
 
@@ -66566,6 +66550,7 @@ InterstellarOres:oreAsteroid - 3
 InterstellarOres:oreIce - 2
 InterstellarOres:oreIce - 3
 appliedenergistics2:tile.OreQuartz - 0
+appliedenergistics2:tile.OreQuartzCharged - 0
 
 
 oreCeruclase
@@ -66580,10 +66565,6 @@ gregtech:gt.blockores.gc - 3855
 
 
 oreCharcoal
-
-
-oreChargedCertusQuartz
-appliedenergistics2:tile.OreQuartzCharged - 0
 
 
 oreCheese

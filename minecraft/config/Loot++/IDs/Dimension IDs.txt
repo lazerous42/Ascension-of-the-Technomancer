@@ -409,7 +409,7 @@
 	- Name: Chroma
 	- Height: 256
 	- Has Sky? true
-	- Cloud Height: 124.67932
+	- Cloud Height: 106.15756
 	- Can Respawn Here? false
 	- Terrain Scale: 1.0
 

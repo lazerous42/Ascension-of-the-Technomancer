@@ -1,7 +1,7 @@
 # Ascension-of-the-Technomancer
-Current LIVE Config Version 3.8.2
+Current LIVE Config Version 3.8.3
 
-Repository Config Version 3.9.0
+Repository Config Version 3.9.1
 
 Hello there friend.  It seems as though you've met with a terrible fate, haven't you?  
 
@@ -9,7 +9,11 @@ Welcome to the world of Ascension of the Technomancer, a high difficulty alterna
 
 Good luck friend.
 
+* A note about config version numbers ~ The least significant version number applies to config changes only, where that the middle number increments with mod versions.  Although configs from newer versions of mods won't normally cause issues, there is a small chance so I figured I should mention it just in case.  The most significant digit indicates a major structural change, i.e. a substantial content change.  
+
 ChangeLog
+-- Version 3.9.1
+- Majorly increased the drop rate of Chromaticraft info fragments in the loot tables
 -- Version 3.9.0 Mod version updates
 -- Version 3.8.3
 - BUGFIX: GregTech unification was causing Ars Magica 2 blue topaz and Thaumium blocks not to be craftable because the compressor was only returning the GT variant
@@ -24,7 +28,6 @@ ChangeLog
 - Mod version updates
 - Reduced security time in GuardianChest.cfg down to 10 seconds.  This is to mitigate the use access bug (chest doesn't recognize you and makes you wait for 5 min to reclaim your items) while still providing damage protection until the user arrives.
 - BUGFIX: Switched Nuclear Control to use GregTech recipes
-- Get rid of shaders mod, it's just asking too much
 - Client directory cleanup/maintenance
 - Project Red configs are generating electrotine on their own.  COFH Core should be handling all generation of this resource.
 - Version 3.7.2

@@ -35,7 +35,7 @@ recipes.addShaped(<ThermalDynamics:ThermalDynamics_16:7> * 3, [[<ThermalDynamics
 recipes.remove(<ThermalDynamics:ThermalDynamics_0>);
 recipes.addShaped(<ThermalDynamics:ThermalDynamics_0> * 6, [[<ore:dustRedstone>, <ore:chipsetRed>, <ore:dustRedstone>], [plateLead, <ore:blockGlassColorless>, plateLead], [<ore:dustRedstone>, <ore:chipsetRed>, <ore:dustRedstone>]]);
 recipes.remove(<ThermalDynamics:ThermalDynamics_0:1>);
-recipes.addShaped(<ThermalDynamics:ThermalDynamics_0:1> * 6, [[<ore:dustRedstone>, <ore:chipsetRed>, <ore:dustRedstone>], [plateSteel, <ThermalExpansion:Glass>, plateSteel], [<ore:dustRedstone>, <ore:chipsetRed>, <ore:dustRedstone>]]);
+recipes.addShaped(<ThermalDynamics:ThermalDynamics_0:1> * 6, [[<ore:dustElectrotine>, <ore:chipsetRed>, <ore:dustElectrotine>], [plateSteel, <ThermalExpansion:Glass>, plateSteel], [<ore:dustElectrotine>, <ore:chipsetRed>, <ore:dustElectrotine>]]);
 recipes.remove(<ThermalDynamics:ThermalDynamics_0:3>);
 recipes.addShaped(<ThermalDynamics:ThermalDynamics_0:3> * 6, [[<ore:dustAerotheum>, <ore:nuggetSignalum>, <ore:dustAerotheum>], [<ore:dustElectrumFlux>, <ThermalExpansion:Glass:1>, <ore:dustElectrumFlux>], [<ore:dustAerotheum>, <ore:nuggetSignalum>, <ore:dustAerotheum>]]);
 recipes.remove(<ThermalDynamics:ThermalDynamics_0:5>);
