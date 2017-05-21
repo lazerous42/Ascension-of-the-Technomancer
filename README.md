@@ -1,7 +1,7 @@
 # Ascension-of-the-Technomancer
-Current LIVE Config Version 3.8.3
+Current LIVE Config Version 3.9.0
 
-Repository Config Version 3.9.1
+Repository Config Version 3.10.0
 
 Hello there friend.  It seems as though you've met with a terrible fate, haven't you?  
 
@@ -12,6 +12,10 @@ Good luck friend.
 * A note about config version numbers ~ The least significant version number applies to config changes only, where that the middle number increments with mod versions.  Although configs from newer versions of mods won't normally cause issues, there is a small chance so I figured I should mention it just in case.  The most significant digit indicates a major structural change, i.e. a substantial content change.  
 
 ChangeLog
+-- Version 3.10.0
+- BUGFIX (Critical): GT5.29 is causing terrain generation crashes in the nether.  Most likely to occur in when generating large amounts of chunks (i.e. initial generation)
+- IC2 advanced circuit is allowed for making the HV circuit assembler (impossible to make required data stick in GT5.28, but fixed in GT5.29)
+- Increased weight of tainted lands biome to compensate for BoP
 -- Version 3.9.1
 - Majorly increased the drop rate of Chromaticraft info fragments in the loot tables
 -- Version 3.9.0 Mod version updates

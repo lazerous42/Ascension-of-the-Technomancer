@@ -84157,7 +84157,6 @@ ringSignalum
 
 
 ringSilicone
-gregtech:gt.metaitem.01 - 28471
 
 
 ringSilver

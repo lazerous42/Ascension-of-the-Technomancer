@@ -24,6 +24,15 @@ val gtHammer = <gregtech:gt.metatool.01:12>;
 <ore:dyeBlack>.add(<gregtech:gt.metaitem.01:2535>);
 <ore:dyeBlack>.add(<gregtech:gt.metaitem.01:2536>);
 
+## Val Definitions
+val circuitAssemblerHV = <gregtech:gt.blockmachines:1182>;
+val robotArmHV = <gregtech:gt.metaitem.01:32652>;
+val conveyorModuleHV = <gregtech:gt.metaitem.01:32632>;
+val emitterHV = <gregtech:gt.metaitem.01:32682>;
+val machineHullHV  = <gregtech:gt.blockmachines:13>;
+val cableGoldHV  = <gregtech:gt.blockmachines:1426>;
+val advancedCircuit = <IC2:itemPartCircuitAdv>;
+
 ## Fix wrought iron ingot -> conversion
 recipes.addShapeless(<gregtech:gt.metaitem.01:9304> * 9, [<gregtech:gt.metaitem.01:11304>]);
 
@@ -45,5 +54,10 @@ recipes.addShaped(<minecraft:chainmail_helmet>, [[ringIron, ringIron, ringIron],
 recipes.addShaped(<minecraft:chainmail_chestplate>, [[ringIron, gtHammer, ringIron], [ringIron, ringIron, ringIron], [ringIron, ringIron, ringIron]]);
 recipes.addShaped(<minecraft:chainmail_leggings>, [[ringIron, ringIron, ringIron], [ringIron, gtHammer, ringIron], [ringIron, null, ringIron]]);
 recipes.addShaped(<minecraft:chainmail_boots>, [[ringIron, null, ringIron], [ringIron, gtHammer, ringIron], [null, null, null]]);
+
+## HV Circuit Assembler Fix
+# This machine requires a data stick which is overpriced at 160 EU in GT 5.28, making this machine impossible to make
+# Fixed in GT5.29, but it crashes the nether.
+recipes.addShaped(circuitAssemblerHV, [[robotArmHV, advancedCircuit, emitterHV], [conveyorModuleHV, machineHullHV, conveyorModuleHV], [cableGoldHV, advancedCircuit, cableGoldHV]]);
 
 print("Initialized 'GregTech.zs'");
