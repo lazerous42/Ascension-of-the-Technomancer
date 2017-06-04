@@ -108,7 +108,10 @@ ChromatiCraft.Aurora
 ChromatiCraft.Ball Lightning
 ChromatiCraft.CC Ender Crystal
 ChromatiCraft.ChainGun Shot
+ChromatiCraft.Cluster Ball
+ChromatiCraft.DataCrystal
 ChromatiCraft.Dimension Flare
+ChromatiCraft.GlowCloud
 ChromatiCraft.Laser Pulse
 ChromatiCraft.Light
 ChromatiCraft.Luma Burst
@@ -876,6 +879,29 @@ desertmobs.joustalpha
 desertmobs.manticore
 desertmobs.mudshot
 desertmobs.throwingscythe
+dungeonmobs.DMBeholder
+dungeonmobs.DMBladeTrap
+dungeonmobs.DMCaveFisher
+dungeonmobs.DMCockatrice
+dungeonmobs.DMDestrachan
+dungeonmobs.DMEyeRay
+dungeonmobs.DMGhoul
+dungeonmobs.DMHellHound
+dungeonmobs.DMHookHorror
+dungeonmobs.DMIllithid
+dungeonmobs.DMLizalfos
+dungeonmobs.DMMagicMissile
+dungeonmobs.DMManticore
+dungeonmobs.DMPetrified
+dungeonmobs.DMRakshasa
+dungeonmobs.DMRakshasaImage
+dungeonmobs.DMRustMonster
+dungeonmobs.DMShrieker
+dungeonmobs.DMSonicBoom
+dungeonmobs.DMThoqqua
+dungeonmobs.DMTroll
+dungeonmobs.DMUmberHulk
+dungeonmobs.DMVescavor
 dynamicswordskills.leapingblow
 dynamicswordskills.swordbeam
 enderzoo.ConcussionCreeper

@@ -1,8 +1,8 @@
-Total amount of free potion ids: 192
-Total amount of occupied potion ids: 164
+Total amount of free potion ids: 189
+Total amount of occupied potion ids: 167
 Total amount of conflicted potion ids: 0
 All ids and their position:
-0 is Avaible
+0 is Occupied by Confusion (com.gw.dm.potion.PotionAddle)
 1 is Occupied by potion.moveSpeed (net.minecraft.potion.Potion)
 2 is Occupied by potion.moveSlowdown (net.minecraft.potion.Potion)
 3 is Occupied by potion.digSpeed (net.minecraft.potion.Potion)
@@ -127,7 +127,7 @@ All ids and their position:
 122 is Occupied by potion.swiftswimming (lycanite.lycanitesmobs.PotionBase)
 123 is Occupied by potion.weight (lycanite.lycanitesmobs.PotionBase)
 124 is Occupied by potion.antiWither (thor12022.hardcorewither.potions.PotionAntiWither)
-125 is Avaible
+125 is Occupied by potion.fluxtaint (thaumcraft.api.potions.PotionFluxTaint)
 126 is Occupied by Air Imbued (thaumic.tinkerer.common.potion.DummyPotions)
 127 is Occupied by Earth Imbued (thaumic.tinkerer.common.potion.DummyPotions)
 128 is Occupied by Fire Imbued (thaumic.tinkerer.common.potion.DummyPotions)
@@ -176,7 +176,7 @@ All ids and their position:
 171 is Avaible
 172 is Avaible
 173 is Avaible
-174 is Avaible
+174 is Occupied by Restorative Aura (Reika.ChromatiCraft.Auxiliary.Potions.PotionLumenRegen)
 175 is Occupied by Growth Accelerant (Reika.ChromatiCraft.Auxiliary.Potions.PotionGrowthHormone)
 176 is Occupied by Lumarhea (Reika.ChromatiCraft.Auxiliary.Potions.PotionLumarhea)
 177 is Occupied by potion.regeneration (Reika.ChromatiCraft.Auxiliary.Potions.PotionCustomRegen)

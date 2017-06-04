@@ -273,6 +273,13 @@
 	- Max Level: 5
 
 
+60
+	- Name: enchantment.chroma.phasing
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 4
+
+
 61
 	- Name: enchantment.lootBonusFishing
 	- Weight: 2

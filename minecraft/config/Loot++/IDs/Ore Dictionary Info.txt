@@ -19994,8 +19994,8 @@ Natura:Natura.workbench - 12
 
 craftingTank
 BuildCraft|Factory:tankBlock - 0
-deepresonance:tankBlock - 0
 Ztones:tile.tankBlock - 0
+deepresonance:tankBlock - 0
 
 
 craftingTeleporter
@@ -43787,8 +43787,8 @@ gemAluminium
 
 
 gemAmber
-BiomesOPlenty:gems - 7
 Thaumcraft:ItemResource - 6
+BiomesOPlenty:gems - 7
 gregtech:gt.metaitem.01 - 8514
 
 
@@ -62575,6 +62575,8 @@ MineFactoryReloaded:rubberwood.log - 0
 logWood
 minecraft:log - any
 minecraft:log2 - any
+Thaumcraft:blockMagicalLog - 0
+Thaumcraft:blockMagicalLog - 1
 Natura:tree - 0
 Natura:tree - 1
 Natura:tree - 2
@@ -62593,8 +62595,6 @@ BiomesOPlenty:logs3 - any
 BiomesOPlenty:logs4 - any
 Forestry:logs - any
 Forestry:logsFireproof - any
-Thaumcraft:blockMagicalLog - 0
-Thaumcraft:blockMagicalLog - 1
 harvestcraft:pamMaple - 0
 harvestcraft:pamPaperbark - 0
 harvestcraft:pamCinnamon - 0
@@ -86933,14 +86933,14 @@ ImmersiveEngineering:woodenDecoration - 2
 
 slabWood
 minecraft:wooden_slab - any
+Thaumcraft:blockCosmeticSlabWood - 0
+Thaumcraft:blockCosmeticSlabWood - 1
 Natura:plankSlab1 - any
 Natura:plankSlab2 - any
 BiomesOPlenty:woodenSingleSlab1 - any
 BiomesOPlenty:woodenSingleSlab2 - any
 Forestry:slabs - any
 Forestry:slabsFireproof - any
-Thaumcraft:blockCosmeticSlabWood - 0
-Thaumcraft:blockCosmeticSlabWood - 1
 ExtraTrees:slab - 0
 ExtraTrees:slab - 1
 ExtraTrees:slab - 2
@@ -100654,6 +100654,8 @@ MineFactoryReloaded:rubberwood.leaves - 0
 
 treeSapling
 minecraft:sapling - any
+Thaumcraft:blockCustomPlant - 0
+Thaumcraft:blockCustomPlant - 1
 Natura:florasapling - any
 Natura:Rare Sapling - any
 BiomesOPlenty:saplings - any
@@ -100661,8 +100663,6 @@ BiomesOPlenty:colorizedSaplings - any
 IC2:blockRubSapling - any
 Forestry:sapling - any
 Forestry:saplingGE - any
-Thaumcraft:blockCustomPlant - 0
-Thaumcraft:blockCustomPlant - 1
 MineFactoryReloaded:rubberwood.sapling - 0
 witchery:witchsapling - any
 TwilightForest:tile.TFSapling - any

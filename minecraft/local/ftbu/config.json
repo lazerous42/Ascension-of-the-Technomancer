@@ -34,10 +34,10 @@
     "motd": [
       "\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d",
       "Welcome to Ascension of the Technomancer!",
-      "Version 3.10.0",
+      "Version 3.11.2",
       "The drop rate of Chromaticraft info fragments has been substantially boosted in dungeon loot tables",
-      "GT reverted to 5.28 to fix nether terrain generation crash",
       "A pruning of unused chunks in your world can spawn them closer to home",
+      "GT reverted to 5.28 to fix nether terrain generation crash",
       "\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
     ],
     "starting_items": [

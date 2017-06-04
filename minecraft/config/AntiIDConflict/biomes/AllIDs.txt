@@ -1,5 +1,5 @@
-Total amount of free biome ids: 46
-Total amount of occupied biome ids: 210
+Total amount of free biome ids: 44
+Total amount of occupied biome ids: 212
 Total amount of conflicted biome ids: 0
 All ids and their position:
 0 is Occupied by Ocean (biomesoplenty.common.biome.overridden.BiomeGenBOPOcean)
@@ -119,7 +119,7 @@ All ids and their position:
 114 is Avaible
 115 is Avaible
 116 is Avaible
-117 is Avaible
+117 is Occupied by Radiant Fissures (Reika.ChromatiCraft.World.Dimension.Biome.BiomeGenGlowCracks)
 118 is Occupied by Aura Ocean (Reika.ChromatiCraft.World.Dimension.Biome.BiomeGenChromaOcean)
 119 is Occupied by Luminescent Sanctuary (Reika.ChromatiCraft.World.Dimension.Biome.BiomeGenCentral)
 120 is Occupied by Crystal Forest (Reika.ChromatiCraft.World.Dimension.Biome.BiomeGenCrystalForest)
@@ -149,7 +149,7 @@ All ids and their position:
 144 is Avaible
 145 is Avaible
 146 is Avaible
-147 is Avaible
+147 is Occupied by Luminous Cliffs Shores (Reika.ChromatiCraft.World.GlowingCliffsEdge)
 148 is Occupied by Ender Forest (Reika.ChromatiCraft.World.BiomeEnderForest)
 149 is Occupied by Jungle M (net.minecraft.world.biome.BiomeGenJungle)
 150 is Occupied by Luminous Cliffs (Reika.ChromatiCraft.World.BiomeGlowingCliffs)

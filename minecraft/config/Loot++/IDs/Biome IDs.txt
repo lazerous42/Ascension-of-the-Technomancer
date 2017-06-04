@@ -357,6 +357,10 @@
 	- Name: Dense Twilight Forest
 	- Forge Biome Types: DENSE FOREST 
 
+117
+	- Name: Radiant Fissures
+	- Forge Biome Types: HOT MAGICAL 
+
 118
 	- Name: Aura Ocean
 	- Forge Biome Types: MAGICAL OCEAN 
@@ -429,6 +433,10 @@
 	- Name: Ice Plains Spikes
 	- Forge Biome Types: COLD HILLS SNOWY 
 
+147
+	- Name: Luminous Cliffs Shores
+	- Forge Biome Types: WET LUSH MAGICAL MOUNTAIN BEACH 
+
 148
 	- Name: Ender Forest
 	- Forge Biome Types: MAGICAL FOREST 
@@ -439,7 +447,7 @@
 
 150
 	- Name: Luminous Cliffs
-	- Forge Biome Types: LUSH MAGICAL MOUNTAIN 
+	- Forge Biome Types: WET LUSH MAGICAL MOUNTAIN BEACH 
 
 151
 	- Name: JungleEdge M

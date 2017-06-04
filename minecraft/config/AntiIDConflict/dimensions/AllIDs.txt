@@ -96,7 +96,7 @@
 -5 is Avaible
 -4 is Occupied by: Hyperspace, Provider: (id: -5, class: class cr0s.warpdrive.world.HyperSpaceWorldProvider)
 -3 is Occupied by: Space, Provider: (id: -3, class: class cr0s.warpdrive.world.SpaceWorldProvider)
--2 is Occupied by: Chroma, Provider: (id: -2, class: class Reika.ChromatiCraft.World.Dimension.WorldProviderChroma)
+-2 is Occupied by: Proxima, Provider: (id: -2, class: class Reika.ChromatiCraft.World.Dimension.WorldProviderChroma)
 -1 is Occupied by: Nether, Provider: (id: -1, class: class biomesoplenty.common.world.WorldProviderBOPHell)
 0 is Occupied by: Overworld, Provider: (id: 0, class: class net.minecraft.world.WorldProviderSurface)
 1 is Occupied by: The End, Provider: (id: 1, class: class net.minecraft.world.WorldProviderEnd)

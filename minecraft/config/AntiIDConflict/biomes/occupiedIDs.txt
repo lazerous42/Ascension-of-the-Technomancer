@@ -1,4 +1,4 @@
-Total amount of occupied biome ids: 210
+Total amount of occupied biome ids: 212
 Table of occupied biome ids and their owners
 id:name(class)
 0 : Ocean (class biomesoplenty.common.biome.overridden.BiomeGenBOPOcean)
@@ -85,6 +85,7 @@ id:name(class)
 96 : Thornlands (class twilightforest.biomes.TFBiomeThornlands)
 97 : Twilight Forest (class twilightforest.biomes.TFBiomeTwilightForest)
 98 : Dense Twilight Forest (class twilightforest.biomes.TFBiomeTwilightForestVariant)
+117 : Radiant Fissures (class Reika.ChromatiCraft.World.Dimension.Biome.BiomeGenGlowCracks)
 118 : Aura Ocean (class Reika.ChromatiCraft.World.Dimension.Biome.BiomeGenChromaOcean)
 119 : Luminescent Sanctuary (class Reika.ChromatiCraft.World.Dimension.Biome.BiomeGenCentral)
 120 : Crystal Forest (class Reika.ChromatiCraft.World.Dimension.Biome.BiomeGenCrystalForest)
@@ -103,6 +104,7 @@ id:name(class)
 133 : Taiga M (class net.minecraft.world.biome.BiomeGenTaiga)
 134 : Swampland M (class net.minecraft.world.biome.BiomeGenSwamp)
 140 : Ice Plains Spikes (class net.minecraft.world.biome.BiomeGenSnow)
+147 : Luminous Cliffs Shores (class Reika.ChromatiCraft.World.GlowingCliffsEdge)
 148 : Ender Forest (class Reika.ChromatiCraft.World.BiomeEnderForest)
 149 : Jungle M (class net.minecraft.world.biome.BiomeGenJungle)
 150 : Luminous Cliffs (class Reika.ChromatiCraft.World.BiomeGlowingCliffs)

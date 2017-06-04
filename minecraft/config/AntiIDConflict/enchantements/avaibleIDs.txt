@@ -22,7 +22,6 @@ List of avaible enchantement ids:
 43
 44
 47
-60
 63
 64
 65

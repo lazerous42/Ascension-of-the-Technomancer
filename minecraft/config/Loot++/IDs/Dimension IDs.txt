@@ -406,10 +406,10 @@
 
 
 -2
-	- Name: Chroma
+	- Name: Proxima
 	- Height: 256
 	- Has Sky? true
-	- Cloud Height: 120.332954
+	- Cloud Height: 65.19534
 	- Can Respawn Here? false
 	- Terrain Scale: 1.0
 
