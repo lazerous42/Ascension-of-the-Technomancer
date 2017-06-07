@@ -1,6 +1,6 @@
 # Ascension-of-the-Technomancer
 Current LIVE Config Version 3.10.0
-Repository Config Version 3.11.2
+Repository Config Version 3.12.1
 
 Hello there friend.  It seems as though you've met with a terrible fate, haven't you?  
 
@@ -11,15 +11,20 @@ Good luck friend.
 * A note about config version numbers ~ The least significant version number applies to config changes only, where that the middle number increments with mod versions.  Although configs from newer versions of mods won't normally cause issues, there is a small chance so I figured I should mention it just in case.  The most significant digit indicates a major structural change, i.e. a substantial content change.  
 
 ChangeLog
+-- Version 3.12.1
+- BUGFIX: Cannot fire AoA bows without a regular arrow in inventory in addition to holly arrows (Disabled infibows in EnderCore)
+-- Version 3.12.0 (Need a Hand Update)
+- Mine and Blade Battlegear has been re-introduced to the pack to help cope with the number of weapons and tools that need to share limited hotbar space
+- Chocobo feathers are now oredicted into ore:craftingFeather
+- AoA HollyTop Arrows now use ore:craftingFeather for the basic recipe.
 -- Version 3.11.2
 - Moar mobs!! Moar pain!!, Dungeon creatures added to Twilight, Aether, and special overworld biomes (SPOOKY, MAGICAL)
 -- Version 3.11.1
 - Added enderium ingots to loot tables (are you feeling lucky?)
 - Moar gold and iron in loot tables
--- Version 3.11.0 
+-- Version 3.11.0 (Quality of Life Update)
 - Updated Chromaticraft to v17c, biome, potion, and enchantment IDs adjusted accordingly.  Spawn tables updated for new biome
 - Mod Updates
-- The Quality of Life Update featuring the new mods listed below
 - Super Crafting Frame (Easing your GT micro-crafting pains)
 - ChiselTones (Chisel base Ztone blocks for game mechanic consistency)
 - Thaumcraft Node Tracker (GTore veins probably already flood your FOV with waypoints)

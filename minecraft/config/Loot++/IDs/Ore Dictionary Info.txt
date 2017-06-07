@@ -19844,6 +19844,7 @@ IC2:blockMachine - 4
 craftingFeather
 minecraft:feather - any
 TwilightForest:item.tfFeather - any
+chococraft:Chocobo_Feather - 0
 
 
 craftingFilter

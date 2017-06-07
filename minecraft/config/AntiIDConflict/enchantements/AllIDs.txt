@@ -123,13 +123,13 @@
 122 is Avaible
 123 is Avaible
 124 is Avaible
-125 is Avaible
-126 is Avaible
-127 is Avaible
-128 is Avaible
-129 is Avaible
-130 is Avaible
-131 is Avaible
+125 is Occupied by: enchantment.bash.weightless (mods.battlegear2.enchantments.BaseEnchantment)
+126 is Occupied by: enchantment.bash.power (mods.battlegear2.enchantments.BaseEnchantment)
+127 is Occupied by: enchantment.bash.damage (mods.battlegear2.enchantments.BaseEnchantment)
+128 is Occupied by: enchantment.shield.usage (mods.battlegear2.enchantments.BaseEnchantment)
+129 is Occupied by: enchantment.shield.recover (mods.battlegear2.enchantments.BaseEnchantment)
+130 is Occupied by: enchantment.bow.loot (mods.battlegear2.enchantments.BaseEnchantment)
+131 is Occupied by: enchantment.bow.charge (mods.battlegear2.enchantments.BaseEnchantment)
 132 is Avaible
 133 is Avaible
 134 is Avaible

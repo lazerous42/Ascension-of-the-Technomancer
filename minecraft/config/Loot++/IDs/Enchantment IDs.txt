@@ -483,6 +483,55 @@
 	- Max Level: 4
 
 
+125
+	- Name: enchantment.bash.weightless
+	- Weight: 5
+	- Min Level: 1
+	- Max Level: 3
+
+
+126
+	- Name: enchantment.bash.power
+	- Weight: 10
+	- Min Level: 1
+	- Max Level: 5
+
+
+127
+	- Name: enchantment.bash.damage
+	- Weight: 1
+	- Min Level: 1
+	- Max Level: 3
+
+
+128
+	- Name: enchantment.shield.usage
+	- Weight: 2
+	- Min Level: 1
+	- Max Level: 5
+
+
+129
+	- Name: enchantment.shield.recover
+	- Weight: 3
+	- Min Level: 1
+	- Max Level: 4
+
+
+130
+	- Name: enchantment.bow.loot
+	- Weight: 2
+	- Min Level: 1
+	- Max Level: 1
+
+
+131
+	- Name: enchantment.bow.charge
+	- Weight: 1
+	- Min Level: 1
+	- Max Level: 1
+
+
 150
 	- Name: enchantment.haste
 	- Weight: 3
