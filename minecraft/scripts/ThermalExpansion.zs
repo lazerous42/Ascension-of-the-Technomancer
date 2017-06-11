@@ -204,10 +204,8 @@ recipes.remove(<ThermalExpansion:Cell:1>);
 recipes.remove(<ThermalExpansion:Cell:3>);
 recipes.addShaped(<ThermalExpansion:Frame:8>, [[<ore:ingotEnderium>, <ore:blockGlassHardened>, <ore:ingotEnderium>], [<ore:blockGlassHardened>, <ore:gemEmerald>, <ore:blockGlassHardened>], [<ore:ingotEnderium>, <ore:blockGlassHardened>, <ore:ingotEnderium>]]);
 recipes.addShaped(<ThermalExpansion:Frame:6>, [[<ore:ingotElectrum>, <ore:blockGlassHardened>, <ore:ingotElectrum>], [<ore:blockGlassHardened>, <ore:gemDiamond>, <ore:blockGlassHardened>], [<ore:ingotElectrum>, <ore:blockGlassHardened>, <ore:ingotElectrum>]]);
-recipes.addShaped(<ThermalExpansion:Cell:2>, [[null, <IC2:itemPartCircuit>, null], [tubeBronze, <ThermalExpansion:Frame:5>, tubeBronze], [null, <ThermalExpansion:material:3>, null]]);
 recipes.addShaped(<ThermalExpansion:Cell:2>, [[<ore:ingotInvar>, <ore:circuitBasic>, <ore:ingotInvar>], [tubeBronze, <ThermalExpansion:Cell:1>, tubeBronze], [<ore:ingotInvar>, <ThermalExpansion:material:3>, <ore:ingotInvar>]]);
 recipes.addShaped(<ThermalExpansion:Cell:1>, [[<ore:ingotLead>, <ore:circuitBasic>, <ore:ingotLead>], [<Forestry:thermionicTubes:1>, <ThermalExpansion:Frame:4>, <Forestry:thermionicTubes:1>], [<ore:ingotLead>, <ThermalExpansion:material:3>, <ore:ingotLead>]]);
-recipes.addShaped(<ThermalExpansion:Cell:4>, [[null, <ore:circuitAdvanced>, null], [tubeEmerald, <ThermalExpansion:Frame:9>, tubeEmerald], [null, <EnderIO:itemBasicCapacitor:2>, null]]);
 recipes.addShaped(<ThermalExpansion:Cell:3>, [[null, <ore:circuitAdvanced>, null], [tubeDiamond, <ThermalExpansion:Frame:7>, tubeDiamond], [null, <EnderIO:itemBasicCapacitor:1>, null]]);
 recipes.addShaped(<ThermalExpansion:Cell:4>, [[<ore:ingotEnderium>, <ore:circuitAdvanced>, <ore:ingotEnderium>], [tubeEmerald, <ThermalExpansion:Cell:3>, tubeEmerald], [<ore:ingotEnderium>, <EnderIO:itemBasicCapacitor:2>, <ore:ingotEnderium>]]);
 

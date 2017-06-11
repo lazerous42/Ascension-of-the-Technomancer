@@ -58,6 +58,8 @@ recipes.addShaped(<minecraft:chainmail_boots>, [[ringIron, null, ringIron], [rin
 ## HV Circuit Assembler Fix
 # This machine requires a data stick which is overpriced at 160 EU in GT 5.28, making this machine impossible to make
 # Fixed in GT5.29, but it crashes the nether.
-recipes.addShaped(circuitAssemblerHV, [[robotArmHV, advancedCircuit, emitterHV], [conveyorModuleHV, machineHullHV, conveyorModuleHV], [cableGoldHV, advancedCircuit, cableGoldHV]]);
+#
+# Now using 5.09.30 pre-release, nether is fine and recipe no longer needed
+# recipes.addShaped(circuitAssemblerHV, [[robotArmHV, advancedCircuit, emitterHV], [conveyorModuleHV, machineHullHV, conveyorModuleHV], [cableGoldHV, advancedCircuit, cableGoldHV]]);
 
 print("Initialized 'GregTech.zs'");

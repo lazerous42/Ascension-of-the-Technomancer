@@ -32,6 +32,20 @@ Automagy:phialExtra
 	- Food Info Unknown!
 
 
+Avaritia:Cosmic_Meatballs
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 20
+	- Saturation Amount: 20.0
+
+
+Avaritia:Ultimate_Stew
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 20
+	- Saturation Amount: 20.0
+
+
 BinnieCore:containerBucket
 	- Megadata: 64
 	- Food or Drink? Unknown

@@ -152,3 +152,28 @@ Get a wyvern mount (requires Mo' Creatures addon)::0
 Get married and have a child::0
 Open 25 chance cubes (Warning: filled with FUN!!!)::0
 Defeat Rahovart::0
+::1
+=== For the Richest Man in the World ===::1
+Ha, So you think you finally have this pack beaten?::2
+World Breaker::0
+Nature's Ruin::0
+Planet Eater Planet Eater::0
+Sword of the Cosmos::0
+Skullfire Sword::0
+Longbow of the Heavens::0
+Infinity Helmet::0
+Infinity Breastplate::0
+Infinity Pants::0
+Infinity Boots::0
+Creative Energy Cell (Thermal Expansion)::0
+Creative Energy Cell (Applied Energistics)::0
+Guilty Mana Pool::0
+Ultimate Stew::0
+Cosmic Meatballs::0
+Blood Orb of Armok::0
+Infinitato::0
+Asgardandelion (Regular or Floating)::0
+Soarleander (Regular or Floating)::0
+Akashic Records::0
+Crystal Studded Cosmic Neutronium Wand::0
+Extremely Primordial Pearl::0

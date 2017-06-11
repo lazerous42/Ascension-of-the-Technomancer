@@ -114,6 +114,19 @@
       "action": {
         "category": "Lycanites Mobs"
       }
+    },
+    "9": {
+      "title": "Thaumcraft Node Tracker",
+      "icon": {
+        "name": "Thaumcraft:ItemThaumometer",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.aspectMenu",
+          "toggle": false
+        }
+      }
     }
   },
   "Menu": {

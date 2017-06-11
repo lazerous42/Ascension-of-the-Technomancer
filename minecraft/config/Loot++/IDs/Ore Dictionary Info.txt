@@ -127,6 +127,14 @@ minecraft:iron_bars - 0
 
 
 basalt
+gregtech:gt.blockstones - 8
+gregtech:gt.blockstones - 9
+gregtech:gt.blockstones - 10
+gregtech:gt.blockstones - 11
+gregtech:gt.blockstones - 12
+gregtech:gt.blockstones - 13
+gregtech:gt.blockstones - 14
+gregtech:gt.blockstones - 15
 technom:basalt - 0
 
 
@@ -312,6 +320,14 @@ blockBarium
 
 
 blockBasalt
+gregtech:gt.blockstones - 8
+gregtech:gt.blockstones - 9
+gregtech:gt.blockstones - 10
+gregtech:gt.blockstones - 11
+gregtech:gt.blockstones - 12
+gregtech:gt.blockstones - 13
+gregtech:gt.blockstones - 14
+gregtech:gt.blockstones - 15
 
 
 blockBasalticMineralSand
@@ -626,11 +642,19 @@ Magneticraft:block_copper - 0
 ProjRed|Exploration:projectred.exploration.stone - 8
 
 
+blockCosmicNeutronium
+Avaritia:Resource_Block - 0
+
+
 blockCrudeOil
 
 
 blockCrystalFlux
 RedstoneArsenal:Storage - 1
+
+
+blockCrystalMatrix
+Avaritia:Crystal_Matrix - 0
 
 
 blockCupronickel
@@ -1199,6 +1223,10 @@ gregtech:gt.blockmetal3 - 9
 blockIndiumGalliumPhosphide
 
 
+blockInfinity
+Avaritia:Resource_Block - 1
+
+
 blockInfuscolium
 
 
@@ -1389,6 +1417,7 @@ gregtech:gt.blockgem2 - 1
 
 
 blockLithium
+aobd:blockLithium - 0
 
 
 blockLiveRoot
@@ -1445,6 +1474,14 @@ blockManyullyn
 
 
 blockMarble
+gregtech:gt.blockstones - 0
+gregtech:gt.blockstones - 1
+gregtech:gt.blockstones - 2
+gregtech:gt.blockstones - 3
+gregtech:gt.blockstones - 4
+gregtech:gt.blockstones - 5
+gregtech:gt.blockstones - 6
+gregtech:gt.blockstones - 7
 chisel:marble - 0
 ProjRed|Exploration:projectred.exploration.stone - 0
 
@@ -20229,6 +20266,7 @@ ExtraTrees:food - 29
 
 cropBarley
 harvestcraft:barleyItem - 0
+Natura:barleyFood - 0
 
 
 cropBean
@@ -20249,6 +20287,7 @@ etfuturum:beetroot - 0
 
 cropBeetroot
 etfuturum:beetroot - 0
+harvestcraft:beetItem - 0
 
 
 cropBelladonna
@@ -20375,6 +20414,7 @@ harvestcraft:cabbageItem - 0
 
 cropCactus
 minecraft:dye - 2
+minecraft:cactus - 0
 
 
 cropCactusfruit
@@ -20674,6 +20714,14 @@ harvestcraft:maplesyrupItem - 0
 
 cropMelon
 minecraft:melon - 0
+
+
+cropMushroomBrown
+minecraft:brown_mushroom - 0
+
+
+cropMushroomRed
+minecraft:red_mushroom - 0
 
 
 cropMustard
@@ -22825,9 +22873,6 @@ crushedPurifiedMeteoricIron
 gregtech:gt.metaitem.01 - 6340
 
 
-crushedPurifiedMeteoricSteel
-
-
 crushedPurifiedMithril
 aobd:crushedPurifiedMithril - 0
 
@@ -23078,9 +23123,6 @@ gregtech:gt.metaitem.01 - 6097
 
 crushedPurifiedVanadiumMagnetite
 gregtech:gt.metaitem.01 - 6923
-
-
-crushedPurifiedVanadiumSteel
 
 
 crushedPurifiedVinteum
@@ -39702,6 +39744,22 @@ dustbushZinc
 
 dye
 minecraft:dye - any
+Botania:dye - 0
+Botania:dye - 1
+Botania:dye - 2
+Botania:dye - 3
+Botania:dye - 4
+Botania:dye - 5
+Botania:dye - 6
+Botania:dye - 7
+Botania:dye - 8
+Botania:dye - 9
+Botania:dye - 10
+Botania:dye - 11
+Botania:dye - 12
+Botania:dye - 13
+Botania:dye - 14
+Botania:dye - 15
 BiomesOPlenty:misc - 5
 BiomesOPlenty:misc - 6
 BiomesOPlenty:misc - 7
@@ -39756,22 +39814,6 @@ MineFactoryReloaded:ceramicdye - 12
 MineFactoryReloaded:ceramicdye - 13
 MineFactoryReloaded:ceramicdye - 14
 MineFactoryReloaded:ceramicdye - 15
-Botania:dye - 0
-Botania:dye - 1
-Botania:dye - 2
-Botania:dye - 3
-Botania:dye - 4
-Botania:dye - 5
-Botania:dye - 6
-Botania:dye - 7
-Botania:dye - 8
-Botania:dye - 9
-Botania:dye - 10
-Botania:dye - 11
-Botania:dye - 12
-Botania:dye - 13
-Botania:dye - 14
-Botania:dye - 15
 ForbiddenMagic:FMResource - 1
 ThaumicHorizons:inkEgg - 0
 ExtraBees:misc - 19
@@ -49973,6 +50015,10 @@ ProjRed|Core:projectred.core.part - 52
 ingotCoral
 
 
+ingotCosmicNeutronium
+Avaritia:Resource - 4
+
+
 ingotCrackedHeavyFuel
 
 
@@ -49989,6 +50035,10 @@ ingotCryotheum
 
 
 ingotCrystalFlux
+
+
+ingotCrystalMatrix
+Avaritia:Resource - 1
 
 
 ingotCupronickel
@@ -53341,6 +53391,10 @@ ingotInfernal
 
 
 ingotInfinite
+
+
+ingotInfinity
+Avaritia:Resource - 6
 
 
 ingotInfuscolium
@@ -62659,6 +62713,14 @@ Botania:manaResource - 16
 
 
 marble
+gregtech:gt.blockstones - 0
+gregtech:gt.blockstones - 1
+gregtech:gt.blockstones - 2
+gregtech:gt.blockstones - 3
+gregtech:gt.blockstones - 4
+gregtech:gt.blockstones - 5
+gregtech:gt.blockstones - 6
+gregtech:gt.blockstones - 7
 chisel:marble - 0
 
 
@@ -83476,6 +83538,14 @@ quicksilver
 Thaumcraft:ItemResource - 3
 
 
+rawCalamari
+harvestcraft:calamarirawItem - 0
+
+
+rawMutton
+harvestcraft:muttonrawItem - 0
+
+
 record
 minecraft:record_13 - 0
 minecraft:record_cat - 0
@@ -84158,6 +84228,7 @@ ringSignalum
 
 
 ringSilicone
+gregtech:gt.metaitem.01 - 28471
 
 
 ringSilver
@@ -86073,6 +86144,102 @@ Magneticraft:item.plastic - 0
 
 sheetRubber
 gregtech:gt.metaitem.01 - 17880
+
+
+singularityAdamantium
+aobd:singularityAdamantium - 0
+
+
+singularityAnyCopper
+aobd:singularityAnyCopper - 0
+
+
+singularityAnyIron
+aobd:singularityAnyIron - 0
+
+
+singularityBeryllium
+aobd:singularityBeryllium - 0
+
+
+singularityBismuth
+aobd:singularityBismuth - 0
+
+
+singularityChrome
+aobd:singularityChrome - 0
+
+
+singularityDarkSteel
+aobd:singularityDarkSteel - 0
+
+
+singularityDesh
+aobd:singularityDesh - 0
+
+
+singularityHeeEndium
+aobd:singularityHeeEndium - 0
+
+
+singularityInfusedGold
+aobd:singularityInfusedGold - 0
+
+
+singularityIridium
+aobd:singularityIridium - 0
+
+
+singularityLithium
+aobd:singularityLithium - 0
+
+
+singularityManganese
+aobd:singularityManganese - 0
+
+
+singularityMeteoricIron
+aobd:singularityMeteoricIron - 0
+
+
+singularityMolybdenum
+aobd:singularityMolybdenum - 0
+
+
+singularityNaquadah
+aobd:singularityNaquadah - 0
+
+
+singularityNaquadahEnriched
+aobd:singularityNaquadahEnriched - 0
+
+
+singularityNaquadria
+aobd:singularityNaquadria - 0
+
+
+singularityNeodymium
+aobd:singularityNeodymium - 0
+
+
+singularityPlutonium
+aobd:singularityPlutonium - 0
+
+
+singularitySilicon
+aobd:singularitySilicon - 0
+
+
+singularitySteel
+aobd:singularitySteel - 0
+
+
+singularityThorium
+aobd:singularityThorium - 0
+
+
+singularityUranium235
+aobd:singularityUranium235 - 0
 
 
 skullAngryZombie
@@ -88541,6 +88708,7 @@ Botania:stone - 4
 
 
 stoneBasalt
+Botania:stone - 1
 gregtech:gt.blockstones - 8
 gregtech:gt.blockstones - 9
 gregtech:gt.blockstones - 10
@@ -88549,7 +88717,6 @@ gregtech:gt.blockstones - 12
 gregtech:gt.blockstones - 13
 gregtech:gt.blockstones - 14
 gregtech:gt.blockstones - 15
-Botania:stone - 1
 
 
 stoneBasaltBricks
