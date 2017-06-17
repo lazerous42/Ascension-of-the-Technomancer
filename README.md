@@ -1,6 +1,6 @@
 # Ascension-of-the-Technomancer
 Current LIVE Config Version 3.12.1
-Repository Config Version 3.13.0
+Repository Config Version 3.13.1
 
 Hello there friend.  It seems as though you've met with a terrible fate, haven't you?  
 
@@ -11,7 +11,13 @@ Good luck friend.
 * A note about config version numbers ~ The least significant version number applies to config changes only, where that the middle number increments with mod versions.  Although configs from newer versions of mods won't normally cause issues, there is a small chance so I figured I should mention it just in case.  The most significant digit indicates a major structural change, i.e. a substantial content change.  Note all of the earlier releases follow this pattern exactly, but this standard is being maintained now and henceforth.
 
 ChangeLog
--- Version 3.13.0 (For the Man Who Has it All Update)
+-- Version 3.13.1
+- GT5u updated to 5.09.30 (w00t!)
+- Lowered spawn weights of all dungeonmobs, especially Rakshasa (invisible catman douche)
+- Added Avaritiaddons, and 1.12 concrete
+- OreDict Maple logs into ore:logWood to allow for easier sorting
+- Steel drum now requires 8 steel plates, no weighted pressure plates
+-- Version 3.13.0 (The Update For the Man Who Has it All)
 - Added Avaritia and related end game achievement content (if your into collecting mass quantities of resources as a matter of principle)
 - Added Baublelicious to allow consolidation of certain baubles
 - Updated GT 5.09.30pre3 to use pre-release build with nether generation fix.  Add this to your pack manually to get new GT changes without nether problems until a formal release of 5.09.30

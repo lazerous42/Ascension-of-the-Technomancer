@@ -31,7 +31,6 @@ val ingotSignalum = <ore:ingotSignalum>;
 val ingotPlatinum = <ore:ingotPlatinum>;
 val ingotKoboldite = <witchery:ingredient:150>;
 val ingotAngelSteel11 = <aura:ingotAngelSteel:10>;
-val weightedPressurePlate = <minecraft:heavy_weighted_pressure_plate>;
 val tubeEmerald = <Forestry:thermionicTubes:9>;
 val firestoneRaw = <Railcraft:firestone.raw>;
 val gearIron = <ore:gearIron>;
@@ -154,7 +153,7 @@ recipes.addShaped(pumpEnderThermic, [[<OpenBlocks:tank>, chipsetIron, <OpenBlock
 
 ##  Drum
 recipes.remove(drum);
-recipes.addShaped(drum, [[ingotSteel, weightedPressurePlate, ingotSteel], [ingotSteel, <minecraft:cauldron>, ingotSteel], [ingotSteel, weightedPressurePlate, ingotSteel]]);
+recipes.addShaped(drum, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateSteel>, <minecraft:cauldron>, <ore:plateSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
   
 ##  Watering Can
 recipes.remove(<ExtraUtilities:watering_can:1>);
