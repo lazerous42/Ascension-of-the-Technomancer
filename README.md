@@ -1,6 +1,6 @@
 # Ascension-of-the-Technomancer
 Current LIVE Config Version 3.12.1
-Repository Config Version 3.13.1
+Repository Config Version 3.13.2
 
 Hello there friend.  It seems as though you've met with a terrible fate, haven't you?  
 
@@ -11,12 +11,20 @@ Good luck friend.
 * A note about config version numbers ~ The least significant version number applies to config changes only, where that the middle number increments with mod versions.  Although configs from newer versions of mods won't normally cause issues, there is a small chance so I figured I should mention it just in case.  The most significant digit indicates a major structural change, i.e. a substantial content change.  Note all of the earlier releases follow this pattern exactly, but this standard is being maintained now and henceforth.
 
 ChangeLog
+-- Version 3.13.2
+- Removed concrete mod, requires requested permission to public pack and I don't want to hold up this release
+- Disable xray mobs
+- added more resistance after changing dimensions (world load lag compensation)
+- Added Avaritia support library + EternalSingularity
+- Major cut back on the number of registered heads for headcrumbs.  They are seriously polluting the loot tables
+
 -- Version 3.13.1
 - GT5u updated to 5.09.30 (w00t!)
 - Lowered spawn weights of all dungeonmobs, especially Rakshasa (invisible catman douche)
 - Added Avaritiaddons, and 1.12 concrete
 - OreDict Maple logs into ore:logWood to allow for easier sorting
 - Steel drum now requires 8 steel plates, no weighted pressure plates
+
 -- Version 3.13.0 (The Update For the Man Who Has it All)
 - Added Avaritia and related end game achievement content (if your into collecting mass quantities of resources as a matter of principle)
 - Added Baublelicious to allow consolidation of certain baubles
@@ -68,7 +76,6 @@ ChangeLog
 
 -- Version 3.8.0
 - Fix MOTD and starting items
-- Committing updated configs for version 3.8.0
 - Updated MOTD about new GT fluid spawns
 - Mod version updates
 - Reduced security time in GuardianChest.cfg down to 10 seconds.  This is to mitigate the use access bug (chest doesn't recognize you and makes you wait for 5 min to reclaim your items) while still providing damage protection until the user arrives.

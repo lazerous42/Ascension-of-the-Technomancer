@@ -5762,7 +5762,6 @@ gregtech:gt.metaitem.01 - 32701
 
 circuitData
 gregtech:gt.metaitem.01 - 32704
-gregtech:gt.metaitem.01 - 32708
 gregtech:gt.metaitem.03 - 32083
 gregtech:gt.metaitem.03 - 32085
 
@@ -5786,8 +5785,8 @@ gregtech:gt.metaitem.03 - 32095
 
 circuitMaster
 gregtech:gt.metaitem.01 - 32706
-gregtech:gt.metaitem.01 - 32707
 gregtech:gt.metaitem.03 - 32087
+gregtech:gt.metaitem.03 - 32096
 gregtech:gt.metaitem.03 - 32092
 
 
@@ -62698,6 +62697,7 @@ arsmagica2:WitchwoodLog - 0
 TwilightForest:tile.TFLog - any
 TwilightForest:tile.TFMagicLog - any
 Thaumcraft:blockMagicalLog - any
+harvestcraft:pamMaple - 1
 
 
 manaDiamond

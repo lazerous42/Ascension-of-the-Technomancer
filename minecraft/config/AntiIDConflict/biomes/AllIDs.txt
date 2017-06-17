@@ -1,6 +1,6 @@
-Total amount of free biome ids: 36
-Total amount of occupied biome ids: 220
-Total amount of conflicted biome ids: 8
+Total amount of free biome ids: 44
+Total amount of occupied biome ids: 212
+Total amount of conflicted biome ids: 0
 All ids and their position:
 0 is Occupied by Ocean (biomesoplenty.common.biome.overridden.BiomeGenBOPOcean)
 1 is Occupied by Plains (biomesoplenty.common.biome.overridden.BiomeGenBOPPlains)
@@ -102,14 +102,14 @@ All ids and their position:
 97 is Occupied by Twilight Forest (twilightforest.biomes.TFBiomeTwilightForest)
 98 is Occupied by Dense Twilight Forest (twilightforest.biomes.TFBiomeTwilightForestVariant)
 99 is Avaible
-100 is Occupied by Undergound Jungle (erebus.world.biomes.BiomeUndergroundJungle)
-101 is Occupied by Volcanic Desert (erebus.world.biomes.BiomeVolcanicDesert)
-102 is Occupied by Subterranean Savannah (erebus.world.biomes.BiomeSubterraneanSavannah)
-103 is Occupied by Elysian Fields (erebus.world.biomes.BiomeElysianFields)
-104 is Occupied by Ulterior Outback (erebus.world.biomes.BiomeUlteriorOutback)
-105 is Occupied by Fungal Forest (erebus.world.biomes.BiomeFungalForest)
-106 is Occupied by Submerged Swamp (erebus.world.biomes.BiomeSubmergedSwamp)
-107 is Occupied by Elysian Forest (erebus.world.biomes.BiomeElysianFields$BiomeElysianForest)
+100 is Avaible
+101 is Avaible
+102 is Avaible
+103 is Avaible
+104 is Avaible
+105 is Avaible
+106 is Avaible
+107 is Avaible
 108 is Avaible
 109 is Avaible
 110 is Avaible
@@ -230,14 +230,14 @@ All ids and their position:
 225 is Occupied by Prairie (biomesoplenty.common.biome.overworld.BiomeGenPrairie)
 226 is Occupied by Quagmire (biomesoplenty.common.biome.overworld.sub.BiomeGenQuagmire)
 227 is Occupied by Rainforest (biomesoplenty.common.biome.overworld.BiomeGenRainforest)
-228 is asked by: Redwood Forest (biomesoplenty.common.biome.overworld.BiomeGenRedwoodForest), Undergound Jungle M (erebus.world.biomes.BiomeUndergroundJungle)
-229 is asked by: Sacred Springs (biomesoplenty.common.biome.overworld.BiomeGenSacredSprings), Volcanic Desert M (erebus.world.biomes.BiomeVolcanicDesert)
-230 is asked by: Scrubland (biomesoplenty.common.biome.overworld.sub.BiomeGenScrubland), Subterranean Savannah M (erebus.world.biomes.BiomeSubterraneanSavannah)
-231 is asked by: Seasonal Forest (biomesoplenty.common.biome.overworld.BiomeGenSeasonalForest), Elysian Fields M (erebus.world.biomes.BiomeElysianFields)
-232 is asked by: Shield (biomesoplenty.common.biome.overworld.BiomeGenShield), Ulterior Outback M (erebus.world.biomes.BiomeUlteriorOutback)
-233 is asked by: Shrubland (biomesoplenty.common.biome.overworld.BiomeGenShrubland), Fungal Forest M (erebus.world.biomes.BiomeFungalForest)
-234 is asked by: Silkglades (biomesoplenty.common.biome.overworld.sub.BiomeGenSilkglades), Submerged Swamp M (erebus.world.biomes.BiomeSubmergedSwamp)
-235 is asked by: Sludgepit (biomesoplenty.common.biome.overworld.BiomeGenSludgepit), Elysian Forest M (erebus.world.biomes.BiomeElysianFields$BiomeElysianForest)
+228 is Occupied by Redwood Forest (biomesoplenty.common.biome.overworld.BiomeGenRedwoodForest)
+229 is Occupied by Sacred Springs (biomesoplenty.common.biome.overworld.BiomeGenSacredSprings)
+230 is Occupied by Scrubland (biomesoplenty.common.biome.overworld.sub.BiomeGenScrubland)
+231 is Occupied by Seasonal Forest (biomesoplenty.common.biome.overworld.BiomeGenSeasonalForest)
+232 is Occupied by Shield (biomesoplenty.common.biome.overworld.BiomeGenShield)
+233 is Occupied by Shrubland (biomesoplenty.common.biome.overworld.BiomeGenShrubland)
+234 is Occupied by Silkglades (biomesoplenty.common.biome.overworld.sub.BiomeGenSilkglades)
+235 is Occupied by Sludgepit (biomesoplenty.common.biome.overworld.BiomeGenSludgepit)
 236 is Occupied by Snowy Coniferous Forest (biomesoplenty.common.biome.overworld.BiomeGenConiferousForestSnow)
 237 is Occupied by Spectral Garden (biomesoplenty.common.biome.end.BiomeGenSpectralGarden)
 238 is Occupied by Spruce Woods (biomesoplenty.common.biome.overworld.sub.BiomeGenSpruceWoods)

@@ -164,7 +164,7 @@
 63 is Avaible
 64 is Avaible
 65 is Avaible
-66 is Occupied by: Erebus, Provider: (id: 66, class: class erebus.world.WorldProviderErebus)
+66 is Avaible
 67 is Avaible
 68 is Avaible
 69 is Occupied by: Pocket Plane, Provider: (id: 69, class: class com.kentington.thaumichorizons.common.lib.WorldProviderPocketPlane)

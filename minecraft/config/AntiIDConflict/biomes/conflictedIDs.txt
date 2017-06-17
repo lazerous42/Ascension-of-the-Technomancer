@@ -1,11 +1,4 @@
-Total amount of conflicted biome ids: 8
+Total amount of conflicted biome ids: 0
 IDs in conflict:
 
-228 is asked by: Redwood Forest (biomesoplenty.common.biome.overworld.BiomeGenRedwoodForest), Undergound Jungle M (erebus.world.biomes.BiomeUndergroundJungle)
-229 is asked by: Sacred Springs (biomesoplenty.common.biome.overworld.BiomeGenSacredSprings), Volcanic Desert M (erebus.world.biomes.BiomeVolcanicDesert)
-230 is asked by: Scrubland (biomesoplenty.common.biome.overworld.sub.BiomeGenScrubland), Subterranean Savannah M (erebus.world.biomes.BiomeSubterraneanSavannah)
-231 is asked by: Seasonal Forest (biomesoplenty.common.biome.overworld.BiomeGenSeasonalForest), Elysian Fields M (erebus.world.biomes.BiomeElysianFields)
-232 is asked by: Shield (biomesoplenty.common.biome.overworld.BiomeGenShield), Ulterior Outback M (erebus.world.biomes.BiomeUlteriorOutback)
-233 is asked by: Shrubland (biomesoplenty.common.biome.overworld.BiomeGenShrubland), Fungal Forest M (erebus.world.biomes.BiomeFungalForest)
-234 is asked by: Silkglades (biomesoplenty.common.biome.overworld.sub.BiomeGenSilkglades), Submerged Swamp M (erebus.world.biomes.BiomeSubmergedSwamp)
-235 is asked by: Sludgepit (biomesoplenty.common.biome.overworld.BiomeGenSludgepit), Elysian Forest M (erebus.world.biomes.BiomeElysianFields$BiomeElysianForest)
+
