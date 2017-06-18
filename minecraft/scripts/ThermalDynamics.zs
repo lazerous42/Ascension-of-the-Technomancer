@@ -23,9 +23,9 @@ recipes.addShaped(<ThermalDynamics:ThermalDynamics_16> * 6, [[null, <ThermalExpa
 recipes.removeShaped(<ThermalDynamics:ThermalDynamics_16:1>);
 recipes.addShaped(<ThermalDynamics:ThermalDynamics_16:1> * 6, [[null, <ThermalExpansion:Glass>, null], [plateCopper, <ore:ingotLead>, plateCopper], [null, <ThermalExpansion:Glass>, null]]);
 recipes.removeShaped(<ThermalDynamics:ThermalDynamics_16:2>);
-recipes.addShaped(<ThermalDynamics:ThermalDynamics_16:2> * 6, [[null, <ThermalExpansion:Glass:1>, null], [<ThermalFoundation:material:40>, <ore:blockGlassHardened>, <ThermalFoundation:material:40>], [null, <ThermalExpansion:Glass:1>, null]]);
+recipes.addShaped(<ThermalDynamics:ThermalDynamics_16:2> * 6, [[null, <ThermalExpansion:Glass:1>, null], [<ore:dustInvar>, <ore:blockGlassHardened>, <ore:dustInvar>], [null, <ThermalExpansion:Glass:1>, null]]);
 recipes.removeShaped(<ThermalDynamics:ThermalDynamics_16:3>);
-recipes.addShaped(<ThermalDynamics:ThermalDynamics_16:3> * 6, [[null, <ThermalExpansion:Glass:1>, null], [<ThermalFoundation:material:40>, <ore:ingotLead>, <ThermalFoundation:material:40>], [null, <ThermalExpansion:Glass:1>, null]]);
+recipes.addShaped(<ThermalDynamics:ThermalDynamics_16:3> * 6, [[null, <ThermalExpansion:Glass:1>, null], [<ore:dustInvar>, <ore:ingotLead>, <ore:dustInvar>], [null, <ThermalExpansion:Glass:1>, null]]);
 recipes.remove(<ThermalDynamics:ThermalDynamics_16:6>);
 recipes.addShaped(<ThermalDynamics:ThermalDynamics_16:6> * 3, [[<ThermalDynamics:ThermalDynamics_16:2>, <ExtraUtilities:etherealglass>, <ThermalDynamics:ThermalDynamics_16:2>], [<ThermalDynamics:ThermalDynamics_16:2>, <ore:ingotPlatinum>, <ThermalDynamics:ThermalDynamics_16:2>], [<ThermalDynamics:ThermalDynamics_16:2>, <ExtraUtilities:etherealglass>, <ThermalDynamics:ThermalDynamics_16:2>]]);
 recipes.remove(<ThermalDynamics:ThermalDynamics_16:7>);

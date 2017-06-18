@@ -1,6 +1,6 @@
 # Ascension-of-the-Technomancer
 Current LIVE Config Version 3.12.1
-Repository Config Version 3.13.2
+Repository Config Version 3.13.4
 
 Hello there friend.  It seems as though you've met with a terrible fate, haven't you?  
 
@@ -11,6 +11,15 @@ Good luck friend.
 * A note about config version numbers ~ The least significant version number applies to config changes only, where that the middle number increments with mod versions.  Although configs from newer versions of mods won't normally cause issues, there is a small chance so I figured I should mention it just in case.  The most significant digit indicates a major structural change, i.e. a substantial content change.  Note all of the earlier releases follow this pattern exactly, but this standard is being maintained now and henceforth.
 
 ChangeLog
+-- Version 3.13.4
+- BUGFIX:  Thermal Dynamics hardened fluiduct impossible to craft to to GT unification.  It was specifically requiring Thermal Foundation invar blend.  Switched to proper oredict reference.
+- Bloodmoon frequency increased from 2% to 3% of nights
+- Update version number
+-- Version 3.13.3
+- Corrected configs for universal singularities
+- Disable xray mobs
+- added more resistance after changing dimensions (world load lag compensation)
+- Added Avaritia support library + EternalSingularity
 -- Version 3.13.2
 - Removed concrete mod, requires requested permission to public pack and I don't want to hold up this release
 - Disable xray mobs
