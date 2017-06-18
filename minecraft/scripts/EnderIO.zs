@@ -12,6 +12,8 @@ import mods.gregtech.ChemicalBath;
 import mods.gregtech.Assembler;
 import mods.gregtech.Autoclave;
 import mods.gregtech.ChemicalReactor;
+import mods.thermalexpansion.Pulverizer;
+import mods.thermalexpansion.Smelter;
 
 print("Initializing 'EnderIO.zs'...");
 
@@ -54,6 +56,8 @@ val itemDustEnderium = <gregtech:gt.metaitem.01:2321>;
 val itemDustEnderPearl = <gregtech:gt.metaitem.01:2532>;
 val itemDustPlatinum = <gregtech:gt.metaitem.01:2085>;
 val itemDustSilver = <gregtech:gt.metaitem.01:2054>;
+val ingotElectricalSteel = <EnderIO:itemAlloy>;
+val itemSilicon = <EnderIO:itemMaterial>;
 
 var liquidDyeBlack = <liquid:dye.watermixed.dyeblack>;
 var moltenChlorine = <liquid:chlorine>;
@@ -116,13 +120,21 @@ recipes.addShaped(<EnderIO:itemMaterial:10>, [[null, <Forestry:craftingMaterial:
 ## Remove dark iron bars from OreDict
 <ore:barsIron>.remove(ironBarsDark);
 
+## Fix GT registering silicon plate instead of raw silicon
+# Pulverizer
+Pulverizer.removeRecipe(<minecraft:sand>);
+Pulverizer.addRecipe(1600, <minecraft:sand>, itemSilicon);
+# Induction Smelter
+Smelter.removeRecipe(<gregtech:gt.metaitem.01:17020>, <gregtech:gt.metaitem.01:2305>);
+Smelter.removeRecipe(<gregtech:gt.metaitem.01:17020>, <ore:ingotSteel>);
+Smelter.addRecipe(6000, itemSilicon, <gregtech:gt.metaitem.01:2305>, ingotElectricalSteel);
+Smelter.addRecipe(6000, itemSilicon, <gregtech:gt.metaitem.01:11305>, ingotElectricalSteel);
+
 ## Alloys
 # Enderium
-//ChemicalReactor.addRecipe(output, liquidOutput, input1, input2, liquidInput, durationTicks);
 ChemicalReactor.addRecipe(itemDustEnderium, null, itemDustEnderPearl, null, moltenEnderiumBase * 144, 200);
 ChemicalReactor.addRecipe(null, moltenEnderiumBase * 576, itemDustSilver, itemDustPlatinum, moltenTin * 288, 100);
 # Energetic Alloy
-//AlloySmelter.addRecipe(output, input1, input2, durationTicks, euPerTick);
 AlloySmelter.addRecipe(ingotEnergeticAlloy, itemIngotGold, blazePowder, 100, 16);
 # Vibrant Alloy
 AlloySmelter.addRecipe(ingotVibrantAlloy, ingotEnergeticAlloy, enderPearl, 100, 16);
@@ -134,10 +146,8 @@ AlloySmelter.addRecipe(ingotSoularium, itemIngotGold, soulSand, 100, 16);
 AlloySmelter.addRecipe(fusedQuartz, netherQuartz * 4, dustGlass, 200, 8);
 AlloySmelter.addRecipe(fusedQuartz, blockQuartz, dustGlass, 100, 16);
 # Enlightened Fused Quartz
-//ChemicalBath.addRecipe(outpu1, output2, output3, input, liquidInput, chance1, chance2, chance3, durationTicks, euPerTick);
 ChemicalBath.addRecipe([fusedQuartzEnlighten], fusedQuartz, moltenGlowstone * 576, [10000], 100, 8);
 # Enlightened Clear Glass
-//ChemicalBath.addRecipe([clearGlassEnlighten], clearGlass, moltenGlowstone * 576, [10000], 100, 4);
 # Conductive Iron
 ChemicalBath.addRecipe([ingotConductiveIron], itemIngotIron, moltenRedstone * 144, [10000], 200, 8);
 # Clear Glass
