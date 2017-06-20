@@ -8289,36 +8289,6 @@ clusterDeepIron
 clusterDemonite
 
 
-clusterDenseAnyIron
-
-
-clusterDenseCoal
-
-
-clusterDenseDiamond
-
-
-clusterDenseEmerald
-
-
-clusterDenseGold
-
-
-clusterDenseIron
-
-
-clusterDenseLapis
-
-
-clusterDenseNetherQuartz
-
-
-clusterDenseQuartz
-
-
-clusterDenseRedstone
-
-
 clusterDesh
 aobd:clusterDesh - 0
 
@@ -25223,15 +25193,10 @@ crystallineZinc
 daylightDetector
 
 
-denseoreAnyIron
-denseores:block0 - 0
-
-
 denseoreArdite
 
 
 denseoreCoal
-denseores:block0 - 6
 
 
 denseoreCobalt
@@ -25241,33 +25206,24 @@ denseoreCopper
 
 
 denseoreDiamond
-denseores:block0 - 3
 
 
 denseoreEmerald
-denseores:block0 - 4
 
 
 denseoreGold
-denseores:block0 - 1
 
 
 denseoreIron
-denseores:block0 - 0
 
 
 denseoreLapis
-denseores:block0 - 2
 
 
 denseoreLead
 
 
 denseoreMithril
-
-
-denseoreNetherQuartz
-denseores:block0 - 7
 
 
 denseoreNickel
@@ -25277,11 +25233,9 @@ denseorePlatinum
 
 
 denseoreQuartz
-denseores:block0 - 7
 
 
 denseoreRedstone
-denseores:block0 - 5
 
 
 denseoreSilver
@@ -27602,36 +27556,6 @@ dustDeepIron
 
 
 dustDemonite
-
-
-dustDenseAnyIron
-
-
-dustDenseCoal
-
-
-dustDenseDiamond
-
-
-dustDenseEmerald
-
-
-dustDenseGold
-
-
-dustDenseIron
-
-
-dustDenseLapis
-
-
-dustDenseNetherQuartz
-
-
-dustDenseQuartz
-
-
-dustDenseRedstone
 
 
 dustDesh
@@ -44917,36 +44841,6 @@ gemDamascusSteel
 gemDarkSteel
 
 
-gemDenseAnyIron
-
-
-gemDenseCoal
-
-
-gemDenseDiamond
-
-
-gemDenseEmerald
-
-
-gemDenseGold
-
-
-gemDenseIron
-
-
-gemDenseLapis
-
-
-gemDenseNetherQuartz
-
-
-gemDenseQuartz
-
-
-gemDenseRedstone
-
-
 gemDesh
 
 
@@ -50240,36 +50134,6 @@ customnpcs:npcDemonicIngot - 0
 
 
 ingotDemonite
-
-
-ingotDenseAnyIron
-
-
-ingotDenseCoal
-
-
-ingotDenseDiamond
-
-
-ingotDenseEmerald
-
-
-ingotDenseGold
-
-
-ingotDenseIron
-
-
-ingotDenseLapis
-
-
-ingotDenseNetherQuartz
-
-
-ingotDenseQuartz
-
-
-ingotDenseRedstone
 
 
 ingotDesh
@@ -67069,46 +66933,6 @@ oreDeepIron
 
 
 oreDemonite
-
-
-oreDenseAnyIron
-denseores:block0 - 0
-
-
-oreDenseCoal
-denseores:block0 - 6
-
-
-oreDenseDiamond
-denseores:block0 - 3
-
-
-oreDenseEmerald
-denseores:block0 - 4
-
-
-oreDenseGold
-denseores:block0 - 1
-
-
-oreDenseIron
-denseores:block0 - 0
-
-
-oreDenseLapis
-denseores:block0 - 2
-
-
-oreDenseNetherQuartz
-denseores:block0 - 7
-
-
-oreDenseQuartz
-denseores:block0 - 7
-
-
-oreDenseRedstone
-denseores:block0 - 5
 
 
 oreDesh

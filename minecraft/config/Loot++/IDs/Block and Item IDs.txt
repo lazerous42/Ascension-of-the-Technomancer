@@ -6003,9 +6003,9 @@ aura:transmutingSword - 9938
 aura:veryDenseBook - 9924
 aura:veryLightBook - 9893
 aura:yellowAmulet - 9917
-avaritiaddons:CompressedChest - 11524
-avaritiaddons:ExtremeAutoCrafter - 11515
-avaritiaddons:InfinityChest - 11535
+avaritiaddons:CompressedChest - 11505
+avaritiaddons:ExtremeAutoCrafter - 11506
+avaritiaddons:InfinityChest - 11507
 battlegear2:chain - 11388
 battlegear2:dagger.diamond - 11387
 battlegear2:dagger.gold - 11393
@@ -6803,7 +6803,6 @@ demonmobs:pinkymeatraw - 8946
 demonmobs:pinkytreat - 8949
 demonmobs:soulcubedemonic - 3592
 demonmobs:soulstonedemonic - 8941
-denseores:block0 - 11541
 desertmobs:ambercake - 8959
 desertmobs:crusktreat - 8960
 desertmobs:desertegg - 8955
@@ -6882,7 +6881,7 @@ enderioaddons:rlever10 - 3317
 enderioaddons:rlever30 - 3318
 enderioaddons:rlever300 - 3320
 enderioaddons:rlever60 - 3319
-eternalsingularity:eternal_singularity - 11540
+eternalsingularity:eternal_singularity - 11508
 etfuturum:anvil - 3357
 etfuturum:banner - 3338
 etfuturum:beacon - 3356

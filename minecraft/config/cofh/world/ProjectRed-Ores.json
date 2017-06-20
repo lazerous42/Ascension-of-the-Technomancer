@@ -12,8 +12,8 @@
                 "weight": 20
             }
         ],
-        "clusterSize": 5,
-        "numClusters": 3,
+        "clusterSize": 7,
+        "numClusters": 5,
         "minHeight": 26,
         "maxHeight": 52,
         "retrogen": "false",

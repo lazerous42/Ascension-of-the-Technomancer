@@ -1,6 +1,6 @@
 # Ascension-of-the-Technomancer
 Current LIVE Config Version 3.12.1
-Repository Config Version 3.13.4
+Repository Config Version 3.13.8
 
 Hello there friend.  It seems as though you've met with a terrible fate, haven't you?  
 
@@ -11,6 +11,16 @@ Good luck friend.
 * A note about config version numbers ~ The least significant version number applies to config changes only, where that the middle number increments with mod versions.  Although configs from newer versions of mods won't normally cause issues, there is a small chance so I figured I should mention it just in case.  The most significant digit indicates a major structural change, i.e. a substantial content change.  Note all of the earlier releases follow this pattern exactly, but this standard is being maintained now and henceforth.
 
 ChangeLog
+-- Version 3.13.8
+- Fixed the TE energy cell recipes that we're broken in a previous update ("cheaper" looking duplicate recipes involved frames, not cells)
+-- Version 3.13.7
+- Increase in electrotine ore deposits (solar panels can be very expensive)
+-- Version 3.13.6
+- Switched GT "magic metals" vein to generate less silver and more gold
+- Given "magic metals" vein a smaller size, these produced a massive vein in test worlds.  Mithril is also available in small clumps in overworld and nether
+-- Version 3.13.5
+- Fixed the TE electrical steel recipes requiring steel plates and not the item
+- Fixed TE pulverizer creating silicon plates and not the item
 -- Version 3.13.4
 - BUGFIX:  Thermal Dynamics hardened fluiduct impossible to craft to to GT unification.  It was specifically requiring Thermal Foundation invar blend.  Switched to proper oredict reference.
 - Bloodmoon frequency increased from 2% to 3% of nights
