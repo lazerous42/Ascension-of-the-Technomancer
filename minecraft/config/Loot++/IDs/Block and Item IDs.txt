@@ -6898,11 +6898,6 @@ etfuturum:chorus_plant - 3350
 etfuturum:crying_obsidian - 3352
 etfuturum:daylight_detector_inverted - 3332
 etfuturum:daylight_sensor - 3358
-etfuturum:door_acacia - 3362
-etfuturum:door_birch - 3360
-etfuturum:door_dark_oak - 3363
-etfuturum:door_jungle - 3361
-etfuturum:door_spruce - 3359
 etfuturum:dragon_breath - 8528
 etfuturum:elytra - 8529
 etfuturum:end_bricks - 3347
