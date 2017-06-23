@@ -1,5 +1,5 @@
 # Ascension-of-the-Technomancer
-Current LIVE Config Version 3.12.1
+Current LIVE Config Version 3.13.2
 Repository Config Version 3.13.9
 
 Hello there friend.  It seems as though you've met with a terrible fate, haven't you?  
@@ -13,25 +13,31 @@ Good luck friend.
 ChangeLog
 -- Version 3.13.9
 - Deactivated Et Futurum doors to eliminate iron dupe using the 6 iron plates -> 3 iron doors recipe.  Malisis Doors already creates the 1.8+ doors
+
 -- Version 3.13.8
 - Fixed the TE energy cell recipes that we're broken in a previous update ("cheaper" looking duplicate recipes involved frames, not cells)
+
 -- Version 3.13.7
 - Increase in electrotine ore deposits (solar panels can be very expensive)
+
 -- Version 3.13.6
 - Switched GT "magic metals" vein to generate less silver and more gold
 - Given "magic metals" vein a smaller size, these produced a massive vein in test worlds.  Mithril is also available in small clumps in overworld and nether
+
 -- Version 3.13.5
 - Fixed the TE electrical steel recipes requiring steel plates and not the item
 - Fixed TE pulverizer creating silicon plates and not the item
+
 -- Version 3.13.4
 - BUGFIX:  Thermal Dynamics hardened fluiduct impossible to craft to to GT unification.  It was specifically requiring Thermal Foundation invar blend.  Switched to proper oredict reference.
 - Bloodmoon frequency increased from 2% to 3% of nights
-- Update version number
+
 -- Version 3.13.3
 - Corrected configs for universal singularities
 - Disable xray mobs
 - added more resistance after changing dimensions (world load lag compensation)
 - Added Avaritia support library + EternalSingularity
+
 -- Version 3.13.2
 - Removed concrete mod, requires requested permission to public pack and I don't want to hold up this release
 - Disable xray mobs
