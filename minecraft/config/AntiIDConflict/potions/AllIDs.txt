@@ -1,5 +1,5 @@
-Total amount of free potion ids: 189
-Total amount of occupied potion ids: 167
+Total amount of free potion ids: 187
+Total amount of occupied potion ids: 169
 Total amount of conflicted potion ids: 0
 All ids and their position:
 0 is Occupied by Confusion (com.gw.dm.potion.PotionAddle)
@@ -170,8 +170,8 @@ All ids and their position:
 165 is Occupied by Epic Mana Restoration (am2.buffs.ManaPotion)
 166 is Occupied by Greater Mana Restoration (am2.buffs.ManaPotion)
 167 is Occupied by Legendary Mana Restoration (am2.buffs.ManaPotion)
-168 is Avaible
-169 is Avaible
+168 is Occupied by Frozen Solid (Reika.RotaryCraft.Auxiliary.FreezePotion)
+169 is Occupied by Radiation Sickness (Reika.ReactorCraft.Auxiliary.PotionRadiation)
 170 is Avaible
 171 is Avaible
 172 is Avaible

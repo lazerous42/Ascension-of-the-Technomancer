@@ -8,20 +8,12 @@
 		"minHeight": 1,
 		"maxHeight": 128,
 		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [
-			"all"
-		],
-                "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -30,
-                        -29,
-                        -28,
-                        -27,
-                        -26,
-                        0,
-                        1
-                ]
+		"biomes": [{
+			"type": "dictionary",
+			"entry": "NETHER"
+		}],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [-1]
 	},
 	"N-Diamond": {
 		"template": "uniform",
@@ -35,20 +27,12 @@
 		"minHeight": 1,
 		"maxHeight": 128,
 		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [
-			"all"
-		],
-                "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -30,
-                        -29,
-                        -28,
-                        -27,
-                        -26,
-                        0,
-                        1
-                ]
+		"biomes": [{
+			"type": "dictionary",
+			"entry": "NETHER"
+		}],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [-1]
 	},
 	"N-Gold": {
 		"template": "uniform",
@@ -62,20 +46,12 @@
 		"minHeight": 1,
 		"maxHeight": 128,
 		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [
-			"all"
-		],
-                "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -30,
-                        -29,
-                        -28,
-                        -27,
-                        -26,
-                        0,
-                        1
-                ]
+		"biomes": [{
+			"type": "dictionary",
+			"entry": "NETHER"
+		}],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [-1]
 	},
 	"N-Iron": {
 		"template": "uniform",
@@ -89,20 +65,12 @@
 		"minHeight": 1,
 		"maxHeight": 128,
 		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [
-			"all"
-		],
-                "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -30,
-                        -29,
-                        -28,
-                        -27,
-                        -26,
-                        0,
-                        1
-                ]
+		"biomes": [{
+			"type": "dictionary",
+			"entry": "NETHER"
+		}],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [-1]
 	},
 	"N-Lapis": {
 		"template": "uniform",
@@ -116,20 +84,12 @@
 		"minHeight": 1,
 		"maxHeight": 128,
 		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [
-			"all"
-		],
-                "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -30,
-                        -29,
-                        -28,
-                        -27,
-                        -26,
-                        0,
-                        1
-                ]
+		"biomes": [{
+			"type": "dictionary",
+			"entry": "NETHER"
+		}],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [-1]
 	},
 	"N-Redstone": {
 		"template": "uniform",
@@ -143,20 +103,12 @@
 		"minHeight": 1,
 		"maxHeight": 128,
 		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [
-			"all"
-		],
-                "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -30,
-                        -29,
-                        -28,
-                        -27,
-                        -26,
-                        0,
-                        1
-                ]
+		"biomes": [{
+			"type": "dictionary",
+			"entry": "NETHER"
+		}],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [-1]
 	},
 	"N-Copper": {
 		"template": "uniform",
@@ -170,20 +122,12 @@
 		"minHeight": 1,
 		"maxHeight": 128,
 		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [
-			"all"
-		],
-                "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -30,
-                        -29,
-                        -28,
-                        -27,
-                        -26,
-                        0,
-                        1
-                ]
+		"biomes": [{
+			"type": "dictionary",
+			"entry": "NETHER"
+		}],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [-1]
 	},
 	"N-Tin": {
 		"template": "uniform",
@@ -197,20 +141,12 @@
 		"minHeight": 1,
 		"maxHeight": 128,
 		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [
-			"all"
-		],
-                "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -30,
-                        -29,
-                        -28,
-                        -27,
-                        -26,
-                        0,
-                        1
-                ]
+		"biomes": [{
+			"type": "dictionary",
+			"entry": "NETHER"
+		}],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [-1]
 	},
 	"N-Emerald": {
 		"template": "uniform",
@@ -223,20 +159,12 @@
 		"minHeight": 1,
 		"maxHeight": 128,
 		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [
-			"all"
-		],
-                "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -30,
-                        -29,
-                        -28,
-                        -27,
-                        -26,
-                        0,
-                        1
-                ]
+		"biomes": [{
+			"type": "dictionary",
+			"entry": "NETHER"
+		}],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [-1]
 	},
 	"N-Silver": {
 		"template": "uniform",
@@ -250,20 +178,12 @@
 		"minHeight": 1,
 		"maxHeight": 128,
 		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [
-			"all"
-		],
-                "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -30,
-                        -29,
-                        -28,
-                        -27,
-                        -26,
-                        0,
-                        1
-                ]
+		"biomes": [{
+			"type": "dictionary",
+			"entry": "NETHER"
+		}],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [-1]
 	},
 	"N-Lead": {
 		"template": "uniform",
@@ -277,20 +197,12 @@
 		"minHeight": 1,
 		"maxHeight": 128,
 		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [
-			"all"
-		],
-                "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -30,
-                        -29,
-                        -28,
-                        -27,
-                        -26,
-                        0,
-                        1
-                ]
+		"biomes": [{
+			"type": "dictionary",
+			"entry": "NETHER"
+		}],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [-1]
 	},
 	"N-Ferrous": {
 		"template": "uniform",
@@ -304,20 +216,12 @@
 		"minHeight": 1,
 		"maxHeight": 128,
 		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [
-			"all"
-		],
-                "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -30,
-                        -29,
-                        -28,
-                        -27,
-                        -26,
-                        0,
-                        1
-                ]
+		"biomes": [{
+			"type": "dictionary",
+			"entry": "NETHER"
+		}],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [-1]
 	},
 	"N-Shiny": {
 		"template": "uniform",
@@ -328,20 +232,12 @@
 		"minHeight": 1,
 		"maxHeight": 128,
 		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [
-			"all"
-		],
-                "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -30,
-                        -29,
-                        -28,
-                        -27,
-                        -26,
-                        0,
-                        1
-                ]
+		"biomes": [{
+			"type": "dictionary",
+			"entry": "NETHER"
+		}],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [-1]
 	},
 	"N-Salt": {
 		"template": "uniform",
@@ -360,20 +256,12 @@
 		"minHeight": 1,
 		"maxHeight": 128,
 		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [
-			"all"
-		],
-                "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -30,
-                        -29,
-                        -28,
-                        -27,
-                        -26,
-                        0,
-                        1
-                ]
+		"biomes": [{
+			"type": "dictionary",
+			"entry": "NETHER"
+		}],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [-1]
 	},
 	"N-Saltpeter": {
 		"template": "uniform",
@@ -392,20 +280,12 @@
 		"minHeight": 1,
 		"maxHeight": 128,
 		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [
-			"all"
-		],
-                "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -30,
-                        -29,
-                        -28,
-                        -27,
-                        -26,
-                        0,
-                        1
-                ]
+		"biomes": [{
+			"type": "dictionary",
+			"entry": "NETHER"
+		}],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [-1]
 	},
 	"N-Sulphur": {
 		"template": "uniform",
@@ -419,20 +299,12 @@
 		"minHeight": 1,
 		"maxHeight": 128,
 		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [
-			"all"
-		],
-                "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -30,
-                        -29,
-                        -28,
-                        -27,
-                        -26,
-                        0,
-                        1
-                ]
+		"biomes": [{
+			"type": "dictionary",
+			"entry": "NETHER"
+		}],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [-1]
 	},
 	"N-Uranium": {
 		"template": "uniform",
@@ -446,20 +318,12 @@
 		"minHeight": 1,
 		"maxHeight": 128,
 		"retrogen": "true",
-		"biomeRestriction": "none",
-		"biomes": [
-			"all"
-		],
-                "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -30,
-                        -29,
-                        -28,
-                        -27,
-                        -26,
-                        0,
-                        1
-                ]
+		"biomes": [{
+			"type": "dictionary",
+			"entry": "NETHER"
+		}],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [-1]
 	},
 	"N-Mithril": {
 		"template": "uniform",
@@ -473,19 +337,11 @@
 		"minHeight": 1,
 		"maxHeight": 128,
 		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [
-			"all"
-		],
-                "dimensionRestriction": "blacklist",
-                "dimensions": [
-                        -30,
-                        -29,
-                        -28,
-                        -27,
-                        -26,
-                        0,
-                        1
-                ]
+		"biomes": [{
+			"type": "dictionary",
+			"entry": "NETHER"
+		}],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [-1]
 	}
 }

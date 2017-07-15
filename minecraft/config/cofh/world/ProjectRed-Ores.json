@@ -1,33 +1,24 @@
 {
-    "Electrotine": {
-        "template": "uniform",
-        "block": [
-            {
-                "name": "ProjRed|Exploration:projectred.exploration.ore",
-                "metadata": 6,
-                "weight": 80
-            },
-            {
-                "name": "minecraft:redstone_ore",
-                "weight": 20
-            }
-        ],
-        "clusterSize": 7,
-        "numClusters": 5,
-        "minHeight": 26,
-        "maxHeight": 52,
-        "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -30,
-            -29,
-            -28,
-            -27,
-            -26,
-            -1,
-            1
-        ]
-    }
+	"Electrotine": {
+		"template": "uniform",
+		"block": [{
+				"name": "ProjRed|Exploration:projectred.exploration.ore",
+				"metadata": 6,
+				"weight": 80
+			},
+			{
+				"name": "minecraft:redstone_ore",
+				"weight": 20
+			}
+		],
+		"clusterSize": 7,
+		"numClusters": 5,
+		"minHeight": 26,
+		"maxHeight": 52,
+		"retrogen": "false",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
+	}
 }

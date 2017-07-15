@@ -183,18 +183,30 @@
 
 44
 	- Name: moon
-	- Forge Biome Types: COLD DRY DEAD 
+	- Forge Biome Types: COLD WET DRY DEAD HILLS 
 
 45
 	- Name: marsFlat
-	- Forge Biome Types: COLD DRY DEAD SANDY 
+	- Forge Biome Types: HOT COLD WET DRY DEAD PLAINS SANDY 
 
 46
 	- Name: asteroids
-	- Forge Biome Types: COLD DRY SPOOKY DEAD 
+	- Forge Biome Types: COLD WET DRY SPOOKY DEAD PLAINS 
+
+47
+	- Name: Deep Fungal Cave
+	- Forge Biome Types: COLD WET PLAINS 
+
+48
+	- Name: Deepshine Cave
+	- Forge Biome Types: COLD WET PLAINS 
+
+49
+	- Name: Dustopian Marsh
+	- Forge Biome Types: WET PLAINS 
 
 50
-	- Name: Abyss
+	- Name: Abyssal Void
 	- Forge Biome Types: COLD WET HILLS 
 
 51
@@ -222,11 +234,11 @@
 	- Forge Biome Types: WET PLAINS 
 
 57
-	- Name: Deeplands
+	- Name: Deeplands Cave
 	- Forge Biome Types: COLD WET PLAINS 
 
 58
-	- Name: Dustopia
+	- Name: Dustopian Forest
 	- Forge Biome Types: WET PLAINS 
 
 59
@@ -246,11 +258,11 @@
 	- Forge Biome Types: COLD DRY PLAINS 
 
 63
-	- Name: Iromine
+	- Name: Golden Hills
 	- Forge Biome Types: WET HILLS 
 
 64
-	- Name: Borean
+	- Name: Borean Ponds
 	- Forge Biome Types: WET PLAINS 
 
 65
@@ -270,16 +282,48 @@
 	- Forge Biome Types: WET PLAINS 
 
 69
-	- Name: Precasia
+	- Name: Precasian Forest
 	- Forge Biome Types: HOT WET HILLS 
 
 70
 	- Name: Runandor
-	- Forge Biome Types: DRY HILLS 
+	- Forge Biome Types: DRY PLAINS 
 
 71
 	- Name: Vox Ponds
-	- Forge Biome Types: COLD DRY PLAINS 
+	- Forge Biome Types: HOT DRY SAVANNA PLAINS 
+
+72
+	- Name: Dustopian Plains
+	- Forge Biome Types: WET PLAINS 
+
+73
+	- Name: Ethereus
+	- Forge Biome Types: HOT DRY SAVANNA PLAINS 
+
+74
+	- Name: Everland
+	- Forge Biome Types: HOT DRY SAVANNA PLAINS 
+
+75
+	- Name: Gardencian Fungi
+	- Forge Biome Types: WET PLAINS 
+
+76
+	- Name: Gardencian Marsh
+	- Forge Biome Types: WET PLAINS 
+
+77
+	- Name: Haunted Forest
+	- Forge Biome Types: WET PLAINS 
+
+78
+	- Name: Greckon Skulls
+	- Forge Biome Types: WET PLAINS 
+
+79
+	- Name: Iro-Tech Hills
+	- Forge Biome Types: WET HILLS 
 
 80
 	- Name: Twilight Clearing
@@ -356,6 +400,58 @@
 98
 	- Name: Dense Twilight Forest
 	- Forge Biome Types: DENSE FOREST 
+
+99
+	- Name: Borean Bubble Forest
+	- Forge Biome Types: WET PLAINS 
+
+100
+	- Name: Coral Forest
+	- Forge Biome Types: WET PLAINS 
+
+101
+	- Name: L'Borean Reds
+	- Forge Biome Types: WET PLAINS 
+
+102
+	- Name: Marshmallow Hills
+	- Forge Biome Types: WET PLAINS 
+
+103
+	- Name: Playtopia
+	- Forge Biome Types: HOT DRY SAVANNA PLAINS 
+
+104
+	- Name: Precasian Desert
+	- Forge Biome Types: HOT WET HILLS 
+
+105
+	- Name: Precasian Field
+	- Forge Biome Types: HOT WET PLAINS 
+
+106
+	- Name: Tall Precasian Forest
+	- Forge Biome Types: HOT WET HILLS 
+
+107
+	- Name: Rock Candy Hills
+	- Forge Biome Types: WET PLAINS 
+
+108
+	- Name: Rocky Mazus
+	- Forge Biome Types: HOT WET PLAINS 
+
+109
+	- Name: Shyrelands
+	- Forge Biome Types: HOT WET PLAINS 
+
+110
+	- Name: Silvro Hills
+	- Forge Biome Types: WET HILLS 
+
+113
+	- Name: Abyssal Eyelands
+	- Forge Biome Types: COLD WET HILLS 
 
 117
 	- Name: Radiant Fissures

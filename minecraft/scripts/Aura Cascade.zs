@@ -77,7 +77,7 @@ recipes.addShaped(cascadingColorer, [[<ore:blockCloth>, <ore:blockCloth>, <ore:b
 
 ##  Travelers Road
 recipes.remove(travelersBricks);
-recipes.addShaped(travelersBricks * 16, [[ingotBedrockium, ingotArcaneBlack, ingotBedrockium], [ingotArcaneBlack, ingotBedrockium, ingotArcaneBlack], [ingotBedrockium, ingotArcaneBlack, ingotBedrockium]]);
+recipes.addShaped(travelersBricks * 32, [[ingotArcaneBlack, ingotBedrockium, ingotBedrockium], [ingotBedrockium, ingotArcaneBlack, ingotBedrockium], [ingotArcaneBlack, ingotBedrockium, ingotBedrockium]]);
 
 ##  Vortex Controller
 recipes.remove(vortexController);

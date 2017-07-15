@@ -1,4 +1,4 @@
-Total amount of occupied potion ids: 167
+Total amount of occupied potion ids: 169
 Table of occupied potion ids and their owners
 id:name(class)
 0 : Confusion (com.gw.dm.potion.PotionAddle)
@@ -162,6 +162,8 @@ id:name(class)
 165 : Epic Mana Restoration (am2.buffs.ManaPotion)
 166 : Greater Mana Restoration (am2.buffs.ManaPotion)
 167 : Legendary Mana Restoration (am2.buffs.ManaPotion)
+168 : Frozen Solid (Reika.RotaryCraft.Auxiliary.FreezePotion)
+169 : Radiation Sickness (Reika.ReactorCraft.Auxiliary.PotionRadiation)
 174 : Restorative Aura (Reika.ChromatiCraft.Auxiliary.Potions.PotionLumenRegen)
 175 : Growth Accelerant (Reika.ChromatiCraft.Auxiliary.Potions.PotionGrowthHormone)
 176 : Lumarhea (Reika.ChromatiCraft.Auxiliary.Potions.PotionLumarhea)

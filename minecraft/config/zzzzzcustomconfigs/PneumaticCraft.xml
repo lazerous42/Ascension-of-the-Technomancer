@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--The syntax for an item stack is the same as you'd use in the /give command. NBT tags are supported! (e.g. minecraft:skull 1 3 {SkullOwner:"ganymedes01"})
+The syntax for a fluid stack is simiar to the item stack, it should be the fluid name followed by the amount. NBT tags are also supported! (e.g. water 1000)
+The syntax for ore dictionary values is the value between double-quotes. (e.g. "ingotIron")
+
+Examples:
+
+<assemblydrill>
+	<input>minecraft:porkchop 1 0</input>
+	<output>minecraft:cooked_porkchop 1 0</output>
+</assemblydrill>
+
+<assemblylaser>
+	<input>minecraft:coal 1 0</input>
+	<output>minecraft:diamond 1 0</output>
+</assemblylaser>
+
+<pressurechamber>
+	<input1>minecraft:ice 1 0</input1>
+	<input2>minecraft:snow 1 0</input2>
+	<input3>minecraft:snowball 1 0</input3>
+	<pressure>1.0</pressure>
+	<output1>minecraft:packed_ice 1 0</output1>
+	<output2>minecraft:mycelium 1 0</output2>
+</pressurechamber>-->
+
+<PneumaticCraft>
+	<!--Add your recipes here!-->
+</PneumaticCraft>

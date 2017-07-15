@@ -34,7 +34,7 @@
     "motd": [
       "\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d",
       "Greetings Mortal, Welcome to Ascension of the Technomancer.  Are You Ready to Die?!",
-      "Modpack Version: 3.13.9",
+      "Modpack Version: 4.2.0",
       "Keep aware of pack changes and fixes at: https://github.com/lazerous42/Ascension-of-the-Technomancer",
       "\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
     ],
@@ -55,7 +55,8 @@
     "allow_creative_interact_secure": true,
     "badge": "",
     "break_whitelist": [
-      "OpenBlocks:grave"
+      "GuardianChest:guardianTier1",
+      "GuardianChest:guardianTier2"
     ],
     "cross_dim_homes": true,
     "custom_config": {},

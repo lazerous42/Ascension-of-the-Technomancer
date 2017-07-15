@@ -1,16 +1,68 @@
 # Ascension-of-the-Technomancer
-Current LIVE Config Version 3.13.2
-Repository Config Version 3.13.9
+Current LIVE Config Version 3.13.9
+Repository Config Version 4.2.0
 
 Hello there friend.  It seems as though you've met with a terrible fate, haven't you?  
 
-Welcome to the world of Ascension of the Technomancer, a high difficulty alternative to typical "kitchen sink" type packs.  This pack features a high degree of cross mod integration, with a special focus on exploration.  Advent of Ascension, Hardcore Ender Expansion, and Twilight Forest, GalacticCraft, and The Aether II provide the player with more than 30 new dimensions to explore.  The tech side of the pack centers around GregTech 5 experimental, using a mix of GregTech style and traditional oregen. The magic side of the house features all of the major 1.7.10 magic mods, along with some less common fare like Ars Magica and ChromaticCraft to spice things up.  Survival challenges have been enhanced with Hunger Overhaul, Spice of Life, Harvestcraft, and Agricraft.  The 100s of mobs in the pack have been organized into custom spawn tables, written from the ground up with Just Another Spawner.  The recipes used in this pack were initially derived from Infinity Expert mode with a dash of InfiTech 2, but heavily customized from there to ensure a unique experience.  Do you consider yourself a Minecraft expert?  Then welcome to your greatest challenge... or your undoing.  
+Welcome to the world of Ascension of the Technomancer, a high difficulty alternative to typical "kitchen sink" type packs.  This pack features a high degree of cross mod integration, with a special focus on exploration.  Advent of Ascension, Hardcore Ender Expansion, and Twilight Forest, GalacticCraft, and The Aether II provide the player with more than 30 new dimensions to explore.  The tech side of the pack centers around GregTech 5 experimental, but includes all of the major tech mods (Thermal Expansion, EnderIO, MFR...) you’ve come to know and love.   This pack uses a mix of GregTech style and traditional oregen, to further encourage exploration while not leaving you stuck if you can’t find the ore vein you need. Rotary and ReactorCraft are now a part of the tech mod suite, giving you a rare opportunity to play around with these challenging and engaging pieces of content.  The magic side of the house features all of the major 1.7.10 magic mods, along with some less common fare like Ars Magica, Aura Cascade, and ChromaticCraft to spice things up.  Survival challenges have been enhanced with Hunger Overhaul, Spice of Life, Harvestcraft, and Agricraft.  The 100s of mobs in the pack have been organized into custom spawn tables, written from the ground up with Just Another Spawner.  The recipes used in this pack were initially derived from Infinity Expert mode with a dash of InfiTech 2, but heavily customized from there to ensure a unique experience.  Do you consider yourself a Minecraft expert?  Then welcome to your greatest challenge... or your undoing.
 
-Good luck friend.
+Good luck friend, You're going to need it.
 
-* A note about config version numbers ~ The least significant version number applies to config changes only, where that the middle number increments with mod versions.  Although configs from newer versions of mods won't normally cause issues, there is a small chance so I figured I should mention it just in case.  The most significant digit indicates a major structural change, i.e. a substantial content change.  Note all of the earlier releases follow this pattern exactly, but this standard is being maintained now and henceforth.
+* A note about config version numbers ~ The least significant version number applies to config changes only, where that the middle number increments with mod versions.  Although configs from newer versions of mods won't normally cause issues, there is a small chance so I figured I should mention it just in case.  The most significant digit indicates a major structural change, i.e. a substantial content change.  Mixing configs across major version updates is NOT recommended.  Note all of the earlier releases follow this pattern exactly, but this standard is being maintained now and henceforth.
 
 ChangeLog
+-- Version 4.2.0
+- Increased taint biome frequency again, still too rare
+- One last fragment weight tweak.  Fragments are a moderately common drop now
+- Guide tweaks
+- Stupid fragments, stupid loot table, just spawn when and were I tell you to.
+- More weight for fragments!!! Custom weights and spawn counts don't seem to have an effect.  However, multiple instances of fragments can be added to the loot table to simulate higher weights.  Each instance added to the loot table will take the standard properties of a CC fragment record in that loot table (weight, min, and max)
+- Another boost to ChromatiCraft fragment spawn weight
+- Allow admins to open all guardian chests
+- Coal coke now requires a compressor to turn into blocks
+- Imm. Eng lightning rod now as a slightly easier recipe that Infinity Evolved
+- BUGFIX: Added zzzzzcustomconfigs to fix Pam's HarvestCraft sesame seeds not dropping when grown on Agricraft crops.  It does this by adding the appropriate oredict entries during client/server init (onWorldLoad isn't early enough in the process)
+- During some non-Agricraft testing, it was observed that using a watering can is more than 2x as effective at inducing growth ticks in Agricraft crops.  The growth tick multiplier was adjusted 1.0 -> 0.6
+- Weeds will destroy crop sticks when the player doesn't use a rake.
+- Mobius ingots are now a part of high tier HP upgrade canisters
+- In game manual updated with more performance tips
+- Fix Agricraft grass drop settings, they were preventing RotaryCraft canola seeds from dropping
+- Allow TiCon to control the oreberries it recognizes to prevent confusion in AOBDBBB
+- Disable Rutile ore berries
+- Removing ElecriCraft for balance reasons (Seriously, a 60 Trillion RF capacity battery?!)
+- RotaryCraft config tweaks
+- Removed ReactorCraft-Ores.json file, it has literally no effect (sorry, no retrogen.  The built in one hangs on world load)
+- Another slight boost in info fragment weights (there are like ~250 to find, they need to be a common chest drop)
+- Added a CoFH file for TiCon cobalt to retrogen it
+- Lava is not allowed as a fuel for the smeltery.  This is a preventative action as the smeltery is still disabled at this time, but it will probably be allowed in a future update
+- Advent of Ascension updated to 2.5
+- Updated CustomNPCs and OpenSecurity
+- Removed Hearts mod and loot table entries.  Replaced with TiCon Heart Canisters
+- Advanced drawbridges are created in GT assembler, I literally can't make a vanilla crafting recipe for them.  MineTweaker just throws errors
+- BUGFIX: Added Thaumic NEI to address issues with custom infusion recipes not appearing in NEI because you never actually "unlock" them
+- Added custom recipes for the Tinkers Construct HP upgrades
+- Added link to pack GitHub on the client login screen
+- Added CrystalWing with custom recipe and loot table entries
+- TiCin supppression progress commit
+- Adding in Tinkers' Construct for drawbridges, and heart containers (Pending: Disable all TiCon recipes and only enable select items like canisters and drawbridges using non-tinkers materials
+- Fixed indium spawning definition in ReactorCraft configs.  Still not sure if CoFH can control ReC oregen at all.  More testing is needed
+- Added new GregTech vein and small ores for ReactorCraft ores (Cadmium, Indium)
+- Development config cleanup progress commit (mainly worldgen cleanup for GalacticCraft)
+
+-- Version 4.1.1
+- Added some oredict fixes for Aether 2
+- A few minor Gregginess tweaks for Biomes O Plenty
+- Added CoFH Core Interstellar Ores config for ReactorCraft
+- Disabled GalacticCraft ore spawns for ores created by Interstellar Ores
+
+-- Version 4.1.0b
+- Re-syncing branch and updated Rotary/Electri/ReactorCraft to v17
+- Bedrockium now requires bedrock dust to make
+
+-- Version 4.0.0b
+- Added Rotarycraft, Electricraft, Reactorcraft
+- Creating 4.0 beta branch for experimenting with Rotary/Electi/Reactorcraft
+
 -- Version 3.13.9
 - Deactivated Et Futurum doors to eliminate iron dupe using the 6 iron plates -> 3 iron doors recipe.  Malisis Doors already creates the 1.8+ doors
 

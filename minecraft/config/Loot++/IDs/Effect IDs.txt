@@ -1184,27 +1184,41 @@
 
 
 168
+	- Name: Frozen Solid
+	- Color: 2662143
+	- Is Instant? false
+	- Is Bad? true
+
+
+169
+	- Name: Radiation Sickness
+	- Color: 1118481
+	- Is Instant? false
+	- Is Bad? true
+
+
+170
 	- Name: imbue.fire
 	- Color: 16729344
 	- Is Instant? false
 	- Is Bad? false
 
 
-169
+171
 	- Name: imbue.wither
 	- Color: 3881787
 	- Is Instant? false
 	- Is Bad? false
 
 
-170
+172
 	- Name: imbue.weakness
 	- Color: 16777215
 	- Is Instant? false
 	- Is Bad? false
 
 
-171
+173
 	- Name: imbue.spectre
 	- Color: 12578815
 	- Is Instant? false
@@ -1213,7 +1227,7 @@
 
 174
 	- Name: Restorative Aura
-	- Color: -4551007
+	- Color: -4391168
 	- Is Instant? false
 	- Is Bad? false
 

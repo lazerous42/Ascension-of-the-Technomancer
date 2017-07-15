@@ -5,8 +5,8 @@
 
 print("Initializing 'Loot Tables.zs'...");
 ## A_WIZARD_DID_IT
-vanilla.loot.addChestLoot("A_WIZARD_DID_IT", <heart:healthHeart>.weight(2), 1, 1);
-vanilla.loot.addChestLoot("A_WIZARD_DID_IT", <heart:damageBuff>.weight(2), 1, 1);
+vanilla.loot.addChestLoot("A_WIZARD_DID_IT", <TConstruct:heartCanister:2>.weight(2), 1, 1);
+vanilla.loot.addChestLoot("A_WIZARD_DID_IT", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 5);
 vanilla.loot.addChestLoot("A_WIZARD_DID_IT", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 5);
 vanilla.loot.addChestLoot("A_WIZARD_DID_IT", <Ztones:diamondZane>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("A_WIZARD_DID_IT", <Ztones:splatAxe>.weight(2), 1, 1);
@@ -16,10 +16,11 @@ vanilla.loot.addChestLoot("A_WIZARD_DID_IT", <ExtraUtilities:golden_bag>.weight(
 vanilla.loot.addChestLoot("A_WIZARD_DID_IT", <ExtraUtilities:cursedearthside>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("A_WIZARD_DID_IT", <ExtraUtilities:builderswand>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("A_WIZARD_DID_IT", <gregtech:gt.metaitem.01:11321>.weight(5), 2, 6);
+vanilla.loot.addChestLoot("A_WIZARD_DID_IT", <CrystalWing:crystalwing.crystalWing>.weight(5), 1, 1);
 
 ## ProceeduralGeneration
-vanilla.loot.addChestLoot("ProceeduralGeneration", <heart:healthHeart>.weight(2), 1, 1);
-vanilla.loot.addChestLoot("ProceeduralGeneration", <heart:damageBuff>.weight(2), 1, 1);
+vanilla.loot.addChestLoot("ProceeduralGeneration", <TConstruct:heartCanister:2>.weight(2), 1, 1);
+vanilla.loot.addChestLoot("ProceeduralGeneration", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 5);
 vanilla.loot.addChestLoot("ProceeduralGeneration", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 5);
 vanilla.loot.addChestLoot("ProceeduralGeneration", <Ztones:diamondZane>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("ProceeduralGeneration", <Ztones:splatAxe>.weight(2), 1, 1);
@@ -29,6 +30,7 @@ vanilla.loot.addChestLoot("ProceeduralGeneration", <ExtraUtilities:golden_bag>.w
 vanilla.loot.addChestLoot("ProceeduralGeneration", <ExtraUtilities:cursedearthside>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("ProceeduralGeneration", <ExtraUtilities:builderswand>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("ProceeduralGeneration", <gregtech:gt.metaitem.01:11321>.weight(5), 2, 6);
+vanilla.loot.addChestLoot("ProceeduralGeneration", <CrystalWing:crystalwing.crystalWing>.weight(5), 1, 1);
 
 ##  Dungeon Chest
 vanilla.loot.addChestLoot("dungeonChest", <Botania:manaResource:4>.weight(1), 1, 2);
@@ -81,8 +83,7 @@ vanilla.loot.addChestLoot("dungeonChest", <EnderIO:itemBasicCapacitor:2>.weight(
 vanilla.loot.addChestLoot("dungeonChest", <EnderIO:itemBasicCapacitor>.weight(10), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <EnderIO:itemBasicCapacitor:1>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <EnderIO:itemMaterial:1>.weight(25), 8, 16);
-vanilla.loot.addChestLoot("dungeonChest", <heart:healthHeart>.weight(4), 1, 1);
-vanilla.loot.addChestLoot("dungeonChest", <heart:damageBuff>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("dungeonChest", <TConstruct:heartCanister:2>.weight(4), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <ThermalExpansion:Frame>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <harvestcraft:market>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <harvestcraft:presser>.weight(1), 1, 1);
@@ -93,25 +94,20 @@ vanilla.loot.addChestLoot("dungeonChest", <Ztones:totemTool>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <chancecubes:chancePendantTier1>.weight(5), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <chancecubes:chancePendantTier2>.weight(4), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <chancecubes:chancePendantTier3>.weight(3), 1, 1);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:1>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:2>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:3>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:4>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:5>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:6>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:7>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:8>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:9>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:10>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:11>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:12>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:13>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:14>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_shard:15>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_fragment>.weight(50), 1, 5);
+vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 1);
+vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 1);
+vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 1);
+vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 1);
+vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 1);
+vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 1);
+vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 1);
+vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 1);
+vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 1);
+vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 1);
+vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <ChromatiCraft:chromaticraft_item_help>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <gregtech:gt.metaitem.01:11321>.weight(5), 2, 6);
+vanilla.loot.addChestLoot("dungeonChest", <CrystalWing:crystalwing.crystalWing>.weight(5), 1, 1);
 #   Buffer Items
 vanilla.loot.addChestLoot("dungeonChest", <minecraft:diamond>.weight(10), 1, 5);
 vanilla.loot.addChestLoot("dungeonChest", <minecraft:emerald>.weight(10), 1, 5);
@@ -161,8 +157,7 @@ vanilla.loot.addChestLoot("mineshaftCorridor", <Railcraft:fuel.coke>.weight(15),
 vanilla.loot.addChestLoot("mineshaftCorridor", <ImmersiveEngineering:drill>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <ExtraUtilities:cobblestone_compressed:5>.weight(3), 1, 2);
 vanilla.loot.addChestLoot("mineshaftCorridor", <Railcraft:cube>.weight(5), 1, 10);
-vanilla.loot.addChestLoot("mineshaftCorridor", <heart:healthHeart>.weight(3), 1, 1);
-vanilla.loot.addChestLoot("mineshaftCorridor", <heart:damageBuff>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("mineshaftCorridor", <TConstruct:heartCanister:2>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <ThermalExpansion:Frame>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <harvestcraft:market>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <harvestcraft:presser>.weight(1), 1, 1);
@@ -189,7 +184,12 @@ vanilla.loot.addChestLoot("mineshaftCorridor", <ChromatiCraft:chromaticraft_item
 vanilla.loot.addChestLoot("mineshaftCorridor", <ChromatiCraft:chromaticraft_item_shard:13>.weight(5), 1, 3);
 vanilla.loot.addChestLoot("mineshaftCorridor", <ChromatiCraft:chromaticraft_item_shard:14>.weight(5), 1, 3);
 vanilla.loot.addChestLoot("mineshaftCorridor", <ChromatiCraft:chromaticraft_item_shard:15>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("mineshaftCorridor", <ChromatiCraft:chromaticraft_item_fragment>.weight(50), 1, 5);
+vanilla.loot.addChestLoot("mineshaftCorridor", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 1);
+vanilla.loot.addChestLoot("mineshaftCorridor", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 1);
+vanilla.loot.addChestLoot("mineshaftCorridor", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 1);
+vanilla.loot.addChestLoot("mineshaftCorridor", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 1);
+vanilla.loot.addChestLoot("mineshaftCorridor", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 1);
+vanilla.loot.addChestLoot("mineshaftCorridor", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <ChromatiCraft:chromaticraft_item_help>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <gregtech:gt.metaitem.01:11321>.weight(5), 2, 6);
 #   Buffer Items
@@ -262,8 +262,8 @@ vanilla.loot.addChestLoot("netherFortress", <aura:AuraCrystal:4>.weight(5), 1, 1
 vanilla.loot.addChestLoot("netherFortress", <Botania:fireRod>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("netherFortress", <Thaumcraft:FocusFire>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("netherFortress", <OpenBlocks:tank>.withTag({tank: {FluidName: "xpjuice", Amount: 32000}}).weight(5), 1, 2);
-vanilla.loot.addChestLoot("netherFortress", <heart:healthHeart>.weight(3), 1, 1);
-vanilla.loot.addChestLoot("netherFortress", <heart:damageBuff>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("netherFortress", <TConstruct:heartCanister:2>.weight(3), 1, 1);
+vanilla.loot.addChestLoot("netherFortress", <TConstruct:heartCanister:4>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("netherFortress", <ThermalExpansion:Frame>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("netherFortress", <harvestcraft:market>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("netherFortress", <harvestcraft:presser>.weight(1), 1, 1);
@@ -290,9 +290,12 @@ vanilla.loot.addChestLoot("netherFortress", <ChromatiCraft:chromaticraft_item_sh
 vanilla.loot.addChestLoot("netherFortress", <ChromatiCraft:chromaticraft_item_shard:13>.weight(5), 1, 3);
 vanilla.loot.addChestLoot("netherFortress", <ChromatiCraft:chromaticraft_item_shard:14>.weight(5), 1, 3);
 vanilla.loot.addChestLoot("netherFortress", <ChromatiCraft:chromaticraft_item_shard:15>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("netherFortress", <ChromatiCraft:chromaticraft_item_fragment>.weight(50), 1, 5);
+vanilla.loot.addChestLoot("netherFortress", <ChromatiCraft:chromaticraft_item_fragment>.weight(50), 1, 3;
+vanilla.loot.addChestLoot("netherFortress", <ChromatiCraft:chromaticraft_item_fragment>.weight(50), 1, 3);
+vanilla.loot.addChestLoot("netherFortress", <ChromatiCraft:chromaticraft_item_fragment>.weight(50), 1, 3);
 vanilla.loot.addChestLoot("netherFortress", <ChromatiCraft:chromaticraft_item_help>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("netherFortress", <gregtech:gt.metaitem.01:11321>.weight(5), 4, 6);
+vanilla.loot.addChestLoot("netherFortress", <CrystalWing:crystalwing.crystalWing>.weight(5), 1, 1);
 #   Buffer Items
 vanilla.loot.addChestLoot("netherFortress", <minecraft:diamond>.weight(10), 1, 5);
 vanilla.loot.addChestLoot("netherFortress", <minecraft:emerald>.weight(10), 1, 5);
@@ -352,8 +355,7 @@ vanilla.loot.addChestLoot("pyramidDesertyChest", <witchery:ingredient:2>.weight(
 vanilla.loot.addChestLoot("pyramidDesertyChest", <witchery:ingredient:23>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <Botania:altar:6>.weight(15), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <AgriCraft:seedDesertNova>.weight(5), 1, 8);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <heart:healthHeart>.weight(4), 1, 1);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <heart:damageBuff>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <TConstruct:heartCanister:2>.weight(4), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <ThermalExpansion:Frame>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <harvestcraft:market>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <harvestcraft:presser>.weight(1), 1, 1);
@@ -365,24 +367,12 @@ vanilla.loot.addChestLoot("pyramidDesertyChest", <ThermalFoundation:tool.bowPlat
 vanilla.loot.addChestLoot("pyramidDesertyChest", <chancecubes:chancePendantTier1>.weight(5), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <chancecubes:chancePendantTier2>.weight(4), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <chancecubes:chancePendantTier3>.weight(3), 1, 1);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <ChromatiCraft:chromaticraft_item_shard>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <ChromatiCraft:chromaticraft_item_shard:1>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <ChromatiCraft:chromaticraft_item_shard:2>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <ChromatiCraft:chromaticraft_item_shard:3>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <ChromatiCraft:chromaticraft_item_shard:4>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <ChromatiCraft:chromaticraft_item_shard:5>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <ChromatiCraft:chromaticraft_item_shard:6>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <ChromatiCraft:chromaticraft_item_shard:7>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <ChromatiCraft:chromaticraft_item_shard:8>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <ChromatiCraft:chromaticraft_item_shard:9>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <ChromatiCraft:chromaticraft_item_shard:10>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <ChromatiCraft:chromaticraft_item_shard:11>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <ChromatiCraft:chromaticraft_item_shard:12>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <ChromatiCraft:chromaticraft_item_shard:13>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <ChromatiCraft:chromaticraft_item_shard:14>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <ChromatiCraft:chromaticraft_item_shard:15>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <ChromatiCraft:chromaticraft_item_fragment>.weight(50), 1, 5);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <ChromatiCraft:chromaticraft_item_fragment>.weight(20), 1, 1);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <ChromatiCraft:chromaticraft_item_fragment>.weight(20), 1, 1);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <ChromatiCraft:chromaticraft_item_fragment>.weight(20), 1, 1);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <ChromatiCraft:chromaticraft_item_fragment>.weight(20), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <ChromatiCraft:chromaticraft_item_help>.weight(3), 1, 1);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <CrystalWing:crystalwing.crystalWing>.weight(5), 1, 1);
 #   Buffer Items
 vanilla.loot.addChestLoot("pyramidDesertyChest", <minecraft:diamond>.weight(10), 1, 5);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <minecraft:emerald>.weight(10), 1, 5);
@@ -449,8 +439,7 @@ vanilla.loot.addChestLoot("pyramidJungleChest", <aura:gemOrange>.weight(5), 1, 3
 vanilla.loot.addChestLoot("pyramidJungleChest", <aura:gemYellow>.weight(5), 1, 3);
 vanilla.loot.addChestLoot("pyramidJungleChest", <aura:gemBlue>.weight(5), 1, 3);
 vanilla.loot.addChestLoot("pyramidJungleChest", <aura:gemViolet>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidJungleChest", <heart:healthHeart>.weight(4), 1, 1);
-vanilla.loot.addChestLoot("pyramidJungleChest", <heart:damageBuff>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("pyramidJungleChest", <TConstruct:heartCanister:2>.weight(4), 1, 1);
 vanilla.loot.addChestLoot("pyramidJungleChest", <ThermalExpansion:Frame>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("pyramidJungleChest", <harvestcraft:market>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("pyramidJungleChest", <harvestcraft:presser>.weight(1), 1, 1);
@@ -461,24 +450,11 @@ vanilla.loot.addChestLoot("pyramidJungleChest", <Ztones:totemTool>.weight(1), 1,
 vanilla.loot.addChestLoot("pyramidJungleChest", <chancecubes:chancePendantTier1>.weight(5), 1, 1);
 vanilla.loot.addChestLoot("pyramidJungleChest", <chancecubes:chancePendantTier2>.weight(4), 1, 1);
 vanilla.loot.addChestLoot("pyramidJungleChest", <chancecubes:chancePendantTier3>.weight(3), 1, 1);
-vanilla.loot.addChestLoot("pyramidJungleChest", <ChromatiCraft:chromaticraft_item_shard>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidJungleChest", <ChromatiCraft:chromaticraft_item_shard:1>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidJungleChest", <ChromatiCraft:chromaticraft_item_shard:2>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidJungleChest", <ChromatiCraft:chromaticraft_item_shard:3>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidJungleChest", <ChromatiCraft:chromaticraft_item_shard:4>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidJungleChest", <ChromatiCraft:chromaticraft_item_shard:5>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidJungleChest", <ChromatiCraft:chromaticraft_item_shard:6>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidJungleChest", <ChromatiCraft:chromaticraft_item_shard:7>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidJungleChest", <ChromatiCraft:chromaticraft_item_shard:8>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidJungleChest", <ChromatiCraft:chromaticraft_item_shard:9>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidJungleChest", <ChromatiCraft:chromaticraft_item_shard:10>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidJungleChest", <ChromatiCraft:chromaticraft_item_shard:11>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidJungleChest", <ChromatiCraft:chromaticraft_item_shard:12>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidJungleChest", <ChromatiCraft:chromaticraft_item_shard:13>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidJungleChest", <ChromatiCraft:chromaticraft_item_shard:14>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidJungleChest", <ChromatiCraft:chromaticraft_item_shard:15>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("pyramidJungleChest", <ChromatiCraft:chromaticraft_item_fragment>.weight(50), 1, 5);
+vanilla.loot.addChestLoot("pyramidJungleChest", <ChromatiCraft:chromaticraft_item_fragment>.weight(20), 1, 2);
+vanilla.loot.addChestLoot("pyramidJungleChest", <ChromatiCraft:chromaticraft_item_fragment>.weight(20), 1, 2);
+vanilla.loot.addChestLoot("pyramidJungleChest", <ChromatiCraft:chromaticraft_item_fragment>.weight(20), 1, 2);
 vanilla.loot.addChestLoot("pyramidJungleChest", <ChromatiCraft:chromaticraft_item_help>.weight(3), 1, 1);
+vanilla.loot.addChestLoot("pyramidJungleChest", <CrystalWing:crystalwing.crystalWing>.weight(5), 1, 1);
 #   Buffer Items
 vanilla.loot.addChestLoot("pyramidJungleChest", <minecraft:diamond>.weight(10), 1, 5);
 vanilla.loot.addChestLoot("pyramidJungleChest", <minecraft:emerald>.weight(10), 1, 5);
@@ -566,8 +542,8 @@ vanilla.loot.addChestLoot("strongholdCorridor", <minecraft:dragon_egg>.weight(1)
 vanilla.loot.addChestLoot("strongholdCorridor", <EnderIO:itemTravelStaff>.weight(10), 1, 1);
 vanilla.loot.addChestLoot("strongholdCorridor", <TwilightForest:item.enderBow>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("strongholdCorridor", <ExtraUtilities:plant/ender_lilly>.weight(15), 4, 8);
-vanilla.loot.addChestLoot("strongholdCorridor", <heart:healthHeart>.weight(3), 1, 1);
-vanilla.loot.addChestLoot("strongholdCorridor", <heart:damageBuff>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("strongholdCorridor", <TConstruct:heartCanister:2>.weight(3), 1, 1);
+vanilla.loot.addChestLoot("strongholdCorridor", <TConstruct:heartCanister:4>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("strongholdCorridor", <ThermalExpansion:Frame>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("strongholdCorridor", <harvestcraft:market>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("strongholdCorridor", <harvestcraft:presser>.weight(1), 1, 1);
@@ -594,7 +570,12 @@ vanilla.loot.addChestLoot("strongholdCorridor", <ChromatiCraft:chromaticraft_ite
 vanilla.loot.addChestLoot("strongholdCorridor", <ChromatiCraft:chromaticraft_item_shard:13>.weight(5), 1, 3);
 vanilla.loot.addChestLoot("strongholdCorridor", <ChromatiCraft:chromaticraft_item_shard:14>.weight(5), 1, 3);
 vanilla.loot.addChestLoot("strongholdCorridor", <ChromatiCraft:chromaticraft_item_shard:15>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("strongholdCorridor", <ChromatiCraft:chromaticraft_item_fragment>.weight(50), 1, 5);
+vanilla.loot.addChestLoot("strongholdCorridor", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 3);
+vanilla.loot.addChestLoot("strongholdCorridor", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 3);
+vanilla.loot.addChestLoot("strongholdCorridor", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 3);
+vanilla.loot.addChestLoot("strongholdCorridor", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 3);
+vanilla.loot.addChestLoot("strongholdCorridor", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 3);
+vanilla.loot.addChestLoot("strongholdCorridor", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 3);
 vanilla.loot.addChestLoot("strongholdCorridor", <ChromatiCraft:chromaticraft_item_help>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("strongholdCorridor", <gregtech:gt.metaitem.01:11321>.weight(5), 2, 6);
 #   Buffer Items
@@ -638,8 +619,7 @@ vanilla.loot.addChestLoot("strongholdCrossing", <aura:ingotAngelSteel:6>.weight(
 vanilla.loot.addChestLoot("strongholdCrossing", <aura:ingotAngelSteel:10>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("strongholdCrossing", <aura:prismWhite>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("strongholdCrossing", <MineFactoryReloaded:safarinet.reusable>.weight(1), 1, 1);
-vanilla.loot.addChestLoot("strongholdCrossing", <heart:healthHeart>.weight(3), 1, 1);
-vanilla.loot.addChestLoot("strongholdCrossing", <heart:damageBuff>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("strongholdCrossing", <TConstruct:heartCanister:2>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("strongholdCrossing", <ThermalExpansion:Frame>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("strongholdCrossing", <harvestcraft:market>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("strongholdCrossing", <harvestcraft:presser>.weight(1), 1, 1);
@@ -666,7 +646,12 @@ vanilla.loot.addChestLoot("strongholdCrossing", <ChromatiCraft:chromaticraft_ite
 vanilla.loot.addChestLoot("strongholdCrossing", <ChromatiCraft:chromaticraft_item_shard:13>.weight(5), 1, 3);
 vanilla.loot.addChestLoot("strongholdCrossing", <ChromatiCraft:chromaticraft_item_shard:14>.weight(5), 1, 3);
 vanilla.loot.addChestLoot("strongholdCrossing", <ChromatiCraft:chromaticraft_item_shard:15>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("strongholdCrossing", <ChromatiCraft:chromaticraft_item_fragment>.weight(50), 1, 5);
+vanilla.loot.addChestLoot("strongholdCrossing", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 3);
+vanilla.loot.addChestLoot("strongholdCrossing", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 3);
+vanilla.loot.addChestLoot("strongholdCrossing", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 3);
+vanilla.loot.addChestLoot("strongholdCrossing", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 3);
+vanilla.loot.addChestLoot("strongholdCrossing", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 3);
+vanilla.loot.addChestLoot("strongholdCrossing", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 3);
 vanilla.loot.addChestLoot("strongholdCrossing", <ChromatiCraft:chromaticraft_item_help>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("strongholdCrossing", <gregtech:gt.metaitem.01:11321>.weight(5), 2, 6);
 #   Buffer Items
@@ -720,15 +705,17 @@ vanilla.loot.addChestLoot("strongholdLibrary", <witchery:cauldronbook>.weight(5)
 vanilla.loot.addChestLoot("strongholdLibrary", <witchery:vampirebook>.weight(5), 1, 1);
 vanilla.loot.addChestLoot("strongholdLibrary", <AgriCraft:journal>.weight(5), 1, 1);
 vanilla.loot.addChestLoot("strongholdLibrary", <ChromatiCraft:chromaticraft_item_help>.weight(5), 1, 1);
-vanilla.loot.addChestLoot("strongholdLibrary", <heart:healthHeart>.weight(3), 1, 1);
-vanilla.loot.addChestLoot("strongholdLibrary", <heart:damageBuff>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("strongholdLibrary", <TConstruct:heartCanister:2>.weight(3), 1, 1);
+vanilla.loot.addChestLoot("strongholdLibrary", <TConstruct:heartCanister:4>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("strongholdLibrary", <harvestcraft:market>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("strongholdLibrary", <harvestcraft:presser>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("strongholdLibrary", <chancecubes:chancePendantTier1>.weight(5), 1, 1);
 vanilla.loot.addChestLoot("strongholdLibrary", <chancecubes:chancePendantTier2>.weight(4), 1, 1);
 vanilla.loot.addChestLoot("strongholdLibrary", <chancecubes:chancePendantTier3>.weight(3), 1, 1);
-vanilla.loot.addChestLoot("strongholdLibrary", <ChromatiCraft:chromaticraft_item_fragment>.weight(60), 3, 7);
+vanilla.loot.addChestLoot("strongholdLibrary", <ChromatiCraft:chromaticraft_item_fragment>.weight(50), 1, 3);
+vanilla.loot.addChestLoot("strongholdLibrary", <ChromatiCraft:chromaticraft_item_fragment>.weight(50), 1, 3);
 vanilla.loot.addChestLoot("strongholdLibrary", <ChromatiCraft:chromaticraft_item_help>.weight(3), 1, 1);
+vanilla.loot.addChestLoot("strongholdLibrary", <CrystalWing:crystalwing.crystalWing>.weight(10), 1, 1);
 
 ##  Village Blacksmith
 vanilla.loot.addChestLoot("villageBlacksmith", <Thaumcraft:ItemLootBag:0>.weight(5), 1, 1);
@@ -761,31 +748,22 @@ vanilla.loot.addChestLoot("villageBlacksmith", <TwilightForest:item.fieryIngot>.
 vanilla.loot.addChestLoot("villageBlacksmith", <aura:ingotAngelSteel>.weight(5), 1, 4);
 vanilla.loot.addChestLoot("villageBlacksmith", <aura:ingotAngelSteel:4>.weight(2), 1, 4);
 vanilla.loot.addChestLoot("villageBlacksmith", <aura:ingotAngelSteel:10>.weight(1), 1, 4);
-vanilla.loot.addChestLoot("villageBlacksmith", <heart:healthHeart>.weight(3), 1, 1);
-vanilla.loot.addChestLoot("villageBlacksmith", <heart:damageBuff>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("villageBlacksmith", <TConstruct:heartCanister:2>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("villageBlacksmith", <ThermalExpansion:Frame>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("villageBlacksmith", <harvestcraft:market>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("villageBlacksmith", <harvestcraft:presser>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("villageBlacksmith", <chancecubes:chancePendantTier1>.weight(5), 1, 1);
 vanilla.loot.addChestLoot("villageBlacksmith", <chancecubes:chancePendantTier2>.weight(4), 1, 1);
 vanilla.loot.addChestLoot("villageBlacksmith", <chancecubes:chancePendantTier3>.weight(3), 1, 1);
-vanilla.loot.addChestLoot("villageBlacksmith", <ChromatiCraft:chromaticraft_item_shard>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("villageBlacksmith", <ChromatiCraft:chromaticraft_item_shard:1>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("villageBlacksmith", <ChromatiCraft:chromaticraft_item_shard:2>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("villageBlacksmith", <ChromatiCraft:chromaticraft_item_shard:3>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("villageBlacksmith", <ChromatiCraft:chromaticraft_item_shard:4>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("villageBlacksmith", <ChromatiCraft:chromaticraft_item_shard:5>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("villageBlacksmith", <ChromatiCraft:chromaticraft_item_shard:6>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("villageBlacksmith", <ChromatiCraft:chromaticraft_item_shard:7>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("villageBlacksmith", <ChromatiCraft:chromaticraft_item_shard:8>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("villageBlacksmith", <ChromatiCraft:chromaticraft_item_shard:9>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("villageBlacksmith", <ChromatiCraft:chromaticraft_item_shard:10>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("villageBlacksmith", <ChromatiCraft:chromaticraft_item_shard:11>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("villageBlacksmith", <ChromatiCraft:chromaticraft_item_shard:12>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("villageBlacksmith", <ChromatiCraft:chromaticraft_item_shard:13>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("villageBlacksmith", <ChromatiCraft:chromaticraft_item_shard:14>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("villageBlacksmith", <ChromatiCraft:chromaticraft_item_shard:15>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("villageBlacksmith", <ChromatiCraft:chromaticraft_item_fragment>.weight(30), 1, 3);
+vanilla.loot.addChestLoot("villageBlacksmith", <ChromatiCraft:chromaticraft_item_fragment>.weight(5), 1, 1);
+vanilla.loot.addChestLoot("villageBlacksmith", <ChromatiCraft:chromaticraft_item_fragment>.weight(5), 1, 1);
+vanilla.loot.addChestLoot("villageBlacksmith", <ChromatiCraft:chromaticraft_item_fragment>.weight(5), 1, 1);
+vanilla.loot.addChestLoot("villageBlacksmith", <ChromatiCraft:chromaticraft_item_fragment>.weight(5), 1, 1);
+vanilla.loot.addChestLoot("villageBlacksmith", <ChromatiCraft:chromaticraft_item_fragment>.weight(5), 1, 1);
+vanilla.loot.addChestLoot("villageBlacksmith", <ChromatiCraft:chromaticraft_item_fragment>.weight(5), 1, 1);
+vanilla.loot.addChestLoot("villageBlacksmith", <ChromatiCraft:chromaticraft_item_fragment>.weight(5), 1, 1);
+vanilla.loot.addChestLoot("villageBlacksmith", <ChromatiCraft:chromaticraft_item_fragment>.weight(5), 1, 1);
+vanilla.loot.addChestLoot("villageBlacksmith", <ChromatiCraft:chromaticraft_item_fragment>.weight(5), 1, 1);
 vanilla.loot.addChestLoot("villageBlacksmith", <ChromatiCraft:chromaticraft_item_help>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("villageBlacksmith", <gregtech:gt.metaitem.01:11321>.weight(5), 2, 6);
 #   Buffer Items

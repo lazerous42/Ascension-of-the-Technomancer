@@ -5,6 +5,7 @@
 
 ##  Imports
 import mods.immersiveengineering.MetalPress;
+import mods.ic2.Compressor;
 
 print("Initializing 'ImmersiveEngineering.zs'...");
 
@@ -23,12 +24,18 @@ val wireFineElectrum = <ore:wireFineElectrum>;
 val wireFineSteel = <ore:wireFineSteel>;
 val wireFineAluminium = <ore:wireFineAluminium>;
 
+val itemCoalCoke = <ImmersiveEngineering:material:6>;
+val blockCoalCoke = <ImmersiveEngineering:stoneDecoration:3>;
 val stickTreated = <ImmersiveEngineering:material>;
 val planksTreated = <ImmersiveEngineering:treatedWood>;
 val engineersHammer = <ImmersiveEngineering:tool>;
 
 ##  Creosote Bottle Oredict
 <ore:bottleCreosote>.add(bottleCreosoteIE);
+
+## Coal Coke
+recipes.remove(blockCoalCoke);
+Compressor.addRecipe(blockCoalCoke, itemCoalCoke * 9);
 
 ##  Treated Sticks
 recipes.remove(<ImmersiveEngineering:material>);
@@ -39,6 +46,10 @@ recipes.addShapedMirrored(<ImmersiveEngineering:material> * 4, [[<ore:craftingTo
 recipes.removeShaped(planksTreated, [[plankWood, plankWood, plankWood], [plankWood, bottleCreosoteIE, plankWood], [plankWood, plankWood, plankWood]]);
 recipes.removeShaped(planksTreated, [[plankWood, plankWood, plankWood], [plankWood, bottleCreosoteRC, plankWood], [plankWood, plankWood, plankWood]]);
 recipes.addShaped(planksTreated * 8, [[plankWood, plankWood, plankWood], [plankWood, <ore:bottleCreosote>.giveBack(<minecraft:glass_bottle>), plankWood], [plankWood, plankWood, plankWood]]);
+
+#lightning rod base
+recipes.remove(<ImmersiveEngineering:metalMultiblock>);
+recipes.addShaped(<ImmersiveEngineering:metalMultiblock>, [[<ImmersiveEngineering:coil:2>, <IC2:blockFenceIron>, <ImmersiveEngineering:coil:2>], [<ImmersiveEngineering:metalDevice:7>, <IC2:blockFenceIron>, <ImmersiveEngineering:metalDevice:7>], [<ore:blockDarkSteel>, <StevesCarts:ModuleComponents:7>, <ore:blockDarkSteel>]]);
 
 ##  Engineers Hammer
 recipes.remove(engineersHammer);

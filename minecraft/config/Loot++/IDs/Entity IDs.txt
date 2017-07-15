@@ -417,6 +417,20 @@ RandomThings.bloodmoonCircle
 RandomThings.playerSoul
 RandomThings.reviveCircle
 RandomThings.spirit
+ReactorCraft.Fusion
+ReactorCraft.Neutron
+ReactorCraft.Plasma
+ReactorCraft.Radiation
+RotaryCraft.CustomTNT
+RotaryCraft.Discharge
+RotaryCraft.Explosive Shell
+RotaryCraft.Flak Shot
+RotaryCraft.Freeze Gun Shot
+RotaryCraft.Gas Minecart
+RotaryCraft.Gatling Round
+RotaryCraft.Ice Block
+RotaryCraft.RailGun Shot
+RotaryCraft.Shock Wave
 Sanguimancy.EntityChickenMinion
 Sanguimancy.EntityPlayerPointer
 Sheep
@@ -543,6 +557,15 @@ Steamcraft.Rocket
 StevesCarts.Cake.Vswe
 StevesCarts.Egg.Vswe
 StevesCarts.Minecart.Vswe.0
+TConstruct.Arrow
+TConstruct.Crystal
+TConstruct.Dagger
+TConstruct.EdibleSlime
+TConstruct.Fancy Item
+TConstruct.KingSlime
+TConstruct.LandmineFirework
+TConstruct.Launched Potion
+TConstruct.SlimeExplosive
 Thaumcraft.Alumentum
 Thaumcraft.AspectOrb
 Thaumcraft.BottleTaint
@@ -834,6 +857,7 @@ customnpcs.CustomNpc
 customnpcs.CustomNpcChairMount
 customnpcs.NpcDragon
 customnpcs.NpcSlime
+customnpcs.magicprojectile
 customnpcs.npcEnderman
 customnpcs.npcGolem
 customnpcs.npccrystal
@@ -1009,7 +1033,11 @@ nevermine.Angler
 nevermine.AnimaMaster
 nevermine.Apparition
 nevermine.AquaBall
+nevermine.ArcWizard
+nevermine.Arcbeast
+nevermine.Arcflower
 nevermine.Archvine
+nevermine.Arcworm
 nevermine.Ariel
 nevermine.Arkback
 nevermine.Arkzyne
@@ -1019,18 +1047,26 @@ nevermine.AtomizerBounce
 nevermine.AtomizerShot
 nevermine.AuguryMaster
 nevermine.Automaton
+nevermine.Axiolight
 nevermine.BalloonBomb
 nevermine.BamShot
 nevermine.Bane
 nevermine.BaneBig
 nevermine.BaneClone
 nevermine.Banshee
+nevermine.BaronBomb
+nevermine.Baroness
+nevermine.BaronessShot
 nevermine.Basilisk
 nevermine.Baumba
 nevermine.Beamer
 nevermine.BlastBomb
 nevermine.Blissard
 nevermine.BlissfulBlast
+nevermine.Blockat
+nevermine.Blockhead
+nevermine.Blocky
+nevermine.Bloger
 nevermine.BloodDrainShot
 nevermine.Bloodball
 nevermine.Bloodlust
@@ -1099,6 +1135,10 @@ nevermine.Coratee
 nevermine.Corby
 nevermine.Corny
 nevermine.CottonCandor
+nevermine.Craexxeus
+nevermine.CraexxeusBomb
+nevermine.CraexxeusNuke
+nevermine.CraexxeusShot
 nevermine.Craggy
 nevermine.CreationMaster
 nevermine.Creep
@@ -1128,6 +1168,7 @@ nevermine.Destructor
 nevermine.DestructorShot
 nevermine.Devourer
 nevermine.Dicer
+nevermine.DinosaurBreeder
 nevermine.Diocus
 nevermine.DischargeDamage
 nevermine.DischargeShell
@@ -1148,6 +1189,7 @@ nevermine.Echodar
 nevermine.Eeo
 nevermine.EeoRunning
 nevermine.Eilosapien
+nevermine.Elderon
 nevermine.ElementalArrow
 nevermine.Elkanyne
 nevermine.Elusive
@@ -1162,11 +1204,14 @@ nevermine.EradicatorShot
 nevermine.ErebonShot
 nevermine.ErebonStickler
 nevermine.Everbeast
+nevermine.Evercron
+nevermine.EvercronShot
 nevermine.Exohead
 nevermine.Exoid
 nevermine.ExpeditionMaster
 nevermine.Explodot
 nevermine.ExplosivesExpert
+nevermine.Eydock
 nevermine.EyeCreature
 nevermine.FacelessFloater
 nevermine.FacelessRunner
@@ -1184,6 +1229,8 @@ nevermine.Fishix
 nevermine.Flamewalker
 nevermine.Flash
 nevermine.FleshEater
+nevermine.Floatator
+nevermine.Floater
 nevermine.FloroPellet
 nevermine.FloroRPG
 nevermine.FlowerBall
@@ -1320,6 +1367,8 @@ nevermine.IdolPulsator
 nevermine.IdolPurplePunisher
 nevermine.IdolRosidianArchergun
 nevermine.IdolRoyalGreatblade
+nevermine.IdolSkyStaff
+nevermine.IdolSoulBone
 nevermine.IdolSoulfireBow
 nevermine.IdolSoundCannon
 nevermine.IdolSwarmotron
@@ -1366,6 +1415,7 @@ nevermine.LelyetianWarrior
 nevermine.LightBlaster
 nevermine.LightSlug
 nevermine.LightSpark
+nevermine.Lightwalker
 nevermine.Linger
 nevermine.LittleBam
 nevermine.LivingFungi
@@ -1392,11 +1442,13 @@ nevermine.LottomanMysterium
 nevermine.LottomanNether
 nevermine.LottomanPrecasia
 nevermine.LottomanRunandor
+nevermine.LottomanShyrelands
 nevermine.LottomanVoxPonds
 nevermine.LunaShot
 nevermine.LunarFall
 nevermine.Lunarcher
 nevermine.Lurker
+nevermine.Luxocron
 nevermine.LuxonShot
 nevermine.LuxonStickler
 nevermine.MagicBall
@@ -1405,6 +1457,9 @@ nevermine.MagicBallWither
 nevermine.MagicalCreeper
 nevermine.Magicke
 nevermine.MagickeShot
+nevermine.MechBot
+nevermine.MechFall
+nevermine.MechShot
 nevermine.MechaCyclops
 nevermine.MechaSkellox
 nevermine.Mechachron
@@ -1453,11 +1508,13 @@ nevermine.Nospike
 nevermine.Occulent
 nevermine.OdiousBeam
 nevermine.Okazor
+nevermine.Omnilight
 nevermine.Opteryx
 nevermine.Orbiter
 nevermine.Orbling
 nevermine.OrbocronShot
 nevermine.Paladin
+nevermine.ParalyzerShot
 nevermine.Parasect
 nevermine.Paravite
 nevermine.PenetrationBullet
@@ -1573,6 +1630,11 @@ nevermine.Shavo
 nevermine.Shell
 nevermine.Shifter
 nevermine.ShowerShot
+nevermine.ShyreArcher
+nevermine.ShyreBanker
+nevermine.ShyreKnight
+nevermine.ShyreShot
+nevermine.ShyreTroll
 nevermine.Silencer
 nevermine.Silverfoot
 nevermine.SkeleElder
@@ -1604,6 +1666,8 @@ nevermine.Snappy
 nevermine.SnowCharger
 nevermine.SoulAgent
 nevermine.SoulSparkShot
+nevermine.Soulscorne
+nevermine.Soulvyre
 nevermine.SoundCannon1
 nevermine.SoundCannon2
 nevermine.SoundCannon3
@@ -1635,8 +1699,11 @@ nevermine.StaffWind
 nevermine.StaffWither
 nevermine.Stalker
 nevermine.StalkerPrime
+nevermine.Stepper
 nevermine.Sticky
 nevermine.StickyBomb
+nevermine.Stimulo
+nevermine.Stimulosus
 nevermine.Stinger
 nevermine.Stitches
 nevermine.StoneGiant
@@ -1652,6 +1719,7 @@ nevermine.Surveyor
 nevermine.SurveyorShot
 nevermine.SwampCharger
 nevermine.SwarmShot
+nevermine.Sysker
 nevermine.TangleFall
 nevermine.Terradon
 nevermine.Terrestrial
@@ -1671,6 +1739,7 @@ nevermine.TricksterClone
 nevermine.Triclops
 nevermine.TrollTrader
 nevermine.Trotter
+nevermine.Tyrosaur
 nevermine.UndeadTroll
 nevermine.UnderworldBarrage
 nevermine.Urioh
@@ -1711,6 +1780,7 @@ nevermine.WitherPierce
 nevermine.WitherWizard
 nevermine.WoodGiant
 nevermine.WrathShot
+nevermine.Xxeus
 nevermine.YellowBullet
 nevermine.Yeti
 nevermine.ZalBanker

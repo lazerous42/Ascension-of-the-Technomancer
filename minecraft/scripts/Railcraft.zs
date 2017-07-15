@@ -7,6 +7,7 @@
 import mods.railcraft.RockCrusher;
 import mods.railcraft.Rolling;
 import mods.thaumcraft.Infusion;
+import mods.ic2.Compressor;
 
 print("Initializing 'Railcraft.zs'...");
 
@@ -33,6 +34,8 @@ val tubeTin = <Forestry:thermionicTubes:1>;
 val circuitBoardRefined = <Forestry:chipsets:2>;
 val circuitBoardIntricate = <Forestry:chipsets:3>;
 
+val itemCoalCoke = <Railcraft:fuel.coke>;
+val blockCoalCoke = <Railcraft:cube>;
 val bottleCreosote = <Railcraft:fluid.creosote.bottle>;
 val crushedObsidian = <Railcraft:cube:4>;
 val hobbyistSteamEngine = <Railcraft:machine.beta:7>;
@@ -51,6 +54,10 @@ val firestoneRefined = <Railcraft:firestone.refined:5000>;
 recipes.remove(<Railcraft:part.gear>);
 recipes.remove(<Railcraft:part.gear:1>);
 recipes.remove(<Railcraft:part.gear:2>);
+
+## Coal Coke Block
+recipes.remove(blockCoalCoke);
+Compressor.addRecipe(blockCoalCoke, itemCoalCoke * 9);
 
 ## Firestone Fix (Disabling Railcraft firestone oregen in favor of CoFH oregen causes recipes not to generate)
 RockCrusher.addRecipe(firestoneOre, false, false, [firestoneRaw], [1.0]);

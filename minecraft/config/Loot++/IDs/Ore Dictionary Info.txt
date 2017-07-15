@@ -5,6 +5,13 @@
 ##     <item id registered> - <item damage> ##
 ##     etc...                               ##
 ##############################################
+:slabWood
+aether:tile.skyrootSingleSlab - 0
+
+
+<ore:plankWood
+
+
 FC.Bass
 
 
@@ -71,10 +78,22 @@ FC.Tuna_StripCooked
 FC.Tuna_StripRaw
 
 
+ForciciumItem
+RotaryCraft:rotarycraft_item_modingots - 26
+
+
 LightGray
 
 
 MonazitOre
+
+
+RotaryCraft:dustBedrock
+RotaryCraft:rotarycraft_item_powders - 4
+
+
+RotaryCraft:ingotBedrock
+RotaryCraft:rotarycraft_item_compacts - 3
 
 
 aetherRecord
@@ -86,12 +105,20 @@ aether:silentFlightDisc - 0
 aether:recording892 - 0
 
 
+alumiteRod
+TConstruct:toolRod - 15
+
+
 antiBlock
 chisel:antiBlock - 0
 
 
 arcaneAsh
 arsmagica2:itemOre - 2
+
+
+arditeRod
+TConstruct:toolRod - 11
 
 
 arrowGtWoodDamascusSteel
@@ -206,20 +233,25 @@ blockAlmandine
 blockAluminium
 GalacticraftCore:tile.gcBlockCore - 11
 gregtech:gt.blockmetal1 - 1
+TConstruct:MetalBlock - 6
 
 
 blockAluminiumBrass
+TConstruct:MetalBlock - 7
 
 
 blockAluminum
 GalacticraftCore:tile.gcBlockCore - 11
 ImmersiveEngineering:storage - 1
+TConstruct:MetalBlock - 6
 
 
 blockAluminumBrass
+TConstruct:MetalBlock - 7
 
 
 blockAlumite
+TConstruct:MetalBlock - 8
 
 
 blockAlunite
@@ -236,6 +268,9 @@ gregtech:gt.blockmetal1 - 2
 
 blockAmethyst
 gregtech:gt.blockgem1 - 2
+
+
+blockAmmonium
 
 
 blockAmordrine
@@ -264,6 +299,7 @@ IC2:blockMetal - 2
 Forestry:resourceStorage - 3
 ThermalFoundation:Storage - 9
 gregtech:gt.blockmetal2 - 0
+TConstruct:MetalBlock - 4
 
 
 blockAnyCopper
@@ -274,8 +310,9 @@ Railcraft:cube - 9
 ThermalFoundation:Storage - 0
 gregtech:gt.blockmetal1 - 3
 gregtech:gt.blockmetal2 - 7
-Steamcraft:blockCopper - 0
 ImmersiveEngineering:storage - 0
+TConstruct:MetalBlock - 3
+Steamcraft:blockCopper - 0
 Magneticraft:block_copper - 0
 ProjRed|Exploration:projectred.exploration.stone - 8
 
@@ -292,6 +329,7 @@ Forestry:resourceStorage - 0
 
 
 blockArdite
+TConstruct:MetalBlock - 1
 
 
 blockArsenic
@@ -410,12 +448,14 @@ IC2:blockMetal - 2
 Forestry:resourceStorage - 3
 ThermalFoundation:Storage - 9
 gregtech:gt.blockmetal2 - 0
+TConstruct:MetalBlock - 4
 
 
 blockBrownLimonite
 
 
 blockCadmium
+aobd:blockCadmium - 0
 
 
 blockCaesium
@@ -593,6 +633,7 @@ ExtraUtilities:color_blockCoal - 11
 
 blockCobalt
 gregtech:gt.blockmetal2 - 5
+TConstruct:MetalBlock - 0
 
 
 blockCobaltBrass
@@ -636,8 +677,9 @@ GalacticraftCore:tile.gcBlockCore - 9
 Railcraft:cube - 9
 ThermalFoundation:Storage - 0
 gregtech:gt.blockmetal2 - 7
-Steamcraft:blockCopper - 0
 ImmersiveEngineering:storage - 0
+TConstruct:MetalBlock - 3
+Steamcraft:blockCopper - 0
 Magneticraft:block_copper - 0
 ProjRed|Exploration:projectred.exploration.stone - 8
 
@@ -702,6 +744,9 @@ chisel:diorite - 0
 blockDolomite
 
 
+blockDraconium
+
+
 blockDuranium
 gregtech:gt.blockmetal2 - 13
 
@@ -738,6 +783,7 @@ blockEmery
 
 
 blockEnder
+TConstruct:MetalBlock - 10
 
 
 blockEnderCore
@@ -762,6 +808,9 @@ gregtech:gt.blockmetal3 - 1
 
 
 blockEnderiumBase
+
+
+blockEndium
 
 
 blockEndstone
@@ -800,6 +849,9 @@ blockFluix
 
 blockFoolsRuby
 gregtech:gt.blockgem1 - 9
+
+
+blockForce
 
 
 blockForcicium
@@ -850,13 +902,15 @@ blockGlass
 minecraft:glass - 0
 minecraft:stained_glass - any
 MineFactoryReloaded:stainedglass.block - any
-EnderIO:blockFusedQuartz - 1
 ExtraUtilities:decorativeBlock2 - 0
 ExtraUtilities:decorativeBlock2 - 1
 ExtraUtilities:decorativeBlock2 - 2
 ExtraUtilities:decorativeBlock2 - 3
 ExtraUtilities:decorativeBlock2 - 6
 ExtraUtilities:decorativeBlock2 - 9
+TConstruct:GlassBlock - 0
+EnderIO:blockFusedQuartz - 1
+aether:quicksoilGlass - 0
 
 
 blockGlassBlack
@@ -897,6 +951,7 @@ blockGlassHardened
 EnderIO:blockFusedQuartz - 0
 ThermalExpansion:Glass - 0
 ThermalExpansion:Glass - 1
+RotaryCraft:rotarycraft_block_blastglass - 0
 
 
 blockGlassHardenedIlluminated
@@ -963,6 +1018,9 @@ blockGlauconite
 blockGlauconiteSand
 
 
+blockGlue
+
+
 blockGold
 minecraft:gold_block - 0
 
@@ -1000,6 +1058,10 @@ blockGunpowder
 
 
 blockGypsum
+
+
+blockHSLA
+gregtech:gt.blockmetal3 - 8
 
 
 blockHSSE
@@ -1471,6 +1533,7 @@ gregtech:gt.blockmetal4 - 6
 
 
 blockManyullyn
+TConstruct:MetalBlock - 2
 
 
 blockMarble
@@ -1519,6 +1582,9 @@ blockMigmatite
 
 
 blockMilk
+
+
+blockMimichite
 
 
 blockMirabilite
@@ -1597,6 +1663,9 @@ blockNickel
 ThermalFoundation:Storage - 4
 gregtech:gt.blockmetal5 - 4
 ImmersiveEngineering:storage - 4
+
+
+blockNikolite
 
 
 blockNiobium
@@ -1759,6 +1828,9 @@ blockPyrope
 blockPyrotheum
 
 
+blockQuantum
+
+
 blockQuartz
 minecraft:quartz_block - 0
 
@@ -1768,6 +1840,9 @@ blockQuartzSand
 
 blockQuartzite
 gregtech:gt.blockgem2 - 9
+
+
+blockQuicklime
 
 
 blockQuicksilver
@@ -1892,6 +1967,7 @@ gregtech:gt.blockmetal6 - 3
 
 
 blockRubber
+TConstruct:GlueBlock - 0
 
 
 blockRubracium
@@ -1904,6 +1980,7 @@ ProjRed|Exploration:projectred.exploration.stone - 5
 
 
 blockRutile
+aobd:blockRutile - 0
 
 
 blockSalt
@@ -2007,6 +2084,7 @@ IC2:blockMetal - 5
 Railcraft:cube - 2
 gregtech:gt.blockmetal6 - 13
 ImmersiveEngineering:storage - 7
+TConstruct:MetalBlock - 9
 
 
 blockSteelMagnetic
@@ -2058,6 +2136,9 @@ blockTartarite
 blockTerrasteel
 
 
+blockTeslatite
+
+
 blockTetrahedrite
 
 
@@ -2077,6 +2158,7 @@ GalacticraftCore:tile.gcBlockCore - 10
 Railcraft:cube - 10
 ThermalFoundation:Storage - 1
 gregtech:gt.blockmetal7 - 7
+TConstruct:MetalBlock - 5
 ProjRed|Exploration:projectred.exploration.stone - 9
 
 
@@ -2309,12 +2391,28 @@ Steamcraft:blockZinc - 0
 Magneticraft:block_zinc - 0
 
 
+blockmolten.bedrockiumingots
+
+
+blockmolten.unstableingots
+
+
+blueslimeRod
+TConstruct:toolRod - 17
+
+
 boltAdamantium
 gregtech:gt.metaitem.01 - 26319
 
 
 boltAluminium
 gregtech:gt.metaitem.01 - 26019
+
+
+boltAluminiumBrass
+
+
+boltAlumite
 
 
 boltAmber
@@ -2333,6 +2431,9 @@ boltAnyIron
 gregtech:gt.metaitem.01 - 26032
 gregtech:gt.metaitem.01 - 26304
 gregtech:gt.metaitem.01 - 26307
+
+
+boltArdite
 
 
 boltBeryllium
@@ -2479,6 +2580,10 @@ boltGreenSapphire
 gregtech:gt.metaitem.01 - 26504
 
 
+boltHSLA
+gregtech:gt.metaitem.01 - 26322
+
+
 boltHSSE
 gregtech:gt.metaitem.01 - 26373
 
@@ -2566,6 +2671,9 @@ boltManasteel
 
 boltManganese
 gregtech:gt.metaitem.01 - 26031
+
+
+boltManyullyn
 
 
 boltMeteoricIron
@@ -2826,6 +2934,10 @@ gregtech:gt.metaitem.01 - 26304
 bone
 
 
+boneRod
+TConstruct:toolRod - 5
+
+
 book
 
 
@@ -2839,6 +2951,10 @@ minecraft:enchanted_book - any
 
 bookThaumonomicon
 Thaumcraft:ItemThaumonomicon - any
+
+
+bookTinkersManual
+TConstruct:manualBook - any
 
 
 bookWritable
@@ -3064,6 +3180,10 @@ ExtraUtilities:colorStoneBrick - 11
 
 bronzeNugget
 MoarSigns:NuggetItems - 9
+
+
+bronzeRod
+TConstruct:toolRod - 14
 
 
 bucket
@@ -3899,6 +4019,10 @@ MineFactoryReloaded:cable.redstone - 3
 cableTin
 
 
+cactusRod
+TConstruct:toolRod - 4
+
+
 calclavia:ADVANCED_BATTERY
 gregtech:gt.metaitem.01 - 32517
 gregtech:gt.metaitem.01 - 32518
@@ -3959,6 +4083,9 @@ cellAlmandine
 cellAluminium
 
 
+cellAluminiumBrass
+
+
 cellAlunite
 
 
@@ -3969,6 +4096,9 @@ cellAmericium
 
 
 cellAmethyst
+
+
+cellAmmonium
 
 
 cellAndradite
@@ -3984,6 +4114,9 @@ cellApatite
 
 
 cellArdite
+
+
+cellAredrite
 
 
 cellArgon
@@ -4227,6 +4360,9 @@ gregtech:gt.metaitem.01 - 30515
 cellDolomite
 
 
+cellDraconium
+
+
 cellDuranium
 
 
@@ -4401,6 +4537,9 @@ cellGunpowder
 
 
 cellGypsum
+
+
+cellHSLA
 
 
 cellHSSE
@@ -4588,6 +4727,9 @@ cellMalachite
 cellManganese
 
 
+cellManyullyn
+
+
 cellMarble
 
 
@@ -4691,6 +4833,9 @@ cellNichrome
 
 
 cellNickel
+
+
+cellNikolite
 
 
 cellNiobium
@@ -5180,10 +5325,16 @@ cellPyrope
 cellPyrotheum
 
 
+cellQuantum
+
+
 cellQuartzSand
 
 
 cellQuartzite
+
+
+cellQuicklime
 
 
 cellRadon
@@ -5377,6 +5528,9 @@ cellTellurium
 
 
 cellTerbium
+
+
+cellTeslatite
 
 
 cellTetrahedrite
@@ -5597,6 +5751,10 @@ chunkBismuth
 Magneticraft:item.chunks - 17
 
 
+chunkCadmium
+aobd:chunkCadmium - 0
+
+
 chunkChrome
 aobd:chunkChrome - 0
 
@@ -5631,6 +5789,10 @@ Magneticraft:item.chunks - 1
 
 chunkHeeEndium
 aobd:chunkHeeEndium - 0
+
+
+chunkIndium
+aobd:chunkIndium - 0
 
 
 chunkInfusedGold
@@ -5707,6 +5869,10 @@ Magneticraft:item.chunks - 14
 
 chunkPlutonium
 aobd:chunkPlutonium - 0
+
+
+chunkRutile
+aobd:chunkRutile - 0
 
 
 chunkSilicon
@@ -6691,6 +6857,7 @@ clusterAquamarine
 
 
 clusterArdite
+aobd:clusterArdite - 0
 
 
 clusterAredrite
@@ -7122,10 +7289,16 @@ clusterBerryAdamantium
 clusterBerryAluminium
 
 
+clusterBerryAluminum
+
+
 clusterBerryAnyCopper
 
 
 clusterBerryAnyIron
+
+
+clusterBerryArdite
 
 
 clusterBerryBeryllium
@@ -7134,7 +7307,13 @@ clusterBerryBeryllium
 clusterBerryBismuth
 
 
+clusterBerryCadmium
+
+
 clusterBerryChrome
+
+
+clusterBerryCobalt
 
 
 clusterBerryCopper
@@ -7146,10 +7325,16 @@ clusterBerryDarkSteel
 clusterBerryDesh
 
 
+clusterBerryEssence
+
+
 clusterBerryGold
 
 
 clusterBerryHeeEndium
+
+
+clusterBerryIndium
 
 
 clusterBerryInfusedGold
@@ -7207,6 +7392,9 @@ clusterBerryPlatinum
 
 
 clusterBerryPlutonium
+
+
+clusterBerryRutile
 
 
 clusterBerrySilicon
@@ -7874,10 +8062,16 @@ clusterBushAdamantium
 clusterBushAluminium
 
 
+clusterBushAluminum
+
+
 clusterBushAnyCopper
 
 
 clusterBushAnyIron
+
+
+clusterBushArdite
 
 
 clusterBushBeryllium
@@ -7886,7 +8080,13 @@ clusterBushBeryllium
 clusterBushBismuth
 
 
+clusterBushCadmium
+
+
 clusterBushChrome
+
+
+clusterBushCobalt
 
 
 clusterBushCopper
@@ -7898,10 +8098,16 @@ clusterBushDarkSteel
 clusterBushDesh
 
 
+clusterBushEssence
+
+
 clusterBushGold
 
 
 clusterBushHeeEndium
+
+
+clusterBushIndium
 
 
 clusterBushInfusedGold
@@ -7961,6 +8167,9 @@ clusterBushPlatinum
 clusterBushPlutonium
 
 
+clusterBushRutile
+
+
 clusterBushSilicon
 
 
@@ -7992,6 +8201,7 @@ clusterBushZinc
 
 
 clusterCadmium
+aobd:clusterCadmium - 0
 
 
 clusterCaesium
@@ -8144,6 +8354,7 @@ clusterCoalFuel
 
 
 clusterCobalt
+aobd:clusterCobalt - 0
 
 
 clusterCobaltBrass
@@ -11092,6 +11303,7 @@ clusterImpureZinc
 
 
 clusterIndium
+aobd:clusterIndium - 0
 
 
 clusterIndiumGalliumPhosphide
@@ -11730,6 +11942,12 @@ clusterMithril
 aobd:clusterMithril - 0
 
 
+clusterMolten.bedrockiumingots
+
+
+clusterMolten.unstableingots
+
+
 clusterMolybdenite
 
 
@@ -11795,6 +12013,12 @@ clusterNetherAluminium
 clusterNetherAluminum
 
 
+clusterNetherAluminumBrass
+
+
+clusterNetherAlumite
+
+
 clusterNetherAmber
 
 
@@ -11810,7 +12034,13 @@ clusterNetherAnyIron
 clusterNetherApatite
 
 
+clusterNetherArdite
+
+
 clusterNetherBrick
+
+
+clusterNetherBronze
 
 
 clusterNetherCertusQuartz
@@ -11822,13 +12052,22 @@ clusterNetherCinnabar
 clusterNetherCoal
 
 
+clusterNetherCobalt
+
+
 clusterNetherCopper
 
 
 clusterNetherDiamond
 
 
+clusterNetherElectrum
+
+
 clusterNetherEmerald
+
+
+clusterNetherEnderium
 
 
 clusterNetherEssence
@@ -11843,10 +12082,16 @@ clusterNetherFzDarkIron
 clusterNetherGalena
 
 
+clusterNetherGlue
+
+
 clusterNetherGold
 
 
 clusterNetherGreenSapphire
+
+
+clusterNetherInvar
 
 
 clusterNetherIridium
@@ -11861,10 +12106,16 @@ clusterNetherLapis
 clusterNetherLead
 
 
+clusterNetherLumium
+
+
 clusterNetherMagnesium
 
 
 clusterNetherMalachite
+
+
+clusterNetherManyullyn
 
 
 clusterNetherMithril
@@ -11879,10 +12130,16 @@ clusterNetherNickel
 clusterNetherNikolite
 
 
+clusterNetherObsidian
+
+
 clusterNetherOsmium
 
 
 clusterNetherPeridot
+
+
+clusterNetherPigIron
 
 
 clusterNetherPlatinum
@@ -11907,6 +12164,9 @@ clusterNetherSaltpeter
 
 
 clusterNetherSapphire
+
+
+clusterNetherSignalum
 
 
 clusterNetherSilicon
@@ -11946,6 +12206,12 @@ clusterNetherUranium
 
 
 clusterNetherYellorite
+
+
+clusterNethermolten.bedrockiumingots
+
+
+clusterNethermolten.unstableingots
 
 
 clusterNetheroreDark
@@ -12691,19 +12957,91 @@ clusterPolycaprolactam
 clusterPolytetrafluoroethylene
 
 
+clusterPoorAluminum
+
+
+clusterPoorAluminumBrass
+
+
+clusterPoorAlumite
+
+
+clusterPoorArdite
+
+
+clusterPoorBronze
+
+
+clusterPoorCobalt
+
+
 clusterPoorCopper
+
+
+clusterPoorElectrum
+
+
+clusterPoorEnderium
+
+
+clusterPoorGlue
 
 
 clusterPoorGold
 
 
+clusterPoorInvar
+
+
 clusterPoorIron
+
+
+clusterPoorLead
+
+
+clusterPoorLumium
+
+
+clusterPoorManyullyn
+
+
+clusterPoorMithril
+
+
+clusterPoorNaturalAluminum
+
+
+clusterPoorNickel
+
+
+clusterPoorObsidian
+
+
+clusterPoorPigIron
+
+
+clusterPoorPlatinum
+
+
+clusterPoorSignalum
+
+
+clusterPoorSilver
+
+
+clusterPoorSteel
 
 
 clusterPoorTin
 
 
 clusterPoorZinc
+
+
+clusterPoormolten.bedrockiumingots
+
+
+clusterPoormolten.unstableingots
 
 
 clusterPotash
@@ -15131,6 +15469,7 @@ clusterRuby
 
 
 clusterRutile
+aobd:clusterRutile - 0
 
 
 clusterRyu
@@ -19116,6 +19455,14 @@ coal
 minecraft:coal - 0
 
 
+coalCoke
+RotaryCraft:rotarycraft_item_compacts - 8
+
+
+cobaltRod
+TConstruct:toolRod - 10
+
+
 cobblestone
 minecraft:cobblestone - 0
 minecraft:mossy_cobblestone - any
@@ -19137,6 +19484,7 @@ ExtraUtilities:color_stonebrick - 12
 ExtraUtilities:color_stonebrick - 13
 ExtraUtilities:color_stonebrick - 14
 ExtraUtilities:color_stonebrick - 15
+aether:holystone - 3
 
 
 cobblestoneBlack
@@ -19201,6 +19549,10 @@ ExtraUtilities:color_stonebrick - 15
 
 cobblestoneYellow
 ExtraUtilities:color_stonebrick - 11
+
+
+coke
+RotaryCraft:rotarycraft_item_compacts - 8
 
 
 comparator
@@ -19517,6 +19869,9 @@ ExtraUtilities:cobblestone_compressed - 13
 compressedGreenSapphire
 
 
+compressedHSLA
+
+
 compressedHSSE
 
 
@@ -19813,8 +20168,37 @@ ImmersiveEngineering:stoneDecoration - 4
 ImmersiveEngineering:stoneDecoration - 5
 
 
+container_oil
+Magneticraft:item.bucket_oil - 0
+Forestry:waxCapsuleOil - 0
+MagicBees:capsule.magic - 5
+Forestry:canOil - 0
+BuildCraft|Energy:bucketOil - 0
+GalacticraftCore:item.bucketOil - 0
+GalacticraftCore:item.oilCanisterPartial - 1
+MagicBees:capsule.void - 5
+gregtech:gt.metaitem.01 - 30707
+Forestry:refractoryOil - 0
+
+
+container_water
+MagicBees:capsule.magic - 1
+IC2:itemCellEmpty - 1
+Forestry:refractoryWater - 0
+aether:skyrootWaterBucket - 0
+minecraft:water_bucket - 0
+Forestry:canWater - 0
+Forestry:waxCapsuleWater - 0
+MagicBees:capsule.void - 1
+minecraft:potion - 0
+
+
 copperNugget
 MoarSigns:NuggetItems - 10
+
+
+copperRod
+TConstruct:toolRod - 13
 
 
 crafterWood
@@ -19831,6 +20215,7 @@ Natura:Natura.workbench - 9
 Natura:Natura.workbench - 10
 Natura:Natura.workbench - 11
 Natura:Natura.workbench - 12
+minecraft:crafting_table - 0
 
 
 craftingAnvil
@@ -19851,6 +20236,7 @@ OpenComputers:item - 98
 craftingChest
 minecraft:chest - any
 minecraft:trapped_chest - any
+aether:skyrootChest - 0
 
 
 craftingCompressor
@@ -19890,6 +20276,7 @@ gregtech:gt.metaitem.01 - 32729
 craftingFurnace
 minecraft:furnace - any
 minecraft:lit_furnace - any
+aether:holystoneFurnace - 3
 
 
 craftingGenerator
@@ -19998,6 +20385,7 @@ appliedenergistics2:item.ItemMultiMaterial - 11
 gregtech:gt.metaitem.01 - 8516
 gregtech:gt.metaitem.01 - 8523
 appliedenergistics2:item.ItemMultiMaterial - 7
+RotaryCraft:rotarycraft_item_modingots - 9
 
 
 craftingRecycler
@@ -20027,6 +20415,7 @@ Natura:Natura.workbench - 9
 Natura:Natura.workbench - 10
 Natura:Natura.workbench - 11
 Natura:Natura.workbench - 12
+aether:skyrootCraftingTable - 0
 
 
 craftingTank
@@ -20181,6 +20570,7 @@ gregtech:gt.blockmachines - 1246
 craftingWorkBench
 minecraft:crafting_table - 0
 BuildCraft|Factory:autoWorkbenchBlock - 0
+aether:skyrootCraftingTable - 0
 
 
 crateGtDustChrome
@@ -20911,6 +21301,7 @@ harvestcraft:sesameseedsItem - 0
 
 
 cropSesameseed
+harvestcraft:sesameseedsItem - 0
 
 
 cropShimmerleaf
@@ -21116,6 +21507,9 @@ crushedAmethyst
 gregtech:gt.metaitem.01 - 5509
 
 
+crushedAmmonium
+
+
 crushedAnnealedCopper
 
 
@@ -21134,6 +21528,7 @@ gregtech:gt.metaitem.01 - 5530
 
 
 crushedArdite
+aobd:crushedArdite - 0
 
 
 crushedBandedIron
@@ -21175,6 +21570,10 @@ crushedBrownLimonite
 gregtech:gt.metaitem.01 - 5930
 
 
+crushedCadmium
+aobd:crushedCadmium - 0
+
+
 crushedCaesium
 
 
@@ -21204,6 +21603,9 @@ crushedCentrifugedAluminium
 gregtech:gt.metaitem.01 - 7019
 
 
+crushedCentrifugedAluminiumBrass
+
+
 crushedCentrifugedAlunite
 
 
@@ -21216,6 +21618,9 @@ crushedCentrifugedAmericium
 
 crushedCentrifugedAmethyst
 gregtech:gt.metaitem.01 - 7509
+
+
+crushedCentrifugedAmmonium
 
 
 crushedCentrifugedAndradite
@@ -21474,6 +21879,9 @@ crushedCentrifugedDilithium
 crushedCentrifugedDolomite
 
 
+crushedCentrifugedDraconium
+
+
 crushedCentrifugedDuranium
 
 
@@ -21610,6 +22018,9 @@ crushedCentrifugedGunpowder
 
 
 crushedCentrifugedGypsum
+
+
+crushedCentrifugedHSLA
 
 
 crushedCentrifugedHSSE
@@ -21758,6 +22169,9 @@ crushedCentrifugedManganese
 gregtech:gt.metaitem.01 - 7031
 
 
+crushedCentrifugedManyullyn
+
+
 crushedCentrifugedMarble
 
 
@@ -21844,6 +22258,9 @@ crushedCentrifugedNichrome
 
 crushedCentrifugedNickel
 gregtech:gt.metaitem.01 - 7034
+
+
+crushedCentrifugedNikolite
 
 
 crushedCentrifugedNiobium
@@ -21969,11 +22386,17 @@ gregtech:gt.metaitem.01 - 7835
 crushedCentrifugedPyrotheum
 
 
+crushedCentrifugedQuantum
+
+
 crushedCentrifugedQuartzSand
 
 
 crushedCentrifugedQuartzite
 gregtech:gt.metaitem.01 - 7523
+
+
+crushedCentrifugedQuicklime
 
 
 crushedCentrifugedRareEarth
@@ -22121,6 +22544,9 @@ crushedCentrifugedTantalum
 
 crushedCentrifugedTanzanite
 gregtech:gt.metaitem.01 - 7508
+
+
+crushedCentrifugedTeslatite
 
 
 crushedCentrifugedTetrahedrite
@@ -22275,6 +22701,7 @@ gregtech:gt.metaitem.01 - 5535
 
 
 crushedCobalt
+aobd:crushedCobalt - 0
 
 
 crushedCobaltite
@@ -22321,6 +22748,9 @@ gregtech:gt.metaitem.01 - 5347
 
 
 crushedFlint
+
+
+crushedFluorite
 
 
 crushedFoolsRuby
@@ -22376,6 +22806,10 @@ aobd:crushedHeeEndium - 0
 
 crushedIlmenite
 gregtech:gt.metaitem.01 - 5918
+
+
+crushedIndium
+aobd:crushedIndium - 0
 
 
 crushedInfusedAir
@@ -22596,6 +23030,9 @@ crushedPurifiedAmethyst
 gregtech:gt.metaitem.01 - 6509
 
 
+crushedPurifiedAmmonium
+
+
 crushedPurifiedAnnealedCopper
 
 
@@ -22614,6 +23051,7 @@ gregtech:gt.metaitem.01 - 6530
 
 
 crushedPurifiedArdite
+aobd:crushedPurifiedArdite - 0
 
 
 crushedPurifiedBandedIron
@@ -22650,6 +23088,10 @@ gregtech:gt.metaitem.01 - 6513
 
 crushedPurifiedBrownLimonite
 gregtech:gt.metaitem.01 - 6930
+
+
+crushedPurifiedCadmium
+aobd:crushedPurifiedCadmium - 0
 
 
 crushedPurifiedCalcite
@@ -22695,6 +23137,7 @@ gregtech:gt.metaitem.01 - 6535
 
 
 crushedPurifiedCobalt
+aobd:crushedPurifiedCobalt - 0
 
 
 crushedPurifiedCobaltite
@@ -22732,6 +23175,9 @@ gregtech:gt.metaitem.01 - 6501
 
 crushedPurifiedFirestone
 gregtech:gt.metaitem.01 - 6347
+
+
+crushedPurifiedFluorite
 
 
 crushedPurifiedFoolsRuby
@@ -22781,6 +23227,10 @@ aobd:crushedPurifiedHeeEndium - 0
 
 crushedPurifiedIlmenite
 gregtech:gt.metaitem.01 - 6918
+
+
+crushedPurifiedIndium
+aobd:crushedPurifiedIndium - 0
 
 
 crushedPurifiedInfusedAir
@@ -23001,6 +23451,7 @@ gregtech:gt.metaitem.01 - 6502
 
 
 crushedPurifiedRutile
+aobd:crushedPurifiedRutile - 0
 
 
 crushedPurifiedSalt
@@ -23177,6 +23628,7 @@ gregtech:gt.metaitem.01 - 5502
 
 
 crushedRutile
+aobd:crushedRutile - 0
 
 
 crushedSalt
@@ -23339,6 +23791,9 @@ crystalAlmandine
 crystalAluminium
 
 
+crystalAluminiumBrass
+
+
 crystalAlunite
 
 
@@ -23349,6 +23804,9 @@ crystalAmericium
 
 
 crystalAmethyst
+
+
+crystalAmmonium
 
 
 crystalAndradite
@@ -23476,6 +23934,7 @@ crystalCerium
 
 crystalCertusQuartz
 gregtech:gt.metaitem.01 - 8516
+RotaryCraft:rotarycraft_item_modingots - 9
 
 
 crystalChalcopyrite
@@ -23570,6 +24029,9 @@ crystalDilithium
 
 
 crystalDolomite
+
+
+crystalDraconium
 
 
 crystalDuranium
@@ -23699,6 +24161,9 @@ crystalGunpowder
 crystalGypsum
 
 
+crystalHSLA
+
+
 crystalHSSE
 
 
@@ -23825,6 +24290,9 @@ crystalMalachite
 crystalManganese
 
 
+crystalManyullyn
+
+
 crystalMarble
 
 
@@ -23902,6 +24370,9 @@ crystalNichrome
 
 
 crystalNickel
+
+
+crystalNikolite
 
 
 crystalNiobium
@@ -24020,6 +24491,9 @@ crystalPyrope
 crystalPyrotheum
 
 
+crystalQuantum
+
+
 crystalQuartz
 minecraft:quartz - 0
 
@@ -24029,6 +24503,9 @@ crystalQuartzSand
 
 crystalQuartzite
 gregtech:gt.metaitem.01 - 8523
+
+
+crystalQuicklime
 
 
 crystalRareEarth
@@ -24161,6 +24638,9 @@ crystalTantalum
 crystalTanzanite
 
 
+crystalTeslatite
+
+
 crystalTetrahedrite
 
 
@@ -24278,6 +24758,18 @@ crystallineAlmandine
 crystallineAluminium
 
 
+crystallineAluminiumBrass
+
+
+crystallineAluminum
+
+
+crystallineAluminumBrass
+
+
+crystallineAlumite
+
+
 crystallineAlunite
 
 
@@ -24288,6 +24780,9 @@ crystallineAmericium
 
 
 crystallineAmethyst
+
+
+crystallineAmmonium
 
 
 crystallineAndradite
@@ -24509,6 +25004,9 @@ crystallineDilithium
 crystallineDolomite
 
 
+crystallineDraconium
+
+
 crystallineDuranium
 
 
@@ -24602,6 +25100,9 @@ crystallineGlauconiteSand
 crystallineGlowstone
 
 
+crystallineGlue
+
+
 crystallineGold
 
 
@@ -24633,6 +25134,9 @@ crystallineGunpowder
 
 
 crystallineGypsum
+
+
+crystallineHSLA
 
 
 crystallineHSSE
@@ -24761,6 +25265,9 @@ crystallineMalachite
 crystallineManganese
 
 
+crystallineManyullyn
+
+
 crystallineMarble
 
 
@@ -24812,6 +25319,9 @@ crystallineNaquadahEnriched
 crystallineNaquadria
 
 
+crystallineNaturalAluminum
+
+
 crystallineNeodymium
 
 
@@ -24837,6 +25347,9 @@ crystallineNichrome
 
 
 crystallineNickel
+
+
+crystallineNikolite
 
 
 crystallineNiobium
@@ -24947,10 +25460,16 @@ crystallinePyrope
 crystallinePyrotheum
 
 
+crystallineQuantum
+
+
 crystallineQuartzSand
 
 
 crystallineQuartzite
+
+
+crystallineQuicklime
 
 
 crystallineRareEarth
@@ -25085,6 +25604,9 @@ crystallineTanzanite
 crystallineTennantite
 
 
+crystallineTeslatite
+
+
 crystallineTetrahedrite
 
 
@@ -25190,10 +25712,28 @@ crystallineZeolite
 crystallineZinc
 
 
+crystallinemolten.bedrockiumingots
+
+
+crystallinemolten.unstableingots
+
+
 daylightDetector
 
 
+denseoreAluminum
+
+
+denseoreAluminumBrass
+
+
+denseoreAlumite
+
+
 denseoreArdite
+
+
+denseoreBronze
 
 
 denseoreCoal
@@ -25208,10 +25748,22 @@ denseoreCopper
 denseoreDiamond
 
 
+denseoreElectrum
+
+
 denseoreEmerald
 
 
+denseoreEnderium
+
+
+denseoreGlue
+
+
 denseoreGold
+
+
+denseoreInvar
 
 
 denseoreIron
@@ -25223,10 +25775,22 @@ denseoreLapis
 denseoreLead
 
 
+denseoreLumium
+
+
+denseoreManyullyn
+
+
 denseoreMithril
 
 
+denseoreNaturalAluminum
+
+
 denseoreNickel
+
+
+denseorePigIron
 
 
 denseorePlatinum
@@ -25238,10 +25802,22 @@ denseoreQuartz
 denseoreRedstone
 
 
+denseoreSignalum
+
+
 denseoreSilver
 
 
+denseoreSteel
+
+
 denseoreTin
+
+
+denseoremolten.bedrockiumingots
+
+
+denseoremolten.unstableingots
 
 
 diamondNugget
@@ -25722,6 +26298,10 @@ Forestry:honeydew - 0
 dropIridium
 
 
+dropMagma
+RotaryCraft:rotarycraft_item_modingots - 64
+
+
 dropRoyalJelly
 Forestry:royalJelly - 0
 
@@ -25768,18 +26348,24 @@ gregtech:gt.metaitem.01 - 2820
 
 dustAluminium
 gregtech:gt.metaitem.01 - 2019
+TConstruct:materials - 40
 Magneticraft:item.dust - 13
 
 
 dustAluminiumBrass
+TConstruct:materials - 42
 
 
 dustAluminum
 ImmersiveEngineering:metal - 11
+TConstruct:materials - 40
+RotaryCraft:rotarycraft_item_powders - 8
+RotaryCraft:rotarycraft_item_modingots - 6
 Steamcraft:smashedOre - 8
 
 
 dustAluminumBrass
+TConstruct:materials - 42
 
 
 dustAlumite
@@ -25802,6 +26388,8 @@ gregtech:gt.metaitem.01 - 2509
 
 
 dustAmmonium
+ReactorCraft:reactorcraft_item_raw - 3
+RotaryCraft:rotarycraft_item_modingots - 56
 
 
 dustAmordrine
@@ -25839,8 +26427,8 @@ IC2:itemDust - 3
 ThermalFoundation:material - 32
 gregtech:gt.metaitem.01 - 2035
 gregtech:gt.metaitem.01 - 2345
-EnderIO:itemPowderIngot - 3
 ImmersiveEngineering:metal - 10
+EnderIO:itemPowderIngot - 3
 Magneticraft:item.dust - 2
 Steamcraft:smashedOre - 2
 
@@ -25868,6 +26456,7 @@ dustAquamarine
 
 
 dustArdite
+TConstruct:materials - 38
 Magneticraft:item.dust - 10
 Steamcraft:smashedOre - 11
 
@@ -26304,6 +26893,7 @@ gregtech:gt.metaitem.01 - 2315
 
 dustBauxite
 gregtech:gt.metaitem.01 - 2822
+RotaryCraft:rotarycraft_item_modingots - 53
 
 
 dustBentonite
@@ -26316,10 +26906,16 @@ dustBerryAdamantium
 dustBerryAluminium
 
 
+dustBerryAluminum
+
+
 dustBerryAnyCopper
 
 
 dustBerryAnyIron
+
+
+dustBerryArdite
 
 
 dustBerryBeryllium
@@ -26328,7 +26924,13 @@ dustBerryBeryllium
 dustBerryBismuth
 
 
+dustBerryCadmium
+
+
 dustBerryChrome
+
+
+dustBerryCobalt
 
 
 dustBerryCopper
@@ -26340,10 +26942,16 @@ dustBerryDarkSteel
 dustBerryDesh
 
 
+dustBerryEssence
+
+
 dustBerryGold
 
 
 dustBerryHeeEndium
+
+
+dustBerryIndium
 
 
 dustBerryInfusedGold
@@ -26401,6 +27009,9 @@ dustBerryPlatinum
 
 
 dustBerryPlutonium
+
+
+dustBerryRutile
 
 
 dustBerrySilicon
@@ -27089,10 +27700,16 @@ dustBushAdamantium
 dustBushAluminium
 
 
+dustBushAluminum
+
+
 dustBushAnyCopper
 
 
 dustBushAnyIron
+
+
+dustBushArdite
 
 
 dustBushBeryllium
@@ -27101,7 +27718,13 @@ dustBushBeryllium
 dustBushBismuth
 
 
+dustBushCadmium
+
+
 dustBushChrome
+
+
+dustBushCobalt
 
 
 dustBushCopper
@@ -27113,10 +27736,16 @@ dustBushDarkSteel
 dustBushDesh
 
 
+dustBushEssence
+
+
 dustBushGold
 
 
 dustBushHeeEndium
+
+
+dustBushIndium
 
 
 dustBushInfusedGold
@@ -27174,6 +27803,9 @@ dustBushPlatinum
 
 
 dustBushPlutonium
+
+
+dustBushRutile
 
 
 dustBushSilicon
@@ -27379,6 +28011,7 @@ IC2:itemDust - 2
 ThermalFoundation:material - 2
 gregtech:gt.metaitem.01 - 2535
 EnderIO:itemPowderIngot - 0
+RotaryCraft:rotarycraft_item_powders - 10
 
 
 dustCoalFuel
@@ -27386,6 +28019,7 @@ dustCoalFuel
 
 dustCobalt
 gregtech:gt.metaitem.01 - 2033
+TConstruct:materials - 39
 Magneticraft:item.dust - 11
 Steamcraft:smashedOre - 10
 
@@ -27440,8 +28074,8 @@ dustCopper
 IC2:itemDust - 3
 ThermalFoundation:material - 32
 gregtech:gt.metaitem.01 - 2035
-EnderIO:itemPowderIngot - 3
 ImmersiveEngineering:metal - 10
+EnderIO:itemPowderIngot - 3
 Magneticraft:item.dust - 2
 Steamcraft:smashedOre - 2
 
@@ -27584,6 +28218,7 @@ gregtech:gt.metaitem.01 - 2948
 
 dustDilithium
 gregtech:gt.metaitem.01 - 2515
+RotaryCraft:rotarycraft_item_modingots - 87
 
 
 dustDolomite
@@ -27594,6 +28229,7 @@ dustDraconic
 
 
 dustDraconium
+RotaryCraft:rotarycraft_item_modingots - 85
 
 
 dustDraconiumAwakened
@@ -27617,6 +28253,7 @@ dustElectricalSteel
 
 dustElectrotine
 ProjRed|Core:projectred.core.part - 56
+RotaryCraft:rotarycraft_item_modingots - 22
 
 
 dustElectrum
@@ -28479,6 +29116,7 @@ dustGadolinium
 dustGalena
 gregtech:gt.metaitem.01 - 2830
 Magneticraft:item.dust - 23
+RotaryCraft:rotarycraft_item_modingots - 5
 
 
 dustGallium
@@ -28600,6 +29238,7 @@ ImmersiveEngineering:metal - 19
 
 
 dustHSLA
+gregtech:gt.metaitem.01 - 2322
 
 
 dustHSSE
@@ -30813,6 +31452,7 @@ Magneticraft:item.dust - 22
 
 
 dustManyullyn
+TConstruct:materials - 41
 
 
 dustMarble
@@ -31253,6 +31893,12 @@ gregtech:gt.metaitem.01 - 2331
 Magneticraft:item.dust - 19
 
 
+dustMolten.bedrockiumingots
+
+
+dustMolten.unstableingots
+
+
 dustMolybdenite
 gregtech:gt.metaitem.01 - 2942
 
@@ -31322,6 +31968,12 @@ dustNetherAluminium
 dustNetherAluminum
 
 
+dustNetherAluminumBrass
+
+
+dustNetherAlumite
+
+
 dustNetherAmber
 
 
@@ -31337,8 +31989,14 @@ dustNetherAnyIron
 dustNetherApatite
 
 
+dustNetherArdite
+
+
 dustNetherBrick
 gregtech:gt.metaitem.01 - 2814
+
+
+dustNetherBronze
 
 
 dustNetherCertusQuartz
@@ -31350,13 +32008,22 @@ dustNetherCinnabar
 dustNetherCoal
 
 
+dustNetherCobalt
+
+
 dustNetherCopper
 
 
 dustNetherDiamond
 
 
+dustNetherElectrum
+
+
 dustNetherEmerald
+
+
+dustNetherEnderium
 
 
 dustNetherEssence
@@ -31371,10 +32038,16 @@ dustNetherFzDarkIron
 dustNetherGalena
 
 
+dustNetherGlue
+
+
 dustNetherGold
 
 
 dustNetherGreenSapphire
+
+
+dustNetherInvar
 
 
 dustNetherIridium
@@ -31389,10 +32062,16 @@ dustNetherLapis
 dustNetherLead
 
 
+dustNetherLumium
+
+
 dustNetherMagnesium
 
 
 dustNetherMalachite
+
+
+dustNetherManyullyn
 
 
 dustNetherMithril
@@ -31407,10 +32086,16 @@ dustNetherNickel
 dustNetherNikolite
 
 
+dustNetherObsidian
+
+
 dustNetherOsmium
 
 
 dustNetherPeridot
+
+
+dustNetherPigIron
 
 
 dustNetherPlatinum
@@ -31436,6 +32121,9 @@ dustNetherSaltpeter
 
 
 dustNetherSapphire
+
+
+dustNetherSignalum
 
 
 dustNetherSilicon
@@ -31476,6 +32164,12 @@ dustNetherUranium
 
 
 dustNetherYellorite
+
+
+dustNethermolten.bedrockiumingots
+
+
+dustNethermolten.unstableingots
 
 
 dustNetheroreDark
@@ -32048,6 +32742,7 @@ Steamcraft:smashedOre - 5
 
 
 dustNikolite
+RotaryCraft:rotarycraft_item_modingots - 40
 
 
 dustNiobium
@@ -32262,19 +32957,91 @@ dustPolytetrafluoroethylene
 gregtech:gt.metaitem.01 - 2473
 
 
+dustPoorAluminum
+
+
+dustPoorAluminumBrass
+
+
+dustPoorAlumite
+
+
+dustPoorArdite
+
+
+dustPoorBronze
+
+
+dustPoorCobalt
+
+
 dustPoorCopper
+
+
+dustPoorElectrum
+
+
+dustPoorEnderium
+
+
+dustPoorGlue
 
 
 dustPoorGold
 
 
+dustPoorInvar
+
+
 dustPoorIron
+
+
+dustPoorLead
+
+
+dustPoorLumium
+
+
+dustPoorManyullyn
+
+
+dustPoorMithril
+
+
+dustPoorNaturalAluminum
+
+
+dustPoorNickel
+
+
+dustPoorObsidian
+
+
+dustPoorPigIron
+
+
+dustPoorPlatinum
+
+
+dustPoorSignalum
+
+
+dustPoorSilver
+
+
+dustPoorSteel
 
 
 dustPoorTin
 
 
 dustPoorZinc
+
+
+dustPoormolten.bedrockiumingots
+
+
+dustPoormolten.unstableingots
 
 
 dustPotash
@@ -34189,6 +34956,7 @@ dustPurpleAlloy
 
 dustPyrite
 gregtech:gt.metaitem.01 - 2834
+RotaryCraft:rotarycraft_item_modingots - 55
 
 
 dustPyrolusite
@@ -34205,6 +34973,7 @@ gregtech:gt.metaitem.01 - 2843
 
 
 dustQuantum
+RotaryCraft:rotarycraft_item_modingots - 69
 
 
 dustQuartz
@@ -34221,6 +34990,7 @@ gregtech:gt.metaitem.01 - 2523
 
 
 dustQuicklime
+ReactorCraft:reactorcraft_item_raw - 4
 
 
 dustQuicksilver
@@ -34807,6 +35577,7 @@ gregtech:gt.metaitem.01 - 2846
 
 dustRedstone
 minecraft:redstone - 0
+RotaryCraft:rotarycraft_item_modingots - 31
 
 
 dustRedstoneAlloy
@@ -34857,6 +35628,7 @@ dustSalt
 harvestcraft:saltItem - 0
 gregtech:gt.metaitem.01 - 2817
 Magneticraft:item.dustSalt - 0
+RotaryCraft:rotarycraft_item_powders - 5
 
 
 dustSaltWater
@@ -34866,6 +35638,8 @@ dustSaltpeter
 Railcraft:dust - 2
 ThermalFoundation:material - 17
 gregtech:gt.metaitem.01 - 2836
+RotaryCraft:rotarycraft_item_modingots - 20
+RotaryCraft:rotarycraft_item_modingots - 83
 
 
 dustSamarium
@@ -35787,6 +36561,7 @@ gregtech:gt.metaitem.01 - 1934
 
 
 dustSmallHSLA
+gregtech:gt.metaitem.01 - 1322
 
 
 dustSmallHSSE
@@ -37133,6 +37908,8 @@ Railcraft:dust - 1
 ThermalFoundation:material - 16
 gregtech:gt.metaitem.01 - 2022
 Magneticraft:item.dustSulfur - 0
+RotaryCraft:rotarycraft_item_modingots - 48
+RotaryCraft:rotarycraft_item_modingots - 76
 
 
 dustSulfuricAcid
@@ -37206,6 +37983,7 @@ dustTerrasteel
 
 
 dustTeslatite
+RotaryCraft:rotarycraft_item_modingots - 81
 
 
 dustTetrahedrite
@@ -37225,6 +38003,8 @@ dustThorite
 dustThorium
 gregtech:gt.metaitem.01 - 2096
 Magneticraft:item.dust - 8
+ReactorCraft:reactorcraft_item_raw - 7
+RotaryCraft:rotarycraft_item_modingots - 84
 
 
 dustThulium
@@ -37360,6 +38140,7 @@ dustTinyAquamarine
 
 
 dustTinyArdite
+aobd:dustTinyArdite - 0
 
 
 dustTinyAredrite
@@ -38101,6 +38882,7 @@ gregtech:gt.metaitem.01 - 934
 
 
 dustTinyHSLA
+gregtech:gt.metaitem.01 - 322
 
 
 dustTinyHSSE
@@ -39391,6 +40173,7 @@ gregtech:gt.metaitem.01 - 2841
 dustTungsten
 gregtech:gt.metaitem.01 - 2081
 Magneticraft:item.dust - 4
+RotaryCraft:rotarycraft_item_modingots - 21
 
 
 dustTungstenCarbide
@@ -39465,6 +40248,7 @@ dustVibrantAlloy
 
 dustVinteum
 arsmagica2:itemOre - 0
+RotaryCraft:rotarycraft_item_modingots - 59
 
 
 dustVis
@@ -39506,6 +40290,7 @@ Forestry:woodPulp - 0
 gregtech:gt.metaitem.01 - 2809
 ExtraTrees:misc - 1
 ThermalExpansion:material - 512
+RotaryCraft:rotarycraft_item_powders - 3
 
 
 dustWoodSealed
@@ -39557,13 +40342,22 @@ Steamcraft:smashedOre - 3
 dustberryAluminium
 
 
+dustberryAluminum
+
+
 dustberryBeryllium
 
 
 dustberryBismuth
 
 
+dustberryCadmium
+
+
 dustberryChrome
+
+
+dustberryCobalt
 
 
 dustberryCopper
@@ -39572,10 +40366,16 @@ dustberryCopper
 dustberryDarkSteel
 
 
+dustberryEssence
+
+
 dustberryGold
 
 
 dustberryHeeEndium
+
+
+dustberryIndium
 
 
 dustberryIron
@@ -39650,13 +40450,22 @@ dustberryZinc
 dustbushAluminium
 
 
+dustbushAluminum
+
+
 dustbushBeryllium
 
 
 dustbushBismuth
 
 
+dustbushCadmium
+
+
 dustbushChrome
+
+
+dustbushCobalt
 
 
 dustbushCopper
@@ -39665,10 +40474,16 @@ dustbushCopper
 dustbushDarkSteel
 
 
+dustbushEssence
+
+
 dustbushGold
 
 
 dustbushHeeEndium
+
+
+dustbushIndium
 
 
 dustbushIron
@@ -39738,6 +40553,12 @@ dustbushUranium
 
 
 dustbushZinc
+
+
+dustmolten.bedrockiumingots
+
+
+dustmolten.unstableingots
 
 
 dye
@@ -39901,6 +40722,8 @@ ProjRed|Exploration:projectred.exploration.lilyseed - 12
 ProjRed|Exploration:projectred.exploration.lilyseed - 13
 ProjRed|Exploration:projectred.exploration.lilyseed - 14
 ProjRed|Exploration:projectred.exploration.lilyseed - 15
+RotaryCraft:rotarycraft_item_modingots - 32
+RotaryCraft:rotarycraft_item_modingots - 54
 gregtech:gt.metaitem.01 - 2535
 gregtech:gt.metaitem.01 - 2536
 
@@ -39943,6 +40766,8 @@ ExtraBees:misc - 21
 ChromatiCraft:chromaticraft_item_dye - 4
 gendustry:HoneyDrop - 14
 ProjRed|Exploration:projectred.exploration.lilyseed - 11
+RotaryCraft:rotarycraft_item_modingots - 32
+RotaryCraft:rotarycraft_item_modingots - 54
 
 
 dyeBlueCrystal
@@ -40331,6 +41156,7 @@ fertilizer
 MineFactoryReloaded:fertilizer - 0
 ThermalExpansion:material - 516
 ThermalExpansion:material - 517
+RotaryCraft:rotarycraft_item_powders - 13
 
 
 fertilizerOrganic
@@ -40351,6 +41177,10 @@ fieryNugget
 
 fishtrapBait
 harvestcraft:fishtrapbaitItem - 0
+
+
+flintRod
+TConstruct:toolRod - 3
 
 
 flourEqualswheat
@@ -42573,6 +43403,7 @@ minecraft:fish - 1
 
 foodSalt
 harvestcraft:saltItem - 0
+RotaryCraft:rotarycraft_item_powders - 5
 
 
 foodSaltedsunflowerseeds
@@ -43182,6 +44013,10 @@ frameGtGold
 gregtech:gt.blockmachines - 4182
 
 
+frameGtHSLA
+gregtech:gt.blockmachines - 4418
+
+
 frameGtHSSE
 gregtech:gt.blockmachines - 4469
 
@@ -43513,6 +44348,7 @@ harvestcraft:fruitbaitItem - 0
 fuelCoke
 Railcraft:fuel.coke - 0
 ImmersiveEngineering:material - 6
+RotaryCraft:rotarycraft_item_compacts - 8
 
 
 gaiaIngot
@@ -43574,6 +44410,12 @@ gearGtAluminium
 gregtech:gt.metaitem.02 - 31019
 
 
+gearGtAluminiumBrass
+
+
+gearGtAlumite
+
+
 gearGtAnyBronze
 gregtech:gt.metaitem.02 - 31300
 
@@ -43584,6 +44426,9 @@ gregtech:gt.metaitem.02 - 31035
 
 gearGtAnyIron
 gregtech:gt.metaitem.02 - 31032
+
+
+gearGtArdite
 
 
 gearGtBronze
@@ -43640,6 +44485,9 @@ gearGtLumium
 
 
 gearGtManasteel
+
+
+gearGtManyullyn
 
 
 gearGtNeutronium
@@ -43827,10 +44675,17 @@ gemAlmandine
 gemAluminium
 
 
+gemAluminiumBrass
+
+
+gemAlumite
+
+
 gemAmber
 Thaumcraft:ItemResource - 6
 BiomesOPlenty:gems - 7
 gregtech:gt.metaitem.01 - 8514
+RotaryCraft:rotarycraft_item_modingots - 12
 
 
 gemAmericium
@@ -43839,6 +44694,10 @@ gemAmericium
 gemAmethyst
 gregtech:gt.metaitem.01 - 8509
 customnpcs:npcAmethyst - 0
+RotaryCraft:rotarycraft_item_modingots - 80
+
+
+gemAmmonium
 
 
 gemAndesite
@@ -43856,6 +44715,7 @@ gemAnyIron
 gemApatite
 Forestry:apatite - 0
 gregtech:gt.metaitem.01 - 8530
+RotaryCraft:rotarycraft_item_modingots - 19
 
 
 gemArdite
@@ -44628,6 +45488,7 @@ gemBlueSteel
 
 gemBlueTopaz
 gregtech:gt.metaitem.01 - 8513
+RotaryCraft:rotarycraft_item_modingots - 60
 
 
 gemBrass
@@ -44639,10 +45500,15 @@ gemBronze
 gemBrownLimonite
 
 
+gemCadmium
+
+
 gemCaesium
 
 
 gemCalcite
+ReactorCraft:reactorcraft_item_raw - 5
+RotaryCraft:rotarycraft_item_modingots - 57
 
 
 gemCarbon
@@ -44656,6 +45522,7 @@ gemCassiteriteSand
 
 gemCertusQuartz
 gregtech:gt.metaitem.01 - 8516
+RotaryCraft:rotarycraft_item_modingots - 9
 
 
 gemChalcopyrite
@@ -44670,6 +45537,7 @@ gemCheese
 
 gemChimerite
 arsmagica2:itemOre - 4
+RotaryCraft:rotarycraft_item_modingots - 58
 
 
 gemChippedAmber
@@ -44847,6 +45715,7 @@ gemDesh
 gemDiamond
 minecraft:diamond - 0
 IC2:itemPartIndustrialDiamond - 0
+RotaryCraft:rotarycraft_item_modingots - 33
 
 
 gemDiatomite
@@ -44854,6 +45723,9 @@ gemDiatomite
 
 gemDilithium
 gregtech:gt.metaitem.01 - 8515
+
+
+gemDraconium
 
 
 gemDuranium
@@ -44870,6 +45742,10 @@ gemElectrum
 
 gemEmerald
 minecraft:emerald - 0
+RotaryCraft:rotarycraft_item_modingots - 34
+
+
+gemEnder
 
 
 gemEnderEye
@@ -45400,6 +46276,9 @@ gemExquisiteGreenSapphire
 gregtech:gt.metaitem.02 - 30504
 
 
+gemExquisiteHSLA
+
+
 gemExquisiteHSSE
 
 
@@ -45768,6 +46647,9 @@ gemFlawedLazurite
 gemFlawedLignite
 
 
+gemFlawedMimichite
+
+
 gemFlawedMonazite
 
 
@@ -45945,6 +46827,9 @@ gemFlawlessFoolsRuby
 gregtech:gt.metaitem.02 - 29512
 
 
+gemFlawlessForce
+
+
 gemFlawlessForcicium
 
 
@@ -45968,6 +46853,9 @@ gemFlawlessGold
 
 gemFlawlessGreenSapphire
 gregtech:gt.metaitem.02 - 29504
+
+
+gemFlawlessHSLA
 
 
 gemFlawlessHSSE
@@ -46047,6 +46935,9 @@ gemFlawlessMeteoricIron
 
 
 gemFlawlessMeteoricSteel
+
+
+gemFlawlessMimichite
 
 
 gemFlawlessMithril
@@ -46239,8 +47130,24 @@ gemFluix
 appliedenergistics2:item.ItemMultiMaterial - 7
 
 
+gemFluorite
+ReactorCraft:reactorcraft_item_fluorite - 0
+ReactorCraft:reactorcraft_item_fluorite - 1
+ReactorCraft:reactorcraft_item_fluorite - 2
+ReactorCraft:reactorcraft_item_fluorite - 3
+ReactorCraft:reactorcraft_item_fluorite - 4
+ReactorCraft:reactorcraft_item_fluorite - 5
+ReactorCraft:reactorcraft_item_fluorite - 6
+ReactorCraft:reactorcraft_item_fluorite - 7
+RotaryCraft:rotarycraft_item_modingots - 52
+
+
 gemFoolsRuby
 gregtech:gt.metaitem.01 - 8512
+
+
+gemForce
+RotaryCraft:rotarycraft_item_modingots - 27
 
 
 gemForcicium
@@ -46300,6 +47207,9 @@ gregtech:gt.metaitem.01 - 8504
 gemGrossular
 
 
+gemHSLA
+
+
 gemHSSE
 
 
@@ -46327,6 +47237,9 @@ gemHeeStardust
 gemIlmenite
 
 
+gemIndium
+
+
 gemIndiumGalliumPhosphide
 
 
@@ -46343,6 +47256,7 @@ Thaumcraft:ItemShard - 3
 gemInfusedEntropy
 Thaumcraft:ItemShard - 5
 gregtech:gt.metaitem.01 - 8544
+RotaryCraft:rotarycraft_item_modingots - 17
 
 
 gemInfusedFire
@@ -46356,6 +47270,7 @@ gemInfusedGold
 gemInfusedOrder
 Thaumcraft:ItemShard - 4
 gregtech:gt.metaitem.01 - 8545
+RotaryCraft:rotarycraft_item_modingots - 18
 
 
 gemInfusedWater
@@ -46429,6 +47344,8 @@ gemMagnesium
 
 
 gemMagnetite
+ReactorCraft:reactorcraft_item_raw - 6
+RotaryCraft:rotarycraft_item_modingots - 65
 
 
 gemMalachite
@@ -46436,6 +47353,9 @@ BiomesOPlenty:gems - 5
 
 
 gemManganese
+
+
+gemManyullyn
 
 
 gemMarbleAlmandine
@@ -46811,6 +47731,10 @@ gemMeteoricIron
 gemMeteoricSteel
 
 
+gemMimichite
+RotaryCraft:rotarycraft_item_modingots - 67
+
+
 gemMithril
 
 
@@ -46826,6 +47750,7 @@ gregtech:gt.metaitem.01 - 8520
 
 gemMoonstone
 arsmagica2:itemOre - 7
+RotaryCraft:rotarycraft_item_modingots - 61
 
 
 gemNaquadah
@@ -47364,6 +48289,8 @@ gemPentlandite
 gemPeridot
 BiomesOPlenty:gems - 2
 ProjRed|Core:projectred.core.part - 39
+RotaryCraft:rotarycraft_item_modingots - 23
+RotaryCraft:rotarycraft_item_modingots - 74
 
 
 gemPhasedGold
@@ -47424,12 +48351,18 @@ gemPyrolusite
 gemPyrope
 
 
+gemQuantum
+
+
 gemQuartz
 minecraft:quartz - 0
 
 
 gemQuartzite
 gregtech:gt.metaitem.01 - 8523
+
+
+gemQuicklime
 
 
 gemRedAlloy
@@ -47820,6 +48753,10 @@ gemRuby
 BiomesOPlenty:gems - 1
 gregtech:gt.metaitem.01 - 8502
 customnpcs:npcRuby - 0
+RotaryCraft:rotarycraft_item_modingots - 24
+
+
+gemRutile
 
 
 gemSalt
@@ -47835,6 +48772,8 @@ customnpcs:npcSaphire - 0
 gemSapphire
 BiomesOPlenty:gems - 6
 gregtech:gt.metaitem.01 - 8503
+RotaryCraft:rotarycraft_item_modingots - 25
+RotaryCraft:rotarycraft_item_modingots - 73
 
 
 gemScheelite
@@ -47844,6 +48783,7 @@ gemSignalum
 
 
 gemSilicon
+RotaryCraft:rotarycraft_item_compacts - 10
 
 
 gemSilicone
@@ -47903,6 +48843,7 @@ gemSulfur
 
 gemSunstone
 arsmagica2:itemOre - 6
+RotaryCraft:rotarycraft_item_modingots - 62
 
 
 gemTalc
@@ -47917,6 +48858,9 @@ gregtech:gt.metaitem.01 - 8508
 
 
 gemTennantite
+
+
+gemTeslatite
 
 
 gemTetrahedrite
@@ -48011,13 +48955,22 @@ gemZinc
 gemberryAluminium
 
 
+gemberryAluminum
+
+
 gemberryBeryllium
 
 
 gemberryBismuth
 
 
+gemberryCadmium
+
+
 gemberryChrome
+
+
+gemberryCobalt
 
 
 gemberryCopper
@@ -48026,10 +48979,16 @@ gemberryCopper
 gemberryDarkSteel
 
 
+gemberryEssence
+
+
 gemberryGold
 
 
 gemberryHeeEndium
+
+
+gemberryIndium
 
 
 gemberryIron
@@ -48104,13 +49063,22 @@ gemberryZinc
 gembushAluminium
 
 
+gembushAluminum
+
+
 gembushBeryllium
 
 
 gembushBismuth
 
 
+gembushCadmium
+
+
 gembushChrome
+
+
+gembushCobalt
 
 
 gembushCopper
@@ -48119,10 +49087,16 @@ gembushCopper
 gembushDarkSteel
 
 
+gembushEssence
+
+
 gembushGold
 
 
 gembushHeeEndium
+
+
+gembushIndium
 
 
 gembushIron
@@ -48201,7 +49175,67 @@ Natura:NetherGlass - 1
 EnderIO:blockFusedQuartz - 1
 
 
+glassBlack
+TConstruct:GlassBlock.StainedClear - 15
+
+
+glassBlue
+TConstruct:GlassBlock.StainedClear - 11
+
+
 glassBottle
+
+
+glassBrown
+TConstruct:GlassBlock.StainedClear - 12
+
+
+glassCyan
+TConstruct:GlassBlock.StainedClear - 9
+
+
+glassGray
+TConstruct:GlassBlock.StainedClear - 7
+
+
+glassGreen
+TConstruct:GlassBlock.StainedClear - 13
+
+
+glassHardened
+RotaryCraft:rotarycraft_block_blastglass - 0
+
+
+glassLightBlue
+TConstruct:GlassBlock.StainedClear - 3
+
+
+glassLightGray
+TConstruct:GlassBlock.StainedClear - 8
+
+
+glassLime
+TConstruct:GlassBlock.StainedClear - 5
+
+
+glassMagenta
+TConstruct:GlassBlock.StainedClear - 2
+
+
+glassOrange
+TConstruct:GlassBlock.StainedClear - 1
+
+
+glassPink
+TConstruct:GlassBlock.StainedClear - 6
+
+
+glassPurple
+TConstruct:GlassBlock.StainedClear - 10
+
+
+glassRed
+TConstruct:GlassBlock.StainedClear - 14
 
 
 glassReinforced
@@ -48210,6 +49244,14 @@ IC2:blockAlloyGlass - 0
 
 glassSoul
 Natura:NetherGlass - 0
+
+
+glassWhite
+TConstruct:GlassBlock.StainedClear - 0
+
+
+glassYellow
+TConstruct:GlassBlock.StainedClear - 4
 
 
 glowstone
@@ -48319,6 +49361,10 @@ grubBee
 harvestcraft:grubItem - 0
 
 
+hambone
+TConstruct:MeatBlock - 0
+
+
 hardenedClay
 minecraft:hardened_clay - any
 
@@ -48382,23 +49428,30 @@ ingotAlmandine
 
 ingotAluminium
 gregtech:gt.metaitem.01 - 11019
+TConstruct:materials - 11
 GalacticraftCore:item.basicItem - 5
 ImmersiveEngineering:metal - 1
+RotaryCraft:rotarycraft_item_compacts - 4
 
 
 ingotAluminiumBrass
+TConstruct:materials - 14
 
 
 ingotAluminum
 GalacticraftCore:item.basicItem - 5
 ImmersiveEngineering:metal - 1
+TConstruct:materials - 11
+RotaryCraft:rotarycraft_item_compacts - 4
 gregtech:gt.metaitem.01 - 11019
 
 
 ingotAluminumBrass
+TConstruct:materials - 14
 
 
 ingotAlumite
+TConstruct:materials - 15
 
 
 ingotAlunite
@@ -48445,6 +49498,7 @@ IC2:itemIngot - 2
 Forestry:ingotBronze - 0
 ThermalFoundation:material - 73
 gregtech:gt.metaitem.01 - 11300
+TConstruct:materials - 13
 customnpcs:npcBronzeIngot - 0
 
 
@@ -48456,17 +49510,22 @@ Railcraft:ingot - 1
 ThermalFoundation:material - 64
 gregtech:gt.metaitem.01 - 11035
 gregtech:gt.metaitem.01 - 11345
-Steamcraft:steamcraftIngot - 0
 ImmersiveEngineering:metal - 0
+TConstruct:materials - 9
+Steamcraft:steamcraftIngot - 0
 Magneticraft:item.ingotCopper - 0
 ProjRed|Core:projectred.core.part - 52
+RotaryCraft:rotarycraft_item_modingots - 1
+RotaryCraft:rotarycraft_item_modingots - 36
 
 
 ingotAnyIron
 minecraft:iron_ingot - 0
 gregtech:gt.metaitem.01 - 11304
 gregtech:gt.metaitem.01 - 11307
+TConstruct:materials - 34
 GardenStuff:wrought_iron_ingot - 0
+RotaryCraft:rotarycraft_item_modingots - 29
 
 
 ingotApatite
@@ -48479,6 +49538,8 @@ ingotAquamarine
 
 
 ingotArdite
+TConstruct:materials - 4
+RotaryCraft:rotarycraft_item_modingots - 42
 
 
 ingotAredrite
@@ -48912,10 +49973,16 @@ ingotBerryAdamantium
 ingotBerryAluminium
 
 
+ingotBerryAluminum
+
+
 ingotBerryAnyCopper
 
 
 ingotBerryAnyIron
+
+
+ingotBerryArdite
 
 
 ingotBerryBeryllium
@@ -48924,7 +49991,13 @@ ingotBerryBeryllium
 ingotBerryBismuth
 
 
+ingotBerryCadmium
+
+
 ingotBerryChrome
+
+
+ingotBerryCobalt
 
 
 ingotBerryCopper
@@ -48936,10 +50009,16 @@ ingotBerryDarkSteel
 ingotBerryDesh
 
 
+ingotBerryEssence
+
+
 ingotBerryGold
 
 
 ingotBerryHeeEndium
+
+
+ingotBerryIndium
 
 
 ingotBerryInfusedGold
@@ -48997,6 +50076,9 @@ ingotBerryPlatinum
 
 
 ingotBerryPlutonium
+
+
+ingotBerryRutile
 
 
 ingotBerrySilicon
@@ -49669,6 +50751,7 @@ IC2:itemIngot - 2
 Forestry:ingotBronze - 0
 ThermalFoundation:material - 73
 gregtech:gt.metaitem.01 - 11300
+TConstruct:materials - 13
 customnpcs:npcBronzeIngot - 0
 
 
@@ -49681,10 +50764,16 @@ ingotBushAdamantium
 ingotBushAluminium
 
 
+ingotBushAluminum
+
+
 ingotBushAnyCopper
 
 
 ingotBushAnyIron
+
+
+ingotBushArdite
 
 
 ingotBushBeryllium
@@ -49693,7 +50782,13 @@ ingotBushBeryllium
 ingotBushBismuth
 
 
+ingotBushCadmium
+
+
 ingotBushChrome
+
+
+ingotBushCobalt
 
 
 ingotBushCopper
@@ -49705,10 +50800,16 @@ ingotBushDarkSteel
 ingotBushDesh
 
 
+ingotBushEssence
+
+
 ingotBushGold
 
 
 ingotBushHeeEndium
+
+
+ingotBushIndium
 
 
 ingotBushInfusedGold
@@ -49768,6 +50869,9 @@ ingotBushPlatinum
 ingotBushPlutonium
 
 
+ingotBushRutile
+
+
 ingotBushSilicon
 
 
@@ -49799,6 +50903,8 @@ ingotBushZinc
 
 
 ingotCadmium
+ReactorCraft:reactorcraft_item_ingots - 1
+RotaryCraft:rotarycraft_item_modingots - 50
 
 
 ingotCaesium
@@ -49921,6 +51027,7 @@ ingotChocolate
 
 ingotChrome
 gregtech:gt.metaitem.01 - 11030
+RotaryCraft:rotarycraft_item_modingots - 72
 
 
 ingotChromite
@@ -49958,6 +51065,8 @@ ingotCoalFuel
 
 ingotCobalt
 gregtech:gt.metaitem.01 - 11033
+TConstruct:materials - 3
+RotaryCraft:rotarycraft_item_modingots - 41
 
 
 ingotCobaltBrass
@@ -50004,10 +51113,13 @@ GalacticraftCore:item.basicItem - 3
 Railcraft:ingot - 1
 ThermalFoundation:material - 64
 gregtech:gt.metaitem.01 - 11035
-Steamcraft:steamcraftIngot - 0
 ImmersiveEngineering:metal - 0
+TConstruct:materials - 9
+Steamcraft:steamcraftIngot - 0
 Magneticraft:item.ingotCopper - 0
 ProjRed|Core:projectred.core.part - 52
+RotaryCraft:rotarycraft_item_modingots - 1
+RotaryCraft:rotarycraft_item_modingots - 36
 
 
 ingotCoral
@@ -50253,6 +51365,9 @@ ingotDoubleGalliumArsenide
 
 
 ingotDoubleGold
+
+
+ingotDoubleHSLA
 
 
 ingotDoubleHSSE
@@ -50534,6 +51649,7 @@ EnderIO:itemPowderIngot - 6
 
 
 ingotEndium
+RotaryCraft:rotarycraft_item_modingots - 86
 
 
 ingotEndstone
@@ -51325,6 +52441,7 @@ ingotFullersEarth
 
 
 ingotFzDarkIron
+RotaryCraft:rotarycraft_item_modingots - 71
 
 
 ingotGabbro
@@ -51386,6 +52503,7 @@ ingotGneiss
 
 ingotGold
 minecraft:gold_ingot - 0
+RotaryCraft:rotarycraft_item_modingots - 30
 
 
 ingotGood
@@ -51435,6 +52553,7 @@ ImmersiveEngineering:metal - 20
 
 
 ingotHSLA
+gregtech:gt.metaitem.01 - 11322
 
 
 ingotHSSE
@@ -51460,6 +52579,7 @@ ingotHeeEndPowder
 
 ingotHeeEndium
 HardcoreEnderExpansion:endium_ingot - 0
+RotaryCraft:rotarycraft_item_modingots - 86
 
 
 ingotHeeIgneousRock
@@ -53379,6 +54499,8 @@ ingotImpureZinc
 
 ingotIndium
 gregtech:gt.metaitem.01 - 11056
+ReactorCraft:reactorcraft_item_ingots - 2
+RotaryCraft:rotarycraft_item_modingots - 51
 
 
 ingotIndiumGalliumPhosphide
@@ -53442,6 +54564,8 @@ ingotInvisium
 
 ingotIridium
 gregtech:gt.metaitem.01 - 11084
+RotaryCraft:rotarycraft_item_modingots - 7
+RotaryCraft:rotarycraft_item_modingots - 70
 
 
 ingotIridiumSodiumOxide
@@ -53449,6 +54573,7 @@ ingotIridiumSodiumOxide
 
 ingotIron
 minecraft:iron_ingot - 0
+RotaryCraft:rotarycraft_item_modingots - 29
 
 
 ingotIronCompressed
@@ -53512,6 +54637,8 @@ Railcraft:ingot - 3
 ThermalFoundation:material - 67
 gregtech:gt.metaitem.01 - 11089
 ImmersiveEngineering:metal - 2
+RotaryCraft:rotarycraft_item_modingots - 2
+RotaryCraft:rotarycraft_item_modingots - 37
 
 
 ingotLeather
@@ -53598,6 +54725,7 @@ ingotMalachite
 
 
 ingotMana
+RotaryCraft:rotarycraft_item_modingots - 82
 
 
 ingotManasteel
@@ -53609,6 +54737,7 @@ gregtech:gt.metaitem.01 - 11031
 
 
 ingotManyullyn
+TConstruct:materials - 5
 
 
 ingotMarble
@@ -54048,6 +55177,12 @@ gregtech:gt.metaitem.01 - 11331
 customnpcs:npcMithrilIngot - 0
 
 
+ingotMolten.bedrockiumingots
+
+
+ingotMolten.unstableingots
+
+
 ingotMolybdenite
 
 
@@ -54095,6 +55230,8 @@ ingotNatruralGas
 ingotNaturalAluminum
 GalacticraftCore:item.basicItem - 5
 ImmersiveEngineering:metal - 1
+TConstruct:materials - 11
+RotaryCraft:rotarycraft_item_compacts - 4
 gregtech:gt.metaitem.01 - 11019
 
 
@@ -54118,6 +55255,12 @@ ingotNetherAluminium
 ingotNetherAluminum
 
 
+ingotNetherAluminumBrass
+
+
+ingotNetherAlumite
+
+
 ingotNetherAmber
 
 
@@ -54133,7 +55276,13 @@ ingotNetherAnyIron
 ingotNetherApatite
 
 
+ingotNetherArdite
+
+
 ingotNetherBrick
+
+
+ingotNetherBronze
 
 
 ingotNetherCertusQuartz
@@ -54145,13 +55294,22 @@ ingotNetherCinnabar
 ingotNetherCoal
 
 
+ingotNetherCobalt
+
+
 ingotNetherCopper
 
 
 ingotNetherDiamond
 
 
+ingotNetherElectrum
+
+
 ingotNetherEmerald
+
+
+ingotNetherEnderium
 
 
 ingotNetherEssence
@@ -54166,10 +55324,16 @@ ingotNetherFzDarkIron
 ingotNetherGalena
 
 
+ingotNetherGlue
+
+
 ingotNetherGold
 
 
 ingotNetherGreenSapphire
+
+
+ingotNetherInvar
 
 
 ingotNetherIridium
@@ -54184,10 +55348,16 @@ ingotNetherLapis
 ingotNetherLead
 
 
+ingotNetherLumium
+
+
 ingotNetherMagnesium
 
 
 ingotNetherMalachite
+
+
+ingotNetherManyullyn
 
 
 ingotNetherMithril
@@ -54202,10 +55372,16 @@ ingotNetherNickel
 ingotNetherNikolite
 
 
+ingotNetherObsidian
+
+
 ingotNetherOsmium
 
 
 ingotNetherPeridot
+
+
+ingotNetherPigIron
 
 
 ingotNetherPlatinum
@@ -54230,6 +55406,9 @@ ingotNetherSaltpeter
 
 
 ingotNetherSapphire
+
+
+ingotNetherSignalum
 
 
 ingotNetherSilicon
@@ -54269,6 +55448,12 @@ ingotNetherUranium
 
 
 ingotNetherYellorite
+
+
+ingotNethermolten.bedrockiumingots
+
+
+ingotNethermolten.unstableingots
 
 
 ingotNetheroreDark
@@ -54835,6 +56020,8 @@ ingotNickel
 ThermalFoundation:material - 68
 gregtech:gt.metaitem.01 - 11034
 ImmersiveEngineering:metal - 4
+RotaryCraft:rotarycraft_item_modingots - 3
+RotaryCraft:rotarycraft_item_modingots - 38
 
 
 ingotNikolite
@@ -54877,6 +56064,7 @@ ingotNobleGases
 
 
 ingotObsidian
+TConstruct:materials - 18
 
 
 ingotObsidianFlux
@@ -54918,6 +56106,8 @@ gregtech:gt.metaitem.01 - 11317
 
 ingotOsmium
 gregtech:gt.metaitem.01 - 11083
+RotaryCraft:rotarycraft_item_modingots - 46
+RotaryCraft:rotarycraft_item_modingots - 77
 
 
 ingotOsmiumTetroxide
@@ -54991,6 +56181,7 @@ ingotPhosphorus
 
 ingotPigIron
 gregtech:gt.metaitem.01 - 11307
+TConstruct:materials - 34
 
 
 ingotPitchblende
@@ -55003,6 +56194,8 @@ gregtech:gt.metaitem.01 - 11874
 ingotPlatinum
 ThermalFoundation:material - 69
 gregtech:gt.metaitem.01 - 11085
+RotaryCraft:rotarycraft_item_modingots - 43
+RotaryCraft:rotarycraft_item_modingots - 44
 
 
 ingotPlatinumGroupSludge
@@ -55030,19 +56223,91 @@ ingotPolytetrafluoroethylene
 gregtech:gt.metaitem.01 - 11473
 
 
+ingotPoorAluminum
+
+
+ingotPoorAluminumBrass
+
+
+ingotPoorAlumite
+
+
+ingotPoorArdite
+
+
+ingotPoorBronze
+
+
+ingotPoorCobalt
+
+
 ingotPoorCopper
+
+
+ingotPoorElectrum
+
+
+ingotPoorEnderium
+
+
+ingotPoorGlue
 
 
 ingotPoorGold
 
 
+ingotPoorInvar
+
+
 ingotPoorIron
+
+
+ingotPoorLead
+
+
+ingotPoorLumium
+
+
+ingotPoorManyullyn
+
+
+ingotPoorMithril
+
+
+ingotPoorNaturalAluminum
+
+
+ingotPoorNickel
+
+
+ingotPoorObsidian
+
+
+ingotPoorPigIron
+
+
+ingotPoorPlatinum
+
+
+ingotPoorSignalum
+
+
+ingotPoorSilver
+
+
+ingotPoorSteel
 
 
 ingotPoorTin
 
 
 ingotPoorZinc
+
+
+ingotPoormolten.bedrockiumingots
+
+
+ingotPoormolten.unstableingots
 
 
 ingotPotash
@@ -57487,6 +58752,7 @@ ingotRuby
 
 
 ingotRutile
+RotaryCraft:rotarycraft_item_modingots - 79
 
 
 ingotRyu
@@ -57566,7 +58832,11 @@ IC2:itemIngot - 6
 ThermalFoundation:material - 66
 gregtech:gt.metaitem.01 - 11054
 ImmersiveEngineering:metal - 3
+ReactorCraft:reactorcraft_item_ingots - 3
 ProjRed|Core:projectred.core.part - 54
+RotaryCraft:rotarycraft_item_compacts - 7
+RotaryCraft:rotarycraft_item_modingots - 4
+RotaryCraft:rotarycraft_item_modingots - 39
 
 
 ingotSmallAdamantium
@@ -59410,7 +60680,9 @@ IC2:itemIngot - 3
 Railcraft:ingot - 0
 gregtech:gt.metaitem.01 - 11305
 ImmersiveEngineering:metal - 7
+TConstruct:materials - 16
 SolarExpansion:steelIngot - 0
+RotaryCraft:rotarycraft_item_modingots - 47
 
 
 ingotSteelMagnetic
@@ -59546,7 +60818,10 @@ GalacticraftCore:item.basicItem - 4
 Railcraft:ingot - 2
 ThermalFoundation:material - 65
 gregtech:gt.metaitem.01 - 11057
+TConstruct:materials - 10
 ProjRed|Core:projectred.core.part - 53
+RotaryCraft:rotarycraft_item_modingots - 0
+RotaryCraft:rotarycraft_item_modingots - 35
 
 
 ingotTinAlloy
@@ -61338,6 +62613,8 @@ ingotTinyZinc
 ingotTitanium
 GalacticraftMars:item.itemBasicAsteroids - 5
 gregtech:gt.metaitem.01 - 11028
+RotaryCraft:rotarycraft_item_modingots - 63
+RotaryCraft:rotarycraft_item_modingots - 75
 
 
 ingotTitaniumtetrachloride
@@ -61404,6 +62681,10 @@ ingotUraninite
 
 ingotUranium
 gregtech:gt.metaitem.01 - 11098
+ReactorCraft:reactorcraft_item_ingots - 0
+RotaryCraft:rotarycraft_item_modingots - 10
+RotaryCraft:rotarycraft_item_modingots - 49
+RotaryCraft:rotarycraft_item_modingots - 68
 
 
 ingotUranium235
@@ -61516,9 +62797,13 @@ ingotZinc
 gregtech:gt.metaitem.01 - 11036
 Steamcraft:steamcraftIngot - 1
 Magneticraft:item.ingotZinc - 0
+RotaryCraft:rotarycraft_item_modingots - 45
 
 
 ingotberryAluminium
+
+
+ingotberryAluminum
 
 
 ingotberryBeryllium
@@ -61527,7 +62812,13 @@ ingotberryBeryllium
 ingotberryBismuth
 
 
+ingotberryCadmium
+
+
 ingotberryChrome
+
+
+ingotberryCobalt
 
 
 ingotberryCopper
@@ -61536,10 +62827,16 @@ ingotberryCopper
 ingotberryDarkSteel
 
 
+ingotberryEssence
+
+
 ingotberryGold
 
 
 ingotberryHeeEndium
+
+
+ingotberryIndium
 
 
 ingotberryIron
@@ -61614,13 +62911,22 @@ ingotberryZinc
 ingotbushAluminium
 
 
+ingotbushAluminum
+
+
 ingotbushBeryllium
 
 
 ingotbushBismuth
 
 
+ingotbushCadmium
+
+
 ingotbushChrome
+
+
+ingotbushCobalt
 
 
 ingotbushCopper
@@ -61629,10 +62935,16 @@ ingotbushCopper
 ingotbushDarkSteel
 
 
+ingotbushEssence
+
+
 ingotbushGold
 
 
 ingotbushHeeEndium
+
+
+ingotbushIndium
 
 
 ingotbushIron
@@ -61704,6 +63016,16 @@ ingotbushUranium
 ingotbushZinc
 
 
+ingotmolten.bedrockiumingots
+
+
+ingotmolten.unstableingots
+
+
+ironRod
+TConstruct:toolRod - 2
+
+
 ironwood
 gregtech:gt.metaitem.01 - 11338
 TwilightForest:item.ironwoodIngot - 0
@@ -61744,6 +63066,7 @@ itemCertusQuartz
 appliedenergistics2:item.ItemMultiMaterial - 1
 appliedenergistics2:item.ItemMultiMaterial - 10
 gregtech:gt.metaitem.01 - 8516
+RotaryCraft:rotarycraft_item_modingots - 9
 
 
 itemCharcoal
@@ -61760,6 +63083,7 @@ minecraft:clay_ball - 0
 
 itemCoal
 minecraft:coal - 0
+RotaryCraft:rotarycraft_item_modingots - 28
 
 
 itemConduitBinder
@@ -61772,6 +63096,14 @@ EnderIO:itemMaterial - 7
 
 itemEnderCrystal
 EnderIO:itemMaterial - 8
+
+
+itemEssence
+RotaryCraft:rotarycraft_item_modingots - 66
+
+
+itemFertilizer
+RotaryCraft:rotarycraft_item_powders - 13
 
 
 itemFlint
@@ -61822,8 +63154,14 @@ itemPulsatingCrystal
 EnderIO:itemMaterial - 5
 
 
+itemQuicksilver
+RotaryCraft:rotarycraft_item_modingots - 11
+Thaumcraft:ItemResource - 3
+
+
 itemRawRubber
 MineFactoryReloaded:rubber.raw - 0
+TConstruct:materials - 36
 
 
 itemRubber
@@ -61837,11 +63175,14 @@ itemSalt
 harvestcraft:saltItem - 0
 gregtech:gt.metaitem.01 - 2817
 Magneticraft:item.dustSalt - 0
+RotaryCraft:rotarycraft_item_powders - 5
 
 
 itemSilicon
 gregtech:gt.metaitem.01 - 17020
 EnderIO:itemMaterial - 0
+RotaryCraft:rotarycraft_item_modingots - 78
+RotaryCraft:rotarycraft_item_compacts - 10
 GalacticraftCore:item.basicItem - 2
 
 
@@ -62697,6 +64038,8 @@ arsmagica2:WitchwoodLog - 0
 TwilightForest:tile.TFLog - any
 TwilightForest:tile.TFMagicLog - any
 Thaumcraft:blockMagicalLog - any
+aether:aetherLog - 0
+aether:aetherLog - 2
 harvestcraft:pamMaple - 1
 
 
@@ -62710,6 +64053,10 @@ Botania:manaResource - 1
 
 manaString
 Botania:manaResource - 16
+
+
+manyullynRod
+TConstruct:toolRod - 12
 
 
 marble
@@ -62956,6 +64303,10 @@ netherrack
 minecraft:netherrack - 0
 
 
+netherrackRod
+TConstruct:toolRod - 7
+
+
 nuggetAdamantium
 gregtech:gt.metaitem.01 - 9319
 
@@ -62968,19 +64319,26 @@ nuggetAlmandine
 
 nuggetAluminium
 gregtech:gt.metaitem.01 - 9019
+TConstruct:oreBerries - 4
+TConstruct:materials - 22
 
 
 nuggetAluminiumBrass
+TConstruct:materials - 24
 
 
 nuggetAluminum
 ImmersiveEngineering:metal - 23
+TConstruct:oreBerries - 4
+TConstruct:materials - 22
 
 
 nuggetAluminumBrass
+TConstruct:materials - 24
 
 
 nuggetAlumite
+TConstruct:materials - 32
 
 
 nuggetAlunite
@@ -63013,6 +64371,7 @@ gregtech:gt.metaitem.01 - 9058
 nuggetAnyBronze
 ThermalFoundation:material - 105
 gregtech:gt.metaitem.01 - 9300
+TConstruct:materials - 31
 MoarSigns:NuggetItems - 3
 
 
@@ -63022,9 +64381,10 @@ Railcraft:nugget - 2
 ThermalFoundation:material - 96
 gregtech:gt.metaitem.01 - 9035
 gregtech:gt.metaitem.01 - 9345
+ImmersiveEngineering:metal - 22
+TConstruct:materials - 20
 MagicBees:beeNugget - 1
 Steamcraft:steamcraftNugget - 0
-ImmersiveEngineering:metal - 22
 MoarSigns:NuggetItems - 4
 
 
@@ -63035,11 +64395,13 @@ ThermalFoundation:material - 8
 gregtech:gt.metaitem.01 - 9032
 gregtech:gt.metaitem.01 - 9304
 gregtech:gt.metaitem.01 - 9307
+ImmersiveEngineering:metal - 21
+TConstruct:materials - 19
+TConstruct:materials - 35
 MagicBees:beeNugget - 0
 Steamcraft:steamcraftNugget - 2
 GardenStuff:iron_nugget - 0
 GardenStuff:wrought_iron_nugget - 0
-ImmersiveEngineering:metal - 21
 MoarSigns:NuggetItems - 1
 
 
@@ -63047,6 +64409,7 @@ nuggetApatite
 
 
 nuggetArdite
+TConstruct:materials - 29
 
 
 nuggetArsenic
@@ -63146,6 +64509,7 @@ Steamcraft:steamcraftNugget - 3
 nuggetBronze
 ThermalFoundation:material - 105
 gregtech:gt.metaitem.01 - 9300
+TConstruct:materials - 31
 MoarSigns:NuggetItems - 3
 
 
@@ -63153,6 +64517,7 @@ nuggetBrownLimonite
 
 
 nuggetCadmium
+aobd:nuggetCadmium - 0
 
 
 nuggetCaesium
@@ -63218,6 +64583,7 @@ nuggetCoal
 
 nuggetCobalt
 gregtech:gt.metaitem.01 - 9033
+TConstruct:materials - 28
 
 
 nuggetCobaltBrass
@@ -63254,9 +64620,11 @@ Thaumcraft:ItemNugget - 1
 Railcraft:nugget - 2
 ThermalFoundation:material - 96
 gregtech:gt.metaitem.01 - 9035
+ImmersiveEngineering:metal - 22
+TConstruct:oreBerries - 2
+TConstruct:materials - 20
 MagicBees:beeNugget - 1
 Steamcraft:steamcraftNugget - 0
-ImmersiveEngineering:metal - 22
 MoarSigns:NuggetItems - 4
 
 
@@ -63335,12 +64703,18 @@ nuggetEmery
 nuggetEmpty
 
 
+nuggetEnder
+
+
 nuggetEnderium
 ThermalFoundation:material - 108
 gregtech:gt.metaitem.01 - 9321
 
 
 nuggetEnderiumBase
+
+
+nuggetEndium
 
 
 nuggetEndstone
@@ -63371,6 +64745,9 @@ nuggetFirestone
 
 
 nuggetFlint
+
+
+nuggetForce
 
 
 nuggetFullersEarth
@@ -63411,9 +64788,13 @@ nuggetGlauconiteSand
 nuggetGlowstone
 
 
+nuggetGlue
+
+
 nuggetGold
 minecraft:gold_nugget - 0
 Thaumcraft:ItemResource - 18
+TConstruct:oreBerries - 1
 
 
 nuggetGraniteBlack
@@ -63441,6 +64822,10 @@ nuggetGrossular
 
 
 nuggetGypsum
+
+
+nuggetHSLA
+gregtech:gt.metaitem.01 - 9322
 
 
 nuggetHSSE
@@ -63512,10 +64897,12 @@ Thaumcraft:ItemNugget - 0
 Railcraft:nugget - 0
 ThermalFoundation:material - 8
 gregtech:gt.metaitem.01 - 9032
+ImmersiveEngineering:metal - 21
+TConstruct:oreBerries - 0
+TConstruct:materials - 19
 MagicBees:beeNugget - 0
 Steamcraft:steamcraftNugget - 2
 GardenStuff:iron_nugget - 0
-ImmersiveEngineering:metal - 21
 MoarSigns:NuggetItems - 1
 
 
@@ -63561,8 +64948,8 @@ Thaumcraft:ItemNugget - 4
 Railcraft:nugget - 4
 ThermalFoundation:material - 99
 gregtech:gt.metaitem.01 - 9089
-MagicBees:beeNugget - 4
 ImmersiveEngineering:metal - 24
+MagicBees:beeNugget - 4
 
 
 nuggetLeather
@@ -63618,6 +65005,7 @@ gregtech:gt.metaitem.01 - 9031
 
 
 nuggetManyullyn
+TConstruct:materials - 30
 
 
 nuggetMarble
@@ -63692,6 +65080,9 @@ nuggetNaquadria
 gregtech:gt.metaitem.01 - 9327
 
 
+nuggetNaturalAluminum
+
+
 nuggetNaturalCobalt
 
 
@@ -63742,6 +65133,7 @@ nuggetNobleGases
 
 
 nuggetObsidian
+TConstruct:materials - 27
 
 
 nuggetOilsands
@@ -63788,6 +65180,7 @@ nuggetPhosphorus
 
 nuggetPigIron
 gregtech:gt.metaitem.01 - 9307
+TConstruct:materials - 35
 
 
 nuggetPitchblende
@@ -63904,6 +65297,7 @@ gregtech:gt.metaitem.01 - 9880
 
 
 nuggetRutile
+aobd:nuggetRutile - 0
 
 
 nuggetSalt
@@ -63943,8 +65337,8 @@ nuggetSilver
 Thaumcraft:ItemNugget - 3
 ThermalFoundation:material - 98
 gregtech:gt.metaitem.01 - 9054
-MagicBees:beeNugget - 3
 ImmersiveEngineering:metal - 25
+MagicBees:beeNugget - 3
 
 
 nuggetSoapstone
@@ -63984,6 +65378,7 @@ nuggetSteel
 Railcraft:nugget - 1
 gregtech:gt.metaitem.01 - 9305
 ImmersiveEngineering:metal - 29
+TConstruct:materials - 33
 SolarExpansion:steelNugget - 0
 
 
@@ -64048,6 +65443,8 @@ Thaumcraft:ItemNugget - 2
 Railcraft:nugget - 3
 ThermalFoundation:material - 97
 gregtech:gt.metaitem.01 - 9057
+TConstruct:oreBerries - 3
+TConstruct:materials - 21
 MagicBees:beeNugget - 2
 MoarSigns:NuggetItems - 5
 
@@ -64177,6 +65574,12 @@ gregtech:gt.metaitem.01 - 9036
 Steamcraft:steamcraftNugget - 1
 
 
+nuggetmolten.bedrockiumingots
+
+
+nuggetmolten.unstableingots
+
+
 obsidian
 ExtraUtilities:color_obsidian - 0
 ExtraUtilities:color_obsidian - 1
@@ -64254,6 +65657,7 @@ ExtraUtilities:color_obsidian - 1
 
 
 obsidianRod
+TConstruct:toolRod - 6
 RandomThings:ingredient - 1
 WR-CBE|Core:obsidianStick - 0
 
@@ -64846,6 +66250,8 @@ gregtech:gt.blockores.gc - 19
 gregtech:gt.blockores.gc - 1019
 gregtech:gt.blockores.gc - 2019
 gregtech:gt.blockores.gc - 3019
+TConstruct:SearedBrick - 5
+TConstruct:GravelOre - 4
 
 
 oreAluminiumBrass
@@ -64855,6 +66261,8 @@ oreAluminum
 GalacticraftCore:tile.gcBlockCore - 7
 GalacticraftMars:tile.asteroidsBlock - 3
 ImmersiveEngineering:ore - 1
+TConstruct:SearedBrick - 5
+TConstruct:GravelOre - 4
 InterstellarOres:oreMoon - 7
 InterstellarOres:oreMars - 7
 gregtech:gt.blockores - 19
@@ -64894,6 +66302,7 @@ gregtech:gt.blockores.gc - 3509
 
 
 oreAmmonium
+ReactorCraft:reactorcraft_block_ore - 6
 
 
 oreAmordrine
@@ -64932,8 +66341,10 @@ gregtech:gt.blockores.gc - 35
 gregtech:gt.blockores.gc - 1035
 gregtech:gt.blockores.gc - 2035
 gregtech:gt.blockores.gc - 3035
-Steamcraft:steamcraftOre - 0
 ImmersiveEngineering:ore - 0
+TConstruct:SearedBrick - 3
+TConstruct:GravelOre - 2
+Steamcraft:steamcraftOre - 0
 InterstellarOres:oreMoon - 2
 InterstellarOres:oreMars - 2
 Magneticraft:copper_ore - 0
@@ -64949,6 +66360,7 @@ gregtech:gt.blockores.gc - 32
 gregtech:gt.blockores.gc - 1032
 gregtech:gt.blockores.gc - 2032
 gregtech:gt.blockores.gc - 3032
+TConstruct:GravelOre - 0
 InterstellarOres:oreMoon - 0
 InterstellarOres:oreMars - 0
 
@@ -64969,6 +66381,7 @@ oreAquamarine
 
 
 oreArdite
+TConstruct:SearedBrick - 2
 
 
 oreAredrite
@@ -65546,10 +66959,16 @@ oreBerryAdamantium
 oreBerryAluminium
 
 
+oreBerryAluminum
+
+
 oreBerryAnyCopper
 
 
 oreBerryAnyIron
+
+
+oreBerryArdite
 
 
 oreBerryBeryllium
@@ -65558,7 +66977,13 @@ oreBerryBeryllium
 oreBerryBismuth
 
 
+oreBerryCadmium
+
+
 oreBerryChrome
+
+
+oreBerryCobalt
 
 
 oreBerryCopper
@@ -65570,10 +66995,16 @@ oreBerryDarkSteel
 oreBerryDesh
 
 
+oreBerryEssence
+
+
 oreBerryGold
 
 
 oreBerryHeeEndium
+
+
+oreBerryIndium
 
 
 oreBerryInfusedGold
@@ -65631,6 +67062,9 @@ oreBerryPlatinum
 
 
 oreBerryPlutonium
+
+
+oreBerryRutile
 
 
 oreBerrySilicon
@@ -66437,10 +67871,16 @@ oreBushAdamantium
 oreBushAluminium
 
 
+oreBushAluminum
+
+
 oreBushAnyCopper
 
 
 oreBushAnyIron
+
+
+oreBushArdite
 
 
 oreBushBeryllium
@@ -66449,7 +67889,13 @@ oreBushBeryllium
 oreBushBismuth
 
 
+oreBushCadmium
+
+
 oreBushChrome
+
+
+oreBushCobalt
 
 
 oreBushCopper
@@ -66461,10 +67907,16 @@ oreBushDarkSteel
 oreBushDesh
 
 
+oreBushEssence
+
+
 oreBushGold
 
 
 oreBushHeeEndium
+
+
+oreBushIndium
 
 
 oreBushInfusedGold
@@ -66524,6 +67976,9 @@ oreBushPlatinum
 oreBushPlutonium
 
 
+oreBushRutile
+
+
 oreBushSilicon
 
 
@@ -66555,6 +68010,7 @@ oreBushZinc
 
 
 oreCadmium
+ReactorCraft:reactorcraft_block_ore - 2
 
 
 oreCaesium
@@ -66566,6 +68022,7 @@ gregtech:gt.blockores.gc - 823
 gregtech:gt.blockores.gc - 1823
 gregtech:gt.blockores.gc - 2823
 gregtech:gt.blockores.gc - 3823
+ReactorCraft:reactorcraft_block_ore - 7
 
 
 oreCalcium
@@ -66760,6 +68217,8 @@ oreCoalFuel
 
 
 oreCobalt
+TConstruct:SearedBrick - 1
+TConstruct:GravelOre - 5
 
 
 oreCobaltBrass
@@ -66817,8 +68276,10 @@ gregtech:gt.blockores.gc - 35
 gregtech:gt.blockores.gc - 1035
 gregtech:gt.blockores.gc - 2035
 gregtech:gt.blockores.gc - 3035
-Steamcraft:steamcraftOre - 0
 ImmersiveEngineering:ore - 0
+TConstruct:SearedBrick - 3
+TConstruct:GravelOre - 2
+Steamcraft:steamcraftOre - 0
 InterstellarOres:oreMoon - 2
 InterstellarOres:oreMars - 2
 Magneticraft:copper_ore - 0
@@ -67937,6 +69398,14 @@ oreFluorine
 
 
 oreFluorite
+ReactorCraft:reactorcraft_block_fluoriteore - 0
+ReactorCraft:reactorcraft_block_fluoriteore - 1
+ReactorCraft:reactorcraft_block_fluoriteore - 2
+ReactorCraft:reactorcraft_block_fluoriteore - 3
+ReactorCraft:reactorcraft_block_fluoriteore - 4
+ReactorCraft:reactorcraft_block_fluoriteore - 5
+ReactorCraft:reactorcraft_block_fluoriteore - 6
+ReactorCraft:reactorcraft_block_fluoriteore - 7
 
 
 oreFlux
@@ -68057,6 +69526,7 @@ gregtech:gt.blockores.gc - 86
 gregtech:gt.blockores.gc - 1086
 gregtech:gt.blockores.gc - 2086
 gregtech:gt.blockores.gc - 3086
+TConstruct:GravelOre - 1
 InterstellarOres:oreMoon - 1
 InterstellarOres:oreMars - 1
 
@@ -69954,6 +71424,7 @@ oreImpureZinc
 
 
 oreIndium
+ReactorCraft:reactorcraft_block_ore - 3
 
 
 oreIndiumGalliumPhosphide
@@ -70068,6 +71539,7 @@ gregtech:gt.blockores.gc - 32
 gregtech:gt.blockores.gc - 1032
 gregtech:gt.blockores.gc - 2032
 gregtech:gt.blockores.gc - 3032
+TConstruct:GravelOre - 0
 InterstellarOres:oreMoon - 0
 InterstellarOres:oreMars - 0
 
@@ -70248,6 +71720,7 @@ gregtech:gt.blockores.gc - 870
 gregtech:gt.blockores.gc - 1870
 gregtech:gt.blockores.gc - 2870
 gregtech:gt.blockores.gc - 3870
+ReactorCraft:reactorcraft_block_ore - 8
 
 
 oreMalachite
@@ -70828,6 +72301,12 @@ oreMithril
 ThermalFoundation:Ore - 6
 
 
+oreMolten.bedrockiumingots
+
+
+oreMolten.unstableingots
+
+
 oreMolybdenite
 gregtech:gt.blockores - 942
 gregtech:gt.blockores.gc - 942
@@ -70927,6 +72406,12 @@ oreNetherAluminium
 oreNetherAluminum
 
 
+oreNetherAluminumBrass
+
+
+oreNetherAlumite
+
+
 oreNetherAmber
 NetherOres:tile.netherores.ore.1 - 11
 
@@ -70945,7 +72430,13 @@ NetherOres:tile.netherores.ore.0 - 3
 oreNetherApatite
 
 
+oreNetherArdite
+
+
 oreNetherBrick
+
+
+oreNetherBronze
 
 
 oreNetherCertusQuartz
@@ -70958,6 +72449,9 @@ oreNetherCoal
 NetherOres:tile.netherores.ore.0 - 0
 
 
+oreNetherCobalt
+
+
 oreNetherCopper
 NetherOres:tile.netherores.ore.0 - 6
 
@@ -70966,8 +72460,14 @@ oreNetherDiamond
 NetherOres:tile.netherores.ore.0 - 1
 
 
+oreNetherElectrum
+
+
 oreNetherEmerald
 NetherOres:tile.netherores.ore.0 - 8
+
+
+oreNetherEnderium
 
 
 oreNetherEssence
@@ -70982,11 +72482,17 @@ oreNetherFzDarkIron
 oreNetherGalena
 
 
+oreNetherGlue
+
+
 oreNetherGold
 NetherOres:tile.netherores.ore.0 - 2
 
 
 oreNetherGreenSapphire
+
+
+oreNetherInvar
 
 
 oreNetherIridium
@@ -71005,11 +72511,17 @@ oreNetherLead
 NetherOres:tile.netherores.ore.0 - 10
 
 
+oreNetherLumium
+
+
 oreNetherMagnesium
 NetherOres:tile.netherores.ore.1 - 15
 
 
 oreNetherMalachite
+
+
+oreNetherManyullyn
 
 
 oreNetherMithril
@@ -71027,12 +72539,18 @@ oreNetherNikolite
 NetherOres:tile.netherores.ore.0 - 12
 
 
+oreNetherObsidian
+
+
 oreNetherOsmium
 NetherOres:tile.netherores.ore.1 - 4
 
 
 oreNetherPeridot
 NetherOres:tile.netherores.ore.0 - 14
+
+
+oreNetherPigIron
 
 
 oreNetherPlatinum
@@ -71070,6 +72588,9 @@ NetherOres:tile.netherores.ore.1 - 14
 
 oreNetherSapphire
 NetherOres:tile.netherores.ore.0 - 15
+
+
+oreNetherSignalum
 
 
 oreNetherSilicon
@@ -71117,6 +72638,12 @@ NetherOres:tile.netherores.ore.0 - 11
 
 
 oreNetherYellorite
+
+
+oreNethermolten.bedrockiumingots
+
+
+oreNethermolten.unstableingots
 
 
 oreNetheroreDark
@@ -72006,6 +73533,8 @@ gregtech:gt.blockores.gc - 873
 gregtech:gt.blockores.gc - 1873
 gregtech:gt.blockores.gc - 2873
 gregtech:gt.blockores.gc - 3873
+ReactorCraft:reactorcraft_block_ore - 1
+ReactorCraft:reactorcraft_block_ore - 5
 
 
 orePlastic
@@ -72050,13 +73579,79 @@ orePolycaprolactam
 orePolytetrafluoroethylene
 
 
+orePoorAluminum
+
+
+orePoorAluminumBrass
+
+
+orePoorAlumite
+
+
+orePoorArdite
+
+
+orePoorBronze
+
+
+orePoorCobalt
+
+
 orePoorCopper
+
+
+orePoorElectrum
+
+
+orePoorEnderium
+
+
+orePoorGlue
 
 
 orePoorGold
 
 
+orePoorInvar
+
+
 orePoorIron
+
+
+orePoorLead
+
+
+orePoorLumium
+
+
+orePoorManyullyn
+
+
+orePoorMithril
+
+
+orePoorNaturalAluminum
+
+
+orePoorNickel
+
+
+orePoorObsidian
+
+
+orePoorPigIron
+
+
+orePoorPlatinum
+
+
+orePoorSignalum
+
+
+orePoorSilver
+
+
+orePoorSteel
 
 
 orePoorTin
@@ -72064,6 +73659,12 @@ orePoorTin
 
 orePoorZinc
 Steamcraft:steamcraftOre - 2
+
+
+orePoormolten.bedrockiumingots
+
+
+orePoormolten.unstableingots
 
 
 orePotash
@@ -74662,6 +76263,7 @@ oreRunium
 
 
 oreRutile
+aobd:oreRutile - 0
 
 
 oreRyu
@@ -74766,6 +76368,7 @@ gregtech:gt.blockores.gc - 3054
 ImmersiveEngineering:ore - 3
 InterstellarOres:oreMoon - 5
 InterstellarOres:oreMars - 5
+ReactorCraft:reactorcraft_block_ore - 4
 ProjRed|Exploration:projectred.exploration.ore - 5
 
 
@@ -76778,6 +78381,7 @@ gregtech:gt.blockores.gc - 1096
 gregtech:gt.blockores.gc - 2096
 gregtech:gt.blockores.gc - 3096
 Magneticraft:thorium_ore - 0
+ReactorCraft:reactorcraft_block_ore - 9
 
 
 oreThulium
@@ -76798,6 +78402,8 @@ gregtech:gt.blockores.gc - 57
 gregtech:gt.blockores.gc - 1057
 gregtech:gt.blockores.gc - 2057
 gregtech:gt.blockores.gc - 3057
+TConstruct:SearedBrick - 4
+TConstruct:GravelOre - 3
 InterstellarOres:oreMoon - 3
 InterstellarOres:oreMars - 3
 ProjRed|Exploration:projectred.exploration.ore - 4
@@ -78805,13 +80411,20 @@ oreberryAdamantium
 
 
 oreberryAluminium
-aobd:oreberryAluminium - 0
+TConstruct:oreBerries - 4
+
+
+oreberryAluminum
+TConstruct:oreBerries - 4
 
 
 oreberryAnyCopper
 
 
 oreberryAnyIron
+
+
+oreberryArdite
 
 
 oreberryBeryllium
@@ -78822,12 +80435,20 @@ oreberryBismuth
 aobd:oreberryBismuth - 0
 
 
+oreberryCadmium
+aobd:oreberryCadmium - 0
+
+
 oreberryChrome
 aobd:oreberryChrome - 0
 
 
+oreberryCobalt
+aobd:oreberryCobalt - 0
+
+
 oreberryCopper
-aobd:oreberryCopper - 0
+TConstruct:oreBerries - 2
 
 
 oreberryDarkSteel
@@ -78837,12 +80458,20 @@ aobd:oreberryDarkSteel - 0
 oreberryDesh
 
 
+oreberryEssence
+TConstruct:oreBerries - 1
+
+
 oreberryGold
-aobd:oreberryGold - 0
+TConstruct:oreBerries - 1
 
 
 oreberryHeeEndium
 aobd:oreberryHeeEndium - 0
+
+
+oreberryIndium
+aobd:oreberryIndium - 0
 
 
 oreberryInfusedGold
@@ -78852,7 +80481,7 @@ oreberryIridium
 
 
 oreberryIron
-aobd:oreberryIron - 0
+TConstruct:oreBerries - 0
 
 
 oreberryLead
@@ -78917,6 +80546,9 @@ aobd:oreberryPlatinum - 0
 oreberryPlutonium
 
 
+oreberryRutile
+
+
 oreberrySilicon
 aobd:oreberrySilicon - 0
 
@@ -78933,7 +80565,7 @@ aobd:oreberryThorium - 0
 
 
 oreberryTin
-aobd:oreberryTin - 0
+TConstruct:oreBerries - 3
 
 
 oreberryTitanium
@@ -78959,13 +80591,20 @@ orebushAdamantium
 
 
 orebushAluminium
-aobd:orebushAluminium - 0
+TConstruct:ore.berries.two - 0
+
+
+orebushAluminum
+TConstruct:ore.berries.two - 0
 
 
 orebushAnyCopper
 
 
 orebushAnyIron
+
+
+orebushArdite
 
 
 orebushBeryllium
@@ -78976,12 +80615,20 @@ orebushBismuth
 aobd:orebushBismuth - 0
 
 
+orebushCadmium
+aobd:orebushCadmium - 0
+
+
 orebushChrome
 aobd:orebushChrome - 0
 
 
+orebushCobalt
+aobd:orebushCobalt - 0
+
+
 orebushCopper
-aobd:orebushCopper - 0
+TConstruct:ore.berries.one - 2
 
 
 orebushDarkSteel
@@ -78991,12 +80638,20 @@ aobd:orebushDarkSteel - 0
 orebushDesh
 
 
+orebushEssence
+TConstruct:ore.berries.two - 1
+
+
 orebushGold
-aobd:orebushGold - 0
+TConstruct:ore.berries.one - 1
 
 
 orebushHeeEndium
 aobd:orebushHeeEndium - 0
+
+
+orebushIndium
+aobd:orebushIndium - 0
 
 
 orebushInfusedGold
@@ -79006,7 +80661,7 @@ orebushIridium
 
 
 orebushIron
-aobd:orebushIron - 0
+TConstruct:ore.berries.one - 0
 
 
 orebushLead
@@ -79071,6 +80726,9 @@ aobd:orebushPlatinum - 0
 orebushPlutonium
 
 
+orebushRutile
+
+
 orebushSilicon
 aobd:orebushSilicon - 0
 
@@ -79087,7 +80745,7 @@ aobd:orebushThorium - 0
 
 
 orebushTin
-aobd:orebushTin - 0
+TConstruct:ore.berries.one - 3
 
 
 orebushTitanium
@@ -79109,6 +80767,12 @@ orebushZinc
 aobd:orebushZinc - 0
 
 
+oremolten.bedrockiumingots
+
+
+oremolten.unstableingots
+
+
 oreoreDark
 
 
@@ -79116,6 +80780,7 @@ paneGlass
 minecraft:glass_pane - 0
 minecraft:stained_glass_pane - any
 MineFactoryReloaded:stainedglass.pane - any
+aether:quicksoilGlassPane - 0
 
 
 paneGlassBlack
@@ -79226,6 +80891,10 @@ paperResearchFragment
 Thaumcraft:ItemResource - 9
 
 
+paperRod
+TConstruct:toolRod - 9
+
+
 pateTitanium
 
 
@@ -79273,6 +80942,10 @@ pebblesBismuth
 Magneticraft:item.pebbles - 17
 
 
+pebblesCadmium
+aobd:pebblesCadmium - 0
+
+
 pebblesChrome
 aobd:pebblesChrome - 0
 
@@ -79307,6 +80980,10 @@ Magneticraft:item.pebbles - 1
 
 pebblesHeeEndium
 aobd:pebblesHeeEndium - 0
+
+
+pebblesIndium
+aobd:pebblesIndium - 0
 
 
 pebblesInfusedGold
@@ -79383,6 +81060,10 @@ Magneticraft:item.pebbles - 14
 
 pebblesPlutonium
 aobd:pebblesPlutonium - 0
+
+
+pebblesRutile
+aobd:pebblesRutile - 0
 
 
 pebblesSilicon
@@ -79514,6 +81195,12 @@ pipeHugeAdamantium
 pipeHugeAluminium
 
 
+pipeHugeAluminiumBrass
+
+
+pipeHugeAlumite
+
+
 pipeHugeAmericium
 
 
@@ -79526,6 +81213,9 @@ gregtech:gt.blockmachines - 5124
 
 pipeHugeAnyCopper
 gregtech:gt.blockmachines - 5114
+
+
+pipeHugeArdite
 
 
 pipeHugeArsenic
@@ -79558,6 +81248,9 @@ gregtech:gt.blockmachines - 5604
 
 pipeHugeBronze
 gregtech:gt.blockmachines - 5124
+
+
+pipeHugeCadmium
 
 
 pipeHugeCaesium
@@ -79619,6 +81312,9 @@ pipeHugeEnderium
 pipeHugeEnderiumBase
 
 
+pipeHugeEndium
+
+
 pipeHugeEnergeticAlloy
 
 
@@ -79641,6 +81337,9 @@ pipeHugeGlass
 
 
 pipeHugeGold
+
+
+pipeHugeHSLA
 
 
 pipeHugeHSSE
@@ -79706,6 +81405,9 @@ pipeHugeManasteel
 pipeHugeManganese
 
 
+pipeHugeManyullyn
+
+
 pipeHugeMeatCooked
 
 
@@ -79752,6 +81454,9 @@ pipeHugeNiobiumNitride
 
 
 pipeHugeNiobiumTitanium
+
+
+pipeHugeObsidian
 
 
 pipeHugeOsmiridium
@@ -79809,6 +81514,9 @@ pipeHugeRoseGold
 
 
 pipeHugeRubber
+
+
+pipeHugeRutile
 
 
 pipeHugeSignalum
@@ -79914,6 +81622,12 @@ pipeLargeAdamantium
 pipeLargeAluminium
 
 
+pipeLargeAluminiumBrass
+
+
+pipeLargeAlumite
+
+
 pipeLargeAmericium
 
 
@@ -79926,6 +81640,9 @@ gregtech:gt.blockmachines - 5123
 
 pipeLargeAnyCopper
 gregtech:gt.blockmachines - 5113
+
+
+pipeLargeArdite
 
 
 pipeLargeArsenic
@@ -79958,6 +81675,9 @@ gregtech:gt.blockmachines - 5603
 
 pipeLargeBronze
 gregtech:gt.blockmachines - 5123
+
+
+pipeLargeCadmium
 
 
 pipeLargeCaesium
@@ -80019,6 +81739,9 @@ pipeLargeEnderium
 pipeLargeEnderiumBase
 
 
+pipeLargeEndium
+
+
 pipeLargeEnergeticAlloy
 
 
@@ -80041,6 +81764,9 @@ pipeLargeGlass
 
 
 pipeLargeGold
+
+
+pipeLargeHSLA
 
 
 pipeLargeHSSE
@@ -80106,6 +81832,9 @@ pipeLargeManasteel
 pipeLargeManganese
 
 
+pipeLargeManyullyn
+
+
 pipeLargeMeatCooked
 
 
@@ -80152,6 +81881,9 @@ pipeLargeNiobiumNitride
 
 
 pipeLargeNiobiumTitanium
+
+
+pipeLargeObsidian
 
 
 pipeLargeOsmiridium
@@ -80209,6 +81941,9 @@ pipeLargeRoseGold
 
 
 pipeLargeRubber
+
+
+pipeLargeRutile
 
 
 pipeLargeSignalum
@@ -80325,6 +82060,12 @@ pipeMediumAdamantium
 pipeMediumAluminium
 
 
+pipeMediumAluminiumBrass
+
+
+pipeMediumAlumite
+
+
 pipeMediumAmericium
 
 
@@ -80337,6 +82078,9 @@ gregtech:gt.blockmachines - 5122
 
 pipeMediumAnyCopper
 gregtech:gt.blockmachines - 5112
+
+
+pipeMediumArdite
 
 
 pipeMediumArsenic
@@ -80369,6 +82113,9 @@ gregtech:gt.blockmachines - 5602
 
 pipeMediumBronze
 gregtech:gt.blockmachines - 5122
+
+
+pipeMediumCadmium
 
 
 pipeMediumCaesium
@@ -80430,6 +82177,9 @@ pipeMediumEnderium
 pipeMediumEnderiumBase
 
 
+pipeMediumEndium
+
+
 pipeMediumEnergeticAlloy
 
 
@@ -80452,6 +82202,9 @@ pipeMediumGlass
 
 
 pipeMediumGold
+
+
+pipeMediumHSLA
 
 
 pipeMediumHSSE
@@ -80517,6 +82270,9 @@ pipeMediumManasteel
 pipeMediumManganese
 
 
+pipeMediumManyullyn
+
+
 pipeMediumMeatCooked
 
 
@@ -80563,6 +82319,9 @@ pipeMediumNiobiumNitride
 
 
 pipeMediumNiobiumTitanium
+
+
+pipeMediumObsidian
 
 
 pipeMediumOsmiridium
@@ -80620,6 +82379,9 @@ pipeMediumRoseGold
 
 
 pipeMediumRubber
+
+
+pipeMediumRutile
 
 
 pipeMediumSignalum
@@ -80788,6 +82550,12 @@ pipeSmallAdamantium
 pipeSmallAluminium
 
 
+pipeSmallAluminiumBrass
+
+
+pipeSmallAlumite
+
+
 pipeSmallAmericium
 
 
@@ -80800,6 +82568,9 @@ gregtech:gt.blockmachines - 5121
 
 pipeSmallAnyCopper
 gregtech:gt.blockmachines - 5111
+
+
+pipeSmallArdite
 
 
 pipeSmallArsenic
@@ -80831,6 +82602,9 @@ pipeSmallBrass
 
 pipeSmallBronze
 gregtech:gt.blockmachines - 5121
+
+
+pipeSmallCadmium
 
 
 pipeSmallCaesium
@@ -80891,6 +82665,9 @@ pipeSmallEnderium
 pipeSmallEnderiumBase
 
 
+pipeSmallEndium
+
+
 pipeSmallEnergeticAlloy
 
 
@@ -80913,6 +82690,9 @@ pipeSmallGlass
 
 
 pipeSmallGold
+
+
+pipeSmallHSLA
 
 
 pipeSmallHSSE
@@ -80978,6 +82758,9 @@ pipeSmallManasteel
 pipeSmallManganese
 
 
+pipeSmallManyullyn
+
+
 pipeSmallMeatCooked
 
 
@@ -81024,6 +82807,9 @@ pipeSmallNiobiumNitride
 
 
 pipeSmallNiobiumTitanium
+
+
+pipeSmallObsidian
 
 
 pipeSmallOsmiridium
@@ -81079,6 +82865,9 @@ pipeSmallRoseGold
 
 
 pipeSmallRubber
+
+
+pipeSmallRutile
 
 
 pipeSmallSignalum
@@ -81195,6 +82984,12 @@ pipeTinyAdamantium
 pipeTinyAluminium
 
 
+pipeTinyAluminiumBrass
+
+
+pipeTinyAlumite
+
+
 pipeTinyAmericium
 
 
@@ -81207,6 +83002,9 @@ gregtech:gt.blockmachines - 5120
 
 pipeTinyAnyCopper
 gregtech:gt.blockmachines - 5110
+
+
+pipeTinyArdite
 
 
 pipeTinyArsenic
@@ -81238,6 +83036,9 @@ pipeTinyBrass
 
 pipeTinyBronze
 gregtech:gt.blockmachines - 5120
+
+
+pipeTinyCadmium
 
 
 pipeTinyCaesium
@@ -81298,6 +83099,9 @@ pipeTinyEnderium
 pipeTinyEnderiumBase
 
 
+pipeTinyEndium
+
+
 pipeTinyEnergeticAlloy
 
 
@@ -81320,6 +83124,9 @@ pipeTinyGlass
 
 
 pipeTinyGold
+
+
+pipeTinyHSLA
 
 
 pipeTinyHSSE
@@ -81385,6 +83192,9 @@ pipeTinyManasteel
 pipeTinyManganese
 
 
+pipeTinyManyullyn
+
+
 pipeTinyMeatCooked
 
 
@@ -81431,6 +83241,9 @@ pipeTinyNiobiumNitride
 
 
 pipeTinyNiobiumTitanium
+
+
+pipeTinyObsidian
 
 
 pipeTinyOsmiridium
@@ -81486,6 +83299,9 @@ pipeTinyRoseGold
 
 
 pipeTinyRubber
+
+
+pipeTinyRutile
 
 
 pipeTinySignalum
@@ -81664,6 +83480,7 @@ ExtraUtilities:colorWoodPlanks - 15
 witchery:witchwood - any
 arsmagica2:planksWitchwood - 0
 TwilightForest:tile.TFTowerStone - any
+aether:skyrootPlank - 0
 
 
 plankWoodBlack
@@ -81817,8 +83634,14 @@ plateAluminium
 gregtech:gt.metaitem.01 - 17019
 
 
+plateAluminiumBrass
+
+
 plateAluminum
 ImmersiveEngineering:metal - 32
+
+
+plateAlumite
 
 
 plateAmber
@@ -81831,6 +83654,9 @@ gregtech:gt.metaitem.01 - 17103
 
 plateAmethyst
 gregtech:gt.metaitem.01 - 17509
+
+
+plateAmmonium
 
 
 plateAndesite
@@ -81921,6 +83747,9 @@ IC2:itemPlates - 2
 gregtech:gt.metaitem.01 - 17300
 
 
+plateCadmium
+
+
 plateCaesium
 
 
@@ -81982,6 +83811,12 @@ plateDarkSteel
 gregtech:gt.metaitem.01 - 17364
 
 
+plateDenseAluminiumBrass
+
+
+plateDenseAlumite
+
+
 plateDenseAnyBronze
 IC2:itemDensePlates - 2
 
@@ -81994,6 +83829,9 @@ gregtech:gt.metaitem.01 - 22035
 plateDenseAnyIron
 IC2:itemDensePlates - 4
 gregtech:gt.metaitem.01 - 22032
+
+
+plateDenseArdite
 
 
 plateDenseBronze
@@ -82048,6 +83886,9 @@ plateDenseLumium
 
 
 plateDenseManasteel
+
+
+plateDenseManyullyn
 
 
 plateDenseMoonstone
@@ -82119,6 +83960,12 @@ plateDoubleAluminium
 gregtech:gt.metaitem.01 - 18019
 
 
+plateDoubleAluminiumBrass
+
+
+plateDoubleAlumite
+
+
 plateDoubleAnyBronze
 gregtech:gt.metaitem.01 - 18300
 
@@ -82127,6 +83974,9 @@ plateDoubleAnyIron
 gregtech:gt.metaitem.01 - 18032
 gregtech:gt.metaitem.01 - 18304
 gregtech:gt.metaitem.01 - 18307
+
+
+plateDoubleArdite
 
 
 plateDoubleBeryllium
@@ -82237,11 +84087,18 @@ plateDoubleFierySteel
 gregtech:gt.metaitem.01 - 18346
 
 
+plateDoubleForce
+
+
 plateDoubleGold
 gregtech:gt.metaitem.01 - 18086
 
 
 plateDoubleGraphene
+
+
+plateDoubleHSLA
+gregtech:gt.metaitem.01 - 18322
 
 
 plateDoubleHSSE
@@ -82307,6 +84164,9 @@ plateDoubleManasteel
 
 plateDoubleManganese
 gregtech:gt.metaitem.01 - 18031
+
+
+plateDoubleManyullyn
 
 
 plateDoubleMeteoricIron
@@ -82518,6 +84378,9 @@ plateDoubleWroughtIron
 gregtech:gt.metaitem.01 - 18304
 
 
+plateDraconium
+
+
 plateDuranium
 gregtech:gt.metaitem.01 - 17328
 
@@ -82543,6 +84406,9 @@ plateEmerald
 gregtech:gt.metaitem.01 - 17501
 
 
+plateEnder
+
+
 plateEnderEye
 gregtech:gt.metaitem.01 - 17533
 
@@ -82556,6 +84422,9 @@ gregtech:gt.metaitem.01 - 17321
 
 
 plateEnderiumBase
+
+
+plateEndium
 
 
 plateEnergeticAlloy
@@ -82641,6 +84510,7 @@ gregtech:gt.metaitem.01 - 17504
 
 
 plateHSLA
+gregtech:gt.metaitem.01 - 17322
 
 
 plateHSSE
@@ -82768,6 +84638,9 @@ plateManasteel
 
 plateManganese
 gregtech:gt.metaitem.01 - 17031
+
+
+plateManyullyn
 
 
 plateMeatRaw
@@ -82920,6 +84793,15 @@ platePrismarine
 platePulsatingIron
 
 
+plateQuadrupleAluminiumBrass
+
+
+plateQuadrupleAlumite
+
+
+plateQuadrupleArdite
+
+
 plateQuadrupleChimerite
 
 
@@ -82945,6 +84827,9 @@ plateQuadrupleLumium
 
 
 plateQuadrupleManasteel
+
+
+plateQuadrupleManyullyn
 
 
 plateQuadrupleMoonstone
@@ -82984,6 +84869,21 @@ plateQuadrupleVibrantAlloy
 plateQuadrupleVoid
 
 
+plateQuantum
+
+
+plateQuicklime
+
+
+plateQuintupleAluminiumBrass
+
+
+plateQuintupleAlumite
+
+
+plateQuintupleArdite
+
+
 plateQuintupleChimerite
 
 
@@ -83009,6 +84909,9 @@ plateQuintupleLumium
 
 
 plateQuintupleManasteel
+
+
+plateQuintupleManyullyn
 
 
 plateQuintupleMoonstone
@@ -83073,6 +84976,9 @@ gregtech:gt.metaitem.01 - 17880
 
 plateRuby
 gregtech:gt.metaitem.01 - 17502
+
+
+plateRutile
 
 
 plateSapphire
@@ -83220,6 +85126,9 @@ gregtech:gt.metaitem.01 - 17508
 plateTerrasteel
 
 
+plateTeslatite
+
+
 plateThaumium
 gregtech:gt.metaitem.01 - 17330
 
@@ -83244,6 +85153,15 @@ gregtech:gt.metaitem.01 - 17028
 
 plateTopaz
 gregtech:gt.metaitem.01 - 17507
+
+
+plateTripleAluminiumBrass
+
+
+plateTripleAlumite
+
+
+plateTripleArdite
 
 
 plateTripleChimerite
@@ -83271,6 +85189,9 @@ plateTripleLumium
 
 
 plateTripleManasteel
+
+
+plateTripleManyullyn
 
 
 plateTripleMoonstone
@@ -83503,6 +85424,7 @@ Forestry:woodPulp - 0
 gregtech:gt.metaitem.01 - 2809
 ExtraTrees:misc - 1
 ThermalExpansion:material - 512
+RotaryCraft:rotarycraft_item_powders - 3
 
 
 quartzBlaze
@@ -83959,6 +85881,12 @@ ringAluminium
 gregtech:gt.metaitem.01 - 28019
 
 
+ringAluminiumBrass
+
+
+ringAlumite
+
+
 ringAnyBronze
 gregtech:gt.metaitem.01 - 28300
 
@@ -83971,6 +85899,9 @@ ringAnyIron
 gregtech:gt.metaitem.01 - 28032
 gregtech:gt.metaitem.01 - 28304
 gregtech:gt.metaitem.01 - 28307
+
+
+ringArdite
 
 
 ringBeryllium
@@ -84063,9 +85994,13 @@ ringFierySteel
 
 
 ringGold
+gregtech:gt.metaitem.01 - 28086
 
 
 ringGraphene
+
+
+ringHSLA
 
 
 ringHSSE
@@ -84122,6 +86057,9 @@ ringManasteel
 
 
 ringManganese
+
+
+ringManyullyn
 
 
 ringMeteoricIron
@@ -84302,8 +86240,20 @@ ringVibrantAlloy
 ringVoid
 
 
+ringWood
+gregtech:gt.metaitem.01 - 28809
+
+
 ringWroughtIron
 gregtech:gt.metaitem.01 - 28304
+
+
+rodAlumite
+TConstruct:toolRod - 15
+
+
+rodArdite
+TConstruct:toolRod - 11
 
 
 rodBasalz
@@ -84322,8 +86272,72 @@ rodBlizz
 ThermalFoundation:material - 1024
 
 
+rodBlueslime
+TConstruct:toolRod - 17
+
+
+rodBone
+TConstruct:toolRod - 5
+
+
+rodBrass
+
+
+rodBronze
+TConstruct:toolRod - 14
+
+
+rodCactus
+TConstruct:toolRod - 4
+
+
+rodCobalt
+TConstruct:toolRod - 10
+
+
+rodCopper
+TConstruct:toolRod - 13
+
+
+rodFlint
+TConstruct:toolRod - 3
+
+
+rodIron
+TConstruct:toolRod - 2
+
+
+rodManyullyn
+TConstruct:toolRod - 12
+
+
+rodNetherrack
+TConstruct:toolRod - 7
+
+
+rodObsidian
+TConstruct:toolRod - 6
+
+
+rodPaper
+TConstruct:toolRod - 9
+
+
+rodSlime
+TConstruct:toolRod - 8
+
+
+rodSteel
+TConstruct:toolRod - 16
+
+
 rodStone
+TConstruct:toolRod - 1
 ForgeMicroblock:stoneRod - 0
+
+
+rodWood
+TConstruct:toolRod - 0
 
 
 rotorAnyBronze
@@ -84398,6 +86412,9 @@ roundNeutronium
 gregtech:gt.metaitem.01 - 25129
 
 
+rubber
+
+
 rubbleAdamantium
 aobd:rubbleAdamantium - 0
 
@@ -84424,6 +86441,10 @@ aobd:rubbleBeryllium - 0
 
 rubbleBismuth
 Magneticraft:item.rubble - 17
+
+
+rubbleCadmium
+aobd:rubbleCadmium - 0
 
 
 rubbleChrome
@@ -84460,6 +86481,10 @@ Magneticraft:item.rubble - 1
 
 rubbleHeeEndium
 aobd:rubbleHeeEndium - 0
+
+
+rubbleIndium
+aobd:rubbleIndium - 0
 
 
 rubbleInfusedGold
@@ -84536,6 +86561,10 @@ Magneticraft:item.rubble - 14
 
 rubblePlutonium
 aobd:rubblePlutonium - 0
+
+
+rubbleRutile
+aobd:rubbleRutile - 0
 
 
 rubbleSilicon
@@ -84649,6 +86678,7 @@ minecraft:fish - 0
 sand
 minecraft:sand - any
 minecraft:sand - 0
+aether:quicksoil - 0
 
 
 sandstone
@@ -84825,6 +86855,10 @@ screwGraphite
 
 screwGreenSapphire
 gregtech:gt.metaitem.01 - 27504
+
+
+screwHSLA
+gregtech:gt.metaitem.01 - 27322
 
 
 screwHSSE
@@ -85139,6 +87173,7 @@ gregtech:gt.metaitem.01 - 27304
 
 
 seed
+RotaryCraft:rotarycraft_item_canola - 0
 ProjRed|Exploration:projectred.exploration.lilyseed - 0
 minecraft:wheat_seeds - 0
 minecraft:pumpkin_seeds - 0
@@ -85672,6 +87707,7 @@ harvestcraft:zucchiniseedItem - 0
 shardAir
 Thaumcraft:ItemShard - 0
 gregtech:gt.metaitem.01 - 8540
+RotaryCraft:rotarycraft_item_modingots - 13
 
 
 shardAlmandine
@@ -85799,6 +87835,7 @@ shardDiatomite
 shardEarth
 Thaumcraft:ItemShard - 3
 gregtech:gt.metaitem.01 - 8542
+RotaryCraft:rotarycraft_item_modingots - 16
 
 
 shardEmerald
@@ -85811,14 +87848,17 @@ shardEndstone
 shardEntropy
 Thaumcraft:ItemShard - 5
 gregtech:gt.metaitem.01 - 8544
+RotaryCraft:rotarycraft_item_modingots - 17
 
 
 shardFire
 Thaumcraft:ItemShard - 1
 gregtech:gt.metaitem.01 - 8541
+RotaryCraft:rotarycraft_item_modingots - 14
 
 
 shardFirestone
+RotaryCraft:rotarycraft_item_modingots - 8
 
 
 shardFlint
@@ -85979,6 +88019,7 @@ shardOpal
 shardOrder
 Thaumcraft:ItemShard - 4
 gregtech:gt.metaitem.01 - 8545
+RotaryCraft:rotarycraft_item_modingots - 18
 
 
 shardOsmium
@@ -86122,6 +88163,7 @@ shardVanadiumMagnetite
 shardWater
 Thaumcraft:ItemShard - 2
 gregtech:gt.metaitem.01 - 8543
+RotaryCraft:rotarycraft_item_modingots - 15
 
 
 shardWroughtIron
@@ -86146,6 +88188,10 @@ sheetRubber
 gregtech:gt.metaitem.01 - 17880
 
 
+silicon
+RotaryCraft:rotarycraft_item_compacts - 10
+
+
 singularityAdamantium
 aobd:singularityAdamantium - 0
 
@@ -86166,6 +88212,10 @@ singularityBismuth
 aobd:singularityBismuth - 0
 
 
+singularityCadmium
+aobd:singularityCadmium - 0
+
+
 singularityChrome
 aobd:singularityChrome - 0
 
@@ -86180,6 +88230,10 @@ aobd:singularityDesh - 0
 
 singularityHeeEndium
 aobd:singularityHeeEndium - 0
+
+
+singularityIndium
+aobd:singularityIndium - 0
 
 
 singularityInfusedGold
@@ -86224,6 +88278,10 @@ aobd:singularityNeodymium - 0
 
 singularityPlutonium
 aobd:singularityPlutonium - 0
+
+
+singularityRutile
+aobd:singularityRutile - 0
 
 
 singularitySilicon
@@ -87043,6 +89101,11 @@ slabBricks
 minecraft:stone_slab - 4
 
 
+slabCloth
+TConstruct:WoolSlab1 - any
+TConstruct:WoolSlab2 - any
+
+
 slabCobblestone
 minecraft:stone_slab - 3
 
@@ -87171,9 +89234,16 @@ slabWoodSpruce
 minecraft:wooden_slab - 1
 
 
+slimeRod
+TConstruct:toolRod - 8
+
+
 slimeball
 minecraft:slime_ball - 0
 MineFactoryReloaded:pinkslime - 0
+TConstruct:strangeFood - 0
+TConstruct:strangeFood - 1
+TConstruct:materials - 36
 
 
 slimeballPink
@@ -87189,7 +89259,6 @@ minecraft:soul_sand - 0
 
 
 soulsand
-minecraft:soul_sand - 0
 ExtraUtilities:color_hellsand - 0
 ExtraUtilities:color_hellsand - 1
 ExtraUtilities:color_hellsand - 2
@@ -87206,6 +89275,7 @@ ExtraUtilities:color_hellsand - 12
 ExtraUtilities:color_hellsand - 13
 ExtraUtilities:color_hellsand - 14
 ExtraUtilities:color_hellsand - 15
+minecraft:soul_sand - 0
 
 
 soulsandBlack
@@ -87270,6 +89340,10 @@ ExtraUtilities:color_hellsand - 15
 
 soulsandYellow
 ExtraUtilities:color_hellsand - 11
+
+
+sourceVegetableOil
+RotaryCraft:rotarycraft_item_canola - 0
 
 
 springTitanium
@@ -87500,8 +89574,15 @@ arsmagica2:stairsWitchwood - 0
 stairsWood
 
 
+steelIngot
+
+
 steelNugget
 MoarSigns:NuggetItems - 6
+
+
+steelRod
+TConstruct:toolRod - 16
 
 
 steeleaf
@@ -87517,8 +89598,14 @@ stickAluminium
 gregtech:gt.metaitem.01 - 23019
 
 
+stickAluminiumBrass
+
+
 stickAluminum
 ImmersiveEngineering:material - 16
+
+
+stickAlumite
 
 
 stickAmber
@@ -87553,6 +89640,9 @@ gregtech:gt.metaitem.01 - 23304
 gregtech:gt.metaitem.01 - 23307
 ImmersiveEngineering:material - 14
 Magneticraft:item.stick_iron - 0
+
+
+stickArdite
 
 
 stickArsenic
@@ -87737,6 +89827,10 @@ stickGraphite
 
 stickGreenSapphire
 gregtech:gt.metaitem.01 - 23504
+
+
+stickHSLA
+gregtech:gt.metaitem.01 - 23322
 
 
 stickHSSE
@@ -87994,6 +90088,10 @@ stickLongGraphene
 
 stickLongGreenSapphire
 gregtech:gt.metaitem.02 - 22504
+
+
+stickLongHSLA
+gregtech:gt.metaitem.02 - 22322
 
 
 stickLongHSSE
@@ -88341,6 +90439,9 @@ stickManganese
 gregtech:gt.metaitem.01 - 23031
 
 
+stickManyullyn
+
+
 stickMeteoricIron
 gregtech:gt.metaitem.01 - 23340
 
@@ -88412,6 +90513,7 @@ stickNiobiumTitanium
 
 stickObsidian
 RandomThings:ingredient - 1
+TConstruct:toolRod - 6
 WR-CBE|Core:obsidianStick - 0
 
 
@@ -88649,6 +90751,7 @@ Natura:natura.stick - 10
 Natura:natura.stick - 11
 BiomesOPlenty:bamboo - 0
 BiomesOPlenty:plants - 8
+aether:skyrootStick - 0
 
 
 stickWoodSealed
@@ -88688,6 +90791,7 @@ ExtraUtilities:color_stone - 12
 ExtraUtilities:color_stone - 13
 ExtraUtilities:color_stone - 14
 ExtraUtilities:color_stone - 15
+aether:holystone - 1
 
 
 stoneAndesite
@@ -88776,6 +90880,7 @@ ExtraUtilities:color_stonebrick - 12
 ExtraUtilities:color_stonebrick - 13
 ExtraUtilities:color_stonebrick - 14
 ExtraUtilities:color_stonebrick - 15
+aether:holystone - 3
 
 
 stoneConcrete
@@ -88903,6 +91008,7 @@ gregtech:gt.blockstones - 7
 stoneMossy
 minecraft:mossy_cobblestone - any
 minecraft:stonebrick - 1
+aether:holystone - 3
 
 
 stoneNetherBrick
@@ -88935,6 +91041,10 @@ stoneRed
 ExtraUtilities:color_stone - 1
 
 
+stoneRod
+TConstruct:toolRod - 1
+
+
 stoneSand
 minecraft:sandstone - any
 
@@ -88959,6 +91069,7 @@ ExtraUtilities:color_stone - 12
 ExtraUtilities:color_stone - 13
 ExtraUtilities:color_stone - 14
 ExtraUtilities:color_stone - 15
+aether:holystone - 1
 
 
 stoneWhite
@@ -88980,6 +91091,10 @@ Natura:soil.tainted - 0
 
 
 tendrilTaint
+
+
+thaumiumRod
+TConstruct:toolRod - 31
 
 
 thermalexpansion:machineBronze
@@ -89091,6 +91206,12 @@ toolHeadAxeAluminium
 gregtech:gt.metaitem.02 - 3019
 
 
+toolHeadAxeAluminiumBrass
+
+
+toolHeadAxeAlumite
+
+
 toolHeadAxeAmber
 gregtech:gt.metaitem.02 - 3514
 
@@ -89113,6 +91234,9 @@ toolHeadAxeAnyIron
 gregtech:gt.metaitem.02 - 3032
 gregtech:gt.metaitem.02 - 3304
 gregtech:gt.metaitem.02 - 3307
+
+
+toolHeadAxeArdite
 
 
 toolHeadAxeArsenic
@@ -89159,6 +91283,9 @@ gregtech:gt.metaitem.02 - 3301
 
 toolHeadAxeBronze
 gregtech:gt.metaitem.02 - 3300
+
+
+toolHeadAxeCadmium
 
 
 toolHeadAxeCaesium
@@ -89241,6 +91368,9 @@ gregtech:gt.metaitem.02 - 3321
 toolHeadAxeEnderiumBase
 
 
+toolHeadAxeEndium
+
+
 toolHeadAxeEnergeticAlloy
 
 
@@ -89302,6 +91432,10 @@ gregtech:gt.metaitem.02 - 3865
 
 toolHeadAxeGreenSapphire
 gregtech:gt.metaitem.02 - 3504
+
+
+toolHeadAxeHSLA
+gregtech:gt.metaitem.02 - 3322
 
 
 toolHeadAxeHSSE
@@ -89408,6 +91542,9 @@ toolHeadAxeManganese
 gregtech:gt.metaitem.02 - 3031
 
 
+toolHeadAxeManyullyn
+
+
 toolHeadAxeMeatCooked
 
 
@@ -89478,6 +91615,9 @@ toolHeadAxeNiobiumNitride
 
 
 toolHeadAxeNiobiumTitanium
+
+
+toolHeadAxeObsidian
 
 
 toolHeadAxeOlivine
@@ -89560,6 +91700,9 @@ gregtech:gt.metaitem.02 - 3880
 
 toolHeadAxeRuby
 gregtech:gt.metaitem.02 - 3502
+
+
+toolHeadAxeRutile
 
 
 toolHeadAxeSapphire
@@ -89820,6 +91963,10 @@ gregtech:gt.metaitem.02 - 15086
 
 toolHeadBuzzSawGraphene
 gregtech:gt.metaitem.02 - 15819
+
+
+toolHeadBuzzSawHSLA
+gregtech:gt.metaitem.02 - 15322
 
 
 toolHeadBuzzSawHSSE
@@ -90164,6 +92311,10 @@ toolHeadChainsawGraphene
 gregtech:gt.metaitem.02 - 9819
 
 
+toolHeadChainsawHSLA
+gregtech:gt.metaitem.02 - 9322
+
+
 toolHeadChainsawHSSE
 gregtech:gt.metaitem.02 - 9373
 
@@ -90506,6 +92657,10 @@ toolHeadDrillGraphene
 gregtech:gt.metaitem.02 - 8819
 
 
+toolHeadDrillHSLA
+gregtech:gt.metaitem.02 - 8322
+
+
 toolHeadDrillHSSE
 gregtech:gt.metaitem.02 - 8373
 
@@ -90742,6 +92897,12 @@ toolHeadFileAluminium
 gregtech:gt.metaitem.02 - 6019
 
 
+toolHeadFileAluminiumBrass
+
+
+toolHeadFileAlumite
+
+
 toolHeadFileAmericium
 
 
@@ -90756,6 +92917,9 @@ toolHeadFileAnyIron
 gregtech:gt.metaitem.02 - 6032
 gregtech:gt.metaitem.02 - 6304
 gregtech:gt.metaitem.02 - 6307
+
+
+toolHeadFileArdite
 
 
 toolHeadFileArsenic
@@ -90798,6 +92962,9 @@ gregtech:gt.metaitem.02 - 6301
 
 toolHeadFileBronze
 gregtech:gt.metaitem.02 - 6300
+
+
+toolHeadFileCadmium
 
 
 toolHeadFileCaesium
@@ -90868,6 +93035,9 @@ gregtech:gt.metaitem.02 - 6321
 toolHeadFileEnderiumBase
 
 
+toolHeadFileEndium
+
+
 toolHeadFileEnergeticAlloy
 
 
@@ -90897,6 +93067,10 @@ gregtech:gt.metaitem.02 - 6086
 
 toolHeadFileGraphene
 gregtech:gt.metaitem.02 - 6819
+
+
+toolHeadFileHSLA
+gregtech:gt.metaitem.02 - 6322
 
 
 toolHeadFileHSSE
@@ -90979,6 +93153,9 @@ toolHeadFileManganese
 gregtech:gt.metaitem.02 - 6031
 
 
+toolHeadFileManyullyn
+
+
 toolHeadFileMeatCooked
 
 
@@ -91041,6 +93218,9 @@ toolHeadFileNiobiumNitride
 
 
 toolHeadFileNiobiumTitanium
+
+
+toolHeadFileObsidian
 
 
 toolHeadFileOsmiridium
@@ -91109,6 +93289,9 @@ gregtech:gt.metaitem.02 - 6351
 
 
 toolHeadFileRubber
+
+
+toolHeadFileRutile
 
 
 toolHeadFileSignalum
@@ -91240,6 +93423,12 @@ toolHeadHammerAluminium
 gregtech:gt.metaitem.02 - 5019
 
 
+toolHeadHammerAluminiumBrass
+
+
+toolHeadHammerAlumite
+
+
 toolHeadHammerAmber
 gregtech:gt.metaitem.02 - 5514
 
@@ -91262,6 +93451,9 @@ toolHeadHammerAnyIron
 gregtech:gt.metaitem.02 - 5032
 gregtech:gt.metaitem.02 - 5304
 gregtech:gt.metaitem.02 - 5307
+
+
+toolHeadHammerArdite
 
 
 toolHeadHammerArsenic
@@ -91308,6 +93500,9 @@ gregtech:gt.metaitem.02 - 5301
 
 toolHeadHammerBronze
 gregtech:gt.metaitem.02 - 5300
+
+
+toolHeadHammerCadmium
 
 
 toolHeadHammerCaesium
@@ -91390,6 +93585,9 @@ gregtech:gt.metaitem.02 - 5321
 toolHeadHammerEnderiumBase
 
 
+toolHeadHammerEndium
+
+
 toolHeadHammerEnergeticAlloy
 
 
@@ -91451,6 +93649,10 @@ gregtech:gt.metaitem.02 - 5865
 
 toolHeadHammerGreenSapphire
 gregtech:gt.metaitem.02 - 5504
+
+
+toolHeadHammerHSLA
+gregtech:gt.metaitem.02 - 5322
 
 
 toolHeadHammerHSSE
@@ -91557,6 +93759,9 @@ toolHeadHammerManganese
 gregtech:gt.metaitem.02 - 5031
 
 
+toolHeadHammerManyullyn
+
+
 toolHeadHammerMeatCooked
 
 
@@ -91627,6 +93832,9 @@ toolHeadHammerNiobiumNitride
 
 
 toolHeadHammerNiobiumTitanium
+
+
+toolHeadHammerObsidian
 
 
 toolHeadHammerOlivine
@@ -91709,6 +93917,9 @@ gregtech:gt.metaitem.02 - 5880
 
 toolHeadHammerRuby
 gregtech:gt.metaitem.02 - 5502
+
+
+toolHeadHammerRutile
 
 
 toolHeadHammerSapphire
@@ -91865,6 +94076,12 @@ toolHeadHoeAluminium
 gregtech:gt.metaitem.02 - 4019
 
 
+toolHeadHoeAluminiumBrass
+
+
+toolHeadHoeAlumite
+
+
 toolHeadHoeAmber
 gregtech:gt.metaitem.02 - 4514
 
@@ -91887,6 +94104,9 @@ toolHeadHoeAnyIron
 gregtech:gt.metaitem.02 - 4032
 gregtech:gt.metaitem.02 - 4304
 gregtech:gt.metaitem.02 - 4307
+
+
+toolHeadHoeArdite
 
 
 toolHeadHoeArsenic
@@ -91933,6 +94153,9 @@ gregtech:gt.metaitem.02 - 4301
 
 toolHeadHoeBronze
 gregtech:gt.metaitem.02 - 4300
+
+
+toolHeadHoeCadmium
 
 
 toolHeadHoeCaesium
@@ -92015,6 +94238,9 @@ gregtech:gt.metaitem.02 - 4321
 toolHeadHoeEnderiumBase
 
 
+toolHeadHoeEndium
+
+
 toolHeadHoeEnergeticAlloy
 
 
@@ -92076,6 +94302,10 @@ gregtech:gt.metaitem.02 - 4865
 
 toolHeadHoeGreenSapphire
 gregtech:gt.metaitem.02 - 4504
+
+
+toolHeadHoeHSLA
+gregtech:gt.metaitem.02 - 4322
 
 
 toolHeadHoeHSSE
@@ -92182,6 +94412,9 @@ toolHeadHoeManganese
 gregtech:gt.metaitem.02 - 4031
 
 
+toolHeadHoeManyullyn
+
+
 toolHeadHoeMeatCooked
 
 
@@ -92252,6 +94485,9 @@ toolHeadHoeNiobiumNitride
 
 
 toolHeadHoeNiobiumTitanium
+
+
+toolHeadHoeObsidian
 
 
 toolHeadHoeOlivine
@@ -92334,6 +94570,9 @@ gregtech:gt.metaitem.02 - 4880
 
 toolHeadHoeRuby
 gregtech:gt.metaitem.02 - 4502
+
+
+toolHeadHoeRutile
 
 
 toolHeadHoeSapphire
@@ -92490,6 +94729,12 @@ toolHeadPickaxeAluminium
 gregtech:gt.metaitem.02 - 1019
 
 
+toolHeadPickaxeAluminiumBrass
+
+
+toolHeadPickaxeAlumite
+
+
 toolHeadPickaxeAmber
 gregtech:gt.metaitem.02 - 1514
 
@@ -92512,6 +94757,9 @@ toolHeadPickaxeAnyIron
 gregtech:gt.metaitem.02 - 1032
 gregtech:gt.metaitem.02 - 1304
 gregtech:gt.metaitem.02 - 1307
+
+
+toolHeadPickaxeArdite
 
 
 toolHeadPickaxeArsenic
@@ -92558,6 +94806,9 @@ gregtech:gt.metaitem.02 - 1301
 
 toolHeadPickaxeBronze
 gregtech:gt.metaitem.02 - 1300
+
+
+toolHeadPickaxeCadmium
 
 
 toolHeadPickaxeCaesium
@@ -92640,6 +94891,9 @@ gregtech:gt.metaitem.02 - 1321
 toolHeadPickaxeEnderiumBase
 
 
+toolHeadPickaxeEndium
+
+
 toolHeadPickaxeEnergeticAlloy
 
 
@@ -92701,6 +94955,10 @@ gregtech:gt.metaitem.02 - 1865
 
 toolHeadPickaxeGreenSapphire
 gregtech:gt.metaitem.02 - 1504
+
+
+toolHeadPickaxeHSLA
+gregtech:gt.metaitem.02 - 1322
 
 
 toolHeadPickaxeHSSE
@@ -92807,6 +95065,9 @@ toolHeadPickaxeManganese
 gregtech:gt.metaitem.02 - 1031
 
 
+toolHeadPickaxeManyullyn
+
+
 toolHeadPickaxeMeatCooked
 
 
@@ -92877,6 +95138,9 @@ toolHeadPickaxeNiobiumNitride
 
 
 toolHeadPickaxeNiobiumTitanium
+
+
+toolHeadPickaxeObsidian
 
 
 toolHeadPickaxeOlivine
@@ -92959,6 +95223,9 @@ gregtech:gt.metaitem.02 - 1880
 
 toolHeadPickaxeRuby
 gregtech:gt.metaitem.02 - 1502
+
+
+toolHeadPickaxeRutile
 
 
 toolHeadPickaxeSapphire
@@ -93277,6 +95544,10 @@ toolHeadPlowGreenSapphire
 gregtech:gt.metaitem.02 - 13504
 
 
+toolHeadPlowHSLA
+gregtech:gt.metaitem.02 - 13322
+
+
 toolHeadPlowHSSE
 gregtech:gt.metaitem.02 - 13373
 
@@ -93593,6 +95864,12 @@ toolHeadSawAluminium
 gregtech:gt.metaitem.02 - 7019
 
 
+toolHeadSawAluminiumBrass
+
+
+toolHeadSawAlumite
+
+
 toolHeadSawAmericium
 
 
@@ -93607,6 +95884,9 @@ toolHeadSawAnyIron
 gregtech:gt.metaitem.02 - 7032
 gregtech:gt.metaitem.02 - 7304
 gregtech:gt.metaitem.02 - 7307
+
+
+toolHeadSawArdite
 
 
 toolHeadSawArsenic
@@ -93649,6 +95929,9 @@ gregtech:gt.metaitem.02 - 7301
 
 toolHeadSawBronze
 gregtech:gt.metaitem.02 - 7300
+
+
+toolHeadSawCadmium
 
 
 toolHeadSawCaesium
@@ -93719,6 +96002,9 @@ gregtech:gt.metaitem.02 - 7321
 toolHeadSawEnderiumBase
 
 
+toolHeadSawEndium
+
+
 toolHeadSawEnergeticAlloy
 
 
@@ -93748,6 +96034,10 @@ gregtech:gt.metaitem.02 - 7086
 
 toolHeadSawGraphene
 gregtech:gt.metaitem.02 - 7819
+
+
+toolHeadSawHSLA
+gregtech:gt.metaitem.02 - 7322
 
 
 toolHeadSawHSSE
@@ -93830,6 +96120,9 @@ toolHeadSawManganese
 gregtech:gt.metaitem.02 - 7031
 
 
+toolHeadSawManyullyn
+
+
 toolHeadSawMeatCooked
 
 
@@ -93892,6 +96185,9 @@ toolHeadSawNiobiumNitride
 
 
 toolHeadSawNiobiumTitanium
+
+
+toolHeadSawObsidian
 
 
 toolHeadSawOsmiridium
@@ -93960,6 +96256,9 @@ gregtech:gt.metaitem.02 - 7351
 
 
 toolHeadSawRubber
+
+
+toolHeadSawRutile
 
 
 toolHeadSawSignalum
@@ -94251,6 +96550,10 @@ gregtech:gt.metaitem.02 - 12865
 
 toolHeadSenseGreenSapphire
 gregtech:gt.metaitem.02 - 12504
+
+
+toolHeadSenseHSLA
+gregtech:gt.metaitem.02 - 12322
 
 
 toolHeadSenseHSSE
@@ -94569,6 +96872,12 @@ toolHeadShovelAluminium
 gregtech:gt.metaitem.02 - 2019
 
 
+toolHeadShovelAluminiumBrass
+
+
+toolHeadShovelAlumite
+
+
 toolHeadShovelAmber
 gregtech:gt.metaitem.02 - 2514
 
@@ -94591,6 +96900,9 @@ toolHeadShovelAnyIron
 gregtech:gt.metaitem.02 - 2032
 gregtech:gt.metaitem.02 - 2304
 gregtech:gt.metaitem.02 - 2307
+
+
+toolHeadShovelArdite
 
 
 toolHeadShovelArsenic
@@ -94637,6 +96949,9 @@ gregtech:gt.metaitem.02 - 2301
 
 toolHeadShovelBronze
 gregtech:gt.metaitem.02 - 2300
+
+
+toolHeadShovelCadmium
 
 
 toolHeadShovelCaesium
@@ -94719,6 +97034,9 @@ gregtech:gt.metaitem.02 - 2321
 toolHeadShovelEnderiumBase
 
 
+toolHeadShovelEndium
+
+
 toolHeadShovelEnergeticAlloy
 
 
@@ -94780,6 +97098,10 @@ gregtech:gt.metaitem.02 - 2865
 
 toolHeadShovelGreenSapphire
 gregtech:gt.metaitem.02 - 2504
+
+
+toolHeadShovelHSLA
+gregtech:gt.metaitem.02 - 2322
 
 
 toolHeadShovelHSSE
@@ -94886,6 +97208,9 @@ toolHeadShovelManganese
 gregtech:gt.metaitem.02 - 2031
 
 
+toolHeadShovelManyullyn
+
+
 toolHeadShovelMeatCooked
 
 
@@ -94956,6 +97281,9 @@ toolHeadShovelNiobiumNitride
 
 
 toolHeadShovelNiobiumTitanium
+
+
+toolHeadShovelObsidian
 
 
 toolHeadShovelOlivine
@@ -95038,6 +97366,9 @@ gregtech:gt.metaitem.02 - 2880
 
 toolHeadShovelRuby
 gregtech:gt.metaitem.02 - 2502
+
+
+toolHeadShovelRutile
 
 
 toolHeadShovelSapphire
@@ -95194,6 +97525,12 @@ toolHeadSwordAluminium
 gregtech:gt.metaitem.02 - 19
 
 
+toolHeadSwordAluminiumBrass
+
+
+toolHeadSwordAlumite
+
+
 toolHeadSwordAmber
 gregtech:gt.metaitem.02 - 514
 
@@ -95216,6 +97553,9 @@ toolHeadSwordAnyIron
 gregtech:gt.metaitem.02 - 32
 gregtech:gt.metaitem.02 - 304
 gregtech:gt.metaitem.02 - 307
+
+
+toolHeadSwordArdite
 
 
 toolHeadSwordArsenic
@@ -95262,6 +97602,9 @@ gregtech:gt.metaitem.02 - 301
 
 toolHeadSwordBronze
 gregtech:gt.metaitem.02 - 300
+
+
+toolHeadSwordCadmium
 
 
 toolHeadSwordCaesium
@@ -95344,6 +97687,9 @@ gregtech:gt.metaitem.02 - 321
 toolHeadSwordEnderiumBase
 
 
+toolHeadSwordEndium
+
+
 toolHeadSwordEnergeticAlloy
 
 
@@ -95405,6 +97751,10 @@ gregtech:gt.metaitem.02 - 865
 
 toolHeadSwordGreenSapphire
 gregtech:gt.metaitem.02 - 504
+
+
+toolHeadSwordHSLA
+gregtech:gt.metaitem.02 - 322
 
 
 toolHeadSwordHSSE
@@ -95511,6 +97861,9 @@ toolHeadSwordManganese
 gregtech:gt.metaitem.02 - 31
 
 
+toolHeadSwordManyullyn
+
+
 toolHeadSwordMeatCooked
 
 
@@ -95581,6 +97934,9 @@ toolHeadSwordNiobiumNitride
 
 
 toolHeadSwordNiobiumTitanium
+
+
+toolHeadSwordObsidian
 
 
 toolHeadSwordOlivine
@@ -95663,6 +98019,9 @@ gregtech:gt.metaitem.02 - 880
 
 toolHeadSwordRuby
 gregtech:gt.metaitem.02 - 502
+
+
+toolHeadSwordRutile
 
 
 toolHeadSwordSapphire
@@ -95979,6 +98338,10 @@ gregtech:gt.metaitem.02 - 11865
 
 toolHeadUniversalSpadeGreenSapphire
 gregtech:gt.metaitem.02 - 11504
+
+
+toolHeadUniversalSpadeHSLA
+gregtech:gt.metaitem.02 - 11322
 
 
 toolHeadUniversalSpadeHSSE
@@ -96403,6 +98766,10 @@ toolHeadWrenchGraphene
 gregtech:gt.metaitem.02 - 10819
 
 
+toolHeadWrenchHSLA
+gregtech:gt.metaitem.02 - 10322
+
+
 toolHeadWrenchHSSE
 gregtech:gt.metaitem.02 - 10373
 
@@ -96664,6 +99031,7 @@ minecraft:redstone_torch - 0
 
 
 torchStone
+TConstruct:decoration.stonetorch - 0
 
 
 transdimBlock
@@ -100814,6 +103182,12 @@ ChromatiCraft:chromaticraft_block_dyeleaf - 12
 ChromatiCraft:chromaticraft_block_dyeleaf - 13
 ChromatiCraft:chromaticraft_block_dyeleaf - 14
 ChromatiCraft:chromaticraft_block_dyeleaf - 15
+aether:greenSkyrootLeaves - any
+aether:goldenOakLeaves - any
+aether:darkBlueSkyrootLeaves - any
+aether:blueSkyrootLeaves - any
+aether:purpleFruitLeaves - any
+aether:purpleCrystalLeaves - any
 
 
 treeLeavesRubber
@@ -100850,6 +103224,12 @@ ChromatiCraft:chromaticraft_block_dyesapling - 12
 ChromatiCraft:chromaticraft_block_dyesapling - 13
 ChromatiCraft:chromaticraft_block_dyesapling - 14
 ChromatiCraft:chromaticraft_block_dyesapling - 15
+aether:greenSkyrootSapling - 0
+aether:goldenOakSapling - 0
+aether:purpleCrystalSapling - 0
+aether:orangeTree - 0
+aether:darkBlueSkyrootSapling - 0
+aether:blueSkyrootSapling - 0
 
 
 treeWood
@@ -100967,6 +103347,10 @@ gregtech:gt.metaitem.02 - 16086
 
 turbineBladeGraphene
 gregtech:gt.metaitem.02 - 16819
+
+
+turbineBladeHSLA
+gregtech:gt.metaitem.02 - 16322
 
 
 turbineBladeHSSE
@@ -101324,6 +103708,12 @@ wireGt01Aluminium
 gregtech:gt.blockmachines - 1580
 
 
+wireGt01AluminiumBrass
+
+
+wireGt01Alumite
+
+
 wireGt01Americium
 
 
@@ -101341,6 +103731,9 @@ gregtech:gt.blockmachines - 1380
 
 wireGt01AnyIron
 gregtech:gt.blockmachines - 1300
+
+
+wireGt01Ardite
 
 
 wireGt01Arsenic
@@ -101376,6 +103769,9 @@ wireGt01Brass
 
 
 wireGt01Bronze
+
+
+wireGt01Cadmium
 
 
 wireGt01Caesium
@@ -101440,6 +103836,9 @@ wireGt01Enderium
 wireGt01EnderiumBase
 
 
+wireGt01Endium
+
+
 wireGt01EnergeticAlloy
 
 
@@ -101467,6 +103866,9 @@ gregtech:gt.blockmachines - 1420
 
 wireGt01Graphene
 gregtech:gt.blockmachines - 1600
+
+
+wireGt01HSLA
 
 
 wireGt01HSSE
@@ -101539,6 +103941,9 @@ wireGt01Manasteel
 wireGt01Manganese
 
 
+wireGt01Manyullyn
+
+
 wireGt01MeatCooked
 
 
@@ -101590,6 +103995,9 @@ wireGt01NiobiumNitride
 
 wireGt01NiobiumTitanium
 gregtech:gt.blockmachines - 1720
+
+
+wireGt01Obsidian
 
 
 wireGt01Osmiridium
@@ -101647,6 +104055,9 @@ wireGt01RoseGold
 
 
 wireGt01Rubber
+
+
+wireGt01Rutile
 
 
 wireGt01Signalum
@@ -102524,6 +104935,10 @@ gregtech:gt.blockmachines - 1765
 
 wireGt16Zinc
 gregtech:gt.blockmachines - 1265
+
+
+woodRod
+TConstruct:toolRod - 0
 
 
 woodRubber

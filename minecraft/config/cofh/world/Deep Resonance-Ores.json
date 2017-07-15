@@ -1,34 +1,30 @@
 {
-"ResonatingOre": {
-        "template": "uniform",
-        "block": "deepresonance:oreResonating",
-        "material": "minecraft:stone",
-        "clusterSize": 8,
-        "numClusters": 8,
-        "minHeight": 2,
-        "maxHeight": 70,
-        "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [
-            -100
-        ]
-    },
-"ResonatingCrystal": {
-        "template": "cave",
-        "generator": "cluster",
-        "block": "deepresonance:resonatingCrystalBlock",
-        "material": [],
-        "ceiling": "false",
-        "clusterSize": 1,
-        "numClusters": 4,
-        "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [
-            -100
-        ]
-    }  
+	"ResonatingOre": {
+		"template": "uniform",
+		"block": "deepresonance:oreResonating",
+		"material": "minecraft:stone",
+		"clusterSize": 8,
+		"numClusters": 8,
+		"minHeight": 2,
+		"maxHeight": 70,
+		"retrogen": "false",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [-100]
+	},
+	"ResonatingCrystal": {
+		"template": "cave",
+		"generator": "cluster",
+		"block": "deepresonance:resonatingCrystalBlock",
+		"material": [],
+		"ceiling": "false",
+		"clusterSize": 1,
+		"numClusters": 1,
+		"retrogen": "false",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [-100]
+	}
 }

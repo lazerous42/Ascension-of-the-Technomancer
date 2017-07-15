@@ -2625,6 +2625,12 @@ RandomThings:imbue
 	- Food Info Unknown!
 
 
+RotaryCraft:rotarycraft_item_flamethrower
+	- Megadata: 32000
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
 Steamcraft:steamedBeef
 	- Megadata: 0
 	- Food or Drink? Food
@@ -2664,6 +2670,361 @@ Steamcraft:steamedSalmon
 	- Megadata: 0
 	- Food or Drink? Food
 	- Food Amount: 8
+	- Saturation Amount: 1.0
+
+
+TConstruct:MeatBlock
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:chisel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:diamondApple
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 2.0
+
+
+TConstruct:goldHead
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 1.2
+
+
+TConstruct:heartCanister
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:heartCanister
+	- Megadata: 1
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:heartCanister
+	- Megadata: 2
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:heartCanister
+	- Megadata: 3
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:heartCanister
+	- Megadata: 4
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:heartCanister
+	- Megadata: 5
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:heartCanister
+	- Megadata: 6
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+TConstruct:jerky
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.0
+
+
+TConstruct:jerky
+	- Megadata: 1
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.0
+
+
+TConstruct:jerky
+	- Megadata: 2
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.0
+
+
+TConstruct:jerky
+	- Megadata: 3
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.0
+
+
+TConstruct:jerky
+	- Megadata: 4
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.0
+
+
+TConstruct:jerky
+	- Megadata: 5
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.0
+
+
+TConstruct:jerky
+	- Megadata: 6
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.0
+
+
+TConstruct:jerky
+	- Megadata: 7
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.0
+
+
+TConstruct:strangeFood
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.0
+
+
+TConstruct:strangeFood
+	- Megadata: 1
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 1.0
+
+
+TConstruct:strangeFood
+	- Megadata: 2
+	- Food or Drink? Food
+	- Food Amount: 2
 	- Saturation Amount: 1.0
 
 
@@ -8440,20 +8801,6 @@ harvestcraft:zucchinifriesItem
 	- Food or Drink? Food
 	- Food Amount: 12
 	- Saturation Amount: 1.2
-
-
-heart:damageBuff
-	- Megadata: 0
-	- Food or Drink? Food
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-heart:healthHeart
-	- Megadata: 0
-	- Food or Drink? Food
-	- Food Amount: 0
-	- Saturation Amount: 0.0
 
 
 infernomobs:cephignismeatcooked

@@ -11,6 +11,11 @@ import mods.thermalexpansion.Furnace;
 
 print("Initializing '1-InitialScripts.zs'...");
 
+## Bedrockium Furnace Removal
+# Not sure why I can't remove these in the ExU script, here it works, there it doesn't
+furnace.remove(<ExtraUtilities:block_bedrockium>);
+Furnace.removeRecipe(<ExtraUtilities:cobblestone_compressed:7>);
+
 ##  Ore Dict dimensional gems
 <ore:dimensionalGem>.add(<nevermine:CoinsNether>);
 <ore:dimensionalGem>.add(<nevermine:CoinsHaven>);

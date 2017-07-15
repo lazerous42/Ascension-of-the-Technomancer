@@ -6,6 +6,7 @@
 ##  Imports
 import mods.extraUtils.QED;
 import mods.thaumcraft.Infusion;
+import mods.thermalexpansion.Furnace;
 
 print("Initializing 'ExtraUtilities.zs'...");
 
@@ -64,9 +65,10 @@ val bloodOrbTranscendent = <AWWayofTime:transcendentBloodOrb>;
 val leonardsUrn = <witchery:leonardsurn>;
 val ingotMobius = <ExtraUtilities:unstableingot:2>;
 val ingotBedrockium = <ExtraUtilities:bedrockiumIngot>;
+val blockBedrockium = <ExtraUtilities:block_bedrockium>;
 val primordialPearl = <Thaumcraft:ItemEldritchObject:3>;
 val blackAurem = <arsmagica2:blackAurem>;
-val fuelMOX = <IC2:itemMOX>;
+val dustBedrock = <RotaryCraft:rotarycraft_item_powders:4>;
 
 val quadCompressedCobblestone = <ExtraUtilities:cobblestone_compressed:3>;
 val drum = <ExtraUtilities:drum>;
@@ -80,6 +82,12 @@ val pipeHyperRationing = <ExtraUtilities:pipes.1>;
 val transferNode = <ExtraUtilities:extractor_base>;
 val transferNodeLiquid = <ExtraUtilities:extractor_base:6>;
 val worldInteractionUpgrade = <ExtraUtilities:nodeUpgrade:2>;
+
+## Bedrockium
+recipes.removeShaped(ingotBedrockium);
+recipes.removeShaped(blockBedrockium);
+recipes.addShapeless(ingotBedrockium * 9, [blockBedrockium]);
+recipes.addShaped(blockBedrockium, [[null, dustBedrock, null], [dustBedrock, <ExtraUtilities:cobblestone_compressed:7>, dustBedrock], [null, dustBedrock, null]]);
 
 ##  Custom Generators
 recipes.remove(<ExtraUtilities:generator>);
@@ -131,10 +139,6 @@ recipes.addShaped(transferNode, [[ingotConstantan, pipeTransfer, ingotConstantan
 # Liquids
 recipes.remove(transferNodeLiquid);
 recipes.addShaped(transferNodeLiquid, [[ingotBrass, pipeTransfer, ingotBrass], [dustRedstone, blockRedstone, dustRedstone], [ingotBrass, chest, ingotBrass]]);
-
-## Bedrockium
-recipes.removeShaped(ingotBedrockium);
-recipes.addShaped(ingotBedrockium, [[<ExtraUtilities:cobblestone_compressed:2>, <ExtraUtilities:cobblestone_compressed:3>, <ExtraUtilities:cobblestone_compressed:2>], [<ExtraUtilities:cobblestone_compressed:3>, fuelMOX, <ExtraUtilities:cobblestone_compressed:3>], [<ExtraUtilities:cobblestone_compressed:2>, <ExtraUtilities:cobblestone_compressed:3>, <ExtraUtilities:cobblestone_compressed:2>]]);
 
 ##  World Interaction Upgrade
 recipes.removeShaped(worldInteractionUpgrade);

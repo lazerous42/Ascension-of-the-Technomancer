@@ -1,197 +1,153 @@
 {
-    "Dirt": {
-        "template": "uniform",
-        "block": "dirt",
-        "material": "minecraft:stone",
-        "clusterSize": 32,
-        "numClusters": 20,
-        "minHeight": 5,
-        "maxHeight": 128,
-        "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -30,
-            -29,
-            -28,
-            -27,
-            -26,        
-            -1,
-            1
-        ]
-    },
-    "Gravel": {
-        "template": "uniform",
-        "block": "gravel",
-        "material": "stone",
-        "clusterSize": 32,
-        "numClusters": 10,
-        "minHeight": 5,
-        "maxHeight": 128,
-        "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -30,
-            -29,
-            -28,
-            -27,
-            -26,
-            -1,
-            1
-        ]
-    },
-    "Coal": {
-        "template": "uniform",
-        "block": "coal_ore",
-        "material": "minecraft:stone",
-        "clusterSize": 6,
-        "numClusters": 10,
-        "minHeight": 2,
-        "maxHeight": 128,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
-    },
-    "Iron": {
-        "template": "uniform",
-        "block": "iron_ore",
-        "material": "minecraft:stone",
-        "clusterSize": 6,
-        "numClusters": 6,
-        "minHeight": 2,
-        "maxHeight": 128,
-        "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
-    },
-    "Gold": {
-        "template": "uniform",
-        "block": "gold_ore",
-        "material": "minecraft:stone",
-        "clusterSize": 4,
-        "numClusters": 4,
-        "minHeight": 1,
-        "maxHeight": 26,
-        "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
-    },
-    "Redstone": {
-        "template": "uniform",
-        "block": [
-            {
-                "name": "minecraft:redstone_ore",
-                "weight": 75
-            },
-            {
-                "name": "ProjRed|Exploration:projectred.exploration.ore",
-                "metadata": 6,
-                "weight": 25
-            }
-        ],
-        "material": "minecraft:stone",
-        "clusterSize": 7,
-        "numClusters": 6,
-        "minHeight": 1,
-        "maxHeight": 25,
-        "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
-    },
-    "Diamond": {
-        "template": "uniform",
-        "block": "diamond_ore",
-        "material": "minecraft:stone",
-        "clusterSize": 3,
-        "numClusters": 2,
-        "minHeight": 2,
-        "maxHeight": 16,
-        "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
-    },
-    "Emerald": {
-        "template": "uniform",
-        "block": "emerald_ore",
-        "material": "minecraft:stone",
-        "clusterSize": 2,
-        "numClusters": 1,
-        "minHeight": 2,
-        "maxHeight": 16,
-        "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
-    },
-    "Lapis": {
-        "template": "uniform",
-        "block": "lapis_ore",
-        "material": "minecraft:stone",
-        "clusterSize": 4,
-        "numClusters": 3,
-        "minHeight": 22,
-        "maxHeight": 48,
-        "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
-    },
-    "Quartz": {
-        "template": "uniform",
-        "block": "quartz_ore",
-        "material": "minecraft:netherrack",
-        "clusterSize": 8,
-        "numClusters": 7,
-        "minHeight": 5,
-        "maxHeight": 122,
-        "retrogen": "false",
-        "biomeRestriction": "whitelist",
-        "biomes": [
-            {
-                "type": "dictionary",
-                "entry": "NETHER"
-            }
-        ],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            0,
-            1
-        ]
-    }
+	"Dirt": {
+		"template": "uniform",
+		"block": "dirt",
+		"material": "minecraft:stone",
+		"clusterSize": 32,
+		"numClusters": 20,
+		"minHeight": 5,
+		"maxHeight": 128,
+		"retrogen": "false",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
+	},
+	"Gravel": {
+		"template": "uniform",
+		"block": "gravel",
+		"material": "minecraft:stone",
+		"clusterSize": 32,
+		"numClusters": 10,
+		"minHeight": 5,
+		"maxHeight": 128,
+		"retrogen": "false",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
+	},
+	"Coal": {
+		"template": "uniform",
+		"block": "coal_ore",
+		"material": "minecraft:stone",
+		"clusterSize": 6,
+		"numClusters": 10,
+		"minHeight": 2,
+		"maxHeight": 128,
+		"retrogen": "true",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
+	},
+	"Iron": {
+		"template": "uniform",
+		"block": "iron_ore",
+		"material": "minecraft:stone",
+		"clusterSize": 6,
+		"numClusters": 6,
+		"minHeight": 2,
+		"maxHeight": 128,
+		"retrogen": "false",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
+	},
+	"Gold": {
+		"template": "uniform",
+		"block": "gold_ore",
+		"material": "minecraft:stone",
+		"clusterSize": 4,
+		"numClusters": 4,
+		"minHeight": 1,
+		"maxHeight": 26,
+		"retrogen": "false",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
+	},
+	"Redstone": {
+		"template": "uniform",
+		"block": [{
+				"name": "minecraft:redstone_ore",
+				"weight": 75
+			},
+			{
+				"name": "ProjRed|Exploration:projectred.exploration.ore",
+				"metadata": 6,
+				"weight": 25
+			}
+		],
+		"material": "minecraft:stone",
+		"clusterSize": 7,
+		"numClusters": 6,
+		"minHeight": 1,
+		"maxHeight": 25,
+		"retrogen": "false",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
+	},
+	"Diamond": {
+		"template": "uniform",
+		"block": "diamond_ore",
+		"material": "minecraft:stone",
+		"clusterSize": 3,
+		"numClusters": 2,
+		"minHeight": 2,
+		"maxHeight": 16,
+		"retrogen": "false",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
+	},
+	"Emerald": {
+		"template": "uniform",
+		"block": "emerald_ore",
+		"material": "minecraft:stone",
+		"clusterSize": 2,
+		"numClusters": 1,
+		"minHeight": 2,
+		"maxHeight": 16,
+		"retrogen": "false",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
+	},
+	"Lapis": {
+		"template": "uniform",
+		"block": "lapis_ore",
+		"material": "minecraft:stone",
+		"clusterSize": 4,
+		"numClusters": 3,
+		"minHeight": 22,
+		"maxHeight": 48,
+		"retrogen": "false",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
+	},
+	"Quartz": {
+		"template": "uniform",
+		"block": "quartz_ore",
+		"material": "minecraft:netherrack",
+		"clusterSize": 8,
+		"numClusters": 7,
+		"minHeight": 5,
+		"maxHeight": 122,
+		"retrogen": "false",
+		"biomes": [{
+			"type": "dictionary",
+			"entry": "NETHER"
+		}],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [-1]
+	}
 }

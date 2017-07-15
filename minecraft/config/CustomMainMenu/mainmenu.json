@@ -49,16 +49,33 @@
         "mods":
         {
             "text" : "Mods",
-            "texture" : "custommainmenu:textures/gui/longbutton.png",
+            "texture" : "custommainmenu:textures/gui/shortbutton.png",
             "alignment" : "center",
             "posX" : -100,
             "posY" : 80,
-            "width" : 200,
+            "width" : 98,
             "height" : 20,
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "mods"
+            }
+        },
+
+        "support":
+        {
+            "text" : "AotT GitHub",
+            "texture" : "custommainmenu:textures/gui/shortbutton.png",
+            "alignment" : "center",
+            "tooltip": "Changelog and Issue Reporting",
+            "posX" : 2,
+            "posY" : 80,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openLink",
+		"link" : "https://github.com/lazerous42/Ascension-of-the-Technomancer/"
             }
         },
 
@@ -125,7 +142,7 @@
         
         "pack_version":
         {
-            "text" : "Version: 3.13.9",
+            "text" : "Version: 4.2.0",
             "posX" : 2,
             "posY" : -10,
             "color" : -1,

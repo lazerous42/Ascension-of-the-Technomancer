@@ -4,6 +4,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 print("Initializing 'CustomNPCs.zs'...");
+
 ##  Val Deinitions
 val bulletWood = <customnpcs:npcWoodenBullet>;
 val bulletStone = <customnpcs:npcStoneBullet>;

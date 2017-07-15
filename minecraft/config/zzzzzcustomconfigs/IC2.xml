@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--The syntax for an item stack is the same as you'd use in the /give command. NBT tags are supported! (e.g. minecraft:skull 1 3 {SkullOwner:"ganymedes01"})
+The syntax for a fluid stack is simiar to the item stack, it should be the fluid name followed by the amount. NBT tags are also supported! (e.g. water 1000)
+The syntax for ore dictionary values is the value between double-quotes. (e.g. "ingotIron")
+
+Examples:
+
+All of the inputs that are not fluids can be either an item or a ore dictionary name!
+
+The following examples are valid for: macerator, extractor, compressor, metalformerExtruding, metalformerCutting, metalformerRolling
+<macerator>
+	<input>"oreDiamond"</input>
+	<output>minecraft:diamond 1 0</output>
+</macerator>
+<compressor>
+	<input>minecraft:diamond 9 0</input>
+	<output>minecraft:diamond_block 1 0</output>
+</compressor>
+
+The following is valid for only the Thermal Centrifuge. There can be from 1 to 3 outputs.
+<centrifuge>
+	<input>"oreDiamond"</input>
+	<minHeat>1000</minHeat>
+	<output1>minecraft:diamond 1 0</output1>
+	<output2>minecraft:cobblestone 1 0</output2>
+</centrifuge>
+
+The following is valid for only the Block Cutter.
+<blockcutter>
+	<input>"blockDiamond"</input>
+	<cutterLevel>3</cutterLevel>
+	<output>minecraft:diamond 9 0</output>
+</blockcutter>
+
+The following is valid for only the Blast Furnace. There can be 1 or 2 outputs.
+<blastfurance>
+	<input>"oreDiamond"</input>
+	<output1>minecraft:diamond 1 0</output1>
+</blastfurance>
+
+The following is valid for only the Ore Washing Plant. There can be from 1 to 3 outputs.
+<oreWashing>
+	<input>"crushedIron"</input>
+	<output1>minecraft:iron_ingot 1 0</output1>
+	<output2>minecraft:gold_nugget 1 0</output2>
+</oreWashing>
+
+The following is valid for only the Canner in bottling mode.
+<cannerBottle>
+	<input1>minecraft:bucket 1 0</input1>
+	<input2>minecraft:magma_cream 1 0</input2>
+	<output>minecraft:lava_bucket 1 0</output>
+</cannerBottle>
+
+The following is valid for only the Canner in enrich mode. Input and output must be a fluid, and the additive is an item
+<cannerEnrich>
+	<input>water 1000</input>
+	<output>lava 500</output>
+	<additive>minecraft:magma_cream 1 0</additive>
+</cannerEnrich>-->
+
+<IC2>
+	<!--Add your recipes here!-->
+</IC2>

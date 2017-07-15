@@ -162,6 +162,42 @@
 	- Terrain Scale: 1.0
 
 
+34
+	- Name: DimensionShyrelands
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+33
+	- Name: DimensionPlaytopia
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+32
+	- Name: DimensionEverland
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+31
+	- Name: DimensionEthereus
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
 30
 	- Name: DimensionVoxponds
 	- Height: 128
@@ -409,7 +445,7 @@
 	- Name: Proxima
 	- Height: 256
 	- Has Sky? true
-	- Cloud Height: 70.966675
+	- Cloud Height: 107.314156
 	- Can Respawn Here? false
 	- Terrain Scale: 1.0
 
