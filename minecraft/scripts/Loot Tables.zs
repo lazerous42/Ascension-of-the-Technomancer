@@ -290,7 +290,7 @@ vanilla.loot.addChestLoot("netherFortress", <ChromatiCraft:chromaticraft_item_sh
 vanilla.loot.addChestLoot("netherFortress", <ChromatiCraft:chromaticraft_item_shard:13>.weight(5), 1, 3);
 vanilla.loot.addChestLoot("netherFortress", <ChromatiCraft:chromaticraft_item_shard:14>.weight(5), 1, 3);
 vanilla.loot.addChestLoot("netherFortress", <ChromatiCraft:chromaticraft_item_shard:15>.weight(5), 1, 3);
-vanilla.loot.addChestLoot("netherFortress", <ChromatiCraft:chromaticraft_item_fragment>.weight(50), 1, 3;
+vanilla.loot.addChestLoot("netherFortress", <ChromatiCraft:chromaticraft_item_fragment>.weight(50), 1, 3);
 vanilla.loot.addChestLoot("netherFortress", <ChromatiCraft:chromaticraft_item_fragment>.weight(50), 1, 3);
 vanilla.loot.addChestLoot("netherFortress", <ChromatiCraft:chromaticraft_item_fragment>.weight(50), 1, 3);
 vanilla.loot.addChestLoot("netherFortress", <ChromatiCraft:chromaticraft_item_help>.weight(3), 1, 1);
