@@ -11,7 +11,7 @@ Good luck friend, You're going to need it.
 * A note about config version numbers ~ The least significant version number applies to config changes only, where that the middle number increments with mod versions.  Although configs from newer versions of mods won't normally cause issues, there is a small chance so I figured I should mention it just in case.  The most significant digit indicates a major structural change, i.e. a substantial content change.  Mixing configs across major version updates is NOT recommended.  Note all of the earlier releases follow this pattern exactly, but this standard is being maintained now and henceforth.
 
 ChangeLog
--- Version 4.2.0
+-- Version 4.2.0 (Thermonuclear Shaft Update)
 - Increased taint biome frequency again, still too rare
 - One last fragment weight tweak.  Fragments are a moderately common drop now
 - Guide tweaks
