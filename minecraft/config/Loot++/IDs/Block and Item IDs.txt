@@ -7219,7 +7219,6 @@ dungeonmobs:spawnEggManticore - 11367
 dungeonmobs:spawnEggRakshasa - 11380
 dungeonmobs:spawnEggRustMonster - 11381
 dungeonmobs:spawnEggShrieker - 11368
-dungeonmobs:spawnEggThoqqua - 11371
 dungeonmobs:spawnEggTroll - 11377
 dungeonmobs:spawnEggUmberHulk - 11382
 dungeonmobs:spawnEggVescavor - 11375

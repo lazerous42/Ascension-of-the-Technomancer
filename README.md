@@ -1,16 +1,28 @@
 # Ascension-of-the-Technomancer
-Current LIVE Config Version 3.13.9
-Repository Config Version 4.2.0
+Current LIVE Config Version 4.2.0
+Repository Config Version 4.2.1
 
 Hello there friend.  It seems as though you've met with a terrible fate, haven't you?  
 
-Welcome to the world of Ascension of the Technomancer, a high difficulty alternative to typical "kitchen sink" type packs.  This pack features a high degree of cross mod integration, with a special focus on exploration.  Advent of Ascension, Hardcore Ender Expansion, and Twilight Forest, GalacticCraft, and The Aether II provide the player with more than 30 new dimensions to explore.  The tech side of the pack centers around GregTech 5 experimental, but includes all of the major tech mods (Thermal Expansion, EnderIO, MFR...) you’ve come to know and love.   This pack uses a mix of GregTech style and traditional oregen, to further encourage exploration while not leaving you stuck if you can’t find the ore vein you need. Rotary and ReactorCraft are now a part of the tech mod suite, giving you a rare opportunity to play around with these challenging and engaging pieces of content.  The magic side of the house features all of the major 1.7.10 magic mods, along with some less common fare like Ars Magica, Aura Cascade, and ChromaticCraft to spice things up.  Survival challenges have been enhanced with Hunger Overhaul, Spice of Life, Harvestcraft, and Agricraft.  The 100s of mobs in the pack have been organized into custom spawn tables, written from the ground up with Just Another Spawner.  The recipes used in this pack were initially derived from Infinity Expert mode with a dash of InfiTech 2, but heavily customized from there to ensure a unique experience.  Do you consider yourself a Minecraft expert?  Then welcome to your greatest challenge... or your undoing.
+Welcome to the world of Ascension of the Technomancer, a high difficulty alternative to typical "kitchen sink" type packs.  This pack features a high degree of cross mod integration, with a special focus on exploration.  Advent of Ascension, Hardcore Ender Expansion, and Twilight Forest, GalacticCraft, and The Aether II provide the player with more than 30 new dimensions to explore.  The tech side of the pack centers around GregTech 5 experimental, but includes all of the major tech mods (Thermal Expansion, EnderIO, MFR...) you’ve come to know and love.   This pack uses a mix of GregTech style and traditional oregen, to further encourage exploration while not leaving you stuck if you can’t find the ore vein you need. Rotary and ReactorCraft are now a part of the tech mod suite, giving you a rare opportunity to play around with these challenging and engaging pieces of content.  The magic side of the house features all of the major 1.7.10 magic mods, along with some less common fare like Ars Magica, Aura Cascade, and ChromaticCraft to spice things up.  Survival challenges have been enhanced with Hunger Overhaul, Spice of Life, Harvestcraft, and Agricraft.  The 100s of mobs in the pack have been organized into custom spawn tables, written from the ground up with Just Another Spawner.  The recipes used in this pack were initially derived from Infinity Expert mode with a dash of InfiTech 2, but were heavily customized from there to ensure a unique modded Minecraft experience like no other.
+
+Do you consider yourself a Minecraft expert?  Then welcome to your greatest challenge... or your undoing.
 
 Good luck friend, You're going to need it.
 
 * A note about config version numbers ~ The least significant version number applies to config changes only, where that the middle number increments with mod versions.  Although configs from newer versions of mods won't normally cause issues, there is a small chance so I figured I should mention it just in case.  The most significant digit indicates a major structural change, i.e. a substantial content change.  Mixing configs across major version updates is NOT recommended.  Note all of the earlier releases follow this pattern exactly, but this standard is being maintained now and henceforth.
 
 ChangeLog
+-- Version 4.2.1
+- Reduced WATERCREATURE spawn cap from 15 to 10
+- Added a spawn cycle reduction to WATERCREATURE and AMBIANT from 1 to 10
+- Added performance tip to guide regarding journeymap
+- Electrotine cluster size increase
+- Added guide tip
+- Deactivate thoqqua spawning in dungeonmobs.cfg, this may prevent them spawning all together, but the out of control fire in the nether required correction
+- Decrease rarity of Thoqqua, too much fire
+- Fix gear in GT alloy smelter recipes, should require 8 ingots, not 6
+- Fix missing paren
 -- Version 4.2.0 (Thermonuclear Shaft Update)
 - Increased taint biome frequency again, still too rare
 - One last fragment weight tweak.  Fragments are a moderately common drop now

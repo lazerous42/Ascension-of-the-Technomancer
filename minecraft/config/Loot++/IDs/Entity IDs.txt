@@ -926,7 +926,6 @@ dungeonmobs.DMRakshasaImage
 dungeonmobs.DMRustMonster
 dungeonmobs.DMShrieker
 dungeonmobs.DMSonicBoom
-dungeonmobs.DMThoqqua
 dungeonmobs.DMTroll
 dungeonmobs.DMUmberHulk
 dungeonmobs.DMVescavor

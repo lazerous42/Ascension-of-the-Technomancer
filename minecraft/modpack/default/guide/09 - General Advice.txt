@@ -59,3 +59,5 @@
 31)  Fluids tend to slosh around in GT pipes, the user of shutter (created in the assembler) can restrict the flow to a single direction.
 
 32)  GregTech machines are rather sensitive.  Only give them the proper voltage, don't let them get wet, and don't feed them after midnight
+
+33)  Are you hurting for normal coal (not charcoal)? Try mining ask blocks and then crafting them into groups of 9 instead of 4.
