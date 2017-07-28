@@ -1,5 +1,5 @@
 # Ascension-of-the-Technomancer
-Current LIVE Config Version 4.2.0
+Current LIVE Config Version 4.2.1
 Repository Config Version 4.2.1
 
 Hello there friend.  It seems as though you've met with a terrible fate, haven't you?  
