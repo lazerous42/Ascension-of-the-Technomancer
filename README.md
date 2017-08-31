@@ -13,6 +13,11 @@ Good luck friend, You're going to need it.
 * A note about config version numbers ~ The least significant version number applies to config changes only, where that the middle number increments with mod versions.  Although configs from newer versions of mods won't normally cause issues, there is a small chance so I figured I should mention it just in case.  The most significant digit indicates a major structural change, i.e. a substantial content change.  Mixing configs across major version updates is NOT recommended.  Note all of the earlier releases follow this pattern exactly, but this standard is being maintained now and henceforth.
 
 ChangeLog
+-- Version 4.2.2
+- Deactivated ore conversions in JWIN, GT5u is already doing this, a competing mod doing this is disruptive to controlled
+- GT5u settings are the cause of passive mobs harming each other.  3 in a single block causes them to damage each other.  This has been increased to 5
+- Passive WATERCREATURE type enemies have had their spawn cap lowered 10->5 (Minecraft default with normal spawning), and spawn tick rate increased 10->100.  Chunk spawning now enabled at the default rate of 0.1.
+- MoC sharks moved to WATERMONSTER spawn list
 -- Version 4.2.1
 - Reduced WATERCREATURE spawn cap from 15 to 10
 - Added a spawn cycle reduction to WATERCREATURE and AMBIANT from 1 to 10
