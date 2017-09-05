@@ -20169,28 +20169,28 @@ ImmersiveEngineering:stoneDecoration - 5
 
 
 container_oil
-GalacticraftCore:item.oilCanisterPartial - 1
 MagicBees:capsule.void - 5
+Forestry:refractoryOil - 0
 GalacticraftCore:item.bucketOil - 0
 gregtech:gt.metaitem.01 - 30707
-Forestry:waxCapsuleOil - 0
-Forestry:refractoryOil - 0
-MagicBees:capsule.magic - 5
+GalacticraftCore:item.oilCanisterPartial - 1
 Forestry:canOil - 0
+MagicBees:capsule.magic - 5
 BuildCraft|Energy:bucketOil - 0
+Forestry:waxCapsuleOil - 0
 Magneticraft:item.bucket_oil - 0
 
 
 container_water
-Forestry:waxCapsuleWater - 0
-IC2:itemCellEmpty - 1
 MagicBees:capsule.void - 1
-aether:skyrootWaterBucket - 0
-Forestry:canWater - 0
-Forestry:refractoryWater - 0
-minecraft:water_bucket - 0
-MagicBees:capsule.magic - 1
+Forestry:waxCapsuleWater - 0
 minecraft:potion - 0
+Forestry:refractoryWater - 0
+IC2:itemCellEmpty - 1
+aether:skyrootWaterBucket - 0
+MagicBees:capsule.magic - 1
+Forestry:canWater - 0
+minecraft:water_bucket - 0
 
 
 copperNugget
@@ -40396,18 +40396,6 @@ dustberryManganese
 dustberryMithril
 
 
-dustberryMolybdenum
-
-
-dustberryNaquadah
-
-
-dustberryNaquadahEnriched
-
-
-dustberryNaquadria
-
-
 dustberryNeodymium
 
 
@@ -40417,13 +40405,7 @@ dustberryNickel
 dustberryOsmium
 
 
-dustberryPalladium
-
-
 dustberryPlatinum
-
-
-dustberrySilicon
 
 
 dustberrySilver
@@ -40504,18 +40486,6 @@ dustbushManganese
 dustbushMithril
 
 
-dustbushMolybdenum
-
-
-dustbushNaquadah
-
-
-dustbushNaquadahEnriched
-
-
-dustbushNaquadria
-
-
 dustbushNeodymium
 
 
@@ -40525,13 +40495,7 @@ dustbushNickel
 dustbushOsmium
 
 
-dustbushPalladium
-
-
 dustbushPlatinum
-
-
-dustbushSilicon
 
 
 dustbushSilver
@@ -49009,18 +48973,6 @@ gemberryManganese
 gemberryMithril
 
 
-gemberryMolybdenum
-
-
-gemberryNaquadah
-
-
-gemberryNaquadahEnriched
-
-
-gemberryNaquadria
-
-
 gemberryNeodymium
 
 
@@ -49030,13 +48982,7 @@ gemberryNickel
 gemberryOsmium
 
 
-gemberryPalladium
-
-
 gemberryPlatinum
-
-
-gemberrySilicon
 
 
 gemberrySilver
@@ -49117,18 +49063,6 @@ gembushManganese
 gembushMithril
 
 
-gembushMolybdenum
-
-
-gembushNaquadah
-
-
-gembushNaquadahEnriched
-
-
-gembushNaquadria
-
-
 gembushNeodymium
 
 
@@ -49138,13 +49072,7 @@ gembushNickel
 gembushOsmium
 
 
-gembushPalladium
-
-
 gembushPlatinum
-
-
-gembushSilicon
 
 
 gembushSilver
@@ -62857,18 +62785,6 @@ ingotberryManganese
 ingotberryMithril
 
 
-ingotberryMolybdenum
-
-
-ingotberryNaquadah
-
-
-ingotberryNaquadahEnriched
-
-
-ingotberryNaquadria
-
-
 ingotberryNeodymium
 
 
@@ -62878,13 +62794,7 @@ ingotberryNickel
 ingotberryOsmium
 
 
-ingotberryPalladium
-
-
 ingotberryPlatinum
-
-
-ingotberrySilicon
 
 
 ingotberrySilver
@@ -62965,18 +62875,6 @@ ingotbushManganese
 ingotbushMithril
 
 
-ingotbushMolybdenum
-
-
-ingotbushNaquadah
-
-
-ingotbushNaquadahEnriched
-
-
-ingotbushNaquadria
-
-
 ingotbushNeodymium
 
 
@@ -62986,13 +62884,7 @@ ingotbushNickel
 ingotbushOsmium
 
 
-ingotbushPalladium
-
-
 ingotbushPlatinum
-
-
-ingotbushSilicon
 
 
 ingotbushSilver
@@ -80508,19 +80400,15 @@ aobd:oreberryMithril - 0
 
 
 oreberryMolybdenum
-aobd:oreberryMolybdenum - 0
 
 
 oreberryNaquadah
-aobd:oreberryNaquadah - 0
 
 
 oreberryNaquadahEnriched
-aobd:oreberryNaquadahEnriched - 0
 
 
 oreberryNaquadria
-aobd:oreberryNaquadria - 0
 
 
 oreberryNeodymium
@@ -80536,7 +80424,6 @@ aobd:oreberryOsmium - 0
 
 
 oreberryPalladium
-aobd:oreberryPalladium - 0
 
 
 oreberryPlatinum
@@ -80550,7 +80437,6 @@ oreberryRutile
 
 
 oreberrySilicon
-aobd:oreberrySilicon - 0
 
 
 oreberrySilver
@@ -80688,19 +80574,15 @@ aobd:orebushMithril - 0
 
 
 orebushMolybdenum
-aobd:orebushMolybdenum - 0
 
 
 orebushNaquadah
-aobd:orebushNaquadah - 0
 
 
 orebushNaquadahEnriched
-aobd:orebushNaquadahEnriched - 0
 
 
 orebushNaquadria
-aobd:orebushNaquadria - 0
 
 
 orebushNeodymium
@@ -80716,7 +80598,6 @@ aobd:orebushOsmium - 0
 
 
 orebushPalladium
-aobd:orebushPalladium - 0
 
 
 orebushPlatinum
@@ -80730,7 +80611,6 @@ orebushRutile
 
 
 orebushSilicon
-aobd:orebushSilicon - 0
 
 
 orebushSilver
