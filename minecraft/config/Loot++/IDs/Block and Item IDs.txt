@@ -3911,7 +3911,6 @@ Railcraft:part.turbine.rotor - 7303
 Railcraft:post - 2299
 Railcraft:post.metal - 2300
 Railcraft:post.metal.platform - 2301
-Railcraft:residual.heat - 2279
 Railcraft:routing.table - 7294
 Railcraft:routing.ticket - 7296
 Railcraft:routing.ticket.gold - 7295

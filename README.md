@@ -1,6 +1,6 @@
 # Ascension-of-the-Technomancer
 Current LIVE Config Version 4.2.1
-Repository Config Version 4.3.5
+Repository Config Version 4.3.7
 
 Hello there friend.  It seems as though you've met with a terrible fate, haven't you?  
 
@@ -13,6 +13,10 @@ Good luck friend, You're going to need it.
 * A note about config version numbers ~ The least significant version number applies to config changes only, where that the middle number increments with mod versions.  Although configs from newer versions of mods won't normally cause issues, there is a small chance so I figured I should mention it just in case.  The most significant digit indicates a major structural change, i.e. a substantial content change.  Mixing configs across major version updates is NOT recommended.  Note all of the earlier releases follow this pattern exactly, but this standard is being maintained now and henceforth.
 
 ChangeLog
+-- Version 4.3.7
+- Fixed GlobalProperties.cfg from JAS restore after update
+- Added a special thanks section for users who have helped with bug tracking to the introduction page of the FTBUtils guide
+- Disable Railcraft residual heat block to prevent associated bugs (what the hell does this block even do anyway?), it is known to cause incompatibilities with Chromaticraft pylon reconstruction.
 -- Version 4.3.5
 - Sort out changes to spawn tables after deactivating BoP biome overrides
 - Updated ThaumicExploration
