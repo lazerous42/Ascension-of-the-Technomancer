@@ -10783,6 +10783,9 @@ clusterImpurePhosphor
 clusterImpurePhosphorus
 
 
+clusterImpurePigIron
+
+
 clusterImpurePitchblende
 
 
@@ -14311,6 +14314,9 @@ clusterPurePhosphor
 
 
 clusterPurePhosphorus
+
+
+clusterPurePigIron
 
 
 clusterPurePitchblende
@@ -20195,26 +20201,26 @@ ImmersiveEngineering:stoneDecoration - 5
 container_oil
 GalacticraftCore:item.bucketOil - 0
 Magneticraft:item.bucket_oil - 0
-Forestry:waxCapsuleOil - 0
-gregtech:gt.metaitem.01 - 30707
-Forestry:refractoryOil - 0
-Forestry:canOil - 0
 MagicBees:capsule.magic - 5
-MagicBees:capsule.void - 5
+Forestry:canOil - 0
 GalacticraftCore:item.oilCanisterPartial - 1
+gregtech:gt.metaitem.01 - 30707
+Forestry:waxCapsuleOil - 0
+Forestry:refractoryOil - 0
+MagicBees:capsule.void - 5
 BuildCraft|Energy:bucketOil - 0
 
 
 container_water
 Forestry:waxCapsuleWater - 0
-IC2:itemCellEmpty - 1
+MagicBees:capsule.magic - 1
 minecraft:water_bucket - 0
 aether:skyrootWaterBucket - 0
-minecraft:potion - 0
-Forestry:refractoryWater - 0
-MagicBees:capsule.magic - 1
-MagicBees:capsule.void - 1
 Forestry:canWater - 0
+IC2:itemCellEmpty - 1
+Forestry:refractoryWater - 0
+minecraft:potion - 0
+MagicBees:capsule.void - 1
 
 
 copperNugget
@@ -26454,7 +26460,6 @@ dustAnyCopper
 IC2:itemDust - 3
 ThermalFoundation:material - 32
 gregtech:gt.metaitem.01 - 2035
-gregtech:gt.metaitem.01 - 2345
 ImmersiveEngineering:metal - 10
 EnderIO:itemPowderIngot - 3
 Magneticraft:item.dust - 2
@@ -26465,8 +26470,6 @@ dustAnyIron
 IC2:itemDust - 5
 ThermalFoundation:material - 0
 gregtech:gt.metaitem.01 - 2032
-gregtech:gt.metaitem.01 - 2304
-gregtech:gt.metaitem.01 - 2307
 ImmersiveEngineering:metal - 8
 Magneticraft:item.dust - 0
 EnderIO:itemPowderIngot - 1
@@ -29434,6 +29437,7 @@ gregtech:gt.metaitem.01 - 3035
 
 dustImpureAnyIron
 gregtech:gt.metaitem.01 - 3032
+gregtech:gt.metaitem.01 - 3307
 
 
 dustImpureApatite
@@ -30658,6 +30662,10 @@ dustImpurePhosphor
 
 dustImpurePhosphorus
 gregtech:gt.metaitem.01 - 3534
+
+
+dustImpurePigIron
+gregtech:gt.metaitem.01 - 3307
 
 
 dustImpurePitchblende
@@ -34423,6 +34431,10 @@ dustPurePhosphorus
 gregtech:gt.metaitem.01 - 4534
 
 
+dustPurePigIron
+gregtech:gt.metaitem.01 - 4307
+
+
 dustPurePitchblende
 gregtech:gt.metaitem.01 - 4873
 
@@ -35853,13 +35865,10 @@ gregtech:gt.metaitem.01 - 1300
 
 dustSmallAnyCopper
 gregtech:gt.metaitem.01 - 1035
-gregtech:gt.metaitem.01 - 1345
 
 
 dustSmallAnyIron
 gregtech:gt.metaitem.01 - 1032
-gregtech:gt.metaitem.01 - 1304
-gregtech:gt.metaitem.01 - 1307
 
 
 dustSmallApatite
@@ -38165,15 +38174,12 @@ gregtech:gt.metaitem.01 - 300
 dustTinyAnyCopper
 IC2:itemDustSmall - 1
 gregtech:gt.metaitem.01 - 35
-gregtech:gt.metaitem.01 - 345
 Steamcraft:smashedOre - 15
 
 
 dustTinyAnyIron
 IC2:itemDustSmall - 0
 gregtech:gt.metaitem.01 - 32
-gregtech:gt.metaitem.01 - 304
-gregtech:gt.metaitem.01 - 307
 Steamcraft:smashedOre - 13
 
 
@@ -49503,7 +49509,6 @@ GalacticraftCore:item.basicItem - 3
 Railcraft:ingot - 1
 ThermalFoundation:material - 64
 gregtech:gt.metaitem.01 - 11035
-gregtech:gt.metaitem.01 - 11345
 ImmersiveEngineering:metal - 0
 TConstruct:materials - 9
 Steamcraft:steamcraftIngot - 0
@@ -49515,8 +49520,6 @@ RotaryCraft:rotarycraft_item_modingots - 36
 
 ingotAnyIron
 minecraft:iron_ingot - 0
-gregtech:gt.metaitem.01 - 11304
-gregtech:gt.metaitem.01 - 11307
 TConstruct:materials - 34
 GardenStuff:wrought_iron_ingot - 0
 RotaryCraft:rotarycraft_item_modingots - 29
@@ -51284,6 +51287,13 @@ ingotDoubleAmericium
 
 
 ingotDoubleAnnealedCopper
+gregtech:gt.metaitem.01 - 13345
+
+
+ingotDoubleAnyCopper
+
+
+ingotDoubleAnyIron
 
 
 ingotDoubleBatteryAlloy
@@ -51467,6 +51477,7 @@ ingotDoublePalladium
 
 
 ingotDoublePigIron
+gregtech:gt.metaitem.01 - 13307
 
 
 ingotDoublePlatinum
@@ -51557,6 +51568,7 @@ ingotDoubleVanadiumSteel
 
 
 ingotDoubleWroughtIron
+gregtech:gt.metaitem.01 - 13304
 
 
 ingotDoubleYttriumBariumCuprate
@@ -53964,6 +53976,9 @@ ingotImpurePhosphor
 
 
 ingotImpurePhosphorus
+
+
+ingotImpurePigIron
 
 
 ingotImpurePitchblende
@@ -57569,6 +57584,9 @@ ingotPurePhosphor
 ingotPurePhosphorus
 
 
+ingotPurePigIron
+
+
 ingotPurePitchblende
 
 
@@ -58118,6 +58136,24 @@ ingotPyrope
 ingotPyrotheum
 
 
+ingotQuadrupleAnnealedCopper
+gregtech:gt.metaitem.01 - 15345
+
+
+ingotQuadrupleAnyCopper
+
+
+ingotQuadrupleAnyIron
+
+
+ingotQuadruplePigIron
+gregtech:gt.metaitem.01 - 15307
+
+
+ingotQuadrupleWroughtIron
+gregtech:gt.metaitem.01 - 15304
+
+
 ingotQuantum
 
 
@@ -58134,6 +58170,24 @@ ingotQuicklime
 
 
 ingotQuicksilver
+
+
+ingotQuintupleAnnealedCopper
+gregtech:gt.metaitem.01 - 16345
+
+
+ingotQuintupleAnyCopper
+
+
+ingotQuintupleAnyIron
+
+
+ingotQuintuplePigIron
+gregtech:gt.metaitem.01 - 16307
+
+
+ingotQuintupleWroughtIron
+gregtech:gt.metaitem.01 - 16304
 
 
 ingotRadon
@@ -62638,6 +62692,24 @@ ingotTopaz
 ingotTourmaline
 
 
+ingotTripleAnnealedCopper
+gregtech:gt.metaitem.01 - 14345
+
+
+ingotTripleAnyCopper
+
+
+ingotTripleAnyIron
+
+
+ingotTriplePigIron
+gregtech:gt.metaitem.01 - 14307
+
+
+ingotTripleWroughtIron
+gregtech:gt.metaitem.01 - 14304
+
+
 ingotTritanium
 gregtech:gt.metaitem.01 - 11329
 
@@ -64356,7 +64428,6 @@ Thaumcraft:ItemNugget - 1
 Railcraft:nugget - 2
 ThermalFoundation:material - 96
 gregtech:gt.metaitem.01 - 9035
-gregtech:gt.metaitem.01 - 9345
 ImmersiveEngineering:metal - 22
 TConstruct:materials - 20
 MagicBees:beeNugget - 1
@@ -64369,8 +64440,6 @@ Thaumcraft:ItemNugget - 0
 Railcraft:nugget - 0
 ThermalFoundation:material - 8
 gregtech:gt.metaitem.01 - 9032
-gregtech:gt.metaitem.01 - 9304
-gregtech:gt.metaitem.01 - 9307
 ImmersiveEngineering:metal - 21
 TConstruct:materials - 19
 TConstruct:materials - 35
@@ -70877,6 +70946,9 @@ oreImpurePhosphor
 oreImpurePhosphorus
 
 
+oreImpurePigIron
+
+
 oreImpurePitchblende
 
 
@@ -74919,6 +74991,9 @@ orePurePhosphor
 
 
 orePurePhosphorus
+
+
+orePurePigIron
 
 
 orePurePitchblende

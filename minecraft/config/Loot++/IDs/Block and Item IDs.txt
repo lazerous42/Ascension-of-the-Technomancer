@@ -1287,6 +1287,7 @@ ChromatiCraft:chromaticraft_block_lockfreeze - 3383
 ChromatiCraft:chromaticraft_block_lockkey - 3384
 ChromatiCraft:chromaticraft_block_lootchest - 3372
 ChromatiCraft:chromaticraft_block_luma - 3416
+ChromatiCraft:chromaticraft_block_metaalloylamp - 13439
 ChromatiCraft:chromaticraft_block_moltenlumen - 11567
 ChromatiCraft:chromaticraft_block_musicmemory - 3391
 ChromatiCraft:chromaticraft_block_musictrigger - 3392
@@ -3983,6 +3984,7 @@ RandomThings:spiritBinder - 9634
 RandomThings:voidStone - 9624
 RandomThings:whitestone - 9622
 RandomThings:wirelessLever - 9657
+ReactorCraft:reactorcraft_block_chlorine - 13438
 ReactorCraft:reactorcraft_block_coriumflowing - 11589
 ReactorCraft:reactorcraft_block_duct - 11626
 ReactorCraft:reactorcraft_block_fluorite - 11545
@@ -3990,6 +3992,7 @@ ReactorCraft:reactorcraft_block_fluoriteore - 11611
 ReactorCraft:reactorcraft_block_flywheelmulti - 11580
 ReactorCraft:reactorcraft_block_generatormulti - 11476
 ReactorCraft:reactorcraft_block_heatermulti - 11475
+ReactorCraft:reactorcraft_block_hf - 13440
 ReactorCraft:reactorcraft_block_injectormulti - 11647
 ReactorCraft:reactorcraft_block_lamp - 11474
 ReactorCraft:reactorcraft_block_line - 11408
@@ -12360,9 +12363,6 @@ technom:pen - 11229
 technom:processorBM - 11235
 technom:processorBO - 11239
 technom:processorTC - 11223
-technom:pureAluminum - 11314
-technom:pureAnyCopper - 11311
-technom:pureAnyIron - 11308
 technom:pureCadmium - 12652
 technom:pureCopper - 11310
 technom:pureDesh - 13400
