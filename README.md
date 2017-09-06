@@ -1,6 +1,6 @@
 # Ascension-of-the-Technomancer
 Current LIVE Config Version 4.2.1
-Repository Config Version 4.2.4
+Repository Config Version 4.3.5
 
 Hello there friend.  It seems as though you've met with a terrible fate, haven't you?  
 
@@ -13,6 +13,11 @@ Good luck friend, You're going to need it.
 * A note about config version numbers ~ The least significant version number applies to config changes only, where that the middle number increments with mod versions.  Although configs from newer versions of mods won't normally cause issues, there is a small chance so I figured I should mention it just in case.  The most significant digit indicates a major structural change, i.e. a substantial content change.  Mixing configs across major version updates is NOT recommended.  Note all of the earlier releases follow this pattern exactly, but this standard is being maintained now and henceforth.
 
 ChangeLog
+-- Version 4.3.5
+- Sort out changes to spawn tables after deactivating BoP biome overrides
+- Updated ThaumicExploration
+- Back dates ThaumicNEI to prevent last TC recipe accessed from "sticking" in the NEI recipes array in memory and appearing inappropriately in subsequent lookups
+- Back ported InPureCore from 5.0.0b for NEI item filtering (to make bug squasking easier)
 -- Version 4.2.4
 - Disabled Naquada and related oreberry bushes
 - ore berry bushes are 25% rarer

@@ -6166,6 +6166,9 @@ cleanGravelManganese
 cleanGravelMeteoricIron
 
 
+cleanGravelMithril
+
+
 cleanGravelMolybdenite
 
 
@@ -6559,6 +6562,9 @@ clumpMarble
 
 
 clumpMeteoricIron
+
+
+clumpMithril
 
 
 clumpMolybdenite
@@ -7092,6 +7098,9 @@ clusterBasaltManganese
 
 
 clusterBasaltMeteoricIron
+
+
+clusterBasaltMithril
 
 
 clusterBasaltMolybdenite
@@ -7712,6 +7721,9 @@ clusterBlackgraniteMeteoricIron
 
 
 clusterBlackgraniteMimichite
+
+
+clusterBlackgraniteMithril
 
 
 clusterBlackgraniteMolybdenite
@@ -8850,6 +8862,9 @@ clusterEndstoneMeteoricIron
 
 
 clusterEndstoneMimichite
+
+
+clusterEndstoneMithril
 
 
 clusterEndstoneMolybdenite
@@ -11712,6 +11727,9 @@ clusterMarbleManganese
 clusterMarbleMeteoricIron
 
 
+clusterMarbleMithril
+
+
 clusterMarbleMolybdenite
 
 
@@ -12473,6 +12491,9 @@ clusterNetherrackMeteoricIron
 
 
 clusterNetherrackMimichite
+
+
+clusterNetherrackMithril
 
 
 clusterNetherrackMolybdenite
@@ -15136,6 +15157,9 @@ clusterRedgraniteMeteoricIron
 
 
 clusterRedgraniteMimichite
+
+
+clusterRedgraniteMithril
 
 
 clusterRedgraniteMolybdenite
@@ -20170,27 +20194,27 @@ ImmersiveEngineering:stoneDecoration - 5
 
 container_oil
 MagicBees:capsule.void - 5
-Forestry:refractoryOil - 0
-GalacticraftCore:item.bucketOil - 0
-gregtech:gt.metaitem.01 - 30707
-GalacticraftCore:item.oilCanisterPartial - 1
-Forestry:canOil - 0
-MagicBees:capsule.magic - 5
 BuildCraft|Energy:bucketOil - 0
-Forestry:waxCapsuleOil - 0
 Magneticraft:item.bucket_oil - 0
+GalacticraftCore:item.oilCanisterPartial - 1
+MagicBees:capsule.magic - 5
+Forestry:refractoryOil - 0
+Forestry:waxCapsuleOil - 0
+gregtech:gt.metaitem.01 - 30707
+Forestry:canOil - 0
+GalacticraftCore:item.bucketOil - 0
 
 
 container_water
 MagicBees:capsule.void - 1
+IC2:itemCellEmpty - 1
+minecraft:water_bucket - 0
 Forestry:waxCapsuleWater - 0
 minecraft:potion - 0
-Forestry:refractoryWater - 0
-IC2:itemCellEmpty - 1
-aether:skyrootWaterBucket - 0
 MagicBees:capsule.magic - 1
 Forestry:canWater - 0
-minecraft:water_bucket - 0
+Forestry:refractoryWater - 0
+aether:skyrootWaterBucket - 0
 
 
 copperNugget
@@ -22201,6 +22225,7 @@ crushedCentrifugedMirabilite
 
 
 crushedCentrifugedMithril
+gregtech:gt.metaitem.01 - 7331
 
 
 crushedCentrifugedMolybdenite
@@ -22905,7 +22930,7 @@ gregtech:gt.metaitem.01 - 5340
 
 
 crushedMithril
-aobd:crushedMithril - 0
+gregtech:gt.metaitem.01 - 5331
 
 
 crushedMolybdenite
@@ -23323,7 +23348,7 @@ gregtech:gt.metaitem.01 - 6340
 
 
 crushedPurifiedMithril
-aobd:crushedPurifiedMithril - 0
+gregtech:gt.metaitem.01 - 6331
 
 
 crushedPurifiedMolybdenite
@@ -26057,6 +26082,9 @@ dirtyGravelMarble
 dirtyGravelMeteoricIron
 
 
+dirtyGravelMithril
+
+
 dirtyGravelMolybdenite
 
 
@@ -26704,6 +26732,9 @@ dustBasaltManganese
 dustBasaltMeteoricIron
 
 
+dustBasaltMithril
+
+
 dustBasaltMolybdenite
 
 
@@ -27334,6 +27365,9 @@ dustBlackgraniteMeteoricIron
 
 
 dustBlackgraniteMimichite
+
+
+dustBlackgraniteMithril
 
 
 dustBlackgraniteMolybdenite
@@ -28566,6 +28600,9 @@ dustEndstoneMeteoricIron
 
 
 dustEndstoneMimichite
+
+
+dustEndstoneMithril
 
 
 dustEndstoneMolybdenite
@@ -30407,6 +30444,7 @@ dustImpureMirabilite
 
 
 dustImpureMithril
+gregtech:gt.metaitem.01 - 3331
 
 
 dustImpureMolybdenite
@@ -31654,6 +31692,9 @@ dustMarbleManganese
 dustMarbleMeteoricIron
 
 
+dustMarbleMithril
+
+
 dustMarbleMolybdenite
 
 
@@ -32432,6 +32473,9 @@ dustNetherrackMeteoricIron
 
 
 dustNetherrackMimichite
+
+
+dustNetherrackMithril
 
 
 dustNetherrackMolybdenite
@@ -34164,6 +34208,7 @@ dustPureMirabilite
 
 
 dustPureMithril
+gregtech:gt.metaitem.01 - 4331
 
 
 dustPureMolybdenite
@@ -35278,6 +35323,9 @@ dustRedgraniteMeteoricIron
 
 
 dustRedgraniteMimichite
+
+
+dustRedgraniteMithril
 
 
 dustRedgraniteMolybdenite
@@ -44886,6 +44934,9 @@ gemBasaltManganese
 gemBasaltMeteoricIron
 
 
+gemBasaltMithril
+
+
 gemBasaltMolybdenite
 
 
@@ -45274,6 +45325,9 @@ gemBlackgraniteManganese
 
 
 gemBlackgraniteMeteoricIron
+
+
+gemBlackgraniteMithril
 
 
 gemBlackgraniteMolybdenite
@@ -45916,6 +45970,9 @@ gemEndstoneManganese
 
 
 gemEndstoneMeteoricIron
+
+
+gemEndstoneMithril
 
 
 gemEndstoneMolybdenite
@@ -47517,6 +47574,9 @@ gemMarbleManganese
 gemMarbleMeteoricIron
 
 
+gemMarbleMithril
+
+
 gemMarbleMolybdenite
 
 
@@ -48043,6 +48103,9 @@ gemNetherrackManganese
 gemNetherrackMeteoricIron
 
 
+gemNetherrackMithril
+
+
 gemNetherrackMolybdenite
 
 
@@ -48528,6 +48591,9 @@ gemRedgraniteManganese
 
 
 gemRedgraniteMeteoricIron
+
+
+gemRedgraniteMithril
 
 
 gemRedgraniteMolybdenite
@@ -49705,6 +49771,9 @@ ingotBasaltManganese
 ingotBasaltMeteoricIron
 
 
+ingotBasaltMithril
+
+
 ingotBasaltMolybdenite
 
 
@@ -50327,6 +50396,9 @@ ingotBlackgraniteMeteoricIron
 
 
 ingotBlackgraniteMimichite
+
+
+ingotBlackgraniteMithril
 
 
 ingotBlackgraniteMolybdenite
@@ -51836,6 +51908,9 @@ ingotEndstoneMeteoricIron
 
 
 ingotEndstoneMimichite
+
+
+ingotEndstoneMithril
 
 
 ingotEndstoneMolybdenite
@@ -54866,6 +54941,9 @@ ingotMarbleManganese
 ingotMarbleMeteoricIron
 
 
+ingotMarbleMithril
+
+
 ingotMarbleMolybdenite
 
 
@@ -55643,6 +55721,9 @@ ingotNetherrackMeteoricIron
 
 
 ingotNetherrackMimichite
+
+
+ingotNetherrackMithril
 
 
 ingotNetherrackMolybdenite
@@ -58338,6 +58419,9 @@ ingotRedgraniteMeteoricIron
 
 
 ingotRedgraniteMimichite
+
+
+ingotRedgraniteMithril
 
 
 ingotRedgraniteMolybdenite
@@ -66585,6 +66669,10 @@ oreBasaltMeteoricIron
 gregtech:gt.blockores - 6340
 
 
+oreBasaltMithril
+gregtech:gt.blockores - 6331
+
+
 oreBasaltMolybdenite
 gregtech:gt.blockores - 6942
 
@@ -67347,6 +67435,10 @@ gregtech:gt.blockores - 3340
 
 
 oreBlackgraniteMimichite
+
+
+oreBlackgraniteMithril
+gregtech:gt.blockores - 3331
 
 
 oreBlackgraniteMolybdenite
@@ -68730,6 +68822,10 @@ gregtech:gt.blockores - 2340
 
 
 oreEndstoneMimichite
+
+
+oreEndstoneMithril
+gregtech:gt.blockores - 2331
 
 
 oreEndstoneMolybdenite
@@ -71903,6 +71999,10 @@ oreMarbleMeteoricIron
 gregtech:gt.blockores - 5340
 
 
+oreMarbleMithril
+gregtech:gt.blockores - 5331
+
+
 oreMarbleMolybdenite
 gregtech:gt.blockores - 5942
 
@@ -72191,6 +72291,11 @@ oreMirabilite
 
 oreMithril
 ThermalFoundation:Ore - 6
+gregtech:gt.blockores - 331
+gregtech:gt.blockores.gc - 331
+gregtech:gt.blockores.gc - 1331
+gregtech:gt.blockores.gc - 2331
+gregtech:gt.blockores.gc - 3331
 
 
 oreMolten.bedrockiumingots
@@ -72862,6 +72967,10 @@ gregtech:gt.blockores - 1340
 
 
 oreNetherrackMimichite
+
+
+oreNetherrackMithril
+gregtech:gt.blockores - 1331
 
 
 oreNetherrackMolybdenite
@@ -75742,6 +75851,10 @@ gregtech:gt.blockores - 4340
 
 
 oreRedgraniteMimichite
+
+
+oreRedgraniteMithril
+gregtech:gt.blockores - 4331
 
 
 oreRedgraniteMolybdenite
@@ -85566,6 +85679,9 @@ reducedManganese
 reducedMeteoricIron
 
 
+reducedMithril
+
+
 reducedMolybdenite
 
 
@@ -87849,6 +87965,9 @@ shardMarble
 
 
 shardMeteoricIron
+
+
+shardMithril
 
 
 shardMolybdenite

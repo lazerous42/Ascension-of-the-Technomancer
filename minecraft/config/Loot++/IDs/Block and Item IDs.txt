@@ -4776,7 +4776,6 @@ ThaumicExploration:everburnUrn - 10038
 ThaumicExploration:everfullUrn - 10037
 ThaumicExploration:floatCandle - 10033
 ThaumicExploration:jarSeal - 10056
-ThaumicExploration:jarSealLinked - 10057
 ThaumicExploration:mechanistCap - 10050
 ThaumicExploration:mechanistCapUncharged - 10051
 ThaumicExploration:meltyIce - 10034
@@ -5851,7 +5850,6 @@ aobd:crushedCobalt - 12436
 aobd:crushedHeeEndium - 11022
 aobd:crushedIndium - 12274
 aobd:crushedMagnesium - 11035
-aobd:crushedMithril - 13436
 aobd:crushedPurifiedAdamantium - 13428
 aobd:crushedPurifiedArdite - 13433
 aobd:crushedPurifiedCadmium - 13434
@@ -5859,7 +5857,6 @@ aobd:crushedPurifiedCobalt - 13424
 aobd:crushedPurifiedHeeEndium - 13430
 aobd:crushedPurifiedIndium - 13427
 aobd:crushedPurifiedMagnesium - 13423
-aobd:crushedPurifiedMithril - 13437
 aobd:crushedPurifiedRutile - 13426
 aobd:crushedPurifiedSilicon - 13432
 aobd:crushedPurifiedSteel - 13422
