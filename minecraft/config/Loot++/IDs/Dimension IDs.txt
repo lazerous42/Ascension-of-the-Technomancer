@@ -36,15 +36,6 @@
 	- Terrain Scale: 1.0
 
 
--4
-	- Name: Hyperspace
-	- Height: 128
-	- Has Sky? false
-	- Cloud Height: 128.0
-	- Can Respawn Here? true
-	- Terrain Scale: 1.0
-
-
 -100
 	- Name: Underdark
 	- Height: 128
@@ -81,20 +72,11 @@
 	- Terrain Scale: 1.0
 
 
--28
-	- Name: Moon
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 128.0
-	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
--29
-	- Name: Mars
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 128.0
+-23
+	- Name: Land of Darkness
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 8.0
 	- Can Respawn Here? false
 	- Terrain Scale: 1.0
 
@@ -108,11 +90,11 @@
 	- Terrain Scale: 1.0
 
 
--30
-	- Name: Asteroids
-	- Height: 256
+-34
+	- Name: the Ancient Treasure Room
+	- Height: 128
 	- Has Sky? false
-	- Cloud Height: 128.0
+	- Cloud Height: 8.0
 	- Can Respawn Here? false
 	- Terrain Scale: 1.0
 
@@ -414,6 +396,15 @@
 	- Terrain Scale: 1.0
 
 
+6
+	- Name: Space
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: -2000.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
 4
 	- Name: Dungeons
 	- Height: 128
@@ -445,17 +436,8 @@
 	- Name: Proxima
 	- Height: 256
 	- Has Sky? true
-	- Cloud Height: 111.14109
+	- Cloud Height: 109.306274
 	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
--3
-	- Name: Space
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 128.0
-	- Can Respawn Here? true
 	- Terrain Scale: 1.0
 
 

@@ -47,848 +47,211 @@ Avaritia:Ultimate_Stew
 
 
 BinnieCore:containerBucket
-	- Megadata: 64
-	- Food or Drink? Unknown
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerBucket
-	- Megadata: 65
-	- Food or Drink? Unknown
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerBucket
-	- Megadata: 66
-	- Food or Drink? Unknown
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerBucket
 	- Megadata: 128
-	- Food or Drink? Unknown
+	- Food or Drink? Food
 	- Food Amount: 0
 	- Saturation Amount: 0.0
 
 
 BinnieCore:containerBucket
 	- Megadata: 129
-	- Food or Drink? Unknown
+	- Food or Drink? Food
 	- Food Amount: 0
 	- Saturation Amount: 0.0
 
 
 BinnieCore:containerBucket
 	- Megadata: 130
-	- Food or Drink? Unknown
+	- Food or Drink? Food
 	- Food Amount: 0
 	- Saturation Amount: 0.0
 
 
 BinnieCore:containerBucket
 	- Megadata: 131
-	- Food or Drink? Unknown
+	- Food or Drink? Food
 	- Food Amount: 0
 	- Saturation Amount: 0.0
 
 
-BinnieCore:containerCan
+BinnieCore:containerBucket
 	- Megadata: 64
-	- Food or Drink? Unknown
+	- Food or Drink? Food
 	- Food Amount: 0
 	- Saturation Amount: 0.0
 
 
-BinnieCore:containerCan
+BinnieCore:containerBucket
 	- Megadata: 65
-	- Food or Drink? Unknown
+	- Food or Drink? Food
 	- Food Amount: 0
 	- Saturation Amount: 0.0
 
 
-BinnieCore:containerCan
+BinnieCore:containerBucket
 	- Megadata: 66
-	- Food or Drink? Unknown
+	- Food or Drink? Food
 	- Food Amount: 0
 	- Saturation Amount: 0.0
 
 
 BinnieCore:containerCan
 	- Megadata: 128
-	- Food or Drink? Unknown
+	- Food or Drink? Food
 	- Food Amount: 0
 	- Saturation Amount: 0.0
 
 
 BinnieCore:containerCan
 	- Megadata: 129
-	- Food or Drink? Unknown
+	- Food or Drink? Food
 	- Food Amount: 0
 	- Saturation Amount: 0.0
 
 
 BinnieCore:containerCan
 	- Megadata: 130
-	- Food or Drink? Unknown
+	- Food or Drink? Food
 	- Food Amount: 0
 	- Saturation Amount: 0.0
 
 
 BinnieCore:containerCan
 	- Megadata: 131
-	- Food or Drink? Unknown
+	- Food or Drink? Food
 	- Food Amount: 0
 	- Saturation Amount: 0.0
 
 
-BinnieCore:containerCapsule
+BinnieCore:containerCan
 	- Megadata: 64
-	- Food or Drink? Unknown
+	- Food or Drink? Food
 	- Food Amount: 0
 	- Saturation Amount: 0.0
 
 
-BinnieCore:containerCapsule
+BinnieCore:containerCan
 	- Megadata: 65
-	- Food or Drink? Unknown
+	- Food or Drink? Food
 	- Food Amount: 0
 	- Saturation Amount: 0.0
 
 
-BinnieCore:containerCapsule
+BinnieCore:containerCan
 	- Megadata: 66
-	- Food or Drink? Unknown
+	- Food or Drink? Food
 	- Food Amount: 0
 	- Saturation Amount: 0.0
 
 
 BinnieCore:containerCapsule
 	- Megadata: 128
-	- Food or Drink? Unknown
+	- Food or Drink? Food
 	- Food Amount: 0
 	- Saturation Amount: 0.0
 
 
 BinnieCore:containerCapsule
 	- Megadata: 129
-	- Food or Drink? Unknown
+	- Food or Drink? Food
 	- Food Amount: 0
 	- Saturation Amount: 0.0
 
 
 BinnieCore:containerCapsule
 	- Megadata: 130
-	- Food or Drink? Unknown
+	- Food or Drink? Food
 	- Food Amount: 0
 	- Saturation Amount: 0.0
 
 
 BinnieCore:containerCapsule
 	- Megadata: 131
-	- Food or Drink? Unknown
+	- Food or Drink? Food
+	- Food Amount: 0
+	- Saturation Amount: 0.0
+
+
+BinnieCore:containerCapsule
+	- Megadata: 64
+	- Food or Drink? Food
+	- Food Amount: 0
+	- Saturation Amount: 0.0
+
+
+BinnieCore:containerCapsule
+	- Megadata: 65
+	- Food or Drink? Food
+	- Food Amount: 0
+	- Saturation Amount: 0.0
+
+
+BinnieCore:containerCapsule
+	- Megadata: 66
+	- Food or Drink? Food
 	- Food Amount: 0
 	- Saturation Amount: 0.0
 
 
 BinnieCore:containerCylinder
 	- Megadata: 768
-	- Food or Drink? Unknown
+	- Food or Drink? Food
 	- Food Amount: 0
 	- Saturation Amount: 0.0
 
 
 BinnieCore:containerCylinder
 	- Megadata: 769
-	- Food or Drink? Unknown
+	- Food or Drink? Food
 	- Food Amount: 0
 	- Saturation Amount: 0.0
 
 
 BinnieCore:containerCylinder
 	- Megadata: 770
-	- Food or Drink? Unknown
+	- Food or Drink? Food
 	- Food Amount: 0
 	- Saturation Amount: 0.0
 
 
 BinnieCore:containerCylinder
 	- Megadata: 771
-	- Food or Drink? Unknown
+	- Food or Drink? Food
 	- Food Amount: 0
 	- Saturation Amount: 0.0
 
 
 BinnieCore:containerCylinder
 	- Megadata: 772
-	- Food or Drink? Unknown
+	- Food or Drink? Food
 	- Food Amount: 0
 	- Saturation Amount: 0.0
 
 
 BinnieCore:containerGlass
-	- Megadata: 256
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 257
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 258
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 259
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 260
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 261
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 262
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 263
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 264
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 265
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 266
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 267
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 268
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 269
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 270
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 271
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 272
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 273
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 274
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 384
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 385
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 386
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 387
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 388
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 389
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 390
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 391
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 392
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 393
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 394
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 395
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 396
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 397
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 398
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 399
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 400
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 401
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 402
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 403
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 404
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 405
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 406
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 407
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 408
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 409
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 410
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 411
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 412
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 512
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 513
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 514
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 515
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 516
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 517
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 518
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 519
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 520
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 521
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 522
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 523
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 524
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 525
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 526
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 527
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 528
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 529
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 530
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 531
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 532
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 533
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 534
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 535
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 536
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 537
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 538
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 640
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 641
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 642
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 643
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 644
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 645
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 646
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 647
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 648
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 649
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 650
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 651
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 652
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 653
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 654
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 655
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-BinnieCore:containerGlass
-	- Megadata: 656
-	- Food or Drink? Drink
+	- Megadata: 0
+	- Food or Drink? Food
 	- Food Amount: 0
 	- Saturation Amount: 0.0
 
 
 BinnieCore:containerRefractory
 	- Megadata: 64
-	- Food or Drink? Unknown
+	- Food or Drink? Food
 	- Food Amount: 0
 	- Saturation Amount: 0.0
 
 
 BinnieCore:containerRefractory
 	- Megadata: 65
-	- Food or Drink? Unknown
+	- Food or Drink? Food
 	- Food Amount: 0
 	- Saturation Amount: 0.0
 
 
 BinnieCore:containerRefractory
 	- Megadata: 66
-	- Food or Drink? Unknown
+	- Food or Drink? Food
 	- Food Amount: 0
 	- Saturation Amount: 0.0
 
@@ -1556,118 +919,6 @@ EnderIO:itemEnderFood
 	- Saturation Amount: 0.8
 
 
-ExtraTrees:drink
-	- Megadata: 0
-	- Food or Drink? Unknown
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-ExtraTrees:drink
-	- Megadata: 0
-	- Food or Drink? Unknown
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-ExtraTrees:drink
-	- Megadata: 0
-	- Food or Drink? Unknown
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-ExtraTrees:drink
-	- Megadata: 0
-	- Food or Drink? Unknown
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-ExtraTrees:drink
-	- Megadata: 0
-	- Food or Drink? Unknown
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-ExtraTrees:drink
-	- Megadata: 0
-	- Food or Drink? Unknown
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-ExtraTrees:drink
-	- Megadata: 0
-	- Food or Drink? Unknown
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-ExtraTrees:drink
-	- Megadata: 0
-	- Food or Drink? Unknown
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-ExtraTrees:drink
-	- Megadata: 0
-	- Food or Drink? Unknown
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-ExtraTrees:drink
-	- Megadata: 0
-	- Food or Drink? Unknown
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-ExtraTrees:drink
-	- Megadata: 0
-	- Food or Drink? Unknown
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-ExtraTrees:drink
-	- Megadata: 0
-	- Food or Drink? Unknown
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-ExtraTrees:drink
-	- Megadata: 0
-	- Food or Drink? Unknown
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-ExtraTrees:drink
-	- Megadata: 0
-	- Food or Drink? Unknown
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-ExtraTrees:drink
-	- Megadata: 0
-	- Food or Drink? Unknown
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
-ExtraTrees:drink
-	- Megadata: 0
-	- Food or Drink? Drink
-	- Food Amount: 0
-	- Saturation Amount: 0.0
-
-
 ExtraTrees:food
 	- Megadata: 0
 	- Food or Drink? Food
@@ -2227,37 +1478,6 @@ Forestry:waxCapsuleJuice
 	- Megadata: 0
 	- Food or Drink? Drink
 	- Food Info Unknown!
-
-
-GalacticraftCore:item.basicItem
-	- Megadata: 15
-	- Food or Drink? Food
-	- Food Info Unknown!
-
-
-GalacticraftCore:item.basicItem
-	- Megadata: 16
-	- Food or Drink? Food
-	- Food Info Unknown!
-
-
-GalacticraftCore:item.basicItem
-	- Megadata: 17
-	- Food or Drink? Food
-	- Food Info Unknown!
-
-
-GalacticraftCore:item.basicItem
-	- Megadata: 18
-	- Food or Drink? Food
-	- Food Info Unknown!
-
-
-GalacticraftCore:item.cheeseCurd
-	- Megadata: 0
-	- Food or Drink? Food
-	- Food Amount: 1
-	- Saturation Amount: 0.1
 
 
 HardcoreEnderExpansion:infestation_remedy
@@ -3631,6 +2851,524 @@ forestmobs:paleosalad
 	- Food or Drink? Food
 	- Food Amount: 6
 	- Saturation Amount: 0.7
+
+
+fossil:cookedAlligator_Gar
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedAllosaurus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedAnkylosaurus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedBrachiosaurus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedCeratosaurus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedCoelacanth
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedCompsognathus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedConfuciusornis
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedDeinonychus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedDilophosaurus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedDodo
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedDryosaurus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedElasmotherium
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedGallimimus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedGastornis
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedHenodus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedIcthyosaurus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedKelenken
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedLiopleurodon
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedMammoth
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedMosasaurus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedPachycephalosaurus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedParasaurolophus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedPhorusrhacos
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedPlesiosaur
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedPterosaur
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedQuagga
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedSarcosuchus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedSmilodon
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedSpinosaurus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedStegosaurus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedSturgeon
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedTherizinosaurus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedTitanis
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedTriceratops
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedTyrannosaurus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cookedVelociraptor
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+fossil:cooked_egg
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 2.0
+
+
+fossil:essenceofChicken
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 0.0
+
+
+fossil:rawAllosaurus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawAnkylosaurus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawBrachiosaurus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawCeratosaurus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawCompsognathus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawConfuciusornis
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawDeinonychus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawDilophosaurus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawDodo
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawDryosaurus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawElasmotherium
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawGallimimus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawGastornis
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawHenodus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawIcthyosaurus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawKelenken
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawLiopleurodon
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawMammoth
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawMosasaurus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawPachycephalosaurus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawParasaurolophus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawPhorusrhacos
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawPlesiosaur
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawPterosaur
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawQuagga
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawSarcosuchus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawSmilodon
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawSpinosaurus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawStegosaurus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawTherizinosaurus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawTitanis
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawTriceratops
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawTyrannosaurus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:rawVelociraptor
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.3
+
+
+fossil:sJL
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 2.0
 
 
 freshwatermobs:lapisfishandchips

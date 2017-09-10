@@ -8,8 +8,11 @@
 		"minHeight": 5,
 		"maxHeight": 128,
 		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [],
+		"biomeRestriction": "blacklist",
+		"biomes": [
+					{"type": "name",
+					 "entry": "Moon"}
+				  ],
 		"dimensionRestriction": "blacklist",
 		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
 	},
@@ -36,8 +39,11 @@
 		"minHeight": 2,
 		"maxHeight": 128,
 		"retrogen": "true",
-		"biomeRestriction": "none",
-		"biomes": [],
+		"biomeRestriction": "blacklist",
+		"biomes": [
+					{"type": "name",
+					 "entry": "Moon"}
+				  ],
 		"dimensionRestriction": "blacklist",
 		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
 	},

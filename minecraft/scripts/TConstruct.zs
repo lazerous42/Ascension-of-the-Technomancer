@@ -8,6 +8,8 @@ import mods.tconstruct.Casting;
 import mods.tconstruct.Smeltery;
 import mods.gregtech.Assembler;
 import mods.thaumcraft.Infusion;
+import mods.thaumcraft.Arcane;
+import mods.immersiveengineering.ArcFurnace;
 import mods.nei.NEI;
 
 print("Initializing 'TConstruct.zs'...");
@@ -31,41 +33,45 @@ NEI.hide(<TConstruct:CraftingSlab:3>);
 NEI.hide(<TConstruct:CraftingSlab:4>);
 NEI.hide(<TConstruct:CraftingSlab:5>);
 
-# Seared/Speed Blocks
-recipes.remove(<TConstruct:SearedSlab:*>);
-NEI.hide(<TConstruct:SearedSlab:*>);
-recipes.remove(<TConstruct:SpeedBlock:*>);
-NEI.hide(<TConstruct:SpeedBlock:*>);
-recipes.remove(<TConstruct:SpeedSlab:*>);
-NEI.hide(<TConstruct:SpeedSlab:*>);
-
-# Smeltery Blocks ~ Currently disabled, but will probably be activated for ore-processing only (no tools)
-recipes.remove(<TConstruct:Smeltery:*>);
-NEI.hide(<TConstruct:Smeltery:*>);
+# Smeltery Blocks ~ Only allow for overworld variant
 recipes.remove(<TConstruct:SmelteryNether:*>);
 NEI.hide(<TConstruct:SmelteryNether:*>);
-recipes.remove(<TConstruct:LavaTank:*>);
-NEI.hide(<TConstruct:LavaTank:*>);
 recipes.remove(<TConstruct:LavaTankNether:*>);
 NEI.hide(<TConstruct:LavaTankNether:*>);
-recipes.remove(<TConstruct:SearedBlock:*>);
-NEI.hide(<TConstruct:SearedBlock:*>);
 recipes.remove(<TConstruct:SearedBlockNether:*>);
 NEI.hide(<TConstruct:SearedBlockNether:*>);
-recipes.remove(<TConstruct:CastingChannel:*>);
-NEI.hide(<TConstruct:CastingChannel:*>);
 
 # Patterns
 recipes.remove(<TConstruct:blankPattern>);
 NEI.hide(<TConstruct:blankPattern>);
-Casting.removeTableRecipe(<TConstruct:blankPattern:*>);
-NEI.hide(<TConstruct:blankPattern:1>);
-NEI.hide(<TConstruct:blankPattern:2>);
-recipes.remove(<TConstruct:woodPattern:1>);
-NEI.hide(<TConstruct:woodPattern:1>);
-Casting.removeTableRecipe(<TConstruct:metalPattern>);
-NEI.hide(<TConstruct:metalPattern>);
-Casting.removeTableRecipe(<TConstruct:metalPattern:1>);
+
+var woodPatternMeta = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25] as int[];
+for meta in woodPatternMeta {
+	recipes.remove(<TConstruct:woodPattern>.definition.makeStack(meta));
+	NEI.hide(<TConstruct:woodPattern>.definition.makeStack(meta));
+}
+
+# Wow, the rediculous BS around trying to script this mod.  I cann't remove the arrowhead case (TConstruct:metalPattern:25) 
+# because it throws errors while also removing the item
+var metalPatternMeta = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22] as int[];
+for meta in metalPatternMeta {
+	Casting.removeTableRecipe(<TConstruct:metalPattern>.definition.makeStack(meta));
+	NEI.hide(<TConstruct:metalPattern>.definition.makeStack(meta));
+}
+
+#Casting.removeTableRecipe(<TConstruct:blankPattern:*>);
+#NEI.hide(<TConstruct:blankPattern:1>);
+#NEI.hide(<TConstruct:blankPattern:2>);
+#Casting.removeTableRecipe(<TConstruct:metalPattern>);
+#NEI.hide(<TConstruct:metalPattern>);
+#Casting.removeTableRecipe(<TConstruct:metalPattern:1>);
+
+# Remove Aluminum Brass
+Smeltery.removeMelting(<TConstruct:blankPattern:1>);
+recipes.remove(<TConstruct:materials:42>);
+NEI.hide(<TConstruct:materials:42>);
+ArcFurnace.removeRecipe(<ImmersiveEngineering:metal:14>);
+NEI.hide(<TConstruct:materials:14>);
 
 # Tools
 #recipes.remove(<TConstruct:pickaxe>);
@@ -196,10 +202,8 @@ furnace.remove(<TConstruct:materials:1>);
 NEI.hide(<TConstruct:materials:1>);
 
 # Stained Glass
-recipes.remove(<TConstruct:GlassBlock>);
 recipes.addShapeless(<TConstruct:GlassBlock>, [<EnderIO:blockFusedQuartz:1>]);
 recipes.addShapeless(<EnderIO:blockFusedQuartz:1>, [<TConstruct:GlassBlock>]);
-recipes.remove(<TConstruct:GlassPane>);
 recipes.addShapedMirrored(<TConstruct:GlassPane> * 16, [[<TConstruct:GlassBlock>, <TConstruct:GlassBlock>, <TConstruct:GlassBlock>],
 						   	[<TConstruct:GlassBlock>, <TConstruct:GlassBlock>, <TConstruct:GlassBlock>],
 						   	[null, null, null]]);
@@ -211,11 +215,13 @@ NEI.hide(<TConstruct:oreBerries:2>);
 NEI.hide(<TConstruct:oreBerries:3>);
 NEI.hide(<TConstruct:oreBerries:4>);
 
+# Grout
+recipes.remove(<TConstruct:CraftedSoil:1>);
+recipes.addShapeless(<TConstruct:CraftedSoil:1>, [<minecraft:sand>, <minecraft:gravel>, <minecraft:clay_ball>, <ImmersiveEngineering:material:13>, <advancedRocketry:moonTurf>]);
+
 # Misc
 recipes.remove(<TConstruct:GlueBlock:*>);
 NEI.hide(<TConstruct:GlueBlock:*>);
-recipes.remove(<TConstruct:CraftedSoil:*>);
-NEI.hide(<TConstruct:CraftedSoil:*>);
 Casting.removeTableRecipe(<TConstruct:goldHead>);
 recipes.remove(<TConstruct:manualBook:*>);
 NEI.hide(<TConstruct:manualBook>);
@@ -227,13 +233,12 @@ NEI.hide(<TConstruct:potionLauncher>);
 
 ## Now for setting the allowed recipes
 
-# Removing lava as a smeltery fuel (pyrothium only) for use in future version
+# Removing lava as a smeltery fuel (pyrothium only)
 Smeltery.removeFuel(<liquid:lava>);
 
-# Knapsack (Moar weird Tinkers' MineTweaker bullshit, I cannot create a new knapsack recipe.  No errors, unlike the drawbridges, but the recipes just doesn't appear in NEI)
-recipes.remove(<TConstruct:knapsack>);
+# Knapsack 
 recipes.addShapedMirrored(<TConstruct:knapsack>, [[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>], 
-					  	  [<ore:rodBrass>, <ore:ingotBrass>, <ore:rodBrass>], 
+					  	  [<ore:stickBrass>, <ore:ingotBrass>, <ore:stickBrass>], 
 					  	  [<minecraft:leather>, <minecraft:leather>, <minecraft:leather>]]);
 
 # Landmines
@@ -257,6 +262,6 @@ recipes.remove(<TConstruct:heartCanister:4>);
 Infusion.addRecipe("YELLOWHEARTCANISTER", <TConstruct:heartCanister:2>, [<TConstruct:heartCanister:3>, <IC2:itemPartCircuitAdv>, <ExtraUtilities:unstableingot:2>, <HardcoreEnderExpansion:living_matter>, <TwilightForest:item.carminite>, <AWWayofTime:weakBloodShard>, <EnderIO:itemBasicCapacitor:2>, <nevermine:NethengeicCallstone>], "victus 40, sano 20, spiritus 30, auram 15, humanus 20", <TConstruct:heartCanister:4>, 7);
 # Green Heart Canister
 recipes.remove(<TConstruct:heartCanister:6>);
-Infusion.addRecipe("GREENHEARTCANISTER", <TConstruct:heartCanister:4>, [<TConstruct:heartCanister:5>, <AWWayofTime:demonBloodShard>, <gregtech:gt.metaitem.03:32085>, <InterstellarOres:oreAsteroid:1>, <ThaumicTinkerer:kamiResource:2>, <StevesCarts:ModuleComponents:49>, <nevermine:LunaverCoin>, <PneumaticCraft:printedCircuitBoard>], "victus 60, sano 30, spiritus 45, auram 20, humanus 20", <TConstruct:heartCanister:6>, 10);
+Infusion.addRecipe("GREENHEARTCANISTER", <TConstruct:heartCanister:4>, [<TConstruct:heartCanister:5>, <AWWayofTime:demonBloodShard>, <gregtech:gt.metaitem.03:32085>, <gregtech:gt.blockgem1:6>, <ThaumicTinkerer:kamiResource:2>, <StevesCarts:ModuleComponents:49>, <nevermine:LunaverCoin>, <PneumaticCraft:printedCircuitBoard>], "victus 60, sano 30, spiritus 45, auram 20, humanus 20", <TConstruct:heartCanister:6>, 10);
 
 print("Initialized 'TConstruct.zs'");

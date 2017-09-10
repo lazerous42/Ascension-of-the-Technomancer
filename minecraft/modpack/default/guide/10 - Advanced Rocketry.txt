@@ -1,0 +1,40 @@
+§0§l§nTechnical Notes About Advanced Rocketry§r
+
+As of version 5.0.1, Ascension of the Technomancer now has substantial progression mechanics revolving around the mod Advanced Rocketry.  The specific reason of adding in this mod was to support the existance of a second overworld dimension.  This dimension's name is Feyweald and it was introduced to address an emergent bug in the Chromaticraft progression tree.  Specifically, Chromaticraft 17+ introduced a new biome called the Luminecent Cliffs.  This biome is special and does not spawn in the world in the same way as all other overworld biomes.  This biome has special spawning requirements that are established using advanced Java programming techniques.  Without delving into esoteric technical details here, the Java trickery caused this new, progression essential biome to be unable to spawn in Biomes O' Plenty (BIOMESOP) type worlds.  This game-breaking deficiency was addressed by creating a second overworld that uses the DEFAULT Minecraft world generator.  You will find this world in your home star system, in orbit around the gas giant Vorpera.
+
+In addition to this, many of the Advent of Ascension dimensionds are now accessible via Advanced Rocketry as well, however only AoA dimensions with an open sky are accessible in this way (can't land a rocket in a cave now can you?).  These worlds will not be found in your home star system, and the Realmstones are still required as artifact inputs to your warp core before you can reach these worlds.  In addition to this, all planets around other stars will not be visible by default, you will need to use research satellites and observatories in order to discover them.
+
+Should a future pack update make changes to the star system layout, a flag will be toggled in the Advanced Rocketry configs to push out the updated star map into your worlds.  The updated star map will be applied when loading into your world for the first time after launching an updated version of the pack.  The catch to this flag is that it will set itself back to false when the pack loads up, and the changes to the star map may only take effect for the first world loaded after the pack update.  For this reason, I have included the instructions for how to trigger this update yourself.
+
+1) Locate the file ..\minecraft\config\advRocketry\advancedRocketry.cfg
+2) Find the setting B:resetPlanetsFromXML and change it's value to true
+3) Launch the pack and open up the world that needs the changes.  During pack launch, the flag will have set itself back to false.  This is normal behavior.
+
+Should any technical issues arise that require changes to the star map, you will be able to find detailed instructions on what kind of maintanence you need to perform on your world files both in here and in the corresponding GitHub issue page documenting the problem.  This is just a precautionary statement.
+
+§0§l§nGame Mechanics§r
+
+It is highly recommended that you review a mod spotlight about Advancved Rocktery to learn how to progress.  This is a rich and complex mod, but it lacks any kind of an in-game manual to explain how to access it's content.  It's far too much material to pack into this guide, so I personally recommend that you watch Thorgal Daily Gaming's mod spotlight.  The link to is is included below (this is exactly how I learned about it)
+
+https://www.youtube.com/playlist?list=PLuhnYcdSNo0nIqB1Y3dTcHA9JCqXfVvm9
+
+A basic synopsis of how to get to another world is described below.
+
+*) You will need to be in the MV era of GregTech before you can get started in Advanced Rocketry, as Aluminium is a fundamental material for building many of the required structures and machines needed to get off the ground.
+1) Create a Holoprojector.  This will show you a template of ghost blocks for how to create all of the multi-block structures in this mod
+2) Start building a spaceport.  You will want a separate launch pad for every rocket your going to launch, as rockets will want to return to the pad that launched them after a mission.  A launch pad also needs a rocket assembling machine and structure towers to be a valid launch pad.  A fuel loader machine would probably also be a desirable enhancement.
+3) You will also need to create a space suit workstation to create a space suit for protection from the vacuum of space when working on your space station or exploring an airless world.
+4) Setup an Electrolyser and Chemical Reactor to create rocket fuel.  There are other fuels from other mods that will work as well.
+
+        biofuel
+        fire_water
+        fuel
+        kerosene
+        rocketfuel (from EIO)
+
+5) Your first extra-planetary mission will be to travel to Luna.  You are looking for Dilithium crystals here.  This is the fuel needed for a warp core to travel further than the Moon.
+6) Create a Space Station Assembler at a large launchpad.  The max size of a launch pad is 16x16.  You don't necessarily need a separate launch pad for your space station components as the station you build on the pad, will get packed up into a space station container during the process of creation.  If you are planning on launching all of your station components from a planet as opposed to building it primarily in space, then a separate pad is recommended for this technique.
+7) Once you have created your first space station component, you will have a space station container that contains what you built on the launch pad, as well as a space station ID chip.  You can use the satellite builder to copy your space station ID chip onto blank chips so you can have more than one copy of it.  It is HIGHLY recommended that you make several copies of your station ID chip and keep them safe.  If you lose your ID chip, I don't know of any way you can get back to your space station.  This is kind of like the importance of keeping track of you overworld link book in Mystcraft.
+8) So now you have a space station, what can you do with it.  Well, this isn't like a Galacticraft space station.  This is really more of an interplanetary/interstellar transport ship than just a remote operating base in a void world (well, it is that too).  You will want to outfit your station with a warp core and warp controller.  This is the only way to travel beyond your locate planetary system (the Overworld and Luna).  Once you have a warp core fueled with dilithium, you are ready to set off to adventure into the great dark beyond.  This synopsis completely over looks all of the research mechanics required to actually find other planets, you will need to use satellites and observatories to locate other worlds beyond your home star.
+
+This is just an overview of how to get to other worlds.  Please review a full mod spotlight to get informed of all of the details if you have never used this mod before.

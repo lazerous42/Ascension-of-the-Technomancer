@@ -125,8 +125,8 @@ recipes.addShaped(<EnderIO:itemMaterial:10>, [[null, <Forestry:craftingMaterial:
 Pulverizer.removeRecipe(<minecraft:sand>);
 Pulverizer.addRecipe(1600, <minecraft:sand>, itemSilicon);
 # Induction Smelter
-Smelter.removeRecipe(<gregtech:gt.metaitem.01:17020>, <gregtech:gt.metaitem.01:2305>);
-Smelter.removeRecipe(<gregtech:gt.metaitem.01:17020>, <ore:ingotSteel>);
+#Smelter.removeRecipe(<gregtech:gt.metaitem.01:17020>, <gregtech:gt.metaitem.01:2305>);
+#Smelter.removeRecipe(<gregtech:gt.metaitem.01:17020>, <ore:ingotSteel>);
 Smelter.addRecipe(6000, itemSilicon, <gregtech:gt.metaitem.01:2305>, ingotElectricalSteel);
 Smelter.addRecipe(6000, itemSilicon, <gregtech:gt.metaitem.01:11305>, ingotElectricalSteel);
 

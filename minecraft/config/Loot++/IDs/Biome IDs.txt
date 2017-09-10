@@ -165,33 +165,29 @@
 	- Name: Mesa Plateau
 	- Forge Biome Types: MESA SANDY 
 
-40
-	- Name: Space
-	- Forge Biome Types: DEAD WASTELAND 
-
 41
 	- Name: Aether
 	- Forge Biome Types: DRY PLAINS 
 
 42
 	- Name: Dungeons
-	- Forge Biome Types: FOREST MOUNTAIN 
+	- Forge Biome Types: PLAINS 
 
 43
 	- Name: Storage Cell
 	- Forge Biome Types: COLD PLAINS 
 
 44
-	- Name: moon
-	- Forge Biome Types: COLD WET DRY DEAD HILLS 
+	- Name: Abyssal Shadow Forest
+	- Forge Biome Types: COLD WET HILLS 
 
 45
-	- Name: marsFlat
-	- Forge Biome Types: HOT COLD WET DRY DEAD PLAINS SANDY 
+	- Name: Alien Forest
+	- Forge Biome Types: HOT WET PLAINS 
 
 46
-	- Name: asteroids
-	- Forge Biome Types: COLD WET DRY SPOOKY DEAD PLAINS 
+	- Name: Chocolate Forest
+	- Forge Biome Types: WET PLAINS 
 
 47
 	- Name: Deep Fungal Cave
@@ -449,9 +445,29 @@
 	- Name: Silvro Hills
 	- Forge Biome Types: WET HILLS 
 
+111
+	- Name: Land of Darkness
+	- Forge Biome Types: DRY PLAINS 
+
+112
+	- Name: biome.treasure.name
+	- Forge Biome Types: DRY PLAINS 
+
 113
 	- Name: Abyssal Eyelands
 	- Forge Biome Types: COLD WET HILLS 
+
+114
+	- Name: CrystalChasms
+	- Forge Biome Types: COLD PLAINS 
+
+115
+	- Name: DeepSwamp
+	- Forge Biome Types: HOT DENSE WET JUNGLE SWAMP 
+
+116
+	- Name: Hot Dry Rock
+	- Forge Biome Types: HOT DRY PLAINS 
 
 117
 	- Name: Radiant Fissures
@@ -524,6 +540,26 @@
 134
 	- Name: Swampland M
 	- Forge Biome Types: WET SWAMP 
+
+135
+	- Name: Marsh
+	- Forge Biome Types: PLAINS 
+
+136
+	- Name: Moon
+	- Forge Biome Types: DRY PLAINS 
+
+137
+	- Name: OceanSpires
+	- Forge Biome Types: RIVER PLAINS 
+
+138
+	- Name: Space
+	- Forge Biome Types: HOT DRY SAVANNA RIVER PLAINS 
+
+139
+	- Name: Stormland
+	- Forge Biome Types: HOT WET JUNGLE 
 
 140
 	- Name: Ice Plains Spikes

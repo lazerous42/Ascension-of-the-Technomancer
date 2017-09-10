@@ -7,6 +7,7 @@
 import mods.railcraft.RockCrusher;
 import mods.railcraft.Rolling;
 import mods.thaumcraft.Infusion;
+import mods.railcraft.CokeOven;
 import mods.ic2.Compressor;
 
 print("Initializing 'Railcraft.zs'...");
@@ -16,6 +17,7 @@ val glass = <minecraft:glass>;
 val ingotIron = <ore:ingotIron>;
 val ingotGold = <ore:ingotGold>;
 val piston = <minecraft:piston>;
+val itemCharcoal = <minecraft:coal:1>;
 val pickaxeDiamond = <minecraft:diamond_pickaxe>;
 val blockRedstone = <minecraft:redstone_block>;
 val bucketLava = <minecraft:lava_bucket>;
@@ -54,6 +56,16 @@ val firestoneRefined = <Railcraft:firestone.refined:5000>;
 recipes.remove(<Railcraft:part.gear>);
 recipes.remove(<Railcraft:part.gear:1>);
 recipes.remove(<Railcraft:part.gear:2>);
+
+## Coke Oven Tweaks
+# Charcoal
+CokeOven.removeRecipe(itemCharcoal);
+for logWood in <ore:logWood>.items {
+	CokeOven.addRecipe(itemCharcoal, <liquid:creosote> * 500, logWood, 1800); 
+}
+# Coal Coke
+CokeOven.removeRecipe(itemCoalCoke);
+CokeOven.addRecipe(itemCoalCoke, <liquid:creosote> * 500, <minecraft:coal>, 1800); 
 
 ## Coal Coke Block
 recipes.remove(blockCoalCoke);

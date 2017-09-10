@@ -145,32 +145,6 @@ FireworksRocketEntity
 Forestry.butterflyGE
 Forestry.cart.apiary
 Forestry.cart.beehouse
-GalacticraftCore.AlienVillager
-GalacticraftCore.Buggy
-GalacticraftCore.CelestialScreen
-GalacticraftCore.EvolvedCreeper
-GalacticraftCore.EvolvedSkeleton
-GalacticraftCore.EvolvedSkeletonBoss
-GalacticraftCore.EvolvedSpider
-GalacticraftCore.EvolvedZombie
-GalacticraftCore.GCFlag
-GalacticraftCore.Lander
-GalacticraftCore.Meteor
-GalacticraftCore.MeteorChunk
-GalacticraftCore.ParaChest
-GalacticraftCore.Spaceship
-GalacticraftMars.AstroMiner
-GalacticraftMars.CargoRocket
-GalacticraftMars.CreeperBoss
-GalacticraftMars.EntryPodAsteroids
-GalacticraftMars.GrappleHookGC
-GalacticraftMars.LandingBalloons
-GalacticraftMars.ProjectileTNT
-GalacticraftMars.Slimeling
-GalacticraftMars.Sludgeling
-GalacticraftMars.SmallAsteroidGC
-GalacticraftMars.SpaceshipT2
-GalacticraftMars.Tier3RocketGC
 Ghast
 Giant
 GraviSuite.PlasmaBall
@@ -736,15 +710,21 @@ TwilightForest.tftwilightwandbolt
 Villager
 VillagerGolem
 WRTracker
-WarpDrive.EntityCamera
-WarpDrive.EntitySphereGenerator
-WarpDrive.EntityStarCore
 Witch
 WitherBoss
 WitherSkull
 Wolf
 XPOrb
 Zombie
+advancedRocketry.ARAbductedItem
+advancedRocketry.ARPlanetUIButton
+advancedRocketry.ARPlanetUIItem
+advancedRocketry.ARSpaceElevatorCapsule
+advancedRocketry.ARStarUIButton
+advancedRocketry.deployedRocket
+advancedRocketry.laserNode
+advancedRocketry.mountDummy
+advancedRocketry.rocket
 aether.aechorPlant
 aether.aerbunny
 aether.aetherCoin
@@ -969,6 +949,61 @@ forestmobs.shambler
 forestmobs.spriggan
 forestmobs.trent
 forestmobs.warg
+fossil.Alligator_Gar
+fossil.Allosaurus
+fossil.AncientJavelin
+fossil.Ankylosaurus
+fossil.AnuDead
+fossil.AnuEffect
+fossil.Anubite
+fossil.Bones
+fossil.Brachiosaurus
+fossil.Ceratosaurus
+fossil.Coelacanth
+fossil.Compsognathus
+fossil.Confuciusornis
+fossil.Deinonychus
+fossil.Dilophosaurus
+fossil.DinoEgg
+fossil.Dodo
+fossil.Dryosaurus
+fossil.Elasmotherium
+fossil.Failuresaurus
+fossil.FriendlyLighting
+fossil.FriendlyPigZombie
+fossil.Gallimimus
+fossil.Gastornis
+fossil.Henodus
+fossil.Icthyosaurus
+fossil.Javelin
+fossil.Kelenken
+fossil.Liopleurodon
+fossil.Mammoth
+fossil.Mosasaurus
+fossil.Nautilus
+fossil.Pachycephalosaurus
+fossil.Parasaurolophus
+fossil.Phorusrhacos
+fossil.PigBoss
+fossil.Plesiosaur
+fossil.Pterosaur
+fossil.Quagga
+fossil.Sarcosuchus
+fossil.SentryPigman
+fossil.Smilodon
+fossil.Spinosaurus
+fossil.Stegosaurus
+fossil.StoneBoard
+fossil.Sturgeon
+fossil.TarSlime
+fossil.Therizinosaurus
+fossil.Titanis
+fossil.ToyBall
+fossil.ToyScratchingPost
+fossil.ToyTetheredLog
+fossil.Triceratops
+fossil.Tyrannosaurus
+fossil.Velociraptor
 freshwatermobs.aquapulse
 freshwatermobs.jengu
 freshwatermobs.silex
@@ -1960,15 +1995,6 @@ witchery.wolfman
 98 - Ozelot
 100 - EntityHorse
 120 - Villager
-256 - GalacticraftCore.EvolvedSpider
-257 - GalacticraftCore.EvolvedZombie
-258 - GalacticraftCore.EvolvedCreeper
-259 - GalacticraftCore.EvolvedSkeleton
-260 - GalacticraftCore.EvolvedSkeletonBoss
-261 - GalacticraftCore.AlienVillager
-262 - GalacticraftMars.Sludgeling
-263 - GalacticraftMars.Slimeling
-264 - GalacticraftMars.CreeperBoss
 301 - BiomesOPlenty.JungleSpider
 302 - BiomesOPlenty.Rosester
 303 - BiomesOPlenty.Glob
@@ -1976,7 +2002,51 @@ witchery.wolfman
 305 - BiomesOPlenty.Wasp
 306 - BiomesOPlenty.Bird
 307 - BiomesOPlenty.Pixie
-308 - Sanguimancy.EntityChickenMinion
+308 - fossil.Failuresaurus
+309 - fossil.Bones
+310 - fossil.Anubite
+311 - fossil.TarSlime
+312 - fossil.PigBoss
+313 - fossil.SentryPigman
+314 - fossil.Nautilus
+315 - fossil.Coelacanth
+316 - fossil.Alligator_Gar
+317 - fossil.Sturgeon
+318 - fossil.Triceratops
+319 - fossil.Velociraptor
+320 - fossil.Tyrannosaurus
+321 - fossil.Pterosaur
+322 - fossil.Plesiosaur
+323 - fossil.Mosasaurus
+324 - fossil.Stegosaurus
+325 - fossil.Dilophosaurus
+326 - fossil.Brachiosaurus
+327 - fossil.Spinosaurus
+328 - fossil.Compsognathus
+329 - fossil.Ankylosaurus
+330 - fossil.Pachycephalosaurus
+331 - fossil.Deinonychus
+332 - fossil.Gallimimus
+333 - fossil.Liopleurodon
+334 - fossil.Allosaurus
+335 - fossil.Sarcosuchus
+336 - fossil.Ceratosaurus
+337 - fossil.Dryosaurus
+338 - fossil.Therizinosaurus
+339 - fossil.Icthyosaurus
+340 - fossil.Henodus
+341 - fossil.Parasaurolophus
+342 - fossil.Confuciusornis
+343 - fossil.Dodo
+344 - fossil.Gastornis
+345 - fossil.Kelenken
+346 - fossil.Phorusrhacos
+347 - fossil.Titanis
+348 - fossil.Mammoth
+349 - fossil.Smilodon
+350 - fossil.Quagga
+351 - fossil.Elasmotherium
+352 - Sanguimancy.EntityChickenMinion
 6396 - witchery.demon
 6397 - witchery.mandrake
 6398 - witchery.treefyd

@@ -218,8 +218,8 @@ Wiremill.addRecipe(<appliedenergistics2:item.ItemMultiPart:140>, <gregtech:gt.me
 ##  Energy Acceptor/Controller
 recipes.remove(<appliedenergistics2:tile.BlockController>);
 recipes.remove(<appliedenergistics2:tile.BlockEnergyAcceptor>);
-recipes.addShaped(<appliedenergistics2:tile.BlockController>, [[plateTitanium, ingotEnhancedGalgadorian, plateTitanium], [<appliedenergistics2:item.ItemMultiMaterial:23>, server, <appliedenergistics2:item.ItemMultiMaterial:23>], [plateTitanium, ingotEnhancedGalgadorian, plateTitanium]]);
-recipes.addShaped(<appliedenergistics2:tile.BlockEnergyAcceptor>, [[plateTitanium, galgadorianMetal, plateTitanium], [<appliedenergistics2:item.ItemMultiMaterial:24>, fluixBlock, <appliedenergistics2:item.ItemMultiMaterial:24>], [plateTitanium, galgadorianMetal, plateTitanium]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockController>, [[plateTitanium, ingotEnhancedGalgadorian, plateTitanium], [<appliedenergistics2:item.ItemMultiMaterial:23>, server, <appliedenergistics2:item.ItemMultiMaterial:23>], [printedCircuitBoard, plateTitanium, ingotEnhancedGalgadorian]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockEnergyAcceptor>, [[plateTitanium, galgadorianMetal, plateTitanium], [<appliedenergistics2:item.ItemMultiMaterial:24>, fluixBlock, <appliedenergistics2:item.ItemMultiMaterial:24>], [printedCircuitBoard, plateTitanium, galgadorianMetal]]);
 
 ##  Energy Cells
 recipes.remove(<appliedenergistics2:tile.BlockEnergyCell>);
@@ -232,23 +232,5 @@ recipes.addShaped(<appliedenergistics2:tile.BlockInscriber>, [[<ore:ingotIron>, 
 ## Me Chest
 recipes.remove(<appliedenergistics2:tile.BlockChest>);
 recipes.addShaped(<appliedenergistics2:tile.BlockChest>, [[<appliedenergistics2:item.ItemMultiPart:16>, <ore:chestWood>, <appliedenergistics2:item.ItemMultiPart:16>], [null, <appliedenergistics2:tile.BlockEnergyAcceptor>, null], [<appliedenergistics2:item.ItemMultiPart:16>, <ore:chestWood>, <appliedenergistics2:item.ItemMultiPart:16>]]);
-
-##  Engineering
-Inscriber.removeRecipe(printedEngineering);
-Inscriber.addRecipe([chipsetDiamond], pressEngineering, null, printedEngineering, "Press");
-Inscriber.removeRecipe(processorEngineering);
-Inscriber.addRecipe([printedCircuitBoard], printedEngineering, printedSilicon, processorEngineering, "Inscribe");
-
-##  Calculation
-Inscriber.removeRecipe(printedCalculation);
-Inscriber.addRecipe([chipsetQuartz], pressCalculation, null, printedCalculation, "Press");
-Inscriber.removeRecipe(processorCalculation);
-Inscriber.addRecipe([printedCircuitBoard], printedCalculation, printedSilicon, processorCalculation, "Inscribe");
-
-##  Logic
-Inscriber.removeRecipe(printedLogic);
-Inscriber.addRecipe([chipsetGold], pressLogic, null, printedLogic, "Press");
-Inscriber.removeRecipe(processorLogic);
-Inscriber.addRecipe([printedCircuitBoard], printedLogic, printedSilicon, processorLogic, "Inscribe");
 
 print("Initialized 'AppliedEnergistics.zs'");

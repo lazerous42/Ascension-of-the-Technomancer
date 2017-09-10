@@ -5,6 +5,7 @@
 
 ##  Imports
 import mods.immersiveengineering.MetalPress;
+import mods.immersiveengineering.CokeOven;
 import mods.ic2.Compressor;
 
 print("Initializing 'ImmersiveEngineering.zs'...");
@@ -16,6 +17,7 @@ val ingotCopper = <ore:ingotCopper>;
 val ingotSteel = <ore:ingotSteel>;
 val ingotConstantan = <ore:ingotConstantan>;
 val plankWood = <ore:plankWood>;
+val itemCharcoal = <minecraft:coal:1>;
 val bottleCreosoteIE = <ImmersiveEngineering:fluidContainers>;
 val bottleCreosoteRC = <Railcraft:fluid.creosote.bottle>;
 
@@ -36,6 +38,16 @@ val engineersHammer = <ImmersiveEngineering:tool>;
 ## Coal Coke
 recipes.remove(blockCoalCoke);
 Compressor.addRecipe(blockCoalCoke, itemCoalCoke * 9);
+
+## Coke Oven Tweaks
+# Charcoal
+CokeOven.removeRecipe(itemCharcoal);
+for logWood in <ore:logWood>.items {
+	CokeOven.addRecipe(itemCharcoal, 250, logWood, 1200); 
+}
+# Coal Coke
+CokeOven.removeRecipe(itemCoalCoke);
+CokeOven.addRecipe(itemCoalCoke, 250, <minecraft:coal>, 1200); 
 
 ##  Treated Sticks
 recipes.remove(<ImmersiveEngineering:material>);
@@ -59,9 +71,9 @@ recipes.addShaped(engineersHammer, [[null, ingotIron, <minecraft:string>], [null
 recipes.remove(<ImmersiveEngineering:coil:2>);
 recipes.remove(<ImmersiveEngineering:coil:1>);
 recipes.remove(<ImmersiveEngineering:coil>);
-recipes.addShaped(<ImmersiveEngineering:coil:2> * 2, [[wireFineAluminium, wireFineSteel, wireFineAluminium], [wireFineSteel, <ImmersiveEngineering:material>, wireFineSteel], [wireFineAluminium, wireFineSteel, wireFineAluminium]]);
-recipes.addShaped(<ImmersiveEngineering:coil:1> * 2, [[wireFineElectrum, wireFineElectrum, wireFineElectrum], [wireFineElectrum, <ImmersiveEngineering:material>, wireFineElectrum], [wireFineElectrum, wireFineElectrum, wireFineElectrum]]);
-recipes.addShaped(<ImmersiveEngineering:coil> * 2, [[wireFineAnyCopper, wireFineAnyCopper, wireFineAnyCopper], [wireFineAnyCopper, <ore:treatedStick>, wireFineAnyCopper], [wireFineAnyCopper, wireFineAnyCopper, wireFineAnyCopper]]);
+recipes.addShaped(<ImmersiveEngineering:coil:2> * 2, [[null, wireFineSteel, null], [wireFineAluminium, <ore:treatedStick>, wireFineAluminium], [null, wireFineSteel, null]]);
+recipes.addShaped(<ImmersiveEngineering:coil:1> * 2, [[null, wireFineElectrum, null], [wireFineElectrum, <ore:treatedStick>, wireFineElectrum], [null, wireFineElectrum, null]]);
+recipes.addShaped(<ImmersiveEngineering:coil> * 2, [[null, wireFineAnyCopper, null], [wireFineAnyCopper, <ore:treatedStick>, wireFineAnyCopper], [null, wireFineAnyCopper, null]]);
 
 ##  PowerGen
 recipes.remove(<ImmersiveEngineering:metalDevice:9>);

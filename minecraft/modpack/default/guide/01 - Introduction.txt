@@ -14,3 +14,4 @@ https://github.com/lazerous42/Ascension-of-the-Technomancer
 Special thanks to the following users who have helped me tracking down and resolving bugs in this pack
 Barhandar
 wholesalegenocide
+LosGrak

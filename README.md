@@ -1,18 +1,86 @@
 # Ascension-of-the-Technomancer
-Current LIVE Config Version 4.2.1
-Repository Config Version 4.3.9
+Current LIVE Config Version 4.3.9
+Repository Config Version 5.0.1
 
 Hello there friend.  It seems as though you've met with a terrible fate, haven't you?  
 
-Welcome to the world of Ascension of the Technomancer, a high difficulty alternative to typical "kitchen sink" type packs.  This pack features a high degree of cross mod integration, with a special focus on exploration.  Advent of Ascension, Hardcore Ender Expansion, and Twilight Forest, GalacticCraft, and The Aether II provide the player with more than 30 new dimensions to explore.  The tech side of the pack centers around GregTech 5 experimental, but includes all of the major tech mods (Thermal Expansion, EnderIO, MFR...) you’ve come to know and love.   This pack uses a mix of GregTech style and traditional oregen, to further encourage exploration while not leaving you stuck if you can’t find the ore vein you need. Rotary and ReactorCraft are now a part of the tech mod suite, giving you a rare opportunity to play around with these challenging and engaging pieces of content.  The magic side of the house features all of the major 1.7.10 magic mods, along with some less common fare like Ars Magica, Aura Cascade, and ChromaticCraft to spice things up.  Survival challenges have been enhanced with Hunger Overhaul, Spice of Life, Harvestcraft, and Agricraft.  The 100s of mobs in the pack have been organized into custom spawn tables, written from the ground up with Just Another Spawner.  The recipes used in this pack were initially derived from Infinity Expert mode with a dash of InfiTech 2, but were heavily customized from there to ensure a unique modded Minecraft experience like no other.
+Welcome to the world of Ascension of the Technomancer, a high difficulty alternative to typical "kitchen sink" type packs.  This pack features a high degree of cross mod integration, with a special focus on exploration.  Advent of Ascension, Hardcore Ender Expansion, and Twilight Forest, Advanced Rocketry, and The Aether II provide the player with more than 30 new dimensions to explore.  The tech side of the pack centers around GregTech 5 experimental, but includes all of the major tech mods (Thermal Expansion, EnderIO, MFR...) you’ve come to know and love.   This pack uses a mix of GregTech style and traditional oregen, to further encourage exploration while not leaving you stuck if you can’t find the ore vein you need. Rotary and ReactorCraft are now a part of the tech mod suite, giving you a rare opportunity to play around with these challenging and engaging pieces of content.  The magic side of the house features all of the major 1.7.10 magic mods, along with some less common fare like Ars Magica, Aura Cascade, and ChromaticCraft to spice things up.  Survival challenges have been enhanced with Hunger Overhaul, Spice of Life, Harvestcraft, and Agricraft.  The 100s of mobs in the pack have been organized into custom spawn tables, written from the ground up with Just Another Spawner.  The recipes used in this pack were initially derived from Infinity Expert mode with a dash of InfiTech 2, but were heavily customized from there to ensure a unique modded Minecraft experience like no other.
 
 Do you consider yourself a Minecraft expert?  Then welcome to your greatest challenge... or your undoing.
 
 Good luck friend, You're going to need it.
 
+WARNING: The 5.0.1 Update removes Galacticraft and Warpdrive.  These mods have associated dimensions.  Although these dimension numbers have not been reused (for obvious reasons), if you are in these dimensions after taking the update you will crash.  You will need to leave any associated dimensions from these mods before loading your world in version 5.0.1.  As long as final production testing is successful, this update will be posted within the next week.
+
 * A note about config version numbers ~ The least significant version number applies to config changes only, where that the middle number increments with mod versions.  Although configs from newer versions of mods won't normally cause issues, there is a small chance so I figured I should mention it just in case.  The most significant digit indicates a major structural change, i.e. a substantial content change.  Mixing configs across major version updates is NOT recommended.  Note all of the earlier releases follow this pattern exactly, but this standard is being maintained now and henceforth.
 
 ChangeLog
+-- Version 5.0.1 (Boldly going where no update has gone before)
+- Update JAS backup + spawn group auto-sorting
+- Restore AoA skills page in the guide (accidental delete when merging the trunk bug fixes into the 5.0.1 branch)
+- Updated Advanced Rocketry guide page
+- Added a few more commands to the useful commands page.
+- Added low pressure atmosphere effect exclusions for certain mobs and created a separate spawnings biome groups for those mobs
+- A few vanilla biomes missing form planet defs
+- Removed MultiWorld in favor of using advanced rocketry as the dimension generator for the FeyWeald (MultiWorld is request only for public packs)
+- Hide all planets not in home star system
+- Added Buildcraft oil biomes to The FeyWeald
+- Add Ruins and Recurrent Complex structures to FeyWeald
+- Turned off AE2 caching to prevent incompatibilities with Chromaticraft
+- Added a few more asteroids
+- A few more recipe tweaks to Advanced Rocketry
+- Updated AE2v2 -> AE2v3, along with the required dependency updates to Thaumicenergistics, and AE2Stuff
+- Removed AE2 custom inscriber recipes from script logic due to CraftTweaker being incompatible with AE2v3
+- Changed to Railcraft and Immersive Engineering coke ovens to give the unique uses as opposed to the IE version being demonstrably better. IE's coke over is faster at 1200 ticks per operation where as Railcraft's produces twice as much creosote (500mb instead of 250mb)
+- Added GT Vein Locator
+- Setting more Advanced Rocketry recipes
+- Rebuilt spawn tables by forcing an update of BiomeGroups.cfg to eliminate references to biomes that no longer exist, and also to cleanup the net.* name collision resolutions that built up over the development process
+- Gas mining for Reactorcraft gasses from gas giants allowed
+- set all JWIN ore unification settings to off just in case
+- turned off Project Red update checking (again)
+- Added iridium to Technomancy settings
+- Smeltery will provide 3 ingots per ore due to it requiring pyrothium fuel and lunar regolith for the bricks
+- DiLithium only spawns in "Alien" biomes
+- Coal and dirt should not spawn in the moon biome
+- Added LosGrak to the special thanks section of the guide
+- Allow deleting of RFTools dimensions
+- Removing Galacticraft and related mods, replaced by Adv Roocketry
+- Updated AoA biome dimlet exclusions
+- MultiWorld mod FeyWeald locked to vanilla and magical overworld biomes only
+- Unversion journeymap data folder and log
+- Fucking AOBD file keeps resetting my changes, I fucking love it
+- MoC sharks moved to WATERMONSTER spawn list
+- Moar starz = Moar Funz
+- Added a guide book page to document how to update your star map (if needed), along with documented the reason for adding this mod, and a basic overview of how Advanced Rocketry works to travel to other worlds.
+- Tweaking Advanced Rocketry configs
+- Dilithium now accessible with laser drill and geodes
+- more rocket fuels
+- Added minable gasses to gas giants (I think it's right now)
+- Added Ancient Teleporter blueprint to loot tables
+- Added iron shaft to loot tables
+- Realmstones required for warping to AoA planets
+- Added some dimension, biome, and ore table config for advanced rocketery
+- Warpdrive mod removed
+- Added most AoA dimensions as planets of the Alpha Centauri system that AotT takes place in
+- Added AoA skills page to the guide book (about time huh)
+- Fastcraft reverted to 1.23 and Optifine back to D6.  It was causing crashes in iChunUtil
+- Setting up Adv Rocketry recipes and plantary layout
+- Updated GTTweaker
+- Removed all reference to Galacticraft and it's addons
+- Easy colored text for signs and books, who doesn't love that
+- Added Advanced Rocketry/LibVulpes
+- Add ItemPhysicLite
+- Added Default World Generator to lock the main overworld to BIOMESOP type
+- Added a biome tracking tool: Natures Compass
+- Now I laugh at you each time you die
+-- Version 4.5.0 (Lazerous Saves the World Update)
+- Introducing MultiWorld to create an alternate DEFAULT overworld, unaffected by Chromaticraft's inability to play nice with BIOMESOP world types
+-- Version 4.4.0 (A Blast from the Past Update)
+- Added Fossils and Archeology Revival 
+- Mod version updates
+- Smeltery is now enabled for ore processing
+- Knapsack recipe now enabled
+- Re-introducing smeltery as a later game ore multiplier.  3x returns, but requires trip to the moon and pyrothium for fuel.  Guide notes have been updated accordingly.
 -- Version 4.3.9
 - Fixed unification exploit with the AnyIron and AnyCopper oredict entries and JABBA barrels.  Also deactivated AnyCopper and AnyIron in AOBD and Technomancy pure ores
 -- Version 4.3.8
@@ -33,7 +101,7 @@ ChangeLog
 - changed material properties for mithril from 67 to 203 to enable more ore products
 -- Version 4.2.3
 - turn off BoP vanilla biome overrides to prevent issues with Chromaticraft plant spawning (specifically void reeds)
-- Reduced taint frequency from 25 -> 15
+- Taint too common now (although ethereal blooms are basically free), dropped from 25 to 15.  Wake up and smell the TAINT
 -- Version 4.2.2
 - Deactivated ore conversions in JWIN, GT5u is already doing this, a competing mod doing this is disruptive to controlled
 - GT5u settings are the cause of passive mobs harming each other.  3 in a single block causes them to damage each other.  This has been increased to 5

@@ -294,6 +294,27 @@
 	- Max Level: 3
 
 
+63
+	- Name: enchantment.archeology
+	- Weight: 2
+	- Min Level: 1
+	- Max Level: 3
+
+
+64
+	- Name: enchantment.paleontology
+	- Weight: 2
+	- Min Level: 1
+	- Max Level: 3
+
+
+65
+	- Name: enchantment.spaceBreathing
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 1
+
+
 66
 	- Name: enchantment.cluster
 	- Weight: 1
