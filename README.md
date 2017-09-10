@@ -16,6 +16,7 @@ WARNING: The 5.0.1 Update removes Galacticraft and Warpdrive.  These mods have a
 
 ChangeLog
 -- Version 5.0.1 (Boldly going where no update has gone before)
+- Removed ItemPhysic mod due to "spinning pots" bug
 - Update JAS backup + spawn group auto-sorting
 - Restore AoA skills page in the guide (accidental delete when merging the trunk bug fixes into the 5.0.1 branch)
 - Updated Advanced Rocketry guide page
