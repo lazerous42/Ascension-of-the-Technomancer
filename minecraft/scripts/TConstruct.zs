@@ -238,8 +238,8 @@ Smeltery.removeFuel(<liquid:lava>);
 
 # Knapsack 
 recipes.addShapedMirrored(<TConstruct:knapsack>, [[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>], 
-					  	  [<ore:stickBrass>, <ore:ingotBrass>, <ore:stickBrass>], 
-					  	  [<minecraft:leather>, <minecraft:leather>, <minecraft:leather>]]);
+					  	  						  [<ore:stickBrass>, <ore:ingotBrass>, <ore:stickBrass>], 
+					  	  						  [<minecraft:leather>, <minecraft:leather>, <minecraft:leather>]]);
 
 # Landmines
 recipes.remove(<TConstruct:Redstone.Landmine>);

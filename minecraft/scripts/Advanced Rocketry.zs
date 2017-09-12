@@ -15,12 +15,6 @@ print("Initializing 'AdvancedRocketry.zs'...");
 ## Val Definitions
 val moldGear = <ImmersiveEngineering:mold:1>;
 
-# Unify Aluminum and Aluminium
-<ore:ingotAluminium>.addAll(<ore:ingotAluminum>);
-<ore:ingotAluminum>.mirror(<ore:ingotAluminium>);
-<ore:plateAluminium>.addAll(<ore:plateAluminum>);
-<ore:plateAluminum>.mirror(<ore:plateAluminium>);
-
 # DiLithium oredict unification and Compression
 <ore:crystalDilithium>.addAll(<ore:gemDilithium>);
 <ore:gemDilithium>.mirror(<ore:crystalDilithium>);

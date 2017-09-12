@@ -13,23 +13,9 @@
 			}
 		],
 		"material": "minecraft:stone",
-		"clusterSize": 7,
-		"numClusters": 3,
-		"minHeight": 50,
-		"maxHeight": 128,
-		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [],
-		"dimensionRestriction": "blacklist",
-		"dimensions": [0]
-	},
-	"DiLithium": {
-		"template": "uniform",
-		"block": "libVulpes:libVulpesore0",
-		"material": "minecraft:stone",
 		"clusterSize": 8,
-		"numClusters": 8,
-		"minHeight": 2,
+		"numClusters": 4,
+		"minHeight": 50,
 		"maxHeight": 128,
 		"retrogen": "false",
 		"biomeRestriction": "whitelist",
@@ -52,6 +38,23 @@
 		"dimensionRestriction": "blacklist",
 		"dimensions": [0]
 	},
+	"DiLithium": {
+		"template": "uniform",
+		"block": "libVulpes:libVulpesore0",
+		"material": "minecraft:stone",
+		"clusterSize": 8,
+		"numClusters": 8,
+		"minHeight": 2,
+		"maxHeight": 48,
+		"retrogen": "false",
+		"biomeRestriction": "whitelist",
+		"biomes": [
+					{"type": "name",
+					 "entry": "Moon"}
+				  ],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [0]
+	},
 	"Titanium": {
 		"template": "uniform",
 		"block": [{
@@ -67,12 +70,27 @@
 		],
 		"material": "minecraft:stone",
 		"clusterSize": 4,
-		"numClusters": 3,
+		"numClusters": 4,
 		"minHeight": 2,
 		"maxHeight": 50,
 		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [],
+		"biomeRestriction": "whitelist",
+		"biomes": [
+					{"type": "name",
+					 "entry": "Alien Forest"},
+					{"type": "name",
+					 "entry": "CrystalChasms"},
+					{"type": "name",
+					 "entry": "DeepSwamp"},
+					{"type": "name",
+					 "entry": "Hot Dry Rock"},
+					{"type": "name",
+					 "entry": "Moon"},
+					{"type": "name",
+					 "entry": "OceanSpires"},
+					{"type": "name",
+					 "entry": "Stormland"}
+				  ],
 		"dimensionRestriction": "blacklist",
 		"dimensions": [0]
 	}

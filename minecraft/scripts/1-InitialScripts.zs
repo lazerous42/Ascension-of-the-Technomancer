@@ -75,6 +75,18 @@ dyeGreen.remove(<Botania:dye:13>);
 dyeRed.remove(<Botania:dye:14>);
 dyeBlack.remove(<Botania:dye:15>);
 
+# Unify Aluminum and Aluminium
+<ore:oreAluminium>.addAll(<ore:oreAluminum>);
+<ore:oreAluminum>.mirror(<ore:oreAluminium>);
+<ore:ingotAluminium>.addAll(<ore:ingotAluminum>);
+<ore:ingotAluminum>.mirror(<ore:ingotAluminium>);
+<ore:blockAluminium>.addAll(<ore:blockAluminum>);
+<ore:blockAluminum>.mirror(<ore:blockAluminium>);
+<ore:dustAluminium>.addAll(<ore:dustAluminum>);
+<ore:dustAluminum>.mirror(<ore:dustAluminium>);
+<ore:plateAluminium>.addAll(<ore:plateAluminum>);
+<ore:plateAluminum>.mirror(<ore:plateAluminium>);
+
 ##  Convert Three Gravel to One Flint
 recipes.addShapeless(<minecraft:flint>, [<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]);
 

@@ -1,11 +1,11 @@
 <Asteroids>
-	<asteroid name="Small Asteroid" distance="10" mass="100" massVariability="0.5" minLevel="0" probability="50" richness="0.2" richnessVariability="0.5">
+	<asteroid name="Small Asteroid" distance="10" mass="100" massVariability="0.5" minLevel="0" probability="50" richness="0.3" richnessVariability="0.5">
 		<ore itemStack="minecraft:iron_ore" chance="15" />
 		<ore itemStack="minecraft:gold_ore" chance="10" />
 		<ore itemStack="minecraft:redstone_ore" chance="10" />
 		<ore itemStack="minecraft:diamond_ore" chance="5" />
 	</asteroid>
-	<asteroid name="Large Asteroid" distance="20" mass="250" massVariability="0.5" minLevel="0" probability="20" richness="0.3" richnessVariability="0.5">
+	<asteroid name="Large Asteroid" distance="60" mass="250" massVariability="0.5" minLevel="0" probability="20" richness="0.4" richnessVariability="0.5">
 		<ore itemStack="minecraft:iron_ore" chance="25" />
 		<ore itemStack="minecraft:gold_ore" chance="10" />
 		<ore itemStack="ThermalFoundation:Ore 0" chance="15" />
@@ -14,7 +14,7 @@
 		<ore itemStack="ThermalFoundation:Ore 4" chance="10" />
 		<ore itemStack="minecraft:diamond_ore" chance="10" />
 	</asteroid>
-	<asteroid name="Massive Asteroid" distance="60" mass="500" massVariability="0.75" minLevel="0" probability="5" richness="0.4" richnessVariability="0.5">
+	<asteroid name="Massive Asteroid" distance="100" mass="500" massVariability="0.75" minLevel="0" probability="5" richness="0.5" richnessVariability="0.5">
 		<ore itemStack="minecraft:iron_ore" chance="25" />
 		<ore itemStack="minecraft:gold_ore" chance="25" />
 		<ore itemStack="ThermalFoundation:Ore 0" chance="25" />
@@ -27,33 +27,38 @@
 		<ore itemStack="ThermalFoundation:Ore 2" chance="25" />
 		<ore itemStack="ThermalFoundation:Ore 1" chance="25" />
 	</asteroid>
-	<asteroid name="Copper Asteroid" distance="20" mass="150" massVariability="0.5" minLevel="0" probability="20" richness="0.2" richnessVariability="0.5">
+	<asteroid name="Copper Asteroid" distance="30" mass="150" massVariability="0.5" minLevel="0" probability="25" richness="0.3" richnessVariability="0.5">
 		<ore itemStack="ThermalFoundation:Ore 0" chance="30" />
 		<ore itemStack="minecraft:gold_ore" chance="10" />
 		<ore itemStack="ThermalFoundation:Ore 4" chance="10" />
 	</asteroid>
-	<asteroid name="Tin Asteroid" distance="30" mass="100" massVariability="0.5" minLevel="0" probability="20" richness="0.2" richnessVariability="0.5">
+	<asteroid name="Redstone Asteroid" distance="25" mass="150" massVariability="0.5" minLevel="0" probability="22" richness="0.4" richnessVariability="0.5">
+		<ore itemStack="minecraft:redstone_ore" chance="25" />
+		<ore itemStack="ProjRed|Exploration:projectred.exploration.ore 6" chance="25" />
+		<ore itemStack="minecraft:diamond_ore" chance="5" />
+	</asteroid>
+	<asteroid name="Tin Asteroid" distance="40" mass="100" massVariability="0.5" minLevel="0" probability="25" richness="0.3" richnessVariability="0.5">
 		<ore itemStack="ThermalFoundation:Ore 0" chance="15" />
 		<ore itemStack="minecraft:iron_ore" chance="10" />
 		<ore itemStack="ThermalFoundation:Ore 1" chance="35" />
 		<ore itemStack="ThermalFoundation:Ore 4" chance="10" />
 	</asteroid>
-	<asteroid name="Gold Asteroid" distance="50" mass="100" massVariability="0.5" minLevel="0" probability="8" richness="0.2" richnessVariability="0.5">
+	<asteroid name="Gold Asteroid" distance="110" mass="100" massVariability="0.5" minLevel="0" probability="13" richness="0.3" richnessVariability="0.5">
 		<ore itemStack="ThermalFoundation:Ore 0" chance="10" />
 		<ore itemStack="minecraft:gold_ore" chance="40" />
 		<ore itemStack="ThermalFoundation:Ore 2" chance="10" />
 	</asteroid>
-	<asteroid name="Nickel Asteroid" distance="40" mass="150" massVariability="0.5" minLevel="0" probability="12" richness="0.2" richnessVariability="0.5">
+	<asteroid name="Nickel Asteroid" distance="70" mass="150" massVariability="0.5" minLevel="0" probability="16" richness="0.3" richnessVariability="0.5">
 		<ore itemStack="ThermalFoundation:Ore:4" chance="50" />
 		<ore itemStack="ThermalFoundation:Ore 3" chance="20" />
 		<ore itemStack="ThermalFoundation:Ore 2" chance="20" />
 	</asteroid>
-	<asteroid name="Lead Asteroid" distance="20" mass="150" massVariability="0.5" minLevel="0" probability="12" richness="0.2" richnessVariability="0.5">
+	<asteroid name="Lead Asteroid" distance="30" mass="150" massVariability="0.5" minLevel="0" probability="25" richness="0.3" richnessVariability="0.5">
 		<ore itemStack="ThermalFoundation:Ore 3" chance="40" />
 		<ore itemStack="ThermalFoundation:Ore 2" chance="10" />
 		<ore itemStack="ThermalFoundation:Ore 4" chance="10" />
 	</asteroid>
-	<asteroid name="Aluminium Asteroid" distance="80" mass="150" massVariability="0.5" minLevel="0" probability="10" richness="0.2" richnessVariability="0.5">
+	<asteroid name="Aluminium Asteroid" distance="125" mass="150" massVariability="0.5" minLevel="0" probability="10" richness="0.3" richnessVariability="0.5">
 		<ore itemStack="minecraft:iron_ore" chance="10" />
 		<ore itemStack="libvulpes:ore0 9" chance="50" />
 		<ore itemStack="libvulpes:ore0 8" chance="20" />
@@ -64,7 +69,7 @@
 		<ore itemStack="minecraft:iron_ore" chance="10" />
 		<ore itemStack="ThermalFoundation:Ore 4" chance="15" />
 	</asteroid>
-	<asteroid name="Dilithium Asteroid" distance="175" mass="120" massVariability="0.5" minLevel="0" probability="15" richness="0.2" richnessVariability="0.5">
+	<asteroid name="Dilithium Asteroid" distance="175" mass="120" massVariability="0.5" minLevel="0" probability="15" richness="0.3" richnessVariability="0.4">
 		<ore itemStack="libvulpes:ore0 0" chance="50" />
 		<ore itemStack="minecraft:diamond_ore" chance="10" />
 		<ore itemStack="ThermalFoundation:Ore 4" chance="10" />
@@ -73,6 +78,8 @@
 	</asteroid>
 	<asteroid name="Iridium Asteroid" distance="200" mass="40" massVariability="0.5" minLevel="0" probability="2" richness="0.2" richnessVariability="0.3">
 		<ore itemStack="minecraft:iron_ore" chance="25" />
-		<ore itemStack="libvulpes:ore0 10" chance="5" />
+		<ore itemStack="libvulpes:ore0 10" chance="10" />
+		<ore itemStack="minecraft:diamond_ore" chance="5" />
+		<ore itemStack="minecraft:emeral_ore" chance="5" />
 	</asteroid>
 </Asteroids>

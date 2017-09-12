@@ -16,6 +16,20 @@ WARNING: The 5.0.1 Update removes Galacticraft and Warpdrive.  These mods have a
 
 ChangeLog
 -- Version 5.0.1 (Boldly going where no update has gone before)
+- Aluminium and Titanium "pure" ores are a bit more rare (cough, use GT, cough, cough)
+- Setting some initial orbital theta values for each planet
+- Disable hardcore darkness in AR space dimension (kind of doesn't make sense)
+- Asteroid distance tweaks
+- More oredict consolidation of aluminum/aluminium and aluminium accessories.  This consolidation was moved to the initial scripts file, as it's more generic than commands that apply to just AR
+- Touched up the guide notes about AR a bit more
+- AR laser drill ore list was changed to a blacklist and emptied out, as all ores that spawn on a planet are eligible for laser drilling (because it's actually grabbing blocks from the planet surface)
+- Lots more ores available in geodes
+- Exposure to vacuum made extra deadly... for extra fun
+- Added redstone/electrotine asteroid and tinkered with probabilities/variability of asteroids
+- AR ore spawning tweaks.  Aluminium and Titanium are only found in "Alien Biomes" as pure ores (need to use GT ores otherwise).  The also occur in asteroids.  Dilithium only spawns in on airless moons and asteroids.
+- Updated AR guide about the dangers of running out of warp fuel.
+- AR configs tweaked for increased difficulty.  Also, I accidentally left the rocket fuel requirement toggled off.
+- Added one more moon type world to the Tau Ceti system.
 - Removed ItemPhysic mod due to "spinning pots" bug
 - Update JAS backup + spawn group auto-sorting
 - Restore AoA skills page in the guide (accidental delete when merging the trunk bug fixes into the 5.0.1 branch)
