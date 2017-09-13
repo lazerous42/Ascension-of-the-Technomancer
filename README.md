@@ -10,12 +10,18 @@ Do you consider yourself a Minecraft expert?  Then welcome to your greatest chal
 
 Good luck friend, You're going to need it.
 
+IMPORTANT NOTE: To those who are currently awaiting the 5.0.1 update.  It will be posted at the end of the week (Sep 15/16 2017), I have been fastidiously studying the configs pre-release and I keep coming up with a few more tweaks to polish things a little bit more, as it will be very difficult for me to change the star map and associated AR dimensions post launch.  I just want to make sure I provide as good of a user experience as possible.  Thank you for your patients.
+
 WARNING: The 5.0.1 Update removes Galacticraft and Warpdrive.  These mods have associated dimensions.  Although these dimension numbers have not been reused (for obvious reasons), if you are in these dimensions after taking the update you will crash.  You will need to leave any associated dimensions from these mods before loading your world in version 5.0.1.  As long as final production testing is successful, this update will be posted within the next week.
 
 * A note about config version numbers ~ The least significant version number applies to config changes only, where that the middle number increments with mod versions.  Although configs from newer versions of mods won't normally cause issues, there is a small chance so I figured I should mention it just in case.  The most significant digit indicates a major structural change, i.e. a substantial content change.  Mixing configs across major version updates is NOT recommended.  Note all of the earlier releases follow this pattern exactly, but this standard is being maintained now and henceforth.
 
 ChangeLog
 -- Version 5.0.1 (Boldly going where no update has gone before)
+- Adding 2 more stars + a few moar planets
+- Ensure that worldgen structures spawn in The FeyWeald
+- Allow oreberries in the nether
+- Toggle off enabled version checkers
 - Aluminium and Titanium "pure" ores are a bit more rare (cough, use GT, cough, cough)
 - Setting some initial orbital theta values for each planet
 - Disable hardcore darkness in AR space dimension (kind of doesn't make sense)
