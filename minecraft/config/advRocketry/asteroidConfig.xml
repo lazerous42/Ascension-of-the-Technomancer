@@ -20,7 +20,7 @@
 		<ore itemStack="ThermalFoundation:Ore 0" chance="25" />
 		<ore itemStack="minecraft:redstone_ore" chance="25" />
 		<ore itemStack="minecraft:diamond_ore" chance="15" />
-		<ore itemStack="minecraft:emeral_ore" chance="8" />
+		<ore itemStack="minecraft:emerald_ore" chance="8" />
 		<ore itemStack="ThermalFoundation:Ore 5" chance="5" />
 		<ore itemStack="ThermalFoundation:Ore 4" chance="25" />
 		<ore itemStack="ThermalFoundation:Ore 3" chance="25" />
@@ -49,7 +49,7 @@
 		<ore itemStack="ThermalFoundation:Ore 2" chance="10" />
 	</asteroid>
 	<asteroid name="Nickel Asteroid" distance="70" mass="150" massVariability="0.5" minLevel="0" probability="16" richness="0.3" richnessVariability="0.5">
-		<ore itemStack="ThermalFoundation:Ore:4" chance="50" />
+		<ore itemStack="ThermalFoundation:Ore 4" chance="50" />
 		<ore itemStack="ThermalFoundation:Ore 3" chance="20" />
 		<ore itemStack="ThermalFoundation:Ore 2" chance="20" />
 	</asteroid>
@@ -80,6 +80,6 @@
 		<ore itemStack="minecraft:iron_ore" chance="25" />
 		<ore itemStack="libvulpes:ore0 10" chance="10" />
 		<ore itemStack="minecraft:diamond_ore" chance="5" />
-		<ore itemStack="minecraft:emeral_ore" chance="5" />
+		<ore itemStack="minecraft:emerald_ore" chance="5" />
 	</asteroid>
 </Asteroids>

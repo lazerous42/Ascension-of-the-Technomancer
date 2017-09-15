@@ -42,9 +42,9 @@ All ids and their position:
 37 is Occupied by Mesa (net.minecraft.world.biome.BiomeGenMesa)
 38 is Occupied by Mesa Plateau F (net.minecraft.world.biome.BiomeGenMesa)
 39 is Occupied by Mesa Plateau (net.minecraft.world.biome.BiomeGenMesa)
-40 is Avaible
+40 is Occupied by Moon (zmaster587.advancedRocketry.world.biome.BiomeGenMoon)
 41 is Occupied by Aether (net.aetherteam.aether.worldgen.BiomeGenAether)
-42 is Occupied by Alien Forest (zmaster587.advancedRocketry.world.biome.BiomeGenAlienForest)
+42 is Occupied by Space (zmaster587.advancedRocketry.world.biome.BiomeGenSpace)
 43 is Occupied by Storage Cell (appeng.spatial.BiomeGenStorage)
 44 is Occupied by Abyssal Shadow Forest (net.nevermine.dimension.abyss.biome.BiomeGenAbyssShadow)
 45 is Occupied by Alien Forest (net.nevermine.dimension.barathos.biome.BiomeGenBaronForest)
@@ -116,9 +116,9 @@ All ids and their position:
 111 is Occupied by Land of Darkness (fossilsarcheology.server.biome.FossilsBiome)
 112 is Occupied by biome.treasure.name (fossilsarcheology.server.biome.FossilsBiome)
 113 is Occupied by Abyssal Eyelands (net.nevermine.dimension.abyss.biome.BiomeGenAbyssEye)
-114 is Occupied by CrystalChasms (zmaster587.advancedRocketry.world.biome.BiomeGenCrystal)
-115 is Occupied by DeepSwamp (zmaster587.advancedRocketry.world.biome.BiomeGenDeepSwamp)
-116 is Occupied by Hot Dry Rock (zmaster587.advancedRocketry.world.biome.BiomeGenHotDryRock)
+114 is Avaible
+115 is Avaible
+116 is Avaible
 117 is Occupied by Radiant Fissures (Reika.ChromatiCraft.World.Dimension.Biome.BiomeGenGlowCracks)
 118 is Occupied by Aura Ocean (Reika.ChromatiCraft.World.Dimension.Biome.BiomeGenChromaOcean)
 119 is Occupied by Luminescent Sanctuary (Reika.ChromatiCraft.World.Dimension.Biome.BiomeGenCentral)
@@ -137,18 +137,18 @@ All ids and their position:
 132 is Occupied by Flower Forest (net.minecraft.world.biome.BiomeGenForest)
 133 is Occupied by Taiga M (net.minecraft.world.biome.BiomeGenTaiga)
 134 is Occupied by Swampland M (net.minecraft.world.biome.BiomeGenSwamp)
-135 is Occupied by Marsh (zmaster587.advancedRocketry.world.biome.BiomeGenMarsh)
-136 is Occupied by Moon (zmaster587.advancedRocketry.world.biome.BiomeGenMoon)
-137 is Occupied by OceanSpires (zmaster587.advancedRocketry.world.biome.BiomeGenOceanSpires)
-138 is Occupied by Space (zmaster587.advancedRocketry.world.biome.BiomeGenSpace)
-139 is Occupied by Stormland (zmaster587.advancedRocketry.world.biome.BiomeGenStormland)
+135 is Avaible
+136 is Avaible
+137 is Avaible
+138 is Avaible
+139 is Occupied by Alien Forest (zmaster587.advancedRocketry.world.biome.BiomeGenAlienForest)
 140 is Occupied by Ice Plains Spikes (net.minecraft.world.biome.BiomeGenSnow)
-141 is Avaible
-142 is Avaible
-143 is Avaible
-144 is Avaible
-145 is Avaible
-146 is Avaible
+141 is Occupied by CrystalChasms (zmaster587.advancedRocketry.world.biome.BiomeGenCrystal)
+142 is Occupied by DeepSwamp (zmaster587.advancedRocketry.world.biome.BiomeGenDeepSwamp)
+143 is Occupied by Hot Dry Rock (zmaster587.advancedRocketry.world.biome.BiomeGenHotDryRock)
+144 is Occupied by Marsh (zmaster587.advancedRocketry.world.biome.BiomeGenMarsh)
+145 is Occupied by OceanSpires (zmaster587.advancedRocketry.world.biome.BiomeGenOceanSpires)
+146 is Occupied by Stormland (zmaster587.advancedRocketry.world.biome.BiomeGenStormland)
 147 is Occupied by Luminous Cliffs Shores (Reika.ChromatiCraft.World.GlowingCliffsEdge)
 148 is Occupied by Ender Forest (Reika.ChromatiCraft.World.BiomeEnderForest)
 149 is Occupied by Jungle M (net.minecraft.world.biome.BiomeGenJungle)

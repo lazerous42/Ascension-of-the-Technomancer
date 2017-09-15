@@ -108,14 +108,13 @@ Build a fission reactor::0
 Detonate a nuclear device::0
 Setup UU-matter production::0
 Generate at least 1000 Rf/T with an endergenic generator::0
-Generate at least 1000 Rf/T using Deep Resonance::0
+Generate at least 1500 Rf/T using Deep Resonance::0
 Use a PRC to control the automation of something::0
 Build a fusion reactor::0
-Build an orbital base (space station)::0
 Travel to the Moon::0
-Travel to Mars::0
-Travel to the Asteroid Belt::0
+Build an orbital base (space station)::0
 Achieve FTL velocities::0
+Discover and plant an Advanced Rocketry becon on all worlds in the star map (37 accessible locations)::0
 Travel to a dimension of your own design::0
 ::1
 ::1

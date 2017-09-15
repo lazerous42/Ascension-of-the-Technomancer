@@ -18,6 +18,13 @@ WARNING: The 5.0.1 Update removes Galacticraft and Warpdrive.  These mods have a
 
 ChangeLog
 -- Version 5.0.1 (Boldly going where no update has gone before)
+- Fixed missing realmstone drops from AoA2.5 snapshot
+    Dyrehorn/GiantSlug -> Gardencia
+    PodPlant/FlowerFace/Squasher -> VoxPonds
+    Stalker -> Shyrelands
+- Added planet Draygonia (Wyvern Lair).  Should display "Destination Unreachable" if Mo' Creatures is not installed
+- Removed some unneeded information from starmap
+- Re-organized AR biomes to (hopefully) prevent the 128+ sub-biome bug
 - Adding 2 more stars + a few moar planets
 - Ensure that worldgen structures spawn in The FeyWeald
 - Allow oreberries in the nether

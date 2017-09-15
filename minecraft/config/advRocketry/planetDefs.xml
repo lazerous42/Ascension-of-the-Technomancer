@@ -2,14 +2,9 @@
 	<star name="Proxima Centauri" temp="100" x="0" y="0" size="1.0" numPlanets="0" numGasGiants="0">
 		<planet name="Minecraftia" DIMID="0" dimMapping="">
 			<isKnown>true</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.0,0.0,1.0</skyColor>
 			<gravitationalMultiplier>100</gravitationalMultiplier>
-			<orbitalDistance>100</orbitalDistance>
-			<orbitalPhi>0</orbitalPhi>
+			<orbitalDistance>75</orbitalDistance>
 			<orbitalTheta>0</orbitalTheta>
-			<rotationalPeriod>24000</rotationalPeriod>
-			<atmosphereDensity>100</atmosphereDensity>
 			<planet name="Luna" DIMID="8" customIcon="moon">
 				<isKnown>true</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
@@ -23,7 +18,7 @@
 				<biomeIds>136</biomeIds>
 			</planet>
 		</planet>
-		<planet name="Vorpera" DIMID="100" customIcon="GasGiantRed">
+		<planet name="Vorpera" customIcon="GasGiantRed">
 			<isKnown>true</isKnown>
 			<GasGiant>true</GasGiant>
 			<gas>nitrogen</gas>
@@ -33,15 +28,13 @@
 			<gas>rc deuterium</gas>
 			<gas>rc oxygen</gas>
 			<hasRings>true</hasRings>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>1.0,1.0,1.0</skyColor>
 			<gravitationalMultiplier>100</gravitationalMultiplier>
 			<orbitalDistance>200</orbitalDistance>
 			<orbitalPhi>0</orbitalPhi>
 			<orbitalTheta>120</orbitalTheta>
 			<rotationalPeriod>24000</rotationalPeriod>
 			<atmosphereDensity>100</atmosphereDensity>
-			<planet name="Vorpera-2" DIMID="101" customIcon="moon">
+			<planet name="Vorpera-2" DIMID="100" customIcon="moon">
 				<isKnown>true</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
 				<skyColor>0.0,0.0,0.0</skyColor>
@@ -55,8 +48,8 @@
 			</planet>
 			<planet name="Feyweald" DIMID="5" customIcon="EarthLike">
 				<isKnown>true</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.8,0.5,1.0</skyColor>
+				<fogColor>0xF4BAF3</fogColor>
+				<skyColor>0xB536F9</skyColor>
 				<gravitationalMultiplier>70</gravitationalMultiplier>
 				<orbitalDistance>90</orbitalDistance>
 				<orbitalPhi>24</orbitalPhi>
@@ -68,30 +61,25 @@
 		</planet>
 		<planet name="Twilight" DIMID="7" dimMapping="" customIcon="EarthLike">
 			<isKnown>true</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>1.0,1.0,1.0</skyColor>
 			<gravitationalMultiplier>100</gravitationalMultiplier>
-			<orbitalDistance>140</orbitalDistance>
-			<orbitalPhi>0</orbitalPhi>
+			<orbitalDistance>125</orbitalDistance>
 			<orbitalTheta>280</orbitalTheta>
-			<rotationalPeriod>24000</rotationalPeriod>
-			<atmosphereDensity>100</atmosphereDensity>
 		</planet>
 	</star>
-	<star name="Alpha Centauri A" temp="90" x="33" y="-34" size="0.9" numPlanets="0" numGasGiants="0">
-		<planet name="Tennaris" DIMID="102" customIcon="WaterWorld">
+	<star name="Alpha Centauri A" temp="90" x="26" y="-47" size="0.9" numPlanets="0" numGasGiants="0">
+		<planet name="Tennaris" DIMID="101" customIcon="WaterWorld">
 			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.8,0.7,0.1</skyColor>
+			<fogColor>0xD4EFBF</fogColor>
+			<skyColor>0xE2CE14</skyColor>
 			<gravitationalMultiplier>70</gravitationalMultiplier>
 			<orbitalDistance>90</orbitalDistance>
 			<orbitalPhi>-8</orbitalPhi>
 			<orbitalTheta>0</orbitalTheta>
 			<rotationalPeriod>12000</rotationalPeriod>
 			<atmosphereDensity>170</atmosphereDensity>
-			<biomeIds>115,139</biomeIds>
+			<biomeIds>142,144,146,207,235</biomeIds>
 		</planet>
-		<planet name="Kelden" DIMID="103" customIcon="GasGiantBlue">
+		<planet name="Kelden" customIcon="GasGiantBlue">
 			<isKnown>false</isKnown>
 			<GasGiant>true</GasGiant>
 			<gas>nitrogen</gas>
@@ -100,15 +88,13 @@
 			<gas>rc co2</gas>
 			<gas>rc deuterium</gas>
 			<gas>rc oxygen</gas>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.4,0.4,0.7</skyColor>
 			<gravitationalMultiplier>122</gravitationalMultiplier>
 			<orbitalDistance>200</orbitalDistance>
 			<orbitalPhi>3</orbitalPhi>
 			<orbitalTheta>90</orbitalTheta>
 			<rotationalPeriod>24000</rotationalPeriod>
 			<atmosphereDensity>142</atmosphereDensity>
-			<planet name="Keldan-1" DIMID="104" customIcon="moon">
+			<planet name="Keldan-1" DIMID="102" customIcon="moon">
 				<isKnown>false</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
 				<skyColor>0.0,0.0,0.0</skyColor>
@@ -120,22 +106,17 @@
 				<atmosphereDensity>0</atmosphereDensity>
 				<biomeIds>136</biomeIds>
 			</planet>
-			<planet name="Keldan-2" DIMID="105" customIcon="WaterWorld">
+			<planet name="Barathos" DIMID="11" dimMapping="" customIcon="lava">
 				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.2,0.2,1.0</skyColor>
-				<gravitationalMultiplier>66</gravitationalMultiplier>
+				<gravitationalMultiplier>100</gravitationalMultiplier>
 				<orbitalDistance>70</orbitalDistance>
-				<orbitalPhi>-2</orbitalPhi>
-				<orbitalTheta>120</orbitalTheta>
-				<rotationalPeriod>348224</rotationalPeriod>
-				<atmosphereDensity>75</atmosphereDensity>
-				<biomeIds>0,24,137,153,187,205,210,243</biomeIds>
+				<orbitalTheta>180</orbitalTheta>
+				<artifact>nevermine:RealmstoneBarathos 0</artifact>
 			</planet>
-			<planet name="Keldan-3" DIMID="106" customIcon="MarsLike">
+			<planet name="Keldan-3" DIMID="104" customIcon="MarsLike">
 				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.9,0.2,0.1</skyColor>
+				<fogColor>0x84607B</fogColor>
+				<skyColor>0xED9084</skyColor>
 				<gravitationalMultiplier>41</gravitationalMultiplier>
 				<orbitalDistance>155</orbitalDistance>
 				<orbitalPhi>-4</orbitalPhi>
@@ -145,95 +126,65 @@
 				<biomeIds>116</biomeIds>
 			</planet>
 		</planet>
-		<planet name="Barathos" DIMID="11" dimMapping="" customIcon="lava">
+		<planet name="Orrobos" DIMID="103" customIcon="WaterWorld">
 			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>1.0,1.0,1.0</skyColor>
-			<gravitationalMultiplier>100</gravitationalMultiplier>
-			<orbitalDistance>0</orbitalDistance>
-			<orbitalPhi>0</orbitalPhi>
-			<orbitalTheta>180</orbitalTheta>
-			<rotationalPeriod>24000</rotationalPeriod>
-			<atmosphereDensity>100</atmosphereDensity>
-			<artifact>nevermine:RealmstoneBarathos 0</artifact>
+			<fogColor>0xC1BB99</fogColor>
+			<skyColor>0x00AF8F</skyColor>
+			<gravitationalMultiplier>66</gravitationalMultiplier>
+			<orbitalDistance>70</orbitalDistance>
+			<orbitalPhi>-2</orbitalPhi>
+			<orbitalTheta>120</orbitalTheta>
+			<rotationalPeriod>348224</rotationalPeriod>
+			<atmosphereDensity>75</atmosphereDensity>
+			<biomeIds>0,24,145,187,205,210,243</biomeIds>
 		</planet>
 		<planet name="Mysterium" DIMID="27" dimMapping="" customIcon="GasGiantBlue">
 			<isKnown>false</isKnown>
 			<hasRings>true</hasRings>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>1.0,1.0,1.0</skyColor>
 			<gravitationalMultiplier>100</gravitationalMultiplier>
 			<orbitalDistance>140</orbitalDistance>
-			<orbitalPhi>0</orbitalPhi>
 			<orbitalTheta>270</orbitalTheta>
-			<rotationalPeriod>24000</rotationalPeriod>
-			<atmosphereDensity>100</atmosphereDensity>
 			<artifact>nevermine:RealmstoneMysterium 0</artifact>
 			<planet name="Dustopia" DIMID="17" dimMapping="" customIcon="moon">
 				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>1.0,1.0,1.0</skyColor>
 				<gravitationalMultiplier>50</gravitationalMultiplier>
-				<orbitalDistance>120</orbitalDistance>
-				<orbitalPhi>0</orbitalPhi>
+				<orbitalDistance>135</orbitalDistance>
 				<orbitalTheta>0</orbitalTheta>
-				<rotationalPeriod>24000</rotationalPeriod>
-				<atmosphereDensity>100</atmosphereDensity>
 				<artifact>nevermine:RealmstoneDustopia 0</artifact>
 			</planet>
 			<planet name="Lunalus" DIMID="26" customIcon="moon">
 				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>1.0,1.0,1.0</skyColor>
 				<gravitationalMultiplier>40</gravitationalMultiplier>
-				<orbitalDistance>25</orbitalDistance>
-				<orbitalPhi>0</orbitalPhi>
+				<orbitalDistance>35</orbitalDistance>
 				<orbitalTheta>180</orbitalTheta>
-				<rotationalPeriod>24000</rotationalPeriod>
-				<atmosphereDensity>100</atmosphereDensity>
-				<biomeIds>91</biomeIds>
+				<artifact>nevermine:RealmstoneLunalus 0</artifact>
 			</planet>
 		</planet>
 	</star>
-	<star name="Alpha Centauri B" temp="110" x="-32" y="45" size="1.1" numPlanets="0" numGasGiants="0">
+	<star name="Alpha Centauri B" temp="110" x="-51" y="45" size="1.1" numPlanets="0" numGasGiants="0">
 		<planet name="Haven" DIMID="20" dimMapping="" customIcon="GasGiantBlue">
 			<isKnown>false</isKnown>
 			<hasRings>true</hasRings>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>1.0,1.0,1.0</skyColor>
 			<gravitationalMultiplier>100</gravitationalMultiplier>
 			<orbitalDistance>150</orbitalDistance>
-			<orbitalPhi>0</orbitalPhi>
 			<orbitalTheta>0</orbitalTheta>
-			<rotationalPeriod>24000</rotationalPeriod>
-			<atmosphereDensity>100</atmosphereDensity>
 			<artifact>nevermine:RealmstoneHaven 0</artifact>
 			<planet name="Gardencia" DIMID="18" dimMapping="" customIcon="WaterWorld">
 				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>1.0,1.0,1.0</skyColor>
 				<gravitationalMultiplier>70</gravitationalMultiplier>
 				<orbitalDistance>120</orbitalDistance>
-				<orbitalPhi>0</orbitalPhi>
 				<orbitalTheta>0</orbitalTheta>
-				<rotationalPeriod>24000</rotationalPeriod>
-				<atmosphereDensity>100</atmosphereDensity>
 				<artifact>nevermine:RealmstoneGardencia 0</artifact>
 			</planet>
 			<planet name="Lelyetia" DIMID="25" dimMapping="" customIcon="WaterWorld">
 				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>1.0,1.0,1.0</skyColor>
 				<gravitationalMultiplier>50</gravitationalMultiplier>
 				<orbitalDistance>180</orbitalDistance>
-				<orbitalPhi>0</orbitalPhi>
 				<orbitalTheta>180</orbitalTheta>
-				<rotationalPeriod>24000</rotationalPeriod>
-				<atmosphereDensity>100</atmosphereDensity>
 				<artifact>nevermine:RealmstoneLelyetia 0</artifact>
 			</planet>
 		</planet>
-		<planet name="Braggas" DIMID="107" customIcon="EarthLike">
+		<planet name="Braggas" DIMID="105" customIcon="EarthLike">
 			<isKnown>false</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
 			<skyColor>0.7,0.7,0.2</skyColor>
@@ -243,13 +194,13 @@
 			<orbitalTheta>90</orbitalTheta>
 			<rotationalPeriod>48000</rotationalPeriod>
 			<atmosphereDensity>200</atmosphereDensity>
-			<biomeIds>114,135,139</biomeIds>
+			<biomeIds>2,17,130,207</biomeIds>
 		</planet>
-		<planet name="Yarm" DIMID="108" customIcon="GasGiantRed">
+		<planet name="Yarm" DIMID="106" customIcon="GasGiantRed">
 			<isKnown>false</isKnown>
 			<hasRings>true</hasRings>
-			<fogColor>0.3,0.7,0.3</fogColor>
-			<skyColor>0.8,0.3,0.1</skyColor>
+			<fogColor>0xD9F7F7</fogColor>
+			<skyColor>0x42EDED</skyColor>
 			<gravitationalMultiplier>200</gravitationalMultiplier>
 			<orbitalDistance>200</orbitalDistance>
 			<orbitalPhi>-13</orbitalPhi>
@@ -257,7 +208,7 @@
 			<rotationalPeriod>24000</rotationalPeriod>
 			<atmosphereDensity>142</atmosphereDensity>
 			<biomeIds>114</biomeIds>
-			<planet name="Yarm-1" DIMID="109" customIcon="moon">
+			<planet name="Yarm-1" DIMID="107" customIcon="moon">
 				<isKnown>false</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
 				<skyColor>0.0,0.0,0.0</skyColor>
@@ -272,43 +223,26 @@
 		</planet>
 		<planet name="Precasia" DIMID="28" dimMapping="" customIcon="EarthLike">
 			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>1.0,1.0,1.0</skyColor>
 			<gravitationalMultiplier>100</gravitationalMultiplier>
 			<orbitalDistance>105</orbitalDistance>
-			<orbitalPhi>0</orbitalPhi>
 			<orbitalTheta>270</orbitalTheta>
-			<rotationalPeriod>24000</rotationalPeriod>
-			<atmosphereDensity>100</atmosphereDensity>
 			<artifact>nevermine:RealmstonePrecasia 0</artifact>
 		</planet>
 	</star>
 	<star name="Barnard's Star" temp="110" x="60" y="70" size="0.8" numPlanets="0" numGasGiants="0">
-		<planet name="L'Borean" DIMID="23" dimMapping="" customIcon="WaterWorld">
+		<planet name="Turbain" DIMID="108" customIcon="lava">
 			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>1.0,1.0,1.0</skyColor>
-			<gravitationalMultiplier>100</gravitationalMultiplier>
-			<orbitalDistance>65</orbitalDistance>
-			<orbitalPhi>0</orbitalPhi>
-			<orbitalTheta>0</orbitalTheta>
-			<rotationalPeriod>24000</rotationalPeriod>
-			<atmosphereDensity>100</atmosphereDensity>
-			<artifact>nevermine:RealmstoneBorean 0</artifact>
-		</planet>
-		<planet name="Turbain" DIMID="110" customIcon="lava">
-			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.8,0.6,0.7</skyColor>
+			<fogColor>0xEDC100</fogColor>
+			<skyColor>0xF79142</skyColor>
 			<gravitationalMultiplier>70</gravitationalMultiplier>
 			<orbitalDistance>100</orbitalDistance>
 			<orbitalPhi>0</orbitalPhi>
 			<orbitalTheta>90</orbitalTheta>
 			<rotationalPeriod>36000</rotationalPeriod>
 			<atmosphereDensity>20</atmosphereDensity>
-			<biomeIds>114,116</biomeIds>
+			<biomeIds>37,38,39,143,165</biomeIds>
 		</planet>
-		<planet name="Caranos" DIMID="111" customIcon="GasGiantRed">
+		<planet name="Caranos" customIcon="GasGiantRed">
 			<isKnown>false</isKnown>
 			<hasRings>true</hasRings>
 			<GasGiant>true</GasGiant>
@@ -318,15 +252,13 @@
 			<gas>rc co2</gas>
 			<gas>rc deuterium</gas>
 			<gas>rc tritium</gas>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.4,0.4,0.7</skyColor>
 			<gravitationalMultiplier>170</gravitationalMultiplier>
 			<orbitalDistance>200</orbitalDistance>
 			<orbitalPhi>0</orbitalPhi>
 			<orbitalTheta>120</orbitalTheta>
 			<rotationalPeriod>24000</rotationalPeriod>
 			<atmosphereDensity>142</atmosphereDensity>
-			<planet name="Caranos-1" DIMID="112" customIcon="moon">
+			<planet name="Caranos-1" DIMID="109" customIcon="moon">
 				<isKnown>false</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
 				<skyColor>0.0,0.0,0.0</skyColor>
@@ -341,43 +273,28 @@
 		</planet>
 		<planet name="Vox Ponds" DIMID="30" dimMapping="" customIcon="moon">
 			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>1.0,1.0,1.0</skyColor>
 			<gravitationalMultiplier>100</gravitationalMultiplier>
 			<orbitalDistance>135</orbitalDistance>
-			<orbitalPhi>0</orbitalPhi>
 			<orbitalTheta>220</orbitalTheta>
-			<rotationalPeriod>24000</rotationalPeriod>
-			<atmosphereDensity>100</atmosphereDensity>
 			<artifact>nevermine:RealmstoneVoxPonds 0</artifact>
 		</planet>
 	</star>
-	<star name="Tau Ceti" temp="110" x="-100" y="-70" size="1.2" numPlanets="0" numGasGiants="0">
+	<star name="Tau Ceti" temp="110" x="-93" y="-66" size="1.2" numPlanets="0" numGasGiants="0">
 		<planet name="Iromine" DIMID="22" dimMapping="" customIcon="MarsLike">
 			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>1.0,1.0,1.0</skyColor>
 			<gravitationalMultiplier>100</gravitationalMultiplier>
 			<orbitalDistance>50</orbitalDistance>
-			<orbitalPhi>0</orbitalPhi>
 			<orbitalTheta>0</orbitalTheta>
-			<rotationalPeriod>24000</rotationalPeriod>
-			<atmosphereDensity>100</atmosphereDensity>
 			<artifact>nevermine:RealmstoneIromine 0</artifact>
 		</planet>
 		<planet name="Abyss" DIMID="9" dimMapping="" customIcon="lava">
 			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>1.0,1.0,1.0</skyColor>
 			<gravitationalMultiplier>60</gravitationalMultiplier>
 			<orbitalDistance>200</orbitalDistance>
-			<orbitalPhi>0</orbitalPhi>
 			<orbitalTheta>90</orbitalTheta>
-			<rotationalPeriod>24000</rotationalPeriod>
-			<atmosphereDensity>100</atmosphereDensity>
 			<artifact>nevermine:RealmstoneAbyss 0</artifact>
 		</planet>
-		<planet name="Foopt" DIMID="113" customIcon="GasGiantBlue">
+		<planet name="Foopt" customIcon="GasGiantBlue">
 			<isKnown>false</isKnown>
 			<GasGiant>true</GasGiant>
 			<gas>nitrogen</gas>
@@ -386,39 +303,32 @@
 			<gas>rc deuterium</gas>
 			<gas>rc tritium</gas>
 			<gas>rc oxygen</gas>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>1.0,1.0,1.0</skyColor>
 			<gravitationalMultiplier>122</gravitationalMultiplier>
 			<orbitalDistance>155</orbitalDistance>
 			<orbitalPhi>-4</orbitalPhi>
 			<orbitalTheta>180</orbitalTheta>
 			<rotationalPeriod>24000</rotationalPeriod>
 			<atmosphereDensity>142</atmosphereDensity>
-			<planet name="Foopt-1" DIMID="114" customIcon="EarthLike">
+			<planet name="L'Borean" DIMID="23" dimMapping="" customIcon="WaterWorld">
 				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.2,0.9,1.0</skyColor>
-				<gravitationalMultiplier>41</gravitationalMultiplier>
-				<orbitalDistance>85</orbitalDistance>
-				<orbitalPhi>3</orbitalPhi>
+				<gravitationalMultiplier>100</gravitationalMultiplier>
+				<orbitalDistance>55</orbitalDistance>
 				<orbitalTheta>0</orbitalTheta>
-				<rotationalPeriod>348000</rotationalPeriod>
-				<atmosphereDensity>140</atmosphereDensity>
-				<biomeIds>114,115,135,139</biomeIds>
+				<artifact>nevermine:RealmstoneBorean 0</artifact>
 			</planet>
-			<planet name="Foopt-2" DIMID="115" customIcon="lava">
+			<planet name="Foopt-2" DIMID="111" customIcon="lava">
 				<isKnown>false</isKnown>
-				<fogColor>1.0,1.0,1.0</fogColor>
-				<skyColor>0.8,0.3,1.0</skyColor>
+				<fogColor>0x203AE5</fogColor>
+				<skyColor>0x07B223</skyColor>
 				<gravitationalMultiplier>41</gravitationalMultiplier>
-				<orbitalDistance>150</orbitalDistance>
+				<orbitalDistance>140</orbitalDistance>
 				<orbitalPhi>3</orbitalPhi>
 				<orbitalTheta>120</orbitalTheta>
-				<rotationalPeriod>29000</rotationalPeriod>
+				<rotationalPeriod>64000</rotationalPeriod>
 				<atmosphereDensity>130</atmosphereDensity>
-				<biomeIds>114,116</biomeIds>
+				<biomeIds>21,22,23,149,151,227,229,242</biomeIds>
 			</planet>
-			<planet name="Foopt-3" DIMID="116" customIcon="moon">
+			<planet name="Foopt-3" DIMID="112" customIcon="moon">
 				<isKnown>false</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
 				<skyColor>0.0,0.0,0.0</skyColor>
@@ -431,45 +341,40 @@
 				<biomeIds>136</biomeIds>
 			</planet>
 		</planet>
-		<planet name="Aquanos" DIMID="117" customIcon="WaterWorld">
+		<planet name="Aquanos" DIMID="113" customIcon="WaterWorld">
 			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>0.2,1.0,0.5</skyColor>
+			<fogColor>0x8D859B</fogColor>
+			<skyColor>0x4E11C6</skyColor>
 			<gravitationalMultiplier>150</gravitationalMultiplier>
-			<orbitalDistance>130</orbitalDistance>
+			<orbitalDistance>120</orbitalDistance>
 			<orbitalPhi>-17</orbitalPhi>
 			<orbitalTheta>270</orbitalTheta>
 			<rotationalPeriod>36000</rotationalPeriod>
 			<atmosphereDensity>130</atmosphereDensity>
-			<biomeIds>0,10,24,137,153,187,205,247</biomeIds>
+			<biomeIds>0,10,24,145,153,187,205,247</biomeIds>
 		</planet>
 	</star>
 	<star name="Sirius" temp="130" x="120" y="-95" size="1.2" numPlanets="0" numGasGiants="0">
-		<planet name="Vultomas" DIMID="118" dimMapping="" customIcon="Lava">
+		<planet name="Vultomas" DIMID="114" customIcon="Lava">
 			<isKnown>false</isKnown>
-			<fogColor>1.0,0.0,0.0</fogColor>
-			<skyColor>1.0,0.9,0.2</skyColor>
+			<fogColor>0xD47D42</fogColor>
+			<skyColor>0xc41000</skyColor>
 			<gravitationalMultiplier>75</gravitationalMultiplier>
-			<orbitalDistance>50</orbitalDistance>
+			<orbitalDistance>40</orbitalDistance>
 			<orbitalPhi>0</orbitalPhi>
 			<orbitalTheta>0</orbitalTheta>
 			<rotationalPeriod>24000</rotationalPeriod>
 			<atmosphereDensity>50</atmosphereDensity>
-			<biomeIds>8,188,223,245,247</biomeIds>
+			<biomeIds>8,188,223,245,247,248</biomeIds>
 		</planet>
 		<planet name="Creeponia" DIMID="14" dimMapping="" customIcon="EarthLike">
 			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>1.0,1.0,1.0</skyColor>
 			<gravitationalMultiplier>100</gravitationalMultiplier>
 			<orbitalDistance>120</orbitalDistance>
-			<orbitalPhi>0</orbitalPhi>
 			<orbitalTheta>90</orbitalTheta>
-			<rotationalPeriod>24000</rotationalPeriod>
-			<atmosphereDensity>100</atmosphereDensity>
 			<artifact>nevermine:RealmstoneCreeponia 0</artifact>
 		</planet>
-		<planet name="Nebool" DIMID="119" customIcon="GasGiantBlue">
+		<planet name="Nebool" customIcon="GasGiantBlue">
 			<isKnown>false</isKnown>
 			<GasGiant>true</GasGiant>
 			<gas>nitrogen</gas>
@@ -478,15 +383,13 @@
 			<gas>rc deuterium</gas>
 			<gas>rc tritium</gas>
 			<hasRings>true</hasRings>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>1.0,1.0,1.0</skyColor>
 			<gravitationalMultiplier>122</gravitationalMultiplier>
 			<orbitalDistance>150</orbitalDistance>
 			<orbitalPhi>-11</orbitalPhi>
 			<orbitalTheta>180</orbitalTheta>
 			<rotationalPeriod>18000</rotationalPeriod>
 			<atmosphereDensity>142</atmosphereDensity>
-			<planet name="Nebool-1" DIMID="120" customIcon="moon">
+			<planet name="Nebool-1" DIMID="115" customIcon="moon">
 				<isKnown>false</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
 				<skyColor>0.0,0.0,0.0</skyColor>
@@ -501,30 +404,20 @@
 		</planet>
 		<planet name="Celeve" DIMID="13" dimMapping="" customIcon="GasGiantRed">
 			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>1.0,1.0,1.0</skyColor>
 			<gravitationalMultiplier>30</gravitationalMultiplier>
-			<orbitalDistance>100</orbitalDistance>
-			<orbitalPhi>0</orbitalPhi>
+			<orbitalDistance>80</orbitalDistance>
 			<orbitalTheta>270</orbitalTheta>
-			<rotationalPeriod>24000</rotationalPeriod>
-			<atmosphereDensity>100</atmosphereDensity>
 			<artifact>nevermine:RealmstoneCeleve 0</artifact>
 		</planet>
 	</star>
-	<star name="Epsilon Eridani" temp="130" x="150" y="15" size="0.6" numPlanets="0" numGasGiants="0">
+	<star name="Epsilon Eridani" temp="130" x="139" y="15" size="0.6" numPlanets="0" numGasGiants="0">
 		<planet name="Candyland" DIMID="12" dimMapping="" customIcon="EarthLike">
 			<isKnown>false</isKnown>
-			<fogColor>1.0,1.0,1.0</fogColor>
-			<skyColor>1.0,1.0,1.0</skyColor>
 			<gravitationalMultiplier>50</gravitationalMultiplier>
 			<orbitalDistance>0</orbitalDistance>
-			<orbitalPhi>0</orbitalPhi>
 			<orbitalTheta>0</orbitalTheta>
-			<rotationalPeriod>24000</rotationalPeriod>
-			<atmosphereDensity>100</atmosphereDensity>
-			<artifact>nevermine:RealmstoneCeleve 0</artifact>
-				<planet name="Celeve-1" DIMID="121" customIcon="moon">
+			<artifact>nevermine:RealmstoneCandyland 0</artifact>
+				<planet name="Candyland-1" DIMID="116" customIcon="moon">
 					<isKnown>false</isKnown>
 					<fogColor>1.0,1.0,1.0</fogColor>
 					<skyColor>0.0,0.0,0.0</skyColor>
@@ -537,17 +430,28 @@
 					<biomeIds>136</biomeIds>
 				</planet>
 		</planet>
-		<planet name="Iiloo" DIMID="122" customIcon="IceWorld">
+		<planet name="Aether" DIMID="3" dimMapping="" customIcon="GasGiantBlue">
 			<isKnown>false</isKnown>
-			<fogColor>1.0,0.0,0.0</fogColor>
-			<skyColor>1.0,1.0,1.0</skyColor>
+			<gravitationalMultiplier>80</gravitationalMultiplier>
+			<orbitalDistance>60</orbitalDistance>
+			<orbitalTheta>0</orbitalTheta>
+			<planet name="Draygonia" DIMID="-17" customIcon="EarthLike">
+				<isKnown>false</isKnown>
+				<orbitalDistance>75</orbitalDistance>
+				<orbitalTheta>0</orbitalTheta>
+			</planet>
+		</planet>
+		<planet name="Iiloo" DIMID="117" customIcon="IceWorld">
+			<isKnown>false</isKnown>
+			<fogColor>0xCAF8F9</fogColor>
+			<skyColor>0x64BDFC</skyColor>
 			<gravitationalMultiplier>66</gravitationalMultiplier>
-			<orbitalDistance>180</orbitalDistance>
+			<orbitalDistance>190</orbitalDistance>
 			<orbitalPhi>5</orbitalPhi>
 			<orbitalTheta>0</orbitalTheta>
 			<rotationalPeriod>42000</rotationalPeriod>
-			<atmosphereDensity>130</atmosphereDensity>
-			<biomeIds>10,26,174,175,199</biomeIds>
+			<atmosphereDensity>75</atmosphereDensity>
+			<biomeIds>0,12,13,140,141,175,199</biomeIds>
 		</planet>		
 	</star>
 </galaxy>
