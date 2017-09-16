@@ -18,6 +18,7 @@ WARNING: The 5.0.1 Update removes Galacticraft and Warpdrive.  These mods have a
 
 ChangeLog
 -- Version 5.0.1 (Boldly going where no update has gone before)
+- Turn off colored beacon beams.  They break the psudo-inversion sigil ritual
 - No dilithium in geodes
 - Geodes should be a bit smaller on average
 - fix biome groups type
