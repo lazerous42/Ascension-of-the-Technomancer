@@ -5,6 +5,7 @@
 
 ##  Imports
 import mods.extraUtils.QED;
+import mods.ic2.Compressor;
 import mods.thaumcraft.Infusion;
 import mods.thermalexpansion.Furnace;
 
@@ -88,6 +89,13 @@ recipes.removeShaped(ingotBedrockium);
 recipes.removeShaped(blockBedrockium);
 recipes.addShapeless(ingotBedrockium * 9, [blockBedrockium]);
 recipes.addShaped(blockBedrockium, [[null, dustBedrock, null], [dustBedrock, <ExtraUtilities:cobblestone_compressed:7>, dustBedrock], [null, dustBedrock, null]]);
+
+## Unstable Ingot Block Compressor fix
+recipes.remove(<ExtraUtilities:decorativeBlock1:5>);
+recipes.addShapeless(<ExtraUtilities:decorativeBlock1:5>, [<ExtraUtilities:unstableingot>, <ExtraUtilities:unstableingot>, <ExtraUtilities:unstableingot>,
+														   <ExtraUtilities:unstableingot>, <ExtraUtilities:unstableingot>, <ExtraUtilities:unstableingot>,
+														   <ExtraUtilities:unstableingot>, <ExtraUtilities:unstableingot>, <ExtraUtilities:unstableingot>]);
+Compressor.addRecipe(<ExtraUtilities:decorativeBlock1:5>, <ExtraUtilities:unstableingot:2> * 9);
 
 ##  Custom Generators
 recipes.remove(<ExtraUtilities:generator>);
