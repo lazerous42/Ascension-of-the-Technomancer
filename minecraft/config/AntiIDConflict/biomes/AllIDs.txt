@@ -138,7 +138,7 @@ All ids and their position:
 133 is Occupied by Taiga M (net.minecraft.world.biome.BiomeGenTaiga)
 134 is Occupied by Swampland M (net.minecraft.world.biome.BiomeGenSwamp)
 135 is Avaible
-136 is Avaible
+136 is Occupied by OceanSpires (zmaster587.advancedRocketry.world.biome.BiomeGenOceanSpires)
 137 is Avaible
 138 is Avaible
 139 is Occupied by Alien Forest (zmaster587.advancedRocketry.world.biome.BiomeGenAlienForest)
@@ -147,7 +147,7 @@ All ids and their position:
 142 is Occupied by DeepSwamp (zmaster587.advancedRocketry.world.biome.BiomeGenDeepSwamp)
 143 is Occupied by Hot Dry Rock (zmaster587.advancedRocketry.world.biome.BiomeGenHotDryRock)
 144 is Occupied by Marsh (zmaster587.advancedRocketry.world.biome.BiomeGenMarsh)
-145 is Occupied by OceanSpires (zmaster587.advancedRocketry.world.biome.BiomeGenOceanSpires)
+145 is Avaible
 146 is Occupied by Stormland (zmaster587.advancedRocketry.world.biome.BiomeGenStormland)
 147 is Occupied by Luminous Cliffs Shores (Reika.ChromatiCraft.World.GlowingCliffsEdge)
 148 is Occupied by Ender Forest (Reika.ChromatiCraft.World.BiomeEnderForest)

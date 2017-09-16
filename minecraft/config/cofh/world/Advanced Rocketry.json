@@ -36,7 +36,7 @@
 					 "entry": "Stormland"}
 				  ],
 		"dimensionRestriction": "blacklist",
-		"dimensions": [0]
+		"dimensions": [0,5]
 	},
 	"DiLithium": {
 		"template": "uniform",
@@ -50,10 +50,12 @@
 		"biomeRestriction": "whitelist",
 		"biomes": [
 					{"type": "name",
+					 "entry": "Hot Dry Rock"},
+					{"type": "name",
 					 "entry": "Moon"}
 				  ],
 		"dimensionRestriction": "blacklist",
-		"dimensions": [0]
+		"dimensions": [0,5]
 	},
 	"Titanium": {
 		"template": "uniform",
@@ -92,6 +94,6 @@
 					 "entry": "Stormland"}
 				  ],
 		"dimensionRestriction": "blacklist",
-		"dimensions": [0]
+		"dimensions": [0,5]
 	}
 }

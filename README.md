@@ -10,7 +10,7 @@ Do you consider yourself a Minecraft expert?  Then welcome to your greatest chal
 
 Good luck friend, You're going to need it.
 
-IMPORTANT NOTE: To those who are currently awaiting the 5.0.1 update.  It will be posted at the end of the week (Sep 15/16 2017), I have been fastidiously studying the configs pre-release and I keep coming up with a few more tweaks to polish things a little bit more, as it will be very difficult for me to change the star map and associated AR dimensions post launch.  I just want to make sure I provide as good of a user experience as possible.  Thank you for your patients.
+IMPORTANT NOTE: Version 5.0.1 has been submitted to FTB for approval and deployment.
 
 WARNING: The 5.0.1 Update removes Galacticraft and Warpdrive.  These mods have associated dimensions.  Although these dimension numbers have not been reused (for obvious reasons), if you are in these dimensions after taking the update you will crash.  You will need to leave any associated dimensions from these mods before loading your world in version 5.0.1.  As long as final production testing is successful, this update will be posted within the next week.
 
@@ -18,6 +18,15 @@ WARNING: The 5.0.1 Update removes Galacticraft and Warpdrive.  These mods have a
 
 ChangeLog
 -- Version 5.0.1 (Boldly going where no update has gone before)
+- No dilithium in geodes
+- Geodes should be a bit smaller on average
+- fix biome groups type
+- Moved OceanSpires biome to be 136 (collision with desert oil field)
+- Star map. final revision
+- Resizing/positioning planets (again)
+- More starmap/planet biome tweaks to try and prevent the 128+ sub-biome bug
+- Hot dry rock now marked as low pressure to make the gathering of DiLithium a bit more interesting
+- Added note about TC Inventory Scanner to the guide
 - Fixed missing realmstone drops from AoA2.5 snapshot
     Dyrehorn/GiantSlug -> Gardencia
     PodPlant/FlowerFace/Squasher -> VoxPonds
