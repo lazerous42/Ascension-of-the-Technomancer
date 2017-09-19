@@ -232,9 +232,17 @@ NEI.hide(<TConstruct:manualBook:4>);
 NEI.hide(<TConstruct:potionLauncher>);
 
 ## Now for setting the allowed recipes
-
 # Removing lava as a smeltery fuel (pyrothium only)
 Smeltery.removeFuel(<liquid:lava>);
+
+# Drying Rack
+recipes.remove(<TConstruct:Armor.DryingRack>);
+recipes.addShaped(<TConstruct:Armor.DryingRack>, [[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>], 
+												  [<ore:boltAnyIron>, null, <ore:boltAnyIron>], 
+												  [null, null, null]]);
+recipes.addShaped(<TConstruct:Armor.DryingRack>, [[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>], 
+												  [<ore:boltSteel>, null, <ore:boltSteel>], 
+												  [null, null, null]]);
 
 # Knapsack 
 recipes.addShapedMirrored(<TConstruct:knapsack>, [[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>], 

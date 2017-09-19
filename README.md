@@ -18,6 +18,9 @@ WARNING: The 5.0.1 Update removes Galacticraft and Warpdrive.  These mods have a
 
 ChangeLog
 -- Version 5.1.0 (The Greeeeegggg Strikes Back Update)
+- Fixed missing TiCon drying rack recipe
+- Added a CoFH ore generation for Magmaox magma blocks (retrogen requested)
+- Gregified BiblioCraft (based off of GT:NH)
 - Added script for NVLSimple blocks unification with other mods that add 1.8+ stones
 - Updated GT5u from 5.09.30 -> 5.09.31
 - Added Tainted Magic

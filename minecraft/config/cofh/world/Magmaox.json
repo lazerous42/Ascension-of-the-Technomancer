@@ -1,0 +1,16 @@
+{
+	"ResonatingOre": {
+		"template": "uniform",
+		"block": "magmaox:MagmaBlock",
+		"material": "minecraft:netherrack",
+		"clusterSize": 32,
+		"numClusters": 4,
+		"minHeight": 23,
+		"maxHeight": 37,
+		"retrogen": "true",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [-1]
+	}
+}

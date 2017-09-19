@@ -318,6 +318,7 @@ blockAmordrine
 
 blockAndesite
 chisel:andesite - 0
+NVLSimpleBlocks:stone_andesite - 0
 
 
 blockAndradite
@@ -804,6 +805,7 @@ gregtech:gt.blockgem1 - 6
 
 blockDiorite
 chisel:diorite - 0
+NVLSimpleBlocks:stone_diorite - 0
 
 
 blockDolomite
@@ -1107,6 +1109,7 @@ minecraft:gold_block - 0
 
 blockGranite
 chisel:granite - 0
+NVLSimpleBlocks:stone_granite - 0
 
 
 blockGraniteBlack
@@ -1456,6 +1459,7 @@ gregtech:gt.blockstones - 6
 gregtech:gt.blockstones - 7
 chisel:marble - 0
 ProjRed|Exploration:projectred.exploration.stone - 0
+NVLSimpleBlocks:NVLMarble - 0
 
 
 blockMassicot
@@ -21586,24 +21590,24 @@ ImmersiveEngineering:stoneDecoration - 5
 
 
 container_oil
-Forestry:refractoryOil - 0
-Forestry:waxCapsuleOil - 0
 gregtech:gt.metaitem.01 - 30707
 Magneticraft:item.bucket_oil - 0
-BuildCraft|Energy:bucketOil - 0
-MagicBees:capsule.void - 5
+Forestry:waxCapsuleOil - 0
+Forestry:refractoryOil - 0
 Forestry:canOil - 0
+MagicBees:capsule.void - 5
+BuildCraft|Energy:bucketOil - 0
 MagicBees:capsule.magic - 5
 
 
 container_water
-aether:skyrootWaterBucket - 0
-Forestry:waxCapsuleWater - 0
-Forestry:canWater - 0
 Forestry:refractoryWater - 0
-IC2:itemCellEmpty - 1
-minecraft:potion - 0
+Forestry:canWater - 0
+aether:skyrootWaterBucket - 0
 MagicBees:capsule.void - 1
+minecraft:potion - 0
+Forestry:waxCapsuleWater - 0
+IC2:itemCellEmpty - 1
 MagicBees:capsule.magic - 1
 minecraft:water_bucket - 0
 
@@ -96291,6 +96295,7 @@ fossil:ancientStonebrick - 0
 stoneAndesite
 Botania:stone - 0
 chisel:andesite - 0
+NVLSimpleBlocks:stone_andesite - 0
 
 
 stoneAndesiteBricks
@@ -96303,6 +96308,7 @@ Botania:stone - 12
 
 stoneAndesitePolished
 Botania:stone - 4
+NVLSimpleBlocks:stone_andesite_smooth - 0
 
 
 stoneBasalt
@@ -96414,6 +96420,7 @@ ExtraUtilities:color_stone - 6
 stoneDiorite
 Botania:stone - 2
 chisel:diorite - 0
+NVLSimpleBlocks:stone_diorite - 0
 
 
 stoneDioriteBricks
@@ -96426,6 +96433,7 @@ Botania:stone - 14
 
 stoneDioritePolished
 Botania:stone - 6
+NVLSimpleBlocks:stone_diorite_smooth - 0
 
 
 stoneEndstone
@@ -96435,6 +96443,7 @@ minecraft:end_stone - any
 stoneGranite
 Botania:stone - 3
 chisel:granite - 0
+NVLSimpleBlocks:stone_granite - 0
 
 
 stoneGraniteBlack
@@ -96458,6 +96467,7 @@ Botania:stone - 15
 
 stoneGranitePolished
 Botania:stone - 7
+NVLSimpleBlocks:stone_granite_smooth - 0
 
 
 stoneGraniteRed
