@@ -14,7 +14,7 @@
 					 "entry": "Moon"}
 				  ],
 		"dimensionRestriction": "blacklist",
-		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
+		"dimensions": [-1, 1]
 	},
 	"Gravel": {
 		"template": "uniform",
@@ -28,7 +28,21 @@
 		"biomeRestriction": "none",
 		"biomes": [],
 		"dimensionRestriction": "blacklist",
-		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
+		"dimensions": [-1, 1]
+	},
+	"Clay": {
+		"template": "uniform",
+		"block": "clay",
+		"material": "minecraft:stone",
+		"clusterSize": 15,
+		"numClusters": 6,
+		"minHeight": 5,
+		"maxHeight": 128,
+		"retrogen": "true",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [-1, 1]
 	},
 	"Coal": {
 		"template": "uniform",
@@ -45,7 +59,7 @@
 					 "entry": "Moon"}
 				  ],
 		"dimensionRestriction": "blacklist",
-		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
+		"dimensions": [-1, 1]
 	},
 	"Iron": {
 		"template": "uniform",
@@ -59,7 +73,7 @@
 		"biomeRestriction": "none",
 		"biomes": [],
 		"dimensionRestriction": "blacklist",
-		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
+		"dimensions": [-1, 1]
 	},
 	"Gold": {
 		"template": "uniform",
@@ -73,7 +87,7 @@
 		"biomeRestriction": "none",
 		"biomes": [],
 		"dimensionRestriction": "blacklist",
-		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
+		"dimensions": [-1, 1]
 	},
 	"Redstone": {
 		"template": "uniform",
@@ -96,7 +110,7 @@
 		"biomeRestriction": "none",
 		"biomes": [],
 		"dimensionRestriction": "blacklist",
-		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
+		"dimensions": [-1, 1]
 	},
 	"Diamond": {
 		"template": "uniform",
@@ -110,7 +124,7 @@
 		"biomeRestriction": "none",
 		"biomes": [],
 		"dimensionRestriction": "blacklist",
-		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
+		"dimensions": [-1, 1]
 	},
 	"Emerald": {
 		"template": "uniform",
@@ -124,7 +138,7 @@
 		"biomeRestriction": "none",
 		"biomes": [],
 		"dimensionRestriction": "blacklist",
-		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
+		"dimensions": [-1, 1]
 	},
 	"Lapis": {
 		"template": "uniform",
@@ -138,7 +152,7 @@
 		"biomeRestriction": "none",
 		"biomes": [],
 		"dimensionRestriction": "blacklist",
-		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
+		"dimensions": [-1, 1]
 	},
 	"Quartz": {
 		"template": "uniform",

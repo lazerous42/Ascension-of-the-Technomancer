@@ -13,7 +13,7 @@
 		"biomeRestriction": "none",
 		"biomes": [],
 		"dimensionRestriction": "blacklist",
-		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
+		"dimensions": [-1, 1]
 	},
 	"Tin": {
 		"template": "uniform",
@@ -29,7 +29,7 @@
 		"biomeRestriction": "none",
 		"biomes": [],
 		"dimensionRestriction": "blacklist",
-		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
+		"dimensions": [-1, 1]
 	},
 	"Silver": {
 		"template": "uniform",
@@ -52,7 +52,7 @@
 		"biomeRestriction": "none",
 		"biomes": [],
 		"dimensionRestriction": "blacklist",
-		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
+		"dimensions": [-1, 1]
 	},
 	"Lead": {
 		"template": "uniform",
@@ -75,7 +75,7 @@
 		"biomeRestriction": "none",
 		"biomes": [],
 		"dimensionRestriction": "blacklist",
-		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
+		"dimensions": [-1, 1]
 	},
 	"Nickel": {
 		"template": "uniform",
@@ -98,7 +98,7 @@
 		"biomeRestriction": "none",
 		"biomes": [],
 		"dimensionRestriction": "blacklist",
-		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
+		"dimensions": [-1, 1]
 	},
 	"Mithril": {
 		"template": "uniform",
@@ -117,6 +117,6 @@
 
 		"biomes": [],
 		"dimensionRestriction": "blacklist",
-		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
+		"dimensions": [-1, 1]
 	}
 }

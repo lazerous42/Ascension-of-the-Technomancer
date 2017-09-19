@@ -19,6 +19,6 @@
 		"biomeRestriction": "none",
 		"biomes": [],
 		"dimensionRestriction": "blacklist",
-		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
+		"dimensions": [-1, 1]
 	}
 }

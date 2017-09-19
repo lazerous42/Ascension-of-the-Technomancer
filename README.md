@@ -1,6 +1,6 @@
 # Ascension-of-the-Technomancer
-Current LIVE Config Version 4.3.9
-Repository Config Version 5.0.1
+Current LIVE Config Version 5.0.1
+Repository Config Version 5.0.2
 
 Hello there friend.  It seems as though you've met with a terrible fate, haven't you?  
 
@@ -17,6 +17,9 @@ WARNING: The 5.0.1 Update removes Galacticraft and Warpdrive.  These mods have a
 * A note about config version numbers ~ The least significant version number applies to config changes only, where that the middle number increments with mod versions.  Although configs from newer versions of mods won't normally cause issues, there is a small chance so I figured I should mention it just in case.  The most significant digit indicates a major structural change, i.e. a substantial content change.  Mixing configs across major version updates is NOT recommended.  Note all of the earlier releases follow this pattern exactly, but this standard is being maintained now and henceforth.
 
 ChangeLog
+-- Version 5.0.2 
+- Removed the Galacticraft ore generation blacklist record from CoFH oregen files
+- Added small clay pockets that can spawn underground (will retrogen)
 -- Version 5.0.1 (Boldly going where no update has gone before)
 - Fixed using compressor to make unstable ingot blocks out of mobius ingots.  You can also used the unstable ones in a crafting table again.
 - Turn off colored beacon beams.  They break the psudo-inversion sigil ritual

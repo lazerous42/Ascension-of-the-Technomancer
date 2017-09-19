@@ -16,7 +16,7 @@
 			"all"
 		],
 		"dimensionRestriction": "blacklist",
-		"dimensions": [-30, -29, -28, -27, -26, 0, 1]
+		"dimensions": [0, 1]
 	},
 	"Saltpeter": {
 		"template": "uniform",
@@ -36,7 +36,7 @@
 		"biomeRestriction": "none",
 		"biomes": [],
 		"dimensionRestriction": "blacklist",
-		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
+		"dimensions": [-1, 1]
 	},
 	"Sulfur": {
 		"template": "uniform",
@@ -53,6 +53,6 @@
 		"biomeRestriction": "none",
 		"biomes": [],
 		"dimensionRestriction": "blacklist",
-		"dimensions": [-30, -29, -28, -27, -26, -1, 1]
+		"dimensions": [-1, 1]
 	}
 }
