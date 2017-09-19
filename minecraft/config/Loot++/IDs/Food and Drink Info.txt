@@ -2248,6 +2248,13 @@ TConstruct:strangeFood
 	- Saturation Amount: 1.0
 
 
+TaintedMagic:ItemMagicFunguar
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.0
+
+
 Thaumcraft:ItemManaBean
 	- Megadata: 0
 	- Food or Drink? Food
@@ -3454,6 +3461,12 @@ gregtech:gt.metaitem.02
 
 gregtech:gt.metaitem.02
 	- Megadata: 32102
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+gregtech:gt.metaitem.02
+	- Megadata: 32103
 	- Food or Drink? Drink
 	- Food Info Unknown!
 

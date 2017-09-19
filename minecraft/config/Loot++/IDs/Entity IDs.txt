@@ -540,6 +540,11 @@ TConstruct.KingSlime
 TConstruct.LandmineFirework
 TConstruct.Launched Potion
 TConstruct.SlimeExplosive
+TaintedMagic.EntityDarkMatter
+TaintedMagic.EntityDiffusion
+TaintedMagic.EntityGlowpet
+TaintedMagic.EntityHomingShard
+TaintedMagic.EntityTaintBubble
 Thaumcraft.Alumentum
 Thaumcraft.AspectOrb
 Thaumcraft.BottleTaint
