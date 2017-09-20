@@ -5301,6 +5301,12 @@ Ztones:tile.zorgBlock - 10406
 Ztones:tile.ztylBlock - 10417
 Ztones:tile.zythBlock - 10416
 Ztones:totemTool - 10425
+adhooks:pudge_hook - 13573
+adhooks:pudge_launcher - 13574
+adhooks:spear_hook - 13576
+adhooks:spear_launcher - 13571
+adhooks:web_hook - 13572
+adhooks:web_launcher - 13575
 advancedRocketry:advancedRocketrymetal0 - 13081
 advancedRocketry:advancedRocketryproductboule - 13163
 advancedRocketry:advancedRocketryproductcrystal - 13164

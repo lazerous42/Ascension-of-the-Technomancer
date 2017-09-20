@@ -10,14 +10,19 @@ Do you consider yourself a Minecraft expert?  Then welcome to your greatest chal
 
 Good luck friend, You're going to need it.
 
-IMPORTANT NOTE: Version 5.0.1 has been submitted to FTB for approval and deployment.
-
 WARNING: The 5.0.1 Update removes Galacticraft and Warpdrive.  These mods have associated dimensions.  Although these dimension numbers have not been reused (for obvious reasons), if you are in these dimensions after taking the update you will crash.  You will need to leave any associated dimensions from these mods before loading your world in version 5.0.1.  As long as final production testing is successful, this update will be posted within the next week.
 
 * A note about config version numbers ~ The least significant version number applies to config changes only, where that the middle number increments with mod versions.  Although configs from newer versions of mods won't normally cause issues, there is a small chance so I figured I should mention it just in case.  The most significant digit indicates a major structural change, i.e. a substantial content change.  Mixing configs across major version updates is NOT recommended.  Note all of the earlier releases follow this pattern exactly, but this standard is being maintained now and henceforth.
 
 ChangeLog
 -- Version 5.1.0 (The Greeeeegggg Strikes Back Update)
+- ExtraCells is now thoroughly Greggy
+- Dimensional shard ore will spawn on AR control worlds (but not vacuum worlds or Feyweald)
+- Fixed naming convention of some CoFH files
+- Corrected Moon of Foopt having a number designation, not a proper name
+- Allow flourite recoloring - Pylons will now generate in non-overworld dimensions - Allow alternate fragment generation (killing villagers with pylons, I think)
+- Rotarycraft config tweaks.  It was set to EASY MODE!!!!!  This will not stand
+- Added MPUtils for better display of changelog and issue reporting - Added AdHooks, because we need grappling hooks in this pack
 - Fixed missing TiCon drying rack recipe
 - Added a CoFH ore generation for Magmaox magma blocks (retrogen requested)
 - Gregified BiblioCraft (based off of GT:NH)
@@ -27,15 +32,16 @@ ChangeLog
 - Added Magmaox to add the 1.10 nether blocks into the pack (worldgen pending)
 - Added Twilight Portal Catalyst mod to define a special key to the twilight (recipe pending).
 - Added Concrete and Terracotta blocks (pending request approval)
+
 -- Version 5.0.2 
 - Removed the Galacticraft ore generation blacklist record from CoFH oregen files
 - Added small clay pockets that can spawn underground (will retrogen)
+
 -- Version 5.0.1 (Boldly going where no update has gone before)
 - Fixed using compressor to make unstable ingot blocks out of mobius ingots.  You can also used the unstable ones in a crafting table again.
 - Turn off colored beacon beams.  They break the psudo-inversion sigil ritual
-- No dilithium in geodes
-- Geodes should be a bit smaller on average
-- fix biome groups type
+- Geodes should be a bit smaller on average / dilithium in geodes
+- Fix biome groups type
 - Moved OceanSpires biome to be 136 (collision with desert oil field)
 - Star map. final revision
 - Resizing/positioning planets (again)
@@ -47,7 +53,6 @@ ChangeLog
     PodPlant/FlowerFace/Squasher -> VoxPonds
     Stalker -> Shyrelands
 - Added planet Draygonia (Wyvern Lair).  Should display "Destination Unreachable" if Mo' Creatures is not installed
-- Removed some unneeded information from starmap
 - Re-organized AR biomes to (hopefully) prevent the 128+ sub-biome bug
 - Adding 2 more stars + a few moar planets
 - Ensure that worldgen structures spawn in The FeyWeald
@@ -58,19 +63,13 @@ ChangeLog
 - Disable hardcore darkness in AR space dimension (kind of doesn't make sense)
 - Asteroid distance tweaks
 - More oredict consolidation of aluminum/aluminium and aluminium accessories.  This consolidation was moved to the initial scripts file, as it's more generic than commands that apply to just AR
-- Touched up the guide notes about AR a bit more
 - AR laser drill ore list was changed to a blacklist and emptied out, as all ores that spawn on a planet are eligible for laser drilling (because it's actually grabbing blocks from the planet surface)
 - Lots more ores available in geodes
 - Exposure to vacuum made extra deadly... for extra fun
 - Added redstone/electrotine asteroid and tinkered with probabilities/variability of asteroids
 - AR ore spawning tweaks.  Aluminium and Titanium are only found in "Alien Biomes" as pure ores (need to use GT ores otherwise).  The also occur in asteroids.  Dilithium only spawns in on airless moons and asteroids.
-- Updated AR guide about the dangers of running out of warp fuel.
 - AR configs tweaked for increased difficulty.  Also, I accidentally left the rocket fuel requirement toggled off.
-- Added one more moon type world to the Tau Ceti system.
-- Removed ItemPhysic mod due to "spinning pots" bug
 - Update JAS backup + spawn group auto-sorting
-- Restore AoA skills page in the guide (accidental delete when merging the trunk bug fixes into the 5.0.1 branch)
-- Updated Advanced Rocketry guide page
 - Added a few more commands to the useful commands page.
 - Added low pressure atmosphere effect exclusions for certain mobs and created a separate spawnings biome groups for those mobs
 - A few vanilla biomes missing form planet defs
@@ -103,7 +102,7 @@ ChangeLog
 - Fucking AOBD file keeps resetting my changes, I fucking love it
 - MoC sharks moved to WATERMONSTER spawn list
 - Moar starz = Moar Funz
-- Added a guide book page to document how to update your star map (if needed), along with documented the reason for adding this mod, and a basic overview of how Advanced Rocketry works to travel to other worlds.
+- Added a guide book page about Advanced Rocketry
 - Tweaking Advanced Rocketry configs
 - Dilithium now accessible with laser drill and geodes
 - more rocket fuels
@@ -121,26 +120,31 @@ ChangeLog
 - Removed all reference to Galacticraft and it's addons
 - Easy colored text for signs and books, who doesn't love that
 - Added Advanced Rocketry/LibVulpes
-- Add ItemPhysicLite
 - Added Default World Generator to lock the main overworld to BIOMESOP type
 - Added a biome tracking tool: Natures Compass
 - Now I laugh at you each time you die
+
 -- Version 4.5.0 (Lazerous Saves the World Update)
 - Introducing MultiWorld to create an alternate DEFAULT overworld, unaffected by Chromaticraft's inability to play nice with BIOMESOP world types
+
 -- Version 4.4.0 (A Blast from the Past Update)
 - Added Fossils and Archeology Revival 
 - Mod version updates
 - Smeltery is now enabled for ore processing
 - Knapsack recipe now enabled
 - Re-introducing smeltery as a later game ore multiplier.  3x returns, but requires trip to the moon and pyrothium for fuel.  Guide notes have been updated accordingly.
+
 -- Version 4.3.9
 - Fixed unification exploit with the AnyIron and AnyCopper oredict entries and JABBA barrels.  Also deactivated AnyCopper and AnyIron in AOBD and Technomancy pure ores
+
 -- Version 4.3.8
 - Disabled Baublelicious magic items because they have easy recipes.  This mod should still allow for Botania and Thaumcraft baubles to be consolidated using the entangling items.  If it doesn't then this mod will be pulled from the load out in a future release
+
 -- Version 4.3.7
 - Fixed GlobalProperties.cfg from JAS restore after update
 - Added a special thanks section for users who have helped with bug tracking to the introduction page of the FTBUtils guide
 - Disable Railcraft residual heat block to prevent associated bugs (what the hell does this block even do anyway?), it is known to cause incompatibilities with Chromaticraft pylon reconstruction.
+
 -- Version 4.3.5
 - Sort out changes to spawn tables after deactivating BoP biome overrides
 - Updated ThaumicExploration
@@ -151,14 +155,17 @@ ChangeLog
 - ore berry bushes are 25% rarer
 - turned off unnecessary mod types in AOBD configs
 - changed material properties for mithril from 67 to 203 to enable more ore products
+
 -- Version 4.2.3
 - turn off BoP vanilla biome overrides to prevent issues with Chromaticraft plant spawning (specifically void reeds)
 - Taint too common now (although ethereal blooms are basically free), dropped from 25 to 15.  Wake up and smell the TAINT
+
 -- Version 4.2.2
 - Deactivated ore conversions in JWIN, GT5u is already doing this, a competing mod doing this is disruptive to controlled
 - GT5u settings are the cause of passive mobs harming each other.  3 in a single block causes them to damage each other.  This has been increased to 5
 - Passive WATERCREATURE type enemies have had their spawn cap lowered 10->5 (Minecraft default with normal spawning), and spawn tick rate increased 10->100.  Chunk spawning now enabled at the default rate of 0.1.
 - MoC sharks moved to WATERMONSTER spawn list
+
 -- Version 4.2.1
 - Reduced WATERCREATURE spawn cap from 15 to 10
 - Added a spawn cycle reduction to WATERCREATURE and AMBIANT from 1 to 10
@@ -169,6 +176,7 @@ ChangeLog
 - Decrease rarity of Thoqqua, too much fire
 - Fix gear in GT alloy smelter recipes, should require 8 ingots, not 6
 - Fix missing paren
+
 -- Version 4.2.0 (Thermonuclear Shaft Update)
 - Increased taint biome frequency again, still too rare
 - One last fragment weight tweak.  Fragments are a moderately common drop now
@@ -626,4 +634,3 @@ ChangeLog
 - Removed ComputerCraft in favor of OpenComputers
 - Initial setup of GregTech worldgen instead of cofh
 - Removed unnecessary oregen files
-

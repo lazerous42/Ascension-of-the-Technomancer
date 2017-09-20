@@ -21590,26 +21590,26 @@ ImmersiveEngineering:stoneDecoration - 5
 
 
 container_oil
-gregtech:gt.metaitem.01 - 30707
-Magneticraft:item.bucket_oil - 0
-Forestry:waxCapsuleOil - 0
 Forestry:refractoryOil - 0
-Forestry:canOil - 0
-MagicBees:capsule.void - 5
-BuildCraft|Energy:bucketOil - 0
 MagicBees:capsule.magic - 5
+MagicBees:capsule.void - 5
+Magneticraft:item.bucket_oil - 0
+gregtech:gt.metaitem.01 - 30707
+Forestry:canOil - 0
+Forestry:waxCapsuleOil - 0
+BuildCraft|Energy:bucketOil - 0
 
 
 container_water
-Forestry:refractoryWater - 0
-Forestry:canWater - 0
-aether:skyrootWaterBucket - 0
-MagicBees:capsule.void - 1
-minecraft:potion - 0
-Forestry:waxCapsuleWater - 0
-IC2:itemCellEmpty - 1
-MagicBees:capsule.magic - 1
 minecraft:water_bucket - 0
+Forestry:canWater - 0
+Forestry:refractoryWater - 0
+MagicBees:capsule.magic - 1
+minecraft:potion - 0
+MagicBees:capsule.void - 1
+IC2:itemCellEmpty - 1
+Forestry:waxCapsuleWater - 0
+aether:skyrootWaterBucket - 0
 
 
 cookingClam
@@ -47761,12 +47761,20 @@ gearGtSmallAluminium
 gregtech:gt.metaitem.02 - 20019
 
 
+gearGtSmallAnyIron
+gregtech:gt.metaitem.02 - 20032
+
+
 gearGtSmallHSSE
 gregtech:gt.metaitem.02 - 20373
 
 
 gearGtSmallHSSG
 gregtech:gt.metaitem.02 - 20372
+
+
+gearGtSmallIron
+gregtech:gt.metaitem.02 - 20032
 
 
 gearGtSmallNeutronium
@@ -52618,6 +52626,18 @@ chisel:holystone - 0
 
 
 honeyEqualssugar
+
+
+hookPudge
+adhooks:pudge_hook - 0
+
+
+hookSpear
+adhooks:spear_hook - 0
+
+
+hookWeb
+adhooks:web_hook - 0
 
 
 hopper
@@ -67690,6 +67710,18 @@ minecraft:wheat - any
 knightmetal
 gregtech:gt.metaitem.01 - 11362
 TwilightForest:item.knightMetal - 0
+
+
+launcherPudge
+adhooks:pudge_launcher - 0
+
+
+launcherSpear
+adhooks:spear_launcher - 0
+
+
+launcherWeb
+adhooks:web_launcher - 0
 
 
 lavastone
@@ -91865,6 +91897,10 @@ roundHSSG
 gregtech:gt.metaitem.01 - 25372
 
 
+roundLead
+gregtech:gt.metaitem.01 - 25089
+
+
 roundNeutronium
 gregtech:gt.metaitem.01 - 25129
 
@@ -94776,6 +94812,14 @@ RotaryCraft:rotarycraft_item_canola - 0
 
 sporeFern
 fossil:fernSeeds - 0
+
+
+springSmallAnyIron
+gregtech:gt.metaitem.02 - 23032
+
+
+springSmallIron
+gregtech:gt.metaitem.02 - 23032
 
 
 springTitanium

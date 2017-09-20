@@ -1,170 +1,157 @@
 {
-    "images":
-    {
-        "title":
-        {
-            "image" : "custommainmenu:textures/gui/Ascension.png",
-            "posX" : -160,
-            "posY" : 10,
-            "width" : 320,
-            "height" : 96,
-            "alignment" : "top_center"
+    "images": {
+        "title": {
+            "image": "custommainmenu:textures/gui/Ascension.png",
+            "posX": -160,
+            "posY": 10,
+            "width": 320,
+            "height": 96,
+            "alignment": "top_center"
         }
     },
-    
-    "buttons":
-    {
-        "singleplayer":
-        {
-            "text" : "menu.singleplayer",  
-            "texture" : "custommainmenu:textures/gui/longbutton.png",
-            "alignment" : "center",
-            "posX" : -100,
-            "posY" : 32,
-            "width" : 200,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "singleplayer"
+    "buttons": {
+        "singleplayer": {
+            "text": "menu.singleplayer",
+            "texture": "custommainmenu:textures/gui/longbutton.png",
+            "alignment": "center",
+            "posX": -100,
+            "posY": 32,
+            "width": 200,
+            "height": 20,
+            "action": {
+                "type": "openGui",
+                "gui": "singleplayer"
             }
         },
-        
-        "multiplayer":
-        {
-            "text" : "menu.multiplayer",
-            "texture" : "custommainmenu:textures/gui/longbutton.png",
-            "alignment" : "center",
-            "posX" : -100,
-            "posY" : 56,
-            "width" : 200,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "multiplayer"
+        "multiplayer": {
+            "text": "menu.multiplayer",
+            "texture": "custommainmenu:textures/gui/longbutton.png",
+            "alignment": "center",
+            "posX": -100,
+            "posY": 56,
+            "width": 200,
+            "height": 20,
+            "action": {
+                "type": "openGui",
+                "gui": "multiplayer"
             }
         },
-        
-        "mods":
-        {
-            "text" : "Mods",
-            "texture" : "custommainmenu:textures/gui/shortbutton.png",
-            "alignment" : "center",
-            "posX" : -100,
-            "posY" : 80,
-            "width" : 98,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "mods"
+        "mods": {
+            "text": "Mods",
+            "texture": "custommainmenu:textures/gui/shortbutton.png",
+            "alignment": "center",
+            "posX": -100,
+            "posY": 80,
+            "width": 98,
+            "height": 20,
+            "action": {
+                "type": "openGui",
+                "gui": "mods"
             }
         },
-
-        "support":
-        {
-            "text" : "AotT GitHub",
-            "texture" : "custommainmenu:textures/gui/shortbutton.png",
-            "alignment" : "center",
+        "support": {
+            "text": "AotT GitHub",
+            "texture": "custommainmenu:textures/gui/shortbutton.png",
+            "alignment": "center",
             "tooltip": "Changelog and Issue Reporting",
-            "posX" : 2,
-            "posY" : 80,
-            "width" : 98,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openLink",
-		"link" : "https://github.com/lazerous42/Ascension-of-the-Technomancer/"
+            "posX": 2,
+            "posY": 80,
+            "width": 98,
+            "height": 20,
+            "action": {
+                "type": "openLink",
+                "link": "https://github.com/lazerous42/Ascension-of-the-Technomancer/"
             }
         },
-
-        "options":
-        {
-            "text" : "menu.options",
-            "texture" : "custommainmenu:textures/gui/shortbutton.png",
-            "alignment" : "center",
-            "posX" : -100,
-            "posY" : 104,
-            "width" : 98,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "options"
+        "Changelog": {
+            "text": "Changelog",
+            "texture": "custommainmenu:textures/gui/shortbutton.png",
+            "alignment": "center",
+            "posX": -100,
+            "posY": 104,
+            "width": 98,
+            "height": 20,
+            "wrappedButton" : 400
+        },
+        "issuereport": {
+            "text": "Report Issue",
+            "texture": "custommainmenu:textures/gui/shortbutton.png",
+            "alignment": "center",
+            "posX": 2,
+            "posY": 104,
+            "width": 98,
+            "height": 20,
+            "wrappedButton" : 401
+        },
+        "options": {
+            "text": "menu.options",
+            "texture": "custommainmenu:textures/gui/shortbutton.png",
+            "alignment": "center",
+            "posX": -100,
+            "posY": 128,
+            "width": 98,
+            "height": 20,
+            "action": {
+                "type": "openGui",
+                "gui": "options"
             }
         },
-
-        "language":
-        {
-            "text" : "",
-            "posX" : -20,
-            "posY" : -20,
-            "width" : 20,
-            "height" : 20,
-	    "tooltip": "Language",
-	    "alignment" : "bottom_right",
-	    "imageWidth": "40",
-	    "imageHeight": "40",
-	    "texture" : "custommainmenu:textures/gui/lang.png",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "languages"
+        "quit": {
+            "text": "menu.quit",
+            "texture": "custommainmenu:textures/gui/shortbutton.png",
+            "alignment": "center",
+            "posX": 2,
+            "posY": 128,
+            "width": 98,
+            "height": 20,
+            "action": {
+                "type": "quit"
             }
-	},        
-        "quit":
-        {
-            "text" : "menu.quit",
-            "texture" : "custommainmenu:textures/gui/shortbutton.png",
-            "alignment" : "center",
-            "posX" : 2,
-            "posY" : 104,
-            "width" : 98,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "quit"
+        },
+        "language": {
+            "text": "",
+            "posX": -20,
+            "posY": -20,
+            "width": 20,
+            "height": 20,
+            "tooltip": "Language",
+            "alignment": "bottom_right",
+            "imageWidth": "40",
+            "imageHeight": "40",
+            "texture": "custommainmenu:textures/gui/lang.png",
+            "action": {
+                "type": "openGui",
+                "gui": "languages"
             }
         }
     },
-    
-    "texts":
-    {
-        "pack_author":
-        {
-            "text" : "Project PibbleCraft by Lazerous42",
-            "posX" : 2,
-            "posY" : -20,
-            "color" : -1,
-            "alignment" : "bottom_left"
+    "texts": {
+        "pack_author": {
+            "text": "Project PibbleCraft by Lazerous42",
+            "posX": 2,
+            "posY": -20,
+            "color": -1,
+            "alignment": "bottom_left"
         },
-        
-        "pack_version":
-        {
-            "text" : "Version: 5.1.0",
-            "posX" : 2,
-            "posY" : -10,
-            "color" : -1,
-            "alignment" : "bottom_left"
+        "pack_version": {
+            "text": "Version: 5.1.0",
+            "posX": 2,
+            "posY": -10,
+            "color": -1,
+            "alignment": "bottom_left"
         }
     },
-    
-    "other":
-    {
-        "splash-text":
-        {
-            "posX" : 130,
-            "posY" : 100,
-            "color" : -256,
-            "alignment" : "top_center",
-            "file" : "texts/splashes.txt"
+    "other": {
+        "splash-text": {
+            "posX": 130,
+            "posY": 100,
+            "color": -256,
+            "alignment": "top_center",
+            "file": "texts/splashes.txt"
         },
-        "background":
-        {
-            "image" : "custommainmenu:textures/background/Ascension.png",
-            "mode" : "fill"
-            }
+        "background": {
+            "image": "custommainmenu:textures/background/Ascension.png",
+            "mode": "fill"
         }
     }
 }

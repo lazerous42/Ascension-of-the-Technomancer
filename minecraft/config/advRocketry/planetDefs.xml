@@ -296,7 +296,7 @@
 				<orbitalTheta>0</orbitalTheta>
 				<artifact>nevermine:RealmstoneBorean 0</artifact>
 			</planet>
-			<planet name="Foopt-2" DIMID="113" customIcon="EarthLike">
+			<planet name="Quoan" DIMID="113" customIcon="EarthLike">
 				<isKnown>false</isKnown>
 				<fogColor>0x203AE5</fogColor>
 				<skyColor>0xF72C7D</skyColor>

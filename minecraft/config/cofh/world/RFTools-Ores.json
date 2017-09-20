@@ -1,0 +1,16 @@
+{
+	"DimensionalShards": {
+		"template": "uniform",
+		"block": "rftools:dimensionalShardBlock",
+		"material": "minecraft:stone",
+		"clusterSize": 8,
+		"numClusters": 4,
+		"minHeight": 50,
+		"maxHeight": 128,
+		"retrogen": "false",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [102,106,107,109,113,115,116,121]
+	}
+}
