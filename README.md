@@ -1,6 +1,6 @@
 # Ascension-of-the-Technomancer
 Current LIVE Config Version 5.0.1
-Repository Config Version 5.1.1
+Repository Config Version 5.1.2
 
 Hello there friend.  It seems as though you've met with a terrible fate, haven't you?  
 
@@ -15,6 +15,9 @@ WARNING: The 5.0.1 Update removes Galacticraft and Warpdrive.  These mods have a
 * A note about config version numbers ~ The least significant version number applies to config changes only, where that the middle number increments with mod versions.  Although configs from newer versions of mods won't normally cause issues, there is a small chance so I figured I should mention it just in case.  The most significant digit indicates a major structural change, i.e. a substantial content change.  Mixing configs across major version updates is NOT recommended.  Note all of the earlier releases follow this pattern exactly, but this standard is being maintained now and henceforth.
 
 ChangeLog
+-- Version 5.1.2
+- Config ~ Reduced Chromaticraft structure difficulty from 3 -> 2 to reduce tedium
+
 -- Version ~ 5.1.1
 - BugFix: Modular Power Suits mode change was bound to mouse wheel, conflicting with Chromaticraft
 - Config ~ Added more flowers to the Forestry apiculture.cfg 
@@ -22,6 +25,7 @@ ChangeLog
 - Config ~ Added some extra "standard" ores, one for each AR controlled planet
 - BugFix ~ CoFH worldgen tweaks Config.  Turned off some of the older retrogen triggers in CoFH (they are from over a year ago, and the CoFH files were renamed for consistency).  Added some extra ore generation to AR planets to make them more distinct and valuable.
 - BugFix ~ Re-working GT worldgen file to deal with infinite recursion generating AoA dimensions
+
 -- Version 5.1.0 (The Greeeeegggg Strikes Back Update)
 - Config ~ Turned on connected inner edge of chisel CTM textures
 - Config ~ Allow chiseling back to vanilla leaves

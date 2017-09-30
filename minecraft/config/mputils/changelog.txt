@@ -1,3 +1,6 @@
+§1§l§nVersion 5.1.2§r§1§l 
+§bConfig ~ Reduced Chromaticraft structure difficulty from 3 -> 2 to reduce tedium
+
 §1§l§nVersion 5.1.1§r§1§l 
 §cBugFix: Modular Power Suits mode change was bound to mouse wheel, conflicting with Chromaticraft
 §bConfig ~ Added more flowers to the Forestry apiculture.cfg 
