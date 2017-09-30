@@ -1,0 +1,79 @@
+The main attraction of Advent of Ascension is the vast quantity of new dimensions to explore and bosses to fight.  These realms are normally accessed through the Ancient Teleporter Blueprint.  Simply using this item would build a large portal structure at your feet.  You would then feed realmstones into the portal controller block to open the portal that particular realmstone acts as a key for.  Now this method still works, but there are a few steps along the way, compared to the simple easy access in vanilla AoA.  
+
+To get the Ancient teleporter Blueprint.  First off you are going to need the Lamp of Cinders as this is required in the crafting recipe for the blueprint.  The lamp of cinders is found toward the end of the content in the Twilight Forest.  The twilight is a much more dangerous place than you remember from other packs, so you should be fairly strong before even attempting to go through the twilight portal.
+
+Opening the twilight portal is done by creating a 2x2x1 hole in the ground and filling it with water source blocks.  Then surround the portal with flowers and throw in the key item.  In this pack, the key item is not a diamond, but a special item simply called the Twilight Forest Catalyst.  This key is dropped by the labrynith slider boss of the Aether.  So you will first need to tackle the Aether.  To get ther, create a nether portal using glowstone blocks and "light" it with a bucket of water.
+
+So now you've beaten the Aether and the Twilight, and you have your lamp of cinders.  The portal recipe is actually not craftable in a normal crafting table, you need to use the Extra Utilities QED to create the blueprint.  The QED requires enderium to make, and GregTech makes enderium quite challenging to acquire.
+
+Sounds like quite a bit of work, huh?  Well, there is another way.  Most of the AoA realms are actually distant planets, light years away from your home in Minecraftia.  If you could somehow build a vessel to cross the great void, you could theoretically fly to these places.  But it would take 1000s of years to get to other stars.  If only there was a way to fly faster than light...  Should you find a way to accomplish this, you might still want to be gathering those realmstone.  Your ship may need them in order to find these realms.  Do be aware that realms that have a world ceiling are not accessible by spacecraft for obvious reasons.
+
+Now that you know how to get to the AoA realms, lets take a moment to review what worlds are actually out there.
+
+§lThe Haven§r ~ is a heavenly dimension consisting of many floating islands with colorful plants and foliage, lingering over the void. It can be accessed early in the player's adventure. Despite it's peaceful and colorful appearance, the Haven is very dangerous. Monsters in the Haven range from angel-like monsters, such as Angelicas, to mecha-machines, such as Automatons and Surveyors. Many monsters in the Haven can fly, and many can move the player with force. Whether through knockback or levitation, they can easily send the player into the void.
+The Haven has two bosses, the Four Guardians and Rockrider.
+
+§lThe Abyss§r ~ is a bloody, gory dimension filled to the brim with teeth, tentacles, and eyeballs. The Abyss can be accessed early in the player's adventure, however much like the Haven, can present a challenge for the under-prepared. Whether it be the Bloodsuckers or the Flesh Eaters, monsters that are native to the Abyss are all twisted abominations, ready to devour the player at a moment's notice. Most Abyss monsters also apply debuffs to the player, so take additional caution around them.
+The Abyss has two bosses, Shadowlord and Elusive.
+
+§lPrecasia§r ~ is a prehistoric dimension. It can be entered very early in the player's adventure. Precasia consists of a jungle-like world, with various ancient structures. Prehistoric animals, such as the Dyrehorn and Megatherium, roam the surface world. These animals are very dangerous, and many have immunities to various damage types, a result of their tough skin. Dinosaurs can also be found here, hiding away in their underground dens. These dinosaurs are far more powerful then the other animals. Fossils can be dug up below the surface, while some of the best equipment in the game can be found locked away in the ruins of ancient civilizations.
+Precasia currently has one boss, the Skeletal Army.
+
+§lMysterium§r ~ is a mysterious mushroom dimension. It can be gotten to very early in the player's adventure. It take place inside the minds of the Eeos that inhabit it. The Eeos' wild imagination has made Mysterium very unique, for this dimension has massive variety. Mushroom-themed mobs such as Fungiks and Fungats spawn naturally, but other types of mobs, such as Banshees and Runic Golems can also be found. A lot of the mobs of Mysterium have special effects.
+Mysterium has one boss, King Shroomus.
+
+§lIromine§r ~ is a black-gold metallic, chaotic dimension. Iromine is a very dangerous place to be. It contains mechanical plants that apply buffs/debuffs when stepped on. Monsters from Iromine are mostly mechanical creations, such as the Mechamatons and Mechachrons. Explosive Polytoms linger in the air. The sneaky Quickpockets are also about, ready to steal the player's items. Here the player will find the Professor in his lab.
+Iromine currently has one boss, Silverfoot
+
+	
+§lLunalus§r ~ is an outer space themed dimension. The generation consists of many pink and blue planets with an ocean underneath. Most structures generate down towards this ocean. Monsters from here are all aliens, ranging from Visulars to the explosive Explodots. The player can visit the Zarg Homeplanet and encounter the dangerous Zargs and Zorps, or go to the Lunar Prisons to meet Inmate X and Inmate Y.
+There is one boss in Lunalus, Visualent.
+
+§lThe Deeplands§r ~ is a rocky cavern dimension. The Deeplands is a very ancient place, massive fossils are scattered about. The Deeplands is one of the easiest dimensions in the mod. Mobs from the Deeplands are all rock-themed, including the Rock Critters, Rock Crawlers and Rockbiters. The ceiling of the Deeplands contains traps, as well as Deep Cases, which contain valuable loot, such as the Deep Bow.
+There is one boss in the Deeplands, Kror.
+
+§lGardencia§r ~ is a garden dimension. Massive flowers dot the landscape of Gardencia. The generation of Gardencia consists of many islands surrounded by a large ocean. Swimming too deep will crush the player, due to high water pressure. The mobs of Gardencia are themed around flowers and vegtables, such as the Flower Faces and Squashers.
+Gardencia has one boss, Vinocorne.
+
+§lGreckon§r ~ is a haunted dimension. The Greckon consists of massive cliffs that go up very high. Greckon is spooky at every turn. The trees have faces on them, and the mobs are all creepy. Some of the mobs include the Grillface, which produces a screamer-like effect, and the Valkyrie which flies and can one-shot the player when their back is turned. One of the most dangerous mobs in the mod, the Silencer, is also from here. Greckon also has a few ores the player can loot.
+Greckon has one boss, Bane.
+
+§lL'Borean§r ~ is an aquatic dimension. The landscape of L'Borean consists of massive coral structures and pools of water. The Aquatic Castles may occasionally pop up and inside are dangerous mobs such as the Mermage and Amphibior. Naturally spawning mobs of L'Borean include the Coratee, Muncher and Angler. All L'Borean mobs heal in water. The player can also play the Hydrolisk minigame. Many of the L'Borean mobs apply/have special effects.
+L'Borean has one boss, Dracyon.
+
+§lDustopia§r ~ is a dark, forest dimension. It is one of the hardest dimensions in the mod. Seeing here is very difficult. Monsters here want to feast on the player, even more than the Abyss mobs do. Basilisks, Devourers and Stalkers are just some of the mobs that can cause trouble in this forest dwelling. Entering some of the dungeons, such as the Merkyre Towers, are not a good idea, because they contain even more powerful monsters. The player can hang out with the Primordial NPCs at the Primordial villages.
+Dustopia has one boss, the Primordial Five.
+
+§lThe Lands of Runandor§r ~ is a magical, runic dimension. The place is very blue and cubical. One of the biggest resources from Runandor are runes, which can be gotten from the Rune Randomizer. Monsters from Runandor are very magical and fairy tale-like, such as the Bouncers, Runicorns and Paladins. Underground are runic rooms where the Rune Templar minigame can be played. Clunkhead Arenas also exist, where a Recreation Station can be found.
+Runandor has one boss, Clunkhead.
+
+§lBarathos§r ~ is a dimension with a red desert on the surface, and a fiery Underworld underneath. Monsters from Barathos vary depending on where they are found. Monsters found on the surface include the Arkbacks, Emperor Beasts and Nospikes. Monsters underground are suited for the underground, such as the Echodar, and some are fiery, such as the Cryptid and Squiggler.
+Barathos has one boss, the Hive King.
+
+§lVox Ponds§r ~ is a post-apocalyptic dimension. The surface is loaded with dead plants and pools of toxic waste. The player has to wear the Hazmat Armor in order to breathe here. Abandoned structures dot the landscape. The mobs here are all robots, such as the Alarmos, Grocculates, and Destructors. Underground is a massive lake, home to Fischers and Nightwings. An Enigma Table can be found down here as well.
+Vox Ponds has one boss, Voxxulon.
+
+§lThe Lands of Lelyetia§r ~ is an orange forest world. It is home to the barely civilized Lelyetians. Lelyetia is very unique, because it consists of an underside, where everything is upside down. Lelyetian Warriors and Lelyetian Casters protect their surface home from those who threaten it. Other monsters here include Trotters, Trackers, and Flyes. Not all of the Lelyetians are bad, such as the Lelyetian Trader. Massive hives home to high-level hunter mobs, such as the Paravite, can be found hanging off the underside or on the surface.
+Lelyetia has one boss, Graw, who serves as the forest's main guardian.
+
+§lThe Ancient Cavern§r ~ is a massive temple of the gods. The guardians of the gods reside in four rooms here. The player has to get level 70 in certain skills in order to fight the guardians. Four monsters spawn from spawners here: Automatons, Bloodsuckers, Flower Faces, and Rock Critters. Their spawners are hidden inside a pillar located in the center of the room. Shrines for the corresponding gods are located in rooms attached to the main one.
+The Ancient Cavern has four bosses, Coniferon, Horon, Penumbra and Goldorth.
+
+§lCeleve§r ~ is a clown-themed dimension. Like the Haven, Celeve is composed of many islands that float over the void. Unlike the Haven however, the islands are a lot smaller. The mobs of Celeve are all hostile clowns, such as Bobo, Chocko or Koko. Most of them apply a debuff of some kind. The player can play with toys sold by the Toy Merchant.
+Celeve has one boss, Gyro.
+
+§lCrystevia§r ~ is a crystal cavern dimension. Many different colors of crystals are obtainable from here. These crystals are then used for currency or other purposes. The mobs of Crystevia are all crystal constructs, such as the Construct of Speed, Construct of Strength or the Construct of Terror. The color of the construct depends on what gem it will drop.
+Crystevia has one boss, Crystocore.
+
+§lCandyland§r ~ is a candy-themed dimension. Despite it's sweet appearance, it is more terrifing than tasty. Many candy-related blocks can be obtained from here, for use as decoration. The monsters of Candyland, are all different types of candy, and some are very explosive. These include the Airhead, Cherry Blaster and Lollypopper. The water in Candyland is very sticky.
+Candyland has one boss, Cotton Candor.
+
+§lImmortallis§r ~ is an ancient puzzle dimension. Immortallis contains various puzzles for the player to complete. The puzzles are divided into nine different rooms. The player has to complete the puzzle from one room to move on to the next. Some monsters in Immortallis are there to kill, such as the Skelekytes and Urvs, but some are there to be a nuisance, such as the Reavers and Shavos.
+In four of the rooms, the player will fight the only boss in Immortallis, the Immortals.
+
+§lCreeponia§r ~ is a creeper-themed dimension. The landscape consists of a jungle on the surface, with a very unique underground layer. The underground contains three different types of stones. There are also ores underground that can be used to make special tools and armor. The mobs here are all various creepers, such as the Winged Creeper, Creepuple and the King Creeper. This dimension is very explosive.
+Creeponia has one boss, C.R.E.E.P.
+
+§lThe Shyrelands§r ~ is a unique light-dimension. The dimension consists of many archways that travel across the surface. The sky of the dimension is very bright, so bright that looking at it the wrong way can blind and weaken the player. Above the archways, a strong wind gust blows, and will knock off any players who dare travel on top of the archways. Contributing to the Shyrelands' light theme are many light-themed mobs, such as the Arcbeast, Omnilight, and Stimulo.
+Hiding underground in the dimension is no safer. The underground has bizarre traps that can inflict debuffs on the player, or even teleport the player to the surface of the dimension. Players who manage to get past these traps will be rewarded with ores and underground dungeons.
+The Shyrelands had one boss, Craexxeus, who is currently the strongest boss in the game.

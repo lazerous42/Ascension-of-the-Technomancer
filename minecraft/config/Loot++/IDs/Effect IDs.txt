@@ -1227,7 +1227,7 @@
 
 174
 	- Name: Restorative Aura
-	- Color: -921103
+	- Color: -12411987
 	- Is Instant? false
 	- Is Bad? false
 

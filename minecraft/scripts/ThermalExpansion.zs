@@ -6,6 +6,7 @@
 ##  Imports
 import mods.buildcraft.AssemblyTable;
 import mods.thermalexpansion.Crucible;
+import mods.thermalexpansion.Smelter;
 import mods.gregtech.AlloySmelter;
 import mods.gregtech.Extruder;
 import mods.gregtech.FluidSolidifier;
@@ -261,6 +262,12 @@ recipes.addShaped(<ThermalExpansion:capacitor:5>, [[null, <ore:dustElectrotine>,
 recipes.addShaped(<ThermalExpansion:capacitor:4>, [[null, <ore:dustElectrotine>, null], [<ore:ingotElectrum>, <ThermalExpansion:capacitor:3>, <ore:ingotElectrum>], [<ore:dustElectrotine>, <ore:gemDiamond>, <ore:dustElectrotine>]]);
 recipes.addShaped(<ThermalExpansion:capacitor:3>, [[null, <ore:dustElectrotine>, null], [<ore:ingotInvar>, <ThermalExpansion:capacitor:2>, <ore:ingotInvar>], [<ore:dustElectrotine>, <ore:ingotTin>, <ore:dustElectrotine>]]);
 recipes.addShaped(<ThermalExpansion:capacitor:2>, [[null, <ore:dustElectrotine>, null], [<ore:ingotCopper>, <ore:ingotLead>, <ore:ingotCopper>], [<ore:dustElectrotine>, <ore:dustSulfur>, <ore:dustElectrotine>]]);
+
+##  Allow for Brass in Induction Smelter
+# Ingot
+Smelter.addRecipe(2400, <gregtech:gt.metaitem.01:11036>, <gregtech:gt.metaitem.01:11035> * 3, <gregtech:gt.metaitem.01:11301> * 4);
+# Dust
+Smelter.addRecipe(1600, <gregtech:gt.metaitem.01:11036>, <gregtech:gt.metaitem.01:2035> * 3, <gregtech:gt.metaitem.01:11301> * 4);
 
 ##  Rename Ferrous -> Nickel
 <ThermalFoundation:Ore:4>.displayName = "Nickel Ore";

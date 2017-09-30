@@ -317,7 +317,7 @@
 		"numClusters": 5,
 		"minHeight": 1,
 		"maxHeight": 128,
-		"retrogen": "true",
+		"retrogen": "false",
 		"biomes": [{
 			"type": "dictionary",
 			"entry": "NETHER"

@@ -54,15 +54,6 @@
 	- Terrain Scale: 1.0
 
 
--17
-	- Name: Wyvern Lair
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 76.0
-	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
 -19
 	- Name: Bedrock
 	- Height: 256
@@ -209,15 +200,6 @@
 
 27
 	- Name: DimensionMysterium
-	- Height: 128
-	- Has Sky? false
-	- Cloud Height: 128.0
-	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
-26
-	- Name: DimensionLunalus
 	- Height: 128
 	- Has Sky? false
 	- Cloud Height: 128.0
@@ -436,7 +418,7 @@
 	- Name: Proxima
 	- Height: 256
 	- Has Sky? true
-	- Cloud Height: 65.74655
+	- Cloud Height: 91.04654
 	- Can Respawn Here? false
 	- Terrain Scale: 1.0
 

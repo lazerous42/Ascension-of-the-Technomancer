@@ -52,7 +52,7 @@
 		"numClusters": 10,
 		"minHeight": 2,
 		"maxHeight": 128,
-		"retrogen": "true",
+		"retrogen": "false",
 		"biomeRestriction": "blacklist",
 		"biomes": [
 					{"type": "name",
@@ -88,6 +88,20 @@
 		"biomes": [],
 		"dimensionRestriction": "blacklist",
 		"dimensions": [-1, 1]
+	},
+	"Barragas-Gold": {
+		"template": "uniform",
+		"block": "gold_ore",
+		"material": "minecraft:stone",
+		"clusterSize": 6,
+		"numClusters": 8,
+		"minHeight": 1,
+		"maxHeight": 26,
+		"retrogen": "false",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [107]
 	},
 	"Redstone": {
 		"template": "uniform",
@@ -125,6 +139,20 @@
 		"biomes": [],
 		"dimensionRestriction": "blacklist",
 		"dimensions": [-1, 1]
+	},
+	"Iiloo-Diamond": {
+		"template": "uniform",
+		"block": "diamond_ore",
+		"material": "minecraft:stone",
+		"clusterSize": 3,
+		"numClusters": 6,
+		"minHeight": 2,
+		"maxHeight": 16,
+		"retrogen": "false",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [121]
 	},
 	"Emerald": {
 		"template": "uniform",

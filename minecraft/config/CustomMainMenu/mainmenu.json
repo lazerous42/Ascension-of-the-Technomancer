@@ -63,49 +63,17 @@
                 "link": "https://github.com/lazerous42/Ascension-of-the-Technomancer/"
             }
         },
-        "Changelog": {
-            "text": "Changelog",
-            "texture": "custommainmenu:textures/gui/shortbutton.png",
-            "alignment": "center",
-            "posX": -100,
-            "posY": 104,
-            "width": 98,
-            "height": 20,
-            "wrappedButton" : 400
-        },
-        "issuereport": {
-            "text": "Report Issue",
-            "texture": "custommainmenu:textures/gui/shortbutton.png",
-            "alignment": "center",
-            "posX": 2,
-            "posY": 104,
-            "width": 98,
-            "height": 20,
-            "wrappedButton" : 401
-        },
         "options": {
             "text": "menu.options",
             "texture": "custommainmenu:textures/gui/shortbutton.png",
             "alignment": "center",
             "posX": -100,
-            "posY": 128,
+            "posY": 104,
             "width": 98,
             "height": 20,
             "action": {
                 "type": "openGui",
                 "gui": "options"
-            }
-        },
-        "quit": {
-            "text": "menu.quit",
-            "texture": "custommainmenu:textures/gui/shortbutton.png",
-            "alignment": "center",
-            "posX": 2,
-            "posY": 128,
-            "width": 98,
-            "height": 20,
-            "action": {
-                "type": "quit"
             }
         },
         "language": {
@@ -123,6 +91,18 @@
                 "type": "openGui",
                 "gui": "languages"
             }
+        },
+        "quit": {
+            "text": "menu.quit",
+            "texture": "custommainmenu:textures/gui/shortbutton.png",
+            "alignment": "center",
+            "posX": 2,
+            "posY": 104,
+            "width": 98,
+            "height": 20,
+            "action": {
+                "type": "quit"
+            }
         }
     },
     "texts": {
@@ -134,7 +114,7 @@
             "alignment": "bottom_left"
         },
         "pack_version": {
-            "text": "Version: 5.1.0",
+            "text": "Version: 5.1.1",
             "posX": 2,
             "posY": -10,
             "color": -1,
