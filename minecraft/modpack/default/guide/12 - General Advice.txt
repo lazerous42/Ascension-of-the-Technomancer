@@ -26,40 +26,34 @@
 
 15) Steel, your going to need A LOT of it.  There are two approaches to make a blast furnace in the early game, several hundred bronze ingots for a bronze plated blast furnace, or a quick trip to the nether for nether brick to make the railcraft or immersive engineering blast furnace.  Dealers choice.  They both hurt, just in different ways.
 
-16)  You must kill the ender dragon and at least one wither to get into any Advent of Ascension dimensions as their drops are required for the Thaumcraft infusion that will create the ancient teleporter blueprint.
+16)  Hoding onto a buckets of hot liquids without a hasmat suit will start hurting you after a couple of seconds.  Also, don't touch hot pipes.  Blame Greg.
 
-17)  Hoding onto a buckets of hot liquids without a hasmat suit will start hurting you after a couple of seconds.  Also, don't touch hot pipes.  Blame Greg.
+17)  Radiation is bad.  Have I mentioned the fashionably orange hazmat suit yet.
 
-18)  Radiation is bad.  Have I mentioned the fashionably orange hazmat suit yet.
+18)  If a skeleton shoots you with a naquadah enriched arrow, I'm sorry.
 
-19)  If a skeleton shoots you with a naquadah enriched arrow, I'm sorry.
+19)  About the chance cubes... aim away from face when opening.
 
-20)  About the chance cubes... aim away from face when opening.
+20)  Firm tofu counts as any meat.  You will however need a presser to do this and it does require later game materials to produce (or some lucky dungeon loot)
 
-21)  Firm tofu counts as any meat.  You will however need a presser to do this and it does require later game materials to produce (or some lucky dungeon loot)
+21)  When making GregTech iron tools, if you create the whole tool at once (head and sticks on the crafting table at the same time) you will get the standard Minecraft vanilla tool.  If you craft just the tool head and add the stick later, you will get the GregTech version.  This is important when crafting recipes require a vanilla tool (i.e. Blood Magic: Sigil of the Fast Miner)
 
-22)  Avoid building your base near Roguelike Dungeons, they can be a source of lag due to the large numbers of mob spawners contained within.
+22)  Wrought Iron tools are 50% more durable than normal iron tools.  Wrought iron can be created by smelting iron nuggets, or use the bloomery furnace from Garden Stuff.  The bloomery uses charcoal as fuel and takes in iron ingots and sand to produce wrought iron.  This method is much faster and more fuel efficient as the cost of a little sand.
 
-23)  When making GregTech iron tools, if you create the whole tool at once (head and sticks on the crafting table at the same time) you will get the standard Minecraft vanilla tool.  If you craft just the tool head and add the stick later, you will get the GregTech version.  This is important when crafting recipes require a vanilla tool (i.e. Blood Magic: Sigil of the Fast Miner)
+23)  It is unadvisable to break ore blocks inside your base, Geonaks can spawn from natural and player placed ore blocks.  They tend to destroy the surrounding blocks when they spawn and should it be an elite or boss Geonak, the crater in your workshop can be substantial.
 
-24)  Wrought Iron tools are 50% more durable than normal iron tools.  Wrought iron can be created by smelting iron nuggets, or use the bloomery furnace from Garden Stuff.  The bloomery uses charcoal as fuel and takes in iron ingots and sand to produce wrought iron.  This method is much faster and more fuel efficient as the cost of a little sand.
+24)  I have heard from my top scientitists that there is a type of crystal that resonates a powerful energy.  Unfortunately, their ores only exist deep down in the earth, in dark places.  How could you possibly get deep enough down to reach them.
 
-25)  It is unadvisable to break ore blocks inside your base, Geonaks can spawn from natural and player placed ore blocks.  They tend to destroy the surrounding blocks when they spawn and should it be an elite or boss Geonak, the crater in your workshop can be substantial.
+25)  Does the vast array of foods leave you searching for recipes for something you haven't eaten recently?  Try Cooking for Blockheads modular kitchens.  Just jam all of your noms into fridges, and the cook table tells you what you can make and loads the recipes for you.
 
-26)  I have heard from my top scientitists that there is a type of crystal that resonates a powerful energy.  Unfortunately, their ores only exist deep down in the earth, in dark places.  How could you possibly get deep enough down to reach them.
+26)  Your probably trying to figure out how to make Tinkers' Tools.  Stop trying, they are disabled to encourage you to explore a massive variety of enchantable equipment in this pack.  Tinkers' Tools are old hat, time to step out of your comfort zone.
 
-27)  Does the vast array of foods leave you searching for recipes for something you haven't eaten recently?  Try Cooking for Blockheads modular kitchens.  Just jam all of your noms into fridges, and the cook table tells you what you can make and loads the recipes for you.
+27)  Firestones are called that for a reason
 
-28)  Your probably trying to figure out how to make Tinkers' Tools.  Stop trying, they are disabled to encourage you to explore a massive variety of enchantable equipment in this pack.  Tinkers' Tools are old hat, time to step out of your comfort zone.
+28)  Fluids tend to slosh around in GT pipes, the user of shutter (created in the assembler) can restrict the flow to a single direction.
 
-29)  Nuclear reactors MUST be chunkloaded.  They also MUST fit in a single chunk.  You will be very sorry if you do not listen to this warning.
+29)  GregTech machines are rather sensitive.  Only give them the proper voltage, don't let them get wet, and don't feed them after midnight
 
-30)  Firestones are called that for a reason
+30)  Are you hurting for normal coal (not charcoal)? Try mining ask blocks and then crafting them into groups of 9 instead of 4.
 
-31)  Fluids tend to slosh around in GT pipes, the user of shutter (created in the assembler) can restrict the flow to a single direction.
-
-32)  GregTech machines are rather sensitive.  Only give them the proper voltage, don't let them get wet, and don't feed them after midnight
-
-33)  Are you hurting for normal coal (not charcoal)? Try mining ask blocks and then crafting them into groups of 9 instead of 4.
-
-34)  Did you know that the Thaumometer can be used directly over an inventory.  No need to turn off your magnet and throw items on the ground for scanning.  Just pickup the thaumometer and hover over things you want scanned.  This will literally save hours of mindless grinding for research points.
+31)  Did you know that the Thaumometer can be used directly over an inventory.  No need to turn off your magnet and throw items on the ground for scanning.  Just pickup the thaumometer and hover over things you want scanned.  This will literally save hours of mindless grinding for research points.

@@ -130,6 +130,9 @@ Pulverizer.addRecipe(1600, <minecraft:sand>, itemSilicon);
 Smelter.addRecipe(6000, itemSilicon, <gregtech:gt.metaitem.01:2305>, ingotElectricalSteel);
 Smelter.addRecipe(6000, itemSilicon, <gregtech:gt.metaitem.01:11305>, ingotElectricalSteel);
 
+##  Convert modded mob soul vials to vanilla variants
+recipes.addShapeless(<EnderIO:itemSoulVessel>.withTag({id:"Ghast"}), [<EnderIO:itemSoulVessel>.withTag({id:"ESM_Ghast"})]);
+
 ## Alloys
 # Enderium
 ChemicalReactor.addRecipe(itemDustEnderium, null, itemDustEnderPearl, null, moltenEnderiumBase * 144, 200);

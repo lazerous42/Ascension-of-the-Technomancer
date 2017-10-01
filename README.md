@@ -1,6 +1,6 @@
 # Ascension-of-the-Technomancer
 Current LIVE Config Version 5.0.1
-Repository Config Version 5.1.2
+Repository Config Version 5.1.3
 
 Hello there friend.  It seems as though you've met with a terrible fate, haven't you?  
 
@@ -16,6 +16,8 @@ WARNING: The 5.0.1 Update removes Galacticraft and Warpdrive.  These mods have a
 
 ChangeLog
 -- Version 5.1.2
+- Added ~ Gregtania 
+- Config ~ A shapeless recipe has been added to allow for the direct conversion of an ESM ghast souls vial, into a vanilla ghast souls vial.  This is a one way, direct conversion that can be performwed in the players inventory
 - Config ~ Reduced Chromaticraft structure difficulty from 3 -> 2 to reduce tedium
 
 -- Version ~ 5.1.1

@@ -150,7 +150,9 @@ vanilla.loot.addChestLoot("mineshaftCorridor", <HardcoreEnderExpansion:knowledge
 vanilla.loot.addChestLoot("mineshaftCorridor", <Thaumcraft:ItemPickaxeElemental>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <ExtraUtilities:destructionpickaxe>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <ExtraUtilities:enderQuarry>.weight(1), 1, 1);
-vanilla.loot.addChestLoot("mineshaftCorridor", <Botania:specialFlower>.withTag({type:"orechid"}).weight(1), 1, 1);
+vanilla.loot.addChestLoot("mineshaftCorridor", <Botania:specialFlower>.withTag({type:"evolvedOrechidIV"}).weight(1), 1, 1);
+vanilla.loot.addChestLoot("mineshaftCorridor", <Botania:specialFlower>.withTag({type:"evolvedOrechidIgnemIV"}).weight(1), 1, 1);
+vanilla.loot.addChestLoot("mineshaftCorridor", <Botania:specialFlower>.withTag({type:"evolvedOrechidEndiumIV"}).weight(1), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <ExtraUtilities:dark_portal>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <aura:angelsteelPickaxe6>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <minecraft:tnt>.weight(15), 1, 16);
@@ -234,7 +236,9 @@ vanilla.loot.addChestLoot("netherFortress", <HardcoreEnderExpansion:knowledge_no
 vanilla.loot.addChestLoot("netherFortress", <Thaumcraft:ItemPickaxeElemental>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("netherFortress", <ExtraUtilities:destructionpickaxe>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("netherFortress", <ExtraUtilities:enderQuarry>.weight(1), 1, 1);
-vanilla.loot.addChestLoot("netherFortress", <Botania:specialFlower>.withTag({type:"orechid"}).weight(1), 1, 1);
+vanilla.loot.addChestLoot("netherFortress", <Botania:specialFlower>.withTag({type:"evolvedOrechidIV"}).weight(1), 1, 1);
+vanilla.loot.addChestLoot("netherFortress", <Botania:specialFlower>.withTag({type:"evolvedOrechidIgnemIV"}).weight(1), 1, 1);
+vanilla.loot.addChestLoot("netherFortress", <Botania:specialFlower>.withTag({type:"evolvedOrechidEndiumIV"}).weight(1), 1, 1);
 vanilla.loot.addChestLoot("netherFortress", <ExtraUtilities:dark_portal>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("netherFortress", <aura:angelsteelPickaxe6>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("netherFortress", <minecraft:tnt>.weight(15), 1, 16);
@@ -338,7 +342,9 @@ vanilla.loot.addChestLoot("pyramidDesertyChest", <HardcoreEnderExpansion:knowled
 vanilla.loot.addChestLoot("pyramidDesertyChest", <Thaumcraft:ItemPickaxeElemental>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <ExtraUtilities:destructionpickaxe>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <ExtraUtilities:enderQuarry>.weight(1), 1, 1);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <Botania:specialFlower>.withTag({type:"orechid"}).weight(1), 1, 1);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <Botania:specialFlower>.withTag({type:"evolvedOrechidIV"}).weight(1), 1, 1);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <Botania:specialFlower>.withTag({type:"evolvedOrechidIgnemIV"}).weight(1), 1, 1);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <Botania:specialFlower>.withTag({type:"evolvedOrechidEndiumIV"}).weight(1), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <ExtraUtilities:dark_portal>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <aura:angelsteelPickaxe6>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <minecraft:tnt>.weight(15), 1, 16);
@@ -416,7 +422,9 @@ vanilla.loot.addChestLoot("pyramidJungleChest", <HardcoreEnderExpansion:knowledg
 vanilla.loot.addChestLoot("pyramidJungleChest", <Thaumcraft:ItemPickaxeElemental>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("pyramidJungleChest", <ExtraUtilities:destructionpickaxe>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("pyramidJungleChest", <ExtraUtilities:enderQuarry>.weight(1), 1, 1);
-vanilla.loot.addChestLoot("pyramidJungleChest", <Botania:specialFlower>.withTag({type:"orechid"}).weight(1), 1, 1);
+vanilla.loot.addChestLoot("pyramidJungleChest", <Botania:specialFlower>.withTag({type:"evolvedOrechidIV"}).weight(1), 1, 1);
+vanilla.loot.addChestLoot("pyramidJungleChest", <Botania:specialFlower>.withTag({type:"evolvedOrechidIgnemIV"}).weight(1), 1, 1);
+vanilla.loot.addChestLoot("pyramidJungleChest", <Botania:specialFlower>.withTag({type:"evolvedOrechidEndiumIV"}).weight(1), 1, 1);
 vanilla.loot.addChestLoot("pyramidJungleChest", <ExtraUtilities:dark_portal>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("pyramidJungleChest", <aura:angelsteelPickaxe6>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("pyramidJungleChest", <minecraft:tnt>.weight(15), 1, 16);
@@ -533,6 +541,9 @@ vanilla.loot.addChestLoot("strongholdCorridor", <ExtraUtilities:magnumTorch>.wei
 vanilla.loot.addChestLoot("strongholdCorridor", <ExtraUtilities:cobblestone_compressed:4>.weight(1), 1, 2);
 vanilla.loot.addChestLoot("strongholdCorridor", <ExtraUtilities:creativebuilderswand>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("strongholdCorridor", <OpenBlocks:tank>.withTag({tank: {FluidName: "xpjuice", Amount: 16000}}).weight(3), 1, 1);
+vanilla.loot.addChestLoot("strongholdCorridor", <Botania:specialFlower>.withTag({type:"evolvedOrechidIV"}).weight(1), 1, 1);
+vanilla.loot.addChestLoot("strongholdCorridor", <Botania:specialFlower>.withTag({type:"evolvedOrechidIgnemIV"}).weight(1), 1, 1);
+vanilla.loot.addChestLoot("strongholdCorridor", <Botania:specialFlower>.withTag({type:"evolvedOrechidEndiumIV"}).weight(1), 1, 1);
 vanilla.loot.addChestLoot("strongholdCorridor", <aura:ingotAngelSteel:0>.weight(5), 1, 3);
 vanilla.loot.addChestLoot("strongholdCorridor", <aura:ingotAngelSteel:6>.weight(2), 1, 2);
 vanilla.loot.addChestLoot("strongholdCorridor", <aura:ingotAngelSteel:10>.weight(1), 1, 1);
@@ -622,6 +633,9 @@ vanilla.loot.addChestLoot("strongholdCrossing", <Botania:manaRing>.weight(1), 1,
 vanilla.loot.addChestLoot("strongholdCrossing", <Botania:travelBelt>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("strongholdCrossing", <Botania:manaTablet>.withTag({mana:500000}).weight(1), 1, 1);
 vanilla.loot.addChestLoot("strongholdCrossing", <Botania:blackLotus>.weight(5), 1, 1);
+vanilla.loot.addChestLoot("strongholdCrossing", <Botania:specialFlower>.withTag({type:"evolvedOrechidIV"}).weight(1), 1, 1);
+vanilla.loot.addChestLoot("strongholdCrossing", <Botania:specialFlower>.withTag({type:"evolvedOrechidIgnemIV"}).weight(1), 1, 1);
+vanilla.loot.addChestLoot("strongholdCrossing", <Botania:specialFlower>.withTag({type:"evolvedOrechidEndiumIV"}).weight(1), 1, 1);
 vanilla.loot.addChestLoot("strongholdCrossing", <Thaumcraft:ItemResource:2>.weight(5), 1, 3);
 vanilla.loot.addChestLoot("strongholdCrossing", <Thaumcraft:WandCasting:9>.weight(2), 1, 1);
 vanilla.loot.addChestLoot("strongholdCrossing", <Thaumcraft:WandCasting:128>.weight(1), 1, 1);

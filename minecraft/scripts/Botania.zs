@@ -8,6 +8,7 @@ import mods.botania.ElvenTrade;
 import mods.botania.Lexicon;
 import mods.botania.ManaInfusion;
 import mods.botania.RuneAltar;
+import mods.botania.Apothecary;
 
 print("Initializing 'Botania.zs'...");
 ##  Val Definitions
@@ -26,6 +27,18 @@ val flowerMystical = <ore:flowerMystical>;
 val ingotManaSteel = <ore:ingotManasteel>;
 val manaweaveCloth = <Botania:manaResource:22>;
 val manaPowder = <Botania:manaResource:23>;
+
+val evolvedOrechidI = <Botania:specialFlower>.withTag({type:"evolvedOrechidI"});
+val evolvedOrechidII = <Botania:specialFlower>.withTag({type:"evolvedOrechidII"});
+val evolvedOrechidIII = <Botania:specialFlower>.withTag({type:"evolvedOrechidIII"});
+val evolvedOrechidIV = <Botania:specialFlower>.withTag({type:"evolvedOrechidIV"});
+val evolvedOrechidIgnemI = <Botania:specialFlower>.withTag({type:"evolvedOrechidIgnemI"});
+val evolvedOrechidIgnemII = <Botania:specialFlower>.withTag({type:"evolvedOrechidIgnemII"});
+val evolvedOrechidIgnemIII = <Botania:specialFlower>.withTag({type:"evolvedOrechidIgnemIII"});
+val evolvedOrechidEndiumI = <Botania:specialFlower>.withTag({type:"evolvedOrechidEndiumI"});
+val evolvedOrechidEndiumII = <Botania:specialFlower>.withTag({type:"evolvedOrechidEndiumII"});
+val evolvedOrechidEndiumIII = <Botania:specialFlower>.withTag({type:"evolvedOrechidEndiumIII"});
+val evolvedOrechidEndiumIV = <Botania:specialFlower>.withTag({type:"evolvedOrechidEndiumIV"});
 
 ##  Dark Quartz OreDict
 #-  Use Thaumic Tinkerer recipe for Flugel Tiara 
@@ -315,6 +328,25 @@ Lexicon.removePage("botania.entry.icePendant", 1);
 Lexicon.addCraftingPage("botania.page.icePendant1", "botania.entry.icePendant", 1, [<Botania:icePendant>], [[[<ore:runeWinterB>, <ore:manaString>], [<ore:manaString>, null, <ore:manaString>], [ingotManaSteel, <ore:manaString>, <ore:runeWaterB>]]]);
 Lexicon.removePage("botania.entry.knockbackBelt", 1);
 Lexicon.addCraftingPage("botania.page.knockbackBelt1", "botania.entry.knockbackBelt", 1, [<Botania:knockbackBelt>], [[[<ore:runeFireB>, <witchery:ingredient:72>], [<witchery:ingredient:72>, null, <witchery:ingredient:72>], [ingotManaSteel, <witchery:ingredient:72>, <ore:runeEarthB>]]]);
+
+##  Gregtania Addon Changes
+# Remove all flower recipes.  We're not using tiers, just the final ones
+Apothecary.removeRecipe(evolvedOrechidI);
+RuneAltar.removeRecipe(evolvedOrechidII);
+RuneAltar.removeRecipe(evolvedOrechidIII);
+RuneAltar.removeRecipe(evolvedOrechidIV);
+RuneAltar.addRecipe(evolvedOrechidIV, [<ore:runeSlothB>, <ore:runeSlothB>, <ore:ingotElvenElementium>, <ore:ingotElvenElementium>, <ForbiddenMagic:NetherShard:5>, <ForbiddenMagic:NetherShard:5>, <arsmagica2:itemOre:7>, <arsmagica2:itemOre:6>], 25000);
+
+RuneAltar.removeRecipe(evolvedOrechidIgnemI);
+RuneAltar.removeRecipe(evolvedOrechidIgnemII);
+RuneAltar.removeRecipe(evolvedOrechidIgnemIII);
+RuneAltar.addRecipe(evolvedOrechidIgnemIII, [<ore:runeGreedB>, <ore:runeGreedB>, <ore:elvenPixieDust>, <ore:elvenPixieDust>, <ForbiddenMagic:NetherShard:6>, <ForbiddenMagic:NetherShard:6>, <ore:gemFirestone>, <nevermine:IngotEmberstone>], 25000);
+
+RuneAltar.removeRecipe(evolvedOrechidEndiumI);
+RuneAltar.removeRecipe(evolvedOrechidEndiumII);
+RuneAltar.removeRecipe(evolvedOrechidEndiumIII);
+RuneAltar.removeRecipe(evolvedOrechidEndiumIV);
+RuneAltar.addRecipe(evolvedOrechidEndiumIV, [<ore:runeGluttonyB>, <ore:runeGluttonyB>, <Botania:manaResource:9>, <Botania:manaResource:9>, <ForbiddenMagic:GluttonyShard>, <ForbiddenMagic:GluttonyShard>, <HardcoreEnderExpansion:instability_orb>, <HardcoreEnderExpansion:endium_ingot>], 25000);
 
 ##  WIP Message
 <Botania:lexicon>.addTooltip(format.red("[WIP] Not 100% accurate!"));
