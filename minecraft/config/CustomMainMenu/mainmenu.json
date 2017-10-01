@@ -2,10 +2,10 @@
     "images": {
         "title": {
             "image": "custommainmenu:textures/gui/Ascension.png",
-            "posX": -160,
-            "posY": 10,
-            "width": 320,
-            "height": 96,
+            "posX": -195,
+            "posY": 25,
+            "width": 375,
+            "height": 115,
             "alignment": "top_center"
         }
     },
@@ -124,7 +124,7 @@
     "other": {
         "splash-text": {
             "posX": 130,
-            "posY": 100,
+            "posY": 130,
             "color": -256,
             "alignment": "top_center",
             "file": "texts/splashes.txt"

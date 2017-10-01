@@ -16,6 +16,7 @@ WARNING: The 5.0.1 Update removes Galacticraft and Warpdrive.  These mods have a
 
 ChangeLog
 -- Version 5.1.2
+- Bugfix ~ Added GT mithril ore to ore:oreMithril so that it will get proper machine processing recipes at load
 - Added ~ Gregtania 
 - Config ~ A shapeless recipe has been added to allow for the direct conversion of an ESM ghast souls vial, into a vanilla ghast souls vial.  This is a one way, direct conversion that can be performwed in the players inventory
 - Config ~ Reduced Chromaticraft structure difficulty from 3 -> 2 to reduce tedium

@@ -1,4 +1,5 @@
 §1§l§nVersion 5.1.2§r§1§l 
+§cBugfix ~ Added GT mithril ore to ore:oreMithril so that it will get proper machine processing recipes at load
 §aAdded ~ Gregtania 
 §bConfig ~ Reduced Chromaticraft structure difficulty from 3 -> 2 to reduce tedium
 §bConfig ~ A shapeless recipe has been added to allow for the direct conversion of an ESM ghast souls vial, into a vanilla ghast souls vial.  This is a one way, direct conversion that can be performwed in the players inventory

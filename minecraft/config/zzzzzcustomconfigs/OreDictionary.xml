@@ -23,6 +23,10 @@ The following registers the vanilla gold ingot as "ingotGold"
 
 <OreDictionary>
 	<ore>
+		<name>oreMithril</name>
+		<stack1>gregtech:gt.blockores 1 331</stack1>
+	</ore>
+	<ore>
 		<name>cropSesameseed</name>
 		<stack1>harvestcraft:sesameseedsItem 1 0</stack1>
 	</ore>
