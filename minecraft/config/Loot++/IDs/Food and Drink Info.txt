@@ -2432,6 +2432,27 @@ TwilightForest:item.venisonRaw
 	- Saturation Amount: 0.3
 
 
+WitchingGadgets:item.WG_MagicFood
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.4
+
+
+WitchingGadgets:item.WG_MagicFood
+	- Megadata: 1
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.4
+
+
+WitchingGadgets:item.WG_MagicFood
+	- Megadata: 2
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.4
+
+
 Ztones:hunger
 	- Megadata: 0
 	- Food or Drink? Food

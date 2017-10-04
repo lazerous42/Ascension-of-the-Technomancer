@@ -413,6 +413,55 @@
 	- Max Level: 1
 
 
+93
+	- Name: enchantment.wg.backstab
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 3
+
+
+94
+	- Name: enchantment.wg.gemstoneBrittle
+	- Weight: 1
+	- Min Level: 1
+	- Max Level: 3
+
+
+95
+	- Name: enchantment.wg.invisibleGear
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 2
+
+
+96
+	- Name: enchantment.wg.gemstonePotency
+	- Weight: 4
+	- Min Level: 1
+	- Max Level: 3
+
+
+97
+	- Name: enchantment.wg.rideProtect
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 1
+
+
+98
+	- Name: enchantment.wg.stealth
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 5
+
+
+99
+	- Name: enchantment.wg.unveiling
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 1
+
+
 100
 	- Name: enchantment.archmage
 	- Weight: 1

@@ -1,5 +1,5 @@
-Total amount of free potion ids: 187
-Total amount of occupied potion ids: 169
+Total amount of free potion ids: 184
+Total amount of occupied potion ids: 172
 Total amount of conflicted potion ids: 0
 All ids and their position:
 0 is Occupied by Confusion (com.gw.dm.potion.PotionAddle)
@@ -172,9 +172,9 @@ All ids and their position:
 167 is Occupied by Legendary Mana Restoration (am2.buffs.ManaPotion)
 168 is Occupied by Frozen Solid (Reika.RotaryCraft.Auxiliary.FreezePotion)
 169 is Occupied by Radiation Sickness (Reika.ReactorCraft.Auxiliary.PotionRadiation)
-170 is Avaible
-171 is Avaible
-172 is Avaible
+170 is Occupied by wg.potionCinderCoat (witchinggadgets.common.magic.WGPotion)
+171 is Occupied by wg.potionDissolve (witchinggadgets.common.magic.WGPotion)
+172 is Occupied by wg.potionKnockbackRes (witchinggadgets.common.magic.WGPotion)
 173 is Avaible
 174 is Occupied by Restorative Aura (Reika.ChromatiCraft.Auxiliary.Potions.PotionLumenRegen)
 175 is Occupied by Growth Accelerant (Reika.ChromatiCraft.Auxiliary.Potions.PotionGrowthHormone)

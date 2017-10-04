@@ -226,6 +226,24 @@ gregtech:gt.metaitem.01 - 32599
 gregtech:gt.metaitem.01 - 32736
 
 
+baubleAmuletGold
+Thaumcraft:ItemBaubleBlanks - 0
+
+
+baubleBeltBase
+TravellersGear:simpleGear - 1
+Thaumcraft:ItemBaubleBlanks - 2
+
+
+baubleRingGold
+TravellersGear:simpleGear - 2
+Thaumcraft:ItemBaubleBlanks - 1
+
+
+baubleRingSilver
+TravellersGear:simpleGear - 3
+
+
 beachSeaLymeGrass
 
 
@@ -2245,6 +2263,7 @@ arsmagica2:vinteumOre - 6
 
 
 blockVoid
+WitchingGadgets:WG_MetalDevice - 7
 
 
 blockVolcanicAsh
@@ -7039,6 +7058,7 @@ clusterAcetone
 
 
 clusterAdamantine
+WitchingGadgets:item.WG_Cluster - 27
 
 
 clusterAdamantium
@@ -7063,6 +7083,7 @@ clusterAir
 
 
 clusterAlduorite
+WitchingGadgets:item.WG_Cluster - 14
 
 
 clusterAlfium
@@ -7082,6 +7103,7 @@ clusterAluminiumBrass
 
 
 clusterAluminum
+WitchingGadgets:item.WG_Cluster - 0
 
 
 clusterAluminumBrass
@@ -7157,7 +7179,7 @@ clusterAquamarine
 
 
 clusterArdite
-aobd:clusterArdite - 0
+WitchingGadgets:item.WG_Cluster - 2
 
 
 clusterAredrite
@@ -7185,9 +7207,11 @@ clusterAstral Silver
 
 
 clusterAstralSilver
+WitchingGadgets:item.WG_Cluster - 22
 
 
 clusterAtlarus
+WitchingGadgets:item.WG_Cluster - 28
 
 
 clusterBandedIron
@@ -8490,6 +8514,7 @@ clusterCarbonMonoxide
 
 
 clusterCarmot
+WitchingGadgets:item.WG_Cluster - 23
 
 
 clusterCassiterite
@@ -8508,6 +8533,7 @@ clusterCertusQuartz
 
 
 clusterCeruclase
+WitchingGadgets:item.WG_Cluster - 13
 
 
 clusterChalcopyrite
@@ -8638,7 +8664,7 @@ clusterCoalFuel
 
 
 clusterCobalt
-aobd:clusterCobalt - 0
+WitchingGadgets:item.WG_Cluster - 1
 
 
 clusterCobaltBrass
@@ -8782,6 +8808,7 @@ clusterData
 
 
 clusterDeepIron
+WitchingGadgets:item.WG_Cluster - 19
 
 
 clusterDemonite
@@ -9484,6 +9511,7 @@ clusterEuropium
 
 
 clusterEximite
+WitchingGadgets:item.WG_Cluster - 29
 
 
 clusterExquisiteAmber
@@ -9535,6 +9563,10 @@ clusterExquisiteTanzanite
 
 
 clusterExquisiteTopaz
+
+
+clusterFZDarkIron
+WitchingGadgets:item.WG_Cluster - 4
 
 
 clusterFairy
@@ -9894,6 +9926,7 @@ clusterIce
 
 
 clusterIgnatius
+WitchingGadgets:item.WG_Cluster - 8
 
 
 clusterIlmenite
@@ -11908,6 +11941,7 @@ clusterInfinite
 
 
 clusterInfuscolium
+WitchingGadgets:item.WG_Cluster - 20
 
 
 clusterInfusedAir
@@ -11980,6 +12014,7 @@ clusterJasper
 
 
 clusterKalendrite
+WitchingGadgets:item.WG_Cluster - 15
 
 
 clusterKanthal
@@ -12020,6 +12055,7 @@ clusterLeather
 
 
 clusterLemurite
+WitchingGadgets:item.WG_Cluster - 10
 
 
 clusterLepidolite
@@ -12103,7 +12139,7 @@ clusterManasteel
 
 
 clusterManganese
-aobd:clusterManganese - 0
+WitchingGadgets:item.WG_Cluster - 5
 
 
 clusterManyullyn
@@ -12512,12 +12548,14 @@ clusterMethylAcetate
 
 
 clusterMeutoite
+WitchingGadgets:item.WG_Cluster - 30
 
 
 clusterMica
 
 
 clusterMidasium
+WitchingGadgets:item.WG_Cluster - 11
 
 
 clusterMigmatite
@@ -12533,7 +12571,7 @@ clusterMirabilite
 
 
 clusterMithril
-aobd:clusterMithril - 0
+WitchingGadgets:item.WG_Cluster - 24
 
 
 clusterMolten.bedrockiumingots
@@ -13357,7 +13395,7 @@ clusterNichrome
 
 
 clusterNickel
-aobd:clusterNickel - 0
+WitchingGadgets:item.WG_Cluster - 3
 
 
 clusterNickelZincFerrite
@@ -13439,6 +13477,7 @@ clusterOreDark
 
 
 clusterOrichalcum
+WitchingGadgets:item.WG_Cluster - 26
 
 
 clusterOsmiridium
@@ -13455,6 +13494,7 @@ clusterOsmonium
 
 
 clusterOureclase
+WitchingGadgets:item.WG_Cluster - 21
 
 
 clusterOxygen
@@ -13534,7 +13574,7 @@ clusterPlastic
 
 
 clusterPlatinum
-aobd:clusterPlatinum - 0
+WitchingGadgets:item.WG_Cluster - 7
 
 
 clusterPlatinumGroupSludge
@@ -13683,6 +13723,7 @@ clusterPrismarine
 
 
 clusterPrometheum
+WitchingGadgets:item.WG_Cluster - 18
 
 
 clusterPromethium
@@ -16329,6 +16370,7 @@ clusterRubidium
 
 
 clusterRubracium
+WitchingGadgets:item.WG_Cluster - 25
 
 
 clusterRuby
@@ -16357,6 +16399,7 @@ clusterSand
 
 
 clusterSanguinite
+WitchingGadgets:item.WG_Cluster - 17
 
 
 clusterSaphire
@@ -16397,6 +16440,7 @@ aobd:clusterShadow - 0
 
 
 clusterShadowIron
+WitchingGadgets:item.WG_Cluster - 9
 
 
 clusterShadowSteel
@@ -20809,9 +20853,11 @@ clusterVolcanicAsh
 
 
 clusterVulcanite
+WitchingGadgets:item.WG_Cluster - 16
 
 
 clusterVyroxeres
+WitchingGadgets:item.WG_Cluster - 12
 
 
 clusterWater
@@ -20872,7 +20918,7 @@ clusterZeolite
 
 
 clusterZinc
-aobd:clusterZinc - 0
+WitchingGadgets:item.WG_Cluster - 6
 
 
 clusterZincite
@@ -21594,26 +21640,26 @@ ImmersiveEngineering:stoneDecoration - 5
 
 
 container_oil
-Forestry:canOil - 0
-Forestry:refractoryOil - 0
-BuildCraft|Energy:bucketOil - 0
 Magneticraft:item.bucket_oil - 0
 gregtech:gt.metaitem.01 - 30707
+BuildCraft|Energy:bucketOil - 0
 Forestry:waxCapsuleOil - 0
+Forestry:canOil - 0
+Forestry:refractoryOil - 0
 MagicBees:capsule.magic - 5
 MagicBees:capsule.void - 5
 
 
 container_water
-IC2:itemCellEmpty - 1
+minecraft:potion - 0
 aether:skyrootWaterBucket - 0
-minecraft:water_bucket - 0
-MagicBees:capsule.magic - 1
 Forestry:refractoryWater - 0
 Forestry:canWater - 0
+minecraft:water_bucket - 0
 Forestry:waxCapsuleWater - 0
+IC2:itemCellEmpty - 1
+MagicBees:capsule.magic - 1
 MagicBees:capsule.void - 1
-minecraft:potion - 0
 
 
 cookingClam
@@ -30695,6 +30741,9 @@ dustExquisiteTanzanite
 
 
 dustExquisiteTopaz
+
+
+dustFZDarkIron
 
 
 dustFairy
@@ -52176,6 +52225,9 @@ gemVibrantAlloy
 gemVinteum
 
 
+gemVoid
+
+
 gemWood
 
 
@@ -55628,6 +55680,9 @@ ingotExquisiteTanzanite
 
 
 ingotExquisiteTopaz
+
+
+ingotFZDarkIron
 
 
 ingotFairy
@@ -68908,6 +68963,9 @@ netherrackRod
 TConstruct:toolRod - 7
 
 
+nuggetAdamantine
+
+
 nuggetAlduorite
 
 
@@ -69036,6 +69094,12 @@ nuggetAsbestos
 nuggetAsh
 
 
+nuggetAstralSilver
+
+
+nuggetAtlarus
+
+
 nuggetBandedIron
 
 
@@ -69155,6 +69219,9 @@ nuggetCarbon
 gregtech:gt.metaitem.01 - 9010
 
 
+nuggetCarmot
+
+
 nuggetCassiterite
 
 
@@ -69166,6 +69233,9 @@ gregtech:gt.metaitem.01 - 9065
 
 
 nuggetCertusQuartz
+
+
+nuggetCeruclase
 
 
 nuggetChalcopyrite
@@ -69276,6 +69346,9 @@ nuggetDarkSteel
 gregtech:gt.metaitem.01 - 9364
 
 
+nuggetDeepIron
+
+
 nuggetDiamond
 gregtech:gt.metaitem.01 - 9500
 MagicBees:beeNugget - 5
@@ -69359,6 +69432,12 @@ gregtech:gt.metaitem.01 - 9610
 
 nuggetEuropium
 gregtech:gt.metaitem.01 - 9070
+
+
+nuggetEximite
+
+
+nuggetFZDarkIron
 
 
 nuggetFerriteMixture
@@ -69486,6 +69565,9 @@ nuggetHelium_3
 nuggetHydratedCoal
 
 
+nuggetIgnatius
+
+
 nuggetIlmenite
 
 
@@ -69495,6 +69577,9 @@ gregtech:gt.metaitem.01 - 9056
 
 nuggetIndiumGalliumPhosphide
 gregtech:gt.metaitem.01 - 9981
+
+
+nuggetInfuscolium
 
 
 nuggetInfusedAir
@@ -69560,6 +69645,9 @@ nuggetJade
 nuggetJasper
 
 
+nuggetKalendrite
+
+
 nuggetKanthal
 gregtech:gt.metaitem.01 - 9312
 
@@ -69590,6 +69678,9 @@ MagicBees:beeNugget - 4
 
 
 nuggetLeather
+
+
+nuggetLemurite
 
 
 nuggetLepidolite
@@ -69669,7 +69760,13 @@ Thaumcraft:ItemNugget - 5
 nuggetMetalMixture
 
 
+nuggetMeutoite
+
+
 nuggetMica
+
+
+nuggetMidasium
 
 
 nuggetMigmatite
@@ -69784,12 +69881,18 @@ nuggetOlivine
 nuggetOpal
 
 
+nuggetOrichalcum
+
+
 nuggetOsmiridium
 gregtech:gt.metaitem.01 - 9317
 
 
 nuggetOsmium
 gregtech:gt.metaitem.01 - 9083
+
+
+nuggetOureclase
 
 
 nuggetPalladium
@@ -69890,6 +69993,9 @@ nuggetPowellite
 nuggetPrismarine
 
 
+nuggetPrometheum
+
+
 nuggetPulsatingIron
 EnderIO:itemMaterial - 3
 
@@ -69965,6 +70071,9 @@ nuggetRubber
 gregtech:gt.metaitem.01 - 9880
 
 
+nuggetRubracium
+
+
 nuggetRutile
 aobd:nuggetRutile - 0
 
@@ -69973,6 +70082,9 @@ nuggetSalt
 
 
 nuggetSaltpeter
+
+
+nuggetSanguinite
 
 
 nuggetSapphire
@@ -69989,6 +70101,9 @@ nuggetSeedOilLin
 
 nuggetShadow
 aobd:nuggetShadow - 0
+
+
+nuggetShadowIron
 
 
 nuggetSignalum
@@ -70232,6 +70347,12 @@ Thaumcraft:ItemNugget - 7
 
 
 nuggetVolcanicAsh
+
+
+nuggetVulcanite
+
+
+nuggetVyroxeres
 
 
 nuggetWheat
@@ -73867,6 +73988,9 @@ oreExquisiteTanzanite
 
 
 oreExquisiteTopaz
+
+
+oreFZDarkIron
 
 
 oreFairy
@@ -92679,6 +92803,10 @@ screwWroughtIron
 gregtech:gt.metaitem.01 - 27304
 
 
+scribingTools
+Thaumcraft:ItemInkwell - any
+
+
 seed
 RotaryCraft:rotarycraft_item_canola - 0
 ProjRed|Exploration:projectred.exploration.lilyseed - 0
@@ -108898,6 +109026,18 @@ etfuturum:iron_trapdoor - 0
 
 trapdoorWood
 minecraft:trapdoor - 0
+
+
+travelgearCloakBase
+TravellersGear:simpleGear - 0
+
+
+travelgearShoulderBase
+TravellersGear:simpleGear - 4
+
+
+travelgearVambraceBase
+TravellersGear:simpleGear - 5
 
 
 treatedStick

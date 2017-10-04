@@ -42,7 +42,7 @@ All ids and their position:
 37 is Occupied by Mesa (net.minecraft.world.biome.BiomeGenMesa)
 38 is Occupied by Mesa Plateau F (net.minecraft.world.biome.BiomeGenMesa)
 39 is Occupied by Mesa Plateau (net.minecraft.world.biome.BiomeGenMesa)
-40 is Occupied by Moon (zmaster587.advancedRocketry.world.biome.BiomeGenMoon)
+40 is Avaible
 41 is Occupied by Aether (net.aetherteam.aether.worldgen.BiomeGenAether)
 42 is Occupied by Space (zmaster587.advancedRocketry.world.biome.BiomeGenSpace)
 43 is Occupied by Storage Cell (appeng.spatial.BiomeGenStorage)
@@ -139,7 +139,7 @@ All ids and their position:
 134 is Occupied by Swampland M (net.minecraft.world.biome.BiomeGenSwamp)
 135 is Avaible
 136 is Occupied by OceanSpires (zmaster587.advancedRocketry.world.biome.BiomeGenOceanSpires)
-137 is Avaible
+137 is Occupied by Moon (zmaster587.advancedRocketry.world.biome.BiomeGenMoon)
 138 is Avaible
 139 is Occupied by Alien Forest (zmaster587.advancedRocketry.world.biome.BiomeGenAlienForest)
 140 is Occupied by Ice Plains Spikes (net.minecraft.world.biome.BiomeGenSnow)

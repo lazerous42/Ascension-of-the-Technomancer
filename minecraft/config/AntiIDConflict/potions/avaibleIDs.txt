@@ -7,9 +7,6 @@ List of free potion ids:
 134
 135
 136
-170
-171
-172
 173
 180
 181

@@ -165,10 +165,6 @@
 	- Name: Mesa Plateau
 	- Forge Biome Types: MESA SANDY 
 
-40
-	- Name: Moon
-	- Forge Biome Types: DRY PLAINS 
-
 41
 	- Name: Aether
 	- Forge Biome Types: DRY PLAINS 
@@ -536,6 +532,10 @@
 136
 	- Name: OceanSpires
 	- Forge Biome Types: RIVER PLAINS 
+
+137
+	- Name: Moon
+	- Forge Biome Types: DRY PLAINS 
 
 139
 	- Name: Alien Forest

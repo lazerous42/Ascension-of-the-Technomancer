@@ -91,13 +91,13 @@
 90 is Avaible
 91 is Avaible
 92 is Avaible
-93 is Avaible
-94 is Avaible
-95 is Avaible
-96 is Avaible
-97 is Avaible
-98 is Avaible
-99 is Avaible
+93 is Occupied by: enchantment.wg.backstab (witchinggadgets.common.magic.WGEnchantBackstab)
+94 is Occupied by: enchantment.wg.gemstoneBrittle (witchinggadgets.common.magic.WGEnchantGemBrittle)
+95 is Occupied by: enchantment.wg.invisibleGear (witchinggadgets.common.magic.WGEnchantInvisibleGear)
+96 is Occupied by: enchantment.wg.gemstonePotency (witchinggadgets.common.magic.WGEnchantGemPotency)
+97 is Occupied by: enchantment.wg.rideProtect (witchinggadgets.common.magic.WGEnchantRideProtect)
+98 is Occupied by: enchantment.wg.stealth (witchinggadgets.common.magic.WGEnchantStealth)
+99 is Occupied by: enchantment.wg.unveiling (witchinggadgets.common.magic.WGEnchantUnveiling)
 100 is Occupied by: enchantment.archmage (net.nevermine.assist.AscensionEnchants$7)
 101 is Occupied by: enchantment.control (net.nevermine.assist.AscensionEnchants$1)
 102 is Occupied by: enchantment.crush (net.nevermine.assist.AscensionEnchants$5)

@@ -1,3 +1,8 @@
+§1§l§nVersion 5.2.0§r§1§l 
+§cBugfix ~ Fix 128 sub-biome bug causing dense forest to spawn on the moon
+§aAdded ~ Witching Gadgets
+§aAdded ~ Travellers Gear
+
 §1§l§nVersion 5.1.2§r§1§l 
 §cBugfix ~ Added GT mithril ore to ore:oreMithril so that it will get proper machine processing recipes at load
 §aAdded ~ Gregtania 

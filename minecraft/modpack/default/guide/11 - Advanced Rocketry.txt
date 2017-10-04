@@ -8,7 +8,8 @@ Should a future pack update make changes to the star system layout, a flag will 
 
 1) Locate the file ..\minecraft\config\advRocketry\advancedRocketry.cfg
 2) Find the setting B:resetPlanetsFromXML and change it's value to true
-3) Launch the pack and open up the world that needs the changes.  During pack launch, the flag will have set itself back to false.  This is normal behavior.
+3) If there is need to reset any dimensions controlled by AR, you should delete the dimension's folder in your save file.  For example to reset the moon of Minecraftia, navigate to ..\minecraft\saves\AotT SuperFlat Recipe Test\advRocketry and delete the folder for that dimension.  In our case of the moon, this dimension is in the DIM-8 folder.  You can review the planetDefs.xml file to find the ID of the dimension to reset.  Only AR created dim3ensions will be in the AR folder of your save, all other dimensions are in the root of your world folder.
+4) Launch the pack and open up the world that needs the changes.  During pack launch, the flag will have set itself back to false.  This is normal behavior.
 
 Should any technical issues arise that require changes to the star map, you will be able to find detailed instructions on what kind of maintanence you need to perform on your world files both in here and in the corresponding GitHub issue page documenting the problem.  This is just a precautionary statement.
 

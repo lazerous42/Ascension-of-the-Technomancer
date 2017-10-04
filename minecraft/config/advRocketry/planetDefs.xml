@@ -15,7 +15,7 @@
 				<orbitalTheta>0</orbitalTheta>
 				<rotationalPeriod>72000</rotationalPeriod>
 				<atmosphereDensity>0</atmosphereDensity>
-				<biomeIds>40</biomeIds>
+				<biomeIds>137</biomeIds>
 			</planet>
 		</planet>
 		<planet name="Vorpera" DIMID="100" customIcon="GasGiantRed">
@@ -40,9 +40,9 @@
 				<orbitalDistance>175</orbitalDistance>
 				<orbitalPhi>-7</orbitalPhi>
 				<orbitalTheta>0</orbitalTheta>
-				<rotationalPeriod>40000</rotationalPeriod>
+				<rotationalPeriod>137000</rotationalPeriod>
 				<atmosphereDensity>0</atmosphereDensity>
-				<biomeIds>40</biomeIds>
+				<biomeIds>137</biomeIds>
 			</planet>
 			<planet name="Feyweald" DIMID="5" customIcon="EarthLike">
 				<isKnown>true</isKnown>
@@ -101,7 +101,7 @@
 				<orbitalTheta>0</orbitalTheta>
 				<rotationalPeriod>7500</rotationalPeriod>
 				<atmosphereDensity>0</atmosphereDensity>
-				<biomeIds>40</biomeIds>
+				<biomeIds>137</biomeIds>
 			</planet>
 			<planet name="Barathos" DIMID="11" dimMapping="" customIcon="lava">
 				<isKnown>false</isKnown>
@@ -195,7 +195,7 @@
 				<orbitalTheta>2</orbitalTheta>
 				<rotationalPeriod>80000</rotationalPeriod>
 				<atmosphereDensity>0</atmosphereDensity>
-				<biomeIds>40</biomeIds>
+				<biomeIds>137</biomeIds>
 			</planet>
 			<planet name="Dustopia" DIMID="17" dimMapping="" customIcon="moon">
 				<isKnown>false</isKnown>
@@ -377,7 +377,7 @@
 				<orbitalTheta>0</orbitalTheta>
 				<rotationalPeriod>2500</rotationalPeriod>
 				<atmosphereDensity>0</atmosphereDensity>
-				<biomeIds>40</biomeIds>
+				<biomeIds>137</biomeIds>
 			</planet>
 		</planet>
 		<planet name="Celeve" DIMID="13" dimMapping="" customIcon="GasGiantRed">
@@ -405,7 +405,7 @@
 					<orbitalTheta>0</orbitalTheta>
 					<rotationalPeriod>15000</rotationalPeriod>
 					<atmosphereDensity>0</atmosphereDensity>
-					<biomeIds>40</biomeIds>
+					<biomeIds>137</biomeIds>
 				</planet>
 		</planet>
 		<planet name="Aether" DIMID="3" dimMapping="" customIcon="GasGiantBlue">

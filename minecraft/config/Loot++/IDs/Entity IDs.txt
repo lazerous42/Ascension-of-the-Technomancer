@@ -716,6 +716,7 @@ Villager
 VillagerGolem
 WRTracker
 Witch
+WitchingGadgets.reformingItem
 WitherBoss
 WitherSkull
 Wolf

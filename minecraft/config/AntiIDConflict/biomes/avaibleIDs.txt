@@ -1,9 +1,9 @@
 Total amount of free biome ids: C:\Program Files (x86)\Minecraft\MultiMC\instances\Ascension of the Technomancer\minecraft\config\AntiIDConflict\biomes\avaibleIDs.txt
 List of free biome ids:
+40
 114
 115
 116
 135
-137
 138
 145
