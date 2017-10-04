@@ -15,6 +15,11 @@ NOTICE: The Version 5.2.0 corrects an instance of the 128+ sub-biome bug.  The m
 * A note about config version numbers ~ The least significant version number applies to config changes only, where that the middle number increments with mod versions.  Although configs from newer versions of mods won't normally cause issues, there is a small chance so I figured I should mention it just in case.  The most significant digit indicates a major structural change, i.e. a substantial content change.  Mixing configs across major version updates is NOT recommended.  Note all of the earlier releases follow this pattern exactly, but this standard is being maintained now and henceforth.
 
 ChangeLog
+-- Version 5.2.0
+- BugFix ~ Fix 128 sub-biome bug causing dense forest to spawn on the moon
+- Added ~ Witching Gadgets
+- Added ~ Traveler's Gear
+
 -- Version 5.1.2
 - Bugfix ~ Added GT mithril ore to ore:oreMithril so that it will get proper machine processing recipes at load
 - Added ~ Gregtania 
@@ -22,7 +27,7 @@ ChangeLog
 - Config ~ Reduced Chromaticraft structure difficulty from 3 -> 2 to reduce tedium
 
 -- Version ~ 5.1.1
-- BugFix: Modular Power Suits mode change was bound to mouse wheel, conflicting with Chromaticraft
+- BugFix ~ Modular Power Suits mode change was bound to mouse wheel, conflicting with Chromaticraft
 - Config ~ Added more flowers to the Forestry apiculture.cfg 
 - Config ~ Guide book update with AoA dimension access mechanics and descriptions
 - Config ~ Added some extra "standard" ores, one for each AR controlled planet
