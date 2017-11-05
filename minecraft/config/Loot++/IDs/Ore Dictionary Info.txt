@@ -10976,9 +10976,6 @@ clusterImpureLiveRoot
 clusterImpureLodestone
 
 
-clusterImpureLubricant
-
-
 clusterImpureLudicrite
 
 
@@ -12084,9 +12081,6 @@ clusterLiveRoot
 
 
 clusterLodestone
-
-
-clusterLubricant
 
 
 clusterLudicrite
@@ -14783,9 +14777,6 @@ clusterPureLiveRoot
 
 
 clusterPureLodestone
-
-
-clusterPureLubricant
 
 
 clusterPureLudicrite
@@ -17521,9 +17512,6 @@ clusterSmallLiveRoot
 clusterSmallLodestone
 
 
-clusterSmallLubricant
-
-
 clusterSmallLudicrite
 
 
@@ -19759,9 +19747,6 @@ clusterTinyLiveRoot
 clusterTinyLodestone
 
 
-clusterTinyLubricant
-
-
 clusterTinyLudicrite
 
 
@@ -21640,26 +21625,26 @@ ImmersiveEngineering:stoneDecoration - 5
 
 
 container_oil
-Forestry:waxCapsuleOil - 0
-Forestry:refractoryOil - 0
 MagicBees:capsule.void - 5
 Magneticraft:item.bucket_oil - 0
 Forestry:canOil - 0
-gregtech:gt.metaitem.01 - 30707
+Forestry:refractoryOil - 0
 MagicBees:capsule.magic - 5
 BuildCraft|Energy:bucketOil - 0
+gregtech:gt.metaitem.01 - 30707
+Forestry:waxCapsuleOil - 0
 
 
 container_water
 MagicBees:capsule.void - 1
-minecraft:potion - 0
-MagicBees:capsule.magic - 1
-aether:skyrootWaterBucket - 0
-Forestry:canWater - 0
-Forestry:refractoryWater - 0
+IC2:itemCellEmpty - 1
 Forestry:waxCapsuleWater - 0
 minecraft:water_bucket - 0
-IC2:itemCellEmpty - 1
+MagicBees:capsule.magic - 1
+Forestry:refractoryWater - 0
+minecraft:potion - 0
+aether:skyrootWaterBucket - 0
+Forestry:canWater - 0
 
 
 cookingClam
@@ -32267,9 +32252,6 @@ dustImpureLiveRoot
 dustImpureLodestone
 
 
-dustImpureLubricant
-
-
 dustImpureLudicrite
 
 
@@ -33478,9 +33460,6 @@ gregtech:gt.metaitem.01 - 2832
 
 
 dustLodestone
-
-
-dustLubricant
 
 
 dustLudicrite
@@ -36313,9 +36292,6 @@ dustPureLiveRoot
 
 
 dustPureLodestone
-
-
-dustPureLubricant
 
 
 dustPureLudicrite
@@ -39332,9 +39308,6 @@ gregtech:gt.metaitem.01 - 1832
 dustSmallLodestone
 
 
-dustSmallLubricant
-
-
 dustSmallLudicrite
 
 
@@ -41967,9 +41940,6 @@ gregtech:gt.metaitem.01 - 832
 
 
 dustTinyLodestone
-
-
-dustTinyLubricant
 
 
 dustTinyLudicrite
@@ -57225,9 +57195,6 @@ ingotImpureLiveRoot
 ingotImpureLodestone
 
 
-ingotImpureLubricant
-
-
 ingotImpureLudicrite
 
 
@@ -58356,9 +58323,6 @@ ingotLiveRoot
 
 
 ingotLodestone
-
-
-ingotLubricant
 
 
 ingotLudicrite
@@ -61101,9 +61065,6 @@ ingotPureLiveRoot
 
 
 ingotPureLodestone
-
-
-ingotPureLubricant
 
 
 ingotPureLudicrite
@@ -63899,9 +63860,6 @@ ingotSmallLiveRoot
 ingotSmallLodestone
 
 
-ingotSmallLubricant
-
-
 ingotSmallLudicrite
 
 
@@ -66164,9 +66122,6 @@ ingotTinyLiveRoot
 
 
 ingotTinyLodestone
-
-
-ingotTinyLubricant
 
 
 ingotTinyLudicrite
@@ -75426,9 +75381,6 @@ oreImpureLiveRoot
 oreImpureLodestone
 
 
-oreImpureLubricant
-
-
 oreImpureLudicrite
 
 
@@ -76558,9 +76510,6 @@ oreLiveRoot
 
 
 oreLodestone
-
-
-oreLubricant
 
 
 oreLudicrite
@@ -79549,9 +79498,6 @@ orePureLiveRoot
 orePureLodestone
 
 
-orePureLubricant
-
-
 orePureLudicrite
 
 
@@ -82428,9 +82374,6 @@ oreSmallLiveRoot
 oreSmallLodestone
 
 
-oreSmallLubricant
-
-
 oreSmallLudicrite
 
 
@@ -84686,9 +84629,6 @@ oreTinyLiveRoot
 
 
 oreTinyLodestone
-
-
-oreTinyLubricant
 
 
 oreTinyLudicrite

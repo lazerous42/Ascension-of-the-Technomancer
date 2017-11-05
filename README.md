@@ -19,6 +19,9 @@ NOTICE2: The Version 5.2.0 corrects an instance of the 128+ sub-biome bug.  The 
 ** Have an idea or useful tweak, pull requests are welcome and will be reviewed.
 
 ChangeLog
+-- Version 5.3.2
+- Removed dungeon mobs due to balance issues
+
 -- Version 5.3.1 
 - BugFix ~ Ensure no trailing spaceson any lines in dimlets.cfg.  This seems to cause crashes for some people although I cannot reproduce it.  There must be an additional factor involved in triggering this issue.
 
