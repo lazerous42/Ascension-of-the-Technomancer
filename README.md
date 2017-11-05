@@ -1,6 +1,6 @@
 # Ascension-of-the-Technomancer
 Current LIVE Config Version 5.2.0
-Repository Config Version 5.2.0
+Repository Config Version 5.3.1
 
 Hello there friend.  It seems as though you've met with a terrible fate, haven't you?  
 
@@ -19,6 +19,22 @@ NOTICE2: The Version 5.2.0 corrects an instance of the 128+ sub-biome bug.  The 
 ** Have an idea or useful tweak, pull requests are welcome and will be reviewed.
 
 ChangeLog
+-- Version 5.3.1 
+- BugFix ~ Ensure no trailing spaceson any lines in dimlets.cfg.  This seems to cause crashes for some people although I cannot reproduce it.  There must be an additional factor involved in triggering this issue.
+
+-- Version 5.3.0 (1.7.10 Shall Live Forever Release) 
+- Updated ~Dynamic Sword Skills updated 
+- Updated ~CustomNPCs updated 
+- Updated ~Eiramoticons updated 
+- Updated ~LibVulpes updated 
+- Updated ~Open Computer updated 
+- Updated ~Open Security updated 
+- Updated ~Spice of Life updated
+
+-- Version 5.2.1 
+- Config ~ Railcraft anchors give 6 hours of chunkloading per pearl.  Players already have FTBUtil chunkloading, and pearls are pretty abundant via AoA
+- Config ~ Added iron/steel shafts (wind/watermill component, not RoC) to Armadron order list (periodic)
+
 -- Version 5.2.0
 - BugFix ~ Fix 128 sub-biome bug causing dense forest to spawn on the moon
 - Added ~ Witching Gadgets

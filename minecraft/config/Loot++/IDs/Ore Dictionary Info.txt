@@ -21640,26 +21640,26 @@ ImmersiveEngineering:stoneDecoration - 5
 
 
 container_oil
-Magneticraft:item.bucket_oil - 0
-gregtech:gt.metaitem.01 - 30707
-BuildCraft|Energy:bucketOil - 0
 Forestry:waxCapsuleOil - 0
-Forestry:canOil - 0
 Forestry:refractoryOil - 0
-MagicBees:capsule.magic - 5
 MagicBees:capsule.void - 5
+Magneticraft:item.bucket_oil - 0
+Forestry:canOil - 0
+gregtech:gt.metaitem.01 - 30707
+MagicBees:capsule.magic - 5
+BuildCraft|Energy:bucketOil - 0
 
 
 container_water
-minecraft:potion - 0
-aether:skyrootWaterBucket - 0
-Forestry:refractoryWater - 0
-Forestry:canWater - 0
-minecraft:water_bucket - 0
-Forestry:waxCapsuleWater - 0
-IC2:itemCellEmpty - 1
-MagicBees:capsule.magic - 1
 MagicBees:capsule.void - 1
+minecraft:potion - 0
+MagicBees:capsule.magic - 1
+aether:skyrootWaterBucket - 0
+Forestry:canWater - 0
+Forestry:refractoryWater - 0
+Forestry:waxCapsuleWater - 0
+minecraft:water_bucket - 0
+IC2:itemCellEmpty - 1
 
 
 cookingClam
