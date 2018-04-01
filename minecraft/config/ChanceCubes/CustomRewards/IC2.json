@@ -1,0 +1,23 @@
+{
+
+	"Shafted":
+	{
+		"chance": 30,
+		"Message":
+		[
+			{"message":"I know it looks like I'm giving you the shaft, but..."}
+		],
+		"Item":
+		[
+			{"item":
+				{
+					"id":"IC2:itemRecipePart",
+					"damage": 11,
+					"Count":5
+				},
+			"delay":20
+		}
+		]
+	}
+
+}

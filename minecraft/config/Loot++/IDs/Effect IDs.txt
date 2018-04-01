@@ -7,13 +7,6 @@
 ##    - Is Instant? <true if an instant effect (like health)>        ##
 ##    - Is Bad? <true if considered a 'bad' effect (only on client)> ##
 #######################################################################
-0
-	- Name: Confusion
-	- Color: 5787222
-	- Is Instant? false
-	- Is Bad? false
-
-
 1
 	- Name: potion.moveSpeed
 	- Color: 8171462
@@ -1227,7 +1220,7 @@
 
 174
 	- Name: Restorative Aura
-	- Color: -738096
+	- Color: -15719940
 	- Is Instant? false
 	- Is Bad? false
 
@@ -1284,6 +1277,13 @@
 182
 	- Name: imbue.spectre
 	- Color: 12578815
+	- Is Instant? false
+	- Is Bad? false
+
+
+184
+	- Name: potion.minePrevention
+	- Color: 0
 	- Is Instant? false
 	- Is Bad? false
 

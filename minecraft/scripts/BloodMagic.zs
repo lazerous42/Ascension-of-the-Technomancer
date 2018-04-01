@@ -49,7 +49,7 @@ Altar.addRecipe(<AWWayofTime:blockWritingTable>, <minecraft:brewing_stand>, 1, 2
 
 ##  Empty Sockets
 recipes.remove(<AWWayofTime:emptySocket>);
-recipes.addShaped(<AWWayofTime:emptySocket>, [[<AWWayofTime:weakBloodShard>, <AWWayofTime:bloodMagicBaseItems:4>, <AWWayofTime:weakBloodShard>], [<AWWayofTime:bloodMagicBaseItems:4>, <witchery:ingredient:29>, <AWWayofTime:bloodMagicBaseItems:4>], [<AWWayofTime:weakBloodShard>, <AWWayofTime:bloodMagicBaseItems:4>, <AWWayofTime:weakBloodShard>]]);
+recipes.addShaped(<AWWayofTime:emptySocket>, [[<AWWayofTime:weakBloodShard>, <ore:ingotShadow>, <AWWayofTime:weakBloodShard>], [<AWWayofTime:bloodMagicBaseItems:4>, <witchery:ingredient:29>, <AWWayofTime:bloodMagicBaseItems:4>], [<AWWayofTime:weakBloodShard>, <AWWayofTime:bloodMagicBaseItems:4>, <AWWayofTime:weakBloodShard>]]);
 
 ##  Spell Table
 BloodOrb.removeRecipe(<AWWayofTime:blockHomHeart>);
@@ -74,7 +74,7 @@ Altar.addRecipe(<AWWayofTime:enhancedTelepositionFocus>, <minecraft:nether_star>
 
 # - Runes
 BloodOrb.removeRecipe(<AWWayofTime:AlchemicalWizardrybloodRune>);
-BloodOrb.addShaped(<AWWayofTime:AlchemicalWizardrybloodRune>, [[<minecraft:stone>, <witchery:ingredient:12>, <minecraft:stone>], [<AWWayofTime:blankSlate>, <AWWayofTime:weakBloodOrb>, <AWWayofTime:blankSlate>], [<minecraft:stone>, <Thaumcraft:ItemShard:*>, <minecraft:stone>]]);
+BloodOrb.addShaped(<AWWayofTime:AlchemicalWizardrybloodRune>, [[<ore:ingotShadow>, <witchery:ingredient:12>, <minecraft:stone>], [<AWWayofTime:blankSlate>, <AWWayofTime:weakBloodOrb>, <AWWayofTime:blankSlate>], [<minecraft:stone>, <Thaumcraft:ItemShard:*>, <ore:ingotShadow>]]);
 BloodOrb.addShaped(<AWWayofTime:AlchemicalWizardrybloodRune:1>, [[null, <AWWayofTime:reinforcedSlate>], [<minecraft:bucket>, <AWWayofTime:apprenticeBloodOrb>, <minecraft:bucket>], [<AWWayofTime:AlchemicalWizardrybloodRune>, <minecraft:bucket>, <AWWayofTime:AlchemicalWizardrybloodRune>]]);
 BloodOrb.removeRecipe(<AWWayofTime:AlchemicalWizardrybloodRune:2>);
 BloodOrb.addShaped(<AWWayofTime:AlchemicalWizardrybloodRune:2>, [[null, <AWWayofTime:imbuedSlate>], [<AWWayofTime:aquasalus>, <AWWayofTime:magicianBloodOrb>, <AWWayofTime:aquasalus>], [<AWWayofTime:AlchemicalWizardrybloodRune>, null, <AWWayofTime:AlchemicalWizardrybloodRune>]]);
@@ -100,6 +100,48 @@ recipes.remove(<AWWayofTime:bloodMagicBaseItems:4>);
 recipes.addShaped(<AWWayofTime:bloodMagicBaseItems:4>, [[null, <Thaumcraft:blockCosmeticSolid:6>, <AWWayofTime:reinforcedSlate>], [<Thaumcraft:blockCosmeticSolid:6>, <AWWayofTime:bloodMagicBaseItems:3>, <Thaumcraft:blockCosmeticSolid:6>], [<AWWayofTime:reinforcedSlate>, <Thaumcraft:blockCosmeticSolid:6>]]);
 Alchemy.removeRecipe(<AWWayofTime:bloodMagicBaseItems:30>);
 Alchemy.addRecipe(<AWWayofTime:bloodMagicBaseItems:30>, [<AWWayofTime:bloodMagicBaseItems:17>, <AWWayofTime:bloodMagicBaseItems:29>,  <AWWayofTime:bloodMagicBaseItems:28>, <AWWayofTime:weakBloodShard>, <Botania:manaResource:2>], 6, 15000);
+
+# - Spell Components
+## Default
+recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellModifier>);
+recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellModifier>, [[<AWWayofTime:bloodMagicBaseItems:4>, <ore:ingotShadow>, <AWWayofTime:bloodMagicBaseItems:4>],
+																		   [<AWWayofTime:bloodMagicBaseItems:9>, <AWWayofTime:bloodMagicBaseItems:18>, <AWWayofTime:bloodMagicBaseItems:9>],
+																		   [<AWWayofTime:bloodMagicBaseItems:4>, <ore:ingotShadow>, <AWWayofTime:bloodMagicBaseItems:4>]]);
+## Offensive
+recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:1>);
+recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:1>, [[<AWWayofTime:bloodMagicBaseItems:4>, <ore:ingotShadow>, <AWWayofTime:bloodMagicBaseItems:4>],
+																		    [<AWWayofTime:bloodMagicBaseItems:9>, <AWWayofTime:bloodMagicBaseItems:19>, <AWWayofTime:bloodMagicBaseItems:9>],
+																		    [<AWWayofTime:bloodMagicBaseItems:4>, <ore:ingotShadow>, <AWWayofTime:bloodMagicBaseItems:4>]]);
+## Defensive
+recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:2>);
+recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:2>, [[<AWWayofTime:bloodMagicBaseItems:4>, <ore:ingotShadow>, <AWWayofTime:bloodMagicBaseItems:4>],
+																		    [<AWWayofTime:bloodMagicBaseItems:9>, <AWWayofTime:bloodMagicBaseItems:20>, <AWWayofTime:bloodMagicBaseItems:9>],
+																		    [<AWWayofTime:bloodMagicBaseItems:4>, <ore:ingotShadow>, <AWWayofTime:bloodMagicBaseItems:4>]]);
+## Environmental
+recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:3>);
+recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellModifier:3>, [[<AWWayofTime:bloodMagicBaseItems:4>, <ore:ingotShadow>, <AWWayofTime:bloodMagicBaseItems:4>],
+																		    [<AWWayofTime:bloodMagicBaseItems:9>, <AWWayofTime:bloodMagicBaseItems:21>, <AWWayofTime:bloodMagicBaseItems:9>],
+																		    [<AWWayofTime:bloodMagicBaseItems:4>, <ore:ingotShadow>, <AWWayofTime:bloodMagicBaseItems:4>]]);
+## Fire
+recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect>);
+recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect>, [[<AWWayofTime:bloodMagicBaseItems:4>, <ore:ingotVoid>, <AWWayofTime:bloodMagicBaseItems:4>],
+																		    [<AWWayofTime:bloodMagicBaseItems:9>, <AWWayofTime:bloodMagicBaseItems:10>, <AWWayofTime:bloodMagicBaseItems:9>],
+																		    [<AWWayofTime:bloodMagicBaseItems:4>, <ore:ingotVoid>, <AWWayofTime:bloodMagicBaseItems:4>]]);
+## Ice
+recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:1>);
+recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:1>, [[<AWWayofTime:bloodMagicBaseItems:4>, <ore:ingotVoid>, <AWWayofTime:bloodMagicBaseItems:4>],
+																		    [<AWWayofTime:bloodMagicBaseItems:9>, <AWWayofTime:bloodMagicBaseItems:11>, <AWWayofTime:bloodMagicBaseItems:9>],
+																		    [<AWWayofTime:bloodMagicBaseItems:4>, <ore:ingotVoid>, <AWWayofTime:bloodMagicBaseItems:4>]]);
+## Wind
+recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:2>);
+recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:2>, [[<AWWayofTime:bloodMagicBaseItems:4>, <ore:ingotVoid>, <AWWayofTime:bloodMagicBaseItems:4>],
+																		    [<AWWayofTime:bloodMagicBaseItems:9>, <AWWayofTime:bloodMagicBaseItems:12>, <AWWayofTime:bloodMagicBaseItems:9>],
+																		    [<AWWayofTime:bloodMagicBaseItems:4>, <ore:ingotVoid>, <AWWayofTime:bloodMagicBaseItems:4>]]);
+## Earth
+recipes.remove(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:3>);
+recipes.addShaped(<AWWayofTime:AlchemicalWizardrytile.blockSpellEffect:3>, [[<AWWayofTime:bloodMagicBaseItems:4>, <ore:ingotVoid>, <AWWayofTime:bloodMagicBaseItems:4>],
+																		    [<AWWayofTime:bloodMagicBaseItems:9>, <AWWayofTime:bloodMagicBaseItems:13>, <AWWayofTime:bloodMagicBaseItems:9>],
+																		    [<AWWayofTime:bloodMagicBaseItems:4>, <ore:ingotVoid>, <AWWayofTime:bloodMagicBaseItems:4>]]);
 
 # - Equiptment
 ##  Dagger of Sacrifice

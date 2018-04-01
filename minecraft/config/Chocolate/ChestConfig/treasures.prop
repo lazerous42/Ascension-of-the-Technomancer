@@ -1,0 +1,122 @@
+goldBlock = minecraft:gold_block,1,0,80
+enderPearl = minecraft:ender_pearl,5,0,60
+diamond = minecraft:diamond,4,0,50
+emerald= minecraft:emerald,4,0,30
+goldenApple = minecraft:golden_apple,3,0,20
+
+teleportStone = chocolateQuest:teleportStone,1,0,20
+elementStone = chocolateQuest:elementStone,1,0,10
+potionsBag = chocolateQuest:potionsBag,1,0,10
+musket = chocolateQuest:musket,1,0,10
+staffFire = chocolateQuest:staffFire,1,0,10
+staffLight = chocolateQuest:staffLight,1,0,10
+cursedBone = chocolateQuest:cursedBone,1,0,5
+scouter = chocolateQuest:scouter,1,0,2
+cloudBoots = chocolateQuest:cloudBoots,1,0,2
+spiderHook = chocolateQuest:spiderhook,1,0,2
+rustedSwordAndShield = chocolateQuest:rustedSword,1,0,1
+rustedBigSword = chocolateQuest:rustedBigSword,1,0,1
+rustedDagger = chocolateQuest:rustedDagger,1,0,1
+rustedSpear = chocolateQuest:rustedSpear,1,0,1
+
+Automagy:phialExtra,3,1,3
+
+botania_lexicon = Botania:lexicon,1,0,6
+manaBottle = Botania:manaBottle,1,0,5
+magnetRing = Botania:magnetRing,1,0,1
+manaRing = Botania:manaRing,1,1000,1
+overgrowthSeed = Botania:overgrowthSeed,1,0,2
+travelBelt = Botania:travelBelt,1,0,1
+
+crystalwing = CrystalWing:crystalwing.crystalWing,1,0,3
+
+itemConduitProbe = EnderIO:itemConduitProbe,1,0,10
+itemMaterial1 = EnderIO:itemMaterial,16,1,25
+
+FocusExcavation = Thaumcraft:FocusExcavation,1,0,1
+FocusFire = Thaumcraft:FocusFire,1,0,1
+FocusFrost = Thaumcraft:FocusFrost,1,0,1
+FocusHellbat = Thaumcraft:FocusHellbat,1,0,1
+FocusPech = Thaumcraft:FocusPech,1,0,1
+FocusPortableHole = Thaumcraft:FocusPortableHole,1,0,1
+FocusPouch = Thaumcraft:FocusPouch,1,0,1
+FocusShock = Thaumcraft:FocusShock,1,0,1
+FocusTrade = Thaumcraft:FocusTrade,1,0,1
+FocusWarding = Thaumcraft:FocusWarding,1,0,1
+
+builderswand = ExtraUtilities:builderswand,1,0,1
+cobblestone_compressed4 = ExtraUtilities:cobblestone_compressed,2,4,1
+creativebuilderswand = ExtraUtilities:creativebuilderswand,1,0,1
+divisionSigil = ExtraUtilities:divisionSigil,1,0,10
+golden_bag = ExtraUtilities:golden_bag,1,0,2
+magnumTorch = ExtraUtilities:magnumTorch,1,0,1
+plant/ender_lilly = ExtraUtilities:plant/ender_lilly,5,0,30
+watering_can3 = ExtraUtilities:watering_can,1,3,1
+deep_dark_portal = ExtraUtilities:dark_portal,1,0,4
+last_millenium_portal = ExtraUtilities:dark_portal,1,1,1
+
+pottery_pattern_dirty = GardenContainers:pottery_pattern_dirty,1,0,1
+knowledge_note = HardcoreEnderExpansion:knowledge_note,1,0,6
+temple_caller = HardcoreEnderExpansion:temple_caller,1,0,1
+
+moverDiamond = JABBA:moverDiamond,1,0,5
+rubberwood.sapling = MineFactoryReloaded:rubberwood.sapling,2,2,8
+safarinet.singleuse = MineFactoryReloaded:safarinet.singleuse,1,0,25
+technicolorGlasses = OpenBlocks:technicolorGlasses,1,0,2
+
+whitestone = RandomThings:whitestone,1,0,3
+rotarycraft_item_borecraft = RotaryCraft:rotarycraft_item_borecraft,2,0,3
+rotarycraft_item_canola = RotaryCraft:rotarycraft_item_canola,12,0,10
+rotarycraft_item_enginecraft = RotaryCraft:rotarycraft_item_enginecraft,1,8,1
+rotarycraft_item_meter = RotaryCraft:rotarycraft_item_meter,1,0,1
+rotarycraft_item_screwdriver = RotaryCraft:rotarycraft_item_screwdriver,1,0,1
+rotarycraft_item_shaftcraft0 = RotaryCraft:rotarycraft_item_shaftcraft,3,0,1
+rotarycraft_item_shaftcraft1 = RotaryCraft:rotarycraft_item_shaftcraft,8,1,12
+rotarycraft_item_shaftcraft10 = RotaryCraft:rotarycraft_item_shaftcraft,12,10,12
+rotarycraft_item_shaftcraft2 = RotaryCraft:rotarycraft_item_shaftcraft,4,2,10
+rotarycraft_item_shaftcraft3 = RotaryCraft:rotarycraft_item_shaftcraft,1,3,2
+rotarycraft_item_shaftcraft4 = RotaryCraft:rotarycraft_item_shaftcraft,3,4,9
+rotarycraft_item_shaftcraft5 = RotaryCraft:rotarycraft_item_shaftcraft,2,5,5
+rotarycraft_item_shaftcraft9 = RotaryCraft:rotarycraft_item_shaftcraft,36,9,12
+
+te_Frame = ThermalExpansion:Frame,1,0,3
+
+market = harvestcraft:market,1,0,2
+presser = harvestcraft:presser,1,0,1
+
+ItemBasicStorageCell.64k = appliedenergistics2:item.ItemBasicStorageCell.64k,1,0,1
+
+arthana = witchery:arthana,1,0,10
+chalkritual = witchery:chalkritual,16,0,10
+
+Chance_Cube = chancecubes:Chance_Cube,2,0,5
+Chance_Icosahedron = chancecubes:Chance_Icosahedron,2,0,5
+chancePendantTier1 = chancecubes:chancePendantTier1,1,0,5
+chancePendantTier2 = chancecubes:chancePendantTier2,1,0,4
+chancePendantTier3 = chancecubes:chancePendantTier3,1,0,3
+
+dss.skilldiamond = dynamicswordskills:dss.skilldiamond,1,0,1
+dss.skillgold = dynamicswordskills:dss.skillgold,1,0,2
+dss.skilliron = dynamicswordskills:dss.skilliron,1,0,2
+dss.skillorb0 = dynamicswordskills:dss.skillorb,1,0,1
+dss.skillorb1 = dynamicswordskills:dss.skillorb,1,1,1
+dss.skillorb10 = dynamicswordskills:dss.skillorb,1,10,1
+dss.skillorb11 = dynamicswordskills:dss.skillorb,1,11,1
+dss.skillorb12 = dynamicswordskills:dss.skillorb,1,12,1
+dss.skillorb13 = dynamicswordskills:dss.skillorb,1,13,1
+dss.skillorb2 = dynamicswordskills:dss.skillorb,1,2,1
+dss.skillorb3 = dynamicswordskills:dss.skillorb,1,3,1
+dss.skillorb4 = dynamicswordskills:dss.skillorb,1,4,1
+dss.skillorb5 = dynamicswordskills:dss.skillorb,1,5,1
+dss.skillorb6 = dynamicswordskills:dss.skillorb,1,6,1
+dss.skillorb7 = dynamicswordskills:dss.skillorb,1,7,1
+dss.skillorb8 = dynamicswordskills:dss.skillorb,1,8,1
+dss.skillorb9 = dynamicswordskills:dss.skillorb,1,9,1
+dss.skillstone = dynamicswordskills:dss.skillstone,1,0,3
+dss.skillwood = dynamicswordskills:dss.skillwood,1,0,4
+
+baseTierWood = openmodularturrets:baseTierWood,1,0,7
+disposeItemTurret = openmodularturrets:disposeItemTurret,2,0,7
+leverBlock = openmodularturrets:leverBlock,1,0,15
+
+unknownDimlet = rftools:unknownDimlet,3,0,50

@@ -1,0 +1,15 @@
+{
+	"ShadowOre": {
+		"template": "uniform",
+		"block": "TaintedMagic:BlockShadowOre",
+		"clusterSize": 5,
+		"numClusters": 4,
+		"minHeight": 5,
+		"maxHeight": 60,
+		"retrogen": "true",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [-100,7]
+	}
+}

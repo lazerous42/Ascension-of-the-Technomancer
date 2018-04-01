@@ -120,6 +120,9 @@ recipes.addShaped(<EnderIO:itemMaterial:10>, [[null, <Forestry:craftingMaterial:
 ## Remove dark iron bars from OreDict
 <ore:barsIron>.remove(ironBarsDark);
 
+## Remove Framing Station in favor of the Agricraft Compatible Version
+recipes.remove(<EnderIO:blockFarmStation>);
+
 ## Fix GT registering silicon plate instead of raw silicon
 # Pulverizer
 Pulverizer.removeRecipe(<minecraft:sand>);

@@ -53,6 +53,7 @@ CokeOven.addRecipe(itemCoalCoke, 250, <minecraft:coal>, 1200);
 recipes.remove(<ImmersiveEngineering:material>);
 recipes.addShapedMirrored(<ImmersiveEngineering:material> * 2, [[<ImmersiveEngineering:treatedWood>, null], [<ImmersiveEngineering:treatedWood>, null]]);
 recipes.addShapedMirrored(<ImmersiveEngineering:material> * 4, [[<ore:craftingToolSaw>, null, null], [<ImmersiveEngineering:treatedWood>, null, null], [<ImmersiveEngineering:treatedWood>, null, null]]);
+recipes.addShaped(<ImmersiveEngineering:material> * 4, [[null, <ore:craftingToolSaw>, null], [null, <ImmersiveEngineering:treatedWood>, null], [null, <ImmersiveEngineering:treatedWood>, null]]);
 
 ##  Treated Planks Bottle Return Fix (using creosote bottles to make treated planks only returns one bottle no matter how many are in the crafting grid)
 recipes.removeShaped(planksTreated, [[plankWood, plankWood, plankWood], [plankWood, bottleCreosoteIE, plankWood], [plankWood, plankWood, plankWood]]);

@@ -1,0 +1,16 @@
+{
+
+	"AncientTeleporter":
+	{
+		"chance": 1,
+		"Message":
+		[
+			{"message":"I sure hope you know what your getting yourself into"}
+		],
+		"Item":
+		[
+			{"item":{"id":"nevermine:AncientTeleporterBlueprint","Count":1},"delay":20}
+		]
+	}
+
+}

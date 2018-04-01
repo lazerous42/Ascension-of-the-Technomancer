@@ -1,0 +1,17 @@
+{
+    groupId : "blood",
+    groupName : "Blood",
+    fluidElements : [
+        {
+            fluidName: "life essence",
+            value: 4.0
+        },
+        {
+            fluidName: "blood",
+            value: 1.0
+        }
+
+    ],
+    lossRatio : 1.0,
+    hasRecipe : true
+}

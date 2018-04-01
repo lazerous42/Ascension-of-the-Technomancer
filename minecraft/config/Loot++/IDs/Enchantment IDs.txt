@@ -218,10 +218,10 @@
 
 
 52
-	- Name: enchantment.chroma.aggromask
-	- Weight: 0
+	- Name: enchantment.protect.all
+	- Weight: 1
 	- Min Level: 1
-	- Max Level: 2
+	- Max Level: 4
 
 
 53
@@ -264,13 +264,6 @@
 	- Weight: 0
 	- Min Level: 1
 	- Max Level: 3
-
-
-59
-	- Name: enchantment.chroma.weaponaoe
-	- Weight: 0
-	- Min Level: 1
-	- Max Level: 5
 
 
 60
@@ -400,17 +393,24 @@
 
 
 90
-	- Name: enchantment.enderzoo.witherArrow
-	- Weight: 2
+	- Name: enchantment.chroma.weaponaoe
+	- Weight: 0
 	- Min Level: 1
-	- Max Level: 1
+	- Max Level: 5
 
 
 91
-	- Name: enchantment.enderzoo.witherWeapon
-	- Weight: 2
+	- Name: enchantment.chroma.aggromask
+	- Weight: 0
 	- Min Level: 1
-	- Max Level: 1
+	- Max Level: 2
+
+
+92
+	- Name: enchantment.chroma.bosskill
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 4
 
 
 93
@@ -551,6 +551,20 @@
 	- Weight: 5
 	- Min Level: 1
 	- Max Level: 4
+
+
+122
+	- Name: enchantment.enderzoo.witherArrow
+	- Weight: 2
+	- Min Level: 1
+	- Max Level: 1
+
+
+123
+	- Name: enchantment.enderzoo.witherWeapon
+	- Weight: 2
+	- Min Level: 1
+	- Max Level: 1
 
 
 125
@@ -768,6 +782,13 @@
 	- Weight: 2
 	- Min Level: 1
 	- Max Level: 4
+
+
+214
+	- Name: enchantment.enchantPow
+	- Weight: 1
+	- Min Level: 1
+	- Max Level: 3
 
 
 220

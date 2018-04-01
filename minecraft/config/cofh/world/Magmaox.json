@@ -1,5 +1,5 @@
 {
-	"ResonatingOre": {
+	"MagmaBlock": {
 		"template": "uniform",
 		"block": "magmaox:MagmaBlock",
 		"material": "minecraft:netherrack",
@@ -11,6 +11,6 @@
 		"biomeRestriction": "none",
 		"biomes": [],
 		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+		"dimensions": [-1,-23]
 	}
 }

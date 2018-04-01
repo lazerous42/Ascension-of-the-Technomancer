@@ -119,8 +119,10 @@ ChromatiCraft.GlowCloud
 ChromatiCraft.Laser Pulse
 ChromatiCraft.Light
 ChromatiCraft.Luma Burst
+ChromatiCraft.Mana Pulse
 ChromatiCraft.Meteor Shot
 ChromatiCraft.Particle Swarm
+ChromatiCraft.Pylon Overload
 ChromatiCraft.SplashGun Shot
 ChromatiCraft.TNT Pinball
 ChromatiCraft.Thrown Gem
@@ -395,6 +397,7 @@ ReactorCraft.Fusion
 ReactorCraft.Neutron
 ReactorCraft.Plasma
 ReactorCraft.Radiation
+RotaryCraft.Burning Liquid
 RotaryCraft.CustomTNT
 RotaryCraft.Discharge
 RotaryCraft.Explosive Shell
@@ -840,6 +843,47 @@ chisel.BallOMoss
 chisel.CloudInABottle
 chisel.SmashingRock
 chisel.snowman
+chocolateQuest.Beam
+chocolateQuest.Builder
+chocolateQuest.CQ_npc
+chocolateQuest.ChocoProjectile
+chocolateQuest.Decoration
+chocolateQuest.DungeonCrystal
+chocolateQuest.EntityPart
+chocolateQuest.EntityPartRidable
+chocolateQuest.EntityPartSlime
+chocolateQuest.Hookshoot
+chocolateQuest.Lich
+chocolateQuest.Portal
+chocolateQuest.Referee
+chocolateQuest.Shield
+chocolateQuest.SummonedBait
+chocolateQuest.SummonedUndead
+chocolateQuest.TurtleBossPart
+chocolateQuest.abyssWalker
+chocolateQuest.abyssWalkerBoss
+chocolateQuest.armoredSkeleton
+chocolateQuest.armoredZombie
+chocolateQuest.bull
+chocolateQuest.dummy
+chocolateQuest.giantZombie
+chocolateQuest.greenDragon
+chocolateQuest.gremlin
+chocolateQuest.mecha
+chocolateQuest.mechaHeavy
+chocolateQuest.minotaur
+chocolateQuest.monking
+chocolateQuest.mummy
+chocolateQuest.necromancer
+chocolateQuest.pigzombie
+chocolateQuest.pirate
+chocolateQuest.pirateBoss
+chocolateQuest.slimeBoss
+chocolateQuest.spaceWarrior
+chocolateQuest.specter
+chocolateQuest.specterBoss
+chocolateQuest.spiderBoss
+chocolateQuest.turtleBoss
 customnpcs.CustomNpc
 customnpcs.CustomNpcChairMount
 customnpcs.NpcDragon
@@ -894,28 +938,6 @@ desertmobs.joustalpha
 desertmobs.manticore
 desertmobs.mudshot
 desertmobs.throwingscythe
-dungeonmobs.DMBeholder
-dungeonmobs.DMBladeTrap
-dungeonmobs.DMCaveFisher
-dungeonmobs.DMCockatrice
-dungeonmobs.DMDestrachan
-dungeonmobs.DMEyeRay
-dungeonmobs.DMGhoul
-dungeonmobs.DMHellHound
-dungeonmobs.DMHookHorror
-dungeonmobs.DMIllithid
-dungeonmobs.DMLizalfos
-dungeonmobs.DMMagicMissile
-dungeonmobs.DMManticore
-dungeonmobs.DMPetrified
-dungeonmobs.DMRakshasa
-dungeonmobs.DMRakshasaImage
-dungeonmobs.DMRustMonster
-dungeonmobs.DMShrieker
-dungeonmobs.DMSonicBoom
-dungeonmobs.DMTroll
-dungeonmobs.DMUmberHulk
-dungeonmobs.DMVescavor
 dynamicswordskills.leapingblow
 dynamicswordskills.swordbeam
 enderzoo.ConcussionCreeper
@@ -1871,6 +1893,8 @@ powersuits.entityLuxCapacitor
 powersuits.entityPlasmaBolt
 powersuits.entitySpinningBlade
 punt.Punt
+railcraft_cos.modelledchestcart
+railcraft_cos.modelledtankcart
 rangeEntity
 saltwatermobs.abtu
 saltwatermobs.ika

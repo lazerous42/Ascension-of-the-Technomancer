@@ -12,6 +12,24 @@ aether:tile.skyrootSingleSlab - 0
 <ore:plankWood
 
 
+BasalticMineralSand
+
+
+Bromargyrite
+
+
+BrownLimonite
+
+
+Cassiterite
+
+
+Chalcopyrite
+
+
+Cooperite
+
+
 FC.Bass
 
 
@@ -78,14 +96,50 @@ FC.Tuna_StripCooked
 FC.Tuna_StripRaw
 
 
+Ferberite
+
+
 ForciciumItem
 RotaryCraft:rotarycraft_item_modingots - 26
+
+
+Garnierite
+
+
+GraniticMineralSand
+
+
+Hematite
+
+
+Huebnerite
+
+
+Kesterite
 
 
 LightGray
 
 
+Magnetite
+
+
+Malachite
+
+
 MonazitOre
+
+
+Pentlandite
+
+
+Pinalite
+
+
+Pitchblende
+
+
+Pyrite
 
 
 RotaryCraft:dustBedrock
@@ -94,6 +148,33 @@ RotaryCraft:rotarycraft_item_powders - 4
 
 RotaryCraft:ingotBedrock
 RotaryCraft:rotarycraft_item_compacts - 3
+
+
+Russelite
+
+
+Scheelite
+
+
+Stannite
+
+
+Stolzite
+
+
+Tetrahedrite
+
+
+Tungstate
+
+
+Uraninite
+
+
+Wolframite
+
+
+YellowLimonite
 
 
 aetherRecord
@@ -21304,6 +21385,9 @@ compressedGarnetYellow
 compressedGlass
 
 
+compressedGlowstone
+
+
 compressedGold
 
 
@@ -21554,6 +21638,9 @@ compressedSteeleaf
 compressedSterlingSilver
 
 
+compressedStone
+
+
 compressedStyreneButadieneRubber
 
 
@@ -21625,26 +21712,26 @@ ImmersiveEngineering:stoneDecoration - 5
 
 
 container_oil
-MagicBees:capsule.void - 5
-Magneticraft:item.bucket_oil - 0
-Forestry:canOil - 0
-Forestry:refractoryOil - 0
-MagicBees:capsule.magic - 5
 BuildCraft|Energy:bucketOil - 0
 gregtech:gt.metaitem.01 - 30707
+MagicBees:capsule.magic - 5
+Forestry:canOil - 0
+MagicBees:capsule.void - 5
 Forestry:waxCapsuleOil - 0
+Forestry:refractoryOil - 0
+Magneticraft:item.bucket_oil - 0
 
 
 container_water
-MagicBees:capsule.void - 1
-IC2:itemCellEmpty - 1
-Forestry:waxCapsuleWater - 0
-minecraft:water_bucket - 0
-MagicBees:capsule.magic - 1
-Forestry:refractoryWater - 0
-minecraft:potion - 0
-aether:skyrootWaterBucket - 0
 Forestry:canWater - 0
+Forestry:refractoryWater - 0
+IC2:itemCellEmpty - 1
+MagicBees:capsule.magic - 1
+minecraft:potion - 0
+Forestry:waxCapsuleWater - 0
+MagicBees:capsule.void - 1
+minecraft:water_bucket - 0
+aether:skyrootWaterBucket - 0
 
 
 cookingClam
@@ -40380,6 +40467,7 @@ gregtech:gt.metaitem.01 - 1915
 
 dustSmallWood
 gregtech:gt.metaitem.01 - 1809
+RotaryCraft:rotarycraft_item_powders - 3
 
 
 dustSmallWoodGas
@@ -67528,6 +67616,10 @@ gregtech:gt.metaitem.01 - 11338
 TwilightForest:item.ironwoodIngot - 0
 
 
+itemAluminiumItemCasing
+customthings:item - 1
+
+
 itemAttractorCrystal
 EnderIO:itemMaterial - 9
 
@@ -67595,6 +67687,10 @@ itemDarkGrindingBall
 EnderIO:itemMaterial - 7
 
 
+itemElectrotineWire
+customthings:item - 2
+
+
 itemEnderCrystal
 EnderIO:itemMaterial - 8
 
@@ -67656,6 +67752,9 @@ Forestry:pollen - 0
 
 itemPulsatingCrystal
 EnderIO:itemMaterial - 5
+
+
+itemQuartz
 
 
 itemQuicksilver
@@ -68759,6 +68858,10 @@ MagicBees:magnet - 15
 mb.magnet.level8
 MagicBees:magnet - 16
 MagicBees:magnet - 17
+
+
+minecartWheelsIron
+railcraft_cos:item.wheels - 0
 
 
 minecraft:carrot
@@ -70541,6 +70644,10 @@ oc:cardContainer3
 OpenComputers:item - 59
 
 
+oc:carpetedCapacitor
+OpenComputers:carpetedCapacitor - 0
+
+
 oc:case1
 OpenComputers:case1 - 0
 
@@ -71003,6 +71110,14 @@ OpenComputers:waypoint - 0
 
 
 oc:wlanCard
+OpenComputers:item - 13
+
+
+oc:wlanCard1
+OpenComputers:item - 113
+
+
+oc:wlanCard2
 OpenComputers:item - 13
 
 
@@ -90007,6 +90122,10 @@ plateGlass
 gregtech:gt.metaitem.01 - 17890
 
 
+plateGlowstone
+gregtech:gt.metaitem.01 - 17811
+
+
 plateGold
 libVulpes:libVulpesproductplate - 2
 IC2:itemPlates - 3
@@ -90244,6 +90363,7 @@ gregtech:gt.metaitem.01 - 17360
 
 plateObsidian
 IC2:itemPlates - 7
+gregtech:gt.metaitem.01 - 17804
 
 
 plateOlivine
@@ -90268,6 +90388,9 @@ gregtech:gt.metaitem.01 - 17052
 
 platePaper
 minecraft:paper - 0
+
+
+platePeridot
 
 
 platePhasedGold
@@ -90644,6 +90767,7 @@ gregtech:gt.metaitem.01 - 17350
 
 
 plateStone
+gregtech:gt.metaitem.01 - 17299
 
 
 plateStyreneButadieneRubber

@@ -457,6 +457,10 @@
 	- Name: Abyssal Eyelands
 	- Forge Biome Types: COLD WET HILLS 
 
+114
+	- Name: Monument Field
+	- Forge Biome Types: MAGICAL PLAINS 
+
 117
 	- Name: Radiant Fissures
 	- Forge Biome Types: HOT MAGICAL 

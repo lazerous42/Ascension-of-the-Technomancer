@@ -1,9 +1,14 @@
-{"data":
-	[
-            {
-                "name": "CertusElectronTube",           
-                "maxStackSize": "64",
-                "creativeTab": "Forestry"
-            }		
-	]
+{
+    "data": [{
+            "name": "CertusElectronTube",
+            "creativeTab": "Forestry"
+        },
+        {
+            "name": "AluminiumItemCasing"
+        },
+        {
+            "name": "ElectrotineWire",
+            "creativeTab": "ProjRed|Transmission"
+        }
+    ]
 }

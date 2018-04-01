@@ -6,7 +6,7 @@
 			"metadata": 1
 		},
 		"material": "minecraft:stone",
-		"clusterSize": 3,
+		"clusterSize": 4,
 		"numClusters": 4,
 		"minHeight": 45,
 		"maxHeight": 128,

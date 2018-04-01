@@ -57,3 +57,7 @@
 30)  Are you hurting for normal coal (not charcoal)? Try mining ask blocks and then crafting them into groups of 9 instead of 4.
 
 31)  Did you know that the Thaumometer can be used directly over an inventory.  No need to turn off your magnet and throw items on the ground for scanning.  Just pickup the thaumometer and hover over things you want scanned.  This will literally save hours of mindless grinding for research points.
+
+32)  Trying to get to the Twilight and the pool isn't accepting your diamond offering?  There must be another way, some sort of key to activate the portal.  Here's a small hint to finding it.  Watch the skies traveler... Think Upwards.
+
+33)  Are your GregTech devices feeling dry and chafed due to their GT lubricant being converted into RoteryCraft lubricant when ever it is placed in a drum or tank?  Try out the FluidConverter.Lubricant block to convert it back and forth free of charge.  This also works for converting the blood pools in the Nether into life essence, but at a substantial loss.

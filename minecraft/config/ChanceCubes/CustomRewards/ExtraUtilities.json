@@ -1,0 +1,45 @@
+{
+
+	"DeepDark": {
+		"chance": 10,
+		"Message": [{
+			"message": "Not afraid of the dark now... Are you"
+		}],
+		"Item": [{
+			"item": {
+				"id": "ExtraUtilities:dark_portal",
+				"Count": 1
+			},
+			"delay": 20
+		}]
+	},
+
+	"LastMillennium": {
+		"chance": 2,
+		"Message": [{
+			"message": "Not afraid of the dark now... Are you"
+		}],
+		"Item": [{
+			"item": {
+				"id": "ExtraUtilities:dark_portal",
+				"damage": 1,
+				"Count": 1
+			},
+			"delay": 20
+		}]
+	},
+
+	"QED": {
+		"chance": 5,
+		"Message": [{
+			"message": "What curious mannor of device would this be?"
+		}],
+		"Item": [{
+			"item": {
+				"id": "ExtraUtilities:endConstructor",
+				"Count": 1
+			},
+			"delay": 20
+		}]
+	}
+}

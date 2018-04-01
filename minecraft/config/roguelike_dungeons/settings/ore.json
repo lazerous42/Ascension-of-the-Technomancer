@@ -1,0 +1,427 @@
+{
+    "name": "ore",
+    "loot_rules": [
+        {
+            "type": "ORE",
+            "level" : [0, 1, 2, 3, 4],
+            "each" : true,
+            "quantity" : 12,
+            "loot": [
+                {
+                    "data": {
+                        "max": "16", 
+                        "meta": "0", 
+                        "name": "minecraft:quartz", 
+                        "min": "3"
+                    }, 
+                    "weight": "20"
+                }, 
+                {
+                    "data": {
+                        "max": "3", 
+                        "meta": "6", 
+                        "name": "EnderIO:itemAlloy", 
+                        "min": "1"
+                    }, 
+                    "weight": "15"
+                }, 
+                {
+                    "data": {
+                        "max": "6", 
+                        "meta": "11321", 
+                        "name": "gregtech:gt.metaitem.01", 
+                        "min": "2"
+                    }, 
+                    "weight": "5"
+                }, 
+                {
+                    "data": {
+                        "max": "16", 
+                        "meta": "1", 
+                        "name": "EnderIO:itemMaterial", 
+                        "min": "8"
+                    }, 
+                    "weight": "25"
+                }, 
+                {
+                    "data": {
+                        "max": "6", 
+                        "meta": "11031", 
+                        "name": "gregtech:gt.metaitem.01", 
+                        "min": "1"
+                    }, 
+                    "weight": "60"
+                }, 
+                {
+                    "data": {
+                        "max": "2", 
+                        "meta": "0", 
+                        "name": "minecraft:ender_pearl", 
+                        "min": "1"
+                    }, 
+                    "weight": "30"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "0", 
+                        "name": "fossil:scarabGem", 
+                        "min": "1"
+                    }, 
+                    "weight": "1"
+                }, 
+                {
+                    "data": {
+                        "max": "5", 
+                        "meta": "0", 
+                        "name": "IC2:itemIngot", 
+                        "min": "2"
+                    }, 
+                    "weight": "100"
+                }, 
+                {
+                    "data": {
+                        "max": "5", 
+                        "meta": "1", 
+                        "name": "IC2:itemIngot", 
+                        "min": "2"
+                    }, 
+                    "weight": "100"
+                }, 
+                {
+                    "data": {
+                        "max": "16", 
+                        "meta": "0", 
+                        "name": "minecraft:coal", 
+                        "min": "1"
+                    }, 
+                    "weight": "15"
+                }, 
+                {
+                    "data": {
+                        "max": "2", 
+                        "meta": "4", 
+                        "name": "ExtraUtilities:cobblestone_compressed", 
+                        "min": "1"
+                    }, 
+                    "weight": "1"
+                }, 
+                {
+                    "data": {
+                        "max": "6", 
+                        "meta": "11305", 
+                        "name": "gregtech:gt.metaitem.01", 
+                        "min": "1"
+                    }, 
+                    "weight": "60"
+                }, 
+                {
+                    "data": {
+                        "max": "5", 
+                        "meta": "0", 
+                        "name": "minecraft:diamond", 
+                        "min": "1"
+                    }, 
+                    "weight": "10"
+                }, 
+                {
+                    "data": {
+                        "max": "16", 
+                        "meta": "32100", 
+                        "name": "gregtech:gt.metaitem.02", 
+                        "min": "8"
+                    }, 
+                    "weight": "80"
+                }, 
+                {
+                    "data": {
+                        "max": "2", 
+                        "meta": "9", 
+                        "name": "Thaumcraft:ItemResource", 
+                        "min": "1"
+                    }, 
+                    "weight": "4"
+                }, 
+                {
+                    "data": {
+                        "max": "8", 
+                        "meta": "1024", 
+                        "name": "ThermalFoundation:material", 
+                        "min": "1"
+                    }, 
+                    "weight": "5"
+                }, 
+                {
+                    "data": {
+                        "max": "2", 
+                        "meta": "0", 
+                        "name": "IC2:itemOreIridium", 
+                        "min": "1"
+                    }, 
+                    "weight": "20"
+                }, 
+                {
+                    "data": {
+                        "max": "6", 
+                        "meta": "11054", 
+                        "name": "gregtech:gt.metaitem.01", 
+                        "min": "1"
+                    }, 
+                    "weight": "120"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "0", 
+                        "name": "ExtraUtilities:cursedearthside", 
+                        "min": "1"
+                    }, 
+                    "weight": "1"
+                }, 
+                {
+                    "data": {
+                        "max": "3", 
+                        "meta": "0", 
+                        "name": "ExtraUtilities:bedrockiumIngot", 
+                        "min": "1"
+                    }, 
+                    "weight": "3"
+                }, 
+                {
+                    "data": {
+                        "max": "6", 
+                        "meta": "11300", 
+                        "name": "gregtech:gt.metaitem.01", 
+                        "min": "1"
+                    }, 
+                    "weight": "60"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "10", 
+                        "name": "aura:ingotAngelSteel", 
+                        "min": "1"
+                    }, 
+                    "weight": "1"
+                }, 
+                {
+                    "data": {
+                        "max": "8", 
+                        "meta": "32137", 
+                        "name": "gregtech:gt.metaitem.02", 
+                        "min": "4"
+                    }, 
+                    "weight": "20"
+                }, 
+                {
+                    "data": {
+                        "max": "6", 
+                        "meta": "0", 
+                        "name": "minecraft:emerald", 
+                        "min": "1"
+                    }, 
+                    "weight": "20"
+                }, 
+                {
+                    "data": {
+                        "max": "6", 
+                        "meta": "8505", 
+                        "name": "gregtech:gt.metaitem.01", 
+                        "min": "1"
+                    }, 
+                    "weight": "20"
+                }, 
+                {
+                    "data": {
+                        "max": "6", 
+                        "meta": "2067", 
+                        "name": "gregtech:gt.metaitem.01", 
+                        "min": "1"
+                    }, 
+                    "weight": "40"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "2", 
+                        "name": "ExtraUtilities:unstableingot", 
+                        "min": "1"
+                    }, 
+                    "weight": "0"
+                }, 
+                {
+                    "data": {
+                        "max": "6", 
+                        "meta": "11089", 
+                        "name": "gregtech:gt.metaitem.01", 
+                        "min": "1"
+                    }, 
+                    "weight": "30"
+                }, 
+                {
+                    "data": {
+                        "max": "3", 
+                        "meta": "2030", 
+                        "name": "gregtech:gt.metaitem.01", 
+                        "min": "1"
+                    }, 
+                    "weight": "40"
+                }, 
+                {
+                    "data": {
+                        "max": "16", 
+                        "meta": "0", 
+                        "name": "minecraft:obsidian", 
+                        "min": "3"
+                    }, 
+                    "weight": "5"
+                }, 
+                {
+                    "data": {
+                        "max": "4", 
+                        "meta": "0", 
+                        "name": "minecraft:gunpowder", 
+                        "min": "1"
+                    }, 
+                    "weight": "10"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "0", 
+                        "name": "aura:prismWhite", 
+                        "min": "1"
+                    }, 
+                    "weight": "1"
+                }, 
+                {
+                    "data": {
+                        "max": "4", 
+                        "meta": "0", 
+                        "name": "minecraft:iron_ingot", 
+                        "min": "1"
+                    }, 
+                    "weight": "10"
+                }, 
+                {
+                    "data": {
+                        "max": "6", 
+                        "meta": "11335", 
+                        "name": "gregtech:gt.metaitem.01", 
+                        "min": "1"
+                    }, 
+                    "weight": "10"
+                }, 
+                {
+                    "data": {
+                        "max": "14", 
+                        "meta": "0", 
+                        "name": "IC2:itemShardIridium", 
+                        "min": "6"
+                    }, 
+                    "weight": "100"
+                }, 
+                {
+                    "data": {
+                        "max": "3", 
+                        "meta": "2", 
+                        "name": "Thaumcraft:ItemResource", 
+                        "min": "1"
+                    }, 
+                    "weight": "5"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "7", 
+                        "name": "Botania:manaResource", 
+                        "min": "1"
+                    }, 
+                    "weight": "0"
+                }, 
+                {
+                    "data": {
+                        "max": "2", 
+                        "meta": "4", 
+                        "name": "Botania:manaResource", 
+                        "min": "1"
+                    }, 
+                    "weight": "1"
+                }, 
+                {
+                    "data": {
+                        "max": "6", 
+                        "meta": "8503", 
+                        "name": "gregtech:gt.metaitem.01", 
+                        "min": "1"
+                    }, 
+                    "weight": "20"
+                }, 
+                {
+                    "data": {
+                        "max": "6", 
+                        "meta": "8502", 
+                        "name": "gregtech:gt.metaitem.01", 
+                        "min": "1"
+                    }, 
+                    "weight": "20"
+                }, 
+                {
+                    "data": {
+                        "max": "6", 
+                        "meta": "8504", 
+                        "name": "gregtech:gt.metaitem.01", 
+                        "min": "1"
+                    }, 
+                    "weight": "20"
+                }, 
+                {
+                    "data": {
+                        "max": "3", 
+                        "meta": "0", 
+                        "name": "aura:ingotAngelSteel", 
+                        "min": "1"
+                    }, 
+                    "weight": "5"
+                }, 
+                {
+                    "data": {
+                        "max": "2", 
+                        "meta": "6", 
+                        "name": "aura:ingotAngelSteel", 
+                        "min": "1"
+                    }, 
+                    "weight": "2"
+                }, 
+                {
+                    "data": {
+                        "max": "6", 
+                        "meta": "8527", 
+                        "name": "gregtech:gt.metaitem.01", 
+                        "min": "1"
+                    }, 
+                    "weight": "40"
+                }, 
+                {
+                    "data": {
+                        "max": "6", 
+                        "meta": "8528", 
+                        "name": "gregtech:gt.metaitem.01", 
+                        "min": "1"
+                    }, 
+                    "weight": "40"
+                }, 
+                {
+                    "data": {
+                        "max": "3", 
+                        "meta": "6", 
+                        "name": "Thaumcraft:ItemResource", 
+                        "min": "1"
+                    }, 
+                    "weight": "5"
+                }
+            ]
+        }
+    ]
+}

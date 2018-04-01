@@ -1,7 +1,6 @@
 Total amount of occupied potion ids: 172
 Table of occupied potion ids and their owners
 id:name(class)
-0 : Confusion (com.gw.dm.potion.PotionAddle)
 1 : potion.moveSpeed (net.minecraft.potion.Potion)
 2 : potion.moveSlowdown (net.minecraft.potion.Potion)
 3 : potion.digSpeed (net.minecraft.potion.Potion)
@@ -173,3 +172,4 @@ id:name(class)
 177 : potion.regeneration (Reika.ChromatiCraft.Auxiliary.Potions.PotionCustomRegen)
 178 : potion.saturation (Reika.ChromatiCraft.Auxiliary.Potions.PotionBetterSaturation)
 179 : Void Gaze (Reika.ChromatiCraft.Auxiliary.Potions.PotionVoidGaze)
+184 : potion.minePrevention (com.chocolate.chocolateQuest.misc.PotionCQ)

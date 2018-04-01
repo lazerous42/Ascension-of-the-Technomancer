@@ -1,6 +1,6 @@
 # Ascension-of-the-Technomancer
-Current LIVE Config Version 5.2.0
-Repository Config Version 5.3.1
+Current LIVE Config Version 5.3.2
+Repository Config Version 5.4.1
 
 Hello there friend.  It seems as though you've met with a terrible fate, haven't you?  
 
@@ -10,6 +10,7 @@ Do you consider yourself a Minecraft expert?  Then welcome to your greatest chal
 
 Good luck friend, You're going to need it.
 
+NOTICE: My apologies for not addressing any reported issues lately.  I just wanted to update this, in case anyone notices.  As you are probably aware, I have had some personal issues lately and have had no time for any recreational activities of any kind.  My wife and I were surprised in early November with a sudden need to find a new apartment.  I will be moving into my new residence on Dec 18th, I will try and return to action as soon as the move is complete.
 
 NOTICE2: The Version 5.2.0 corrects an instance of the 128+ sub-biome bug.  The moon (was biome 40) was causing dense forests (biome 168) to have the chance to generation on planet's moons.  This was corrected by choosing a biome ID for the moon that doesn't exhibit the sub-biome bug (137), and setting the flag B:resetPlanetsFromXML=true in ..\config\advRocketry\AdvancedRocketry.cfg.  This will push out the update star map with the fix into your world save.  If you lanch the game without loading into the affected world, this flag will reset itself.  You will need to close out the game and reset the flag back to true before loading into your world to get the changes to take effect.  What is happening is the master copy of planetDefs.xml from the AR configs are being copied into the world being loaded.  You need the corrected master copy of planetDefs.xml to be copied into your world to fix the problem.  You also should delete any affected AR dimensions in ..\saves\[world_name]\AdvRocketry\DIM-ID so that they will be regenerated from scratch with the update planetDefs.xml.  MCEdit can also be used for this purpose if a less invasive edit is needed.
 
@@ -18,6 +19,47 @@ NOTICE2: The Version 5.2.0 corrects an instance of the 128+ sub-biome bug.  The 
 ** Have an idea or useful tweak, pull requests are welcome and will be reviewed.
 
 ChangeLog
+- Config ~ Disabled EIO Farming station in favor of the Agricraft one
+- Config ~ Sorted Loot Tables.zs
+- Config ~ Added a rew more items to ChocolateQuest chests
+- Config ~ Cleanup BiomeGroups.cfg
+- Added ~ FairyLights
+- Config ~ Corrected minable gasses list for Adv Rocketry
+- Config ~ Changed list of vacuum tolerant entities and low pressure spawn tables (Adv Rocketry doesn't recognize MoC or CoFH entity names)
+- Config ~ Corrected typos in Adv Rocketry asteroid definitions
+- Config ~ Added custom loot table for Roguelike dungeons to make them worthwhile
+- Config ~ Disabled global spawn tick spacing in favor of a larger creature type interval
+- Config ~ Removed Fancy Block Particles, crash with Malisis doors being broken.
+- Config ~ Allow for chunk purging in Overworld, Nether, and End
+- Config ~ Minor guide changes for increasing performance + renamed a page
+- Added ~ Add Blur, Chunk Animator, Dynamic Surroundings, and NOVA for more Blood Magic goodness
+- BugFix ~ Fluid Converters mod to "oredict" fluids.  This is being used to fix RotaryCraft converting GT lubricant into it's own (which doesn't work for GT machines)
+- Config ~ Default minimal key bindings will now be shipped/applied on clients with no options.txt file found
+- BugFix ~ Removed misplaced customthings folder
+- BugFix ~ Added script to convert Moar Signs oak sign into vanilla sign and back
+- Config ~ More dungeon loot, more chance cube (are you feeling lucky?)
+- Config ~ Gregified Project Red recipes
+- Added ~ Added aesthetic mods: Railcraft Cosmetics, Dynamic Dynamos, and Barkifier
+- Config ~ Added guide hint for twilight key
+- Config ~ Shadow ore spawns only in Twilight and Deep Dark (to avoid retrogen), Dimensional shards can spawn in deep dark
+- Config ~ Deep Dark portal can now be found as rare chest loot
+- BugFix ~ Fixed saw->treated stick recipes to work with middle column of crafting grid
+- Config ~ Added some Recurrent Complex structures
+- Config ~ Updated mob spawn tables to add more mobs to Aether and Twilight
+- Config ~ more uses for shadow metal in Blood Magic and Lycanites
+- Config ~  More chocolateQuest chest loot 
+- Config ~  Unversioned MineMenu data folder (so I stop overwriting your custom menu entries)
+- Config ~  Created loot tables for ChocolateQuest dungeons
+- Config ~  Added oregen for shadow metal
+- Config ~  Corrected oregen for magma blocks in nether/land of darkness
+- Config ~  Spawn table updates for Twilight and Aether to fill in the gaps after the removal of dungeon mobs
+
+-- Version 5.4.0 (Return From the Abyss Update)  
+- Added ~ Chocolate Quest
+- Added ~ BigDoors mod, this allows for a 3 wide double door
+- Config ~ Mod updates, including Reika's mods
+- Config ~ Minor change to auto-generated JAS files for the removal of Dungeon Mobs
+
 -- Version 5.3.2
 - Removed dungeon mobs due to balance issues
 
@@ -25,13 +67,13 @@ ChangeLog
 - BugFix ~ Ensure no trailing spaceson any lines in dimlets.cfg.  This seems to cause crashes for some people although I cannot reproduce it.  There must be an additional factor involved in triggering this issue.
 
 -- Version 5.3.0 (1.7.10 Shall Live Forever Release) 
-- Updated ~Dynamic Sword Skills updated 
-- Updated ~CustomNPCs updated 
-- Updated ~Eiramoticons updated 
-- Updated ~LibVulpes updated 
-- Updated ~Open Computer updated 
-- Updated ~Open Security updated 
-- Updated ~Spice of Life updated
+- Updated ~ Dynamic Sword Skills updated 
+- Updated ~ CustomNPCs updated 
+- Updated ~ Eiramoticons updated 
+- Updated ~ LibVulpes updated 
+- Updated ~ Open Computer updated 
+- Updated ~ Open Security updated 
+- Updated ~ Spice of Life updated
 
 -- Version 5.2.1 
 - Config ~ Railcraft anchors give 6 hours of chunkloading per pearl.  Players already have FTBUtil chunkloading, and pearls are pretty abundant via AoA

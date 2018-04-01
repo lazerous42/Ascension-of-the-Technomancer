@@ -22,6 +22,7 @@ List of avaible enchantement ids:
 43
 44
 47
+59
 74
 75
 76
@@ -34,9 +35,6 @@ List of avaible enchantement ids:
 87
 88
 89
-90
-91
-92
 111
 112
 113
@@ -107,7 +105,6 @@ List of avaible enchantement ids:
 208
 209
 210
-214
 215
 216
 217

@@ -1,0 +1,139 @@
+{
+    "name": "potions",
+    "loot_rules": [
+        {
+            "type": "POTIONS",
+            "level" : [0, 1, 2, 3, 4],
+            "each" : true,
+            "quantity" : 12,
+            "loot": [
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "0", 
+                        "name": "AWWayofTime:mundaneLengtheningCatalyst", 
+                        "min": "1"
+                    }, 
+                    "weight": "4"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "0", 
+                        "name": "Botania:overgrowthSeed", 
+                        "min": "1"
+                    }, 
+                    "weight": "2"
+                }, 
+                {
+                    "data": {
+                        "max": "2", 
+                        "meta": "1", 
+                        "name": "Thaumcraft:ItemLootBag", 
+                        "min": "1"
+                    }, 
+                    "weight": "4"
+                }, 
+                {
+                    "data": {
+                        "max": "3", 
+                        "meta": "0", 
+                        "name": "Thaumcraft:ItemLootBag", 
+                        "min": "1"
+                    }, 
+                    "weight": "5"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "2", 
+                        "name": "Thaumcraft:ItemLootBag", 
+                        "min": "1"
+                    }, 
+                    "weight": "1"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "0", 
+                        "name": "AWWayofTime:averageLengtheningCatalyst", 
+                        "min": "1"
+                    }, 
+                    "weight": "2"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "0", 
+                        "name": "AWWayofTime:averagePowerCatalyst", 
+                        "min": "1"
+                    }, 
+                    "weight": "2"
+                }, 
+                {
+                    "data": {
+                        "max": "4", 
+                        "meta": "0", 
+                        "name": "minecraft:nether_wart", 
+                        "min": "1"
+                    }, 
+                    "weight": "10"
+                }, 
+                {
+                    "data": {
+                        "max": "3", 
+                        "meta": "0", 
+                        "name": "Automagy:phialExtra", 
+                        "min": "1"
+                    }, 
+                    "weight": "3"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "0", 
+                        "name": "Botania:manaBottle", 
+                        "min": "1"
+                    }, 
+                    "weight": "5"
+                }, 
+                {
+                    "data": {
+                        "max": "3", 
+                        "meta": "0", 
+                        "name": "AWWayofTime:standardBindingAgent", 
+                        "min": "1"
+                    }, 
+                    "weight": "6"
+                }, 
+                {
+                    "data": {
+                        "max": "5", 
+                        "meta": "0", 
+                        "name": "Botania:manaResource", 
+                        "min": "1"
+                    }, 
+                    "weight": "9"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "0", 
+                        "name": "AWWayofTime:greaterPowerCatalyst", 
+                        "min": "1"
+                    }, 
+                    "weight": "1"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "0", 
+                        "name": "AWWayofTime:mundanePowerCatalyst", 
+                        "min": "1"
+                    }, 
+                    "weight": "4"
+                }
+            ]
+        }
+    ]
+}

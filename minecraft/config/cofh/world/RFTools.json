@@ -11,6 +11,6 @@
 		"biomeRestriction": "none",
 		"biomes": [],
 		"dimensionRestriction": "whitelist",
-		"dimensions": [102,106,107,109,113,115,116,121]
+		"dimensions": [-100,102,106,107,109,113,115,116,121]
 	}
 }

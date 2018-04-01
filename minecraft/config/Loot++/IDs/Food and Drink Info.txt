@@ -1679,6 +1679,13 @@ MoCreatures:turtlesoup
 	- Saturation Amount: 0.6
 
 
+NOVA:itemBloodApple
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.1
+
+
 Natura:Natura.netherfood
 	- Megadata: 0
 	- Food or Drink? Food
@@ -2753,6 +2760,120 @@ chococraft:Raw_Chocobo_Leg
 	- Food or Drink? Food
 	- Food Amount: 4
 	- Saturation Amount: 0.6
+
+
+chocolateQuest:healingPotion
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+chocolateQuest:potionsBag
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+chocolateQuest:teleportStone
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+chocolateQuest:teleportStone
+	- Megadata: 1
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+chocolateQuest:teleportStone
+	- Megadata: 2
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+chocolateQuest:teleportStone
+	- Megadata: 3
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+chocolateQuest:teleportStone
+	- Megadata: 4
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+chocolateQuest:teleportStone
+	- Megadata: 5
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+chocolateQuest:teleportStone
+	- Megadata: 6
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+chocolateQuest:teleportStone
+	- Megadata: 7
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+chocolateQuest:teleportStone
+	- Megadata: 8
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+chocolateQuest:teleportStone
+	- Megadata: 9
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+chocolateQuest:teleportStone
+	- Megadata: 10
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+chocolateQuest:teleportStone
+	- Megadata: 11
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+chocolateQuest:teleportStone
+	- Megadata: 12
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+chocolateQuest:teleportStone
+	- Megadata: 13
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+chocolateQuest:teleportStone
+	- Megadata: 14
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+chocolateQuest:teleportStone
+	- Megadata: 15
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+chocolateQuest:teleportStone
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
 
 
 cookingbook:toast

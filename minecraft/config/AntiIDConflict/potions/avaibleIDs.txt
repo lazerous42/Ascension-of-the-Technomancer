@@ -1,5 +1,6 @@
 Total amount of free potion ids: C:\Program Files (x86)\Minecraft\MultiMC\instances\Ascension of the Technomancer\minecraft\config\AntiIDConflict\potions\avaibleIDs.txt
 List of free potion ids:
+0
 130
 131
 132
@@ -12,7 +13,6 @@ List of free potion ids:
 181
 182
 183
-184
 185
 186
 187

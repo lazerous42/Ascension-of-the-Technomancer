@@ -1,3 +1,66 @@
+§1§l§nVersion 5.4.1§r§1§l 
+
+§bConfig ~ Disabled EIO Farming station in favor of the Agricraft one
+§bConfig ~ Sorted Loot Tables.zs
+§bConfig ~ Added a rew more items to ChocolateQuest chests
+§bConfig ~ Cleanup BiomeGroups.cfg
+§aAdded ~ FairyLights
+§bConfig ~ Corrected minable gasses list for Adv Rocketry
+§bConfig ~ Changed list of vacuum tolerant entities and low pressure spawn tables (Adv Rocketry doesn't recognize MoC or CoFH entity names)
+§bConfig ~ Corrected typos in Adv Rocketry asteroid definitions
+§bConfig ~ Added custom loot table for Roguelike dungeons to make them worthwhile
+§bConfig ~ Disabled global spawn tick spacing in favor of a larger creature type interval
+§bConfig ~ Removed Fancy Block Particles, crash with Malisis doors being broken.
+§bConfig ~ Allow for chunk purging in Overworld, Nether, and End
+§bConfig ~ Minor guide changes for increasing performance + renamed a page
+§aAdded ~ Add Blur, Chunk Animator, Dynamic Surroundings, and NOVA for more Blood Magic goodness
+§cBugfix ~ Fluid Converters mod to "oredict" fluids.  This is being used to fix RotaryCraft converting GT lubricant into it's own (which doesn't work for GT machines)
+§bConfig ~ Default minimal key bindings will now be shipped/applied on clients with no options.txt file found
+§cBugfix ~ Removed misplaced customthings folder
+§cBugfix ~ Added script to convert Moar Signs oak sign into vanilla sign and back
+§bConfig ~ More dungeon loot, more chance cube (are you feeling lucky?)
+§bConfig ~ Gregified Project Red recipes
+§aAdded ~ Added aesthetic mods: Railcraft Cosmetics, Dynamic Dynamos, and Barkifier
+§bConfig ~ Added guide hint for twilight key
+§bConfig ~ Shadow ore spawns only in Twilight and Deep Dark (to avoid retrogen), Dimensional shards can spawn in deep dark
+§bConfig ~ Deep Dark portal can now be found as rare chest loot
+§cBugfix ~ Fixed saw->treated stick recipes to work with middle column of crafting grid
+§bConfig ~ Added some Recurrent Complex structures
+§bConfig ~ Updated mob spawn tables to add more mobs to Aether and Twilight
+§bConfig ~ more uses for shadow metal in Blood Magic and Lycanites
+§bConfig ~  More chocolateQuest chest loot 
+§bConfig ~  Unversioned MineMenu data folder (so I stop overwriting your custom menu entries)
+§bConfig ~  Created loot tables for ChocolateQuest dungeons
+§bConfig ~  Added oregen for shadow metal
+§bConfig ~  Corrected oregen for magma blocks in nether/land of darkness
+§bConfig ~  Spawn table updates for Twilight and Aether to fill in the gaps after the removal of dungeon mobs
+
+§1§l§nVersion 5.4.0§r§1§l  (Return From the Abyss Update)  
+§aAdded ~ Chocolate Quest
+§aAdded ~ BigDoors mod, this allows for a 3 wide double door
+§bConfig ~ Mod updates, including Reika's mods
+§bConfig ~ Minor change to auto-generated JAS files for the removal of Dungeon Mobs
+
+§1§l§nVersion 5.3.2§r§1§l 
+§cBugfix ~ Removed dungeon mobs due to balance issues
+
+§1§l§nVersion 5.3.1§r§1§l 
+§cBugfix ~ Ensure no trailing spaceson any lines in dimlets.cfg.  This seems to cause crashes for some people although I cannot reproduce it.  There must be an additional factor involved in triggering this issue.
+
+§1§l§nVersion 5.3.0§r§1§l  (1.7.10 Shall Live Forever Release) 
+§bConfig ~ Dynamic Sword Skills updated 
+§bConfig ~ CustomNPCs updated 
+§bConfig ~ Eiramoticons updated
+§bConfig ~ LibVulpes updated
+§bConfig ~ Open Computer updated
+§bConfig ~ Open Security updated
+§bConfig ~ Spice of Life updated
+§bConfig ~ Added iron/steel shafts (wind/watermill component, not RoC) to Armadron order list (periodic)
+
+§1§l§nVersion 5.2.1§r§1§l 
+§bConfig ~ Railcraft anchors give 6 hours of chunkloading per pearl.  Players already have FTBUtil chunkloading, and pearls are pretty abundant via AoA
+
+
 §1§l§nVersion 5.2.0§r§1§l 
 §cBugfix ~ Fix 128 sub-biome bug causing dense forest to spawn on the moon
 §aAdded ~ Witching Gadgets

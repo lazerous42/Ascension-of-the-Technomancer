@@ -1,4 +1,4 @@
-Total amount of occupied biome ids: 249
+Total amount of occupied biome ids: 250
 Table of occupied biome ids and their owners
 id:name(class)
 0 : Ocean (class net.minecraft.world.biome.BiomeGenOcean)
@@ -114,6 +114,7 @@ id:name(class)
 111 : Land of Darkness (class fossilsarcheology.server.biome.FossilsBiome)
 112 : biome.treasure.name (class fossilsarcheology.server.biome.FossilsBiome)
 113 : Abyssal Eyelands (class net.nevermine.dimension.abyss.biome.BiomeGenAbyssEye)
+114 : Monument Field (class Reika.ChromatiCraft.World.Dimension.Biome.MonumentBiome)
 117 : Radiant Fissures (class Reika.ChromatiCraft.World.Dimension.Biome.BiomeGenGlowCracks)
 118 : Aura Ocean (class Reika.ChromatiCraft.World.Dimension.Biome.BiomeGenChromaOcean)
 119 : Luminescent Sanctuary (class Reika.ChromatiCraft.World.Dimension.Biome.BiomeGenCentral)

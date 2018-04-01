@@ -1,0 +1,101 @@
+iron = minecraft:iron_ingot,5,0,100
+gold = minecraft:gold_ingot,5,0,40
+diamond = minecraft:diamond,3,0,10
+coal = minecraft:coal,8,0,80
+flint = minecraft:flint,6,0,60
+redstone = minecraft:redstone,8,0,50
+sticks = minecraft:stick,6,0,40
+emerald = minecraft:emerald,3,0,20
+
+manaResource0 = Botania:manaResource,5,0,9
+manaResource4 = Botania:manaResource,2,4,1
+manaResource7 = Botania:manaResource,1,7,1
+
+chromaticraft_item_shard0 = ChromatiCraft:chromaticraft_item_shard,8,0,2
+chromaticraft_item_shard1 = ChromatiCraft:chromaticraft_item_shard,8,1,2
+chromaticraft_item_shard10 = ChromatiCraft:chromaticraft_item_shard,8,10,2
+chromaticraft_item_shard11 = ChromatiCraft:chromaticraft_item_shard,8,11,2
+chromaticraft_item_shard12 = ChromatiCraft:chromaticraft_item_shard,8,12,2
+chromaticraft_item_shard13 = ChromatiCraft:chromaticraft_item_shard,8,13,2
+chromaticraft_item_shard14 = ChromatiCraft:chromaticraft_item_shard,8,14,2
+chromaticraft_item_shard15 = ChromatiCraft:chromaticraft_item_shard,8,15,2
+chromaticraft_item_shard2 = ChromatiCraft:chromaticraft_item_shard,8,2,2
+chromaticraft_item_shard3 = ChromatiCraft:chromaticraft_item_shard,8,3,2
+chromaticraft_item_shard4 = ChromatiCraft:chromaticraft_item_shard,8,4,2
+chromaticraft_item_shard5 = ChromatiCraft:chromaticraft_item_shard,8,5,2
+chromaticraft_item_shard6 = ChromatiCraft:chromaticraft_item_shard,8,6,2
+chromaticraft_item_shard7 = ChromatiCraft:chromaticraft_item_shard,8,7,2
+chromaticraft_item_shard8 = ChromatiCraft:chromaticraft_item_shard,8,8,2
+chromaticraft_item_shard9 = ChromatiCraft:chromaticraft_item_shard,8,9,2
+
+eio_itemAlloy0 = EnderIO:itemAlloy,3,0,15
+eio_itemAlloy1 = EnderIO:itemAlloy,3,1,15
+eio_itemAlloy2 = EnderIO:itemAlloy,3,2,15
+eio_itemAlloy3 = EnderIO:itemAlloy,3,3,15
+eio_itemAlloy4 = EnderIO:itemAlloy,3,4,15
+eio_itemAlloy5 = EnderIO:itemAlloy,3,5,15
+eio_itemAlloy6 = EnderIO:itemAlloy,3,6,15
+eio_itemAlloy7 = EnderIO:itemAlloy,3,7,15
+
+fuel.coke = Railcraft:fuel.coke,16,0,15
+
+thermal_foundation64 = ThermalFoundation:material,6,64,8
+thermal_foundation65 = ThermalFoundation:material,6,65,8
+thermal_foundation67 = ThermalFoundation:material,6,67,8
+thermal_foundation68 = ThermalFoundation:material,6,68,8
+thermal_foundation69 = ThermalFoundation:material,6,69,8
+thermal_foundation70 = ThermalFoundation:material,6,70,8
+thermal_foundation71 = ThermalFoundation:material,6,71,8
+thermal_foundation72 = ThermalFoundation:material,6,72,8
+thermal_foundation73 = ThermalFoundation:material,6,73,8
+thermal_foundation74 = ThermalFoundation:material,6,74,8
+thermal_foundation75 = ThermalFoundation:material,6,75,8
+thermal_foundation76 = ThermalFoundation:material,6,76,8
+thermal_foundation1024 = ThermalFoundation:material,4,1024,5
+
+bedrockiumIngot = ExtraUtilities:bedrockiumIngot,3,0,3
+cursedearthside = ExtraUtilities:cursedearthside,1,0,1
+unstableingot2 = ExtraUtilities:unstableingot,1,2,1
+
+ic2_itemIngot = IC2:itemIngot,5,0,20
+ic2_itemIngot1 = IC2:itemIngot,5,1,20
+ic2_itemOreIridium = IC2:itemOreIridium,2,0,5
+ic2_itemShardIridium = IC2:itemShardIridium,6,0,10
+
+te_material = ThermalFoundation:material,8,1024,5
+
+rotarycraft_item_powders3 = RotaryCraft:rotarycraft_item_powders,10,3,7
+
+ingotAngelSteel0 = aura:ingotAngelSteel,3,0,5
+ingotAngelSteel10 = aura:ingotAngelSteel,1,10,1
+ingotAngelSteel6 = aura:ingotAngelSteel,2,6,2
+
+ac_prismWhite = aura:prismWhite,1,0,1
+ac_AuraCrystal3 = aura:AuraCrystal,16,3,5
+ac_AuraCrystal4 = aura:AuraCrystal,16,4,5
+ac_gemBlack = aura:gemBlack,3,0,5
+ac_gemBlue = aura:gemBlue,3,0,5
+ac_gemGreen = aura:gemGreen,3,0,5
+ac_gemOrange = aura:gemOrange,3,0,5
+ac_gemRed = aura:gemRed,3,0,5
+ac_gemViolet = aura:gemViolet,3,0,5
+ac_gemWhite = aura:gemWhite,3,0,5
+ac_gemYellow = aura:gemYellow,3,0,5
+
+gregtech:gt.metaitem.01,6,11031,60
+gregtech:gt.metaitem.01,6,11054,120
+gregtech:gt.metaitem.01,6,11089,30
+gregtech:gt.metaitem.01,6,11300,60
+gregtech:gt.metaitem.01,6,11305,60
+gregtech:gt.metaitem.01,6,11321,5
+gregtech:gt.metaitem.01,6,11335,10
+gregtech:gt.metaitem.01,6,2030,40
+gregtech:gt.metaitem.01,6,2067,40
+gregtech:gt.metaitem.01,6,8502,20
+gregtech:gt.metaitem.01,6,8503,20
+gregtech:gt.metaitem.01,6,8504,20
+gregtech:gt.metaitem.01,6,8505,20
+gregtech:gt.metaitem.01,6,8527,40
+gregtech:gt.metaitem.01,6,8528,40
+gregtech:gt.metaitem.02,6,32100,80
+gregtech:gt.metaitem.02,6,32137,20

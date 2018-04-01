@@ -2,7 +2,7 @@ Total amount of free potion ids: 184
 Total amount of occupied potion ids: 172
 Total amount of conflicted potion ids: 0
 All ids and their position:
-0 is Occupied by Confusion (com.gw.dm.potion.PotionAddle)
+0 is Avaible
 1 is Occupied by potion.moveSpeed (net.minecraft.potion.Potion)
 2 is Occupied by potion.moveSlowdown (net.minecraft.potion.Potion)
 3 is Occupied by potion.digSpeed (net.minecraft.potion.Potion)
@@ -186,7 +186,7 @@ All ids and their position:
 181 is Avaible
 182 is Avaible
 183 is Avaible
-184 is Avaible
+184 is Occupied by potion.minePrevention (com.chocolate.chocolateQuest.misc.PotionCQ)
 185 is Avaible
 186 is Avaible
 187 is Avaible
