@@ -10,15 +10,14 @@ Do you consider yourself a Minecraft expert?  Then welcome to your greatest chal
 
 Good luck friend, You're going to need it.
 
-NOTICE: My apologies for not addressing any reported issues lately.  I just wanted to update this, in case anyone notices.  As you are probably aware, I have had some personal issues lately and have had no time for any recreational activities of any kind.  My wife and I were surprised in early November with a sudden need to find a new apartment.  I will be moving into my new residence on Dec 18th, I will try and return to action as soon as the move is complete.
-
-NOTICE2: The Version 5.2.0 corrects an instance of the 128+ sub-biome bug.  The moon (was biome 40) was causing dense forests (biome 168) to have the chance to generation on planet's moons.  This was corrected by choosing a biome ID for the moon that doesn't exhibit the sub-biome bug (137), and setting the flag B:resetPlanetsFromXML=true in ..\config\advRocketry\AdvancedRocketry.cfg.  This will push out the update star map with the fix into your world save.  If you lanch the game without loading into the affected world, this flag will reset itself.  You will need to close out the game and reset the flag back to true before loading into your world to get the changes to take effect.  What is happening is the master copy of planetDefs.xml from the AR configs are being copied into the world being loaded.  You need the corrected master copy of planetDefs.xml to be copied into your world to fix the problem.  You also should delete any affected AR dimensions in ..\saves\[world_name]\AdvRocketry\DIM-ID so that they will be regenerated from scratch with the update planetDefs.xml.  MCEdit can also be used for this purpose if a less invasive edit is needed.
+NOTICE1: The Version 5.2.0 corrects an instance of the 128+ sub-biome bug.  The moon (was biome 40) was causing dense forests (biome 168) to have the chance to generation on planet's moons.  This was corrected by choosing a biome ID for the moon that doesn't exhibit the sub-biome bug (137), and setting the flag B:resetPlanetsFromXML=true in ..\config\advRocketry\AdvancedRocketry.cfg.  This will push out the update star map with the fix into your world save.  If you lanch the game without loading into the affected world, this flag will reset itself.  You will need to close out the game and reset the flag back to true before loading into your world to get the changes to take effect.  What is happening is the master copy of planetDefs.xml from the AR configs are being copied into the world being loaded.  You need the corrected master copy of planetDefs.xml to be copied into your world to fix the problem.  You also should delete any affected AR dimensions in ..\saves\[world_name]\AdvRocketry\DIM-ID so that they will be regenerated from scratch with the update planetDefs.xml.  MCEdit can also be used for this purpose if a less invasive edit is needed.
 
 * A note about config version numbers ~ The least significant version number applies to config changes only, where that the middle number increments with mod versions.  Although configs from newer versions of mods won't normally cause issues, there is a small chance so I figured I should mention it just in case.  The most significant digit indicates a major structural change, i.e. a substantial content change.  Mixing configs across major version updates is NOT recommended.  Note all of the earlier releases follow this pattern exactly, but this standard is being maintained now and henceforth.
 
 ** Have an idea or useful tweak, pull requests are welcome and will be reviewed.
 
 ChangeLog
+-- Version 5.4.1 (Return From the Abyss Update)
 - Config ~ Disabled EIO Farming station in favor of the Agricraft one
 - Config ~ Sorted Loot Tables.zs
 - Config ~ Added a rew more items to ChocolateQuest chests
@@ -54,7 +53,7 @@ ChangeLog
 - Config ~  Corrected oregen for magma blocks in nether/land of darkness
 - Config ~  Spawn table updates for Twilight and Aether to fill in the gaps after the removal of dungeon mobs
 
--- Version 5.4.0 (Return From the Abyss Update)  
+-- Version 5.4.0 
 - Added ~ Chocolate Quest
 - Added ~ BigDoors mod, this allows for a 3 wide double door
 - Config ~ Mod updates, including Reika's mods
