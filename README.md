@@ -20,6 +20,11 @@ NOTICE2: Due to factors beyond my control, using the "U"sage function in NEI can
 
 ChangeLog
 -- Version 5.4.1 (Return From the Abyss Update)
+- Config ~ Tweaked some Ars Magica 2 and Witchery items to use more diverse materials
+- Config ~ Pure Daisy now has special requirements for living wood/rock.  Check the Technical notes section of the guide for more details on what input blocks are required.
+- Config ~ Updated guide book memory recommendations from 6GB to 8GB for SSP
+- Config ~ Chromaticraft client settings that were lost
+- Config ~ Mob auto-despawn distance is now farther from players (64 blocks) and instant despawn time has been increased to 600 ticks to work better with less frequent spawning ticks.
 - Config ~ Disabled EIO Farming station in favor of the Agricraft one
 - Config ~ Sorted Loot Tables.zs
 - Config ~ Added a rew more items to ChocolateQuest chests

@@ -4,11 +4,13 @@
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 ##  Imports
+import minetweaker.item.IItemStack;
 import mods.botania.ElvenTrade;
 import mods.botania.Lexicon;
 import mods.botania.ManaInfusion;
 import mods.botania.RuneAltar;
 import mods.botania.Apothecary;
+import mods.botania.PureDaisy;
 
 print("Initializing 'Botania.zs'...");
 ##  Val Definitions
@@ -28,6 +30,21 @@ val ingotManaSteel = <ore:ingotManasteel>;
 val manaweaveCloth = <Botania:manaResource:22>;
 val manaPowder = <Botania:manaResource:23>;
 
+val magicLogs = [<Thaumcraft:blockMagicalLog>,
+				 <Thaumcraft:blockMagicalLog:1>,
+				 <arsmagica2:WitchwoodLog>,
+				 <aether:aetherLog>,
+				 <aether:aetherLog:2>] as IItemStack[];
+
+val magicStones = [<minecraft:end_stone>,
+				   <aether:holystone:1>,
+				   <Railcraft:cube:6>,
+				   <Railcraft:cube:7>,
+				   <gregtech:gt.blockstones>,
+				   <gregtech:gt.blockstones:8>,
+				   <gregtech:gt.blockgranites>,
+				   <gregtech:gt.blockgranites:8>] as IItemStack[];
+
 val evolvedOrechidI = <Botania:specialFlower>.withTag({type:"evolvedOrechidI"});
 val evolvedOrechidII = <Botania:specialFlower>.withTag({type:"evolvedOrechidII"});
 val evolvedOrechidIII = <Botania:specialFlower>.withTag({type:"evolvedOrechidIII"});
@@ -44,6 +61,18 @@ val evolvedOrechidEndiumIV = <Botania:specialFlower>.withTag({type:"evolvedOrech
 #-  Use Thaumic Tinkerer recipe for Flugel Tiara 
 <ore:quartzDark>.add(<ThaumicTinkerer:darkQuartzItem>);
 recipes.remove(<Botania:quartz>);
+
+# - Pure Diasy
+## Livingwood
+PureDaisy.removeRecipe(<Botania:livingwood>);
+for i, log in magicLogs {
+	PureDaisy.addRecipe(log, <Botania:livingwood>);
+}
+## LivingRock
+PureDaisy.removeRecipe(<Botania:livingrock>);
+for i, stone in magicStones {
+	PureDaisy.addRecipe(stone, <Botania:livingrock>);
+}
 
 ##  Manasteel
 ManaInfusion.removeRecipe(<Botania:manaResource>);

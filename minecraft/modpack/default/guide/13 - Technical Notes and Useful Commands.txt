@@ -6,9 +6,13 @@ This section is for notes about tweaks to the game rules and facts of a more tec
 
 2)  The Earthshaking Crystals is impossible to craft due to it's requirement of a vanilla ghast in a souls vial.  All ghasts are from either Epic Seige Mod or Twilight Forest.  A one way conversion recipe has been added to convert an ESM ghast sould vial into a regular ghast soul vial.  This is a shapeless recipe and involves only the ESM ghast soul vial.  It can be crafted in the players inventory.
 
-3)  Avoid building your base near Roguelike Dungeons, they can be a source of lag due to the large numbers of mob spawners contained within.
+3)  Due to a bug in NEI, Botania Pure Daisy recipes do not render correctly when looking up living wood/rock recipes.  The input block display doesn't acknowlage the meta data for the blocks.  This only affects the recipe lookup, not the required blocks.  The corrected inputs are outlined below
+3a) Living Rock ~ Greatwood Logs, Silverwood Logs, Witchwood Logs, Skyroot Logs
+3b) Living Stone ~ End Stone, Aether Holystone, Quarried Stone, Abyssal Stone, GT Red Granite, GT Black Granite, GT Marble, GT Basalt
 
-4)  Reactorcraft reactors MUST be chunkloaded ALL TIMES.  They also MUST fit in a single chunk.  You will be very sorry if you do not listen to this warning.
+4)  Avoid building your base near Roguelike Dungeons, they can be a source of lag due to the large numbers of mob spawners contained within.
+
+5)  Reactorcraft reactors MUST be chunkloaded ALL TIMES.  They also MUST fit in a single chunk.  You will be very sorry if you do not listen to this warning.
 
 
 

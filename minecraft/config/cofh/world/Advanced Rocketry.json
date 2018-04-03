@@ -38,6 +38,28 @@
 		"dimensionRestriction": "blacklist",
 		"dimensions": [0,5]
 	},
+	"Aluminium-DD": {
+		"template": "uniform",
+		"block": [{
+				"name": "libVulpes:libVulpesore0",
+				"metadata": 9,
+				"weight": 75
+			},
+			{
+				"name": "libVulpes:libVulpesore0",
+				"metadata": 8,
+				"weight": 25
+			}
+		],
+		"material": "minecraft:stone",
+		"clusterSize": 6,
+		"numClusters": 4,
+		"minHeight": 2,
+		"maxHeight": 70,
+		"retrogen": "false",
+		"dimensionRestriction": "whitelist",
+		"dimensions": [-100]
+	},
 	"DiLithium": {
 		"template": "uniform",
 		"block": "libVulpes:libVulpesore0",
@@ -71,7 +93,7 @@
 			}
 		],
 		"material": "minecraft:stone",
-		"clusterSize": 4,
+		"clusterSize": 5,
 		"numClusters": 4,
 		"minHeight": 2,
 		"maxHeight": 50,
@@ -95,5 +117,27 @@
 				  ],
 		"dimensionRestriction": "blacklist",
 		"dimensions": [0,5]
+	},
+	"Titanium-DD": {
+		"template": "uniform",
+		"block": [{
+				"name": "libVulpes:libVulpesore0",
+				"metadata": 8,
+				"weight": 75
+			},
+			{
+				"name": "libVulpes:libVulpesore0",
+				"metadata": 9,
+				"weight": 25
+			}
+		],
+		"material": "minecraft:stone",
+		"clusterSize": 5,
+		"numClusters": 4,
+		"minHeight": 2,
+		"maxHeight": 70,
+		"retrogen": "false",
+		"dimensionRestriction": "whitelist",
+		"dimensions": [-100]
 	}
 }

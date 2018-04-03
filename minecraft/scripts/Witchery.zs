@@ -33,6 +33,12 @@ ManaInfusion.addInfusion(<witchery:ingredient:12>*4, <minecraft:flint>, 1500);
 recipes.remove(<witchery:ingredient:73>);
 recipes.addShaped(<witchery:ingredient:73>, [[<Botania:manaGlass>, <Thaumcraft:ItemResource:8>, <Botania:manaGlass>], [<ore:ingotElvenElementium>, <witchery:ingredient:11>, <ore:ingotElvenElementium>], [<Botania:manaGlass>, <Thaumcraft:ItemResource:8>, <Botania:manaGlass>]]);
 
+##  Brazier
+recipes.remove(<witchery:brazier>);
+recipes.addShaped(<witchery:brazier>, [[<ore:ingotMithril>, <witchery:ingredient:64>, <ore:ingotMithril>],
+									   [null, <ore:ingotShadow>, null],
+									   [<arsmagica2:planksWitchwood>, <ore:ingotShadow>, <arsmagica2:planksWitchwood>]]);
+
 ##  Quartz Sphere 
 recipes.remove(<witchery:ingredient:92>);
 recipes.addShaped(<witchery:ingredient:92>, [[<ore:gemQuartz>, <ore:blockQuartz>, <ore:gemQuartz>], [<ore:blockQuartz>, <Botania:manaGlass>, <ore:blockQuartz>], [<ore:gemQuartz>, <ore:blockQuartz>, <ore:gemQuartz>]]);

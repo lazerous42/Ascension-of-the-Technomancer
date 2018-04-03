@@ -52,6 +52,18 @@ Arcane.addShaped("PAVEWARD", <Thaumcraft:blockCosmeticSolid:3>*4, "ignis 10, ord
 Arcane.removeRecipe(<Thaumcraft:blockStoneDevice:2>);
 RuneAltar.addRecipe(<Thaumcraft:blockStoneDevice:2>, [<witchery:ingredient:10>, <AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:AlchemicalWizardrybloodRune>, <AWWayofTime:AlchemicalWizardrybloodRune>, <ore:runeWaterB>, <ore:runeFireB>, <ore:runeEarthB>, <ore:runeAirB>, <ore:runeManaB>], 1000000);
 
+##  Vis Relay
+Arcane.removeRecipe(<Thaumcraft:blockMetalDevice:14>);
+Arcane.addShaped("BASICARTIFACE", <Thaumcraft:blockMetalDevice:14> * 2, "ignis 8, ordo 8", [[<ore:quicksilver>, <ore:ingotMithril>, <ore:quicksilver>],
+													  				   						[<ore:ingotMithril>, <ore:shardBalance>, <ore:ingotMithril>],
+													  				   						[<ore:quicksilver>, <ore:ingotHeeEndium>, <ore:quicksilver>]]);
+
+## Vis Charge Relay
+Arcane.removeRecipe(<Thaumcraft:blockMetalDevice:2>);
+Arcane.addShaped("BASICARTIFACE", <Thaumcraft:blockMetalDevice:2>, "ignis 16, ordo 16, aer 16", [[<ore:ingotSilver>, <Thaumcraft:blockMetalDevice:14>, <ore:ingotSilver>],
+													  				   							 [<Thaumcraft:WandRod>, <ore:ingotTerrasteel>, <Thaumcraft:WandRod>],
+													  				   							 [<ore:ingotMithril>, null, <ore:ingotMithril>]]);
+
 ##  Primal Charm
 Arcane.removeRecipe(<Thaumcraft:ItemResource:15>);
 Arcane.addShaped("BASICARTIFACE", <Thaumcraft:ItemResource:15>, "aer 25, terra 25, ignis 25, aqua 25, ordo 25, perditio 25", [[<ore:shardAir>, <ore:shardFire>, <ore:shardWater>], [<AWWayofTime:demonicSlate>, <ore:shardBalance>, <AWWayofTime:demonicSlate>], [<ore:shardEarth>, <ore:shardOrder>, <ore:shardEntropy>]]);

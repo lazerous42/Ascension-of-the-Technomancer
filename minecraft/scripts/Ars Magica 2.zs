@@ -302,6 +302,18 @@ recipes.addShapeless(chalkWizard, [quicksilver, dustVinteum, chalkRitual]);
 recipes.remove(flickerJar);
 recipes.addShaped(flickerJar, [[nuggetGold, amber, nuggetGold], [glassPaneMana, magicWall, glassPaneMana], [null, glassPaneMana, null]]);
 
+## Magitech Goggles
+recipes.remove(<arsmagica2:magitechGoggles>);
+recipes.addShaped(<arsmagica2:magitechGoggles>, [[<witchery:ingredient:72>, <WitchingGadgets:item.WG_Material:2>, <witchery:ingredient:72>], 
+												 [<ore:gemChimerite>, <ore:ingotGold>, <ore:gemChimerite>], 
+												 [<ore:gemBlueTopaz>, <ore:ingotShadow>, <ore:gemBlueTopaz>]]);
+
+## Spellbook
+recipes.remove(<arsmagica2:spellBook>);
+recipes.addShaped(<arsmagica2:spellBook>, [[<WitchingGadgets:item.WG_Material:1>, <witchery:ingredient:72>, <witchery:ingredient:72>], 
+										   [stringMana, <Automagy:enchantedPaper>, <Automagy:enchantedPaper>], 
+										   [<WitchingGadgets:item.WG_Material:1>, <witchery:ingredient:72>, <witchery:ingredient:72>]]);
+
 ##  Mage Robes
 recipes.remove(mageHood);
 recipes.addShaped(mageHood, [[brownWool, fabricEnchanted, brownWool], [brownWool, <arsmagica2:rune:13>, brownWool], [null, <minecraft:potion>, null]]);
