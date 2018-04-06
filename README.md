@@ -19,6 +19,17 @@ NOTICE2: Due to factors beyond my control, using the "U"sage function in NEI can
 ** Have an idea or useful tweak, pull requests are welcome and will be reviewed.
 
 ChangeLog
+-- Version 5.4.2 
+- Added ~ ArchitectureCraft
+- Added ~ Mutant Creatures (no overworld spawns)
+- Config ~ Added Mutant Creatures to low pressure biome + atmosphere exclusion
+- BugFix ~ Cleaned up old unused living handlers
+- Config ~ Added a few uses for prismarine shards
+- BugFix ~ Re-applied ChromaticCraft client settings lost during version 19 update
+- Config ~ Living wood/rock are now only craftable with Aether logs/stones
+- BugFix ~ Allowed each creature type to make 8 attempts at passive spawning (up from 4) to account for the reduced spawn ticks for said groups
+- Config ~ Added Chocobos to Aether
+
 -- Version 5.4.1 (Return From the Abyss Update)
 - Config ~ Tweaked some Ars Magica 2 and Witchery items to use more diverse materials
 - Config ~ Pure Daisy now has special requirements for living wood/rock.  Check the Technical notes section of the guide for more details on what input blocks are required.

@@ -1,3 +1,15 @@
+
+§1§l§nVersion 5.4.2§r§1§l
+§aAdded ~ ArchitectureCraft
+§aAdded ~ Mutant Creatures (no overworld spawns)
+§bConfig ~ Added Mutant Creatures to low pressure biome + atmosphere exclusion
+§cBugfix ~ Cleaned up old unused living handlers
+§bConfig ~ Added a few uses for prismarine shards
+§cBugfix ~ Re-applied ChromaticCraft client settings lost during version 19 update
+§bConfig ~ Living wood/rock are now only craftable with Aether logs/stones
+§cBugfix ~ Allowed each creature type to make 8 attempts at passive spawning (up from 4) to account for the reduced spawn ticks for said groups
+§bConfig ~ Added Chocobos to Aether
+
 §1§l§nVersion 5.4.1§r§1§l 
 
 §bConfig ~ Tweaked some Ars Magica 2 and Witchery items to use more diverse materials

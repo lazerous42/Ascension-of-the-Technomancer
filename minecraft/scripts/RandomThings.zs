@@ -13,6 +13,6 @@ val stick = <ore:stickWood>;
 
 ## Spectre Key
 recipes.remove(keySpectre);
-recipes.addShaped(keySpectre, [[null, ingotSpectreIron, null], [ingotSpectreIron, ingotVoidMetal, null], [null, stick, null]]);
+recipes.addShaped(keySpectre, [[null, ingotSpectreIron, null], [ingotSpectreIron, ingotVoidMetal, null], [<ore:shardPrismarine>, stick, <ore:shardPrismarine>]]);
 
 print("Initialized 'RandomThings.zs'...");

@@ -298,6 +298,23 @@ MoCreatures.Wyvern
 Mob
 Monster
 MushroomCow
+MutantCreatures.Chemical X
+MutantCreatures.CreeperMinion
+MutantCreatures.CreeperMinionEgg
+MutantCreatures.EnderBlock
+MutantCreatures.EndermanClone
+MutantCreatures.EndersoulFragment
+MutantCreatures.MutantCreeper
+MutantCreatures.MutantEnderman
+MutantCreatures.MutantSkeleton
+MutantCreatures.MutantSnowGolem
+MutantCreatures.MutantZombie
+MutantCreatures.SkeletonPart
+MutantCreatures.SkeletonShot
+MutantCreatures.SkullSpirit
+MutantCreatures.SnowGolemBlock
+MutantCreatures.SpiderPig
+MutantCreatures.ZombieMinion
 NEAT_Zombie
 Natura.FlameSpider
 Natura.FlameSpiderBaby
@@ -1071,6 +1088,7 @@ lootplusplus.ThrownItem
 lycanitesmobs.fear
 lycanitesmobs.hitarea
 lycanitesmobs.summoningportal
+molotovCocktail
 mountainmobs.arcanelaser
 mountainmobs.arcanelaserend
 mountainmobs.arcanelaserstorm
@@ -1892,6 +1910,7 @@ plainsmobs.zoataur
 powersuits.entityLuxCapacitor
 powersuits.entityPlasmaBolt
 powersuits.entitySpinningBlade
+psychedelicraft.realityRift
 punt.Punt
 railcraft_cos.modelledchestcart
 railcraft_cos.modelledtankcart
@@ -1989,16 +2008,15 @@ witchery.wolfman
 26 - enderzoo.WitherWitch
 27 - enderzoo.WitherCat
 28 - enderzoo.DireWolf
-30 - Chicobo
-31 - ChocoboYellow
-32 - ChocoboGreen
-33 - ChocoboBlue
-34 - ChocoboWhite
-35 - ChocoboBlack
-36 - ChocoboGold
-37 - ChocoboPink
-38 - ChocoboRed
-39 - ChocoboPurple
+31 - Chicobo
+32 - ChocoboYellow
+33 - ChocoboGreen
+34 - ChocoboBlue
+35 - ChocoboWhite
+36 - ChocoboBlack
+37 - ChocoboGold
+38 - ChocoboPink
+39 - ChocoboRed
 50 - Creeper
 51 - Skeleton
 52 - Spider
@@ -2013,9 +2031,10 @@ witchery.wolfman
 62 - LavaSlime
 65 - Bat
 66 - Witch
-69 - Blizz
-70 - Blitz
-71 - Basalz
+67 - ChocoboPurple
+70 - Blizz
+71 - Blitz
+72 - Basalz
 90 - Pig
 91 - Sheep
 92 - Cow

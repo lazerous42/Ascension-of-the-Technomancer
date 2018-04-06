@@ -30,20 +30,11 @@ val ingotManaSteel = <ore:ingotManasteel>;
 val manaweaveCloth = <Botania:manaResource:22>;
 val manaPowder = <Botania:manaResource:23>;
 
-val magicLogs = [<Thaumcraft:blockMagicalLog>,
-				 <Thaumcraft:blockMagicalLog:1>,
-				 <arsmagica2:WitchwoodLog>,
-				 <aether:aetherLog>,
+val magicLogs = [<aether:aetherLog>,
 				 <aether:aetherLog:2>] as IItemStack[];
 
-val magicStones = [<minecraft:end_stone>,
-				   <aether:holystone:1>,
-				   <Railcraft:cube:6>,
-				   <Railcraft:cube:7>,
-				   <gregtech:gt.blockstones>,
-				   <gregtech:gt.blockstones:8>,
-				   <gregtech:gt.blockgranites>,
-				   <gregtech:gt.blockgranites:8>] as IItemStack[];
+val magicStones = [<aether:icestone>,
+				   <aether:holystone:1>] as IItemStack[];
 
 val evolvedOrechidI = <Botania:specialFlower>.withTag({type:"evolvedOrechidI"});
 val evolvedOrechidII = <Botania:specialFlower>.withTag({type:"evolvedOrechidII"});
