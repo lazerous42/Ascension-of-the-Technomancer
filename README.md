@@ -1,25 +1,37 @@
 # Ascension-of-the-Technomancer
 Current LIVE Config Version 5.3.2
-Repository Config Version 5.4.1
+Repository Config Version 5.4.2
 
-Hello there friend.  It seems as though you've met with a terrible fate, haven't you?  
+Hello there friend. It seems as though you've met with a terrible fate, haven't you?
 
-Welcome to the world of Ascension of the Technomancer, a high difficulty alternative to typical "kitchen sink" type packs.  This pack features a high degree of cross mod integration, with a special focus on exploration.  Advent of Ascension, Hardcore Ender Expansion, and Twilight Forest, Advanced Rocketry, and The Aether II provide the player with more than 30 new dimensions to explore.  The tech side of the pack centers around GregTech 5 experimental, but includes all of the major tech mods (Thermal Expansion, EnderIO, MFR...) you’ve come to know and love.   This pack uses a mix of GregTech style and traditional oregen, to further encourage exploration while not leaving you stuck if you can’t find the ore vein you need. Rotary and ReactorCraft are now a part of the tech mod suite, giving you a rare opportunity to play around with these challenging and engaging pieces of content.  The magic side of the house features all of the major 1.7.10 magic mods, along with some less common fare like Ars Magica, Aura Cascade, and ChromaticCraft to spice things up.  Survival challenges have been enhanced with Hunger Overhaul, Spice of Life, Harvestcraft, and Agricraft.  The 100s of mobs in the pack have been organized into custom spawn tables, written from the ground up with Just Another Spawner.  The recipes used in this pack were initially derived from Infinity Expert mode with a dash of InfiTech 2, but were heavily customized from there to ensure a unique modded Minecraft experience like no other.
+Welcome to the world of Ascension of the Technomancer, a high difficulty alternative to typical "kitchen sink" type packs. This pack has a major focus on exploration, and features a high degree of cross mod integration. The recipes used in this pack were initially derived from a mix of FTB Infinity Evolved expert mode and InfiTech 2, but were heavily customized from there to ensure a unique modded Minecraft experience like no other.
 
-Do you consider yourself a Minecraft expert?  Then welcome to your greatest challenge... or your undoing.
+Advent of Ascension, Hardcore Ender Expansion, and Twilight Forest, Advanced Rocketry, and The Aether II provide the player with more than 30 new planets and dimensions to explore across five star systems. Ore generation is a mix of GregTech style veins scattered clusters. This encourages exploration to find the next big deposit of essential resources, while not leaving you stuck if you can’t find the type of ore vein you need.
 
-Good luck friend, You're going to need it.
+The tech side of the pack centers around GregTech 5 experimental, but includes all of the major tech mods (Thermal Expansion, EnderIO, MFR...) you’ve come to know and love. The magic side of the house features all of the major 1.7.10 magic mods, along with some less common fare like Ars Magica, and Aura Cascade to bring a unique twist to aspiring witches and wizards. Reika's mods Rotarycraft, ReactorCraft, and ChromatiCraft are also here, giving you the rare opportunity to experience some of the most challenging, engaging, and sophisticated mods ever written.
 
-NOTICE1: The Version 5.2.0 corrects an instance of the 128+ sub-biome bug.  The moon (was biome 40) was causing dense forests (biome 168) to have the chance to generation on planet's moons.  This was corrected by choosing a biome ID for the moon that doesn't exhibit the sub-biome bug (137), and setting the flag B:resetPlanetsFromXML=true in ..\config\advRocketry\AdvancedRocketry.cfg.  This will push out the update star map with the fix into your world save.  If you lanch the game without loading into the affected world, this flag will reset itself.  You will need to close out the game and reset the flag back to true before loading into your world to get the changes to take effect.  What is happening is the master copy of planetDefs.xml from the AR configs are being copied into the world being loaded.  You need the corrected master copy of planetDefs.xml to be copied into your world to fix the problem.  You also should delete any affected AR dimensions in ..\saves\[world_name]\AdvRocketry\DIM-ID so that they will be regenerated from scratch with the update planetDefs.xml.  MCEdit can also be used for this purpose if a less invasive edit is needed.
+Survival challenges have been enhanced with Hunger Overhaul, Spice of Life, Harvestcraft, and Agricraft.   There are 100s of new mobs ranging from cute and fluffy woodland creatures to nightmarish eldritch horrors. All organized into custom spawn tables, written from the ground up with Just Another Spawner. The landscape is littered with countless; cities, ruins, castles, monuments, and dungeons that are filled with treasures for you to discover. The loot tables are heavily customized with hundereds different items to help you survie and thrive in this vast, harsh landscape.
 
-NOTICE2: Due to factors beyond my control, using the "U"sage function in NEI can cause your session to hang for several minutes.  This is due to a negative interaction between Chromaticraft's dynamic recipes generation and recursive recipe tree parsingc conflicting with GregTech's circular recipe structures from the recycling system.  There is unfortunately nothing I can do to prevent this.  The problem can be reproduced with only GT, CC, and NEI.  It won't happen for all items, but it's probably best to avoid the "U"sage function in NEI.  Be aware that once you wait out the duration of the hang it will not happen again for subsequent uses of the "U"sage function.
+All of this comes together to create one of the biggest modpacks ever made available, serving as a loving tribute to the epic 1.7.10 modding scene. Sure, there are now newer versions of modded Minecraft to explore, but nothing matching the vast scope of what was available for this release.
 
-* A note about config version numbers ~ The least significant version number applies to config changes only, where that the middle number increments with mod versions.  Although configs from newer versions of mods won't normally cause issues, there is a small chance so I figured I should mention it just in case.  The most significant digit indicates a major structural change, i.e. a substantial content change.  Mixing configs across major version updates is NOT recommended.  Note all of the earlier releases follow this pattern exactly, but this standard is being maintained now and henceforth.
+Do you consider yourself a Minecraft expert? Then welcome to your greatest challenge... or your undoing.  Good luck friend, You're going to need it.
+
+NOTICE1: Due to factors beyond my control, using the "U"sage function in NEI can cause your session to hang for several minutes.  This is due to a negative interaction between Chromaticraft's dynamic recipes generation and recursive recipe tree parsingc conflicting with GregTech's circular recipe structures from the recycling system.  There is unfortunately nothing I can do to prevent this.  The problem can be reproduced with only GT, CC, and NEI.  It won't happen for all items, but it's probably best to avoid the "U"sage function in NEI.  Be aware that once you wait out the duration of the hang it will not happen again for subsequent uses of the "U"sage function.
+
+* A note about config version numbers ~ The least significant version number applies to config changes only, where that the middle number increments with mod versions.  Although configs from newer versions of mods won't normally cause issues, there is a small chance so I figured I should mention it just in case.  The most significant digit indicates a major structural change, i.e. a substantial content change.  Mixing configs across major version updates is NOT recommended.  Not all of the earlier releases follow this pattern exactly, but this standard is being maintained now and henceforth.
 
 ** Have an idea or useful tweak, pull requests are welcome and will be reviewed.
 
 ChangeLog
 -- Version 5.4.2 
+- Config ~ Added custom chemical X recipe
+- BugFix ~ Script cleanup 
+- Added ~ Not Enough Wands + recipe script
+- Config ~ Guide tweaks
+- Added ~ ForbiddenMagic.zs script
+- Config ~ High-speed rails now require compressed iron
+- Config ~ Better TiCon NEI filters
+- Config ~ Moves some QED recipes to normal crafting to break dependence on getting Enderium
 - Added ~ ArchitectureCraft
 - Added ~ Mutant Creatures (no overworld spawns)
 - Config ~ Added Mutant Creatures to low pressure biome + atmosphere exclusion

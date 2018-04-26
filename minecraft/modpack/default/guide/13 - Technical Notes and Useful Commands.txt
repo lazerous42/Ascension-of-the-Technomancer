@@ -14,15 +14,18 @@ This section is for notes about tweaks to the game rules and facts of a more tec
 
 5)  Reactorcraft reactors MUST be chunkloaded ALL TIMES.  They also MUST fit in a single chunk.  You will be very sorry if you do not listen to this warning.
 
+6)  Should any technical issues arise that require changes to the Advanced Rocketry star map, you can follow the steps below to reset this data and pull the updated star map into your world.  Should a reload of the star map be required to correct a bug, this will be indicated in the changelog accessed from the blue tab on the main menu (hit esc in game) or GitHub.  If anything more sophisticated be required, you will find detailed instructions on what kind of maintanence you need to perform on the corresponding GitHub issue page documenting the problem.
 
+	a) Locate the file ..\minecraft\config\advRocketry\advancedRocketry.cfg
+	b) Find the setting B:resetPlanetsFromXML and change it's value to true
+	c) If there is need to reset any dimensions controlled by AR, you should delete the dimension's folder in your save file.  For example to reset the moon of Minecraftia, navigate to ..\minecraft\saves\AotT SuperFlat Recipe Test\advRocketry and delete the folder for that dimension.  In our case of the moon, this dimension is in the DIM-8 folder.  You can review the planetDefs.xml file to find the ID of the dimension to reset.  Only AR created dim3ensions will be in the AR folder of your save, all other dimensions are in the root of your world folder.
+	d) Launch the pack and open up the world that needs the changes.  During pack launch, the flag will have set itself back to false.  This is normal behavior.
 
-This is a list useful commands for server admins to use when interacting wity your AotT world
+7)  This is a list useful commands for server admins to use when interacting with an AotT world
 
 §1§l FTB Utils Commands
-
 §0§l /ftb_reload §r ~ Reloads configs for server and clients
 §0§l /ftb_worldID §r ~ Prints current world UUID
-
 §0§l /back §r ~ Teleports player to last death location
 §0§l /spawn §r ~ Teleports player to overworld spawn
 §0§l /tpl [player] §r ~ Teleports to [player] if online or last location if offline
@@ -43,11 +46,13 @@ This is a list useful commands for server admins to use when interacting wity yo
 §0§l /admin player saveinv|loadinv [player] [customname] §r ~ Saves|loads player inventory to|from "/local/ftbu/playerinvs/custom/"
 §0§l /admin player notify [player] [notification JSON] §r ~ Sends a popup notification to player
 
+§1§l Just Another Spawner Commands §r
+§0§o Valid Entity Types ~ [AMBIENT|CREATURE|MONSTER|WATERCREATURE|WATERMONSTER|UNDERGROUND|OPENSKY] §r
+§0§l /jas loadconfigs §r ~ reload the spawn tables
+§0§l /jas countcap <targetPlayer / DimensionID> <EntityType> §r ~ Reports on the entity count / entity count max for the entity type specified
+§0§l /jas killall <targetPlayer> <EntityType> §r ~ Kills all entities of the specificed group, excluding group will kill all entites in the world
 
 §1§l Other Useful Commands
-
 §0§l /cofh tpx [player] x y z [dimensionID] §r ~ Teleport a player to any location in any dimension
 §0§l /findbiome biomeID §r ~ Locates the nearest instance of the biome ID passed to the command
 §0§l /redecorate decorationType §r ~ Redecorates the biome you in
-§0§l /JAS loadconfigs §r ~ reload the spawn tables
-§0§l /JAS KILLALL [AMBIENT|CREATURE|MONSTER|WATERCREATURE|WATERMONSTER|UNDERGROUND|OPENSKY] biomeID §r ~ Kills all entities of the specificed group, excluding group will kill all entites in the world

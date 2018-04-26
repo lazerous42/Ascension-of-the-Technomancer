@@ -222,6 +222,10 @@ Pylon.addRecipe(runeRed * 3, <aura:RED_AURA> * 5000, runeBlank, <aura:RED_AURA> 
 Pylon.addRecipe(runeWhite * 3, <aura:WHITE_AURA> * 5000, runeBlank, <aura:WHITE_AURA> * 5000, runeBlank, <aura:WHITE_AURA> * 5000, runeBlank, <aura:WHITE_AURA> * 5000, <ChromatiCraft:chromaticraft_item_shard:15>);
 Pylon.addRecipe(runeYellow * 3, <aura:YELLOW_AURA> * 5000, runeBlank, <aura:YELLOW_AURA> * 5000, runeBlank, <aura:YELLOW_AURA> * 5000, runeBlank, <aura:YELLOW_AURA> * 5000, <ChromatiCraft:chromaticraft_item_shard:11>);
 
+##  Aracne Compound
+recipes.remove(<arsmagica2:itemOre:1>);
+Alchemy.addRecipe(<arsmagica2:itemOre:1> * 3, [chimerite, quicksilver, <Botania:manaResource:23>, dustPurifiedVinteum], 2, 2500);
+
 ##  Crystal Phylactery
 recipes.remove(crystalPhylactery);
 recipes.addShaped(crystalPhylactery, [[null, moonstone, null], [glassMana, null, glassMana], [null, magicWall, null]]);

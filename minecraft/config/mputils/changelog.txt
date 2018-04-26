@@ -1,5 +1,13 @@
 
 §1§l§nVersion 5.4.2§r§1§l
+§bConfig ~ Added custom chemical X recipe
+§cBugfix ~ Script cleanup 
+§aAdded ~ Not Enough Wands + recipe script
+§bConfig ~ Guide tweaks
+§aAdded ~ ForbiddenMagic.zs script
+§bConfig ~ High-speed rails now require compressed iron
+§bConfig ~ Better TiCon NEI filters
+§bConfig ~ Moves some QED recipes to normal crafting to break dependence on getting Enderium
 §aAdded ~ ArchitectureCraft
 §aAdded ~ Mutant Creatures (no overworld spawns)
 §bConfig ~ Added Mutant Creatures to low pressure biome + atmosphere exclusion

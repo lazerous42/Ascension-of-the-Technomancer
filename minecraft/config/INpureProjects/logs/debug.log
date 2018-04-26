@@ -128,6 +128,7 @@ Found creative tab: natura.plants
 Found creative tab: natura.nether
 Found creative tab: natura.trees
 Found creative tab: Nether Ores
+Found creative tab: NotEnoughWands
 Found creative tab: tabOpenBlocks
 Found creative tab: OpenComputers
 Found creative tab: tabOpenPeripheralAddons
@@ -298,9 +299,6 @@ Found creative tab: OpenSecurity
 Found creative tab: powersuits
 Found creative tab: props.Main
 Found creative tab: search
-Found creative tab: psycheDrinks
-Found creative tab: psychedelicraft
-Found creative tab: psycheWeapons
 Found creative tab: tabRailcraftCos
 Found creative tab: inventoryGenerators
 Found creative tab: structureTools
@@ -349,17 +347,17 @@ Regex match found! ThermalExpansion:florb matches ThermalExpansion:florb.
 Found ItemStack ThermalExpansion:florb. 16xitem.thermalexpansion.florb@0
 Loading: Mekanism.js
 Loading: ForgeMicroblock.js
-getRandomMaterial called. Returned: ChromatiCraft:chromaticraft_block_dye_6
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, ChromatiCraft:chromaticraft_block_dye_6
+getRandomMaterial called. Returned: ChromatiCraft:chromaticraft_block_pylonstruct
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, ChromatiCraft:chromaticraft_block_pylonstruct
 Loading: ExtraUtilities.js
 override called. Params: ExtraUtilities, drum, 0,1
 Regex match found! ExtraUtilities:drum matches ExtraUtilities:drum.
 Found ItemStack ExtraUtilities:drum. 64xtile.extrautils:drum@0
-getRandomMaterial called. Returned: ChromatiCraft:chromaticraft_block_pylonstruct
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, ChromatiCraft:chromaticraft_block_pylonstruct
+getRandomMaterial called. Returned: ChromatiCraft:chromaticraft_block_dye_10
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, ChromatiCraft:chromaticraft_block_dye_10
 Loading: BuildCraft.js
-getFacadesSize called. Returned: 5765
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 5605
+getFacadesSize called. Returned: 5761
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 2730
 Loading: Bibliocraft.js
 override called. Params: BiblioCraft, *, 0
 Regex match found! BiblioCraft:* matches BiblioCraft:Armor Stand.
@@ -495,22 +493,188 @@ Found ItemStack BiblioCraft:tile.BiblioFramedChest. 64xtile.BiblioFramedChest@0
 Loading: AppliedEnergistics2.js
 getFacadeItem called. Returned: appliedenergistics2:item.ItemFacade
 getSubTypes called.
-getNumberOfTypes called. Returned: 4005
-override called. Params: appliedenergistics2, item.ItemFacade, 1188
+getNumberOfTypes called. Returned: 4003
+override called. Params: appliedenergistics2, item.ItemFacade, 298
 Regex match found! appliedenergistics2:item.ItemFacade matches appliedenergistics2:item.ItemFacade.
 Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
 Loading: Tcon.js
-override called. Params: TConstruct, tool*, 0
-Regex match found! TConstruct:tool* matches TConstruct:toolRod.
-Regex match found! TConstruct:tool* matches TConstruct:toolShard.
+hide called. Params: TConstruct, ToolStationBlock
+Regex match found! TConstruct:ToolStationBlock matches TConstruct:ToolStationBlock.
+Found ItemStack TConstruct:ToolStationBlock. 64xtile.ToolStation@0
+hide called. Params: TConstruct, ToolForgeBlock
+Regex match found! TConstruct:ToolForgeBlock matches TConstruct:ToolForgeBlock.
+Found ItemStack TConstruct:ToolForgeBlock. 64xtile.ToolForge@0
+hide called. Params: TConstruct, blankPattern
+Regex match found! TConstruct:blankPattern matches TConstruct:blankPattern.
+Found ItemStack TConstruct:blankPattern. 64xitem.tconstruct.Pattern@0
+hide called. Params: TConstruct, woodPattern
+Regex match found! TConstruct:woodPattern matches TConstruct:woodPattern.
+Found ItemStack TConstruct:woodPattern. 1xitem.tconstruct.Pattern@0
+hide called. Params: TConstruct, pickaxe
+Regex match found! TConstruct:pickaxe matches TConstruct:pickaxe.
+Found ItemStack TConstruct:pickaxe. 1xitem.InfiTool.Pickaxe@0
+hide called. Params: TConstruct, shovel
+Regex match found! TConstruct:shovel matches TConstruct:shovel.
+Found ItemStack TConstruct:shovel. 1xitem.InfiTool.Shovel@0
+hide called. Params: TConstruct, hatchet
+Regex match found! TConstruct:hatchet matches TConstruct:hatchet.
+Found ItemStack TConstruct:hatchet. 1xitem.InfiTool.Axe@0
+hide called. Params: TConstruct, broadsword
+Regex match found! TConstruct:broadsword matches TConstruct:broadsword.
+Found ItemStack TConstruct:broadsword. 1xitem.InfiTool.Broadsword@0
+hide called. Params: TConstruct, longsword
+Regex match found! TConstruct:longsword matches TConstruct:longsword.
+Found ItemStack TConstruct:longsword. 1xitem.InfiTool.Longsword@0
+hide called. Params: TConstruct, rapier
+Regex match found! TConstruct:rapier matches TConstruct:rapier.
+Found ItemStack TConstruct:rapier. 1xitem.InfiTool.Rapier@0
+hide called. Params: TConstruct, dagger
+Regex match found! TConstruct:dagger matches TConstruct:dagger.
+Found ItemStack TConstruct:dagger. 1xitem.InfiTool.Dagger@0
+hide called. Params: TConstruct, cutlass
+Regex match found! TConstruct:cutlass matches TConstruct:cutlass.
+Found ItemStack TConstruct:cutlass. 1xitem.InfiTool.Cutlass@0
+hide called. Params: TConstruct, frypan
+Regex match found! TConstruct:frypan matches TConstruct:frypan.
+Found ItemStack TConstruct:frypan. 1xitem.InfiTool.FryPan@0
+hide called. Params: TConstruct, battlesign
+Regex match found! TConstruct:battlesign matches TConstruct:battlesign.
+Found ItemStack TConstruct:battlesign. 1xitem.InfiTool.Battlesign@0
+hide called. Params: TConstruct, mattock
+Regex match found! TConstruct:mattock matches TConstruct:mattock.
+Found ItemStack TConstruct:mattock. 1xitem.InfiTool.Mattock@0
+hide called. Params: TConstruct, chisel
+Regex match found! TConstruct:chisel matches TConstruct:chisel.
+Found ItemStack TConstruct:chisel. 1xitem.InfiTool.Chisel@0
+hide called. Params: TConstruct, lumberaxe
+Regex match found! TConstruct:lumberaxe matches TConstruct:lumberaxe.
+Found ItemStack TConstruct:lumberaxe. 1xitem.InfiTool.LumberAxe@0
+hide called. Params: TConstruct, cleaver
+Regex match found! TConstruct:cleaver matches TConstruct:cleaver.
+Found ItemStack TConstruct:cleaver. 1xitem.InfiTool.Cleaver@0
+hide called. Params: TConstruct, scythe
+Regex match found! TConstruct:scythe matches TConstruct:scythe.
+Found ItemStack TConstruct:scythe. 1xitem.InfiTool.Scythe@0
+hide called. Params: TConstruct, excavator
+Regex match found! TConstruct:excavator matches TConstruct:excavator.
+Found ItemStack TConstruct:excavator. 1xitem.InfiTool.Excavator@0
+hide called. Params: TConstruct, hammer
+Regex match found! TConstruct:hammer matches TConstruct:hammer.
+Found ItemStack TConstruct:hammer. 1xitem.InfiTool.Hammer@0
+hide called. Params: TConstruct, battleaxe
+Regex match found! TConstruct:battleaxe matches TConstruct:battleaxe.
+Found ItemStack TConstruct:battleaxe. 1xitem.InfiTool.Battleaxe@0
+hide called. Params: TConstruct, toolRod
+Regex match found! TConstruct:toolRod matches TConstruct:toolRod.
 Found ItemStack TConstruct:toolRod. 64xitem.tconstruct.ToolRod@0
+hide called. Params: TConstruct, pickaxeHead
+Regex match found! TConstruct:pickaxeHead matches TConstruct:pickaxeHead.
+Found ItemStack TConstruct:pickaxeHead. 64xitem.tconstruct.PickaxeHead@0
+hide called. Params: TConstruct, shovelHead
+Regex match found! TConstruct:shovelHead matches TConstruct:shovelHead.
+Found ItemStack TConstruct:shovelHead. 64xitem.tconstruct.ShovelHead@0
+hide called. Params: TConstruct, hatchetHead
+Regex match found! TConstruct:hatchetHead matches TConstruct:hatchetHead.
+Found ItemStack TConstruct:hatchetHead. 64xitem.tconstruct.AxeHead@0
+hide called. Params: TConstruct, toolShard
+Regex match found! TConstruct:toolShard matches TConstruct:toolShard.
 Found ItemStack TConstruct:toolShard. 64xitem.tconstruct.ToolShard@0
-override called. Params: TConstruct, binding, 0
+hide called. Params: TConstruct, binding
 Regex match found! TConstruct:binding matches TConstruct:binding.
 Found ItemStack TConstruct:binding. 64xitem.tconstruct.Binding@0
-override called. Params: TConstruct, scytheBlade, 0
+hide called. Params: TConstruct, toughBinding
+Regex match found! TConstruct:toughBinding matches TConstruct:toughBinding.
+Found ItemStack TConstruct:toughBinding. 64xitem.tconstruct.ToughBinding@0
+hide called. Params: TConstruct, toughRod
+Regex match found! TConstruct:toughRod matches TConstruct:toughRod.
+Found ItemStack TConstruct:toughRod. 64xitem.tconstruct.ToughRod@0
+hide called. Params: TConstruct, heavyPlate
+Regex match found! TConstruct:heavyPlate matches TConstruct:heavyPlate.
+Found ItemStack TConstruct:heavyPlate. 64xitem.tconstruct.LargePlate@0
+hide called. Params: TConstruct, swordBlade
+Regex match found! TConstruct:swordBlade matches TConstruct:swordBlade.
+Found ItemStack TConstruct:swordBlade. 64xitem.tconstruct.SwordBlade@0
+hide called. Params: TConstruct, wideGuard
+Regex match found! TConstruct:wideGuard matches TConstruct:wideGuard.
+Found ItemStack TConstruct:wideGuard. 64xitem.tconstruct.LargeGuard@0
+hide called. Params: TConstruct, handGuard
+Regex match found! TConstruct:handGuard matches TConstruct:handGuard.
+Found ItemStack TConstruct:handGuard. 64xitem.tconstruct.MediumGuard@0
+hide called. Params: TConstruct, crossbar
+Regex match found! TConstruct:crossbar matches TConstruct:crossbar.
+Found ItemStack TConstruct:crossbar. 64xitem.tconstruct.Crossbar@0
+hide called. Params: TConstruct, knifeBlade
+Regex match found! TConstruct:knifeBlade matches TConstruct:knifeBlade.
+Found ItemStack TConstruct:knifeBlade. 64xitem.tconstruct.KnifeBlade@0
+hide called. Params: TConstruct, fullGuard
+Regex match found! TConstruct:fullGuard matches TConstruct:fullGuard.
+Found ItemStack TConstruct:fullGuard. 64xitem.tconstruct.FullGuard@0
+hide called. Params: TConstruct, frypanHead
+Regex match found! TConstruct:frypanHead matches TConstruct:frypanHead.
+Found ItemStack TConstruct:frypanHead. 64xitem.tconstruct.FrypanHead@0
+hide called. Params: TConstruct, signHead
+Regex match found! TConstruct:signHead matches TConstruct:signHead.
+Found ItemStack TConstruct:signHead. 64xitem.tconstruct.SignHead@0
+hide called. Params: TConstruct, chiselHead
+Regex match found! TConstruct:chiselHead matches TConstruct:chiselHead.
+Found ItemStack TConstruct:chiselHead. 64xitem.tconstruct.ChiselHead@0
+hide called. Params: TConstruct, scytheBlade
 Regex match found! TConstruct:scytheBlade matches TConstruct:scytheBlade.
 Found ItemStack TConstruct:scytheBlade. 64xitem.tconstruct.ScytheHead@0
+hide called. Params: TConstruct, broadAxeHead
+Regex match found! TConstruct:broadAxeHead matches TConstruct:broadAxeHead.
+Found ItemStack TConstruct:broadAxeHead. 64xitem.tconstruct.LumberAxeHead@0
+hide called. Params: TConstruct, excavatorHead
+Regex match found! TConstruct:excavatorHead matches TConstruct:excavatorHead.
+Found ItemStack TConstruct:excavatorHead. 64xitem.tconstruct.ExcavatorHead@0
+hide called. Params: TConstruct, largeSwordBlade
+Regex match found! TConstruct:largeSwordBlade matches TConstruct:largeSwordBlade.
+Found ItemStack TConstruct:largeSwordBlade. 64xitem.tconstruct.LargeSwordBlade@0
+hide called. Params: TConstruct, hammerHead
+Regex match found! TConstruct:hammerHead matches TConstruct:hammerHead.
+Found ItemStack TConstruct:hammerHead. 64xitem.tconstruct.HammerHead@0
+hide called. Params: TConstruct, creativeModifier
+Regex match found! TConstruct:creativeModifier matches TConstruct:creativeModifier.
+Found ItemStack TConstruct:creativeModifier. 64xitem.tconstruct.modifier.creative@0
+hide called. Params: TConstruct, manualBook
+Regex match found! TConstruct:manualBook matches TConstruct:manualBook.
+Found ItemStack TConstruct:manualBook. 64xitem.tconstruct.manual@0
+hide called. Params: TConstruct, travelGoggles
+Regex match found! TConstruct:travelGoggles matches TConstruct:travelGoggles.
+Found ItemStack TConstruct:travelGoggles. 1xitem.tconstruct.travelgoggles@0
+hide called. Params: TConstruct, travelVest
+Regex match found! TConstruct:travelVest matches TConstruct:travelVest.
+Found ItemStack TConstruct:travelVest. 1xitem.tconstruct.travelvest@0
+hide called. Params: TConstruct, travelWings
+Regex match found! TConstruct:travelWings matches TConstruct:travelWings.
+Found ItemStack TConstruct:travelWings. 1xitem.tconstruct.travelwings@0
+hide called. Params: TConstruct, travelBoots
+Regex match found! TConstruct:travelBoots matches TConstruct:travelBoots.
+Found ItemStack TConstruct:travelBoots. 1xitem.tconstruct.travelboots@0
+hide called. Params: TConstruct, travelGlove
+Regex match found! TConstruct:travelGlove matches TConstruct:travelGlove.
+Found ItemStack TConstruct:travelGlove. 1xitem.tconstruct.travelgloves@0
+hide called. Params: TConstruct, goldHead
+Regex match found! TConstruct:goldHead matches TConstruct:goldHead.
+Found ItemStack TConstruct:goldHead. 64xitem.goldenhead@0
+hide called. Params: TConstruct, SmelteryNether
+Regex match found! TConstruct:SmelteryNether matches TConstruct:SmelteryNether.
+Found ItemStack TConstruct:SmelteryNether. 64xtile.Smeltery@0
+hide called. Params: TConstruct, SmelteryNether
+Regex match found! TConstruct:SmelteryNether matches TConstruct:SmelteryNether.
+Found ItemStack TConstruct:SmelteryNether. 64xtile.Smeltery@0
+hide called. Params: TConstruct, SearedBlockNether
+Regex match found! TConstruct:SearedBlockNether matches TConstruct:SearedBlockNether.
+Found ItemStack TConstruct:SearedBlockNether. 64xtile.SearedBlock@0
+override called. Params: TConstruct, CraftingSlab, 0
+Regex match found! TConstruct:CraftingSlab matches TConstruct:CraftingSlab.
+Found ItemStack TConstruct:CraftingSlab. 64xtile.CraftingSlab@0
+override called. Params: TConstruct, metalPattern, 0,26,27
+Regex match found! TConstruct:metalPattern matches TConstruct:metalPattern.
+Found ItemStack TConstruct:metalPattern. 1xitem.tconstruct.MetalPattern@0
+override called. Params: TConstruct, materials, 2,3,8,9,10,11,13,16,19,20
+Regex match found! TConstruct:materials matches TConstruct:materials.
+Found ItemStack TConstruct:materials. 64xitem.tconstruct.Materials@0
 Loading: MFR.js
 override called. Params: MineFactoryReloaded, tile.mfr.stainedglass.block, 0
 hide called. Params: MineFactoryReloaded:fluid.mfr.liquid.milk.still, 0

@@ -1,14 +1,19 @@
 {
     "data": [{
             "name": "CertusElectronTube",
-            "creativeTab": "Forestry"
+            "creativeTab": "forestry"
         },
         {
-            "name": "AluminiumItemCasing"
+            "name": "AluminiumItemCasing",
+            "creativeTab": "GregTech.Materials"
         },
         {
             "name": "ElectrotineWire",
-            "creativeTab": "ProjRed|Transmission"
+            "creativeTab": "trans"
+        },
+        {
+            "name": "ichorBulb",
+            "rarity": "epic"
         }
     ]
 }

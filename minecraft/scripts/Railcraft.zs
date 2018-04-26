@@ -8,6 +8,7 @@ import mods.railcraft.RockCrusher;
 import mods.railcraft.Rolling;
 import mods.thaumcraft.Infusion;
 import mods.railcraft.CokeOven;
+import mods.gregtech.Assembler;
 import mods.ic2.Compressor;
 
 print("Initializing 'Railcraft.zs'...");
@@ -77,6 +78,13 @@ recipes.remove(firestoneCut);
 recipes.remove(firestoneRefined);
 recipes.addShaped(firestoneCut,[[null, pickaxeDiamond, null], [pickaxeDiamond, firestoneRaw, pickaxeDiamond], [null, pickaxeDiamond, null]]);
 recipes.addShaped(firestoneRefined, [[bucketLava, blockRedstone, bucketLava], [blockRedstone, firestoneCut, blockRedstone], [bucketLava, blockRedstone, bucketLava]]);
+
+## H.S. Rail
+Rolling.removeRecipe(<Railcraft:part.rail:3>);
+Rolling.addShaped(<Railcraft:part.rail:3> * 8, [[<ore:ingotIronCompressed>, <minecraft:blaze_powder>, <ore:ingotGold>],
+												[<ore:ingotIronCompressed>, <minecraft:blaze_powder>, <ore:ingotGold>],
+												[<ore:ingotIronCompressed>, <minecraft:blaze_powder>, <ore:ingotGold>]]);
+Assembler.addRecipe(<Railcraft:part.rail:3> * 8, <PneumaticCraft:ingotIronCompressed> * 3, <gregtech:gt.metaitem.01:17086> * 3, <liquid:molten.blaze> * 432, 400, 4);
 
 ##  Anchors
 recipes.remove(<Railcraft:machine.alpha>);

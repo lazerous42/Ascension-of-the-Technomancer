@@ -10,7 +10,6 @@ import mods.gregtech.Assembler;
 import mods.thaumcraft.Infusion;
 import mods.thaumcraft.Arcane;
 import mods.immersiveengineering.ArcFurnace;
-import mods.nei.NEI;
 
 print("Initializing 'TConstruct.zs'...");
 
@@ -19,217 +18,130 @@ print("Initializing 'TConstruct.zs'...");
 
 # Tool Station/Forge Blocks
 recipes.remove(<TConstruct:ToolStationBlock:*>);
-NEI.hide(<TConstruct:ToolStationBlock:*>);
 recipes.remove(<TConstruct:ToolForgeBlock:*>);
-NEI.hide(<TConstruct:ToolForgeBlock:*>);
 recipes.remove(<TConstruct:CraftingSlab:1>);
 recipes.remove(<TConstruct:CraftingSlab:2>);
 recipes.remove(<TConstruct:CraftingSlab:3>);
 recipes.remove(<TConstruct:CraftingSlab:4>);
 recipes.remove(<TConstruct:CraftingSlab:5>);
-NEI.hide(<TConstruct:CraftingSlab:1>);
-NEI.hide(<TConstruct:CraftingSlab:2>);
-NEI.hide(<TConstruct:CraftingSlab:3>);
-NEI.hide(<TConstruct:CraftingSlab:4>);
-NEI.hide(<TConstruct:CraftingSlab:5>);
 
 # Smeltery Blocks ~ Only allow for overworld variant
 recipes.remove(<TConstruct:SmelteryNether:*>);
-NEI.hide(<TConstruct:SmelteryNether:*>);
 recipes.remove(<TConstruct:LavaTankNether:*>);
-NEI.hide(<TConstruct:LavaTankNether:*>);
 recipes.remove(<TConstruct:SearedBlockNether:*>);
-NEI.hide(<TConstruct:SearedBlockNether:*>);
 
 # Patterns
 recipes.remove(<TConstruct:blankPattern>);
-NEI.hide(<TConstruct:blankPattern>);
 
 var woodPatternMeta = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25] as int[];
 for meta in woodPatternMeta {
 	recipes.remove(<TConstruct:woodPattern>.definition.makeStack(meta));
-	NEI.hide(<TConstruct:woodPattern>.definition.makeStack(meta));
 }
 
 # Wow, the rediculous BS around trying to script this mod.  I cann't remove the arrowhead case (TConstruct:metalPattern:25) 
 # because it throws errors while also removing the item
-var metalPatternMeta = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22] as int[];
+var metalPatternMeta = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22] as int[];
 for meta in metalPatternMeta {
 	Casting.removeTableRecipe(<TConstruct:metalPattern>.definition.makeStack(meta));
-	NEI.hide(<TConstruct:metalPattern>.definition.makeStack(meta));
 }
-
-#Casting.removeTableRecipe(<TConstruct:blankPattern:*>);
-#NEI.hide(<TConstruct:blankPattern:1>);
-#NEI.hide(<TConstruct:blankPattern:2>);
-#Casting.removeTableRecipe(<TConstruct:metalPattern>);
-#NEI.hide(<TConstruct:metalPattern>);
-#Casting.removeTableRecipe(<TConstruct:metalPattern:1>);
 
 # Remove Aluminum Brass
 Smeltery.removeMelting(<TConstruct:blankPattern:1>);
 recipes.remove(<TConstruct:materials:42>);
-NEI.hide(<TConstruct:materials:42>);
 ArcFurnace.removeRecipe(<ImmersiveEngineering:metal:14>);
-NEI.hide(<TConstruct:materials:14>);
 
 # Tools
-#recipes.remove(<TConstruct:pickaxe>);
-NEI.hide(<TConstruct:pickaxe>);
-#recipes.remove(<TConstruct:shovel>);
-NEI.hide(<TConstruct:shovel>);
-#recipes.remove(<TConstruct:hatchet>);
-NEI.hide(<TConstruct:hatchet>);
-#recipes.remove(<TConstruct:broadsword>);
-NEI.hide(<TConstruct:broadsword>);
-#recipes.remove(<TConstruct:longsword>);
-NEI.hide(<TConstruct:longsword>);
-#recipes.remove(<TConstruct:rapier>);
-NEI.hide(<TConstruct:rapier>);
-#recipes.remove(<TConstruct:dagger>);
-NEI.hide(<TConstruct:dagger>);
-#recipes.remove(<TConstruct:cutlass>);
-NEI.hide(<TConstruct:cutlass>);
-#recipes.remove(<TConstruct:frypan>);
-NEI.hide(<TConstruct:frypan>);
-#recipes.remove(<TConstruct:battlesign>);
-NEI.hide(<TConstruct:battlesign>);
-#recipes.remove(<TConstruct:mattock>);
-NEI.hide(<TConstruct:mattock>);
-#recipes.remove(<TConstruct:chisel>);
-NEI.hide(<TConstruct:chisel>);
-#recipes.remove(<TConstruct:lumberaxe>);
-NEI.hide(<TConstruct:lumberaxe>);
+recipes.remove(<TConstruct:pickaxe>);
+recipes.remove(<TConstruct:shovel>);
+recipes.remove(<TConstruct:hatchet>);
+recipes.remove(<TConstruct:broadsword>);
+recipes.remove(<TConstruct:longsword>);
+recipes.remove(<TConstruct:rapier>);
+recipes.remove(<TConstruct:dagger>);
+recipes.remove(<TConstruct:cutlass>);
+recipes.remove(<TConstruct:frypan>);
+recipes.remove(<TConstruct:battlesign>);
+recipes.remove(<TConstruct:mattock>);
+recipes.remove(<TConstruct:chisel>);
+recipes.remove(<TConstruct:lumberaxe>);
 recipes.remove(<TConstruct:cleaver>);
-NEI.hide(<TConstruct:cleaver>);
-#recipes.remove(<TConstruct:scythe>);
-NEI.hide(<TConstruct:scythe>);
-#recipes.remove(<TConstruct:excavator>);
-NEI.hide(<TConstruct:excavator>);
-#recipes.remove(<TConstruct:hammer>);
-NEI.hide(<TConstruct:hammer>);
-#recipes.remove(<TConstruct:battleaxe>);
-NEI.hide(<TConstruct:battleaxe>);
+recipes.remove(<TConstruct:scythe>);
+recipes.remove(<TConstruct:excavator>);
+recipes.remove(<TConstruct:hammer>);
+recipes.remove(<TConstruct:battleaxe>);
 
 # Parts
 Casting.removeTableRecipe(<TConstruct:toolRod:*>);
 recipes.remove(<TConstruct:toolRod:*>);
-NEI.hide(<TConstruct:toolRod:*>);
 Casting.removeTableRecipe(<TConstruct:pickaxeHead:*>);
 recipes.remove(<TConstruct:pickaxeHead:*>);
-NEI.hide(<TConstruct:pickaxeHead:*>);
 Casting.removeTableRecipe(<TConstruct:shovelHead:*>);
 recipes.remove(<TConstruct:shovelHead:*>);
-NEI.hide(<TConstruct:shovelHead:*>);
 Casting.removeTableRecipe(<TConstruct:hatchetHead:*>);
 recipes.remove(<TConstruct:hatchetHead:*>);
-NEI.hide(<TConstruct:hatchetHead:*>);
-NEI.hide(<TConstruct:toolShard:*>);
 Casting.removeTableRecipe(<TConstruct:binding:*>);
 recipes.remove(<TConstruct:binding:*>);
-NEI.hide(<TConstruct:binding:*>);
 Casting.removeTableRecipe(<TConstruct:toughBinding:*>);
 recipes.remove(<TConstruct:toughBinding:*>);
-NEI.hide(<TConstruct:toughBinding:*>);
 Casting.removeTableRecipe(<TConstruct:toughRod:*>);
 recipes.remove(<TConstruct:toughRod:*>);
-NEI.hide(<TConstruct:toughRod:*>);
 Casting.removeTableRecipe(<TConstruct:heavyPlate:*>);
 recipes.remove(<TConstruct:heavyPlate:*>);
-NEI.hide(<TConstruct:heavyPlate:*>);
 Casting.removeTableRecipe(<TConstruct:swordBlade:*>);
 recipes.remove(<TConstruct:swordBlade:*>);
-NEI.hide(<TConstruct:swordBlade:*>);
 Casting.removeTableRecipe(<TConstruct:wideGuard:*>);
 recipes.remove(<TConstruct:wideGuard:*>);
-NEI.hide(<TConstruct:wideGuard:*>);
 Casting.removeTableRecipe(<TConstruct:handGuard:*>);
 recipes.remove(<TConstruct:handGuard:*>);
-NEI.hide(<TConstruct:handGuard:*>);
 Casting.removeTableRecipe(<TConstruct:crossbar:*>);
 recipes.remove(<TConstruct:crossbar:*>);
-NEI.hide(<TConstruct:crossbar:*>);
 Casting.removeTableRecipe(<TConstruct:knifeBlade:*>);
 recipes.remove(<TConstruct:knifeBlade:*>);
-NEI.hide(<TConstruct:knifeBlade:*>);
 Casting.removeTableRecipe(<TConstruct:fullGuard:*>);
 recipes.remove(<TConstruct:fullGuard:*>);
-NEI.hide(<TConstruct:fullGuard:*>);
 Casting.removeTableRecipe(<TConstruct:frypanHead:*>);
 recipes.remove(<TConstruct:frypanHead:*>);
-NEI.hide(<TConstruct:frypanHead:*>);
 Casting.removeTableRecipe(<TConstruct:signHead:*>);
 recipes.remove(<TConstruct:signHead:*>);
-NEI.hide(<TConstruct:signHead:*>);
 Casting.removeTableRecipe(<TConstruct:chiselHead:*>);
 recipes.remove(<TConstruct:chiselHead:*>);
-NEI.hide(<TConstruct:chiselHead:*>);
 Casting.removeTableRecipe(<TConstruct:scytheBlade:*>);
 recipes.remove(<TConstruct:scytheBlade:*>);
-NEI.hide(<TConstruct:scytheBlade:*>);
 Casting.removeTableRecipe(<TConstruct:broadAxeHead:*>);
 recipes.remove(<TConstruct:broadAxeHead:*>);
-NEI.hide(<TConstruct:broadAxeHead:*>);
 Casting.removeTableRecipe(<TConstruct:excavatorHead:*>);
 recipes.remove(<TConstruct:excavatorHead:*>);
-NEI.hide(<TConstruct:excavatorHead:*>);
 Casting.removeTableRecipe(<TConstruct:largeSwordBlade:*>);
 recipes.remove(<TConstruct:largeSwordBlade:*>);
-NEI.hide(<TConstruct:largeSwordBlade:*>);
 Casting.removeTableRecipe(<TConstruct:hammerHead:*>);
 recipes.remove(<TConstruct:hammerHead:*>);
-NEI.hide(<TConstruct:hammerHead:*>);
-NEI.hide(<TConstruct:creativeModifier:*>);
 
 # Travelers Gear
 recipes.remove(<TConstruct:travelGoggles>);
-NEI.hide(<TConstruct:travelGoggles>);
 recipes.remove(<TConstruct:travelVest>);
-NEI.hide(<TConstruct:travelVest>);
 recipes.remove(<TConstruct:travelWings>);
-NEI.hide(<TConstruct:travelWings>);
 recipes.remove(<TConstruct:travelBoots>);
-NEI.hide(<TConstruct:travelBoots>);
 recipes.remove(<TConstruct:travelGlove>);
-NEI.hide(<TConstruct:travelGlove>);
-recipes.remove(<TConstruct:travelBelt>);
-NEI.hide(<TConstruct:travelBelt>);
 
 # Materials
 recipes.remove(<TConstruct:materials>);
-NEI.hide(<TConstruct:materials>);
 furnace.remove(<TConstruct:materials:1>);
-NEI.hide(<TConstruct:materials:1>);
 
 # Stained Glass
 recipes.addShapeless(<TConstruct:GlassBlock>, [<EnderIO:blockFusedQuartz:1>]);
 recipes.addShapeless(<EnderIO:blockFusedQuartz:1>, [<TConstruct:GlassBlock>]);
 recipes.addShapedMirrored(<TConstruct:GlassPane> * 16, [[<TConstruct:GlassBlock>, <TConstruct:GlassBlock>, <TConstruct:GlassBlock>],
-						   	[<TConstruct:GlassBlock>, <TConstruct:GlassBlock>, <TConstruct:GlassBlock>],
-						   	[null, null, null]]);
-
-# Ore Berries
-NEI.hide(<TConstruct:oreBerries>);
-NEI.hide(<TConstruct:oreBerries:1>);
-NEI.hide(<TConstruct:oreBerries:2>);
-NEI.hide(<TConstruct:oreBerries:3>);
-NEI.hide(<TConstruct:oreBerries:4>);
+						   								[<TConstruct:GlassBlock>, <TConstruct:GlassBlock>, <TConstruct:GlassBlock>],
+						   								[null, null, null]]);
 
 # Grout
 recipes.remove(<TConstruct:CraftedSoil:1>);
 recipes.addShapeless(<TConstruct:CraftedSoil:1>, [<minecraft:sand>, <minecraft:gravel>, <minecraft:clay_ball>, <ImmersiveEngineering:material:13>, <advancedRocketry:moonTurf>]);
 
 # Misc
-recipes.remove(<TConstruct:GlueBlock:*>);
-NEI.hide(<TConstruct:GlueBlock:*>);
+recipes.remove(<TConstruct:goldHead>);
 Casting.removeTableRecipe(<TConstruct:goldHead>);
 recipes.remove(<TConstruct:manualBook:*>);
-NEI.hide(<TConstruct:manualBook>);
-NEI.hide(<TConstruct:manualBook:1>);
-NEI.hide(<TConstruct:manualBook:2>);
-NEI.hide(<TConstruct:manualBook:3>);
-NEI.hide(<TConstruct:manualBook:4>);
-NEI.hide(<TConstruct:potionLauncher>);
 
 ## Now for setting the allowed recipes
 # Removing lava as a smeltery fuel (pyrothium only)

@@ -3350,14 +3350,6 @@ minecraft:water_bucket - 0
 aether:skyrootWaterBucket - 0
 
 
-budCannabis
-psychedelicraft:cannabisBuds - 0
-
-
-budCannabisDried
-psychedelicraft:driedCannabisBuds - 0
-
-
 burntQuartz
 ExtraUtilities:decorativeBlock1 - 2
 
@@ -8766,9 +8758,6 @@ clusterCobaltOxide
 
 
 clusterCobaltite
-
-
-clusterCocaine
 
 
 clusterCocoa
@@ -21722,47 +21711,27 @@ ImmersiveEngineering:stoneDecoration - 4
 ImmersiveEngineering:stoneDecoration - 5
 
 
-conesHops
-psychedelicraft:hop_cones - 0
-
-
-consumableCigar
-psychedelicraft:cigar - 0
-
-
-consumableCigarette
-psychedelicraft:cigarette - 0
-
-
-consumableJoint
-psychedelicraft:joint - 0
-
-
-consumablePeyoteJoint
-psychedelicraft:peyoteJoint - 0
-
-
 container_oil
-MagicBees:capsule.void - 5
-Magneticraft:item.bucket_oil - 0
-MagicBees:capsule.magic - 5
+Forestry:refractoryOil - 0
 gregtech:gt.metaitem.01 - 30707
 Forestry:waxCapsuleOil - 0
+MagicBees:capsule.void - 5
 BuildCraft|Energy:bucketOil - 0
-Forestry:refractoryOil - 0
 Forestry:canOil - 0
+Magneticraft:item.bucket_oil - 0
+MagicBees:capsule.magic - 5
 
 
 container_water
-MagicBees:capsule.void - 1
-minecraft:potion - 0
-Forestry:waxCapsuleWater - 0
-MagicBees:capsule.magic - 1
-IC2:itemCellEmpty - 1
-minecraft:water_bucket - 0
 Forestry:canWater - 0
-Forestry:refractoryWater - 0
 aether:skyrootWaterBucket - 0
+Forestry:waxCapsuleWater - 0
+MagicBees:capsule.void - 1
+IC2:itemCellEmpty - 1
+minecraft:potion - 0
+Forestry:refractoryWater - 0
+minecraft:water_bucket - 0
+MagicBees:capsule.magic - 1
 
 
 cookingClam
@@ -22396,11 +22365,6 @@ cropCandleberry
 harvestcraft:candleberryItem - 0
 
 
-cropCannabis
-psychedelicraft:cannabisLeaf - 0
-psychedelicraft:cannabisBuds - 0
-
-
 cropCantaloupe
 harvestcraft:cantaloupeItem - 0
 
@@ -22474,16 +22438,8 @@ cropClove
 ExtraTrees:food - 39
 
 
-cropCoca
-psychedelicraft:cocaLeaf - 0
-
-
 cropCoconut
 harvestcraft:coconutItem - 0
-
-
-cropCoffea
-psychedelicraft:coffeaCherries - 0
 
 
 cropCoffee
@@ -22609,10 +22565,6 @@ harvestcraft:grapefruitItem - 0
 ExtraTrees:food - 11
 
 
-cropGrapes
-psychedelicraft:wineGrapes - 0
-
-
 cropHavenShroom
 nevermine:HavenShrooms - 0
 
@@ -22630,7 +22582,6 @@ nevermine:HollyTopPedals - 0
 
 
 cropHops
-psychedelicraft:hop_cones - 0
 
 
 cropIndustrialHemp
@@ -22808,10 +22759,6 @@ harvestcraft:peppercornItem - 0
 cropPersimmon
 BiomesOPlenty:food - 8
 harvestcraft:persimmonItem - 0
-
-
-cropPeyote
-psychedelicraft:peyote - 0
 
 
 cropPineapple
@@ -22999,10 +22946,6 @@ nevermine:TeaShreddings - 0
 
 cropThornyPlant
 nevermine:ThornyPetals - 0
-
-
-cropTobacco
-psychedelicraft:tobaccoLeaf - 0
 
 
 cropTomato
@@ -29933,10 +29876,6 @@ gregtech:gt.metaitem.01 - 2616
 
 dustCobaltite
 gregtech:gt.metaitem.01 - 2827
-
-
-dustCocaine
-psychedelicraft:cocaine_powder - 0
 
 
 dustCocoa
@@ -44924,9 +44863,6 @@ foodBamboosteamedrice
 harvestcraft:bamboosteamedriceItem - 0
 
 
-foodBanana
-
-
 foodBananamilkshake
 harvestcraft:bananamilkshakeItem - 0
 
@@ -45422,10 +45358,6 @@ foodCoffee
 harvestcraft:coffeeItem - 0
 
 
-foodCoffeeBeans
-psychedelicraft:coffeeBeans - 0
-
-
 foodCoffeeconleche
 harvestcraft:coffeeconlecheItem - 0
 
@@ -45828,10 +45760,6 @@ foodGooseberryyogurt
 harvestcraft:gooseberryyogurtItem - 0
 
 
-foodGrape
-psychedelicraft:wineGrapes - 0
-
-
 foodGrapefruitjelly
 harvestcraft:grapefruitjellyItem - 0
 
@@ -45940,10 +45868,6 @@ foodHash
 harvestcraft:hashItem - 0
 
 
-foodHashMuffin
-psychedelicraft:hashMuffin - 0
-
-
 foodHeartyBreakfast
 harvestcraft:heartybreakfastItem - 0
 
@@ -46018,10 +45942,6 @@ harvestcraft:jellydonutItem - 0
 
 foodJellyfishraw
 harvestcraft:jellyfishrawItem - 0
-
-
-foodJuniper
-psychedelicraft:juniperBerries - 0
 
 
 foodKetchup
@@ -46149,14 +46069,6 @@ harvestcraft:limeyogurtItem - 0
 
 foodLoadedbakedpotato
 harvestcraft:loadedbakedpotatoItem - 0
-
-
-foodMagicMushroomBrown
-psychedelicraft:brownMagicMushrooms - 0
-
-
-foodMagicMushroomRed
-psychedelicraft:redMagicMushrooms - 0
 
 
 foodMangochutney
@@ -46542,10 +46454,6 @@ foodPersimmonyogurt
 harvestcraft:persimmonyogurtItem - 0
 
 
-foodPeyoteDried
-psychedelicraft:driedPeyote - 0
-
-
 foodPickledbeets
 harvestcraft:pickledbeetsItem - 0
 
@@ -46560,9 +46468,6 @@ harvestcraft:picklesItem - 0
 
 foodPinacolada
 harvestcraft:pinacoladaItem - 0
-
-
-foodPineapple
 
 
 foodPineappleham
@@ -54595,9 +54500,6 @@ ingotCobaltOxide
 
 
 ingotCobaltite
-
-
-ingotCocaine
 
 
 ingotCocoa
@@ -67809,6 +67711,10 @@ itemGhastTear
 minecraft:ghast_tear - 0
 
 
+itemIchorBulb
+customthings:item - 3
+
+
 itemIlluminatedPanel
 appliedenergistics2:item.ItemMultiPart - 180
 appliedenergistics2:item.ItemMultiPart - 160
@@ -67944,30 +67850,6 @@ lead
 
 leadNugget
 MoarSigns:NuggetItems - 7
-
-
-leafCannabis
-psychedelicraft:cannabisLeaf - 0
-
-
-leafCannabisDried
-psychedelicraft:driedCannabisLeaves - 0
-
-
-leafCoca
-psychedelicraft:cocaLeaf - 0
-
-
-leafCocaDried
-psychedelicraft:driedCocaLeaves - 0
-
-
-leafTobacco
-psychedelicraft:tobaccoLeaf - 0
-
-
-leafTobaccoDried
-psychedelicraft:driedTobacco - 0
 
 
 leather
@@ -68860,7 +68742,6 @@ ExtraTrees:log - 37
 ExtraTrees:log - 38
 ExtraTrees:log - 39
 fossil:palaeorapheLog - 0
-psychedelicraft:psycheLog - 0
 TaintedMagic:BlockWarpwoodLog - 0
 witchery:witchlog - any
 arsmagica2:WitchwoodLog - 0
@@ -73159,9 +73040,6 @@ oreCobaltOxide
 
 oreCobaltite
 gregtech:gt.blockores - 827
-
-
-oreCocaine
 
 
 oreCocoa
@@ -93155,10 +93033,6 @@ seedCandleberry
 harvestcraft:candleberryseedItem - 0
 
 
-seedCannabis
-psychedelicraft:cannabisSeeds - 0
-
-
 seedCantaloupe
 harvestcraft:cantaloupeseedItem - 0
 
@@ -93189,14 +93063,6 @@ harvestcraft:chilipepperseedItem - 0
 
 seedCinderpearl
 AgriCraft:seedCinderpearl - 0
-
-
-seedCoca
-psychedelicraft:cocaSeeds - 0
-
-
-seedCoffea
-psychedelicraft:coffeaCherries - 0
 
 
 seedCoffee
@@ -93273,10 +93139,6 @@ nevermine:HeartFruitSeeds - 0
 
 seedHollyTop
 nevermine:HollyTopSeeds - 0
-
-
-seedHops
-psychedelicraft:hop_seeds - 0
 
 
 seedIndustrialHemp
@@ -93465,10 +93327,6 @@ nevermine:TeaSeeds - 0
 
 seedThornyPlant
 nevermine:ThornyPlantSeeds - 0
-
-
-seedTobacco
-psychedelicraft:tobaccoSeeds - 0
 
 
 seedTomato
@@ -94052,9 +93910,6 @@ shrubLavender
 
 silicon
 RotaryCraft:rotarycraft_item_compacts - 10
-
-
-singlePlankWoodRefined
 
 
 singularityBeryllium
@@ -109275,7 +109130,6 @@ BiomesOPlenty:persimmonLeaves - any
 IC2:blockRubLeaves - any
 Forestry:leaves - any
 fossil:palaeorapheLeaves - 0
-psychedelicraft:psycheLeaves - 0
 witchery:witchleaves - any
 TwilightForest:tile.TFLeaves - any
 TwilightForest:tile.TFMagicLeaves - any
@@ -109320,7 +109174,6 @@ Forestry:sapling - any
 Forestry:saplingGE - any
 MineFactoryReloaded:rubberwood.sapling - 0
 fossil:palaeorapheSapling - 0
-psychedelicraft:psycheSapling - 0
 TaintedMagic:BlockWarpwoodSapling - 0
 witchery:witchsapling - any
 TwilightForest:tile.TFSapling - any

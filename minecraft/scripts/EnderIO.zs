@@ -173,7 +173,7 @@ recipes.addShaped(<EnderIO:itemGliderWing>,[[null, null, <EnderIO:itemAlloy:6>],
 
 ##  Machine Chassis
 recipes.remove(machineChassis);
-QED.addShapedRecipe(machineChassis, [[ingotLumium, ingotElectrotineAlloy, ingotLumium], [basicCapacitor, <ThermalExpansion:Frame>, basicCapacitor], [ingotNickel, ironBarsDark, ingotNickel]]);
+recipes.addShaped(machineChassis, [[ingotLumium, ingotElectrotineAlloy, ingotLumium], [basicCapacitor, <ThermalExpansion:Frame>, basicCapacitor], [ingotNickel, ironBarsDark, ingotNickel]]);
 
 ##  Stirling Generator
 recipes.remove(stirlingGenerator);
@@ -208,9 +208,9 @@ recipes.addShaped(<EnderIO:blockAlloySmelter>, [[crushedObsidian, <IC2:blockHeat
 recipes.remove(<EnderIO:blockReinforcedObsidian>);
 recipes.addShaped(<EnderIO:blockReinforcedObsidian> * 4, [[<IC2:blockAlloy>, crushedObsidian, <IC2:blockAlloy>], [crushedObsidian, <StevesCarts:ModuleComponents:22>, crushedObsidian], [<IC2:blockAlloy>, crushedObsidian, <IC2:blockAlloy>]]);
 
-##  Remove Enchanter
+##  Enchanter
 recipes.remove(enchanter);
-recipes.addShaped(enchanter, [[diamondMana, bookEnchanted, diamondMana], [ingotDarkSoularium, ingotDarkSoularium, ingotDarkSoularium], [null, ingotDarkSoularium, null]]);
+QED.addShapedRecipe(enchanter, [[diamondMana, bookEnchanted, diamondMana], [ingotDarkSoularium, ingotDarkSoularium, ingotDarkSoularium], [null, ingotDarkSoularium, null]]);
 
 ##  Crystals
 //Autoclave.addRecipe(output, input, liquid, chance, durationTicks, euPerTick);

@@ -123,6 +123,12 @@ recipes.addShaped(<ExtraUtilities:generator:10>, [[ingotPlatinum, ingotPlatinum,
 recipes.remove(<ExtraUtilities:generator:11>);
 recipes.addShaped(<ExtraUtilities:generator:11>, [[<ExtraUtilities:decorativeBlock1:5>, <minecraft:nether_star>, <ExtraUtilities:decorativeBlock1:5>], [furnace, piston, furnace], [chipsetEmerald, gearEnderium, chipsetEmerald]]);
 
+##  Creative Builders Wand
+recipes.remove(<ExtraUtilities:creativebuilderswand>);
+QED.addShapedRecipe(<ExtraUtilities:creativebuilderswand>, [[<NotEnoughWands:BuildingWand>, <ExtraUtilities:unstableingot:2>, null],
+															[<ExtraUtilities:unstableingot:2>, <ore:ingotIronCompressed>, null],
+															[null, null, <ore:ingotIronCompressed>]]);
+
 ##  Pipes
 # Transfer
 recipes.remove(pipeTransfer);
@@ -192,14 +198,14 @@ Infusion.addRecipe("RESEARCH", ingotAngelSteel11, [<minecraft:leather>, blockNet
 Infusion.addRecipe("RESEARCH", ingotAngelSteel11, [<minecraft:gold_nugget>, blockNetherStar, ingotIchorium, blockEnhancedGalgadorian, bloodOrbTranscendent, ingotIchorium, leonardsUrn, ingotMobius, ingotIchorium, primordialPearl, blackAurem, ingotIchorium], "volatus 50, alienis 50, iter 50, praecantatio 50", <ExtraUtilities:angelRing:4>, 10);
 
 ##  Spikes
-recipes.remove(<ExtraUtilities:spike_base_gold>);
-recipes.remove(<ExtraUtilities:spike_base_diamond>);
-recipes.remove(<ExtraUtilities:spike_base>);
 recipes.remove(<ExtraUtilities:spike_base_wood>);
 recipes.addShaped(<ExtraUtilities:spike_base_wood>, [[null, <ExtraUtilities:decorativeBlock1:8>, null], [<ExtraUtilities:decorativeBlock1:8>, <ExtraUtilities:ethericsword>, <ExtraUtilities:decorativeBlock1:8>]]);
+recipes.remove(<ExtraUtilities:spike_base>);
+recipes.addShaped(<ExtraUtilities:spike_base>, [[null, <minecraft:iron_sword>, null], [<minecraft:iron_sword>, <minecraft:iron_block>, <minecraft:iron_sword>], [<minecraft:iron_block>, null, <minecraft:iron_block>]]);
+recipes.remove(<ExtraUtilities:spike_base_gold>);
+recipes.addShaped(<ExtraUtilities:spike_base_gold>, [[null, <minecraft:golden_sword>, null], [<minecraft:golden_sword>, <ExtraUtilities:decorativeBlock1:8>, <minecraft:golden_sword>], [<ExtraUtilities:decorativeBlock1:8>, <ExtraUtilities:spike_base>, <ExtraUtilities:decorativeBlock1:8>]]);
+recipes.remove(<ExtraUtilities:spike_base_diamond>);
 QED.addShapedRecipe(<ExtraUtilities:spike_base_diamond>, [[null, <minecraft:diamond_sword>, null], [<minecraft:diamond_sword>, <minecraft:diamond_block>, <minecraft:diamond_sword>], [<minecraft:diamond_block>, <ExtraUtilities:spike_base_gold>, <minecraft:diamond_block>]]);
-QED.addShapedRecipe(<ExtraUtilities:spike_base_gold>, [[null, <minecraft:golden_sword>, null], [<minecraft:golden_sword>, <ExtraUtilities:decorativeBlock1:8>, <minecraft:golden_sword>], [<ExtraUtilities:decorativeBlock1:8>, <ExtraUtilities:spike_base>, <ExtraUtilities:decorativeBlock1:8>]]);
-QED.addShapedRecipe(<ExtraUtilities:spike_base>, [[null, <minecraft:iron_sword>, null], [<minecraft:iron_sword>, <minecraft:iron_block>, <minecraft:iron_sword>], [<minecraft:iron_block>, null, <minecraft:iron_block>]]);
 
 ##  Ender Flux Crystal
 recipes.remove(<ExtraUtilities:endConstructor:2>);

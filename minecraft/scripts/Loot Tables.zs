@@ -68,8 +68,7 @@ vanilla.loot.addChestLoot("dungeonChest", <EnderIO:itemBasicCapacitor:1>.weight(
 vanilla.loot.addChestLoot("dungeonChest", <EnderIO:itemBasicCapacitor:2>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <EnderIO:itemBasicCapacitor>.weight(10), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <EnderIO:itemMaterial:1>.weight(25), 8, 16);
-vanilla.loot.addChestLoot("dungeonChest", <ExtraUtilities:bedrockiumIngot>.weight(1), 1, 2);
-vanilla.loot.addChestLoot("dungeonChest", <ExtraUtilities:bedrockiumIngot>.weight(3), 1, 3);
+vanilla.loot.addChestLoot("dungeonChest", <ExtraUtilities:bedrockiumIngot>.weight(2), 1, 3);
 vanilla.loot.addChestLoot("dungeonChest", <ExtraUtilities:builderswand>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <ExtraUtilities:cobblestone_compressed:4>.weight(1), 1, 2);
 vanilla.loot.addChestLoot("dungeonChest", <ExtraUtilities:creativebuilderswand>.weight(1), 1, 1);
@@ -184,7 +183,7 @@ vanilla.loot.addChestLoot("mineshaftCorridor", <EnderIO:itemAlloy:5>.weight(4), 
 vanilla.loot.addChestLoot("mineshaftCorridor", <EnderIO:itemAlloy:6>.weight(8), 1, 6);
 vanilla.loot.addChestLoot("mineshaftCorridor", <EnderIO:itemAlloy:7>.weight(4), 1, 6);
 vanilla.loot.addChestLoot("mineshaftCorridor", <EnderIO:itemMagnet>.weight(3), 1, 1);
-vanilla.loot.addChestLoot("mineshaftCorridor", <ExtraUtilities:bedrockiumIngot>.weight(3), 1, 3);
+vanilla.loot.addChestLoot("mineshaftCorridor", <ExtraUtilities:bedrockiumIngot>.weight(2), 1, 3);
 vanilla.loot.addChestLoot("mineshaftCorridor", <ExtraUtilities:builderswand>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("mineshaftCorridor", <ExtraUtilities:cobblestone_compressed:4>.weight(1), 1, 2);
 vanilla.loot.addChestLoot("mineshaftCorridor", <ExtraUtilities:cobblestone_compressed:5>.weight(3), 1, 2);
@@ -281,7 +280,7 @@ vanilla.loot.addChestLoot("netherFortress", <ChromatiCraft:chromaticraft_item_sh
 vanilla.loot.addChestLoot("netherFortress", <CrystalWing:crystalwing.crystalWing>.weight(5), 1, 1);
 vanilla.loot.addChestLoot("netherFortress", <EnderIO:blockReinforcedObsidian>.weight(8), 1, 8);
 vanilla.loot.addChestLoot("netherFortress", <EnderIO:itemMagnet>.weight(3), 1, 1);
-vanilla.loot.addChestLoot("netherFortress", <ExtraUtilities:bedrockiumIngot>.weight(3), 1, 3);
+vanilla.loot.addChestLoot("netherFortress", <ExtraUtilities:bedrockiumIngot>.weight(2), 1, 3);
 vanilla.loot.addChestLoot("netherFortress", <ExtraUtilities:cobblestone_compressed:4>.weight(1), 1, 2);
 vanilla.loot.addChestLoot("netherFortress", <ExtraUtilities:cobblestone_compressed:5>.weight(3), 1, 2);
 vanilla.loot.addChestLoot("netherFortress", <ExtraUtilities:creativebuilderswand>.weight(1), 1, 1);
@@ -382,7 +381,7 @@ vanilla.loot.addChestLoot("pyramidDesertyChest", <CrystalWing:crystalwing.crysta
 vanilla.loot.addChestLoot("pyramidDesertyChest", <EnderIO:itemFrankenSkull>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <EnderIO:itemMagnet>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <EnderIO:itemMaterial:6>.weight(3), 1, 1);
-vanilla.loot.addChestLoot("pyramidDesertyChest", <ExtraUtilities:bedrockiumIngot>.weight(3), 1, 3);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <ExtraUtilities:bedrockiumIngot>.weight(2), 1, 3);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <ExtraUtilities:cobblestone_compressed:4>.weight(1), 1, 2);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <ExtraUtilities:cobblestone_compressed:5>.weight(3), 1, 2);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <ExtraUtilities:creativebuilderswand>.weight(1), 1, 1);
@@ -476,7 +475,7 @@ vanilla.loot.addChestLoot("pyramidJungleChest", <ChromatiCraft:chromaticraft_ite
 vanilla.loot.addChestLoot("pyramidJungleChest", <ChromatiCraft:chromaticraft_item_help>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("pyramidJungleChest", <CrystalWing:crystalwing.crystalWing>.weight(5), 1, 1);
 vanilla.loot.addChestLoot("pyramidJungleChest", <EnderIO:itemMagnet>.weight(3), 1, 1);
-vanilla.loot.addChestLoot("pyramidJungleChest", <ExtraUtilities:bedrockiumIngot>.weight(3), 1, 3);
+vanilla.loot.addChestLoot("pyramidJungleChest", <ExtraUtilities:bedrockiumIngot>.weight(2), 1, 3);
 vanilla.loot.addChestLoot("pyramidJungleChest", <ExtraUtilities:cobblestone_compressed:4>.weight(1), 1, 2);
 vanilla.loot.addChestLoot("pyramidJungleChest", <ExtraUtilities:cobblestone_compressed:5>.weight(3), 1, 2);
 vanilla.loot.addChestLoot("pyramidJungleChest", <ExtraUtilities:creativebuilderswand>.weight(1), 1, 1);
@@ -645,7 +644,7 @@ vanilla.loot.addChestLoot("strongholdCorridor", <EnderIO:item.darkSteel_leggings
 vanilla.loot.addChestLoot("strongholdCorridor", <EnderIO:item.darkSteel_sword>.weight(5), 1, 1);
 vanilla.loot.addChestLoot("strongholdCorridor", <EnderIO:itemMagnet>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("strongholdCorridor", <EnderIO:itemTravelStaff>.weight(10), 1, 1);
-vanilla.loot.addChestLoot("strongholdCorridor", <ExtraUtilities:bedrockiumIngot>.weight(3), 1, 3);
+vanilla.loot.addChestLoot("strongholdCorridor", <ExtraUtilities:bedrockiumIngot>.weight(2), 1, 3);
 vanilla.loot.addChestLoot("strongholdCorridor", <ExtraUtilities:cobblestone_compressed:4>.weight(1), 1, 2);
 vanilla.loot.addChestLoot("strongholdCorridor", <ExtraUtilities:creativebuilderswand>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("strongholdCorridor", <ExtraUtilities:dark_portal:2>.weight(1), 1, 1);
@@ -880,7 +879,7 @@ vanilla.loot.addChestLoot("villageBlacksmith", <EnderIO:itemAlloy:4>.weight(7), 
 vanilla.loot.addChestLoot("villageBlacksmith", <EnderIO:itemAlloy:5>.weight(4), 1, 6);
 vanilla.loot.addChestLoot("villageBlacksmith", <EnderIO:itemAlloy:6>.weight(8), 1, 6);
 vanilla.loot.addChestLoot("villageBlacksmith", <EnderIO:itemAlloy:7>.weight(4), 1, 6);
-vanilla.loot.addChestLoot("villageBlacksmith", <ExtraUtilities:bedrockiumIngot>.weight(3), 1, 4);
+vanilla.loot.addChestLoot("villageBlacksmith", <ExtraUtilities:bedrockiumIngot>.weight(2), 1, 3);
 vanilla.loot.addChestLoot("villageBlacksmith", <ExtraUtilities:unstableingot:2>.weight(1), 1, 2);
 vanilla.loot.addChestLoot("villageBlacksmith", <HardcoreEnderExpansion:endium_ingot>.weight(3), 1, 2);
 vanilla.loot.addChestLoot("villageBlacksmith", <IC2:itemRecipePart:11>.weight(20), 1, 1);

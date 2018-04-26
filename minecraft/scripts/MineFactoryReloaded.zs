@@ -3,6 +3,9 @@
 // Author: Lazerous/Feed the Beast
 //////////////////////////////////////////////////////////////////////////////////////////////
 
+##  Imports
+import mods.extraUtils.QED;
+
 print("Initializing 'MineFactoryReloaded.zs'...");
 
 ##  Val Deinitions
@@ -24,6 +27,10 @@ val rednetEnergyCable = <MineFactoryReloaded:cable.redstone:2>;
 ##  Plastic Sheets
 recipes.remove(plasticSheets);
 recipes.addShaped(plasticSheets * 2, [[<ThermalExpansion:material:513>, <ore:dustPlastic>, <ThermalExpansion:material:513>], [<ore:dustPlastic>, <EnderIO:bucketRocket_fuel>.giveBack(<minecraft:bucket>), <ore:dustPlastic>], [<ThermalExpansion:material:513>, <ore:dustPlastic>, <ThermalExpansion:material:513>]]);
+
+##  Remove Reusable Saffari Net (use capture wand)
+# NOTE:  The only way to get this item is to grab it for two AE2 singularities via PneumaticCraft armadron traiding, or from the MFR villager
+recipes.remove(<MineFactoryReloaded:safarinet.reusable>);
 
 ##  Rednet Energy Cables
 recipes.remove(rednetEnergyCable);
