@@ -98,10 +98,10 @@
 97 is Occupied by: enchantment.wg.rideProtect (witchinggadgets.common.magic.WGEnchantRideProtect)
 98 is Occupied by: enchantment.wg.stealth (witchinggadgets.common.magic.WGEnchantStealth)
 99 is Occupied by: enchantment.wg.unveiling (witchinggadgets.common.magic.WGEnchantUnveiling)
-100 is Occupied by: enchantment.archmage (net.nevermine.assist.AscensionEnchants$7)
-101 is Occupied by: enchantment.control (net.nevermine.assist.AscensionEnchants$1)
-102 is Occupied by: enchantment.crush (net.nevermine.assist.AscensionEnchants$5)
-103 is Occupied by: enchantment.intervention (net.nevermine.assist.AscensionEnchants$10)
+100 is Occupied by: enchantment.chroma.autocollect (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentAutoCollect)
+101 is Occupied by: enchantment.archmage (net.nevermine.assist.AscensionEnchants$7)
+102 is Occupied by: enchantment.control (net.nevermine.assist.AscensionEnchants$1)
+103 is Occupied by: enchantment.crush (net.nevermine.assist.AscensionEnchants$5)
 104 is Occupied by: enchantment.overpower (net.nevermine.assist.AscensionEnchants$4)
 105 is Occupied by: enchantment.recharge (net.nevermine.assist.AscensionEnchants$3)
 106 is Occupied by: enchantment.sever (net.nevermine.assist.AscensionEnchants$6)
@@ -109,7 +109,7 @@
 108 is Occupied by: enchantment.slice (net.nevermine.assist.AscensionEnchants$9)
 109 is Occupied by: enchantment.windfury (net.nevermine.assist.AscensionEnchants$8)
 110 is Occupied by: simplyjetpacks.enchantment.fuelEfficiency (tonius.simplyjetpacks.enchantment.EnchantmentFuelEfficiency)
-111 is Avaible
+111 is Occupied by: enchantment.intervention (net.nevermine.assist.AscensionEnchants$10)
 112 is Avaible
 113 is Avaible
 114 is Avaible

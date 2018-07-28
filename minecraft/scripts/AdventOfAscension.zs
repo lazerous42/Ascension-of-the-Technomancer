@@ -21,13 +21,6 @@ val arcanePrism = <aura:prismWhite>;
 val nullCatalyst = <witchery:ingredient:130>;
 val salisMundis = <Thaumcraft:ItemResource:14>;
 
-val ursaRaw = <nevermine:UrsaRaw>;
-val ursaCooked = <nevermine:UrsaCooked>;
-val chimeraChopRaw = <nevermine:ChimeraChopRaw>;
-val chimeraChopCooked = <nevermine:ChimeraChopCooked>;
-val furlionChopRaw = <nevermine:FurlionChopRaw>;
-val furlionChopCooked = <nevermine:FurlionChop>;
-val natureMelonSlice = <nevermine:NatureMelonSlice>;
 val pedalsHollyTop = <nevermine:HollyTopPedals>;
 val ingotLimonite = <nevermine:IngotLimonite>;
 val arrowHollyTop = <nevermine:ElementalArrow>;
@@ -37,21 +30,6 @@ val ancientTeleporterBluePrint = <nevermine:AncientTeleporterBlueprint>;
 # Progression Gate, must complete Twilight Forest before venturing to AoA dimensions
 recipes.remove (ancientTeleporterBluePrint);
 QED.addShapedRecipe(ancientTeleporterBluePrint, [[dragonStone, imbuedSlate, enderEssence], [manaDiamond, lampOfCinders, manaDiamond], [arcanePrism, nullCatalyst, salisMundis]]);
-
-##  Food
-<ore:listAllmeatraw>.add(ursaRaw);
-<ore:listAllbeefraw>.add(ursaRaw);
-<ore:listAllmeatcooked>.add(ursaCooked);
-<ore:listAllbeefcooked>.add(ursaCooked);
-<ore:listAllmeatraw>.add(chimeraChopRaw);
-<ore:listAllmeatcooked>.add(chimeraChopCooked);
-<ore:listAllporkraw>.add(chimeraChopRaw);
-<ore:listAllporkcooked>.add(chimeraChopCooked);
-<ore:listAllmeatraw>.add(furlionChopRaw);
-<ore:listAllmeatcooked>.add(furlionChopCooked);
-<ore:listAllporkraw>.add(furlionChopRaw);
-<ore:listAllporkcooked>.add(furlionChopCooked);
-<ore:listAllfruit>.add(natureMelonSlice);
 
 ##  Botaina Orechid
 Orechid.addOre(<ore:oreAmethyst>, 2360);

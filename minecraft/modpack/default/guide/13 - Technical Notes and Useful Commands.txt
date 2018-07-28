@@ -1,10 +1,8 @@
-This section is for notes about tweaks to the game rules and facts of a more technical nature.  Things in this section is to convey information about interactions between mods that might have less than desirable or straightfrward results.
+This section is for notes about tweaks to the game rules and facts of a more technical nature.  It is to convey information about interactions between mods that might have less than desirable or straightforward results.
 
-1a)  Due to factors beyond my control, using the "U"sage function in NEI can cause your session to hang for several minutes.  This is due to a negative interaction between Chromaticraft's dynamic recipes generation and recursive recipe tree parsingc conflicting with GregTech's circular recipe structures from the recycling system.  There is unfortunately nothing I can do to prevent this.  The problem can be reproduced with only GT, CC, and NEI.  It won't happen for all items, but it's probably best to avoid the "U"sage function in NEI.  Be aware that once you wait out the duration of the hang it will not happen again for subsequent uses of the "U"sage function.
+1)  As of version 20 or Reika's mods, issues involving long periods of unresponsiveness when using the "U"sage  and "R"ecipe functions of NEI has been corrected.  Prior to this update, you could end up waiting 10+ minutes when using these functions for the first time after loading your world.
 
-1b)  As of version 19c of Reika's mods, an additional recipe parsing conflict bug with GregTech has been introduced.  The first time you use the "R"ecipe function after loading your world the client session will freeze for 30sec - 2min (mush shorter than the "U"sage function bug).  Same as with the "U"sage function bug, after you wait through it the first time it will not happpen again for duration of your play session.
-
-2)  The Earthshaking Crystals is impossible to craft due to it's requirement of a vanilla ghast in a souls vial.  All ghasts are from either Epic Seige Mod or Twilight Forest.  A one way conversion recipe has been added to convert an ESM ghast sould vial into a regular ghast soul vial.  This is a shapeless recipe and involves only the ESM ghast soul vial.  It can be crafted in the players inventory.
+2)  The Earthshaking Crystals is impossible to craft due to it's requirement of a vanilla ghast in a souls vial.  All ghasts are from either Epic Seige Mod or Twilight Forest.  A one way conversion recipe has been added to convert an ESM ghast soul vial into a regular ghast soul vial.  This is a shapeless recipe and involves only the ESM ghast soul vial.  It can be crafted in the players inventory.
 
 3)  Due to a bug in NEI, Botania Pure Daisy recipes do not render correctly when looking up living wood/rock recipes.  The input block display doesn't acknowlage the meta data for the blocks.  This only affects the recipe lookup, not the required blocks.  The corrected inputs are outlined below
 3a) Living Wood ~ Skyroot Logs, Golden Oak Logs
@@ -20,39 +18,3 @@ This section is for notes about tweaks to the game rules and facts of a more tec
 	b) Find the setting B:resetPlanetsFromXML and change it's value to true
 	c) If there is need to reset any dimensions controlled by AR, you should delete the dimension's folder in your save file.  For example to reset the moon of Minecraftia, navigate to ..\minecraft\saves\AotT SuperFlat Recipe Test\advRocketry and delete the folder for that dimension.  In our case of the moon, this dimension is in the DIM-8 folder.  You can review the planetDefs.xml file to find the ID of the dimension to reset.  Only AR created dim3ensions will be in the AR folder of your save, all other dimensions are in the root of your world folder.
 	d) Launch the pack and open up the world that needs the changes.  During pack launch, the flag will have set itself back to false.  This is normal behavior.
-
-7)  This is a list useful commands for server admins to use when interacting with an AotT world
-
-§1§l FTB Utils Commands
-§0§l /ftb_reload §r ~ Reloads configs for server and clients
-§0§l /ftb_worldID §r ~ Prints current world UUID
-§0§l /back §r ~ Teleports player to last death location
-§0§l /spawn §r ~ Teleports player to overworld spawn
-§0§l /tpl [player] §r ~ Teleports to [player] if online or last location if offline
-§0§l /warp [ID] §r ~ Teleports player to server set warp [ID]
-§0§l /admin backup start §r ~ Forces a manual world backup to be taken
-§0§l /admin reload §r ~ Reloads configs for server and clients
-§0§l /admin setitemname [Name] §r ~ Sets item display name for held item
-§0§l /admin invsee [player] §r ~ If player is online, opens inventory. Armor top left, baubles top right.
-§0§l /admin setwarp [ID] §r ~ Sets warp [ID] to current player position
-§0§l /admin delwarp [ID] §r ~ Deletes warp [ID]
-§0§l /admin unclaim §r ~ Unclaims current chunk
-§0§l /admin worldborder on|off §r ~ Enables|Disables world border
-§0§l /admin worldborder get [DIM] §r Prints worldborder size for dimension [DIM]
-§0§l /admin worldborder set [dim] [radius] §r ~ Sets world border radius for dimension [DIM]
-§0§l /admin worldborder center §r ~ Sets world border center to current player's location
-§0§l /admin worldborder center [x] [z] §r ~ Sets world border center to x, z
-§0§l /admin player saveinv|loadinv [player] §r ~ Saves|Loads player inventory to|from '/local/ftbu/playerinvs/"
-§0§l /admin player saveinv|loadinv [player] [customname] §r ~ Saves|loads player inventory to|from "/local/ftbu/playerinvs/custom/"
-§0§l /admin player notify [player] [notification JSON] §r ~ Sends a popup notification to player
-
-§1§l Just Another Spawner Commands §r
-§0§o Valid Entity Types ~ [AMBIENT|CREATURE|MONSTER|WATERCREATURE|WATERMONSTER|UNDERGROUND|OPENSKY] §r
-§0§l /jas loadconfigs §r ~ reload the spawn tables
-§0§l /jas countcap <targetPlayer / DimensionID> <EntityType> §r ~ Reports on the entity count / entity count max for the entity type specified
-§0§l /jas killall <targetPlayer> <EntityType> §r ~ Kills all entities of the specificed group, excluding group will kill all entites in the world
-
-§1§l Other Useful Commands
-§0§l /cofh tpx [player] x y z [dimensionID] §r ~ Teleport a player to any location in any dimension
-§0§l /findbiome biomeID §r ~ Locates the nearest instance of the biome ID passed to the command
-§0§l /redecorate decorationType §r ~ Redecorates the biome you in

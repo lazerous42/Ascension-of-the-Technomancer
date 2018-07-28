@@ -140,7 +140,7 @@
                         "name": "Thaumcraft:FocusPortableHole", 
                         "min": "1"
                     }, 
-                    "weight": "0"
+                    "weight": "1"
                 }, 
                 {
                     "data": {
@@ -149,7 +149,7 @@
                         "name": "Ztones:totemTool", 
                         "min": "1"
                     }, 
-                    "weight": "0"
+                    "weight": "1"
                 }, 
                 {
                     "data": {
@@ -167,7 +167,7 @@
                         "name": "ExtraUtilities:creativebuilderswand", 
                         "min": "1"
                     }, 
-                    "weight": "0"
+                    "weight": "1"
                 }, 
                 {
                     "data": {
@@ -192,6 +192,15 @@
                         "max": "1", 
                         "meta": "0", 
                         "name": "Thaumcraft:FocusPech", 
+                        "min": "1"
+                    }, 
+                    "weight": "1"
+                },
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "0", 
+                        "name": "backlytra:elytra", 
                         "min": "1"
                     }, 
                     "weight": "1"

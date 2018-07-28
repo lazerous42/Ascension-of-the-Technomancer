@@ -34,6 +34,7 @@ var batteryHullSmall = <gregtech:gt.metaitem.01:32500>;
 val bookEnchanted = <minecraft:enchanted_book>;
 val crushedObsidian = <Railcraft:cube:4>;
 val ingotNickel = <ore:ingotNickel>;
+val ingotAluminium = <ore:ingotAluminium>;
 val ingotLumium = <ore:ingotLumium>;
 var soulSand = <minecraft:soul_sand>;
 val gearIron = <ore:gearIron>;
@@ -173,7 +174,7 @@ recipes.addShaped(<EnderIO:itemGliderWing>,[[null, null, <EnderIO:itemAlloy:6>],
 
 ##  Machine Chassis
 recipes.remove(machineChassis);
-recipes.addShaped(machineChassis, [[ingotLumium, ingotElectrotineAlloy, ingotLumium], [basicCapacitor, <ThermalExpansion:Frame>, basicCapacitor], [ingotNickel, ironBarsDark, ingotNickel]]);
+recipes.addShaped(machineChassis, [[ingotLumium, ingotElectrotineAlloy, ingotLumium], [basicCapacitor, <ThermalExpansion:Frame>, basicCapacitor], [ingotAluminium, ironBarsDark, ingotAluminium]]);
 
 ##  Stirling Generator
 recipes.remove(stirlingGenerator);
@@ -189,7 +190,7 @@ recipes.addShaped(yetaWrench, [[ingotIron, null, ingotIron], [null, gearNickel, 
 
 ##  Sag Mill
 recipes.remove(<EnderIO:blockSagMill>);
-recipes.addShaped(<EnderIO:blockSagMill>, [[crushedObsidian, crushedObsidian, crushedObsidian], [piston, machineChassis, piston], [ingotElectrotineAlloy, ingotElectrotineAlloy, ingotElectrotineAlloy]]);
+recipes.addShaped(<EnderIO:blockSagMill>, [[crushedObsidian, ingotNickel, crushedObsidian], [piston, machineChassis, piston], [ingotElectrotineAlloy, ingotNickel, ingotElectrotineAlloy]]);
 
 ##  Capacitors
 //Assembler.addRecipe(output, input1, input2, liquid, durationTicks, euPerTick);
@@ -202,7 +203,7 @@ Assembler.addRecipe(capacitorOctadic, capacitorDualLayer * 2, tubeBlazing, molte
 
 ##  Alloy Furnance
 recipes.remove(<EnderIO:blockAlloySmelter>);
-recipes.addShaped(<EnderIO:blockAlloySmelter>, [[crushedObsidian, <IC2:blockHeatGenerator:3>, crushedObsidian], [<IC2:blockGenerator>, machineChassis, <IC2:blockGenerator>], [crushedObsidian, basicCapacitor, crushedObsidian]]);
+recipes.addShaped(<EnderIO:blockAlloySmelter>, [[crushedObsidian, <IC2:blockHeatGenerator:3>, crushedObsidian], [<IC2:blockGenerator>, machineChassis, <IC2:blockGenerator>], [ingotNickel, basicCapacitor, ingotNickel]]);
 
 ##  Reinforced Obsidian
 recipes.remove(<EnderIO:blockReinforcedObsidian>);

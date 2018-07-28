@@ -22,12 +22,591 @@ The following registers the vanilla gold ingot as "ingotGold"
 </ore>-->
 
 <OreDictionary>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Aluminium/Aluminum      -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ore>
+		<name>oreAluminum</name>
+		<stack1>libVulpes:libVulpesore0 1 9</stack1>
+		<stack2>ImmersiveEngineering:ore 1 1</stack2>
+		<stack3>gregtech:gt.blockores 1 19</stack3>
+		<stack4>TConstruct:SearedBrick 1 5</stack4>
+		<stack5>TConstruct:GravelOre 1 4</stack5>
+	</ore>
+	<ore>
+		<name>oreAluminium</name>
+		<stack1>libVulpes:libVulpesore0 1 9</stack1>
+		<stack2>ImmersiveEngineering:ore 1 1</stack2>
+		<stack3>gregtech:gt.blockores 1 19</stack3>
+		<stack4>TConstruct:SearedBrick 1 5</stack4>
+		<stack5>TConstruct:GravelOre 1 4</stack5>
+	</ore>
+	<ore>
+		<name>ingotAluminum</name>
+		<stack1>libVulpes:libVulpesproductingot 1 9</stack1>
+		<stack2>ImmersiveEngineering:metal 1 1</stack2>
+		<stack3>TConstruct:materials 1 11</stack3>
+		<stack4>gregtech:gt.metaitem.01 1 11019</stack4>
+	</ore>
+	<ore>
+		<name>ingotAluminium</name>
+		<stack1>libVulpes:libVulpesproductingot 1 9</stack1>
+		<stack2>ImmersiveEngineering:metal 1 1</stack2>
+		<stack3>TConstruct:materials 1 11</stack3>
+		<stack4>gregtech:gt.metaitem.01 1 11019</stack4>
+	</ore>
+	<ore>
+		<name>blockAluminum</name>
+		<stack1>libVulpes:libVulpesmetal0 1 9</stack1>
+		<stack2>ImmersiveEngineering:storage 1 1</stack2>
+		<stack3>TConstruct:MetalBlock 1 6</stack3>
+		<stack4>gregtech:gt.blockmetal1 1 1</stack4>
+	</ore>
+	<ore>
+		<name>blockAluminium</name>
+		<stack1>libVulpes:libVulpesmetal0 1 9</stack1>
+		<stack2>ImmersiveEngineering:storage 1 1</stack2>
+		<stack3>TConstruct:MetalBlock 1 6</stack3>
+		<stack4>gregtech:gt.blockmetal1 1 1</stack4>
+	</ore>
+	<ore>
+		<name>dustAluminum</name>
+		<stack1>libVulpes:libVulpesproductdust 1 9</stack1>
+		<stack2>ImmersiveEngineering:metal 1 11</stack2>
+		<stack3>TConstruct:materials 1 40</stack3>
+		<stack4>Steamcraft:smashedOre 1 8</stack4>
+		<stack5>gregtech:gt.metaitem.01 1 2019</stack5>
+		<stack6>Magneticraft:item.dust 1 13</stack6>
+	</ore>
+	<ore>
+		<name>dustAluminium</name>
+		<stack1>libVulpes:libVulpesproductdust 1 9</stack1>
+		<stack2>ImmersiveEngineering:metal 1 11</stack2>
+		<stack3>TConstruct:materials 1 40</stack3>
+		<stack4>Steamcraft:smashedOre 1 8</stack4>
+		<stack5>gregtech:gt.metaitem.01 1 2019</stack5>
+		<stack6>Magneticraft:item.dust 1 13</stack6>
+	</ore>
+	<ore>
+		<name>plateAluminum</name>
+		<stack1>libVulpes:libVulpesproductplate 1 9</stack1>
+		<stack2>ImmersiveEngineering:metal 1 32</stack2>
+		<stack3>gregtech:gt.metaitem.01 1 17019</stack3>
+	</ore>
+	<ore>
+		<name>plateAluminium</name>
+		<stack1>libVulpes:libVulpesproductplate 1 9</stack1>
+		<stack2>ImmersiveEngineering:metal 1 32</stack2>
+		<stack3>gregtech:gt.metaitem.01 1 17019</stack3>
+	</ore>
+	<ore>
+		<name>stickAluminum</name>
+		<stack1>ImmersiveEngineering:material 1 16</stack1>
+		<stack2>gregtech:gt.metaitem.01 1 23019</stack2>
+	</ore>
+	<ore>
+		<name>stickAluminium</name>
+		<stack1>ImmersiveEngineering:material 1 16</stack1>
+		<stack2>gregtech:gt.metaitem.01 1 23019</stack2>
+	</ore>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Andesite                -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ore>
+		<name>blockAndesite</name>
+		<stack1>NVLSimpleBlocks:stone_andesite 1 0</stack1>
+	</ore>
+	<ore>
+		<name>stoneAndesite</name>
+		<stack1>NVLSimpleBlocks:stone_andesite 1 0</stack1>
+	</ore>
+	<ore>
+		<name>stoneAndesitePolished</name>
+		<stack1>NVLSimpleBlocks:stone_andesite_smooth 1 0</stack1>
+	</ore>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Chance Pendant          -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ore>
+		<name>chanceModifierPendant</name>
+		<stack1>chancecubes:chancePendantTier1 1 0</stack1>
+		<stack2>chancecubes:chancePendantTier2 1 0</stack2>
+		<stack3>chancecubes:chancePendantTier3 1 0</stack3>
+	</ore>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Creosote Bottle         -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ore>
+		<name>bottleCreosote</name>
+		<stack1>ImmersiveEngineering:fluidContainers 1 0</stack1>
+		<stack2>Railcraft:fluid.creosote.bottle 1 0</stack2>
+	</ore>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Cupronickle /Constantan -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ore>
+		<name>dustConstantan</name>
+		<stack1>ImmersiveEngineering:metal 1 15</stack1>
+		<stack2>gregtech:gt.metaitem.01 1 2310</stack2>
+	</ore>
+	<ore>
+		<name>dustCupronickel</name>
+		<stack1>ImmersiveEngineering:metal 1 15</stack1>
+		<stack2>gregtech:gt.metaitem.01 1 2310</stack2>
+
+	</ore>
+	<ore>
+		<name>ingotConstantan</name>
+		<stack1>ImmersiveEngineering:metal 1 5</stack1>
+		<stack2>gregtech:gt.metaitem.01 1 11310</stack2>
+	</ore>
+	<ore>
+		<name>ingotCupronickel</name>
+		<stack1>ImmersiveEngineering:metal 1 5</stack1>
+		<stack2>gregtech:gt.metaitem.01 1 11310</stack2>
+	</ore>
+	<ore>
+		<name>blockConstantan</name>
+		<stack1>ImmersiveEngineering:storage 1 5</stack1>
+		<stack2>gregtech:gt.blockmetal2 1 8</stack2>
+	</ore>
+	<ore>
+		<name>blockCupronickel</name>
+		<stack1>ImmersiveEngineering:storage 1 5</stack1>
+		<stack2>gregtech:gt.blockmetal2 1 8</stack2>
+	</ore>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Diamond Dust            -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ore>
+		<name>dustDiamond</name>
+		<stack1>MCA:DiamondDust 1 0</stack1>
+	</ore>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Dimensional Gems        -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ore>
+		<name>dimensionalGem</name>
+		<stack1>nevermine:CoinsNether 1 0</stack1>
+		<stack2>nevermine:CoinsHaven 1 0</stack2>
+		<stack3>nevermine:CoinsAbyss 1 0</stack3>
+		<stack4>nevermine:CoinsPrecasian 1 0</stack4>
+		<stack5>nevermine:DustopiaGems 1 0</stack5>
+		<stack6>nevermine:LboreanGems 1 0</stack6>
+		<stack7>nevermine:DeeplandsGems 1 0</stack7>
+		<stack8>nevermine:MysteriumGems 1 0</stack8>
+		<stack9>nevermine:GreckonGems 1 0</stack9>
+		<stack10>nevermine:BarathosGems 1 0</stack10>
+		<stack11>nevermine:RunandorGems 1 0</stack11>
+		<stack12>nevermine:VoxPondsGems 1 0</stack12>
+		<stack13>nevermine:GardenciaGems 1 0</stack13>
+		<stack14>nevermine:IromineGems 1 0</stack14>
+		<stack15>nevermine:LunalusGems 1 0</stack15>
+		<stack16>nevermine:CoinsLelyetia 1 0</stack16>
+	</ore>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Diorite                 -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ore>
+		<name>blockDiorite</name>
+		<stack1>NVLSimpleBlocks:stone_diorite 1 0</stack1>
+	</ore>
+	<ore>
+		<name>stoneDiorite</name>
+		<stack1>NVLSimpleBlocks:stone_diorite 1 0</stack1>
+	</ore>
+	<ore>
+		<name>stoneDioritePolished</name>
+		<stack1>NVLSimpleBlocks:stone_diorite_smooth 1 0</stack1>
+	</ore>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Dilithium               -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ore>
+		<name>crystalDilithium</name>
+		<stack1>libVulpes:libVulpesproductcrystal 1 0</stack1>
+		<stack2>gregtech:gt.metaitem.01 1 8515</stack2>
+	</ore>
+	<ore>
+		<name>gemDilithium</name>
+		<stack1>libVulpes:libVulpesproductcrystal 1 0</stack1>
+		<stack2>gregtech:gt.metaitem.01 1 8515</stack2>
+	</ore>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Dyes                    -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ore>
+		<name>dyeBlack</name>
+		<stack1>gregtech:gt.metaitem.01 1 2535</stack1>
+		<stack2>gregtech:gt.metaitem.01 1 2536</stack2>
+	</ore>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Feather                 -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ore>
+		<name>craftingFeather</name>
+		<stack1>chococraft:Chocobo_Feather 1 0</stack1>
+	</ore>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Foods                   -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ore>
+		<name>listAllbeefcooked</name>
+		<stack1>nevermine:UrsaCooked 1 0</stack1>
+	</ore>
+	<ore>
+		<name>listAllbeefraw</name>
+		<stack1>nevermine:UrsaRaw 1 0</stack1>
+	</ore>
+	<ore>
+		<name>listAllberry</name>
+		<stack1>BiomesOPlenty:food 1 0</stack1>
+		<stack2>ExtraTrees:food 1 34</stack2>
+		<stack3>ExtraTrees:food 1 43</stack3>
+		<stack4>ExtraTrees:food 1 44</stack4>
+		<stack5>ExtraTrees:food 1 45</stack5>
+		<stack6>ExtraTrees:food 1 46</stack6>
+		<stack7>ExtraTrees:food 1 48</stack7>
+		<stack8>ExtraTrees:food 1 49</stack8>
+		<stack9>Natura:berry 1 0</stack9>
+		<stack10>Natura:berry 1 1</stack10>
+		<stack11>Natura:berry 1 2</stack11>
+		<stack12>Natura:berry.nether 1 0</stack12>
+		<stack13>Natura:berry.nether 1 1</stack13>
+		<stack14>Natura:berry.nether 1 2</stack14>
+		<stack15>Natura:berry.nether 1 3</stack15>
+	</ore>
+	<ore>
+		<name>listAllchickencooked</name>
+		<stack1>chococraft:Cooked_Chocobo_Leg 1 0</stack1>
+	</ore>
+	<ore>
+		<name>listAllchickenraw</name>
+		<stack1>chococraft:Raw_Chocobo_Leg 1 0</stack1>
+	</ore>
+	<ore>
+		<name>listAllfishcooked</name>
+		<stack1>freshwatermobs:silexmeatcooked 1 0</stack1>
+		<stack2>infernomobs:cephignismeatcooked 1 0</stack2>
+		<stack3>MoCreatures:crabcooked 1 0</stack3>
+	</ore>
+	<ore>
+		<name>listAllfishraw</name>
+		<stack1>freshwatermobs:silexmeatraw 1 0</stack1>
+		<stack2>MoCreatures:crabraw 1 0</stack2>
+	</ore>
+	<ore>
+		<name>listAllfruit</name>
+		<stack1>BiomesOPlenty:food 1 0</stack1>
+		<stack2>ExtraTrees:food 1 34</stack2>
+		<stack3>ExtraTrees:food 1 43</stack3>
+		<stack4>ExtraTrees:food 1 44</stack4>
+		<stack5>ExtraTrees:food 1 45</stack5>
+		<stack6>ExtraTrees:food 1 46</stack6>
+		<stack7>ExtraTrees:food 1 48</stack7>
+		<stack8>ExtraTrees:food 1 49</stack8>
+		<stack9>Natura:berry 1 0</stack9>
+		<stack10>Natura:berry 1 1</stack10>
+		<stack11>Natura:berry 1 2</stack11>
+		<stack12>Natura:berry.nether 1 0</stack12>
+		<stack13>Natura:berry.nether 1 1</stack13>
+		<stack14>Natura:berry.nether 1 2</stack14>
+		<stack15>Natura:berry.nether 1 3</stack15>
+		<stack16>nevermine:NatureMelonSlice 1 0</stack16>
+	</ore>
+	<ore>
+		<name>listAllmeatcooked</name>
+		<stack1>etfuturum:mutton_cooked 1 0</stack1>
+		<stack2>nevermine:UrsaCooked 1 0</stack2>
+		<stack3>nevermine:ChimeraChopCooked 1 0</stack3>
+		<stack4>nevermine:FurlionChop 1 0</stack4>
+		<stack5>MoCreatures:turkeycooked 1 0</stack5>
+		<stack6>MoCreatures:ratcooked 1 0</stack6>
+		<stack7>MoCreatures:ostrichcooked 1 0</stack7>
+		<stack8>chococraft:Cooked_Chocobo_Leg 1 0</stack8>
+	</ore>
+	<ore>
+		<name>listAllmeatraw</name>
+		<stack1>etfuturum:mutton_raw 1 0</stack1>
+		<stack2>nevermine:UrsaRaw 1 0</stack2>
+		<stack3>nevermine:ChimeraChopRaw 1 0</stack3>
+		<stack4>nevermine:FurlionChopRaw 1 0</stack4>
+		<stack5>MoCreatures:turkeyraw 1 0</stack5>
+		<stack6>MoCreatures:ratraw 1 0</stack6>
+		<stack7>MoCreatures:ostrichraw 1 0</stack7>
+		<stack8>chococraft:Raw_Chocobo_Leg 1 0</stack8>
+	</ore>
+	
+	<ore>
+		<name>listAllmuttoncooked</name>
+		<stack1>etfuturum:mutton_cooked 1 0</stack1>
+	</ore>
+	<ore>
+		<name>listAllmuttonraw</name>
+		<stack1>etfuturum:mutton_raw 1 0</stack1>
+	</ore>
+	
+	<ore>
+		<name>listAllporkcooked</name>
+		<stack1>nevermine:ChimeraChopCooked 1 0</stack1>
+		<stack2>nevermine:FurlionChop 1 0</stack2>
+	</ore>
+	<ore>
+		<name>listAllporkraw</name>
+		<stack1>nevermine:ChimeraChopRaw 1 0</stack1>
+		<stack2>nevermine:FurlionChopRaw 1 0</stack2>
+	</ore>
+	<ore>
+		<name>listAllturkeycooked</name>
+		<stack1>MoCreatures:turkeycooked 1 0</stack1>
+		<stack2>MoCreatures:ostrichraw 1 0</stack2>
+	</ore>
+	<ore>
+		<name>listAllturkeyraw</name>
+		<stack1>MoCreatures:turkeyraw 1 0</stack1>
+		<stack2>MoCreatures:ostrichraw 1 0</stack2>
+	</ore>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Gears                   -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ore>
+		<name>gearSteel</name>
+		<stack1>Railcraft:part.gear 1 2</stack1>
+	</ore>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Glazed Terracotta       -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ore>
+		<name>blockGlazedTerracottaYellow</name>
+		<stack1>NVLSimpleBlocks:GlazedTerracotta_yellow 1 0</stack1>
+		<stack2>VillageNames:glazedTerracotta2 1 4</stack2>
+	</ore>
+	<ore>
+		<name>blockGlazedTerracottaBlack</name>
+		<stack1>NVLSimpleBlocks:GlazedTerracotta_black 1 0</stack1>
+		<stack2>VillageNames:glazedTerracotta4 1 15</stack2>
+	</ore>
+	<ore>
+		<name>blockGlazedTerracottaWhite</name>
+		<stack1>NVLSimpleBlocks:GlazedTerracotta_white 1 0</stack1>
+		<stack2>VillageNames:glazedTerracotta 1 0</stack2>
+	</ore>
+	<ore>
+		<name>blockGlazedTerracottaGrey</name>
+		<stack1>NVLSimpleBlocks:GlazedTerracotta_grey 1 0</stack1>
+		<stack2>VillageNames:glazedTerracotta2 1 7</stack2>
+	</ore>
+	<ore>
+		<name>blockGlazedTerracottaBlue</name>
+		<stack1>NVLSimpleBlocks:GlazedTerracotta_blue 1 0</stack1>
+		<stack2>VillageNames:glazedTerracotta3 1 11</stack2>
+	</ore>
+	<ore>
+		<name>blockGlazedTerracottaLightBlue</name>
+		<stack1>NVLSimpleBlocks:GlazedTerracotta_light_blue 1 0</stack1>
+		<stack2>VillageNames:glazedTerracotta3 1 0</stack2>
+	</ore>
+	<ore>
+		<name>blockGlazedTerracottaOrange</name>
+		<stack1>NVLSimpleBlocks:GlazedTerracotta_orange 1 0</stack1>
+		<stack2>VillageNames:glazedTerracotta 1 1</stack2>
+	</ore>
+	<ore>
+		<name>blockGlazedTerracottaMagenta</name>
+		<stack1>NVLSimpleBlocks:GlazedTerracotta_magenta 1 0</stack1>
+		<stack2>VillageNames:glazedTerracotta 1 2</stack2>
+	</ore>
+	<ore>
+		<name>blockGlazedTerracottaGreen</name>
+		<stack1>NVLSimpleBlocks:GlazedTerracotta_green 1 0</stack1>
+		<stack2>VillageNames:glazedTerracotta4 1 13</stack2>
+	</ore>
+	<ore>
+		<name>blockGlazedTerracottaPink</name>
+		<stack1>NVLSimpleBlocks:GlazedTerracotta_pink 1 0</stack1>
+		<stack2>VillageNames:glazedTerracotta2 1 6</stack2>
+	</ore>
+	<ore>
+		<name>blockGlazedTerracottaLightGrey</name>
+		<stack1>NVLSimpleBlocks:GlazedTerracotta_silver 1 0</stack1>
+		<stack2>VillageNames:glazedTerracotta3 1 8</stack2>
+	</ore>
+	<ore>
+		<name>blockGlazedTerracottaLime</name>
+		<stack1>NVLSimpleBlocks:GlazedTerracotta_line 1 0</stack1>
+		<stack2>VillageNames:glazedTerracotta2 1 5</stack2>
+	</ore>
+	<ore>
+		<name>blockGlazedTerracottaCyan</name>
+		<stack1>NVLSimpleBlocks:GlazedTerracotta_cyan 1 0</stack1>
+		<stack2>VillageNames:glazedTerracotta3 1 9</stack2>
+	</ore>
+	<ore>
+		<name>blockGlazedTerracottaRed</name>
+		<stack1>NVLSimpleBlocks:GlazedTerracotta_red 1 0</stack1>
+		<stack2>VillageNames:glazedTerracotta4 1 14</stack2>
+	</ore>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Granite                 -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ore>
+		<name>blockGranite</name>
+		<stack1>NVLSimpleBlocks:stone_granite 1 0</stack1>
+	</ore>
+	<ore>
+		<name>stoneGranite</name>
+		<stack1>NVLSimpleBlocks:stone_granite 1 0</stack1>
+	</ore>
+	<ore>
+		<name>stoneGranitePolished</name>
+		<stack1>NVLSimpleBlocks:stone_granite_smooth 1 0</stack1>
+	</ore>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Marble                  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ore>
+		<name>blockMarble</name>
+		<stack1>NVLSimpleBlocks:NVLMarble 1 0</stack1>
+	</ore>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Mithril Ore             -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<ore>
 		<name>oreMithril</name>
 		<stack1>gregtech:gt.blockores 1 331</stack1>
 	</ore>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Mortar and Pestle       -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ore>
+		<name>toolMortarandpestle</name>
+		<stack1>Botania:pestleAndMortar 1 0</stack1>
+		<stack2>harvestcraft:mortarandpestleItem 1 0</stack2>
+	</ore>
+	<ore>
+		<name>pestleAndMortar</name>
+		<stack1>Botania:pestleAndMortar 1 0</stack1>
+		<stack2>harvestcraft:mortarandpestleItem 1 0</stack2>
+	</ore>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Quartz                  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ore>
+		<name>itemCertusQuartz</name>
+		<stack1>appliedenergistics2:item.ItemMultiMaterial 1 10</stack1>
+	</ore>
+	<ore>
+		<name>itemNetherQuartz</name>
+		<stack1>appliedenergistics2:item.ItemMultiMaterial 1 11</stack1>
+	</ore>
+	<ore>
+		<name>quartzDark</name>
+		<stack1>ThaumicTinkerer:darkQuartzItem 1 0</stack1>
+	</ore>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Sand and Glass          -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ore>
+		<name>blockGlass</name>
+		<stack1>aether:quicksoilGlass 1 0</stack1>
+	</ore>
+	<ore>
+		<name>paneGlass</name>
+		<stack1>aether:quicksoilGlassPane 1 0</stack1>
+	</ore>
+	<ore>
+		<name>sand</name>
+		<stack1>aether:quicksoil 1 3</stack1>
+	</ore>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Sesame Seeed Fix        -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<ore>
 		<name>cropSesameseed</name>
 		<stack1>harvestcraft:sesameseedsItem 1 0</stack1>
+	</ore>
+	<ore>
+		<name>cropSesameseed</name>
+		<stack1>harvestcraft:sesameseedsItem 1 0</stack1>
+	</ore>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Stone                   -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ore>
+		<name>cobblestone</name>
+		<stack1>aether:holystone 1 3</stack1>
+	</ore>
+	<ore>
+		<name>craftingFurnace</name>
+		<stack1>aether:holystoneFurnace 1 3</stack1>
+	</ore>
+	<ore>
+		<name>stone</name>
+		<stack1>aether:holystone 1 1</stack1>
+	</ore>
+	<ore>
+		<name>stoneCobble</name>
+		<stack1>aether:holystone 1 3</stack1>
+	</ore>
+	<ore>
+		<name>stoneMossy</name>
+		<stack1>aether:holystone 1 3</stack1>
+	</ore>
+	<ore>
+		<name>stoneSmooth</name>
+		<stack1>aether:holystone 1 1</stack1>
+	</ore>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Wood                    -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ore>
+		<name>craftingChest</name>
+		<stack1>aether:skyrootChest 1 0</stack1>
+	</ore>
+	<ore>
+		<name>craftingTableWood</name>
+		<stack1>aether:skyrootCraftingTable 1 0</stack1>
+	</ore>
+	<ore>
+		<name>craftingWorkBench</name>
+		<stack1>aether:skyrootCraftingTable 1 0</stack1>
+	</ore>
+	<ore>
+		<name>logWood</name>
+		<stack1>aether:aetherLog 1 0</stack1>
+		<stack2>aether:aetherLog 1 2</stack2>
+		<stack3>harvestcraft:pamMaple 1 0</stack3>
+		<stack4>harvestcraft:pamCinnamon 1 0</stack4>
+		<stack5>harvestcraft:pamPaperbark 1 0</stack5>
+	</ore>
+	<ore>
+		<name>plankWood</name>
+		<stack1>aether:skyrootPlank 1 0</stack1>
+	</ore>
+	<ore>
+		<name>slabWood</name>
+		<stack1>aether:tile.skyrootSingleSlab 1 0</stack1>
+	</ore>
+	<ore>
+		<name>stickWood</name>
+		<stack1>aether:skyrootStick 1 0</stack1>
+	</ore>
+	<ore>
+		<name>treeSapling</name>
+		<stack1>aether:greenSkyrootSapling 1 0</stack1>
+		<stack2>aether:goldenOakSapling 1 0</stack2>
+		<stack3>aether:purpleCrystalSapling 1 0</stack3>
+		<stack4>aether:orangeTree 1 0</stack4>
+		<stack5>aether:darkBlueSkyrootSapling 1 0</stack5>
+		<stack6>aether:blueSkyrootSapling 1 0</stack6>
+	</ore>
+	<ore>
+		<name>treeLeaves</name>
+		<stack1>aether:greenSkyrootLeaves 1 0</stack1>
+		<stack2>aether:goldenOakLeaves 1 0</stack2>
+		<stack3>aether:darkBlueSkyrootLeaves 1 0</stack3>
+		<stack4>aether:blueSkyrootLeaves 1 0</stack4>
+		<stack5>aether:purpleFruitLeaves 1 0</stack5>
+		<stack6>aether:purpleCrystalLeaves 1 0</stack6>
 	</ore>
 </OreDictionary>

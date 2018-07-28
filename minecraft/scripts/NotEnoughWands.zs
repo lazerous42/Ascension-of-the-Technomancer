@@ -30,10 +30,10 @@ QED.addShapedRecipe(<NotEnoughWands:ProtectionWand>, [[<ExtraUtilities:bedrockiu
 											    	  [<HardcoreEnderExpansion:stardust>, null, wandCoreAdvanced]]);
 ##  Teleportation Wand
 recipes.remove(<NotEnoughWands:TeleportationWand>);
-Infusion.addRecipe("RESEARCH", <EnderIO:itemTravelStaff>, [wandCoreBasic, <HardcoreEnderExpansion:spatial_dash_gem>, <HardcoreEnderExpansion:stardust>, <arsmagica2:itemOre:6>, wandCoreBasic, <HardcoreEnderExpansion:spatial_dash_gem>, <HardcoreEnderExpansion:stardust>, <arsmagica2:itemOre:7>], "Iter 40, Instrumentum 20, Desidia 24", <NotEnoughWands:TeleportationWand>, 5);
+Infusion.addRecipe("RESEARCH", <EnderIO:itemTravelStaff>, [wandCoreBasic, <HardcoreEnderExpansion:spatial_dash_gem>, <HardcoreEnderExpansion:stardust>, <arsmagica2:itemOre:6>, wandCoreBasic, <HardcoreEnderExpansion:spatial_dash_gem>, <HardcoreEnderExpansion:stardust>, <arsmagica2:itemOre:7>], "iter 40, instrumentum 20, desidia 24", <NotEnoughWands:TeleportationWand>, 7);
 ##  Capturing Wand
 recipes.remove(<NotEnoughWands:CapturingWand>);
-Infusion.addRecipe("RESEARCH", <ExtraUtilities:golden_lasso>, [wandCoreBasic, <HardcoreEnderExpansion:living_matter>, <HardcoreEnderExpansion:stardust>, <arsmagica2:itemOre:6>, wandCoreBasic, <HardcoreEnderExpansion:living_matter>, <HardcoreEnderExpansion:stardust>, <arsmagica2:itemOre:7>], "Vinculum 40, Instrumentum 20, Gula 24", <NotEnoughWands:CapturingWand>, 5);
+Infusion.addRecipe("RESEARCH", <ExtraUtilities:golden_lasso>, [wandCoreBasic, <HardcoreEnderExpansion:living_matter>, <HardcoreEnderExpansion:stardust>, <arsmagica2:itemOre:6>, wandCoreBasic, <HardcoreEnderExpansion:living_matter>, <HardcoreEnderExpansion:stardust>, <arsmagica2:itemOre:7>], "vinculum 40, instrumentum 20, gula 24", <NotEnoughWands:CapturingWand>, 7);
 ##  Moving Wand
 recipes.remove(<NotEnoughWands:MovingWand>);
 QED.addShapedRecipe(<NotEnoughWands:MovingWand>, [[<AWWayofTime:demonicTelepositionFocus>, <ExtraUtilities:golden_bag>, <HardcoreEnderExpansion:stardust>], 
@@ -41,7 +41,7 @@ QED.addShapedRecipe(<NotEnoughWands:MovingWand>, [[<AWWayofTime:demonicTeleposit
 											      [<HardcoreEnderExpansion:stardust>, null, wandCoreAdvanced]]);
 ##  Displacement Wand
 recipes.remove(<NotEnoughWands:DisplacementWand>);
-Infusion.addRecipe("RESEARCH", <Botania:pistonRelay>, [wandCoreBasic, <funkylocomotion:frame>, <HardcoreEnderExpansion:stardust>, <arsmagica2:itemOre:6>, wandCoreBasic, <funkylocomotion:frame>, <HardcoreEnderExpansion:stardust>, <arsmagica2:itemOre:7>], "Motus 40, Instrumentum 20, Machina 24", <NotEnoughWands:DisplacementWand>, 5);
+Infusion.addRecipe("RESEARCH", <Botania:pistonRelay>, [wandCoreBasic, <funkylocomotion:frame>, <HardcoreEnderExpansion:stardust>, <arsmagica2:itemOre:6>, wandCoreBasic, <funkylocomotion:frame>, <HardcoreEnderExpansion:stardust>, <arsmagica2:itemOre:7>], "motus 40, instrumentum 20, machina 24", <NotEnoughWands:DisplacementWand>, 6);
 ##  Acceleration Wand
 recipes.remove(<NotEnoughWands:AccelerationWand>);
 QED.addShapedRecipe(<NotEnoughWands:AccelerationWand>, [[<fossil:ancientClock>, <TwilightForest:tile.TFMagicLogSpecial>, <HardcoreEnderExpansion:stardust>], 
@@ -49,12 +49,12 @@ QED.addShapedRecipe(<NotEnoughWands:AccelerationWand>, [[<fossil:ancientClock>, 
 											    	    [<HardcoreEnderExpansion:stardust>, null, wandCoreAdvanced]]);
 ##  Building Wand
 recipes.remove(<NotEnoughWands:BuildingWand>);
-Infusion.addRecipe("RESEARCH", <ExtraUtilities:builderswand>, [wandCoreBasic, <ThermalFoundation:material:75>, <HardcoreEnderExpansion:stardust>, <arsmagica2:itemOre:6>, wandCoreBasic, <ThermalFoundation:material:75>, <HardcoreEnderExpansion:stardust>, <arsmagica2:itemOre:7>], "Fabrico 40, Instrumentum 20, Superbia 24", <ExtraUtilities:builderswand>, 5);
+Infusion.addRecipe("RESEARCH", <ExtraUtilities:builderswand>, [wandCoreBasic, <ThermalFoundation:material:75>, <HardcoreEnderExpansion:stardust>, <arsmagica2:itemOre:6>, wandCoreBasic, <ThermalFoundation:material:75>, <HardcoreEnderExpansion:stardust>, <arsmagica2:itemOre:7>], "fabrico 40, instrumentum 20, superbia 24", <NotEnoughWands:BuildingWand>, 6);
 ##  Illumination Wand
 recipes.remove(<NotEnoughWands:IlluminationWand>);
-Infusion.addRecipe("RESEARCH", <ThaumicTinkerer:brightNitor>, [wandCoreBasic, <ThermalFoundation:material:75>, <HardcoreEnderExpansion:stardust>, <arsmagica2:itemOre:6>, wandCoreBasic, <ThermalFoundation:material:75>, <HardcoreEnderExpansion:stardust>, <arsmagica2:itemOre:7>], "Lux 40, Instrumentum 20, Sensus 24", <NotEnoughWands:IlluminationWand>, 5);
+Infusion.addRecipe("RESEARCH", <ThaumicTinkerer:brightNitor>, [wandCoreBasic, <ThermalFoundation:material:75>, <HardcoreEnderExpansion:stardust>, <arsmagica2:itemOre:6>, wandCoreBasic, <ThermalFoundation:material:75>, <HardcoreEnderExpansion:stardust>, <arsmagica2:itemOre:7>], "lux 40, instrumentum 20, sensus 24", <NotEnoughWands:IlluminationWand>, 5);
 ##  Swapping Wand
 recipes.remove(<NotEnoughWands:SwappingWand>);
-Infusion.addRecipe("RESEARCH", <Thaumcraft:FocusTrade>, [wandCoreBasic, <ThermalFoundation:material:75>, <HardcoreEnderExpansion:stardust>, <arsmagica2:itemOre:6>, wandCoreBasic, <ThermalFoundation:material:75>, <HardcoreEnderExpansion:stardust>, <arsmagica2:itemOre:7>], "Permutatio 40, Instrumentum 20, Perfodio 24", <NotEnoughWands:SwappingWand>, 5);
+Infusion.addRecipe("RESEARCH", <Thaumcraft:FocusTrade>, [wandCoreBasic, <Translocator:translocator>, <HardcoreEnderExpansion:stardust>, <arsmagica2:itemOre:6>, wandCoreBasic, <Translocator:translocator>, <HardcoreEnderExpansion:stardust>, <arsmagica2:itemOre:7>], "permutatio 40, instrumentum 20, perfodio 24", <NotEnoughWands:SwappingWand>, 6);
 
 print("Initialized 'NotEnoughWands.zs'");

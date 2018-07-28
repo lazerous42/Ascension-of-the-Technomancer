@@ -28,9 +28,6 @@ val saucepan = <harvestcraft:saucepanItem>;
 val cuttingBoard = <harvestcraft:cuttingboardItem>;
 val presser = <harvestcraft:presser>;
 
-## OreDict
-<ore:logWood>.add(<harvestcraft:pamMaple:1>);
-
 ##  Saucepan
 recipes.remove(saucepan);
 recipes.addShaped(saucepan, [[ingotIron, ingotIron, null], [ingotIron, ingotIron, null], [stick, null, null]]);

@@ -81,6 +81,9 @@ Found creative tab: buildcraft.boards
 Found creative tab: buildcraft.facades
 Found creative tab: buildcraft.gates
 Found creative tab: CarpentersBlocks
+Found creative tab: decorations
+Found creative tab: CaveDecorations
+Found creative tab: combat
 Found creative tab: forestry
 Found creative tab: ChromatiCraft Worldgen
 Found creative tab: ChromatiCraft Deco
@@ -90,18 +93,21 @@ Found creative tab: ChromatiCraft Tools
 Found creative tab: CC Info Fragments
 Found creative tab: transportation
 Found creative tab: EnderIO
-Found creative tab: decorations
 Found creative tab: EnderTechAll
 Found creative tab: EnderZoo
 Found creative tab: arboriculture
 Found creative tab: lepidopterology
 Found creative tab: extraUtil
-Found creative tab: combat
 Found creative tab: extraUtil_FMP
 Found creative tab: forbidden
 Found creative tab: mobcrystal
 Found creative tab: gardenCore
 Found creative tab: gardenTrees
+Found creative tab: GeoStrata
+Found creative tab: GeoStrata Ores
+Found creative tab: GeoStrata Slabs
+Found creative tab: GeoStrata Stairs
+Found creative tab: GeoStrata Stone
 Found creative tab: IC2
 Found creative tab: CreativeTabName
 Found creative tab: tabHardcoreEnderExpansion
@@ -109,10 +115,12 @@ Found creative tab: Nuclear Control 2
 Found creative tab: ImmersiveEngineering
 Found creative tab: jabba
 Found creative tab: Logistics_Pipes
+Found creative tab: loreexp
 Found creative tab: tabMCA
 Found creative tab: tabMCA.gemCutting
 Found creative tab: magicBees
 Found creative tab: food
+Found creative tab: MagicCookies
 Found creative tab: Magneticraft|Industrial Age
 Found creative tab: Magneticraft|Steam Age
 Found creative tab: Magneticraft|Main
@@ -121,7 +129,6 @@ Found creative tab: Magneticraft|Information Age
 Found creative tab: MineFactory Reloaded
 Found creative tab: MoCreaturesTab
 Found creative tab: moarSigns
-Found creative tab: mutantcreatures
 Found creative tab: NOVA
 Found creative tab: NVLToolsTab
 Found creative tab: natura.plants
@@ -211,10 +218,10 @@ Found creative tab: lycanitesmobs.creatures
 Found creative tab: lycanitesmobs.items
 Found creative tab: Ars Magica Items
 Found creative tab: Ars Magica Blocks
+Found creative tab: astikoor
 Found creative tab: aura
 Found creative tab: avaritiaddons
 Found creative tab: Battlegear2
-Found creative tab: Baublelicious
 Found creative tab: catwalks
 Found creative tab: chancecubes
 Found creative tab: tabWoodChiselBlocks
@@ -237,6 +244,7 @@ Found creative tab: dss.skills
 Found creative tab: eternalsingularity
 Found creative tab: etfuturum
 Found creative tab: Eureka
+Found creative tab: Ewy's Workshop
 Found creative tab: Extra_Cells
 Found creative tab: fairylights
 Found creative tab: farlandersTab
@@ -265,7 +273,6 @@ Found creative tab: malisisdoors
 Found creative tab: WeaponsTab
 Found creative tab: GenerationTab
 Found creative tab: ArmorTab
-Found creative tab: SpawnerTab
 Found creative tab: BowsTab
 Found creative tab: SlabTab
 Found creative tab: ToolsTab
@@ -276,7 +283,6 @@ Found creative tab: TablesTab
 Found creative tab: FurnitureTab
 Found creative tab: CannonsTab
 Found creative tab: BossesTab
-Found creative tab: BlueprintsTab
 Found creative tab: AncientTab
 Found creative tab: StaffTab
 Found creative tab: GreatbladesTab
@@ -293,9 +299,9 @@ Found creative tab: LightingTab
 Found creative tab: SoulTab
 Found creative tab: DecorativeBlocksTab
 Found creative tab: tabObsTrophies
-Found creative tab: concreteTab
 Found creative tab: openmodularturrets
 Found creative tab: OpenSecurity
+Found creative tab: OpenSensors
 Found creative tab: powersuits
 Found creative tab: props.Main
 Found creative tab: search
@@ -347,17 +353,17 @@ Regex match found! ThermalExpansion:florb matches ThermalExpansion:florb.
 Found ItemStack ThermalExpansion:florb. 16xitem.thermalexpansion.florb@0
 Loading: Mekanism.js
 Loading: ForgeMicroblock.js
-getRandomMaterial called. Returned: ChromatiCraft:chromaticraft_block_pylonstruct
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, ChromatiCraft:chromaticraft_block_pylonstruct
+getRandomMaterial called. Returned: ChromatiCraft:chromaticraft_block_dye_13
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, ChromatiCraft:chromaticraft_block_dye_13
 Loading: ExtraUtilities.js
 override called. Params: ExtraUtilities, drum, 0,1
 Regex match found! ExtraUtilities:drum matches ExtraUtilities:drum.
 Found ItemStack ExtraUtilities:drum. 64xtile.extrautils:drum@0
-getRandomMaterial called. Returned: ChromatiCraft:chromaticraft_block_dye_10
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, ChromatiCraft:chromaticraft_block_dye_10
+getRandomMaterial called. Returned: ChromatiCraft:chromaticraft_block_pylonstruct_11
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, ChromatiCraft:chromaticraft_block_pylonstruct_11
 Loading: BuildCraft.js
-getFacadesSize called. Returned: 5761
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 2730
+getFacadesSize called. Returned: 6369
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 821
 Loading: Bibliocraft.js
 override called. Params: BiblioCraft, *, 0
 Regex match found! BiblioCraft:* matches BiblioCraft:Armor Stand.
@@ -493,8 +499,8 @@ Found ItemStack BiblioCraft:tile.BiblioFramedChest. 64xtile.BiblioFramedChest@0
 Loading: AppliedEnergistics2.js
 getFacadeItem called. Returned: appliedenergistics2:item.ItemFacade
 getSubTypes called.
-getNumberOfTypes called. Returned: 4003
-override called. Params: appliedenergistics2, item.ItemFacade, 298
+getNumberOfTypes called. Returned: 4096
+override called. Params: appliedenergistics2, item.ItemFacade, 1245
 Regex match found! appliedenergistics2:item.ItemFacade matches appliedenergistics2:item.ItemFacade.
 Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
 Loading: Tcon.js
@@ -680,3 +686,7 @@ override called. Params: MineFactoryReloaded, tile.mfr.stainedglass.block, 0
 hide called. Params: MineFactoryReloaded:fluid.mfr.liquid.milk.still, 0
 override called. Params: MineFactoryReloaded, tile.mfr.stainedglass.pane, 0
 override called. Params: MineFactoryReloaded, tile.mfr.conveyor, 0
+Loading: OpenBlocks.js
+override called. Params: OpenBlocks, tank, 0
+Regex match found! OpenBlocks:tank matches OpenBlocks:tank.
+Found ItemStack OpenBlocks:tank. 64xtile.openblocks.tank@0

@@ -48,9 +48,7 @@ val evolvedOrechidEndiumII = <Botania:specialFlower>.withTag({type:"evolvedOrech
 val evolvedOrechidEndiumIII = <Botania:specialFlower>.withTag({type:"evolvedOrechidEndiumIII"});
 val evolvedOrechidEndiumIV = <Botania:specialFlower>.withTag({type:"evolvedOrechidEndiumIV"});
 
-##  Dark Quartz OreDict
-#-  Use Thaumic Tinkerer recipe for Flugel Tiara 
-<ore:quartzDark>.add(<ThaumicTinkerer:darkQuartzItem>);
+#-  Dark Quartz Thaumic Tinkerer Dark Quartz recipe for Flugel Tiara 
 recipes.remove(<Botania:quartz>);
 
 # - Pure Diasy

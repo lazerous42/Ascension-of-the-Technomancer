@@ -7,28 +7,18 @@ print("Initializing 'NVLSimpleBlocks.zs'...");
 
 # Diorite
 recipes.remove(<NVLSimpleBlocks:stone_diorite>);
-<ore:stoneDiorite>.add(<NVLSimpleBlocks:stone_diorite>);
-<ore:blockDiorite>.add(<NVLSimpleBlocks:stone_diorite>);
 recipes.remove(<NVLSimpleBlocks:stone_diorite_smooth>);
-<ore:stoneDioritePolished>.add(<NVLSimpleBlocks:stone_diorite_smooth>);
 
 # Andesite
 recipes.remove(<NVLSimpleBlocks:stone_andesite>);
-<ore:stoneAndesite>.add(<NVLSimpleBlocks:stone_andesite>);
-<ore:blockAndesite>.add(<NVLSimpleBlocks:stone_andesite>);
 recipes.remove(<NVLSimpleBlocks:stone_andesite_smooth>);
-<ore:stoneAndesitePolished>.add(<NVLSimpleBlocks:stone_andesite_smooth>);
 
 # Granite
 recipes.remove(<NVLSimpleBlocks:stone_granite>);
-<ore:stoneGranite>.add(<NVLSimpleBlocks:stone_granite>);
-<ore:blockGranite>.add(<NVLSimpleBlocks:stone_granite>);
 recipes.remove(<NVLSimpleBlocks:stone_granite_smooth>);
-<ore:stoneGranitePolished>.add(<NVLSimpleBlocks:stone_granite_smooth>);
 
 # Marble
 recipes.remove(<NVLSimpleBlocks:NVLMarble>);
-<ore:blockMarble>.add(<NVLSimpleBlocks:NVLMarble>);
 
 # Slopes
 recipes.remove(<NVLSimpleBlocks:Slope_1>);

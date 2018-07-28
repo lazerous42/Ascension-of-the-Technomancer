@@ -1,5 +1,5 @@
-Total amount of free biome ids: 6
-Total amount of occupied biome ids: 250
+Total amount of free biome ids: 9
+Total amount of occupied biome ids: 247
 Total amount of conflicted biome ids: 0
 All ids and their position:
 0 is Occupied by Ocean (net.minecraft.world.biome.BiomeGenOcean)
@@ -75,8 +75,8 @@ All ids and their position:
 70 is Occupied by Runandor (net.nevermine.dimension.runandor.BiomeGenRunandor)
 71 is Occupied by Vox Ponds (net.nevermine.dimension.voxponds.BiomeGenVoxponds)
 72 is Occupied by Dustopian Plains (net.nevermine.dimension.dustopia.biome.BiomeGenDustopiaPlains)
-73 is Occupied by Ethereus (net.nevermine.dimension.ethereus.BiomeGenEthereus)
-74 is Occupied by Everland (net.nevermine.dimension.everland.BiomeGenEverland)
+73 is Avaible
+74 is Avaible
 75 is Occupied by Gardencian Fungi (net.nevermine.dimension.gardencia.biome.BiomeGenGardenciaFungal)
 76 is Occupied by Gardencian Marsh (net.nevermine.dimension.gardencia.biome.BiomeGenGardenciaMarsh)
 77 is Occupied by Haunted Forest (net.nevermine.dimension.greckon.biome.BiomeGenGreckonForest)
@@ -105,7 +105,7 @@ All ids and their position:
 100 is Occupied by Coral Forest (net.nevermine.dimension.lborean.biome.BiomeGenBoreanForest)
 101 is Occupied by L'Borean Reds (net.nevermine.dimension.lborean.biome.BiomeGenBoreanRed)
 102 is Occupied by Marshmallow Hills (net.nevermine.dimension.candyland.biome.BiomeGenCandylandMarshmallow)
-103 is Occupied by Playtopia (net.nevermine.dimension.playtopia.BiomeGenPlaytopia)
+103 is Avaible
 104 is Occupied by Precasian Desert (net.nevermine.dimension.precasia.biome.BiomeGenPrecasiaDesert)
 105 is Occupied by Precasian Field (net.nevermine.dimension.precasia.biome.BiomeGenPrecasiaField)
 106 is Occupied by Tall Precasian Forest (net.nevermine.dimension.precasia.biome.BiomeGenPrecasiaTall)

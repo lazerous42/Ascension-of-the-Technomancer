@@ -1548,6 +1548,467 @@ MagicBees:jellyBabies
 	- Saturation Amount: 0.6
 
 
+MagicCookie:ItemGrog
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
+MagicCookie:MagicCookie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 1.5
+
+
 MineFactoryReloaded:meat.ingot.cooked
 	- Megadata: 0
 	- Food or Drink? Food
@@ -9360,13 +9821,13 @@ mountainmobs:yalemeatraw
 nevermine:BubbleBerries
 	- Megadata: 0
 	- Food or Drink? Food
-	- Food Amount: 1
-	- Saturation Amount: 0.5
+	- Food Amount: 0
+	- Saturation Amount: 0.6
 
 
 nevermine:BucketHalyconMilk
 	- Megadata: 0
-	- Food or Drink? Food
+	- Food or Drink? Drink
 	- Food Amount: 0
 	- Saturation Amount: 0.6
 
@@ -9381,14 +9842,14 @@ nevermine:Candlefish
 nevermine:ChiliPepper
 	- Megadata: 0
 	- Food or Drink? Food
-	- Food Amount: 2
+	- Food Amount: 0
 	- Saturation Amount: 0.6
 
 
 nevermine:ChimeraChopCooked
 	- Megadata: 0
 	- Food or Drink? Food
-	- Food Amount: 4
+	- Food Amount: 6
 	- Saturation Amount: 0.6
 
 
@@ -9423,8 +9884,8 @@ nevermine:EyeCandy
 nevermine:FieryChops
 	- Megadata: 0
 	- Food or Drink? Food
-	- Food Amount: 8
-	- Saturation Amount: 0.95
+	- Food Amount: 5
+	- Saturation Amount: 0.5
 
 
 nevermine:FingerFish
@@ -9443,16 +9904,16 @@ nevermine:FloracleSticks
 
 nevermine:FungalTea
 	- Megadata: 0
-	- Food or Drink? Food
+	- Food or Drink? Drink
 	- Food Amount: 0
-	- Saturation Amount: 0.6
+	- Saturation Amount: 0.5
 
 
 nevermine:FurlionChop
 	- Megadata: 0
 	- Food or Drink? Food
-	- Food Amount: 5
-	- Saturation Amount: 0.5
+	- Food Amount: 6
+	- Saturation Amount: 0.6
 
 
 nevermine:GoldenGullfish
@@ -9472,8 +9933,8 @@ nevermine:GoldicapPedals
 nevermine:HalyconBeef
 	- Megadata: 0
 	- Food or Drink? Food
-	- Food Amount: 5
-	- Saturation Amount: 0.5
+	- Food Amount: 7
+	- Saturation Amount: 0.7
 
 
 nevermine:HavenShrooms
@@ -9493,8 +9954,8 @@ nevermine:HeartFruit
 nevermine:HotRod
 	- Megadata: 0
 	- Food or Drink? Food
-	- Food Amount: 1
-	- Saturation Amount: 0.6
+	- Food Amount: 9
+	- Saturation Amount: 0.9
 
 
 nevermine:Ironback
@@ -9536,21 +9997,21 @@ nevermine:Lunarade
 	- Megadata: 0
 	- Food or Drink? Food
 	- Food Amount: 0
-	- Saturation Amount: 0.6
+	- Saturation Amount: 0.2
 
 
 nevermine:MagicMarang
 	- Megadata: 0
 	- Food or Drink? Food
 	- Food Amount: 5
-	- Saturation Amount: 0.85
+	- Saturation Amount: 0.7
 
 
 nevermine:NaturalTea
 	- Megadata: 0
-	- Food or Drink? Food
+	- Food or Drink? Drink
 	- Food Amount: 0
-	- Saturation Amount: 0.6
+	- Saturation Amount: 0.5
 
 
 nevermine:NatureMelonSlice
@@ -9618,9 +10079,9 @@ nevermine:SapphireStrider
 
 nevermine:Tea
 	- Megadata: 0
-	- Food or Drink? Food
+	- Food or Drink? Drink
 	- Food Amount: 0
-	- Saturation Amount: 0.6
+	- Saturation Amount: 0.5
 
 
 nevermine:TrilliadLeaves
@@ -9640,8 +10101,8 @@ nevermine:TurquoiseStripefish
 nevermine:UrsaCooked
 	- Megadata: 0
 	- Food or Drink? Food
-	- Food Amount: 4
-	- Saturation Amount: 0.6
+	- Food Amount: 8
+	- Saturation Amount: 0.8
 
 
 nevermine:VioletSkipper

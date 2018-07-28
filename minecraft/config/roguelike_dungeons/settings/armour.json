@@ -41,7 +41,7 @@
                         "name": "Artifacts:artifact_chainmail_leggings", 
                         "min": "1"
                     }, 
-                    "weight": "0"
+                    "weight": "1"
                 }, 
                 {
                     "data": {
@@ -68,7 +68,7 @@
                         "name": "Artifacts:artifact_chainmail_helmet", 
                         "min": "1"
                     }, 
-                    "weight": "0"
+                    "weight": "1"
                 }, 
                 {
                     "data": {
@@ -77,7 +77,7 @@
                         "name": "Artifacts:artifact_chainmail_boots", 
                         "min": "1"
                     }, 
-                    "weight": "0"
+                    "weight": "1"
                 }, 
                 {
                     "data": {
@@ -113,7 +113,7 @@
                         "name": "Artifacts:artifact_chainmail_chestplate", 
                         "min": "1"
                     }, 
-                    "weight": "0"
+                    "weight": "1"
                 }, 
                 {
                     "data": {
@@ -122,8 +122,17 @@
                         "name": "Thaumcraft:BootsTraveller", 
                         "min": "1"
                     }, 
-                    "weight": "0"
-                }                                                
+                    "weight": "1"
+                },
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "0", 
+                        "name": "backlytra:elytra", 
+                        "min": "1"
+                    }, 
+                    "weight": "1"
+                }
             ]
         }
     ]

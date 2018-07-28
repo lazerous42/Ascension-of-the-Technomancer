@@ -112,5 +112,9 @@ The following shows how to add a coolant
 </coolant>-->
 
 <ThermalExpansion>
-	<!--Add your recipes here!-->
+	<redstonefurnace>
+		<input>gregtech:gt.metaitem.01 1 2036</input>
+		<output>gregtech:gt.metaitem.01 1 11036</output>
+		<energy>1600</energy>
+	</redstonefurnace>
 </ThermalExpansion>

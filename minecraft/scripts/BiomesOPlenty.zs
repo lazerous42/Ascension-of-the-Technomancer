@@ -16,9 +16,6 @@ val Knife = <ore:craftingToolKnife>;
 
 val Cattail = <BiomesOPlenty:plants:7>;
 
-## Oredict BoP berry
-<ore:listAllBerry>.add(<BiomesOPlenty:food>);
-
 ## Remove Gem Blocks that match other mods gem blocks
 recipes.remove(<BiomesOPlenty:gemOre:1>);
 recipes.remove(<BiomesOPlenty:gemOre:3>);

@@ -1,4 +1,4 @@
-Total amount of occupied biome ids: 250
+Total amount of occupied biome ids: 247
 Table of occupied biome ids and their owners
 id:name(class)
 0 : Ocean (class net.minecraft.world.biome.BiomeGenOcean)
@@ -73,8 +73,6 @@ id:name(class)
 70 : Runandor (class net.nevermine.dimension.runandor.BiomeGenRunandor)
 71 : Vox Ponds (class net.nevermine.dimension.voxponds.BiomeGenVoxponds)
 72 : Dustopian Plains (class net.nevermine.dimension.dustopia.biome.BiomeGenDustopiaPlains)
-73 : Ethereus (class net.nevermine.dimension.ethereus.BiomeGenEthereus)
-74 : Everland (class net.nevermine.dimension.everland.BiomeGenEverland)
 75 : Gardencian Fungi (class net.nevermine.dimension.gardencia.biome.BiomeGenGardenciaFungal)
 76 : Gardencian Marsh (class net.nevermine.dimension.gardencia.biome.BiomeGenGardenciaMarsh)
 77 : Haunted Forest (class net.nevermine.dimension.greckon.biome.BiomeGenGreckonForest)
@@ -103,7 +101,6 @@ id:name(class)
 100 : Coral Forest (class net.nevermine.dimension.lborean.biome.BiomeGenBoreanForest)
 101 : L'Borean Reds (class net.nevermine.dimension.lborean.biome.BiomeGenBoreanRed)
 102 : Marshmallow Hills (class net.nevermine.dimension.candyland.biome.BiomeGenCandylandMarshmallow)
-103 : Playtopia (class net.nevermine.dimension.playtopia.BiomeGenPlaytopia)
 104 : Precasian Desert (class net.nevermine.dimension.precasia.biome.BiomeGenPrecasiaDesert)
 105 : Precasian Field (class net.nevermine.dimension.precasia.biome.BiomeGenPrecasiaField)
 106 : Tall Precasian Forest (class net.nevermine.dimension.precasia.biome.BiomeGenPrecasiaTall)

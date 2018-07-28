@@ -165,6 +165,10 @@
 	- Name: Mesa Plateau
 	- Forge Biome Types: MESA SANDY 
 
+40
+	- Name: WyvernBiome
+	- Forge Biome Types: FOREST MOUNTAIN 
+
 41
 	- Name: Aether
 	- Forge Biome Types: DRY PLAINS 
@@ -283,23 +287,15 @@
 
 70
 	- Name: Runandor
-	- Forge Biome Types: DRY PLAINS 
+	- Forge Biome Types: DRY HILLS 
 
 71
 	- Name: Vox Ponds
-	- Forge Biome Types: HOT DRY SAVANNA PLAINS 
+	- Forge Biome Types: COLD DRY PLAINS 
 
 72
 	- Name: Dustopian Plains
 	- Forge Biome Types: WET PLAINS 
-
-73
-	- Name: Ethereus
-	- Forge Biome Types: HOT DRY SAVANNA PLAINS 
-
-74
-	- Name: Everland
-	- Forge Biome Types: HOT DRY SAVANNA PLAINS 
 
 75
 	- Name: Gardencian Fungi
@@ -412,10 +408,6 @@
 102
 	- Name: Marshmallow Hills
 	- Forge Biome Types: WET PLAINS 
-
-103
-	- Name: Playtopia
-	- Forge Biome Types: HOT DRY SAVANNA PLAINS 
 
 104
 	- Name: Precasian Desert

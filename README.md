@@ -16,13 +16,98 @@ All of this comes together to create one of the biggest modpacks ever made avail
 
 Do you consider yourself a Minecraft expert? Then welcome to your greatest challenge... or your undoing.  Good luck friend, You're going to need it.
 
-NOTICE1: Due to factors beyond my control, using the "U"sage function in NEI can cause your session to hang for several minutes.  This is due to a negative interaction between Chromaticraft's dynamic recipes generation and recursive recipe tree parsingc conflicting with GregTech's circular recipe structures from the recycling system.  There is unfortunately nothing I can do to prevent this.  The problem can be reproduced with only GT, CC, and NEI.  It won't happen for all items, but it's probably best to avoid the "U"sage function in NEI.  Be aware that once you wait out the duration of the hang it will not happen again for subsequent uses of the "U"sage function.
+UPDATE1: Although I have been MIA for quite a while version 6.0.1 should be reviewed for go-live soon.  Tons of new content and bugfixes to enjoy.
 
 * A note about config version numbers ~ The least significant version number applies to config changes only, where that the middle number increments with mod versions.  Although configs from newer versions of mods won't normally cause issues, there is a small chance so I figured I should mention it just in case.  The most significant digit indicates a major structural change, i.e. a substantial content change.  Mixing configs across major version updates is NOT recommended.  Not all of the earlier releases follow this pattern exactly, but this standard is being maintained now and henceforth.
 
 ** Have an idea or useful tweak, pull requests are welcome and will be reviewed.
 
 ChangeLog
+-- Version 6.0.1§r§1§l (Brave New World update)
+- Added ~ DynamicSurroundings, BetterFoliage
+- Removed ~ JourneyMap
+- Config ~ Turned off BetterFoliage grass and decreased effect view distance from 1000->750
+- Updated ~ DragonAPI, RotaryCraft, ReactorCraft, GeoStrata, and MeteorCraft, Chunk Pregenerator, EternalSingularity, and Steve's Workshop
+- BugFix ~ Added missing DimMapping tag to Lunalis in planetDefs.xml
+- Config ~ Added oceanBlock of lava to planet Vultomas
+- Config ~ Iron shafts added to IE villager crates
+- Config ~ Added Elytras to more chest locations
+- Config ~ Ancient Teleporter Blueprint can now only appear in nether fortresses and strongholds (it's a major progression item so it should be very rare to find)
+- Updated ~ Corrected script naming convention issues (no spaces)
+- Config ~ Massive structure library update for recurrent complex options
+- Config ~ Finalized RTG/CC config
+- Updated ~ GregTech to 5.09.32.pre4
+- Updated ~ New AoA version Whoooo Hoooo!
+- Updated ~ OpenSecurity
+- Config ~ Tweaked RTG/CC biome spawning
+- Config ~ Enabled Named Villages ocean monument spawning, Et Futurum based spawning doesn't work in RTG
+- Config ~ Used script to disable Malisis' Doors fence gates, use Et Futurum
+- Config ~ Less project Red volcanos
+- BugFix ~ Any form or prismarine will work for blood orb recipes
+- Updated ~ Set village/volcano settings in RTG/CC
+- Updated ~ Dungeonpack structures spawnable biome range expanded + some disabled structures re-activated
+- Updated ~ Removing aesthetic mods (except Chunk Animations), too heavy on processor
+- Added ~ GeoStrata
+- Added ~ MeteorCraft
+- Added ~ Tumbleweed
+- Added ~ Better Foliage
+- Added ~ Astikoor (e.g. a horse cart)
+- Removed ~ Baublelicious, I miss understood what this mod does
+- Config ~ Added Elytra to some loot tables
+- BugFix ~ Attempt to get GT zinc dust to play nice with smelting.  This seems to be a GT bug/quirk, as you can smelt the dirty dust, but not the clean
+- Config ~ Started a Magneticraft script
+- Config ~ Calibrate RTG settings
+- Config ~ Tweak oregen for RTG worlds
+- Removed ~ Generator mods, it doesn't seem to respect the frequency settings and is generating some questionable quality structures
+- Config ~ Fix ChromatiCraft client side configs (the got reset)
+- Config ~ Generator Mods walled city can only appear in FeyWeld
+- Added ~ RTG and Climate Control
+- Added ~ Llamas
+- Added ~ Back in Slime
+- BugFix ~ Correct InPureCore NEI config bug for Open Blocks
+- Config ~ Decreased Generatormod structure frequency
+- Config ~ Created loot table for Generatormod
+- Config ~ Added WTF Expedition caves to Feyweld
+- Config ~ Setup itlt (It's the Little Thing) resources
+- Config ~  Added custom Elytra recipe
+- Added ~ Generatormods + structure data for ruined cities
+- Added ~ Magic Cookies
+- Added ~ BackLyrta.  Yup, that's right a 1.7.10 pack with an Elytra (still needs recipe)
+- Config ~ Updated Steves Workshop script to work with Ewy's Workshop
+- Config ~ Update NEI filters to not show every liquids Open Blocks tank recipe
+- Added ~ Chunk Pre-Generator
+- Removed ~ chunkgen
+- Config ~ Removed unneeded MineTweaker script logic in favor of using zzzcustom config to build new oredict entries
+- Added ~ Ewysworkshop and replaced Steve's Workshot
+- Added ~ WTF Expedition to get more interesting cave generation
+- Added ~ SetNow, you will now be able to use a bed to set your spawn point at anytime of the day or night
+- Added ~ Open Sensors
+- Added ~ Nether Portal Fix
+- Added ~ Lore Expansion (for future use)
+- BugFix ~ Corrected the inability to make colored diamond dust for Minecraft Comes Alive
+- Config ~ Moar work moving OreDict refs into launch sequence
+
+Version 5.5.0 (The Endless Obsession Update)
+- Config ~ Creating oredict records at init time.  This make the need to rename the Mo' Creatures configs each update obsolete
+- Config ~ Not Enough Wands recipe and config cleanup
+- Config ~ Moving oredict setup to zzzcustom configs to setup equivalents are launch so mod init can take advantage of the records automatically.
+- BugFix ~ Changing HS Rail and Village Names recipes in zzzcustom configs to prevent GregTech from setting up improper recipes
+- BugFix ~ Mo' Creatures oredict recipes are now established in here as this can handle the absence of the mod where the .zs file cannot.  Now users won't need to edit files in their scripts folder every time the pack updates
+- Removed ~ Concrete Mod - Functionality replaced by Village Names.  The powder to concrete conversion works more accurately too.  Concrete Mod powder would freeze above water if it was placed directly above water, as opposed to falling in as expected
+- Added ~ Village Names
+- Added ~ NotEnoughThaumcraftTabs
+- Config ~ Oredicted glazed terracotta
+- Removed ~ Blur mod as it was blurring out the view of the BiblioCraft atlas.  This atlas leverages vanilla mapping and will most likely be supplanting JourneyMap to save on processing overhead and to provide a more engaging experience (you'll actually have to worry about getting lost)
+- Config ~  Added a new recipe for compasses that is cheaper as you progress into GT 
+- Config ~ Added custom chemical X recipe
+- BugFix ~ Script cleanup 
+- Added ~ Not Enough Wands + recipe script
+- Config ~ Guide tweaks
+- Added ~ ForbiddenMagic.zs script
+- Config ~ High-speed rails now require compressed iron
+- Config ~ Better TiCon NEI filters
+- Config ~ Moves some QED recipes to normal crafting to break dependence on getting Enderium
+
 -- Version 5.4.2 
 - Config ~ Added custom chemical X recipe
 - BugFix ~ Script cleanup 

@@ -33,7 +33,7 @@ val planksTreated = <ImmersiveEngineering:treatedWood>;
 val engineersHammer = <ImmersiveEngineering:tool>;
 
 ##  Creosote Bottle Oredict
-<ore:bottleCreosote>.add(bottleCreosoteIE);
+#<ore:bottleCreosote>.add(bottleCreosoteIE);
 
 ## Coal Coke
 recipes.remove(blockCoalCoke);

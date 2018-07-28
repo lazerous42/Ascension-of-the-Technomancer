@@ -463,73 +463,73 @@
 
 
 100
+	- Name: enchantment.chroma.autocollect
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 1
+
+
+101
 	- Name: enchantment.archmage
 	- Weight: 1
 	- Min Level: 1
 	- Max Level: 1
 
 
-101
+102
 	- Name: enchantment.control
 	- Weight: 1
 	- Min Level: 1
-	- Max Level: 1
-
-
-102
-	- Name: enchantment.crush
-	- Weight: 1
-	- Min Level: 1
-	- Max Level: 1
+	- Max Level: 2
 
 
 103
-	- Name: enchantment.intervention
+	- Name: enchantment.crush
 	- Weight: 1
 	- Min Level: 1
-	- Max Level: 1
+	- Max Level: 2
 
 
 104
 	- Name: enchantment.overpower
 	- Weight: 1
 	- Min Level: 1
-	- Max Level: 1
+	- Max Level: 2
 
 
 105
 	- Name: enchantment.recharge
 	- Weight: 1
 	- Min Level: 1
-	- Max Level: 1
+	- Max Level: 2
 
 
 106
 	- Name: enchantment.sever
 	- Weight: 1
 	- Min Level: 1
-	- Max Level: 1
+	- Max Level: 3
 
 
 107
 	- Name: enchantment.shell
 	- Weight: 1
 	- Min Level: 1
-	- Max Level: 1
+	- Max Level: 3
 
 
 108
 	- Name: enchantment.slice
 	- Weight: 1
 	- Min Level: 1
-	- Max Level: 1
+	- Max Level: 3
 
 
 109
 	- Name: enchantment.windfury
 	- Weight: 1
 	- Min Level: 1
-	- Max Level: 1
+	- Max Level: 3
 
 
 110
@@ -537,6 +537,13 @@
 	- Weight: 3
 	- Min Level: 1
 	- Max Level: 4
+
+
+111
+	- Name: enchantment.intervention
+	- Weight: 1
+	- Min Level: 1
+	- Max Level: 1
 
 
 120

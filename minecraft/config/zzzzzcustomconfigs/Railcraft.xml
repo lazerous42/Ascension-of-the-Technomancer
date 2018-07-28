@@ -46,5 +46,25 @@ It's also worth noting that the rolling machine DOES NOT support ore dictionary 
 </rollingmachine>-->
 
 <Railcraft>
-	<!--Add your recipes here!-->
+	<!-- ~~~~~~~~~~~~~~~~~ -->
+	<!-- H.S. Rail         -->
+	<!-- ~~~~~~~~~~~~~~~~~ -->
+	<rollingmachine type="shaped">
+		<output>Railcraft:part.rail 8 3</output>
+		<row1>"xyz"</row1>
+		<row2>"xyz"</row2>
+		<row3>"xyz"</row3>
+		<x>PneumaticCraft:ingotIronCompressed 1 0</x>
+		<y>minecraft:blaze_powder 1 0</y>
+		<z>minecraft:gold_ingot 1 0</z>
+	</rollingmachine>
+	<rollingmachine type="shaped">
+		<output>Railcraft:part.rail 8 3</output>
+		<row1>"xyz"</row1>
+		<row2>"xyz"</row2>
+		<row3>"xyz"</row3>
+		<x>PneumaticCraft:ingotIronCompressed 1 0</x>
+		<y>minecraft:blaze_powder 1 0</y>
+		<z>RotaryCraft:rotarycraft_item_modingots 1 30</z>
+	</rollingmachine>
 </Railcraft>

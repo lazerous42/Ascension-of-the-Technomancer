@@ -12,27 +12,27 @@ print("Initializing 'Natura.zs'...");
 val mushroomStew = <minecraft:mushroom_stew>;
 
 ## OreDict Entries
-<ore:listAllberry>.add(<Natura:berry>);
-<ore:listAllfruit>.add(<Natura:berry>);
-<ore:listAllfruit>.add(<Natura:berry:2>);
-<ore:listAllberry>.add(<Natura:berry:2>);
-<ore:listAllfruit>.add(<Natura:berry:1>);
-<ore:listAllberry>.add(<Natura:berry:1>);
+#<ore:listAllberry>.add(<Natura:berry>);
+#<ore:listAllfruit>.add(<Natura:berry>);
+#<ore:listAllfruit>.add(<Natura:berry:2>);
+#<ore:listAllberry>.add(<Natura:berry:2>);
+#<ore:listAllfruit>.add(<Natura:berry:1>);
+#<ore:listAllberry>.add(<Natura:berry:1>);
 
 ##  Log Fixes
 var logs = [<Natura:tree>, 
-	    <Natura:tree:1>, 
-	    <Natura:tree:2>, 
-	    <Natura:redwood:1>, 
-	    <Natura:bloodwood>, 
-	    <Natura:tree:3>, 
-	    <Natura:Rare Tree>, 
-	    <Natura:Rare Tree:1>, 
-	    <Natura:Rare Tree:2>, 
-	    <Natura:Rare Tree:3>, 
-	    <Natura:willow>, 
-	    <Natura:Dark Tree>, 
-	    <Natura:Dark Tree:1>] as IItemStack[];
+	    	<Natura:tree:1>, 
+	    	<Natura:tree:2>, 
+	    	<Natura:redwood:1>, 
+	    	<Natura:bloodwood>, 
+	    	<Natura:tree:3>, 
+	    	<Natura:Rare Tree>, 
+	    	<Natura:Rare Tree:1>, 
+	    	<Natura:Rare Tree:2>, 
+	    	<Natura:Rare Tree:3>, 
+	    	<Natura:willow>, 
+	    	<Natura:Dark Tree>, 
+	    	<Natura:Dark Tree:1>] as IItemStack[];
 for meta, log in logs {
     recipes.remove(<Natura:planks>.definition.makeStack(meta));
     recipes.addShapeless(<Natura:planks>.definition.makeStack(meta) * 2, [log]);

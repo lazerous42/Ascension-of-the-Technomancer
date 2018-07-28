@@ -15,5 +15,13 @@ Recipes added via this mod will NOT be removed!
 -->
 
 <RemoveRecipes>
-	<!--Add your recipes here!-->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!--Lunarin Style Iron Brick -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<output1>VillageNames:lunarinIronBlock 1 0</output1>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!--Lunarin Style Gold Brick -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<output2>VillageNames:lunarinGoldBlock 1 0</output2>
+	<output3>Railcraft:part.rail 8 3</output3>
 </RemoveRecipes>

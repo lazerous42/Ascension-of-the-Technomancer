@@ -10,11 +10,6 @@ val blockLapis = <minecraft:lapis_block>;
 val blockGlass = <minecraft:glass>;
 val ingotIron = <minecraft:iron_ingot>;
 
-## OreDict
-<ore:chanceModifierPendant>.add(<chancecubes:chancePendantTier1>);
-<ore:chanceModifierPendant>.add(<chancecubes:chancePendantTier2>);
-<ore:chanceModifierPendant>.add(<chancecubes:chancePendantTier3>);
-
 ## Remove Crafting Recipes for Chance Modifier Pendants (Chest Loot Only)
 recipes.removeShaped(<chancecubes:chancePendantTier1>);
 recipes.removeShaped(<chancecubes:chancePendantTier2>);

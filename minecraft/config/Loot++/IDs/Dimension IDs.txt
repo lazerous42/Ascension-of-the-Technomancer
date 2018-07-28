@@ -13,7 +13,7 @@
 	- Name: Overworld
 	- Height: 256
 	- Has Sky? true
-	- Cloud Height: 128.0
+	- Cloud Height: 256.0
 	- Can Respawn Here? true
 	- Terrain Scale: 1.0
 
@@ -22,7 +22,7 @@
 	- Name: Nether
 	- Height: 128
 	- Has Sky? false
-	- Cloud Height: 128.0
+	- Cloud Height: 256.0
 	- Can Respawn Here? false
 	- Terrain Scale: 8.0
 
@@ -85,7 +85,7 @@
 	- Name: Pocket Plane
 	- Height: 128
 	- Has Sky? false
-	- Cloud Height: 128.0
+	- Cloud Height: 256.0
 	- Can Respawn Here? false
 	- Terrain Scale: 1.0
 
@@ -112,7 +112,7 @@
 	- Name: Torment
 	- Height: 256
 	- Has Sky? true
-	- Cloud Height: 128.0
+	- Cloud Height: 256.0
 	- Can Respawn Here? false
 	- Terrain Scale: 1.0
 
@@ -121,7 +121,7 @@
 	- Name: Mirror
 	- Height: 128
 	- Has Sky? false
-	- Cloud Height: 128.0
+	- Cloud Height: 256.0
 	- Can Respawn Here? false
 	- Terrain Scale: 1.0
 
@@ -139,40 +139,13 @@
 	- Name: Soul Network Dimension
 	- Height: 256
 	- Has Sky? true
-	- Cloud Height: 128.0
+	- Cloud Height: 256.0
 	- Can Respawn Here? true
 	- Terrain Scale: 1.0
 
 
 34
 	- Name: DimensionShyrelands
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 128.0
-	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
-33
-	- Name: DimensionPlaytopia
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 128.0
-	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
-32
-	- Name: DimensionEverland
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 128.0
-	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
-31
-	- Name: DimensionEthereus
 	- Height: 256
 	- Has Sky? true
 	- Cloud Height: 128.0
@@ -409,7 +382,7 @@
 	- Name: Dungeons
 	- Height: 128
 	- Has Sky? false
-	- Cloud Height: 128.0
+	- Cloud Height: 256.0
 	- Can Respawn Here? true
 	- Terrain Scale: 1.0
 
@@ -436,7 +409,7 @@
 	- Name: Proxima
 	- Height: 256
 	- Has Sky? true
-	- Cloud Height: 73.59514
+	- Cloud Height: 80.700134
 	- Can Respawn Here? false
 	- Terrain Scale: 1.0
 

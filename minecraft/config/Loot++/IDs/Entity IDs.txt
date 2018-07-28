@@ -94,6 +94,7 @@ Botania.botania:vineBall
 BuildCraft|Robotics.bcRobot
 BuildCraft|Silicon.bcPackageThrowable
 CarpentersBlocks.CarpentersTile
+CaveBiomes.SkeletonMage
 CaveSpider
 Celebrity
 Chicken
@@ -126,6 +127,7 @@ ChromatiCraft.Pylon Overload
 ChromatiCraft.SplashGun Shot
 ChromatiCraft.TNT Pinball
 ChromatiCraft.Thrown Gem
+ChromatiCraft.Tunnel Nuker
 ChromatiCraft.Vacuum
 ClayGolem
 Cow
@@ -220,6 +222,10 @@ LeashKnot
 MCA.EntityChoreFishHook
 MCA.EntityGrimReaper
 MCA.EntityHuman
+MagicCookie.IceCube
+MagicCookie.MagicCookieGolem
+Meteor
+MeteorTrail
 MineFactoryReloaded.DebugTracker
 MineFactoryReloaded.FishingRod
 MineFactoryReloaded.Item
@@ -298,23 +304,6 @@ MoCreatures.Wyvern
 Mob
 Monster
 MushroomCow
-MutantCreatures.Chemical X
-MutantCreatures.CreeperMinion
-MutantCreatures.CreeperMinionEgg
-MutantCreatures.EnderBlock
-MutantCreatures.EndermanClone
-MutantCreatures.EndersoulFragment
-MutantCreatures.MutantCreeper
-MutantCreatures.MutantEnderman
-MutantCreatures.MutantSkeleton
-MutantCreatures.MutantSnowGolem
-MutantCreatures.MutantZombie
-MutantCreatures.SkeletonPart
-MutantCreatures.SkeletonShot
-MutantCreatures.SkullSpirit
-MutantCreatures.SnowGolemBlock
-MutantCreatures.SpiderPig
-MutantCreatures.ZombieMinion
 NEAT_Zombie
 Natura.FlameSpider
 Natura.FlameSpiderBaby
@@ -854,6 +843,8 @@ arsmagica2.ThrownRock
 arsmagica2.ThrownSickle
 arsmagica2.Whirlwind
 arsmagica2.ZoneSpell
+astikoor.cargocart
+astikoor.plowcart
 aura.ExplosionMiner
 aura.Fairy
 chisel.BallOMoss
@@ -974,6 +965,7 @@ etfuturum.snow_golem
 etfuturum.tipped_arrow
 etfuturum.villager_zombie
 etfuturum.wooden_armorstand
+evoker
 farlanders.Classic Enderman
 farlanders.Elder Farlander
 farlanders.Ender Golem
@@ -1083,6 +1075,7 @@ junglemobs.tarantula
 junglemobs.uvaraptor
 junglemobs.vespid
 junglemobs.vespidqueen
+llama
 lootplusplus.Label
 lootplusplus.ThrownItem
 lycanitesmobs.fear
@@ -1143,10 +1136,6 @@ nevermine.Beamer
 nevermine.BlastBomb
 nevermine.Blissard
 nevermine.BlissfulBlast
-nevermine.Blockat
-nevermine.Blockhead
-nevermine.Blocky
-nevermine.Bloger
 nevermine.BloodDrainShot
 nevermine.Bloodball
 nevermine.Bloodlust
@@ -1214,11 +1203,9 @@ nevermine.Coralon
 nevermine.Coratee
 nevermine.Corby
 nevermine.Corny
+nevermine.CorruptedTraveller
 nevermine.CottonCandor
 nevermine.Craexxeus
-nevermine.CraexxeusBomb
-nevermine.CraexxeusNuke
-nevermine.CraexxeusShot
 nevermine.Craggy
 nevermine.CreationMaster
 nevermine.Creep
@@ -1248,7 +1235,6 @@ nevermine.Destructor
 nevermine.DestructorShot
 nevermine.Devourer
 nevermine.Dicer
-nevermine.DinosaurBreeder
 nevermine.Diocus
 nevermine.DischargeDamage
 nevermine.DischargeShell
@@ -1269,7 +1255,6 @@ nevermine.Echodar
 nevermine.Eeo
 nevermine.EeoRunning
 nevermine.Eilosapien
-nevermine.Elderon
 nevermine.ElementalArrow
 nevermine.Elkanyne
 nevermine.Elusive
@@ -1284,14 +1269,11 @@ nevermine.EradicatorShot
 nevermine.ErebonShot
 nevermine.ErebonStickler
 nevermine.Everbeast
-nevermine.Evercron
-nevermine.EvercronShot
 nevermine.Exohead
 nevermine.Exoid
 nevermine.ExpeditionMaster
 nevermine.Explodot
 nevermine.ExplosivesExpert
-nevermine.Eydock
 nevermine.EyeCreature
 nevermine.FacelessFloater
 nevermine.FacelessRunner
@@ -1309,8 +1291,6 @@ nevermine.Fishix
 nevermine.Flamewalker
 nevermine.Flash
 nevermine.FleshEater
-nevermine.Floatator
-nevermine.Floater
 nevermine.FloroPellet
 nevermine.FloroRPG
 nevermine.FlowerBall
@@ -1351,10 +1331,10 @@ nevermine.Gnawer
 nevermine.Goalby
 nevermine.Goblin
 nevermine.GoldBringer
-nevermine.Goldem
 nevermine.GoldenBullet
 nevermine.GoldenCannonball
 nevermine.Goldorth
+nevermine.Goldum
 nevermine.Goldus
 nevermine.GolemGunBullet
 nevermine.GooBall
@@ -1390,8 +1370,9 @@ nevermine.HeadlessDestroyer
 nevermine.HeadlessHunter
 nevermine.HealingGolem
 nevermine.HellBubbleShot
+nevermine.HellFire
+nevermine.HellFireTendril
 nevermine.Hellcat
-nevermine.HellfFire
 nevermine.Hellquin
 nevermine.Hellspot
 nevermine.HermetismMaster
@@ -1538,8 +1519,6 @@ nevermine.MagicalCreeper
 nevermine.Magicke
 nevermine.MagickeShot
 nevermine.MechBot
-nevermine.MechFall
-nevermine.MechShot
 nevermine.MechaCyclops
 nevermine.MechaSkellox
 nevermine.Mechachron
@@ -1594,7 +1573,6 @@ nevermine.Orbiter
 nevermine.Orbling
 nevermine.OrbocronShot
 nevermine.Paladin
-nevermine.ParalyzerShot
 nevermine.Parasect
 nevermine.Paravite
 nevermine.PenetrationBullet
@@ -1709,11 +1687,11 @@ nevermine.ShadowlordShot
 nevermine.Shavo
 nevermine.Shell
 nevermine.Shifter
+nevermine.ShoeShot
 nevermine.ShowerShot
 nevermine.ShyreArcher
 nevermine.ShyreBanker
 nevermine.ShyreKnight
-nevermine.ShyreShot
 nevermine.ShyreTroll
 nevermine.Silencer
 nevermine.Silverfoot
@@ -1779,7 +1757,6 @@ nevermine.StaffWind
 nevermine.StaffWither
 nevermine.Stalker
 nevermine.StalkerPrime
-nevermine.Stepper
 nevermine.Sticky
 nevermine.StickyBomb
 nevermine.Stimulo
@@ -1941,6 +1918,8 @@ swampmobs.poisonray
 swampmobs.poisonrayend
 swampmobs.remobra
 swampmobs.venomshot
+tumbleweed.Tumbleweed
+vindicator
 whitehall.Whitehall
 witchery.attackbat
 witchery.babayaga
@@ -2006,16 +1985,16 @@ witchery.wolfman
 26 - enderzoo.WitherWitch
 27 - enderzoo.WitherCat
 28 - enderzoo.DireWolf
-30 - Chicobo
-31 - ChocoboYellow
-32 - ChocoboGreen
-33 - ChocoboBlue
-34 - ChocoboWhite
-35 - ChocoboBlack
-36 - ChocoboGold
-37 - ChocoboPink
-38 - ChocoboRed
-39 - ChocoboPurple
+30 - llama
+31 - vindicator
+32 - evoker
+33 - Chicobo
+34 - ChocoboYellow
+35 - ChocoboGreen
+36 - ChocoboBlue
+37 - ChocoboWhite
+38 - ChocoboBlack
+39 - ChocoboGold
 50 - Creeper
 51 - Skeleton
 52 - Spider
@@ -2030,9 +2009,12 @@ witchery.wolfman
 62 - LavaSlime
 65 - Bat
 66 - Witch
-69 - Blizz
-70 - Blitz
-71 - Basalz
+67 - ChocoboPink
+68 - ChocoboRed
+69 - ChocoboPurple
+74 - Blizz
+75 - Blitz
+76 - Basalz
 90 - Pig
 91 - Sheep
 92 - Cow

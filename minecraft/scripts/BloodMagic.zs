@@ -210,6 +210,10 @@ Altar.addRecipe(<AWWayofTime:weakBloodOrb>, <Botania:manaResource:2>, 1, 2000, 2
 Altar.removeRecipe(<AWWayofTime:apprenticeBloodOrb>);
 Altar.addRecipe(<AWWayofTime:apprenticeBloodOrb>, <Botania:prismarine>, 2, 5000, 5, 5);
 Altar.addRecipe(<AWWayofTime:apprenticeBloodOrb>, <Botania:prismarine:1>, 2, 5000, 5, 5);
+Altar.addRecipe(<AWWayofTime:apprenticeBloodOrb>, <VillageNames:prismarine>, 2, 5000, 5, 5);
+Altar.addRecipe(<AWWayofTime:apprenticeBloodOrb>, <VillageNames:prismarine:1>, 2, 5000, 5, 5);
+Altar.addRecipe(<AWWayofTime:apprenticeBloodOrb>, <etfuturum:prismarine_block>, 2, 5000, 5, 5);
+Altar.addRecipe(<AWWayofTime:apprenticeBloodOrb>, <etfuturum:prismarine_block:1>, 2, 5000, 5, 5);
 Altar.removeRecipe(<AWWayofTime:magicianBloodOrb>);
 Altar.addRecipe(<AWWayofTime:magicianBloodOrb>, <Thaumcraft:blockCosmeticSolid:4>, 3, 25000);
 Altar.removeRecipe(<AWWayofTime:masterBloodOrb>);

@@ -28,5 +28,26 @@ You don't necessarily need 3 rows. If your recipe fits in just 1 or 2, use just 
 </shaped>-->
 
 <CraftingRecipes>
-	<!--Add your recipes here!-->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!--Lunarin Style Iron Brick -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<shaped>
+		<output>VillageNames:lunarinGoldBlock 1 8</output>
+		<row1>" x "</row1>
+		<row2>"xyx"</row2>
+		<row3>" x "</row3>
+		<x>minecraft:iron_ingot 1 0</x>
+		<y>minecraft:stonebrick 1 0</y>
+	</shaped>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!--Lunarin Style Gold Brick -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<shaped>
+		<output>VillageNames:lunarinGoldBlock 1 8</output>
+		<row1>" x "</row1>
+		<row2>"xyx"</row2>
+		<row3>" x "</row3>
+		<x>minecraft:gold_ingot 1 0</x>
+		<y>minecraft:stonebrick 1 0</y>
+	</shaped>
 </CraftingRecipes>

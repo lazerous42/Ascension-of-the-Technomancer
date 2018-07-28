@@ -186,6 +186,15 @@
                         "min": "1"
                     }, 
                     "weight": "1"
+                },
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "0", 
+                        "name": "backlytra:elytra", 
+                        "min": "1"
+                    }, 
+                    "weight": "1"
                 }
             ]
         }

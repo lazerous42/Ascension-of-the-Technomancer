@@ -47,9 +47,9 @@ val printedEngineering = <appliedenergistics2:item.ItemMultiMaterial:17>;
 val printedLogic = <appliedenergistics2:item.ItemMultiMaterial:18>;
 val printedCalculation = <appliedenergistics2:item.ItemMultiMaterial:16>;
 val printedSilicon = <appliedenergistics2:item.ItemMultiMaterial:20>;
-var pureCertusQuartzCrystal = <appliedenergistics2:item.ItemMultiMaterial:10>;
-var pureFluixCrystal = <appliedenergistics2:item.ItemMultiMaterial:12>;
-var pureNetherQuartzCrystal = <appliedenergistics2:item.ItemMultiMaterial:11>;
+val pureCertusQuartzCrystal = <appliedenergistics2:item.ItemMultiMaterial:10>;
+val pureFluixCrystal = <appliedenergistics2:item.ItemMultiMaterial:12>;
+val pureNetherQuartzCrystal = <appliedenergistics2:item.ItemMultiMaterial:11>;
 
 val FluixCoveredC = <appliedenergistics2:item.ItemMultiPart:36>;
 val FluixCoveredCBlack = <appliedenergistics2:item.ItemMultiPart:35>;
@@ -122,9 +122,9 @@ val FluixSmartCableYellow = <appliedenergistics2:item.ItemMultiPart:44>;
 
 ##  OreDict Fix
 <ore:itemCertusQuartz>.remove(pureNetherQuartzCrystal);
-<ore:itemCertusQuartz>.add(pureCertusQuartzCrystal);
+#<ore:itemCertusQuartz>.add(pureCertusQuartzCrystal);
 <ore:itemNetherQuartz>.remove(pureCertusQuartzCrystal);
-<ore:itemNetherQuartz>.add(pureNetherQuartzCrystal);
+#<ore:itemNetherQuartz>.add(pureNetherQuartzCrystal);
 
 ##  AE2 Grindstone Changes
 recipes.remove(<appliedenergistics2:tile.BlockCrank>);

@@ -13,26 +13,8 @@ print("Initializing '1-InitialScripts.zs'...");
 
 ## Bedrockium Furnace Removal
 # Not sure why I can't remove these in the ExU script, here it works, there it doesn't
-furnace.remove(<ExtraUtilities:block_bedrockium>);
+furnace.remove(<*>, <ExtraUtilities:cobblestone_compressed:7>);
 Furnace.removeRecipe(<ExtraUtilities:cobblestone_compressed:7>);
-
-##  Ore Dict dimensional gems
-<ore:dimensionalGem>.add(<nevermine:CoinsNether>);
-<ore:dimensionalGem>.add(<nevermine:CoinsHaven>);
-<ore:dimensionalGem>.add(<nevermine:CoinsAbyss>);
-<ore:dimensionalGem>.add(<nevermine:CoinsPrecasian>);
-<ore:dimensionalGem>.add(<nevermine:DustopiaGems>);
-<ore:dimensionalGem>.add(<nevermine:LboreanGems>);
-<ore:dimensionalGem>.add(<nevermine:DeeplandsGems>);
-<ore:dimensionalGem>.add(<nevermine:MysteriumGems>);
-<ore:dimensionalGem>.add(<nevermine:GreckonGems>);
-<ore:dimensionalGem>.add(<nevermine:BarathosGems>);
-<ore:dimensionalGem>.add(<nevermine:RunandorGems>);
-<ore:dimensionalGem>.add(<nevermine:VoxPondsGems>);
-<ore:dimensionalGem>.add(<nevermine:GardenciaGems>);
-<ore:dimensionalGem>.add(<nevermine:IromineGems>);
-<ore:dimensionalGem>.add(<nevermine:LunalusGems>);
-<ore:dimensionalGem>.add(<nevermine:CoinsLelyetia>);
 
 <ore:flowerMystical>.add(<Botania:flower:*>);
 <ore:petalMystical>.add(<Botania:petal:*>);
@@ -75,24 +57,8 @@ dyeGreen.remove(<Botania:dye:13>);
 dyeRed.remove(<Botania:dye:14>);
 dyeBlack.remove(<Botania:dye:15>);
 
-# Unify Aluminum and Aluminium
-<ore:oreAluminium>.addAll(<ore:oreAluminum>);
-<ore:oreAluminum>.mirror(<ore:oreAluminium>);
-<ore:ingotAluminium>.addAll(<ore:ingotAluminum>);
-<ore:ingotAluminum>.mirror(<ore:ingotAluminium>);
-<ore:blockAluminium>.addAll(<ore:blockAluminum>);
-<ore:blockAluminum>.mirror(<ore:blockAluminium>);
-<ore:dustAluminium>.addAll(<ore:dustAluminum>);
-<ore:dustAluminum>.mirror(<ore:dustAluminium>);
-<ore:plateAluminium>.addAll(<ore:plateAluminum>);
-<ore:plateAluminum>.mirror(<ore:plateAluminium>);
-
 ##  Convert Three Gravel to One Flint
 recipes.addShapeless(<minecraft:flint>, [<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]);
-
-##  Make Boania and Havestcraft mortar and pestle as Oreict equivalent
-<ore:toolMortarandpestle>.add(<Botania:pestleAndMortar>);
-<ore:pestleAndMortar>.add(<harvestcraft:mortarandpestleItem>);
 
 ##  Sugar should allow food mortar and pestals, not just the GregTech ones
 recipes.addShapeless(<minecraft:sugar>, [<ore:toolMortarandpestle>, <minecraft:reeds>]);
@@ -101,6 +67,10 @@ recipes.addShapeless(<minecraft:sugar>, [<ore:pestleAndMortar>, <minecraft:reeds
 ##  BoP Flesh Block OD entry Removal to prevent exploit with MRF Meat Block crafting into 9 meat ingots
 val entry = <ore:blockMeatRaw>;
 entry.remove(<BiomesOPlenty:flesh>);
+
+##  Compass (you will need many for map macking through the Bibliocraft Atlas)
+recipes.remove(<minecraft:compass>);
+recipes.addShapeless(<minecraft:compass>, [<gregtech:gt.metaitem.01:23354>, <gregtech:gt.metaitem.01:27032>, <minecraft:stone_pressure_plate>, <ore:craftingToolScrewdriver>]);
 
 ##   Brewing Stand
 recipes.remove(<minecraft:brewing_stand>);

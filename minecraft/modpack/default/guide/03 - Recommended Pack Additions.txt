@@ -1,4 +1,4 @@
-This pack is intended to be used with Mo' Creatures but cannot redistribute it.  It is highly recommended that you install this mod as documented in the pack description.  Config files and spawning tables are provided as a part the pack installation (however, they will cause no harm if you choose not to use it).  Once installed, you will then need to navigate to your ../minecraft/scripts directory and rename Mo' Creatures.save to Mo' Creatures.zs and restart the game for the changes to take effect (yes, I know about "/mt reload" just trust me and restart the client).
+This pack is intended to be used with Mo' Creatures but cannot redistribute it.  It is highly recommended that you install this mod as documented in the pack description.  Config files and spawning tables are provided as a part the pack installation (however, they will cause no harm if you choose not to use it).
 
 Mo' Creatures Oficial Download Location: http://www.mineloads.com/rC
 

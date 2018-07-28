@@ -15,5 +15,9 @@ The xp parameter determines how much xp the player is given when picking the out
 </recipe>-->
 
 <Smelting>
-	<!--Add your recipes here!-->
+	<recipe>
+		<output>gregtech:gt.metaitem.01 1 11036</output>
+		<input>dustZinc 1 0</input>
+		<xp>1.0</xp>
+	</recipe>
 </Smelting>
