@@ -24,6 +24,9 @@ UPDATE1: Although I have been MIA for quite a while version 6.0.1 should be revi
 
 ChangeLog
 -- Version 6.0.1§r§1§l (Brave New World update)
+- Bugfix: Fixed Roguelike Dungeons loot spawning issues based on filename / load order issues.  Also, the loot should be substantially danker
+- Config: Adjust ReactorCraft oregen settings to account for GT ores
+- Bugfix: Adjust JAS spawn tick spacing.  Individual spacing seems to block most (hostile) mob spawns, where as the global does not.  Should save on processing cycles.
 - Added ~ DynamicSurroundings, BetterFoliage
 - Removed ~ JourneyMap
 - Config ~ Turned off BetterFoliage grass and decreased effect view distance from 1000->750

@@ -1,5 +1,8 @@
 §1§l§nVersion 6.0.1§r§1§l (Brave New World update)
-§aAdded: DynamicSurroundings, BetterFoliage
+
+§cBugfix: Fixed Roguelike Dungeons loot spawning issues based on filename / load order issues.  Also, the loot should be substantially danker
+§bConfig: Adjust ReactorCraft oregen settings to account for GT ores
+§cBugfix: Adjust JAS spawn tick spacing.  Individual spacing seems to block most (hostile) mob spawns, where as the global does not.  Should save on processing cycles.
 §dRemoved: JourneyMap
 §bConfig: Turned off BetterFoliage grass and decreased effect view distance from 1000->750
 §eUpdated: DragonAPI, RotaryCraft, ReactorCraft, GeoStrata, and MeteorCraft, Chunk Pregenerator, EternalSingularity, and Steve's Workshop
@@ -22,11 +25,7 @@
 §eUpdated: Set village/volcano settings in RTG/CC
 §eUpdated: Dungeonpack structures spawnable biome range expanded + some disabled structures re-activated
 §eUpdated: Removing aesthetic mods (except Chunk Animations), too heavy on processor
-§aAdded: GeoStrata
-§aAdded: MeteorCraft
-§aAdded: Tumbleweed
-§aAdded: Better Foliage
-§aAdded: Astikoor (e.g. a horse cart)
+§aAdded: GeoStrata, MeteorCraft, Tumbleweed, BetterFoliage, DynamicSurroundings, Astikoor (e.g. a horse cart)
 §dRemoved: Baublelicious, I miss understood what this mod does
 §bConfig: Added Elytra to some loot tables
 §cBugfix: Attempt to get GT zinc dust to play nice with smelting.  This seems to be a GT bug/quirk, as you can smelt the dirty dust, but not the clean
@@ -118,7 +117,7 @@ Version 5.5.0 (The Endless Obsession Update)
 §dRemoved: Fancy Block Particles, crash with Malisis doors being broken.
 §bConfig: Allow for chunk purging in Overworld, Nether, and End
 §bConfig: Minor guide changes for increasing performance + renamed a page
-§aAdded: Add Blur, Chunk Animator, Dynamic Surroundings, and NOVA for more Blood Magic goodness
+§aAdded: Chunk Animator, and NOVA for more Blood Magic goodness
 §cBugfix: Fluid Converters mod to "oredict" fluids.  This is being used to fix RotaryCraft converting GT lubricant into it's own (which doesn't work for GT machines)
 §bConfig: Default minimal key bindings will now be shipped/applied on clients with no options.txt file found
 §cBugfix: Removed misplaced customthings folder

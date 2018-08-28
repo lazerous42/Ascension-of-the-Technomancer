@@ -1,17 +1,44 @@
 {
-    "name": "armour",
+    "name": "potions",
     "loot_rules": [
         {
-            "type": "ARMOUR",
+            "type": "POTIONS",
             "level" : [0, 1, 2, 3, 4],
             "each" : true,
-            "quantity" : 12,
+            "quantity" : 24,
             "loot": [
                 {
                     "data": {
                         "max": "1", 
                         "meta": "0", 
-                        "name": "Railcraft:armor.steel.legs", 
+                        "name": "AWWayofTime:mundaneLengtheningCatalyst", 
+                        "min": "1"
+                    }, 
+                    "weight": "4"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "0", 
+                        "name": "Botania:overgrowthSeed", 
+                        "min": "1"
+                    }, 
+                    "weight": "4"
+                }, 
+                {
+                    "data": {
+                        "max": "2", 
+                        "meta": "1", 
+                        "name": "Thaumcraft:ItemLootBag", 
+                        "min": "1"
+                    }, 
+                    "weight": "4"
+                }, 
+                {
+                    "data": {
+                        "max": "3", 
+                        "meta": "0", 
+                        "name": "Thaumcraft:ItemLootBag", 
                         "min": "1"
                     }, 
                     "weight": "5"
@@ -19,35 +46,8 @@
                 {
                     "data": {
                         "max": "1", 
-                        "meta": "0", 
-                        "name": "EnderIO:item.darkSteel_boots", 
-                        "min": "1"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Railcraft:armor.steel.helmet", 
-                        "min": "1"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Artifacts:artifact_chainmail_leggings", 
-                        "min": "1"
-                    }, 
-                    "weight": "1"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "minecraft:golden_horse_armor", 
+                        "meta": "2", 
+                        "name": "Thaumcraft:ItemLootBag", 
                         "min": "1"
                     }, 
                     "weight": "2"
@@ -56,43 +56,70 @@
                     "data": {
                         "max": "1", 
                         "meta": "0", 
-                        "name": "Railcraft:armor.steel.boots", 
+                        "name": "AWWayofTime:averageLengtheningCatalyst", 
+                        "min": "1"
+                    }, 
+                    "weight": "4"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "0", 
+                        "name": "AWWayofTime:averagePowerCatalyst", 
+                        "min": "1"
+                    }, 
+                    "weight": "4"
+                }, 
+                {
+                    "data": {
+                        "max": "4", 
+                        "meta": "0", 
+                        "name": "minecraft:nether_wart", 
+                        "min": "1"
+                    }, 
+                    "weight": "10"
+                }, 
+                {
+                    "data": {
+                        "max": "3", 
+                        "meta": "0", 
+                        "name": "Automagy:phialExtra", 
+                        "min": "1"
+                    }, 
+                    "weight": "3"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "0", 
+                        "name": "Botania:manaBottle", 
                         "min": "1"
                     }, 
                     "weight": "5"
                 }, 
                 {
                     "data": {
-                        "max": "1", 
+                        "max": "3", 
                         "meta": "0", 
-                        "name": "Artifacts:artifact_chainmail_helmet", 
+                        "name": "AWWayofTime:standardBindingAgent", 
                         "min": "1"
                     }, 
-                    "weight": "1"
+                    "weight": "6"
+                }, 
+                {
+                    "data": {
+                        "max": "5", 
+                        "meta": "0", 
+                        "name": "Botania:manaResource", 
+                        "min": "1"
+                    }, 
+                    "weight": "9"
                 }, 
                 {
                     "data": {
                         "max": "1", 
                         "meta": "0", 
-                        "name": "Artifacts:artifact_chainmail_boots", 
-                        "min": "1"
-                    }, 
-                    "weight": "1"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "minecraft:iron_horse_armor", 
-                        "min": "1"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "OpenBlocks:technicolorGlasses", 
+                        "name": "AWWayofTime:greaterPowerCatalyst", 
                         "min": "1"
                     }, 
                     "weight": "2"
@@ -101,37 +128,10 @@
                     "data": {
                         "max": "1", 
                         "meta": "0", 
-                        "name": "Railcraft:armor.steel.plate", 
+                        "name": "AWWayofTime:mundanePowerCatalyst", 
                         "min": "1"
                     }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Artifacts:artifact_chainmail_chestplate", 
-                        "min": "1"
-                    }, 
-                    "weight": "1"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Thaumcraft:BootsTraveller", 
-                        "min": "1"
-                    }, 
-                    "weight": "1"
-                },
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "backlytra:elytra", 
-                        "min": "1"
-                    }, 
-                    "weight": "1"
+                    "weight": "4"
                 }
             ]
         }

@@ -1,0 +1,16 @@
+{
+	"name" : "loot",
+	"exclusive" : false,
+	"inherit" : [
+		"armour",
+		"enchanting",
+		"food",
+		"music",
+		"ore",
+		"potions",
+		"smith",
+		"supplies",
+		"tools",
+		"weapons"
+	]
+}

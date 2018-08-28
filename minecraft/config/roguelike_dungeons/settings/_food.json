@@ -5,7 +5,7 @@
             "type": "FOOD",
             "level" : [0, 1, 2, 3, 4],
             "each" : true,
-            "quantity" : 12,
+            "quantity" : 24,
             "loot": [
                 {
                     "data": {
@@ -23,7 +23,7 @@
                         "name": "harvestcraft:market", 
                         "min": "1"
                     }, 
-                    "weight": "2"
+                    "weight": "4"
                 }, 
                 {
                     "data": {
@@ -32,7 +32,7 @@
                         "name": "harvestcraft:presser", 
                         "min": "1"
                     }, 
-                    "weight": "1"
+                    "weight": "2"
                 },
                 {
                     "data": {
@@ -275,7 +275,7 @@
                         "name": "demonmobs:doomfirescepter", 
                         "min": "1"
                     }, 
-                    "weight": "2"
+                    "weight": "4"
                 }, 
                 {
                     "data": {
@@ -365,7 +365,7 @@
                         "name": "minecraft:golden_apple", 
                         "min": "1"
                     }, 
-                    "weight": "1"
+                    "weight": "2"
                 }, 
                 {
                     "data": {

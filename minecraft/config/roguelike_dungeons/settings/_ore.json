@@ -5,7 +5,7 @@
             "type": "ORE",
             "level" : [0, 1, 2, 3, 4],
             "each" : true,
-            "quantity" : 12,
+            "quantity" : 36,
             "loot": [
                 {
                     "data": {

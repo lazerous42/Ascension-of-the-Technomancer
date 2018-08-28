@@ -1,35 +1,26 @@
 {
-    "name": "weapons",
+    "name": "smith",
     "loot_rules": [
         {
-            "type": "WEAPONS",
+            "type": "SMITH",
             "level" : [0, 1, 2, 3, 4],
             "each" : true,
-            "quantity" : 12,
+            "quantity" : 24,
             "loot": [
                 {
                     "data": {
                         "max": "1", 
                         "meta": "0", 
-                        "name": "Thaumcraft:FocusTrade", 
+                        "name": "dynamicswordskills:dss.skilliron", 
                         "min": "1"
                     }, 
-                    "weight": "1"
+                    "weight": "4"
                 }, 
                 {
                     "data": {
                         "max": "1", 
-                        "meta": "0", 
-                        "name": "Thaumcraft:ItemSwordThaumium", 
-                        "min": "1"
-                    }, 
-                    "weight": "1"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "swampmobs:poisonrayscepter", 
+                        "meta": "3", 
+                        "name": "dynamicswordskills:dss.skillorb", 
                         "min": "1"
                     }, 
                     "weight": "2"
@@ -38,7 +29,7 @@
                     "data": {
                         "max": "1", 
                         "meta": "0", 
-                        "name": "demonmobs:devilstarscepter", 
+                        "name": "dynamicswordskills:dss.skillorb", 
                         "min": "1"
                     }, 
                     "weight": "2"
@@ -47,7 +38,70 @@
                     "data": {
                         "max": "1", 
                         "meta": "0", 
-                        "name": "infernomobs:cinderfallsword", 
+                        "name": "dynamicswordskills:dss.skillstone", 
+                        "min": "1"
+                    }, 
+                    "weight": "3"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "0", 
+                        "name": "Artifacts:artifact", 
+                        "min": "1"
+                    }, 
+                    "weight": "2"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "2", 
+                        "name": "dynamicswordskills:dss.skillorb", 
+                        "min": "1"
+                    }, 
+                    "weight": "2"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "6", 
+                        "name": "dynamicswordskills:dss.skillorb", 
+                        "min": "1"
+                    }, 
+                    "weight": "2"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "7", 
+                        "name": "dynamicswordskills:dss.skillorb", 
+                        "min": "1"
+                    }, 
+                    "weight": "2"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "4", 
+                        "name": "dynamicswordskills:dss.skillorb", 
+                        "min": "1"
+                    }, 
+                    "weight": "2"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "8", 
+                        "name": "dynamicswordskills:dss.skillorb", 
+                        "min": "1"
+                    }, 
+                    "weight": "2"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "9", 
+                        "name": "dynamicswordskills:dss.skillorb", 
                         "min": "1"
                     }, 
                     "weight": "2"
@@ -56,7 +110,43 @@
                     "data": {
                         "max": "1", 
                         "meta": "0", 
-                        "name": "shadowmobs:bloodleechscepter", 
+                        "name": "dynamicswordskills:dss.skillgold", 
+                        "min": "1"
+                    }, 
+                    "weight": "4"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "0", 
+                        "name": "dynamicswordskills:dss.skillwood", 
+                        "min": "1"
+                    }, 
+                    "weight": "4"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "11", 
+                        "name": "dynamicswordskills:dss.skillorb", 
+                        "min": "1"
+                    }, 
+                    "weight": "2"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "1", 
+                        "name": "dynamicswordskills:dss.skillorb", 
+                        "min": "1"
+                    }, 
+                    "weight": "2"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "5", 
+                        "name": "dynamicswordskills:dss.skillorb", 
                         "min": "1"
                     }, 
                     "weight": "2"
@@ -65,7 +155,16 @@
                     "data": {
                         "max": "1", 
                         "meta": "0", 
-                        "name": "demonmobs:demoniclightningscepter", 
+                        "name": "dynamicswordskills:dss.skilldiamond", 
+                        "min": "1"
+                    }, 
+                    "weight": "2"
+                },
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "10", 
+                        "name": "dynamicswordskills:dss.skillorb", 
                         "min": "1"
                     }, 
                     "weight": "2"
@@ -73,8 +172,8 @@
                 {
                     "data": {
                         "max": "1", 
-                        "meta": "0", 
-                        "name": "arcticmobs:blizzardscepter", 
+                        "meta": "12", 
+                        "name": "dynamicswordskills:dss.skillorb", 
                         "min": "1"
                     }, 
                     "weight": "2"
@@ -82,179 +181,17 @@
                 {
                     "data": {
                         "max": "1", 
-                        "meta": "0", 
-                        "name": "swampmobs:venomshotscepter", 
+                        "meta": "13", 
+                        "name": "dynamicswordskills:dss.skillorb", 
                         "min": "1"
                     }, 
                     "weight": "2"
-                }, 
+                },
                 {
                     "data": {
                         "max": "1", 
                         "meta": "0", 
-                        "name": "arcticmobs:tundrascepter", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "mountainmobs:boulderblastscepter", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "shadowmobs:spectralboltscepter", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "infernomobs:emberscepter", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "EnderIO:item.darkSteel_sword", 
-                        "min": "1"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "desertmobs:scythescepter", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "desertmobs:mudshotscepter", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "freshwatermobs:aquapulsescepter", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "mountainmobs:arcanelaserstormscepter", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "arcticmobs:frostwebscepter", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Ztones:splatAxe", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "arcticmobs:icefirescepter", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "infernomobs:scorchfirescepter", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Railcraft:tool.steel.sword", 
-                        "min": "1"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "forestmobs:lifedrainscepter", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "junglemobs:poopscepter", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "arcticmobs:frostboltscepter", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "infernomobs:magmascepter", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "demonmobs:hellfirescepter", 
+                        "name": "backlytra:elytra", 
                         "min": "1"
                     }, 
                     "weight": "2"
