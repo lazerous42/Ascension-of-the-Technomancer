@@ -6,31 +6,14 @@
 			"metadata": 1
 		},
 		"material": "minecraft:stone",
-		"clusterSize": 4,
-		"numClusters": 5,
-		"minHeight": 45,
-		"maxHeight": 128,
-		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [],
-		"dimensionRestriction": "blacklist",
-		"dimensions": [-1, 1]
-	},
-	"ZincRtg": {
-		"template": "uniform",
-		"block": {
-			"name": "Steamcraft:steamcraftOre",
-			"metadata": 1
-		},
-		"material": "minecraft:stone",
-		"clusterSize": 4,
-		"numClusters": 5,
-		"minHeight": 60,
+		"clusterSize": 5,
+		"numClusters": 6,
+		"minHeight": 58,
 		"maxHeight": 176,
 		"retrogen": "false",
 		"biomeRestriction": "none",
 		"biomes": [],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [5]
+		"dimensionRestriction": "none",
+		"dimensions": []
 	}
 }

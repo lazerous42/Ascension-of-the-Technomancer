@@ -409,7 +409,7 @@
 	- Name: Proxima
 	- Height: 256
 	- Has Sky? true
-	- Cloud Height: 96.96277
+	- Cloud Height: 90.957
 	- Can Respawn Here? false
 	- Terrain Scale: 1.0
 

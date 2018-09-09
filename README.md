@@ -24,6 +24,18 @@ UPDATE1: Although I have been MIA for quite a while version 6.0.1 should be revi
 
 ChangeLog
 -- Version 6.0.1§r§1§l (Brave New World update)
+- Update: SmoothFont-1.7.10-1.15.3.jar
+- Added: Mo' Bends
+- Update: GTTWeaker (wrong version in use prior)
+- Update: Thaumic Energistics
+- Added: Wireless Crafting Terminal
+- Added: World Stripper (admin tool)
+- Config: Added some Iridium to distant worlds
+- Added: Electricraft
+- Update: Chunk Pregenerator
+- Added: Evilcraft, Clockwork Phase, gearswap, kleeslabs, Mowzie's Mobs, Networks Manager, Palimpsest, Pantography, Pam's Whee Flowers, Storage Drawers NEI Fix, Dynamic Tick, Void Monster
+- Config: Moved all spawning of Shadow Metal ore and Darm Gem ore into the Deep Dark
+- Config: Moved all Mythril spawning to the Twilight or the Feywield
 - Bugfix: Fixed Roguelike Dungeons loot spawning issues based on filename / load order issues.  Also, the loot should be substantially danker
 - Config: Adjust ReactorCraft oregen settings to account for GT ores
 - Bugfix: Adjust JAS spawn tick spacing.  Individual spacing seems to block most (hostile) mob spawns, where as the global does not.  Should save on processing cycles.
@@ -90,7 +102,7 @@ ChangeLog
 - BugFix ~ Corrected the inability to make colored diamond dust for Minecraft Comes Alive
 - Config ~ Moar work moving OreDict refs into launch sequence
 
-Version 5.5.0 (The Endless Obsession Update)
+-- Version 5.5.0 (The Endless Obsession Update)
 - Config ~ Creating oredict records at init time.  This make the need to rename the Mo' Creatures configs each update obsolete
 - Config ~ Not Enough Wands recipe and config cleanup
 - Config ~ Moving oredict setup to zzzcustom configs to setup equivalents are launch so mod init can take advantage of the records automatically.

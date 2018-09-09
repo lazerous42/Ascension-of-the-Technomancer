@@ -18,6 +18,8 @@ vanilla.loot.addChestLoot("A_WIZARD_DID_IT", <Ztones:terrainEater>.weight(1), 1,
 vanilla.loot.addChestLoot("A_WIZARD_DID_IT", <gregtech:gt.metaitem.01:11321>.weight(5), 2, 6);
 vanilla.loot.addChestLoot("A_WIZARD_DID_IT", <lycanitesmobs:soulgazer>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("A_WIZARD_DID_IT", <backlytra:elytra>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("A_WIZARD_DID_IT", <ThermalFoundation:material:1024>.weight(3), 2, 5);
+vanilla.loot.addChestLoot("A_WIZARD_DID_IT", <ThermalFoundation:material:1026>.weight(3), 2, 5);
 
 ## ProceeduralGeneration
 vanilla.loot.addChestLoot("ProceeduralGeneration", <ChromatiCraft:chromaticraft_item_fragment>.weight(10), 1, 5);
@@ -106,7 +108,8 @@ vanilla.loot.addChestLoot("dungeonChest", <ThermalExpansion:Frame:2>.weight(3), 
 vanilla.loot.addChestLoot("dungeonChest", <ThermalExpansion:Frame:3>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <ThermalExpansion:Frame>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <ThermalExpansion:Frame>.weight(7), 1, 3);
-vanilla.loot.addChestLoot("dungeonChest", <ThermalFoundation:material:1024>.weight(5), 1, 8);
+vanilla.loot.addChestLoot("dungeonChest", <ThermalFoundation:material:1024>.weight(9), 2, 5);
+vanilla.loot.addChestLoot("dungeonChest", <ThermalFoundation:material:1026>.weight(9), 2, 5);
 vanilla.loot.addChestLoot("dungeonChest", <ThermalFoundation:tool.bowPlatinum>.withTag({ench: [{lvl: 5 as short, id: 34 as short}, {lvl: 5 as short, id: 48 as short}], RepairCost: 2, display: {Name: "It's a long shot"}}).weight(1), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <Ztones:diamondZane>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <Ztones:splatAxe>.weight(2), 1, 1);
@@ -127,6 +130,8 @@ vanilla.loot.addChestLoot("dungeonChest", <minecraft:beacon>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("dungeonChest", <minecraft:ghast_tear>.weight(5), 1, 3);
 vanilla.loot.addChestLoot("dungeonChest", <minecraft:wool:*>.weight(5), 2, 6);
 vanilla.loot.addChestLoot("dungeonChest", <backlytra:elytra>.weight(5), 1, 1);
+vanilla.loot.addChestLoot("dungeonChest", <TConstruct:heartCanister:2>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("dungeonChest", <ThermalFoundation:material:76>.weight(5), 1, 8);
 
 #   Buffer Items
 vanilla.loot.addChestLoot("dungeonChest", <minecraft:coal>.weight(20), 8, 32);
@@ -346,6 +351,10 @@ vanilla.loot.addChestLoot("netherFortress", <minecraft:skull:1>.weight(7), 1, 2)
 vanilla.loot.addChestLoot("netherFortress", <minecraft:tnt>.weight(15), 1, 16);
 vanilla.loot.addChestLoot("netherFortress", <backlytra:elytra>.weight(5), 1, 1);
 vanilla.loot.addChestLoot("netherFortress", <nevermine:AncientTeleporterBlueprint>.weight(1), 1, 1);
+vanilla.loot.addChestLoot("netherFortress", <TConstruct:heartCanister:2>.weight(2), 1, 1);
+vanilla.loot.addChestLoot("netherFortress", <ThermalFoundation:material:1024>.weight(5), 2, 5);
+vanilla.loot.addChestLoot("netherFortress", <ThermalFoundation:material:1026>.weight(5), 2, 5);
+vanilla.loot.addChestLoot("netherFortress", <ThermalFoundation:material:76>.weight(5), 1, 6);
 
 #   Buffer Items
 vanilla.loot.addChestLoot("netherFortress", <minecraft:coal>.weight(20), 8, 32);
@@ -442,6 +451,8 @@ vanilla.loot.addChestLoot("pyramidDesertyChest", <witchery:ingredient:23>.weight
 vanilla.loot.addChestLoot("pyramidDesertyChest", <witchery:ingredient:2>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <witchery:ingredient>.weight(3), 1, 1);
 vanilla.loot.addChestLoot("pyramidDesertyChest", <backlytra:elytra>.weight(5), 1, 1);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <ThermalFoundation:material:1024>.weight(5), 2, 5);
+vanilla.loot.addChestLoot("pyramidDesertyChest", <ThermalFoundation:material:1026>.weight(5), 2, 5);
 
 #   Buffer Items
 vanilla.loot.addChestLoot("pyramidDesertyChest", <minecraft:cactus>.weight(15), 16, 32);
@@ -541,7 +552,7 @@ vanilla.loot.addChestLoot("pyramidJungleChest", <lycanitesmobs:soulgazer>.weight
 vanilla.loot.addChestLoot("pyramidJungleChest", <minecraft:tnt>.weight(15), 1, 16);
 vanilla.loot.addChestLoot("pyramidJungleChest", <minecraft:ghast_tear>.weight(5), 1, 2);
 vanilla.loot.addChestLoot("pyramidJungleChest", <witchery:arthana>.weight(10), 1, 1);
-vanilla.loot.addChestLoot("pyramidJungleChest", <witchery:chalkritual>.weight(10), 1, 16);
+vanilla.loot.addChestLoot("pyramidJungleChest", <witchery:chalkritual>.weight(10), 1, 6);
 vanilla.loot.addChestLoot("pyramidJungleChest", <backlytra:elytra>.weight(5), 1, 1);
 
 #   Buffer Items
@@ -702,6 +713,7 @@ vanilla.loot.addChestLoot("strongholdCorridor", <minecraft:end_portal_frame>.wei
 vanilla.loot.addChestLoot("strongholdCorridor", <minecraft:ghast_tear>.weight(5), 1, 2);
 vanilla.loot.addChestLoot("strongholdCorridor", <nevermine:AncientTeleporterBlueprint>.weight(1), 1, 1);
 vanilla.loot.addChestLoot("strongholdCorridor", <backlytra:elytra>.weight(5), 1, 1);
+vanilla.loot.addChestLoot("strongholdCorridor", <ThermalFoundation:material:1024>.weight(3), 1, 4);
 
 #   Buffer Items
 vanilla.loot.addChestLoot("strongholdCorridor", <Botania:endStoneBrick>.weight(15), 16, 32);

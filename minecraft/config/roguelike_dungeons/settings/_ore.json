@@ -420,6 +420,123 @@
                         "min": "1"
                     }, 
                     "weight": "5"
+                },
+                {
+                    "data": {
+                        "max": "3", 
+                        "meta": "64", 
+                        "name": "ThermalFoundation:material", 
+                        "min": "1"
+                    }, 
+                    "weight": "5"
+                },
+                {
+                    "data": {
+                        "max": "3", 
+                        "meta": "65", 
+                        "name": "ThermalFoundation:material", 
+                        "min": "1"
+                    }, 
+                    "weight": "5"
+                },
+                {
+                    "data": {
+                        "max": "3", 
+                        "meta": "66", 
+                        "name": "ThermalFoundation:material", 
+                        "min": "1"
+                    }, 
+                    "weight": "5"
+                },
+                {
+                    "data": {
+                        "max": "3", 
+                        "meta": "67", 
+                        "name": "ThermalFoundation:material", 
+                        "min": "1"
+                    }, 
+                    "weight": "5"
+                },
+                {
+                    "data": {
+                        "max": "3", 
+                        "meta": "68", 
+                        "name": "ThermalFoundation:material", 
+                        "min": "1"
+                    }, 
+                    "weight": "5"
+                },
+                {
+                    "data": {
+                        "max": "3", 
+                        "meta": "69", 
+                        "name": "ThermalFoundation:material", 
+                        "min": "1"
+                    }, 
+                    "weight": "5"
+                },
+                {
+                    "data": {
+                        "max": "3", 
+                        "meta": "70", 
+                        "name": "ThermalFoundation:material", 
+                        "min": "1"
+                    }, 
+                    "weight": "5"
+                },
+                {
+                    "data": {
+                        "max": "3", 
+                        "meta": "71", 
+                        "name": "ThermalFoundation:material", 
+                        "min": "1"
+                    }, 
+                    "weight": "5"
+                },
+                {
+                    "data": {
+                        "max": "3", 
+                        "meta": "72", 
+                        "name": "ThermalFoundation:material", 
+                        "min": "1"
+                    }, 
+                    "weight": "5"
+                },
+                {
+                    "data": {
+                        "max": "3", 
+                        "meta": "73", 
+                        "name": "ThermalFoundation:material", 
+                        "min": "1"
+                    }, 
+                    "weight": "5"
+                },
+                {
+                    "data": {
+                        "max": "3", 
+                        "meta": "74", 
+                        "name": "ThermalFoundation:material", 
+                        "min": "1"
+                    }, 
+                    "weight": "5"
+                },
+                {
+                    "data": {
+                        "max": "3", 
+                        "meta": "75", 
+                        "name": "ThermalFoundation:material", 
+                        "min": "1"
+                    }, 
+                    "weight": "5"
+                },   
+                {
+                    "data": {
+                        "max": "3", 
+                        "meta": "76", 
+                        "name": "ThermalFoundation:material", 
+                        "min": "1"
+                    }, 
+                    "weight": "5"
                 }
             ]
         }

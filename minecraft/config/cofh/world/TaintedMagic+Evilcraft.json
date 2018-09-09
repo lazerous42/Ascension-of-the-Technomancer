@@ -1,0 +1,24 @@
+{
+	"Shadow+DarkOre": {
+		"template": "uniform",
+		"block": "TaintedMagic:BlockShadowOre",
+		"block": [{
+				"name": "TaintedMagic:BlockShadowOre",
+				"weight": 67
+			},
+			{
+				"name": "evilcraft:darkOre",
+				"weight": 33
+			}
+		],
+		"clusterSize": 9,
+		"numClusters": 6,
+		"minHeight": 6,
+		"maxHeight": 66,
+		"retrogen": "false",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [-100]
+	}
+}

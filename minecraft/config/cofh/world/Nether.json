@@ -13,7 +13,7 @@
 			"entry": "NETHER"
 		}],
 		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+		"dimensions": [-23,-1]
 	},
 	"N-Diamond": {
 		"template": "uniform",
@@ -32,7 +32,7 @@
 			"entry": "NETHER"
 		}],
 		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+		"dimensions": [-23,-1]
 	},
 	"N-Gold": {
 		"template": "uniform",
@@ -51,7 +51,7 @@
 			"entry": "NETHER"
 		}],
 		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+		"dimensions": [-23,-1]
 	},
 	"N-Iron": {
 		"template": "uniform",
@@ -70,7 +70,7 @@
 			"entry": "NETHER"
 		}],
 		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+		"dimensions": [-23,-1]
 	},
 	"N-Lapis": {
 		"template": "uniform",
@@ -89,7 +89,7 @@
 			"entry": "NETHER"
 		}],
 		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+		"dimensions": [-23,-1]
 	},
 	"N-Redstone": {
 		"template": "uniform",
@@ -108,7 +108,7 @@
 			"entry": "NETHER"
 		}],
 		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+		"dimensions": [-23,-1]
 	},
 	"N-Copper": {
 		"template": "uniform",
@@ -127,7 +127,7 @@
 			"entry": "NETHER"
 		}],
 		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+		"dimensions": [-23,-1]
 	},
 	"N-Tin": {
 		"template": "uniform",
@@ -146,7 +146,7 @@
 			"entry": "NETHER"
 		}],
 		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+		"dimensions": [-23,-1]
 	},
 	"N-Emerald": {
 		"template": "uniform",
@@ -164,7 +164,7 @@
 			"entry": "NETHER"
 		}],
 		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+		"dimensions": [-23,-1]
 	},
 	"N-Silver": {
 		"template": "uniform",
@@ -183,7 +183,7 @@
 			"entry": "NETHER"
 		}],
 		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+		"dimensions": [-23,-1]
 	},
 	"N-Lead": {
 		"template": "uniform",
@@ -202,7 +202,7 @@
 			"entry": "NETHER"
 		}],
 		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+		"dimensions": [-23,-1]
 	},
 	"N-Ferrous": {
 		"template": "uniform",
@@ -221,7 +221,7 @@
 			"entry": "NETHER"
 		}],
 		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+		"dimensions": [-23,-1]
 	},
 	"N-Shiny": {
 		"template": "uniform",
@@ -237,7 +237,7 @@
 			"entry": "NETHER"
 		}],
 		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+		"dimensions": [-23,-1]
 	},
 	"N-Salt": {
 		"template": "uniform",
@@ -261,7 +261,7 @@
 			"entry": "NETHER"
 		}],
 		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+		"dimensions": [-23,-1]
 	},
 	"N-Saltpeter": {
 		"template": "uniform",
@@ -285,7 +285,7 @@
 			"entry": "NETHER"
 		}],
 		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+		"dimensions": [-23,-1]
 	},
 	"N-Sulphur": {
 		"template": "uniform",
@@ -304,7 +304,7 @@
 			"entry": "NETHER"
 		}],
 		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+		"dimensions": [-23,-1]
 	},
 	"N-Uranium": {
 		"template": "uniform",
@@ -323,7 +323,7 @@
 			"entry": "NETHER"
 		}],
 		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+		"dimensions": [-23,-1]
 	},
 	"N-Mithril": {
 		"template": "uniform",
@@ -342,6 +342,6 @@
 			"entry": "NETHER"
 		}],
 		"dimensionRestriction": "whitelist",
-		"dimensions": [-1]
+		"dimensions": [-23,-1]
 	}
 }

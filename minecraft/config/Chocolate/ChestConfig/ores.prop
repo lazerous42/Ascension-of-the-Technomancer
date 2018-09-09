@@ -52,6 +52,7 @@ thermal_foundation74 = ThermalFoundation:material,6,74,8
 thermal_foundation75 = ThermalFoundation:material,6,75,8
 thermal_foundation76 = ThermalFoundation:material,6,76,8
 thermal_foundation1024 = ThermalFoundation:material,4,1024,5
+thermal_foundation1026 = ThermalFoundation:material,4,1026,5
 
 bedrockiumIngot = ExtraUtilities:bedrockiumIngot,3,0,3
 cursedearthside = ExtraUtilities:cursedearthside,1,0,1

@@ -1,5 +1,17 @@
 §1§l§nVersion 6.0.1§r§1§l (Brave New World update)
 
+§eUpdated: SmoothFont
+§aAdded: Mo' Bends
+§eUpdated: GTTWeaker (wrong version in use prior)
+§eUpdated: Thaumic Energistics
+§aAdded: Wireless Crafting Terminal
+§aAdded: World Stripper (admin tool)
+§bConfig: Added some Iridium to distant worlds
+§aAdded: Electricraft
+§eUpdated: Chunk Pregenerator
+§aAdded: Evilcraft, Clockwork Phase, gearswap, kleeslabs, Mowzie's Mobs, Networks Manager, Palimpsest, Pantography, Pam's Whee Flowers, Storage Drawers NEI Fix, Dynamic Tick, Void Monster
+§bConfig: Moved all spawning of Shadow Metal ore and Darm Gem ore into the Deep Dark
+§bConfig: Moved all Mythril spawning to the Twilight or the Feywield
 §cBugfix: Fixed Roguelike Dungeons loot spawning issues based on filename / load order issues.  Also, the loot should be substantially danker
 §bConfig: Adjust ReactorCraft oregen settings to account for GT ores
 §cBugfix: Adjust JAS spawn tick spacing.  Individual spacing seems to block most (hostile) mob spawns, where as the global does not.  Should save on processing cycles.

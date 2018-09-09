@@ -21,6 +21,7 @@ rustedSpear = chocolateQuest:rustedSpear,1,0,1
 
 phialExtra = Automagy:phialExtra,3,1,3
 elytra = backlytra:elytra,1,0,5
+redHeartCanister = TConstruct:heartCanister,1,2,1
 
 botania_lexicon = Botania:lexicon,1,0,6
 manaBottle = Botania:manaBottle,1,0,5

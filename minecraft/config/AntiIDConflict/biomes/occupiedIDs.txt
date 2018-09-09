@@ -1,4 +1,4 @@
-Total amount of occupied biome ids: 247
+Total amount of occupied biome ids: 248
 Table of occupied biome ids and their owners
 id:name(class)
 0 : Ocean (class net.minecraft.world.biome.BiomeGenOcean)
@@ -41,6 +41,7 @@ id:name(class)
 37 : Mesa (class net.minecraft.world.biome.BiomeGenMesa)
 38 : Mesa Plateau F (class net.minecraft.world.biome.BiomeGenMesa)
 39 : Mesa Plateau (class net.minecraft.world.biome.BiomeGenMesa)
+40 : Degraded (class evilcraft.world.biome.BiomeDegraded)
 41 : Aether (class net.aetherteam.aether.worldgen.BiomeGenAether)
 42 : Space (class zmaster587.advancedRocketry.world.biome.BiomeGenSpace)
 43 : Storage Cell (class appeng.spatial.BiomeGenStorage)

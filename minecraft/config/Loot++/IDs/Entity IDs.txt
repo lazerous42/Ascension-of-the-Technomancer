@@ -217,6 +217,7 @@ ImmersiveEngineering.skylineCrate
 ImmersiveEngineering.skylineHook
 Item
 ItemFrame
+Java_Power
 LavaSlime
 LeashKnot
 MCA.EntityChoreFishHook
@@ -723,6 +724,7 @@ TwilightForest.tftomebolt
 TwilightForest.tftwilightwandbolt
 Villager
 VillagerGolem
+Void Monster
 WRTracker
 Witch
 WitchingGadgets.reformingItem
@@ -892,6 +894,7 @@ chocolateQuest.specter
 chocolateQuest.specterBoss
 chocolateQuest.spiderBoss
 chocolateQuest.turtleBoss
+controlledZombie
 customnpcs.CustomNpc
 customnpcs.CustomNpcChairMount
 customnpcs.NpcDragon
@@ -965,6 +968,18 @@ etfuturum.snow_golem
 etfuturum.tipped_arrow
 etfuturum.villager_zombie
 etfuturum.wooden_armorstand
+evilcraft.broomEntity
+evilcraft.entityBiomeExtract
+evilcraft.entityBloodPearl
+evilcraft.entityItemDarkStick
+evilcraft.entityItemEmpowerable
+evilcraft.entityItemUndespawnable
+evilcraft.entityLightningBomb
+evilcraft.entityLightningGrenade
+evilcraft.entityNecromancersHead
+evilcraft.entityNeutronBeam
+evilcraft.entityRedstoneGrenade
+evilcraft.entityWeatherContainer
 evoker
 farlanders.Classic Enderman
 farlanders.Elder Farlander
@@ -1091,6 +1106,16 @@ mountainmobs.geonach
 mountainmobs.jabberwock
 mountainmobs.troll
 mountainmobs.yale
+mowziesmobs.BabyFoliaath
+mowziesmobs.FerrousWroughtnaut
+mowziesmobs.Foliaath
+mowziesmobs.SolarBeam
+mowziesmobs.Sunstrike
+mowziesmobs.TribeLeader
+mowziesmobs.TribesmanElite
+mowziesmobs.TribesmanHunter
+mowziesmobs.TribesmanVillager
+mowziesmobs.dart
 nevermine.Airhead
 nevermine.AirheadShot
 nevermine.Alarmo
@@ -1883,6 +1908,7 @@ plainsmobs.makaalpha
 plainsmobs.roc
 plainsmobs.ventoraptor
 plainsmobs.zoataur
+poisonousLibelle
 powersuits.entityLuxCapacitor
 powersuits.entityPlasmaBolt
 powersuits.entitySpinningBlade
@@ -1919,7 +1945,9 @@ swampmobs.poisonrayend
 swampmobs.remobra
 swampmobs.venomshot
 tumbleweed.Tumbleweed
+vengeanceSpirit
 vindicator
+werewolf
 whitehall.Whitehall
 witchery.attackbat
 witchery.babayaga
@@ -1985,16 +2013,15 @@ witchery.wolfman
 26 - enderzoo.WitherWitch
 27 - enderzoo.WitherCat
 28 - enderzoo.DireWolf
-30 - llama
-31 - vindicator
-32 - evoker
-33 - Chicobo
-34 - ChocoboYellow
-35 - ChocoboGreen
-36 - ChocoboBlue
-37 - ChocoboWhite
-38 - ChocoboBlack
-39 - ChocoboGold
+30 - werewolf
+31 - poisonousLibelle
+32 - vengeanceSpirit
+34 - llama
+35 - vindicator
+36 - evoker
+37 - Java_Power
+38 - Chicobo
+39 - ChocoboYellow
 50 - Creeper
 51 - Skeleton
 52 - Spider
@@ -2009,12 +2036,17 @@ witchery.wolfman
 62 - LavaSlime
 65 - Bat
 66 - Witch
-67 - ChocoboPink
-68 - ChocoboRed
-69 - ChocoboPurple
-74 - Blizz
-75 - Blitz
-76 - Basalz
+67 - ChocoboGreen
+68 - ChocoboBlue
+69 - ChocoboWhite
+70 - ChocoboBlack
+71 - ChocoboGold
+72 - ChocoboPink
+73 - ChocoboRed
+74 - ChocoboPurple
+80 - Blizz
+81 - Blitz
+82 - Basalz
 90 - Pig
 91 - Sheep
 92 - Cow

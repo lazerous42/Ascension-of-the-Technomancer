@@ -76,10 +76,16 @@
 		<ore itemStack="ThermalFoundation:Ore 1" chance="20" />
 		<ore itemStack="ThermalFoundation:Ore 0" chance="20" />
 	</asteroid>
-	<asteroid name="Iridium Asteroid" distance="200" mass="40" massVariability="0.5" minLevel="0" probability="2" richness="0.2" richnessVariability="0.3">
+	<asteroid name="Iridium Asteroid" distance="200" mass="80" massVariability="0.5" minLevel="0" probability="2" richness="0.2" richnessVariability="0.3">
 		<ore itemStack="minecraft:iron_ore" chance="25" />
 		<ore itemStack="libVulpes:libVulpesore0 10" chance="10" />
 		<ore itemStack="minecraft:diamond_ore" chance="5" />
 		<ore itemStack="minecraft:emerald_ore" chance="5" />
+	</asteroid>
+	<asteroid name="Temporal Asteroid" distance="150" mass="100" massVariability="0.5" minLevel="0" probability="15" richness="0.3" richnessVariability="0.4">
+		<ore itemStack="libVulpes:libVulpesore0 0" chance="20" />
+		<ore itemStack="rftools:dimensionalShardBlock 0" chance="30" />
+		<ore itemStack="minecraft:diamond_ore" chance="10" />
+		<ore itemStack="clockworkphase:oreTemporal 0" chance="60" />
 	</asteroid>
 </Asteroids>

@@ -3442,6 +3442,39 @@ etfuturum:rabbit_stew
 	- Saturation Amount: 0.6
 
 
+evilcraft:darkenedApple
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 0
+	- Saturation Amount: 0.0
+
+
+evilcraft:rejuvenatedFlesh
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+evilcraft:rejuvenatedFlesh
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+evilcraft:werewolfFlesh
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: -5
+	- Saturation Amount: 0.0
+
+
+evilcraft:werewolfFlesh
+	- Megadata: 1
+	- Food or Drink? Food
+	- Food Amount: -5
+	- Saturation Amount: 0.0
+
+
 forestmobs:arisaurmeatcooked
 	- Megadata: 0
 	- Food or Drink? Food

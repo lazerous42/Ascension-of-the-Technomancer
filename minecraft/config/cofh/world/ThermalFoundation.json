@@ -113,8 +113,7 @@
 		"template": "uniform",
 		"block": {
 			"name": "ThermalFoundation:Ore",
-			"metadata": 3,
-			"weight": 90
+			"metadata": 3
 		},
 		"clusterSize": 12,
 		"numClusters": 10,
@@ -153,8 +152,7 @@
 		"template": "uniform",
 		"block": {
 			"name": "ThermalFoundation:Ore",
-			"metadata": 4,
-			"weight": 97
+			"metadata": 4
 		},
 		"clusterSize": 9,
 		"numClusters": 12,
@@ -175,11 +173,11 @@
 		"clusterSize": 4,
 		"numClusters": 4,
 		"minHeight": 2,
-		"maxHeight": 42,
+		"maxHeight": 50,
 		"retrogen": "false",
 		"biomeRestriction": "none",
 		"biomes": [],
-		"dimensionRestriction": "blacklist",
-		"dimensions": [-1, 1]
+		"dimensionRestriction": "whitelist",
+		"dimensions": [5, 7]
 	}
 }

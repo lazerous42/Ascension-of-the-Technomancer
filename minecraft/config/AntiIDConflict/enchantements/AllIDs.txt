@@ -79,10 +79,10 @@
 78 is Occupied by: enchantment.nightVision (flaxbeard.thaumicexploration.enchantment.EnchantmentNightVision)
 79 is Occupied by: enchantment.disarm (flaxbeard.thaumicexploration.enchantment.EnchantmentDisarm)
 80 is Occupied by: enchantment.projectred.expansion.fuel_efficiency (mrtjp.projectred.expansion.EnchantmentFuelEfficiency)
-81 is Avaible
-82 is Avaible
-83 is Avaible
-84 is Avaible
+81 is Occupied by: enchantment.enchantments.breaking (evilcraft.enchantment.EnchantmentBreaking)
+82 is Occupied by: enchantment.enchantments.lifeStealing (evilcraft.enchantment.EnchantmentLifeStealing)
+83 is Occupied by: enchantment.enchantments.poisonTip (evilcraft.enchantment.EnchantmentPoisonTip)
+84 is Occupied by: enchantment.enchantments.unusing (evilcraft.enchantment.EnchantmentUnusing)
 85 is Avaible
 86 is Avaible
 87 is Avaible

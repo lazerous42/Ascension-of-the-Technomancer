@@ -169,10 +169,10 @@
 
 
 24
-	- Name: potion.paralysis
-	- Color: 16767262
+	- Name: potion.wellfedPotion
+	- Color: 0
 	- Is Instant? false
-	- Is Bad? true
+	- Is Bad? false
 
 
 25
@@ -379,17 +379,17 @@
 
 
 54
-	- Name: potion.possession
-	- Color: 1280
+	- Name: potion.sunsBlessing
+	- Color: 16768834
 	- Is Instant? false
-	- Is Bad? true
+	- Is Bad? false
 
 
 55
-	- Name: potion.wellfedPotion
-	- Color: 0
+	- Name: potion.fluxtaint
+	- Color: 6697847
 	- Is Instant? false
-	- Is Bad? false
+	- Is Bad? true
 
 
 56
@@ -876,38 +876,38 @@
 
 
 125
-	- Name: potion.fluxtaint
-	- Color: 6697847
+	- Name: potion.visexhaust
+	- Color: 6702199
 	- Is Instant? false
 	- Is Bad? true
 
 
 126
-	- Name: Air Imbued
-	- Color: 0
+	- Name: potion.infvisexhaust
+	- Color: 6706551
 	- Is Instant? false
 	- Is Bad? true
 
 
 127
-	- Name: Earth Imbued
-	- Color: 0
+	- Name: potion.unhunger
+	- Color: 4482611
 	- Is Instant? false
 	- Is Bad? true
 
 
 128
-	- Name: Fire Imbued
-	- Color: 0
+	- Name: imbue.fire
+	- Color: 16729344
 	- Is Instant? false
-	- Is Bad? true
+	- Is Bad? false
 
 
 129
-	- Name: Wated Imbued
-	- Color: 0
+	- Name: imbue.wither
+	- Color: 3881787
 	- Is Instant? false
-	- Is Bad? true
+	- Is Bad? false
 
 
 130
@@ -1212,15 +1212,15 @@
 
 
 173
-	- Name: imbue.fire
-	- Color: 16729344
+	- Name: potion.minePrevention
+	- Color: 0
 	- Is Instant? false
 	- Is Bad? false
 
 
 174
 	- Name: Restorative Aura
-	- Color: -5906254
+	- Color: -2735129
 	- Is Instant? false
 	- Is Bad? false
 
@@ -1261,30 +1261,65 @@
 
 
 180
-	- Name: imbue.wither
-	- Color: 3881787
+	- Name: Air Imbued
+	- Color: 0
 	- Is Instant? false
-	- Is Bad? false
+	- Is Bad? true
 
 
 181
+	- Name: Earth Imbued
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? true
+
+
+182
+	- Name: Fire Imbued
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? true
+
+
+183
+	- Name: Wated Imbued
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? true
+
+
+184
 	- Name: imbue.weakness
 	- Color: 16777215
 	- Is Instant? false
 	- Is Bad? false
 
 
-182
+185
 	- Name: imbue.spectre
 	- Color: 12578815
 	- Is Instant? false
 	- Is Bad? false
 
 
-184
-	- Name: potion.minePrevention
-	- Color: 0
+186
+	- Name: potion.paralysis
+	- Color: 16767262
 	- Is Instant? false
-	- Is Bad? false
+	- Is Bad? true
+
+
+187
+	- Name: potion.possession
+	- Color: 1280
+	- Is Instant? false
+	- Is Bad? true
+
+
+188
+	- Name: potions.paling
+	- Color: 3676513
+	- Is Instant? false
+	- Is Bad? true
 
 

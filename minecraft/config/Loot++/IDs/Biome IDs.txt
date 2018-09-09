@@ -167,7 +167,7 @@
 
 40
 	- Name: WyvernBiome
-	- Forge Biome Types: FOREST MOUNTAIN 
+	- Forge Biome Types: WET PLAINS 
 
 41
 	- Name: Aether

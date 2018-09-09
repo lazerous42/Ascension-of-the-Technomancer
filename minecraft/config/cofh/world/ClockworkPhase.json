@@ -1,0 +1,16 @@
+{
+	"TemporalOre": {
+		"template": "uniform",
+		"block": "clockworkphase:oreTemporal",
+		"material": "minecraft:stone",
+		"clusterSize": 4,
+		"numClusters": 8,
+		"minHeight": 2,
+		"maxHeight": 64,
+		"retrogen": "false",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [5,102,106,107,109,113,115,116,121]
+	}
+}

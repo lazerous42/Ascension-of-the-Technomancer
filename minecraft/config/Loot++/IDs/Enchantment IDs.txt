@@ -392,6 +392,34 @@
 	- Max Level: 4
 
 
+81
+	- Name: enchantment.enchantments.breaking
+	- Weight: 10
+	- Min Level: 1
+	- Max Level: 3
+
+
+82
+	- Name: enchantment.enchantments.lifeStealing
+	- Weight: 3
+	- Min Level: 1
+	- Max Level: 3
+
+
+83
+	- Name: enchantment.enchantments.poisonTip
+	- Weight: 1
+	- Min Level: 1
+	- Max Level: 3
+
+
+84
+	- Name: enchantment.enchantments.unusing
+	- Weight: 1
+	- Min Level: 1
+	- Max Level: 1
+
+
 90
 	- Name: enchantment.chroma.weaponaoe
 	- Weight: 0
