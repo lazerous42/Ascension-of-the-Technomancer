@@ -1,8 +1,8 @@
-Total amount of free potion ids: 179
-Total amount of occupied potion ids: 177
+Total amount of free potion ids: 131
+Total amount of occupied potion ids: 225
 Total amount of conflicted potion ids: 0
 All ids and their position:
-0 is Avaible
+0 is Occupied by Confusion (com.gw.dm.potion.PotionAddle)
 1 is Occupied by potion.moveSpeed (net.minecraft.potion.Potion)
 2 is Occupied by potion.moveSlowdown (net.minecraft.potion.Potion)
 3 is Occupied by potion.digSpeed (net.minecraft.potion.Potion)
@@ -26,7 +26,7 @@ All ids and their position:
 21 is Occupied by potion.healthBoost (net.minecraft.potion.PotionHealthBoost)
 22 is Occupied by potion.absorption (net.minecraft.potion.PotionAbsoption)
 23 is Occupied by potion.saturation (net.minecraft.potion.PotionHealth)
-24 is Occupied by potion.wellfedPotion (iguanaman.hungeroverhaul.potion.PotionWellFed)
+24 is Occupied by potion.paralysis (biomesoplenty.common.potions.PotionParalysis)
 25 is Occupied by Agility (am2.buffs.ArsMagicaPotion)
 26 is Occupied by Astral Distortion (am2.buffs.ArsMagicaPotion)
 27 is Occupied by Burnout Redux (am2.buffs.ArsMagicaPotion)
@@ -56,11 +56,11 @@ All ids and their position:
 51 is Occupied by True Sight (am2.buffs.ArsMagicaPotion)
 52 is Occupied by Water Breathing (am2.buffs.ArsMagicaPotion)
 53 is Occupied by Watery Grave (am2.buffs.ArsMagicaPotion)
-54 is Occupied by potion.sunsBlessing (com.bobmowzie.mowziesmobs.server.potion.MowziePotionSunsBlessing)
-55 is Occupied by potion.fluxtaint (thaumcraft.api.potions.PotionFluxTaint)
+54 is Occupied by potion.possession (biomesoplenty.common.potions.PotionPossession)
+55 is Occupied by potion.wellfedPotion (iguanaman.hungeroverhaul.potion.PotionWellFed)
 56 is Occupied by ic2.potion.radiation (ic2.core.IC2Potion)
-57 is Occupied by AddHeart (tombenpotter.sanguimancy.potion.PotionAddHeart)
-58 is Occupied by RemoveHeart (tombenpotter.sanguimancy.potion.PotionRemoveHeart)
+57 is Occupied by potion.sunsBlessing (com.bobmowzie.mowziesmobs.server.potion.MowziePotionSunsBlessing)
+58 is Occupied by potion.antiWither (thor12022.hardcorewither.potions.PotionAntiWither)
 59 is Occupied by witchery:potion.absorbmagic (com.emoniph.witchery.brewing.potions.PotionAbsorbMagic)
 60 is Occupied by witchery:potion.allergydark (com.emoniph.witchery.brewing.potions.PotionDarknessAllergy)
 61 is Occupied by witchery:potion.allergysun (com.emoniph.witchery.brewing.potions.PotionSunAllergy)
@@ -111,62 +111,62 @@ All ids and their position:
 106 is Occupied by witchery:potion.wolfsbane (com.emoniph.witchery.brewing.potions.PotionBase)
 107 is Occupied by witchery:potion.worship (com.emoniph.witchery.brewing.potions.PotionWorship)
 108 is Occupied by witchery:potion.wrappedinvine (com.emoniph.witchery.brewing.potions.PotionWrappedInVine)
-109 is Occupied by Blue Curse (pixlepix.auracascade.potions.PotionBlueCurse)
-110 is Occupied by Green Curse (pixlepix.auracascade.potions.PotionGreenCurse)
-111 is Occupied by Orange Curse (pixlepix.auracascade.potions.PotionOrangeCurse)
-112 is Occupied by Red Curse (pixlepix.auracascade.potions.PotionRedCurse)
-113 is Occupied by Violet Curse (pixlepix.auracascade.potions.PotionVioletCurse)
-114 is Occupied by Yellow Curse (pixlepix.auracascade.potions.PotionYellowCurse)
-115 is Occupied by potion.fallresist (lycanite.lycanitesmobs.PotionBase)
-116 is Occupied by potion.fear (lycanite.lycanitesmobs.PotionBase)
-117 is Occupied by potion.leech (lycanite.lycanitesmobs.PotionBase)
-118 is Occupied by potion.paralysis (lycanite.lycanitesmobs.PotionBase)
-119 is Occupied by potion.penetration (lycanite.lycanitesmobs.PotionBase)
-120 is Occupied by potion.rage (lycanite.lycanitesmobs.PotionBase)
-121 is Occupied by potion.recklessness (lycanite.lycanitesmobs.PotionBase)
-122 is Occupied by potion.swiftswimming (lycanite.lycanitesmobs.PotionBase)
-123 is Occupied by potion.weight (lycanite.lycanitesmobs.PotionBase)
-124 is Occupied by potion.antiWither (thor12022.hardcorewither.potions.PotionAntiWither)
-125 is Occupied by potion.visexhaust (thaumcraft.api.potions.PotionVisExhaust)
-126 is Occupied by potion.infvisexhaust (thaumcraft.common.lib.potions.PotionInfectiousVisExhaust)
-127 is Occupied by potion.unhunger (thaumcraft.common.lib.potions.PotionUnnaturalHunger)
-128 is Avaible
-129 is Avaible
-130 is Avaible
-131 is Avaible
-132 is Avaible
-133 is Avaible
-134 is Avaible
-135 is Avaible
-136 is Avaible
-137 is Occupied by High Steps (net.aetherteam.aether.potions.AetherPotion)
-138 is Occupied by Slowfall (net.aetherteam.aether.potions.AetherPotion)
-139 is Occupied by potion.binding (flaxbeard.thaumicexploration.misc.TXPotion)
-140 is Occupied by potion.taintWithdrawl (flaxbeard.thaumicexploration.misc.TXTaintPotion)
-141 is Occupied by Amphibian (WayofTime.alchemicalWizardry.common.potion.PotionAmphibian)
-142 is Occupied by Boost (WayofTime.alchemicalWizardry.common.potion.PotionBoost)
-143 is Occupied by Deafness (WayofTime.alchemicalWizardry.common.potion.PotionDeaf)
-144 is Occupied by Demon Cloaking (WayofTime.alchemicalWizardry.common.potion.PotionDemonCloak)
-145 is Occupied by Drowning (WayofTime.alchemicalWizardry.common.potion.PotionDrowning)
-146 is Occupied by Feather Fall (WayofTime.alchemicalWizardry.common.potion.PotionFeatherFall)
-147 is Occupied by Fire Fuse (WayofTime.alchemicalWizardry.common.potion.PotionFireFuse)
-148 is Occupied by Flame Cloak (WayofTime.alchemicalWizardry.common.potion.PotionFlameCloak)
-149 is Occupied by Flight (WayofTime.alchemicalWizardry.common.potion.PotionFlight)
-150 is Occupied by Heavy Heart (WayofTime.alchemicalWizardry.common.potion.PotionHeavyHeart)
-151 is Occupied by Ice Cloak (WayofTime.alchemicalWizardry.common.potion.PotionIceCloak)
-152 is Occupied by Inhibit (WayofTime.alchemicalWizardry.common.potion.PotionInhibit)
-153 is Occupied by Planar Binding (WayofTime.alchemicalWizardry.common.potion.PotionPlanarBinding)
-154 is Occupied by Whirlwind (WayofTime.alchemicalWizardry.common.potion.PotionProjectileProtect)
-155 is Occupied by Reciprocation (WayofTime.alchemicalWizardry.common.potion.PotionReciprocation)
-156 is Occupied by Soul Fray (WayofTime.alchemicalWizardry.common.potion.PotionSoulFray)
-157 is Occupied by Soul Harden (WayofTime.alchemicalWizardry.common.potion.PotionSoulHarden)
-158 is Occupied by immersiveengineering.potion.conductive (blusunrize.immersiveengineering.common.util.IEPotions$IEPotion)
-159 is Occupied by immersiveengineering.potion.flammable (blusunrize.immersiveengineering.common.util.IEPotions$IEPotion)
-160 is Occupied by immersiveengineering.potion.slippery (blusunrize.immersiveengineering.common.util.IEPotions$IEPotion)
-161 is Occupied by immersiveengineering.potion.sticky (blusunrize.immersiveengineering.common.util.IEPotions$IEPotion)
-162 is Occupied by techno:drown (theflogat.technomancy.common.potions.PotionTechnom)
-163 is Occupied by techno:slowFall (theflogat.technomancy.common.potions.PotionTechnom)
-164 is Occupied by potion.blood_seal (fox.spiteful.forbidden.potions.PotionBloodSeal)
+109 is Occupied by AddHeart (tombenpotter.sanguimancy.potion.PotionAddHeart)
+110 is Occupied by RemoveHeart (tombenpotter.sanguimancy.potion.PotionRemoveHeart)
+111 is Occupied by potion.fluxtaint (thaumcraft.api.potions.PotionFluxTaint)
+112 is Occupied by potion.visexhaust (thaumcraft.api.potions.PotionVisExhaust)
+113 is Occupied by potion.infvisexhaust (thaumcraft.common.lib.potions.PotionInfectiousVisExhaust)
+114 is Occupied by potion.unhunger (thaumcraft.common.lib.potions.PotionUnnaturalHunger)
+115 is Occupied by Blue Curse (pixlepix.auracascade.potions.PotionBlueCurse)
+116 is Occupied by Green Curse (pixlepix.auracascade.potions.PotionGreenCurse)
+117 is Occupied by Orange Curse (pixlepix.auracascade.potions.PotionOrangeCurse)
+118 is Occupied by Red Curse (pixlepix.auracascade.potions.PotionRedCurse)
+119 is Occupied by Violet Curse (pixlepix.auracascade.potions.PotionVioletCurse)
+120 is Occupied by Yellow Curse (pixlepix.auracascade.potions.PotionYellowCurse)
+121 is Occupied by potion.fallresist (lycanite.lycanitesmobs.PotionBase)
+122 is Occupied by potion.fear (lycanite.lycanitesmobs.PotionBase)
+123 is Occupied by potion.leech (lycanite.lycanitesmobs.PotionBase)
+124 is Occupied by potion.paralysis (lycanite.lycanitesmobs.PotionBase)
+125 is Occupied by potion.penetration (lycanite.lycanitesmobs.PotionBase)
+126 is Occupied by potion.rage (lycanite.lycanitesmobs.PotionBase)
+127 is Occupied by potion.recklessness (lycanite.lycanitesmobs.PotionBase)
+128 is Occupied by potion.swiftswimming (lycanite.lycanitesmobs.PotionBase)
+129 is Occupied by potion.weight (lycanite.lycanitesmobs.PotionBase)
+130 is Occupied by High Steps (net.aetherteam.aether.potions.AetherPotion)
+131 is Occupied by Slowfall (net.aetherteam.aether.potions.AetherPotion)
+132 is Occupied by potion.binding (flaxbeard.thaumicexploration.misc.TXPotion)
+133 is Occupied by potion.taintWithdrawl (flaxbeard.thaumicexploration.misc.TXTaintPotion)
+134 is Occupied by Amphibian (WayofTime.alchemicalWizardry.common.potion.PotionAmphibian)
+135 is Occupied by Boost (WayofTime.alchemicalWizardry.common.potion.PotionBoost)
+136 is Occupied by Deafness (WayofTime.alchemicalWizardry.common.potion.PotionDeaf)
+137 is Occupied by Demon Cloaking (WayofTime.alchemicalWizardry.common.potion.PotionDemonCloak)
+138 is Occupied by Drowning (WayofTime.alchemicalWizardry.common.potion.PotionDrowning)
+139 is Occupied by Feather Fall (WayofTime.alchemicalWizardry.common.potion.PotionFeatherFall)
+140 is Occupied by Fire Fuse (WayofTime.alchemicalWizardry.common.potion.PotionFireFuse)
+141 is Occupied by Flame Cloak (WayofTime.alchemicalWizardry.common.potion.PotionFlameCloak)
+142 is Occupied by Flight (WayofTime.alchemicalWizardry.common.potion.PotionFlight)
+143 is Occupied by Heavy Heart (WayofTime.alchemicalWizardry.common.potion.PotionHeavyHeart)
+144 is Occupied by Ice Cloak (WayofTime.alchemicalWizardry.common.potion.PotionIceCloak)
+145 is Occupied by Inhibit (WayofTime.alchemicalWizardry.common.potion.PotionInhibit)
+146 is Occupied by Planar Binding (WayofTime.alchemicalWizardry.common.potion.PotionPlanarBinding)
+147 is Occupied by Whirlwind (WayofTime.alchemicalWizardry.common.potion.PotionProjectileProtect)
+148 is Occupied by Reciprocation (WayofTime.alchemicalWizardry.common.potion.PotionReciprocation)
+149 is Occupied by Soul Fray (WayofTime.alchemicalWizardry.common.potion.PotionSoulFray)
+150 is Occupied by Soul Harden (WayofTime.alchemicalWizardry.common.potion.PotionSoulHarden)
+151 is Occupied by immersiveengineering.potion.conductive (blusunrize.immersiveengineering.common.util.IEPotions$IEPotion)
+152 is Occupied by immersiveengineering.potion.flammable (blusunrize.immersiveengineering.common.util.IEPotions$IEPotion)
+153 is Occupied by immersiveengineering.potion.slippery (blusunrize.immersiveengineering.common.util.IEPotions$IEPotion)
+154 is Occupied by immersiveengineering.potion.sticky (blusunrize.immersiveengineering.common.util.IEPotions$IEPotion)
+155 is Occupied by techno:drown (theflogat.technomancy.common.potions.PotionTechnom)
+156 is Occupied by techno:slowFall (theflogat.technomancy.common.potions.PotionTechnom)
+157 is Occupied by potion.blood_seal (fox.spiteful.forbidden.potions.PotionBloodSeal)
+158 is Avaible
+159 is Avaible
+160 is Avaible
+161 is Avaible
+162 is Avaible
+163 is Avaible
+164 is Avaible
 165 is Occupied by Epic Mana Restoration (am2.buffs.ManaPotion)
 166 is Occupied by Greater Mana Restoration (am2.buffs.ManaPotion)
 167 is Occupied by Legendary Mana Restoration (am2.buffs.ManaPotion)
@@ -186,59 +186,59 @@ All ids and their position:
 181 is Occupied by Earth Imbued (thaumic.tinkerer.common.potion.DummyPotions)
 182 is Occupied by Fire Imbued (thaumic.tinkerer.common.potion.DummyPotions)
 183 is Occupied by Wated Imbued (thaumic.tinkerer.common.potion.DummyPotions)
-184 is Avaible
+184 is Occupied by potions.paling (evilcraft.potion.PotionPaling)
 185 is Avaible
-186 is Occupied by potion.paralysis (biomesoplenty.common.potions.PotionParalysis)
-187 is Occupied by potion.possession (biomesoplenty.common.potions.PotionPossession)
-188 is Occupied by potions.paling (evilcraft.potion.PotionPaling)
-189 is Avaible
-190 is Avaible
-191 is Avaible
-192 is Avaible
-193 is Avaible
-194 is Avaible
-195 is Avaible
-196 is Avaible
-197 is Avaible
-198 is Avaible
+186 is Avaible
+187 is Occupied by potion.frost (electroblob.wizardry.potion.PotionFrost)
+188 is Occupied by potion.transience (electroblob.wizardry.potion.PotionMagicEffect)
+189 is Occupied by potion.fireskin (electroblob.wizardry.potion.PotionMagicEffect)
+190 is Occupied by potion.ice_shroud (electroblob.wizardry.potion.PotionMagicEffect)
+191 is Occupied by potion.static_aura (electroblob.wizardry.potion.PotionMagicEffect)
+192 is Occupied by potion.decay (electroblob.wizardry.potion.PotionDecay)
+193 is Occupied by potion.sixth_sense (electroblob.wizardry.potion.PotionMagicEffect)
+194 is Occupied by potion.arcane_jammer (electroblob.wizardry.potion.PotionMagicEffect)
+195 is Occupied by potion.mind_trick (electroblob.wizardry.potion.PotionMagicEffect)
+196 is Occupied by potion.mind_control (electroblob.wizardry.potion.PotionMagicEffect)
+197 is Occupied by potion.font_of_mana (electroblob.wizardry.potion.PotionMagicEffect)
+198 is Occupied by potion.fear (electroblob.wizardry.potion.PotionMagicEffect)
 199 is Avaible
 200 is Avaible
 201 is Avaible
-202 is Avaible
-203 is Avaible
-204 is Avaible
-205 is Avaible
-206 is Avaible
-207 is Avaible
-208 is Avaible
-209 is Avaible
-210 is Avaible
-211 is Avaible
-212 is Avaible
-213 is Avaible
-214 is Avaible
-215 is Avaible
-216 is Avaible
-217 is Avaible
-218 is Avaible
-219 is Avaible
-220 is Avaible
-221 is Avaible
-222 is Avaible
-223 is Avaible
-224 is Avaible
-225 is Avaible
-226 is Avaible
-227 is Avaible
-228 is Avaible
-229 is Avaible
-230 is Avaible
-231 is Avaible
-232 is Avaible
-233 is Avaible
-234 is Avaible
-235 is Avaible
-236 is Avaible
+202 is Occupied by bl.elixir.basilisk (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+203 is Occupied by bl.elixir.blindman (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+204 is Occupied by bl.elixir.catsEyes (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+205 is Occupied by bl.elixir.decay (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+206 is Occupied by bl.elixir.deformed (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+207 is Occupied by bl.elixir.draining (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+208 is Occupied by bl.elixir.drunkard (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+209 is Occupied by bl.elixir.feasting (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+210 is Occupied by bl.elixir.foggedMind (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+211 is Occupied by bl.elixir.gillsgrowth (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+212 is Occupied by bl.elixir.healing (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+213 is Occupied by bl.elixir.heavyweight (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+214 is Occupied by bl.elixir.huntersSense (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+215 is Occupied by bl.elixir.huntersSenseMaster (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+216 is Occupied by bl.elixir.isolatedSenses (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+217 is Occupied by bl.elixir.lightweight (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+218 is Occupied by bl.elixir.limbless (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+219 is Occupied by bl.elixir.lumbering (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+220 is Occupied by bl.elixir.masking (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+221 is Occupied by bl.elixir.nimblefeet (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+222 is Occupied by bl.elixir.petrify (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+223 is Occupied by bl.elixir.poisonsting (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+224 is Occupied by bl.elixir.ripening (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+225 is Occupied by bl.elixir.sagittarius (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+226 is Occupied by bl.elixir.slugarm (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+227 is Occupied by bl.elixir.spiderbreed (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+228 is Occupied by bl.elixir.starvation (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+229 is Occupied by bl.elixir.stenching (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+230 is Occupied by bl.elixir.strength (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+231 is Occupied by bl.elixir.swiftarm (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+232 is Occupied by bl.elixir.toughskin (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+233 is Occupied by bl.elixir.unclouded (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+234 is Occupied by bl.elixir.weakbow (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+235 is Occupied by bl.elixir.weakness (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+236 is Occupied by bl.elixir.wings (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
 237 is Avaible
 238 is Avaible
 239 is Avaible

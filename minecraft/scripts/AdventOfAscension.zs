@@ -5,8 +5,6 @@
 
 ## Imports
 import mods.botania.Orechid;
-//import mods.thaumcraft.Infusion;
-import mods.extraUtils.QED;
 
 print("Initializing 'AdventOfAscension.zs'...");
 
@@ -27,9 +25,7 @@ val arrowHollyTop = <nevermine:ElementalArrow>;
 val ancientTeleporterBluePrint = <nevermine:AncientTeleporterBlueprint>;
 
 ##  Ancient Teleporter
-# Progression Gate, must complete Twilight Forest before venturing to AoA dimensions
-recipes.remove (ancientTeleporterBluePrint);
-QED.addShapedRecipe(ancientTeleporterBluePrint, [[dragonStone, imbuedSlate, enderEssence], [manaDiamond, lampOfCinders, manaDiamond], [arcanePrism, nullCatalyst, salisMundis]]);
+recipes.remove(ancientTeleporterBluePrint);
 
 ##  Botaina Orechid
 Orechid.addOre(<ore:oreAmethyst>, 2360);

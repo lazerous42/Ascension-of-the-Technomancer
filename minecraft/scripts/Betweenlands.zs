@@ -1,0 +1,11 @@
+//////////////////////////////////////////////////////////////////////////////////////////////
+// Name: Betweenlands.zs
+// Author: Lazerous
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+print("Initializing 'Betweenlands.zs'...");
+
+recipes.addShapedMirrored(<Forestry:peat> * 4, [[<ore:craftingToolSaw>,null], 
+						    			    	[<thebetweenlands:peat>, null]]);
+
+print("Initialized 'Betweenlands.zs'");

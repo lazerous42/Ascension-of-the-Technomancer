@@ -51,7 +51,6 @@
 			"delay": 20
 		}]
 	},
-
 	"AE1k": {
 		"chance": 20,
 		"Message": [{
@@ -65,7 +64,6 @@
 			"delay": 20
 		}]
 	},
-
 	"AE4k": {
 		"chance": 50,
 		"Message": [{
@@ -126,5 +124,4 @@
 			"delay": 20
 		}]
 	}
-
 }

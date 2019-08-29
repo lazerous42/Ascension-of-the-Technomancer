@@ -69,23 +69,24 @@
 		<ore itemStack="minecraft:iron_ore" chance="10" />
 		<ore itemStack="ThermalFoundation:Ore 4" chance="15" />
 	</asteroid>
-	<asteroid name="Dilithium Asteroid" distance="175" mass="120" massVariability="0.5" minLevel="0" probability="15" richness="0.3" richnessVariability="0.4">
+	<asteroid name="Dilithium Asteroid" distance="175" mass="120" massVariability="0.5" minLevel="0" probability="12" richness="0.3" richnessVariability="0.4">
 		<ore itemStack="libVulpes:libVulpesore0 0" chance="50" />
 		<ore itemStack="minecraft:diamond_ore" chance="10" />
 		<ore itemStack="ThermalFoundation:Ore 4" chance="10" />
 		<ore itemStack="ThermalFoundation:Ore 1" chance="20" />
 		<ore itemStack="ThermalFoundation:Ore 0" chance="20" />
 	</asteroid>
-	<asteroid name="Iridium Asteroid" distance="200" mass="80" massVariability="0.5" minLevel="0" probability="2" richness="0.2" richnessVariability="0.3">
-		<ore itemStack="minecraft:iron_ore" chance="25" />
-		<ore itemStack="libVulpes:libVulpesore0 10" chance="10" />
-		<ore itemStack="minecraft:diamond_ore" chance="5" />
-		<ore itemStack="minecraft:emerald_ore" chance="5" />
+	<asteroid name="Precious Metal Asteroid" distance="200" mass="80" massVariability="0.5" minLevel="0" probability="2" richness="0.2" richnessVariability="0.4">
+		<ore itemStack="minecraft:iron_ore" chance="30" />
+		<ore itemStack="libVulpes:libVulpesore0 10" chance="5" />
+		<ore itemStack="Magneticraft:tungsten_ore" chance="7" />
+		<ore itemStack="Mekanism:OreBlock" chance="7" />
 	</asteroid>
-	<asteroid name="Temporal Asteroid" distance="150" mass="100" massVariability="0.5" minLevel="0" probability="15" richness="0.3" richnessVariability="0.4">
-		<ore itemStack="libVulpes:libVulpesore0 0" chance="20" />
-		<ore itemStack="rftools:dimensionalShardBlock 0" chance="30" />
+	<asteroid name="Gemstone Asteroid" distance="160" mass="100" massVariability="0.5" minLevel="0" probability="7" richness="0.25" richnessVariability="0.6">
+		<ore itemStack="libVulpes:libVulpesore0 0" chance="12" />
+		<ore itemStack="rftools:dimensionalShardBlock 0" chance="15" />
 		<ore itemStack="minecraft:diamond_ore" chance="10" />
-		<ore itemStack="clockworkphase:oreTemporal 0" chance="60" />
+		<ore itemStack="minecraft:emerald_ore" chance="10" />
+		<ore itemStack="clockworkphase:oreTemporal 0" chance="8" />
 	</asteroid>
 </Asteroids>

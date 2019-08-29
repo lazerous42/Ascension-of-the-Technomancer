@@ -13,11 +13,10 @@
 			"delay": 20
 		}]
 	},
-
 	"LastMillennium": {
 		"chance": 2,
 		"Message": [{
-			"message": "Not afraid of the dark now... Are you"
+			"message": "Gaspar is not home right now, but feel free to make yourself comfortable"
 		}],
 		"Item": [{
 			"item": {
@@ -28,7 +27,6 @@
 			"delay": 20
 		}]
 	},
-
 	"QED": {
 		"chance": 5,
 		"Message": [{

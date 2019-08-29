@@ -1,16 +1,38 @@
 {
-	"DimensionalShards": {
-		"template": "uniform",
-		"block": "rftools:dimensionalShardBlock",
-		"material": "minecraft:stone",
-		"clusterSize": 8,
-		"numClusters": 4,
-		"minHeight": 50,
-		"maxHeight": 128,
-		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [-100,102,106,107,109,113,115,116,121]
-	}
+    "DimensionalShards": {
+        "enabled": "true",
+        "template": "cave",
+        "generator": "stalactite",
+        "block": [{
+            "name": "rftools:dimensionalShardBlock",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "ceiling": "true",
+        "chunkChance": 3,
+        "numClusters": 1,
+        "genBody": [{
+            "name": "minecraft:air",
+            "metadata": 0
+        }],
+        "genSize": 2,
+        "minHeight": 2,
+        "heightVariance": 3,
+        "sizeVariance": 1,
+        "smooth": "true",
+        "fat": "false",
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            102,
+            116
+        ]
+    }
 }

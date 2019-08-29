@@ -125,6 +125,13 @@ The following registers the vanilla gold ingot as "ingotGold"
 		<stack1>NVLSimpleBlocks:stone_andesite_smooth 1 0</stack1>
 	</ore>
 	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Balance Shard         -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ore>
+		<name>shardBalance</name>
+		<stack1>Thaumcraft:ItemShard 1 6</stack1>
+	</ore>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<!-- Chance Pendant          -->
 	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<ore>
@@ -489,6 +496,20 @@ The following registers the vanilla gold ingot as "ingotGold"
 		<stack2>harvestcraft:mortarandpestleItem 1 0</stack2>
 	</ore>
 	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Mystical Flower         -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ore>
+		<name>flowerMystical</name>
+		<stack1>Botania:flower 1 32767</stack1>
+	</ore>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Mystical Petal          -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ore>
+		<name>petalMystical</name>
+		<stack1>Botania:petal 1 32767</stack1>
+	</ore>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<!-- Quartz                  -->
 	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<ore>
@@ -502,6 +523,33 @@ The following registers the vanilla gold ingot as "ingotGold"
 	<ore>
 		<name>quartzDark</name>
 		<stack1>ThaumicTinkerer:darkQuartzItem 1 0</stack1>
+	</ore>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Rubber Wood             -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ore>
+		<name>ingotRubber</name>
+		<stack1>thebetweenlands:unknownGeneric 1 26</stack1>
+	</ore>
+	<ore>
+		<name>itemRubber</name>
+		<stack1>thebetweenlands:unknownGeneric 1 26</stack1>
+	</ore>
+	<ore>
+		<name>leavesRubber</name>
+		<stack1>thebetweenlands:rubberTreeLeaves 1 0</stack1>
+	</ore>
+	<ore>
+		<name>logRubber</name>
+		<stack1>thebetweenlands:rubberTreeLog 1 0</stack1>
+	</ore>
+	<ore>
+		<name>woodRubber</name>
+		<stack1>thebetweenlands:rubberTreeLog 1 0</stack1>
+	</ore>
+		<ore>
+		<name>treeLeavesRubber</name>
+		<stack1>thebetweenlands:rubberTreeLeaves 1 0</stack1>
 	</ore>
 	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<!-- Sand and Glass          -->

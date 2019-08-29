@@ -82,4 +82,7 @@ Chocopedia = chococraft:Chocopedia,1,0,2
 
 frameOblivion = MagicBees:frameOblivion,1,0,18
 
-AncientTeleporterBlueprint = nevermine:AncientTeleporterBlueprint,1,0,5
+CarvedRuneOfReality = nevermine:CarvedRune1,1,0,5
+CarvedRuneOfTravel = nevermine:CarvedRune2,1,0,5
+CarvedRuneOfSpace = nevermine:CarvedRune3,1,0,5
+CarvedRuneOfDirection = nevermine:CarvedRune6,1,0,5

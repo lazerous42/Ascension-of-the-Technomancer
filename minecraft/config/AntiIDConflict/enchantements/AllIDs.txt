@@ -51,14 +51,14 @@
 50 is Occupied by: enchantment.arrowFire (net.minecraft.enchantment.EnchantmentArrowFire)
 51 is Occupied by: enchantment.arrowInfinite (net.minecraft.enchantment.EnchantmentArrowInfinite)
 52 is Occupied by: enchantment.protect.all (com.chocolate.chocolateQuest.magic.EnchantmentMagicDefense)
-53 is Occupied by: enchantment.chroma.airminer (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentAirMiner)
-54 is Occupied by: enchantment.chroma.enderlock (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentEnderLock)
-55 is Occupied by: enchantment.chroma.harvestlevel (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentHarvestLevel)
-56 is Occupied by: enchantment.chroma.fastsink (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentFastSinking)
-57 is Occupied by: enchantment.chroma.rareloot (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentRareLoot)
-58 is Occupied by: enchantment.chroma.userepair (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentUseRepair)
+53 is Avaible
+54 is Avaible
+55 is Avaible
+56 is Avaible
+57 is Avaible
+58 is Avaible
 59 is Avaible
-60 is Occupied by: enchantment.chroma.phasing (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentPhasingSequence)
+60 is Avaible
 61 is Occupied by: enchantment.lootBonusFishing (net.minecraft.enchantment.EnchantmentLootBonus)
 62 is Occupied by: enchantment.fishingSpeed (net.minecraft.enchantment.EnchantmentFishingSpeed)
 63 is Occupied by: enchantment.archeology (fossilsarcheology.server.enchantment.ArcheologyEnchantment)
@@ -83,39 +83,39 @@
 82 is Occupied by: enchantment.enchantments.lifeStealing (evilcraft.enchantment.EnchantmentLifeStealing)
 83 is Occupied by: enchantment.enchantments.poisonTip (evilcraft.enchantment.EnchantmentPoisonTip)
 84 is Occupied by: enchantment.enchantments.unusing (evilcraft.enchantment.EnchantmentUnusing)
-85 is Avaible
-86 is Avaible
-87 is Avaible
-88 is Avaible
-89 is Avaible
-90 is Occupied by: enchantment.chroma.weaponaoe (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentWeaponAOE)
-91 is Occupied by: enchantment.chroma.aggromask (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentAggroMask)
-92 is Occupied by: enchantment.chroma.bosskill (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentBossKill)
-93 is Occupied by: enchantment.wg.backstab (witchinggadgets.common.magic.WGEnchantBackstab)
-94 is Occupied by: enchantment.wg.gemstoneBrittle (witchinggadgets.common.magic.WGEnchantGemBrittle)
-95 is Occupied by: enchantment.wg.invisibleGear (witchinggadgets.common.magic.WGEnchantInvisibleGear)
-96 is Occupied by: enchantment.wg.gemstonePotency (witchinggadgets.common.magic.WGEnchantGemPotency)
-97 is Occupied by: enchantment.wg.rideProtect (witchinggadgets.common.magic.WGEnchantRideProtect)
-98 is Occupied by: enchantment.wg.stealth (witchinggadgets.common.magic.WGEnchantStealth)
-99 is Occupied by: enchantment.wg.unveiling (witchinggadgets.common.magic.WGEnchantUnveiling)
-100 is Occupied by: enchantment.chroma.autocollect (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentAutoCollect)
+85 is Occupied by: enchantment.chroma.aggromask (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentAggroMask)
+86 is Occupied by: enchantment.chroma.airminer (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentAirMiner)
+87 is Occupied by: enchantment.chroma.phasing (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentPhasingSequence)
+88 is Occupied by: enchantment.chroma.bosskill (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentBossKill)
+89 is Occupied by: enchantment.chroma.enderlock (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentEnderLock)
+90 is Occupied by: enchantment.chroma.harvestlevel (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentHarvestLevel)
+91 is Occupied by: enchantment.chroma.autocollect (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentAutoCollect)
+92 is Occupied by: enchantment.chroma.fastsink (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentFastSinking)
+93 is Occupied by: enchantment.chroma.rareloot (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentRareLoot)
+94 is Occupied by: enchantment.chroma.userepair (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentUseRepair)
+95 is Occupied by: enchantment.chroma.weaponaoe (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentWeaponAOE)
+96 is Avaible
+97 is Avaible
+98 is Avaible
+99 is Avaible
+100 is Occupied by: simplyjetpacks.enchantment.fuelEfficiency (tonius.simplyjetpacks.enchantment.EnchantmentFuelEfficiency)
 101 is Occupied by: enchantment.archmage (net.nevermine.assist.AscensionEnchants$7)
 102 is Occupied by: enchantment.control (net.nevermine.assist.AscensionEnchants$1)
 103 is Occupied by: enchantment.crush (net.nevermine.assist.AscensionEnchants$5)
-104 is Occupied by: enchantment.overpower (net.nevermine.assist.AscensionEnchants$4)
-105 is Occupied by: enchantment.recharge (net.nevermine.assist.AscensionEnchants$3)
-106 is Occupied by: enchantment.sever (net.nevermine.assist.AscensionEnchants$6)
-107 is Occupied by: enchantment.shell (net.nevermine.assist.AscensionEnchants$2)
-108 is Occupied by: enchantment.slice (net.nevermine.assist.AscensionEnchants$9)
-109 is Occupied by: enchantment.windfury (net.nevermine.assist.AscensionEnchants$8)
-110 is Occupied by: simplyjetpacks.enchantment.fuelEfficiency (tonius.simplyjetpacks.enchantment.EnchantmentFuelEfficiency)
-111 is Occupied by: enchantment.intervention (net.nevermine.assist.AscensionEnchants$10)
-112 is Avaible
-113 is Avaible
-114 is Avaible
-115 is Avaible
-116 is Avaible
-117 is Avaible
+104 is Occupied by: enchantment.intervention (net.nevermine.assist.AscensionEnchants$10)
+105 is Occupied by: enchantment.overpower (net.nevermine.assist.AscensionEnchants$4)
+106 is Occupied by: enchantment.recharge (net.nevermine.assist.AscensionEnchants$3)
+107 is Occupied by: enchantment.sever (net.nevermine.assist.AscensionEnchants$6)
+108 is Occupied by: enchantment.shell (net.nevermine.assist.AscensionEnchants$2)
+109 is Occupied by: enchantment.slice (net.nevermine.assist.AscensionEnchants$9)
+110 is Occupied by: enchantment.windfury (net.nevermine.assist.AscensionEnchants$8)
+111 is Occupied by: enchantment.wg.backstab (witchinggadgets.common.magic.WGEnchantBackstab)
+112 is Occupied by: enchantment.wg.gemstoneBrittle (witchinggadgets.common.magic.WGEnchantGemBrittle)
+113 is Occupied by: enchantment.wg.invisibleGear (witchinggadgets.common.magic.WGEnchantInvisibleGear)
+114 is Occupied by: enchantment.wg.gemstonePotency (witchinggadgets.common.magic.WGEnchantGemPotency)
+115 is Occupied by: enchantment.wg.rideProtect (witchinggadgets.common.magic.WGEnchantRideProtect)
+116 is Occupied by: enchantment.wg.stealth (witchinggadgets.common.magic.WGEnchantStealth)
+117 is Occupied by: enchantment.wg.unveiling (witchinggadgets.common.magic.WGEnchantUnveiling)
 118 is Avaible
 119 is Avaible
 120 is Occupied by: enchant.cofh.holding (cofh.core.enchantment.EnchantmentHolding)
@@ -197,10 +197,10 @@
 196 is Occupied by: Reading (jds.bibliocraft.EnchantmentReading)
 197 is Occupied by: Eternal Compass (jds.bibliocraft.EnchantmentDeathCompass)
 198 is Avaible
-199 is Avaible
-200 is Avaible
-201 is Avaible
-202 is Avaible
+199 is Occupied by: enchantment.magic_sword (electroblob.wizardry.enchantment.EnchantmentMagicSword)
+200 is Occupied by: enchantment.magic_bow (electroblob.wizardry.enchantment.EnchantmentTimed)
+201 is Occupied by: enchantment.flaming_weapon (electroblob.wizardry.enchantment.EnchantmentTimed)
+202 is Occupied by: enchantment.freezing_weapon (electroblob.wizardry.enchantment.EnchantmentTimed)
 203 is Avaible
 204 is Avaible
 205 is Avaible

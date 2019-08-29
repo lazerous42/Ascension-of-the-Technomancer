@@ -1,0 +1,384 @@
+{
+    "AirShard": {
+        "enabled": "true",
+        "template": "normal",
+        "generator": "cluster",
+        "block": [{
+            "name": "Thaumcraft:blockCustomOre",
+            "metadata": 1
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 5,
+        "numClusters": 4,
+        "meanHeight": 120,
+        "maxVariance": 25,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "AirShard-Feyweald": {
+        "enabled": "true",
+        "template": "normal",
+        "generator": "cluster",
+        "block": [{
+            "name": "Thaumcraft:blockCustomOre",
+            "metadata": 1
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 5,
+        "numClusters": 4,
+        "meanHeight": 75,
+        "maxVariance": 25,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            9
+        ]
+    },
+    "AirShard-Twilight": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "Thaumcraft:blockCustomOre",
+            "metadata": 1
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 5,
+        "numClusters": 4,
+        "minHeight": 2,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+    "EarthShard": {
+        "enabled": "true",
+        "template": "normal",
+        "generator": "cluster",
+        "block": [{
+            "name": "Thaumcraft:blockCustomOre",
+            "metadata": 4
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 5,
+        "numClusters": 4,
+        "meanHeight": 60,
+        "maxVariance": 25,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "EarthShard-Feyweald": {
+        "enabled": "true",
+        "template": "normal",
+        "generator": "cluster",
+        "block": [{
+            "name": "Thaumcraft:blockCustomOre",
+            "metadata": 4
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 5,
+        "numClusters": 4,
+        "meanHeight": 45,
+        "maxVariance": 25,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            9
+        ]
+    },
+    "EarthShard-Twilight": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "Thaumcraft:blockCustomOre",
+            "metadata": 4
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 5,
+        "numClusters": 4,
+        "minHeight": 2,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+    "EntropyShard": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "Thaumcraft:blockCustomOre",
+            "metadata": 6
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 5,
+        "numClusters": 4,
+        "minHeight": 2,
+        "maxHeight": 150,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            7,
+            9
+        ]
+    },
+    "FireShard": {
+        "enabled": "true",
+        "template": "normal",
+        "generator": "cluster",
+        "block": [{
+            "name": "Thaumcraft:blockCustomOre",
+            "metadata": 2
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 5,
+        "numClusters": 4,
+        "meanHeight": 30,
+        "maxVariance": 25,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "FireShard-Feyweald": {
+        "enabled": "true",
+        "template": "normal",
+        "generator": "cluster",
+        "block": [{
+            "name": "Thaumcraft:blockCustomOre",
+            "metadata": 2
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 5,
+        "numClusters": 4,
+        "meanHeight": 30,
+        "maxVariance": 25,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            9
+        ]
+    },
+    "FireShard-Twilight": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "Thaumcraft:blockCustomOre",
+            "metadata": 2
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 5,
+        "numClusters": 4,
+        "minHeight": 2,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+    "OrderShard": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "Thaumcraft:blockCustomOre",
+            "metadata": 5
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 5,
+        "numClusters": 4,
+        "minHeight": 2,
+        "maxHeight": 150,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            7,
+            9
+        ]
+    },
+    "WaterShard": {
+        "enabled": "true",
+        "template": "normal",
+        "generator": "cluster",
+        "block": [{
+            "name": "Thaumcraft:blockCustomOre",
+            "metadata": 3
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 5,
+        "numClusters": 4,
+        "meanHeight": 90,
+        "maxVariance": 25,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "WaterShard-Feyweald": {
+        "enabled": "true",
+        "template": "normal",
+        "generator": "cluster",
+        "block": [{
+            "name": "Thaumcraft:blockCustomOre",
+            "metadata": 3
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 5,
+        "numClusters": 4,
+        "meanHeight": 60,
+        "maxVariance": 25,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            9
+        ]
+    },
+    "WaterShard-Twilight": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "Thaumcraft:blockCustomOre",
+            "metadata": 3
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 5,
+        "numClusters": 4,
+        "minHeight": 2,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    }
+}

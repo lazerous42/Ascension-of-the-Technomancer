@@ -152,6 +152,63 @@ Forestry.cart.beehouse
 Ghast
 Giant
 GraviSuite.PlasmaBall
+GrimoireOfGaia.Anubis
+GrimoireOfGaia.Banshee
+GrimoireOfGaia.Baphomet
+GrimoireOfGaia.Bone Knight
+GrimoireOfGaia.Butler
+GrimoireOfGaia.Centaur
+GrimoireOfGaia.Cobble Golem
+GrimoireOfGaia.Cobblestone Golem
+GrimoireOfGaia.Cockatrice
+GrimoireOfGaia.Creep
+GrimoireOfGaia.Creeper Girl
+GrimoireOfGaia.Cyan Flower
+GrimoireOfGaia.Cyclops
+GrimoireOfGaia.Dhampir
+GrimoireOfGaia.Dryad
+GrimoireOfGaia.Dullahan
+GrimoireOfGaia.Ender Dragon Girl
+GrimoireOfGaia.Ender Eye
+GrimoireOfGaia.Ender Girl
+GrimoireOfGaia.Flesh Lich
+GrimoireOfGaia.FutakuchiOnna
+GrimoireOfGaia.Gryphon
+GrimoireOfGaia.Harpy
+GrimoireOfGaia.Holstaurus
+GrimoireOfGaia.Hunter
+GrimoireOfGaia.Jorogumo
+GrimoireOfGaia.Kobold
+GrimoireOfGaia.Magic
+GrimoireOfGaia.Mandragora
+GrimoireOfGaia.Mermaid
+GrimoireOfGaia.Mimic
+GrimoireOfGaia.Minotaur
+GrimoireOfGaia.Minotaurus
+GrimoireOfGaia.Naga
+GrimoireOfGaia.NineTails
+GrimoireOfGaia.Sahuagin
+GrimoireOfGaia.Satyr
+GrimoireOfGaia.Selkie
+GrimoireOfGaia.Shaman
+GrimoireOfGaia.Sharko
+GrimoireOfGaia.Siren
+GrimoireOfGaia.Slime Girl
+GrimoireOfGaia.Sludge Girl
+GrimoireOfGaia.Small Fireball
+GrimoireOfGaia.Sphinx
+GrimoireOfGaia.Spriggan
+GrimoireOfGaia.Succubus
+GrimoireOfGaia.Swamper
+GrimoireOfGaia.Trader
+GrimoireOfGaia.Valkyrie
+GrimoireOfGaia.Vampire
+GrimoireOfGaia.Werecat
+GrimoireOfGaia.Witch
+GrimoireOfGaia.Wither Cow
+GrimoireOfGaia.Yeti
+GrimoireOfGaia.Yuki-Onna
+Guardian
 HardcoreEnderExpansion.AngryEnderman
 HardcoreEnderExpansion.BabyEnderman
 HardcoreEnderExpansion.BlockHomelandCache
@@ -225,7 +282,11 @@ MCA.EntityGrimReaper
 MCA.EntityHuman
 MagicCookie.IceCube
 MagicCookie.MagicCookieGolem
-Meteor
+Mekanism.BabySkeleton
+Mekanism.Balloon
+Mekanism.Flame
+Mekanism.ObsidianTNT
+Mekanism.Robit
 MeteorTrail
 MineFactoryReloaded.DebugTracker
 MineFactoryReloaded.FishingRod
@@ -304,6 +365,7 @@ MoCreatures.Wraith
 MoCreatures.Wyvern
 Mob
 Monster
+Mooshroom_NEC
 MushroomCow
 NEAT_Zombie
 Natura.FlameSpider
@@ -315,6 +377,7 @@ NetherOres.ArmedOre
 NetherOres.netherOresHellfish
 NpcDragon
 NpcSlime
+Ocelot_NEC
 OpenBlocks.Cartographer
 OpenBlocks.EntityItemProjectile
 OpenBlocks.GoldenEye
@@ -338,6 +401,9 @@ PneumaticCraft.Potion Cloud
 PneumaticCraft.Ring
 PneumaticCraft.Vortex
 PneumaticCraft.logisticDrone
+PortalGun.portal_entityapg
+PortalGun.portal_entityball
+PortalGun.portal_entityblock
 PrimedTnt
 Railcraft.ItemFireproof
 Railcraft.ItemFirestone
@@ -404,6 +470,7 @@ ReactorCraft.Fusion
 ReactorCraft.Neutron
 ReactorCraft.Plasma
 ReactorCraft.Radiation
+ReikaMeteor
 RotaryCraft.Burning Liquid
 RotaryCraft.CustomTNT
 RotaryCraft.Discharge
@@ -731,6 +798,7 @@ WitchingGadgets.reformingItem
 WitherBoss
 WitherSkull
 Wolf
+Wolf_NEC
 XPOrb
 Zombie
 adhooks.HookShot
@@ -847,8 +915,27 @@ arsmagica2.Whirlwind
 arsmagica2.ZoneSpell
 astikoor.cargocart
 astikoor.plowcart
+atum.ArrowDoubleShot
+atum.ArrowExplosive
+atum.ArrowFire
+atum.ArrowPoison
+atum.ArrowQuickDraw
+atum.ArrowVeloctiy
+atum.EntityAtumFishHook
+atum.EntityNutsCall
+atum.banditArcher
+atum.banditWarlord
+atum.banditWarrior
+atum.barbarian
+atum.desertGhost
+atum.desertWolf
+atum.dustySkeleton
+atum.mummy
+atum.pharaoh
+atum.stoneSoldier
 aura.ExplosionMiner
 aura.Fairy
+betterquesting.placeholder
 chisel.BallOMoss
 chisel.CloudInABottle
 chisel.SmashingRock
@@ -949,6 +1036,28 @@ desertmobs.joustalpha
 desertmobs.manticore
 desertmobs.mudshot
 desertmobs.throwingscythe
+dungeonmobs.DMBeholder
+dungeonmobs.DMCaveFisher
+dungeonmobs.DMCockatrice
+dungeonmobs.DMDestrachan
+dungeonmobs.DMEyeRay
+dungeonmobs.DMGhoul
+dungeonmobs.DMHellHound
+dungeonmobs.DMHookHorror
+dungeonmobs.DMIllithid
+dungeonmobs.DMLizalfos
+dungeonmobs.DMMagicMissile
+dungeonmobs.DMManticore
+dungeonmobs.DMPetrified
+dungeonmobs.DMRakshasa
+dungeonmobs.DMRakshasaImage
+dungeonmobs.DMRustMonster
+dungeonmobs.DMShrieker
+dungeonmobs.DMSonicBoom
+dungeonmobs.DMThoqqua
+dungeonmobs.DMTroll
+dungeonmobs.DMUmberHulk
+dungeonmobs.DMVescavor
 dynamicswordskills.leapingblow
 dynamicswordskills.swordbeam
 enderzoo.ConcussionCreeper
@@ -958,6 +1067,83 @@ enderzoo.FallenKnight
 enderzoo.FallenMount
 enderzoo.WitherCat
 enderzoo.WitherWitch
+erebus.animatedBambooCrate
+erebus.animatedBlock
+erebus.animatedChest
+erebus.antlion
+erebus.antlionBoss
+erebus.antlionMiniBoss
+erebus.armchairMount
+erebus.bedBug
+erebus.beetle
+erebus.beetleLarva
+erebus.blackAnt
+erebus.blackWidow
+erebus.bloodSnail
+erebus.bombardierBeetle
+erebus.bombardierBeetleLarva
+erebus.botFly
+erebus.botFlyLarva
+erebus.centipede
+erebus.chameleonTick
+erebus.cicada
+erebus.crushling
+erebus.crushroom
+erebus.dragonfly
+erebus.erebusLightning
+erebus.extractedBlock
+erebus.fireAnt
+erebus.fireAntSoldier
+erebus.fireResistentItem
+erebus.fly
+erebus.gasVent
+erebus.glowWorm
+erebus.gooBall
+erebus.grasshopper
+erebus.honeyPotAnt
+erebus.jumpingSpider
+erebus.lavaWebSpider
+erebus.leech
+erebus.locust
+erebus.magmaCrawler
+erebus.midgeSwarm
+erebus.moneySpider
+erebus.mosquito
+erebus.moth
+erebus.mucusBombPrimed
+erebus.poisonjet
+erebus.pondskater
+erebus.prayingMantis
+erebus.preservedBlock
+erebus.punchroom
+erebus.rhinoBeetle
+erebus.scorpion
+erebus.scytodes
+erebus.snapper
+erebus.solifuge
+erebus.solifugeSmall
+erebus.sporeBall
+erebus.sporeJet
+erebus.stagBeetle
+erebus.tarantula
+erebus.tarantulababy
+erebus.tarantulaegg
+erebus.tarantulaminiboss
+erebus.thrownSand
+erebus.titanBeetle
+erebus.umberGolem
+erebus.umberGolemIdol
+erebus.velvetWorm
+erebus.wasp
+erebus.waspDagger
+erebus.webSling
+erebus.wheatWeevil
+erebus.wisp
+erebus.woodlouse
+erebus.woodlouseBall
+erebus.workerBee
+erebus.zombieAnt
+erebus.zombieAntSoldier
 etfuturum.end_crystal
 etfuturum.ender_dragon
 etfuturum.endermite
@@ -966,7 +1152,6 @@ etfuturum.lingering_potion
 etfuturum.rabbit
 etfuturum.snow_golem
 etfuturum.tipped_arrow
-etfuturum.villager_zombie
 etfuturum.wooden_armorstand
 evilcraft.broomEntity
 evilcraft.entityBiomeExtract
@@ -1944,6 +2129,55 @@ swampmobs.poisonray
 swampmobs.poisonrayend
 swampmobs.remobra
 swampmobs.venomshot
+thebetweenlands.angler
+thebetweenlands.angryPebble
+thebetweenlands.blArrow
+thebetweenlands.blindCaveFish
+thebetweenlands.bloodSnail
+thebetweenlands.chiromaw
+thebetweenlands.darkDruid
+thebetweenlands.dragonfly
+thebetweenlands.dreadfulMummy
+thebetweenlands.firefly
+thebetweenlands.flammeBall
+thebetweenlands.fortressBoss
+thebetweenlands.fortressBossBlockade
+thebetweenlands.fortressBossProjectile
+thebetweenlands.fortressBossSpawner
+thebetweenlands.fortressBossTeleporter
+thebetweenlands.fortressBossTurret
+thebetweenlands.frog
+thebetweenlands.gasCloud
+thebetweenlands.gecko
+thebetweenlands.itemFrameBL
+thebetweenlands.leech
+thebetweenlands.lurker
+thebetweenlands.mireSnail
+thebetweenlands.mireSnailEgg
+thebetweenlands.mummyArm
+thebetweenlands.peatMummy
+thebetweenlands.pyrad
+thebetweenlands.ropeNode
+thebetweenlands.shallowBreath
+thebetweenlands.shockwaveBlock
+thebetweenlands.siltCrab
+thebetweenlands.sludge
+thebetweenlands.sludgeBall
+thebetweenlands.snailPoisonJet
+thebetweenlands.sporeling
+thebetweenlands.swampHag
+thebetweenlands.swordEnergy
+thebetweenlands.tarBeast
+thebetweenlands.targetDistraction
+thebetweenlands.tarminion
+thebetweenlands.termite
+thebetweenlands.thrownElixir
+thebetweenlands.thrownTarminion
+thebetweenlands.toad
+thebetweenlands.volarkite
+thebetweenlands.volatileSoul
+thebetweenlands.weedwoodBoat
+thebetweenlands.wight
 tumbleweed.Tumbleweed
 vengeanceSpirit
 vindicator
@@ -2004,6 +2238,61 @@ witchery.werevillager
 witchery.wingedmonkey
 witchery.witchhunter
 witchery.wolfman
+wizardry.Arc
+wizardry.Arrow Rain
+wizardry.Black Hole
+wizardry.Blaze Minion
+wizardry.Blizzard
+wizardry.Bubble
+wizardry.Darkness Orb
+wizardry.Dart
+wizardry.Decay
+wizardry.Decoy
+wizardry.Earthquake
+wizardry.Evil Wizard
+wizardry.Falling Grass
+wizardry.Fire Sigil
+wizardry.Firebolt
+wizardry.Firebomb
+wizardry.Force Arrow
+wizardry.Force Orb
+wizardry.Forcefield
+wizardry.Frost Sigil
+wizardry.Hailstorm
+wizardry.Healing Aura
+wizardry.Ice Charge
+wizardry.Ice Giant
+wizardry.Ice Lance
+wizardry.Ice Shard
+wizardry.Ice Spike
+wizardry.Ice Wraith
+wizardry.Lightning Arrow
+wizardry.Lightning Disc
+wizardry.Lightning Hammer
+wizardry.Lightning Pulse
+wizardry.Lightning Sigil
+wizardry.Lightning Wraith
+wizardry.Magic Missile
+wizardry.Magic Slime
+wizardry.Meteor
+wizardry.Phoenix
+wizardry.Poison Bomb
+wizardry.Ring of Fire
+wizardry.Shadow Wraith
+wizardry.Shield
+wizardry.Silverfish Minion
+wizardry.Skeleton Minion
+wizardry.Smoke Bomb
+wizardry.Spark
+wizardry.Spark Bomb
+wizardry.Spider Minion
+wizardry.Spirit Horse
+wizardry.Spirit Wolf
+wizardry.Storm Elemental
+wizardry.Thunderbolt
+wizardry.Tornado
+wizardry.Wizard
+wizardry.Zombie Minion
 ## Spawn Egg IDs: in the form <number id> - <entity string id (which it spawns)> ##
 3 - ClayGolem
 7 - enderzoo.Enderminy
@@ -2020,8 +2309,8 @@ witchery.wolfman
 35 - vindicator
 36 - evoker
 37 - Java_Power
-38 - Chicobo
-39 - ChocoboYellow
+38 - Guardian
+39 - Chicobo
 50 - Creeper
 51 - Skeleton
 52 - Spider
@@ -2036,17 +2325,18 @@ witchery.wolfman
 62 - LavaSlime
 65 - Bat
 66 - Witch
-67 - ChocoboGreen
-68 - ChocoboBlue
-69 - ChocoboWhite
-70 - ChocoboBlack
-71 - ChocoboGold
-72 - ChocoboPink
-73 - ChocoboRed
-74 - ChocoboPurple
-80 - Blizz
-81 - Blitz
-82 - Basalz
+67 - ChocoboYellow
+68 - ChocoboGreen
+69 - ChocoboBlue
+70 - ChocoboWhite
+71 - ChocoboBlack
+72 - ChocoboGold
+73 - ChocoboPink
+74 - ChocoboRed
+75 - ChocoboPurple
+84 - Blizz
+85 - Blitz
+86 - Basalz
 90 - Pig
 91 - Sheep
 92 - Cow

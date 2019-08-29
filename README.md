@@ -18,12 +18,80 @@ Do you consider yourself a Minecraft expert? Then welcome to your greatest chall
 
 UPDATE1: Although I have been MIA for quite a while version 6.0.1 should be reviewed for go-live soon.  Tons of new content and bugfixes to enjoy.
 
-* A note about config version numbers ~ The least significant version number applies to config changes only, where that the middle number increments with mod versions.  Although configs from newer versions of mods won't normally cause issues, there is a small chance so I figured I should mention it just in case.  The most significant digit indicates a major structural change, i.e. a substantial content change.  Mixing configs across major version updates is NOT recommended.  Not all of the earlier releases follow this pattern exactly, but this standard is being maintained now and henceforth.
+* A note about config version numbers - The least significant version number applies to config changes only, where that the middle number increments with mod versions.  Although configs from newer versions of mods won't normally cause issues, there is a small chance so I figured I should mention it just in case.  The most significant digit indicates a major structural change, i.e. a substantial content change.  Mixing configs across major version updates is NOT recommended.  Not all of the earlier releases follow this pattern exactly, but this standard is being maintained now and henceforth.
 
 ** Have an idea or useful tweak, pull requests are welcome and will be reviewed.
 
 ChangeLog
--- Version 6.0.1§r§1§l (Brave New World update)
+-- Version 7.0.1 (There's no turning back update)
+- Config: Removed all references to the Ancient Teleporter Blueprint from AoA in favor of the new manual build/rune block system. Removed from loot tables, chance cubes, recipes, and NEI
+- Config: Added dense calcite ore
+- Config: Set biomes/dimensions for Ruins, Dungeon Pack, Doomlike Dungeons, and Roguelike Dungeons
+- BugFix: Continued attempt to get GT5u Indium and Cadmium to spawn properly (no luck yet)
+- Config: Attempt to fix GT Indium spawning to fix ore vein and get ReactorCraft oregen under control
+- Config: GT ReactorCraft ore vein will now contain; Indium, Cadmium Silver, and Calcite
+- Config: Set Recurrent Complex structure spawning dimension/biome blacklists
+- Config: Set Ruins mod structure spawning dimension/biome blacklists
+- Config: Disabled DragonAPI custom donor capes to prevent log spam (got enough of that already)
+- BugFix: Ruins sky biome templates were in a duplicate folder
+- Config: Added FontFiles folder to root directory to prevent warning and allow for custom font options
+- Config: Added CoFH spawn data for Poison, Sludge, and Tar lakes on Adv Rocketry planets
+- Config: Disable retrogen flags in Nether Ores (unneeded)
+- Config: GT will not generate coal or oil veins on Moon and Hot Dry Rock type planets
+- Config: Disabled GT extra stone type generation in all dims
+- Config: Reduced GeoStrata rock type density
+- Config: Blocked all irrelevant dims from Adv Rocketry laser drilling, still undecided on use in places like between lands, Erebus (which is a cave), Aether, and Atum
+- Config: Hide Artifacts content from NEI
+- Config: Reactivate sulfur/lava ponds and default WorldGeneration for final review process
+- Config: Minor spawning tweaks and misc. cleanup
+- BugFix: Copy Chocolate/building/snowCastles to Chocolate/snowCastles to workaround crash entering the end
+- BugFix: Cleaned up some invalid Entity handlers
+- Config: More InpureProjects NEI filters
+- Config: Removed non-Gregified AE2 tools and hid them from NEI
+- Config: Disabled unused NetherOre types to prevent extra items/blocks from being generated for efficiency
+- Config: Moved some scripted oredict changes into zzzzzcustomconfigs to reduce script size
+- Config: Halved Adv. Rocketry geode size
+- Update: Updated dimension biome lists for mods that use blacklisting to control worldgen of certain features
+- Remove: chococraftplus, it breaks client server syncing when combined with ChromaticCraft and VillageNames
+- Added: ChocoCraft
+- Update: Xaeros Minimap, NotEnoughIDs
+- Remove: Eiramoticons, ChocoCraft
+- Added: ChocoCraftPlus, NotEnoughCats, TUBackport
+- Config: Recipe changes
+- Config: Dimension Guard should block flight in the Atum, Betweenlands, Erebus, and Twilight
+- Remove: HQM
+- Added: Better Questing
+- Config: Enhance InPureCore NEI filtering to make item lookups easier to use/faster
+- Config: Removed ztones terrain eater and totem tool from the game, they are too powerful
+- Update: VillageNames
+- Config: Enhance InPureCore NEI filtering to make item lookups easier to use/faster
+- Config: CraftTweaker script updates
+- Remove: MPUtils, minimal benefits for user
+- Added: BetterFoliage, ChunkAnimator, DynamicSurroundings
+- Update: VillageNames, Xaero's Minimap FP
+- Config: Removed weird brass ingot recipe for ClockworkPhase, while adding recipe for it's stylish brass block
+- Config: Added FTBU admin override for breaking block o' bones
+- Config: Moved aesthetic only mods into a separate folder to indicate their optional nature
+- Update: Carpenter's Blocks, VillageNames, Xaero's Minimap FP
+- Config: Updated oreberry dimension blacklist
+- Update: ChromatiCraft, DragonAPI, Electricraft, MeteorCraft, RotaryCraft, ReactorCraft, GeoStrata, Voidmonster, DynamicSurroundings, HQM, Mekanism, Modular Powersuits, Open Computers, Open Security
+- Added: Better Loading Screen, Dense Ores, Ding
+- Update: ChromatiCraft, DragonAPI, Electricraft, MeteorCraft, RotaryCraft, ReactorCraft, GeoStrata, Voidmonster
+- Removed: Ding - Better Loading Screen replaces this functionality.  BLS was required for 7.x because of an incompatibility with Xaeros Mini Map (sporadic crashes on dimension load)
+- Update: gregtech-5.09.32pre4.jar -> gregtech-5.09.32pre5.jar
+- Added: Builders Guides
+- Update: ModularPowersuits
+- Update: Chunk Pregenerator
+- Config: Fully implement the alchemy catalyst loop for redstone->electrotine->glowstone
+- Config: Disabled Mekanism cardboard box
+- Config: Allow Botania mana to be buffered into CompactMachines
+- Added: HEE+Music+v1.0.zip added for enhanced end music
+- Update: Chunk Pregenerator 
+- Config: Removed all "secondary" PortalGun items.  The gun itself and related accessories are a special loot item (no crafting)
+- Removed: Mo' Bends
+- Added: PortalGun, Compact Machines, XaeroWaypoints, ReBind, Runic Dungeons, OBSAoA
+
+-- Version 6.0.1 (Brave New World update): Unreleased
 - Update: SmoothFont-1.7.10-1.15.3.jar
 - Added: Mo' Bends
 - Update: GTTWeaker (wrong version in use prior)
@@ -34,204 +102,204 @@ ChangeLog
 - Added: Electricraft
 - Update: Chunk Pregenerator
 - Added: Evilcraft, Clockwork Phase, gearswap, kleeslabs, Mowzie's Mobs, Networks Manager, Palimpsest, Pantography, Pam's Whee Flowers, Storage Drawers NEI Fix, Dynamic Tick, Void Monster
-- Config: Moved all spawning of Shadow Metal ore and Darm Gem ore into the Deep Dark
+- Config: Moved all spawning of Shadow Metal ore and Dark Gem ore into the Deep Dark
 - Config: Moved all Mythril spawning to the Twilight or the Feywield
 - Bugfix: Fixed Roguelike Dungeons loot spawning issues based on filename / load order issues.  Also, the loot should be substantially danker
 - Config: Adjust ReactorCraft oregen settings to account for GT ores
 - Bugfix: Adjust JAS spawn tick spacing.  Individual spacing seems to block most (hostile) mob spawns, where as the global does not.  Should save on processing cycles.
-- Added ~ DynamicSurroundings, BetterFoliage
-- Removed ~ JourneyMap
-- Config ~ Turned off BetterFoliage grass and decreased effect view distance from 1000->750
-- Updated ~ DragonAPI, RotaryCraft, ReactorCraft, GeoStrata, and MeteorCraft, Chunk Pregenerator, EternalSingularity, and Steve's Workshop
-- BugFix ~ Added missing DimMapping tag to Lunalis in planetDefs.xml
-- Config ~ Added oceanBlock of lava to planet Vultomas
-- Config ~ Iron shafts added to IE villager crates
-- Config ~ Added Elytras to more chest locations
-- Config ~ Ancient Teleporter Blueprint can now only appear in nether fortresses and strongholds (it's a major progression item so it should be very rare to find)
-- Updated ~ Corrected script naming convention issues (no spaces)
-- Config ~ Massive structure library update for recurrent complex options
-- Config ~ Finalized RTG/CC config
-- Updated ~ GregTech to 5.09.32.pre4
-- Updated ~ New AoA version Whoooo Hoooo!
-- Updated ~ OpenSecurity
-- Config ~ Tweaked RTG/CC biome spawning
-- Config ~ Enabled Named Villages ocean monument spawning, Et Futurum based spawning doesn't work in RTG
-- Config ~ Used script to disable Malisis' Doors fence gates, use Et Futurum
-- Config ~ Less project Red volcanos
-- BugFix ~ Any form or prismarine will work for blood orb recipes
-- Updated ~ Set village/volcano settings in RTG/CC
-- Updated ~ Dungeonpack structures spawnable biome range expanded + some disabled structures re-activated
-- Updated ~ Removing aesthetic mods (except Chunk Animations), too heavy on processor
-- Added ~ GeoStrata
-- Added ~ MeteorCraft
-- Added ~ Tumbleweed
-- Added ~ Better Foliage
-- Added ~ Astikoor (e.g. a horse cart)
-- Removed ~ Baublelicious, I miss understood what this mod does
-- Config ~ Added Elytra to some loot tables
-- BugFix ~ Attempt to get GT zinc dust to play nice with smelting.  This seems to be a GT bug/quirk, as you can smelt the dirty dust, but not the clean
-- Config ~ Started a Magneticraft script
-- Config ~ Calibrate RTG settings
-- Config ~ Tweak oregen for RTG worlds
-- Removed ~ Generator mods, it doesn't seem to respect the frequency settings and is generating some questionable quality structures
-- Config ~ Fix ChromatiCraft client side configs (the got reset)
-- Config ~ Generator Mods walled city can only appear in FeyWeld
-- Added ~ RTG and Climate Control
-- Added ~ Llamas
-- Added ~ Back in Slime
-- BugFix ~ Correct InPureCore NEI config bug for Open Blocks
-- Config ~ Decreased Generatormod structure frequency
-- Config ~ Created loot table for Generatormod
-- Config ~ Added WTF Expedition caves to Feyweld
-- Config ~ Setup itlt (It's the Little Thing) resources
-- Config ~  Added custom Elytra recipe
-- Added ~ Generatormods + structure data for ruined cities
-- Added ~ Magic Cookies
-- Added ~ BackLyrta.  Yup, that's right a 1.7.10 pack with an Elytra (still needs recipe)
-- Config ~ Updated Steves Workshop script to work with Ewy's Workshop
-- Config ~ Update NEI filters to not show every liquids Open Blocks tank recipe
-- Added ~ Chunk Pre-Generator
-- Removed ~ chunkgen
-- Config ~ Removed unneeded MineTweaker script logic in favor of using zzzcustom config to build new oredict entries
-- Added ~ Ewysworkshop and replaced Steve's Workshot
-- Added ~ WTF Expedition to get more interesting cave generation
-- Added ~ SetNow, you will now be able to use a bed to set your spawn point at anytime of the day or night
-- Added ~ Open Sensors
-- Added ~ Nether Portal Fix
-- Added ~ Lore Expansion (for future use)
-- BugFix ~ Corrected the inability to make colored diamond dust for Minecraft Comes Alive
-- Config ~ Moar work moving OreDict refs into launch sequence
+- Added - DynamicSurroundings, BetterFoliage
+- Removed - JourneyMap
+- Config - Turned off BetterFoliage grass and decreased effect view distance from 1000->750
+- Updated - DragonAPI, RotaryCraft, ReactorCraft, GeoStrata, and MeteorCraft, Chunk Pregenerator, EternalSingularity, and Steve's Workshop
+- BugFix - Added missing DimMapping tag to Lunalis in planetDefs.xml
+- Config - Added oceanBlock of lava to planet Vultomas
+- Config - Iron shafts added to IE villager crates
+- Config - Added Elytras to more chest locations
+- Config - Ancient Teleporter Blueprint can now only appear in nether fortresses and strongholds (it's a major progression item so it should be very rare to find)
+- Updated - Corrected script naming convention issues (no spaces)
+- Config - Massive structure library update for recurrent complex options
+- Config - Finalized RTG/CC config
+- Updated - GregTech to 5.09.32.pre4
+- Updated - New AoA version Whoooo Hoooo!
+- Updated - OpenSecurity
+- Config - Tweaked RTG/CC biome spawning
+- Config - Enabled Named Villages ocean monument spawning, Et Futurum based spawning doesn't work in RTG
+- Config - Used script to disable Malisis' Doors fence gates, use Et Futurum
+- Config - Less project Red volcanos
+- BugFix - Any form or prismarine will work for blood orb recipes
+- Updated - Set village/volcano settings in RTG/CC
+- Updated - Dungeonpack structures spawnable biome range expanded + some disabled structures re-activated
+- Updated - Removing aesthetic mods (except Chunk Animations), too heavy on processor
+- Added - GeoStrata
+- Added - MeteorCraft
+- Added - Tumbleweed
+- Added - Better Foliage
+- Added - Astikoor (e.g. a horse cart)
+- Removed - Baublelicious, I miss understood what this mod does
+- Config - Added Elytra to some loot tables
+- BugFix - Attempt to get GT zinc dust to play nice with smelting.  This seems to be a GT bug/quirk, as you can smelt the dirty dust, but not the clean
+- Config - Started a Magneticraft script
+- Config - Calibrate RTG settings
+- Config - Tweak oregen for RTG worlds
+- Removed - Generator mods, it doesn't seem to respect the frequency settings and is generating some questionable quality structures
+- Config - Fix ChromatiCraft client side configs (the got reset)
+- Config - Generator Mods walled city can only appear in FeyWeld
+- Added - RTG and Climate Control
+- Added - Llamas
+- Added - Back in Slime
+- BugFix - Correct InPureCore NEI config bug for Open Blocks
+- Config - Decreased Generatormod structure frequency
+- Config - Created loot table for Generatormod
+- Config - Added WTF Expedition caves to Feyweld
+- Config - Setup itlt (It's the Little Thing) resources
+- Config -  Added custom Elytra recipe
+- Added - Generatormods + structure data for ruined cities
+- Added - Magic Cookies
+- Added - BackLyrta.  Yup, that's right a 1.7.10 pack with an Elytra (still needs recipe)
+- Config - Updated Steves Workshop script to work with Ewy's Workshop
+- Config - Update NEI filters to not show every liquids Open Blocks tank recipe
+- Added - Chunk Pre-Generator
+- Removed - chunkgen
+- Config - Removed unneeded MineTweaker script logic in favor of using zzzcustom config to build new oredict entries
+- Added - Ewysworkshop and replaced Steve's Workshot
+- Added - WTF Expedition to get more interesting cave generation
+- Added - SetNow, you will now be able to use a bed to set your spawn point at anytime of the day or night
+- Added - Open Sensors
+- Added - Nether Portal Fix
+- Added - Lore Expansion (for future use)
+- BugFix - Corrected the inability to make colored diamond dust for Minecraft Comes Alive
+- Config - Moar work moving OreDict refs into launch sequence
 
 -- Version 5.5.0 (The Endless Obsession Update)
-- Config ~ Creating oredict records at init time.  This make the need to rename the Mo' Creatures configs each update obsolete
-- Config ~ Not Enough Wands recipe and config cleanup
-- Config ~ Moving oredict setup to zzzcustom configs to setup equivalents are launch so mod init can take advantage of the records automatically.
-- BugFix ~ Changing HS Rail and Village Names recipes in zzzcustom configs to prevent GregTech from setting up improper recipes
-- BugFix ~ Mo' Creatures oredict recipes are now established in here as this can handle the absence of the mod where the .zs file cannot.  Now users won't need to edit files in their scripts folder every time the pack updates
-- Removed ~ Concrete Mod - Functionality replaced by Village Names.  The powder to concrete conversion works more accurately too.  Concrete Mod powder would freeze above water if it was placed directly above water, as opposed to falling in as expected
-- Added ~ Village Names
-- Added ~ NotEnoughThaumcraftTabs
-- Config ~ Oredicted glazed terracotta
-- Removed ~ Blur mod as it was blurring out the view of the BiblioCraft atlas.  This atlas leverages vanilla mapping and will most likely be supplanting JourneyMap to save on processing overhead and to provide a more engaging experience (you'll actually have to worry about getting lost)
-- Config ~  Added a new recipe for compasses that is cheaper as you progress into GT 
-- Config ~ Added custom chemical X recipe
-- BugFix ~ Script cleanup 
-- Added ~ Not Enough Wands + recipe script
-- Config ~ Guide tweaks
-- Added ~ ForbiddenMagic.zs script
-- Config ~ High-speed rails now require compressed iron
-- Config ~ Better TiCon NEI filters
-- Config ~ Moves some QED recipes to normal crafting to break dependence on getting Enderium
+- Config - Creating oredict records at init time.  This make the need to rename the Mo' Creatures configs each update obsolete
+- Config - Not Enough Wands recipe and config cleanup
+- Config - Moving oredict setup to zzzcustom configs to setup equivalents are launch so mod init can take advantage of the records automatically.
+- BugFix - Changing HS Rail and Village Names recipes in zzzcustom configs to prevent GregTech from setting up improper recipes
+- BugFix - Mo' Creatures oredict recipes are now established in here as this can handle the absence of the mod where the .zs file cannot.  Now users won't need to edit files in their scripts folder every time the pack updates
+- Removed - Concrete Mod - Functionality replaced by Village Names.  The powder to concrete conversion works more accurately too.  Concrete Mod powder would freeze above water if it was placed directly above water, as opposed to falling in as expected
+- Added - Village Names
+- Added - NotEnoughThaumcraftTabs
+- Config - Oredicted glazed terracotta
+- Removed - Blur mod as it was blurring out the view of the BiblioCraft atlas.  This atlas leverages vanilla mapping and will most likely be supplanting JourneyMap to save on processing overhead and to provide a more engaging experience (you'll actually have to worry about getting lost)
+- Config -  Added a new recipe for compasses that is cheaper as you progress into GT 
+- Config - Added custom chemical X recipe
+- BugFix - Script cleanup 
+- Added - Not Enough Wands + recipe script
+- Config - Guide tweaks
+- Added - ForbiddenMagic.zs script
+- Config - High-speed rails now require compressed iron
+- Config - Better TiCon NEI filters
+- Config - Moves some QED recipes to normal crafting to break dependence on getting Enderium
 
 -- Version 5.4.2 
-- Config ~ Added custom chemical X recipe
-- BugFix ~ Script cleanup 
-- Added ~ Not Enough Wands + recipe script
-- Config ~ Guide tweaks
-- Added ~ ForbiddenMagic.zs script
-- Config ~ High-speed rails now require compressed iron
-- Config ~ Better TiCon NEI filters
-- Config ~ Moves some QED recipes to normal crafting to break dependence on getting Enderium
-- Added ~ ArchitectureCraft
-- Added ~ Mutant Creatures (no overworld spawns)
-- Config ~ Added Mutant Creatures to low pressure biome + atmosphere exclusion
-- BugFix ~ Cleaned up old unused living handlers
-- Config ~ Added a few uses for prismarine shards
-- BugFix ~ Re-applied ChromaticCraft client settings lost during version 19 update
-- Config ~ Living wood/rock are now only craftable with Aether logs/stones
-- BugFix ~ Allowed each creature type to make 8 attempts at passive spawning (up from 4) to account for the reduced spawn ticks for said groups
-- Config ~ Added Chocobos to Aether
+- Config - Added custom chemical X recipe
+- BugFix - Script cleanup 
+- Added - Not Enough Wands + recipe script
+- Config - Guide tweaks
+- Added - ForbiddenMagic.zs script
+- Config - High-speed rails now require compressed iron
+- Config - Better TiCon NEI filters
+- Config - Moves some QED recipes to normal crafting to break dependence on getting Enderium
+- Added - ArchitectureCraft
+- Added - Mutant Creatures (no overworld spawns)
+- Config - Added Mutant Creatures to low pressure biome + atmosphere exclusion
+- BugFix - Cleaned up old unused living handlers
+- Config - Added a few uses for prismarine shards
+- BugFix - Re-applied ChromaticCraft client settings lost during version 19 update
+- Config - Living wood/rock are now only craftable with Aether logs/stones
+- BugFix - Allowed each creature type to make 8 attempts at passive spawning (up from 4) to account for the reduced spawn ticks for said groups
+- Config - Added Chocobos to Aether
 
 -- Version 5.4.1 (Return From the Abyss Update)
-- Config ~ Tweaked some Ars Magica 2 and Witchery items to use more diverse materials
-- Config ~ Pure Daisy now has special requirements for living wood/rock.  Check the Technical notes section of the guide for more details on what input blocks are required.
-- Config ~ Updated guide book memory recommendations from 6GB to 8GB for SSP
-- Config ~ Chromaticraft client settings that were lost
-- Config ~ Mob auto-despawn distance is now farther from players (64 blocks) and instant despawn time has been increased to 600 ticks to work better with less frequent spawning ticks.
-- Config ~ Disabled EIO Farming station in favor of the Agricraft one
-- Config ~ Sorted Loot Tables.zs
-- Config ~ Added a rew more items to ChocolateQuest chests
-- Config ~ Cleanup BiomeGroups.cfg
-- Added ~ FairyLights
-- Config ~ Corrected minable gasses list for Adv Rocketry
-- Config ~ Changed list of vacuum tolerant entities and low pressure spawn tables (Adv Rocketry doesn't recognize MoC or CoFH entity names)
-- Config ~ Corrected typos in Adv Rocketry asteroid definitions
-- Config ~ Added custom loot table for Roguelike dungeons to make them worthwhile
-- Config ~ Disabled global spawn tick spacing in favor of a larger creature type interval
-- Config ~ Removed Fancy Block Particles, crash with Malisis doors being broken.
-- Config ~ Allow for chunk purging in Overworld, Nether, and End
-- Config ~ Minor guide changes for increasing performance + renamed a page
-- Added ~ Add Blur, Chunk Animator, Dynamic Surroundings, and NOVA for more Blood Magic goodness
-- BugFix ~ Fluid Converters mod to "oredict" fluids.  This is being used to fix RotaryCraft converting GT lubricant into it's own (which doesn't work for GT machines)
-- Config ~ Default minimal key bindings will now be shipped/applied on clients with no options.txt file found
-- BugFix ~ Removed misplaced customthings folder
-- BugFix ~ Added script to convert Moar Signs oak sign into vanilla sign and back
-- Config ~ More dungeon loot, more chance cube (are you feeling lucky?)
-- Config ~ Gregified Project Red recipes
-- Added ~ Added aesthetic mods: Railcraft Cosmetics, Dynamic Dynamos, and Barkifier
-- Config ~ Added guide hint for twilight key
-- Config ~ Shadow ore spawns only in Twilight and Deep Dark (to avoid retrogen), Dimensional shards can spawn in deep dark
-- Config ~ Deep Dark portal can now be found as rare chest loot
-- BugFix ~ Fixed saw->treated stick recipes to work with middle column of crafting grid
-- Config ~ Added some Recurrent Complex structures
-- Config ~ Updated mob spawn tables to add more mobs to Aether and Twilight
-- Config ~ more uses for shadow metal in Blood Magic and Lycanites
-- Config ~  More chocolateQuest chest loot 
-- Config ~  Unversioned MineMenu data folder (so I stop overwriting your custom menu entries)
-- Config ~  Created loot tables for ChocolateQuest dungeons
-- Config ~  Added oregen for shadow metal
-- Config ~  Corrected oregen for magma blocks in nether/land of darkness
-- Config ~  Spawn table updates for Twilight and Aether to fill in the gaps after the removal of dungeon mobs
+- Config - Tweaked some Ars Magica 2 and Witchery items to use more diverse materials
+- Config - Pure Daisy now has special requirements for living wood/rock.  Check the Technical notes section of the guide for more details on what input blocks are required.
+- Config - Updated guide book memory recommendations from 6GB to 8GB for SSP
+- Config - Chromaticraft client settings that were lost
+- Config - Mob auto-despawn distance is now farther from players (64 blocks) and instant despawn time has been increased to 600 ticks to work better with less frequent spawning ticks.
+- Config - Disabled EIO Farming station in favor of the Agricraft one
+- Config - Sorted Loot Tables.zs
+- Config - Added a rew more items to ChocolateQuest chests
+- Config - Cleanup BiomeGroups.cfg
+- Added - FairyLights
+- Config - Corrected minable gasses list for Adv Rocketry
+- Config - Changed list of vacuum tolerant entities and low pressure spawn tables (Adv Rocketry doesn't recognize MoC or CoFH entity names)
+- Config - Corrected typos in Adv Rocketry asteroid definitions
+- Config - Added custom loot table for Roguelike dungeons to make them worthwhile
+- Config - Disabled global spawn tick spacing in favor of a larger creature type interval
+- Config - Removed Fancy Block Particles, crash with Malisis doors being broken.
+- Config - Allow for chunk purging in Overworld, Nether, and End
+- Config - Minor guide changes for increasing performance + renamed a page
+- Added - Add Blur, Chunk Animator, Dynamic Surroundings, and NOVA for more Blood Magic goodness
+- BugFix - Fluid Converters mod to "oredict" fluids.  This is being used to fix RotaryCraft converting GT lubricant into it's own (which doesn't work for GT machines)
+- Config - Default minimal key bindings will now be shipped/applied on clients with no options.txt file found
+- BugFix - Removed misplaced customthings folder
+- BugFix - Added script to convert Moar Signs oak sign into vanilla sign and back
+- Config - More dungeon loot, more chance cube (are you feeling lucky?)
+- Config - Gregified Project Red recipes
+- Added - Added aesthetic mods: Railcraft Cosmetics, Dynamic Dynamos, and Barkifier
+- Config - Added guide hint for twilight key
+- Config - Shadow ore spawns only in Twilight and Deep Dark (to avoid retrogen), Dimensional shards can spawn in deep dark
+- Config - Deep Dark portal can now be found as rare chest loot
+- BugFix - Fixed saw->treated stick recipes to work with middle column of crafting grid
+- Config - Added some Recurrent Complex structures
+- Config - Updated mob spawn tables to add more mobs to Aether and Twilight
+- Config - more uses for shadow metal in Blood Magic and Lycanites
+- Config -  More chocolateQuest chest loot 
+- Config -  Unversioned MineMenu data folder (so I stop overwriting your custom menu entries)
+- Config -  Created loot tables for ChocolateQuest dungeons
+- Config -  Added oregen for shadow metal
+- Config -  Corrected oregen for magma blocks in nether/land of darkness
+- Config -  Spawn table updates for Twilight and Aether to fill in the gaps after the removal of dungeon mobs
 
 -- Version 5.4.0 
-- Added ~ Chocolate Quest
-- Added ~ BigDoors mod, this allows for a 3 wide double door
-- Config ~ Mod updates, including Reika's mods
-- Config ~ Minor change to auto-generated JAS files for the removal of Dungeon Mobs
+- Added - Chocolate Quest
+- Added - BigDoors mod, this allows for a 3 wide double door
+- Config - Mod updates, including Reika's mods
+- Config - Minor change to auto-generated JAS files for the removal of Dungeon Mobs
 
 -- Version 5.3.2
 - Removed dungeon mobs due to balance issues
 
 -- Version 5.3.1 
-- BugFix ~ Ensure no trailing spaceson any lines in dimlets.cfg.  This seems to cause crashes for some people although I cannot reproduce it.  There must be an additional factor involved in triggering this issue.
+- BugFix - Ensure no trailing spaceson any lines in dimlets.cfg.  This seems to cause crashes for some people although I cannot reproduce it.  There must be an additional factor involved in triggering this issue.
 
 -- Version 5.3.0 (1.7.10 Shall Live Forever Release) 
-- Updated ~ Dynamic Sword Skills updated 
-- Updated ~ CustomNPCs updated 
-- Updated ~ Eiramoticons updated 
-- Updated ~ LibVulpes updated 
-- Updated ~ Open Computer updated 
-- Updated ~ Open Security updated 
-- Updated ~ Spice of Life updated
+- Updated - Dynamic Sword Skills updated 
+- Updated - CustomNPCs updated 
+- Updated - Eiramoticons updated 
+- Updated - LibVulpes updated 
+- Updated - Open Computer updated 
+- Updated - Open Security updated 
+- Updated - Spice of Life updated
 
 -- Version 5.2.1 
-- Config ~ Railcraft anchors give 6 hours of chunkloading per pearl.  Players already have FTBUtil chunkloading, and pearls are pretty abundant via AoA
-- Config ~ Added iron/steel shafts (wind/watermill component, not RoC) to Armadron order list (periodic)
+- Config - Railcraft anchors give 6 hours of chunkloading per pearl.  Players already have FTBUtil chunkloading, and pearls are pretty abundant via AoA
+- Config - Added iron/steel shafts (wind/watermill component, not RoC) to Armadron order list (periodic)
 
 -- Version 5.2.0
-- BugFix ~ Fix 128 sub-biome bug causing dense forest to spawn on the moon
-- Added ~ Witching Gadgets
-- Added ~ Traveler's Gear
+- BugFix - Fix 128 sub-biome bug causing dense forest to spawn on the moon
+- Added - Witching Gadgets
+- Added - Traveler's Gear
 
 -- Version 5.1.2
-- Bugfix ~ Added GT mithril ore to ore:oreMithril so that it will get proper machine processing recipes at load
-- Added ~ Gregtania 
-- Config ~ A shapeless recipe has been added to allow for the direct conversion of an ESM ghast souls vial, into a vanilla ghast souls vial.  This is a one way, direct conversion that can be performwed in the players inventory
-- Config ~ Reduced Chromaticraft structure difficulty from 3 -> 2 to reduce tedium
+- Bugfix - Added GT mithril ore to ore:oreMithril so that it will get proper machine processing recipes at load
+- Added - Gregtania 
+- Config - A shapeless recipe has been added to allow for the direct conversion of an ESM ghast souls vial, into a vanilla ghast souls vial.  This is a one way, direct conversion that can be performwed in the players inventory
+- Config - Reduced Chromaticraft structure difficulty from 3 -> 2 to reduce tedium
 
--- Version ~ 5.1.1
-- BugFix ~ Modular Power Suits mode change was bound to mouse wheel, conflicting with Chromaticraft
-- Config ~ Added more flowers to the Forestry apiculture.cfg 
-- Config ~ Guide book update with AoA dimension access mechanics and descriptions
-- Config ~ Added some extra "standard" ores, one for each AR controlled planet
-- BugFix ~ CoFH worldgen tweaks Config.  Turned off some of the older retrogen triggers in CoFH (they are from over a year ago, and the CoFH files were renamed for consistency).  Added some extra ore generation to AR planets to make them more distinct and valuable.
-- BugFix ~ Re-working GT worldgen file to deal with infinite recursion generating AoA dimensions
+-- Version - 5.1.1
+- BugFix - Modular Power Suits mode change was bound to mouse wheel, conflicting with Chromaticraft
+- Config - Added more flowers to the Forestry apiculture.cfg 
+- Config - Guide book update with AoA dimension access mechanics and descriptions
+- Config - Added some extra "standard" ores, one for each AR controlled planet
+- BugFix - CoFH worldgen tweaks Config.  Turned off some of the older retrogen triggers in CoFH (they are from over a year ago, and the CoFH files were renamed for consistency).  Added some extra ore generation to AR planets to make them more distinct and valuable.
+- BugFix - Re-working GT worldgen file to deal with infinite recursion generating AoA dimensions
 
 -- Version 5.1.0 (The Greeeeegggg Strikes Back Update)
-- Config ~ Turned on connected inner edge of chisel CTM textures
-- Config ~ Allow chiseling back to vanilla leaves
-- Bugfix ~ Renamed all CoFH oregen files.  A previous revision added a -Ores suffix to all files.  This caused CoFH to recreate a default vanilla ore file (with retrogen on!).  This is obviously bad, so the suffix was dropped from all files
-- Bugfix ~ The TE induction smelter can now create brass
+- Config - Turned on connected inner edge of chisel CTM textures
+- Config - Allow chiseling back to vanilla leaves
+- Bugfix - Renamed all CoFH oregen files.  A previous revision added a -Ores suffix to all files.  This caused CoFH to recreate a default vanilla ore file (with retrogen on!).  This is obviously bad, so the suffix was dropped from all files
+- Bugfix - The TE induction smelter can now create brass
 - ExtraCells is now thoroughly Greggy
 - Dimensional shard ore will spawn on AR control worlds (but not vacuum worlds or Feyweald)
 - Fixed naming convention of some CoFH files
@@ -414,7 +482,7 @@ ChangeLog
 - Removing ElecriCraft for balance reasons (Seriously, a 60 Trillion RF capacity battery?!)
 - RotaryCraft config tweaks
 - Removed ReactorCraft-Ores.json file, it has literally no effect (sorry, no retrogen.  The built in one hangs on world load)
-- Another slight boost in info fragment weights (there are like ~250 to find, they need to be a common chest drop)
+- Another slight boost in info fragment weights (there are like -250 to find, they need to be a common chest drop)
 - Added a CoFH file for TiCon cobalt to retrogen it
 - Lava is not allowed as a fuel for the smeltery.  This is a preventative action as the smeltery is still disabled at this time, but it will probably be allowed in a future update
 - Advent of Ascension updated to 2.5

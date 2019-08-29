@@ -224,55 +224,6 @@
 	- Max Level: 4
 
 
-53
-	- Name: enchantment.chroma.airminer
-	- Weight: 0
-	- Min Level: 1
-	- Max Level: 1
-
-
-54
-	- Name: enchantment.chroma.enderlock
-	- Weight: 0
-	- Min Level: 1
-	- Max Level: 1
-
-
-55
-	- Name: enchantment.chroma.harvestlevel
-	- Weight: 0
-	- Min Level: 1
-	- Max Level: 2
-
-
-56
-	- Name: enchantment.chroma.fastsink
-	- Weight: 0
-	- Min Level: 1
-	- Max Level: 1
-
-
-57
-	- Name: enchantment.chroma.rareloot
-	- Weight: 0
-	- Min Level: 1
-	- Max Level: 4
-
-
-58
-	- Name: enchantment.chroma.userepair
-	- Weight: 0
-	- Min Level: 1
-	- Max Level: 3
-
-
-60
-	- Name: enchantment.chroma.phasing
-	- Weight: 0
-	- Min Level: 1
-	- Max Level: 4
-
-
 61
 	- Name: enchantment.lootBonusFishing
 	- Weight: 2
@@ -420,81 +371,88 @@
 	- Max Level: 1
 
 
-90
-	- Name: enchantment.chroma.weaponaoe
-	- Weight: 0
-	- Min Level: 1
-	- Max Level: 5
-
-
-91
+85
 	- Name: enchantment.chroma.aggromask
 	- Weight: 0
 	- Min Level: 1
 	- Max Level: 2
 
 
-92
+86
+	- Name: enchantment.chroma.airminer
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 1
+
+
+87
+	- Name: enchantment.chroma.phasing
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 4
+
+
+88
 	- Name: enchantment.chroma.bosskill
 	- Weight: 0
 	- Min Level: 1
 	- Max Level: 4
 
 
-93
-	- Name: enchantment.wg.backstab
+89
+	- Name: enchantment.chroma.enderlock
 	- Weight: 0
 	- Min Level: 1
-	- Max Level: 3
+	- Max Level: 1
 
 
-94
-	- Name: enchantment.wg.gemstoneBrittle
-	- Weight: 1
-	- Min Level: 1
-	- Max Level: 3
-
-
-95
-	- Name: enchantment.wg.invisibleGear
+90
+	- Name: enchantment.chroma.harvestlevel
 	- Weight: 0
 	- Min Level: 1
 	- Max Level: 2
 
 
-96
-	- Name: enchantment.wg.gemstonePotency
-	- Weight: 4
-	- Min Level: 1
-	- Max Level: 3
-
-
-97
-	- Name: enchantment.wg.rideProtect
+91
+	- Name: enchantment.chroma.autocollect
 	- Weight: 0
 	- Min Level: 1
 	- Max Level: 1
 
 
-98
-	- Name: enchantment.wg.stealth
+92
+	- Name: enchantment.chroma.fastsink
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 1
+
+
+93
+	- Name: enchantment.chroma.rareloot
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 4
+
+
+94
+	- Name: enchantment.chroma.userepair
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 3
+
+
+95
+	- Name: enchantment.chroma.weaponaoe
 	- Weight: 0
 	- Min Level: 1
 	- Max Level: 5
 
 
-99
-	- Name: enchantment.wg.unveiling
-	- Weight: 0
-	- Min Level: 1
-	- Max Level: 1
-
-
 100
-	- Name: enchantment.chroma.autocollect
-	- Weight: 0
+	- Name: simplyjetpacks.enchantment.fuelEfficiency
+	- Weight: 3
 	- Min Level: 1
-	- Max Level: 1
+	- Max Level: 4
 
 
 101
@@ -519,57 +477,99 @@
 
 
 104
+	- Name: enchantment.intervention
+	- Weight: 1
+	- Min Level: 1
+	- Max Level: 1
+
+
+105
 	- Name: enchantment.overpower
 	- Weight: 1
 	- Min Level: 1
 	- Max Level: 2
 
 
-105
+106
 	- Name: enchantment.recharge
 	- Weight: 1
 	- Min Level: 1
 	- Max Level: 2
 
 
-106
+107
 	- Name: enchantment.sever
 	- Weight: 1
 	- Min Level: 1
 	- Max Level: 3
 
 
-107
+108
 	- Name: enchantment.shell
 	- Weight: 1
 	- Min Level: 1
 	- Max Level: 3
 
 
-108
+109
 	- Name: enchantment.slice
 	- Weight: 1
 	- Min Level: 1
 	- Max Level: 3
 
 
-109
+110
 	- Name: enchantment.windfury
 	- Weight: 1
 	- Min Level: 1
 	- Max Level: 3
 
 
-110
-	- Name: simplyjetpacks.enchantment.fuelEfficiency
-	- Weight: 3
-	- Min Level: 1
-	- Max Level: 4
-
-
 111
-	- Name: enchantment.intervention
+	- Name: enchantment.wg.backstab
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 3
+
+
+112
+	- Name: enchantment.wg.gemstoneBrittle
 	- Weight: 1
+	- Min Level: 1
+	- Max Level: 3
+
+
+113
+	- Name: enchantment.wg.invisibleGear
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 2
+
+
+114
+	- Name: enchantment.wg.gemstonePotency
+	- Weight: 4
+	- Min Level: 1
+	- Max Level: 3
+
+
+115
+	- Name: enchantment.wg.rideProtect
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 1
+
+
+116
+	- Name: enchantment.wg.stealth
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 5
+
+
+117
+	- Name: enchantment.wg.unveiling
+	- Weight: 0
 	- Min Level: 1
 	- Max Level: 1
 
@@ -796,6 +796,34 @@
 	- Weight: 1
 	- Min Level: 1
 	- Max Level: 1
+
+
+199
+	- Name: enchantment.magic_sword
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 4
+
+
+200
+	- Name: enchantment.magic_bow
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 4
+
+
+201
+	- Name: enchantment.flaming_weapon
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 4
+
+
+202
+	- Name: enchantment.freezing_weapon
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 4
 
 
 211

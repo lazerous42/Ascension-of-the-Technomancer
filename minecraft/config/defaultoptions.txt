@@ -11,11 +11,11 @@ anaglyph3d:false
 advancedOpengl:true
 maxFps:260
 fboEnable:true
-difficulty:2
+difficulty:3
 fancyGraphics:true
 ao:2
 clouds:false
-resourcePacks:["BDcraft Sound and Music Pack.zip"]
+resourcePacks:
 lastServer:
 lang:en_US
 chatVisibility:0

@@ -1,0 +1,29 @@
+{
+    "Cadmium": {
+        "enabled": "false",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "ReactorCraft:reactorcraft_block_ore",
+            "metadata": 2
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 3,
+        "numClusters": 8,
+        "minHeight": 50,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    }
+}

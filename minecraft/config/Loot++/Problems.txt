@@ -1,0 +1,3 @@
+The following problems were encountered while loading the config files:
+entity_drops.cfg 'removing' #8: The following block or item doesn't seem to exist: 'TwilightForestPortalCatalyst:TwilightForestPortalCatalyst'.
+

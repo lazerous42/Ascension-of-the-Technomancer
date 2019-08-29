@@ -1480,6 +1480,104 @@ Forestry:waxCapsuleJuice
 	- Food Info Unknown!
 
 
+GrimoireOfGaia:item.GrimoireOfGaia.FoodBerryCure
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.0
+
+
+GrimoireOfGaia:item.GrimoireOfGaia.FoodBerryFire
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.0
+
+
+GrimoireOfGaia:item.GrimoireOfGaia.FoodBerryHealth
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.0
+
+
+GrimoireOfGaia:item.GrimoireOfGaia.FoodBerryIce
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.0
+
+
+GrimoireOfGaia:item.GrimoireOfGaia.FoodCoalfish
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.4
+
+
+GrimoireOfGaia:item.GrimoireOfGaia.FoodDriedNetherWart
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.4
+
+
+GrimoireOfGaia:item.GrimoireOfGaia.FoodMandrake
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 0
+	- Saturation Amount: 0.0
+
+
+GrimoireOfGaia:item.GrimoireOfGaia.FoodMeat
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+GrimoireOfGaia:item.GrimoireOfGaia.FoodMeatMorsel
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.8
+
+
+GrimoireOfGaia:item.GrimoireOfGaia.FoodPieBerry
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 0.2
+
+
+GrimoireOfGaia:item.GrimoireOfGaia.FoodPieMandrake
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 12
+	- Saturation Amount: 0.8
+
+
+GrimoireOfGaia:item.GrimoireOfGaia.FoodPieMeat
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 16
+	- Saturation Amount: 0.8
+
+
+GrimoireOfGaia:item.GrimoireOfGaia.FoodSmallAppleGold
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.4
+
+
+GrimoireOfGaia:item.GrimoireOfGaia.FoodWitherMeat
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
 HardcoreEnderExpansion:infestation_remedy
 	- Megadata: 0
 	- Food or Drink? Drink
@@ -3202,6 +3300,13 @@ arsmagica2:standardManaPotion
 	- Food Info Unknown!
 
 
+atum:item.date
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 1.5
+
+
 chococraft:Cooked_Chocobo_Leg
 	- Megadata: 0
 	- Food or Drink? Food
@@ -3384,6 +3489,287 @@ desertmobs:joustmeatraw
 	- Food or Drink? Food
 	- Food Amount: 2
 	- Saturation Amount: 0.5
+
+
+erebus:bambucketAntiVenom
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+erebus:bambucketBeetleJuice
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+erebus:bambucketMilk
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+erebus:bottleAntiVenom
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+erebus:bucketAntiVenom
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+erebus:bucketBeetleJuice
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+erebus:cabbageSeeds
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.1
+
+
+erebus:food
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+erebus:food
+	- Megadata: 1
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+erebus:food
+	- Megadata: 2
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+erebus:food
+	- Megadata: 3
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+erebus:food
+	- Megadata: 4
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+erebus:food
+	- Megadata: 5
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+erebus:food
+	- Megadata: 6
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+erebus:food
+	- Megadata: 7
+	- Food or Drink? Drink
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+erebus:food
+	- Megadata: 8
+	- Food or Drink? Drink
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+erebus:food
+	- Megadata: 9
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+erebus:food
+	- Megadata: 10
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+erebus:food
+	- Megadata: 11
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+erebus:food
+	- Megadata: 12
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+erebus:food
+	- Megadata: 13
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+erebus:food
+	- Megadata: 14
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+erebus:food
+	- Megadata: 15
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+erebus:food
+	- Megadata: 16
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+erebus:food
+	- Megadata: 17
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+erebus:food
+	- Megadata: 18
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.1
+
+
+erebus:heartBerries
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 0
+	- Saturation Amount: 0.0
+
+
+erebus:heart_stag_cooked
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 20
+	- Saturation Amount: 0.5
+
+
+erebus:heart_stag_raw
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 0
+	- Saturation Amount: 0.0
+
+
+erebus:lifeBlood
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 0
+	- Saturation Amount: 0.0
+
+
+erebus:smoothie
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 0.4
+
+
+erebus:smoothie
+	- Megadata: 1
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 0.4
+
+
+erebus:smoothie
+	- Megadata: 2
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 0.4
+
+
+erebus:smoothie
+	- Megadata: 3
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 0.4
+
+
+erebus:smoothie
+	- Megadata: 4
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 0.4
+
+
+erebus:smoothie
+	- Megadata: 5
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 0.4
+
+
+erebus:smoothie
+	- Megadata: 6
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 0.4
+
+
+erebus:smoothie
+	- Megadata: 7
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 0.4
+
+
+erebus:smoothie
+	- Megadata: 8
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 0.4
+
+
+erebus:smoothie
+	- Megadata: 9
+	- Food or Drink? Drink
+	- Food Amount: 5
+	- Saturation Amount: 0.4
+
+
+erebus:turnips
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.6
 
 
 etfuturum:beetroot
@@ -10227,6 +10613,683 @@ swampmobs:mosspie
 	- Food or Drink? Food
 	- Food Amount: 6
 	- Saturation Amount: 0.7
+
+
+thebetweenlands:anglerMeatCooked
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.8
+
+
+thebetweenlands:anglerMeatRaw
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.4
+
+
+thebetweenlands:blackHatMushroomItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+thebetweenlands:bulbCappedMushroomItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.6
+
+
+thebetweenlands:candyBlue
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 1.0
+
+
+thebetweenlands:candyRed
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 1.0
+
+
+thebetweenlands:candyYellow
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 1.0
+
+
+thebetweenlands:chiromawWing
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 0
+	- Saturation Amount: 0.0
+
+
+thebetweenlands:crabstick
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.9
+
+
+thebetweenlands:elixir
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 1
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 2
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 3
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 4
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 5
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 6
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 7
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 8
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 9
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 10
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 11
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 12
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 13
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 14
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 15
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 16
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 17
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 18
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 19
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 20
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 21
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 22
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 23
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 24
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 25
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 26
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 27
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 28
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 29
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 30
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 31
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 32
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 33
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 34
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 35
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 36
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 37
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 38
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 39
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 40
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 41
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 42
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 43
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 44
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 45
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 46
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 47
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 48
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 49
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 50
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 51
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 52
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 53
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 54
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 55
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 56
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 57
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 58
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 59
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 60
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 61
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 62
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 63
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 64
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 65
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 66
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 67
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 68
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:elixir
+	- Megadata: 69
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:flatheadMushroomItem
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 1
+	- Saturation Amount: 0.6
+
+
+thebetweenlands:forbiddenFig
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 20
+	- Saturation Amount: 5.0
+
+
+thebetweenlands:friedSwampKelp
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 5
+	- Saturation Amount: 0.6
+
+
+thebetweenlands:frogLegsCooked
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.8
+
+
+thebetweenlands:frogLegsRaw
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.4
+
+
+thebetweenlands:gertsDonut
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 13.2
+
+
+thebetweenlands:jamDonut
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 0.6
+
+
+thebetweenlands:krakenCalamari
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 14
+	- Saturation Amount: 1.2
+
+
+thebetweenlands:krakenTentacle
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.9
+
+
+thebetweenlands:marshmallow
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 10.0
+
+
+thebetweenlands:marshmallowPink
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 10.0
+
+
+thebetweenlands:middleFruit
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.6
+
+
+thebetweenlands:middleFruitJello
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 1.0
+
+
+thebetweenlands:mincePie
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.85
+
+
+thebetweenlands:nettleSoup
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 10
+	- Saturation Amount: 8.4
+
+
+thebetweenlands:reedDonut
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.6
+
+
+thebetweenlands:rottenFood
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: -1
+	- Saturation Amount: -1.0
+
+
+thebetweenlands:sapBall
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 0
+	- Saturation Amount: 0.0
+
+
+thebetweenlands:sapJello
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 15.0
+
+
+thebetweenlands:siltCrabClaw
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 2
+	- Saturation Amount: 0.6
+
+
+thebetweenlands:sludgeJello
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 0.9
+
+
+thebetweenlands:snailFleshCooked
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 6
+	- Saturation Amount: 0.9
+
+
+thebetweenlands:snailFleshRaw
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 3
+	- Saturation Amount: 0.4
+
+
+thebetweenlands:taintedPotion
+	- Megadata: 0
+	- Food or Drink? Drink
+	- Food Info Unknown!
+
+
+thebetweenlands:unknownGeneric
+	- Megadata: 11
+	- Food or Drink? Food
+	- Food Info Unknown!
+
+
+thebetweenlands:weepingBluePetal
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 4
+	- Saturation Amount: 1.2
+
+
+thebetweenlands:wightHeart
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 0
+	- Saturation Amount: 0.0
+
+
+thebetweenlands:yellowDottedFungus
+	- Megadata: 0
+	- Food or Drink? Food
+	- Food Amount: 8
+	- Saturation Amount: 0.6
 
 
 witchery:brewbottle

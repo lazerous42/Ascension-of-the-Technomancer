@@ -1,0 +1,29 @@
+{
+    "Osmium-Turbain": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "Mekanism:OreBlock",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 5,
+        "numClusters": 3,
+        "minHeight": 2,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            109
+        ]
+    }
+}

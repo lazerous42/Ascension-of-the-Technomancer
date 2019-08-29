@@ -1,16 +1,40 @@
 ## Title: custom_nei_filters
-## Author: denoflionsx
+## Author: Lazerous42
 ## Version: 1.0
 ## Bootstrap: Bootstrap.js
-## Saved Variables: vanilla_enabled, ThermalExpansion_enabled, Mekanism_enabled, ForgeMicroblock_enabled, ExtraUtilities_enabled, BuildCraft_enabled, Bibliocraft_enabled, AE2_enabled, Tcon_enabled, MFR_enabled
-vanilla.js
-ThermalExpansion.js
-Mekanism.js
-ForgeMicroblock.js
-ExtraUtilities.js
-BuildCraft.js
-Bibliocraft.js
+## Saved Variables: AdvancedRocketry_enabled, AdventOfAscension_enabled, AgriCraft_enabled, AppliedEnergistics2_enabled, ArsMagica2_enabled, Artifacts_enabled, BiblioCraft_enabled, BiomesOPlenty_enabled, Botania_enabled, BuildCraft_enabled, CarpentersBlocks_enabled, Chisel_enabled, ExtraCells_enabled, ExtraUtilities_enabled, 
+## Saved Variables: Evilcraft_enabled, HarvestCraft_enabled, Forestry_enabled, Genetics_enabled, IndustrialCraft2_enabled, ForgeMicroblock_enabled, MalisisDoors_enabled, Mantle_enabled, Mekanism_enabled, MineFactoryReloaded_enabled, Natura_enabled, OpenBlocks_enabled, RecurrentComplex_enabled, StorageDrawers_enabled, ThermalExpansion_enabled, 
+## Saved Variables: TinkersConstruct_enabled, TwilightForest_enabled, Vanilla_enabled, WitchingGadgets_enabled
+AdvancedRocketry.js
+AdventOfAscension.js
+AgriCraft.js
 AppliedEnergistics2.js
-Tcon.js
-MFR.js
+ArsMagica2.js
+Artifacts.js
+BiblioCraft.js
+BiomesOPlenty.js
+Botania.js
+BuildCraft.js
+CarpentersBlocks.js
+Chisel.js
+ExtraCells.js
+ExtraUtilities.js
+Evilcraft.js
+Forestry.js
+ForgeMicroblock.js
+Genetics.js
+HarvestCraft.js
+IndustrialCraft2.js
+MalisisDoors.js
+Mantle.js
+Mekanism.js
+MineFactoryReloaded.js
+Natura.js
 OpenBlocks.js
+RecurrentComplex.js
+StorageDrawers.js
+ThermalExpansion.js
+TinkersConstruct.js
+TwilightForest.js
+Vanilla.js
+WitchingGadgets.js

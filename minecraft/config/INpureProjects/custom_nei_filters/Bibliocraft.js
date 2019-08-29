@@ -1,3 +1,3 @@
-if (FML.isModLoaded("BiblioCraft") && Bibliocraft_enabled) {
+if (FML.isModLoaded("BiblioCraft") && BiblioCraft_enabled) {
     NEI.override("BiblioCraft:*", [0]);
 }

@@ -1,0 +1,56 @@
+{
+    "Tungsten-Vultomas": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "Magneticraft:tungsten_ore",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 5,
+        "numClusters": 3,
+        "minHeight": 2,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            116
+        ]
+    },
+    "Zinc": {
+        "enabled": "true",
+        "template": "normal",
+        "generator": "cluster",
+        "block": [{
+            "name": "Magneticraft:zinc_ore",
+            "metadata": 1
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 5,
+        "numClusters": 5,
+        "meanHeight": 70,
+        "maxVariance": 35,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": [
+
+        ]
+    }
+}

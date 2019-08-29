@@ -1,16 +1,81 @@
 {
-	"TemporalOre": {
-		"template": "uniform",
-		"block": "clockworkphase:oreTemporal",
-		"material": "minecraft:stone",
-		"clusterSize": 4,
-		"numClusters": 8,
-		"minHeight": 2,
-		"maxHeight": 64,
-		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [5,102,106,107,109,113,115,116,121]
-	}
+    "SkystoneGeode-Temporal": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "geode",
+        "block": [{
+                "name": "minecraft:obsidian",
+                "metadata": 0,
+                "weight": 20
+            },
+            {
+                "name": "minecraft:stone",
+                "metadata": 0,
+                "weight": 78
+            },
+            {
+                "name": "clockworkphase:oreTemporal",
+                "metadata": 0,
+                "weight": 2
+            }
+        ],
+        "crust": [{
+            "name": "minecraft:obsidian",
+            "metadata": 0
+        }],
+        "material": [{
+                "name": "chisel:diorite",
+                "metadata": 0
+            },
+            {
+                "name": "chisel:granite",
+                "metadata": 0
+            },
+            {
+                "name": "chisel:limestone",
+                "metadata": 0
+            },
+            {
+                "name": "chisel:marble",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:stone",
+                "metadata": 0
+            }
+        ],
+        "hollow": "true",
+        "filler": [{
+                "name": "minecraft:stone",
+                "metadata": 0,
+                "weight": 96
+            },
+            {
+                "name": "clockworkphase:oreTemporal",
+                "metadata": 0,
+                "weight": 4
+            }
+        ],
+        "chunkChance": 36,
+        "numClusters": 1,
+        "minHeight": 10,
+        "maxHeight": 80,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            9,
+            102,
+            103,
+            107,
+            109,
+            112,
+            114,
+            116,
+            120
+        ]
+    }
 }

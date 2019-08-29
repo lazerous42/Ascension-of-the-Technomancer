@@ -1,0 +1,92 @@
+{
+    "Fossil": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "sparse-cluster",
+        "block": [{
+            "name": "fossil:fossil",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 6,
+        "numClusters": 10,
+        "minHeight": 2,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            103,107,109,112,114,120
+        ]
+    },
+    "Permafrost": {
+        "enabled": "true",
+        "template": "normal",
+        "generator": "cluster",
+        "block": [{
+            "name": "fossil:permafrost",
+            "metadata": 0
+        }],
+        "material": [{
+                "name": "minecraft:dirt",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:gravel",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:sand",
+                "metadata": 0
+            }
+        ],
+        "chunkChance": 1,
+        "clusterSize": 4,
+        "numClusters": 10,
+        "meanHeight": 70,
+        "maxVariance": 10,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [{
+            "type": "dictionary",
+            "entry": "COLD"
+        }],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            103,107,109,112,114,120
+        ]
+    },
+    "Tar": {
+        "enabled": "true",
+        "template": "surface",
+        "generator": "lake",
+        "block": [{
+            "name": "fossil:tar",
+            "metadata": 0
+        }],
+        "useMaterial": "false",
+        "material": [
+
+        ],
+        "outlineBlock": [],
+        "chunkChance": 32,
+        "numClusters": 1,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [{
+            "type": "dictionary",
+            "entry": ["JUNGLE", "SAVANNA", "SWAMP"]
+        }],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            103,107,109,112,114,120
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "Heatsand": {
+        "enabled": "true",
+        "template": "cave",
+        "generator": "plate",
+        "block": [{
+            "name": "Natura:heatsand",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:netherrack",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 18,
+        "sizeVariance": 4,
+        "height": 1,
+        "numClusters": 1,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [{
+            "type": "dictionary",
+            "entry": "NETHER"
+        }],
+        "dimensionRestriction": "none",
+        "dimensions": [
+
+        ]
+    }
+}

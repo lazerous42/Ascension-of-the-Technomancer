@@ -1,0 +1,117 @@
+{
+    "ResonatingCrystal": {
+        "enabled": "true",
+        "template": "decoration",
+        "generator": "decoration",
+        "genSurface": [{
+            "name": "advancedRocketry:blockHotTurf",
+            "metadata": 0
+        }],
+        "block": [{
+            "name": "deepresonance:resonatingCrystalBlock",
+            "metadata": 0
+        }],
+        "material": [
+
+        ],
+        "genSky": "false",
+        "chunkChance": 16,
+        "clusterSize": 1,
+        "numClusters": 1,
+        "stackHeight": 1,
+        "minHeight": 70,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            106,
+            111,
+            115
+        ]
+    },
+    "ResonatingCrystalSubsurface": {
+        "enabled": "true",
+        "template": "cave",
+        "generator": "decoration",
+        "genSurface": [{
+                "name": "chisel:diorite",
+                "metadata": 0
+            },
+            {
+                "name": "chisel:granite",
+                "metadata": 0
+            },
+            {
+                "name": "chisel:limestone",
+                "metadata": 0
+            },
+            {
+                "name": "chisel:marble",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:stone",
+                "metadata": 0
+            }
+        ],
+        "block": [{
+            "name": "deepresonance:resonatingCrystalBlock",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:air",
+            "metadata": 0
+        }],
+        "genSky": "false",
+        "stackHeight": 1,
+        "chunkChance": 1,
+        "clusterSize": 1,
+        "numClusters": 4,
+        "minHeight": 2,
+        "maxHeight": 70,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            106,
+            111,
+            115
+        ]
+    },
+    "ResonatingOre": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "deepresonance:oreResonating",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 8,
+        "numClusters": 6,
+        "minHeight": 2,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            106,
+            111,
+            115
+        ]
+    }
+}

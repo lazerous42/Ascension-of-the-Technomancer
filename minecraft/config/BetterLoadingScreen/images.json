@@ -1,0 +1,81 @@
+[
+  {
+    "resourceLocation": "custommainmenu:textures/background/AscensionLogo.png",
+    "positionType": "CENTER",
+    "type": "STATIC",
+    "texture": {
+      "x": 0,
+      "y": 0,
+      "width": 256,
+      "height": 256
+    },
+    "position": {
+      "x": 0,
+      "y": 0,
+      "width": 256,
+      "height": 256
+    }
+  },
+  {
+    "resourceLocation": "textures/font/ascii.png",
+    "positionType": "CENTER",
+    "type": "DYNAMIC_TEXT_STATUS",
+    "position": {
+      "x": 0,
+      "y": -80,
+      "width": 0,
+      "height": 0
+    },
+    "colour": "FFC965"
+  },
+  {
+    "resourceLocation": "textures/font/ascii.png",
+    "positionType": "CENTER",
+    "type": "DYNAMIC_TEXT_PERCENTAGE",
+    "position": {
+      "x": 0,
+      "y": -90,
+      "width": 0,
+      "height": 0
+    },
+    "colour": "FFC965"
+  },
+  {
+    "resourceLocation": "betterloadingscreen:textures/progressBars.png",
+    "positionType": "CENTER",
+    "type": "STATIC",
+    "texture": {
+      "x": 0,
+      "y": 10,
+      "width": 182,
+      "height": 5
+    },
+    "position": {
+      "x": 0,
+      "y": -100,
+      "width": 182,
+      "height": 5
+    }
+  },
+  {
+    "resourceLocation": "betterloadingscreen:textures/progressBars.png",
+    "positionType": "CENTER",
+    "type": "DYNAMIC_PERCENTAGE",
+    "texture": {
+      "x": 0,
+      "y": 15,
+      "width": 182,
+      "height": 5
+    },
+    "position": {
+      "x": 0,
+      "y": -100,
+      "width": 182,
+      "height": 5
+    }
+  },
+  {
+    "type": "CLEAR_COLOUR",
+    "colour": "191E22"
+  }
+]

@@ -24,4 +24,8 @@ Recipes added via this mod will NOT be removed!
 	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<output2>VillageNames:lunarinGoldBlock 1 0</output2>
 	<output3>Railcraft:part.rail 8 3</output3>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!--Circuit Plate -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<output4>ProjRed|Core:projectred.core.part 2 0</output4>
 </RemoveRecipes>

@@ -3,6 +3,9 @@
 // Author: Lazerous
 //////////////////////////////////////////////////////////////////////////////////////////////
 
+##  Imports
+import mods.pneumaticcraft.Pressure;
+
 print("Initializing 'DeepResonance.zs'...");
 
 val dispenser = <minecraft:dispenser>;
@@ -32,6 +35,7 @@ val lensAmethyst = <ore:lensAmethyst>;
 val plateTitanium = <ore:pateTitanium>;
 
 val filterMaterial = <deepresonance:filterMaterialItem>; 
+val spentFilterMaterial = <deepresonance:spentFilterMaterialItem>; 
 val resonatingPlate = <deepresonance:resonatingPlateItem>;
 val machineFrame = <deepresonance:machineFrame>;
 val crystalizer = <deepresonance:crystalizerBlock>;
@@ -44,6 +48,8 @@ val purifier = <deepresonance:purifierBlock>;
 val energyCollector = <deepresonance:energyCollectorBlock>;
 val generator = <deepresonance:generatorBlock>;
 val generatorController = <deepresonance:generatorControllerBlock>;
+val denseObsidian = <deepresonance:denseObsidian>;
+val denseGlass = <deepresonance:denseGlass>;
 val lens = <deepresonance:lensBlock>;
 
 ##  Machine Frame
@@ -93,5 +99,13 @@ recipes.addShaped(generatorController, [[chipsetComp, comparitor, chipsetComp], 
 ##  Lens
 recipes.remove(lens);
 recipes.addShaped(lens, [[lensDiamond, resonatingPlate, lensDiamond], [resonatingPlate, emerald, resonatingPlate], [lensRuby, resonatingPlate, lensRuby]]);
+
+##  Dense Obsidian
+recipes.remove(denseObsidian);
+Pressure.addRecipe([<minecraft:obsidian> * 4, spentFilterMaterial * 5], 3, [denseObsidian * 4], true);
+
+##  Dense Glass
+recipes.remove(denseGlass);
+Pressure.addRecipe([<minecraft:glass> * 4, spentFilterMaterial * 5], 3, [denseGlass * 4], true);
 
 print("Initialized 'DeepResonance.zs'");

@@ -1,0 +1,765 @@
+{
+    "Clay": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "minecraft:clay",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 15,
+        "numClusters": 6,
+        "minHeight": 2,
+        "maxHeight": 176,
+        "retrogen": "false",
+        "biomeRestriction": "blacklist",
+        "biomes": [{
+                "type": "name",
+                "entry": "Moon"
+            },
+            {
+                "type": "name",
+                "entry": "Hot Dry Rock"
+            }
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": [
+
+        ]
+    },
+    "Coal": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+                "name": "minecraft:coal_ore",
+                "metadata": 0,
+                "weight": 99
+            },
+            {
+                "name": "minecraft:diamond_ore",
+                "metadata": 0,
+                "weight": 1
+            }
+        ],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 9,
+        "numClusters": 6,
+        "minHeight": 2,
+        "maxHeight": 176,
+        "retrogen": "false",
+        "biomeRestriction": "blacklist",
+        "biomes": [{
+                "type": "name",
+                "entry": "Moon"
+            },
+            {
+                "type": "name",
+                "entry": "Hot Dry Rock"
+            }
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": [
+
+        ]
+    },
+    "Coal-Tennaris": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "minecraft:coal_ore",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 12,
+        "numClusters": 8,
+        "minHeight": 2,
+        "maxHeight": 176,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            103,
+            114
+        ]
+    },
+    "Diamond": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "sparse-cluster",
+        "block": [{
+            "name": "minecraft:diamond_ore",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 4,
+        "numClusters": 1,
+        "minHeight": 2,
+        "maxHeight": 20,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            120
+        ]
+    },
+    "Diamond-Iiloo": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "minecraft:diamond_ore",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 4,
+        "numClusters": 5,
+        "minHeight": 2,
+        "maxHeight": 20,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            120
+        ]
+    },
+    "Dirt": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "minecraft:dirt",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 32,
+        "numClusters": 15,
+        "minHeight": 2,
+        "maxHeight": 176,
+        "retrogen": "false",
+        "biomeRestriction": "blacklist",
+        "biomes": [{
+                "type": "name",
+                "entry": "Moon"
+            },
+            {
+                "type": "name",
+                "entry": "Hot Dry Rock"
+            }
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": [
+
+        ]
+    },
+    "Emerald": {
+        "enabled": "true",
+        "template": "normal",
+        "generator": "sparse-cluster",
+        "block": [{
+            "name": "minecraft:emerald_ore",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 3,
+        "numClusters": 1,
+        "meanHeight": 15,
+        "maxVariance": 10,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            102
+        ]
+    },
+    "Emerald-Orrobos": {
+        "enabled": "true",
+        "template": "normal",
+        "generator": "cluster",
+        "block": [{
+            "name": "minecraft:emerald_ore",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 5,
+        "numClusters": 3,
+        "meanHeight": 15,
+        "maxVariance": 10,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            102
+        ]
+    },
+    "Gold": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "minecraft:gold_ore",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 5,
+        "numClusters": 4,
+        "minHeight": 2,
+        "maxHeight": 32,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            107
+        ]
+    },
+    "Gold-Braggas": {
+        "enabled": "true",
+        "template": "uniform",
+        "block": [{
+            "name": "minecraft:gold_ore",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 8,
+        "numClusters": 11,
+        "minHeight": 2,
+        "maxHeight": 36,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            107
+        ]
+    },
+    "Gravel": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "minecraft:gravel",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 32,
+        "numClusters": 8,
+        "minHeight": 2,
+        "maxHeight": 65,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": []
+    },
+    "Icespike-Iiloo": {
+        "enabled": "true",
+        "template": "surface",
+        "generator": "spike",
+        "block": [{
+            "name": "minecraft:packed_ice",
+            "metadata": 0
+        }],
+        "material": [{
+                "name": "BiomesOPlenty:hardIce",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:air",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:dirt",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:grass",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:ice",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:packed_ice",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:snow",
+                "metadata": 0
+            }
+        ],
+        "chunkChance": 30,
+        "numClusters": 5,
+        "minHeight": 12,
+        "heightVariance": 4,
+        "sizeVariance": 2,
+        "positionVariance": 4,
+        "largeSpikes": "true",
+        "largeSpikeChance": 30,
+        "minLargeSpikeHeightGain": 10,
+        "largeSpikeHeightVariance": 30,
+        "largeSpikeFillerSize": 1,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            120
+        ]
+    },
+    "Icespike-Iiloo-Old": {
+        "enabled": "false",
+        "template": "surface",
+        "generator": "stalagmite",
+        "block": [{
+            "name": "minecraft:packed_ice",
+            "metadata": 0
+        }],
+        "material": [{
+                "name": "BiomesOPlenty:hardIce",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:dirt",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:grass",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:ice",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:packed_ice",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:snow",
+                "metadata": 0
+            }
+        ],
+        "chunkChance": 33,
+        "numClusters": 5,
+        "minHeight": 7,
+        "heightVariance": 15,
+        "genSize": 0,
+        "genBody": [{
+            "name": "minecraft:air",
+            "metadata": 0
+        }],
+        "heightMod": 5,
+        "sizeVariance": 3,
+        "smooth": "false",
+        "fat": "true",
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            120
+        ]
+    },
+    "Iron": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "minecraft:iron_ore",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 6,
+        "numClusters": 6,
+        "minHeight": 2,
+        "maxHeight": 176,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            102,
+            103,
+            107,
+            109,
+            112,
+            114,
+            116,
+            120
+        ]
+    },
+    "Iron-AdvRocketryPlanets": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "minecraft:iron_ore",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 12,
+        "numClusters": 7,
+        "minHeight": 2,
+        "maxHeight": 176,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            102,
+            103,
+            107,
+            109,
+            112,
+            114,
+            116,
+            120
+        ]
+    },
+    "Lapis": {
+        "enabled": "true",
+        "template": "normal",
+        "generator": "cluster",
+        "block": [{
+            "name": "minecraft:lapis_ore",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 5,
+        "numClusters": 3,
+        "meanHeight": 20,
+        "maxVariance": 10,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            103
+        ]
+    },
+    "Lapis-Tennaris": {
+        "enabled": "true",
+        "template": "normal",
+        "generator": "cluster",
+        "block": [{
+            "name": "minecraft:lapis_ore",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 8,
+        "numClusters": 4,
+        "meanHeight": 20,
+        "maxVariance": 10,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            103
+        ]
+    },
+    "Lava-Vultomas": {
+        "enabled": "true",
+        "template": "surface",
+        "generator": "lake",
+        "block": [{
+            "name": "minecraft:lava",
+            "metadata": 0
+        }],
+        "useMaterial": "true",
+        "material": [{
+                "name": "minecraft:soul_sand",
+                "metadata": 0
+            },
+            {
+                "name": "BiomesOPlenty:cragRock",
+                "metadata": 0
+            },
+            {
+                "name": "BiomesOPlenty:ashStone",
+                "metadata": 0
+            }
+        ],
+        "outlineBlock": [{
+                "name": "magmaox:MagmaBlock",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:obsidian",
+                "metadata": 0
+            }
+        ],
+        "chunkChance": 1,
+        "clusterSize": 100,
+        "numClusters": 1,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            116
+        ]
+    },
+    "Quartz": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "minecraft:quartz_ore",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:netherrack",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 8,
+        "numClusters": 7,
+        "minHeight": 2,
+        "maxHeight": 127,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [{
+            "type": "dictionary",
+            "entry": "NETHER"
+        }],
+        "dimensionRestriction": "none",
+        "dimensions": [
+
+        ]
+    },
+    "RedSand": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "minecraft:sand",
+            "metadata": 1
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 32,
+        "numClusters": 8,
+        "minHeight": 2,
+        "maxHeight": 176,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            106,
+            111,
+            115
+        ]
+    },
+    "Redstone": {
+        "enabled": "true",
+        "template": "fractal",
+        "generator": "large-vein",
+        "block": [{
+                "name": "minecraft:redstone_ore",
+                "metadata": 0,
+                "weight": 800
+            },
+            {
+                "name": "ProjRed|Exploration:projectred.exploration.ore",
+                "metadata": 6,
+                "weight": 200
+            }
+        ],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "sparse": "false",
+        "chunkChance": 4,
+        "clusterSize": 14,
+        "numClusters": 1,
+        "minHeight": 2,
+        "maxHeight": 40,
+        "veinHeight": 9,
+        "veinDiameter": 9,
+        "verticalDensity": 15,
+        "horizontalDensity": 15,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            107
+        ]
+    },
+    "Redstone-Braggas": {
+        "enabled": "true",
+        "template": "fractal",
+        "generator": "large-vein",
+        "block": [{
+                "name": "minecraft:redstone_ore",
+                "weight": 900
+            },
+            {
+                "name": "ProjRed|Exploration:projectred.exploration.ore",
+                "metadata": 6,
+                "weight": 100
+            }
+        ],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "sparse": "false",
+        "chunkChance": 4,
+        "clusterSize": 25,
+        "numClusters": 1,
+        "minHeight": 2,
+        "maxHeight": 40,
+        "veinHeight": 12,
+        "veinDiameter": 12,
+        "verticalDensity": 25,
+        "horizontalDensity": 25,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            107
+        ]
+    },
+    "Sand": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "minecraft:sand",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 32,
+        "numClusters": 8,
+        "minHeight": 2,
+        "maxHeight": 176,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            106,
+            111,
+            115
+        ]
+    }
+}

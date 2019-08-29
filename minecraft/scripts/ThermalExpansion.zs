@@ -5,12 +5,12 @@
 
 ##  Imports
 import mods.buildcraft.AssemblyTable;
-import mods.thermalexpansion.Crucible;
-import mods.thermalexpansion.Smelter;
 import mods.gregtech.AlloySmelter;
 import mods.gregtech.Extruder;
 import mods.gregtech.FluidSolidifier;
 import mods.immersiveengineering.MetalPress;
+import mods.thermalexpansion.Crucible;
+import mods.thermalexpansion.Smelter;
 
 print("Initializing 'ThermalExpansion.zs'...");
 

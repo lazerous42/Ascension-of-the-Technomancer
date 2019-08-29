@@ -76,6 +76,18 @@
                 "gui": "options"
             }
         },
+        "quit": {
+            "text": "menu.quit",
+            "texture": "custommainmenu:textures/gui/shortbutton.png",
+            "alignment": "center",
+            "posX": 2,
+            "posY": 104,
+            "width": 98,
+            "height": 20,
+            "action": {
+                "type": "quit"
+            }
+        },
         "language": {
             "text": "",
             "posX": -20,
@@ -91,18 +103,6 @@
                 "type": "openGui",
                 "gui": "languages"
             }
-        },
-        "quit": {
-            "text": "menu.quit",
-            "texture": "custommainmenu:textures/gui/shortbutton.png",
-            "alignment": "center",
-            "posX": 2,
-            "posY": 104,
-            "width": 98,
-            "height": 20,
-            "action": {
-                "type": "quit"
-            }
         }
     },
     "texts": {
@@ -114,7 +114,7 @@
             "alignment": "bottom_left"
         },
         "pack_version": {
-            "text": "Version: 6.0.1",
+            "text": "Version: 7.0.1.1443 ~ #modsloaded# Mods loaded",
             "posX": 2,
             "posY": -10,
             "color": -1,

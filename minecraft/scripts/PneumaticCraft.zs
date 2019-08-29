@@ -4,46 +4,50 @@
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 ##  Imports
+import mods.gregtech.AlloySmelter;
 import mods.gregtech.Assembler;
 import mods.gregtech.Extruder;
+import mods.gregtech.FluidSolidifier;
+import mods.immersiveengineering.MetalPress;
 
 print("Initializing 'PneumaticCraft.zs'...");
 
 ##  Val Statements
-var dustRedstone = <minecraft:redstone>;
-var moltenGlass = <liquid:molten.glass>;
-var shapeSmallPipe = <gregtech:gt.metaitem.01:32359>;
+val dustRedstone = <minecraft:redstone>;
+val moltenGlass = <liquid:molten.glass>;
+val shapeSmallPipe = <gregtech:gt.metaitem.01:32359>;
 
-var plasticBlack = <PneumaticCraft:plastic>;
-var plasticRed = <PneumaticCraft:plastic:1>;
-var plasticGreen = <PneumaticCraft:plastic:2>;
-var plasticBrown = <PneumaticCraft:plastic:3>;
-var plasticBlue = <PneumaticCraft:plastic:4>;
-var plasticPurple = <PneumaticCraft:plastic:5>;
-var plasticCyan = <PneumaticCraft:plastic:6>;
-var plasticGray = <PneumaticCraft:plastic:8>;
-var plasticPink = <PneumaticCraft:plastic:9>;
-var plasticLime = <PneumaticCraft:plastic:10>;
-var plasticYellow = <PneumaticCraft:plastic:11>;
-var plasticLBlue = <PneumaticCraft:plastic:12>;
-var plasticOrange = <PneumaticCraft:plastic:14>;
-var plasticWhite = <PneumaticCraft:plastic:15>;
-var tubeBurst = <PneumaticCraft:plasticElectronTube:8>;
-var tubeChopper = <PneumaticCraft:plasticElectronTube:12>;
-var tubeCreeper = <PneumaticCraft:plasticElectronTube:2>;
-var tubeEnder = <PneumaticCraft:plasticElectronTube:5>;
-var tubeFire = <PneumaticCraft:plasticElectronTube:1>;
-var tubeFlying = <PneumaticCraft:plasticElectronTube:15>;
-var tubeHelium = <PneumaticCraft:plasticElectronTube:11>;
-var tubeLightning = <PneumaticCraft:plasticElectronTube:6>;
-var tubePotion = <PneumaticCraft:plasticElectronTube:9>;
-var tubePropulsion = <PneumaticCraft:plasticElectronTube:14>;
-var tubeRain = <PneumaticCraft:plasticElectronTube:4>;
-var tubeRepulsion = <PneumaticCraft:plasticElectronTube:10>;
-var tubeSlime = <PneumaticCraft:plasticElectronTube:3>;
-var tubeSquid = <PneumaticCraft:plasticElectronTube>;
-var tubePressure = <PneumaticCraft:pressureTube>;
-var ingotCompressedIron = <PneumaticCraft:ingotIronCompressed>;
+val plasticBlack = <PneumaticCraft:plastic>;
+val plasticRed = <PneumaticCraft:plastic:1>;
+val plasticGreen = <PneumaticCraft:plastic:2>;
+val plasticBrown = <PneumaticCraft:plastic:3>;
+val plasticBlue = <PneumaticCraft:plastic:4>;
+val plasticPurple = <PneumaticCraft:plastic:5>;
+val plasticCyan = <PneumaticCraft:plastic:6>;
+val plasticGray = <PneumaticCraft:plastic:8>;
+val plasticPink = <PneumaticCraft:plastic:9>;
+val plasticLime = <PneumaticCraft:plastic:10>;
+val plasticYellow = <PneumaticCraft:plastic:11>;
+val plasticLBlue = <PneumaticCraft:plastic:12>;
+val plasticOrange = <PneumaticCraft:plastic:14>;
+val plasticWhite = <PneumaticCraft:plastic:15>;
+val tubeBurst = <PneumaticCraft:plasticElectronTube:8>;
+val tubeChopper = <PneumaticCraft:plasticElectronTube:12>;
+val tubeCreeper = <PneumaticCraft:plasticElectronTube:2>;
+val tubeEnder = <PneumaticCraft:plasticElectronTube:5>;
+val tubeFire = <PneumaticCraft:plasticElectronTube:1>;
+val tubeFlying = <PneumaticCraft:plasticElectronTube:15>;
+val tubeHelium = <PneumaticCraft:plasticElectronTube:11>;
+val tubeLightning = <PneumaticCraft:plasticElectronTube:6>;
+val tubePotion = <PneumaticCraft:plasticElectronTube:9>;
+val tubePropulsion = <PneumaticCraft:plasticElectronTube:14>;
+val tubeRain = <PneumaticCraft:plasticElectronTube:4>;
+val tubeRepulsion = <PneumaticCraft:plasticElectronTube:10>;
+val tubeSlime = <PneumaticCraft:plasticElectronTube:3>;
+val tubeSquid = <PneumaticCraft:plasticElectronTube>;
+val tubePressure = <PneumaticCraft:pressureTube>;
+val ingotCompressedIron = <PneumaticCraft:ingotIronCompressed>;
+val gearCompressedIron = <PneumaticCraft:compressedIronGear>;
 
 ##  Electron Tubes
 Assembler.addRecipe(tubeSquid, dustRedstone * 2, plasticBlack * 5, moltenGlass * 72, 64, 32);
@@ -64,5 +68,12 @@ Assembler.addRecipe(tubeFlying, dustRedstone * 2, plasticWhite * 5, moltenGlass 
 ##  Pressure Tube
 recipes.remove(tubePressure);    
 Extruder.addRecipe(tubePressure, ingotCompressedIron, shapeSmallPipe * 0, 8, 128);
+
+##  Compressed Iron Gear
+recipes.remove(gearCompressedIron);
+MetalPress.addRecipe(gearCompressedIron, ingotCompressedIron, <ImmersiveEngineering:mold:1>, 6400, 6);
+AlloySmelter.addRecipe(gearCompressedIron, ingotCompressedIron * 8, <gregtech:gt.metaitem.01:32303> * 0, 760, 32);
+Extruder.addRecipe(gearCompressedIron, ingotCompressedIron * 4, <gregtech:gt.metaitem.01:32372> * 0, 300, 128);
+FluidSolidifier.addRecipe(gearCompressedIron, <gregtech:gt.metaitem.01:32303> * 0, <liquid:molten.ironcompressed> * 576, 120, 8);
 
 print("Initialized 'PneumaticCraft.zs'");

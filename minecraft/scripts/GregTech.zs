@@ -12,18 +12,6 @@ val rodIron = <gregtech:gt.metaitem.01:23032>;
 val ringIron = <gregtech:gt.metaitem.01:28032>;
 val gtHammer = <gregtech:gt.metatool.01:12>;
 
-#   Constantan <-> Cupronickel
-#<ore:dustConstantan>.addAll(<ore:dustCupronickel>);
-#<ore:dustCupronickel>.mirror(<ore:dustConstantan>);
-#<ore:ingotConstantan>.addAll(<ore:ingotCupronickel>);
-#<ore:ingotCupronickel>.mirror(<ore:ingotConstantan>);
-#<ore:blockConstantan>.addAll(<ore:blockCupronickel>);
-#<ore:blockCupronickel>.mirror(<ore:blockConstantan>);
-
-#   Coal/Charcoal Dust as black dye
-#<ore:dyeBlack>.add(<gregtech:gt.metaitem.01:2535>);
-#<ore:dyeBlack>.add(<gregtech:gt.metaitem.01:2536>);
-
 ## Val Definitions
 val circuitAssemblerHV = <gregtech:gt.blockmachines:1182>;
 val robotArmHV = <gregtech:gt.metaitem.01:32652>;

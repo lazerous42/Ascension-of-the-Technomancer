@@ -1,10 +1,10 @@
 
 showChocoboNames = true
-chocoboWingFlutter = false
+chocoboWingFlutter = true
 // hunger not yet active
 hungerEnabled = false
 riderBuffsEnabled = true
-saddledCanWander = false
+saddledCanWander = true
 
 // The default name height is 2.3 blocks from the ground. You can add height
 // up to 10 blocks by the number given as renderNameHeight.
@@ -24,16 +24,16 @@ gysahlGreenMutationRate = 100
 gysahlLoverlyMutationRate = 100
 
 // value between 1 and 999, with 1 for very few wild gysahl and 999 very many.
-gysahlGreenWorldGenerationRate = 160
+gysahlGreenWorldGenerationRate = 60
 
 // Cool down phase between breeding
-breedingDelayFemale = 9000
-breedingDelayMale = 3000
+breedingDelayFemale = 12000
+breedingDelayMale = 5000
 
 // Chicobos will grow up into Chocobos after growUpDelayStatic plus
 // 0 - growUpDelayRandom ticks.
-growUpDelayStatic = 27000
-growUpDelayRandom = 2000
+growUpDelayStatic = 18000
+growUpDelayRandom = 12000
 
 // Time after which Chicobos and Chocobos will get hungry again (disabled)
 hungerDelayChicobo = 1000
@@ -56,13 +56,13 @@ chocopediaInDungeons = true
 // all biomes.
 // Possible biome names:
 // Ocean, Plains, Desert, Extreme Hills, Forest, Taiga, Swampland, River, Hell, Sky, FrozenOcean, FrozenRiver, Ice Plains, Ice Mountains, MushroomIsland, MushroomIslandShore, Beach, DesertHills, ForestHills, TaigaHills, Extreme Hills Edge, Jungle, JungleHills, JungleEdge, Deep Ocean, Stone Beach, Cold Beach, Birch Forest, Birch Forest Hills, Roofed Forest, Cold Taiga, Cold Taiga Hills, Mega Taiga, Mega Taiga Hills, Extreme Hills+, Savanna, Savanna Plateau, Mesa, Mesa Plateau F, Mesa Plateau, Alps, Arctic, Bamboo Forest, Bayou, Bog, Boreal Forest, Brushland, Canyon, Chaparral, Cherry Blossom Grove, Coniferous Forest, Snowy Coniferous Forest, Crag, Dead Forest, Dead Swamp, Deciduous Forest, Fen, Flower Field, Frost Forest, Fungi Forest, Garden, Grassland, Grove, Heathland, Highland, Jade Cliffs, Lavender Fields, Lush Desert, Lush Swamp, Maple Woods, Marsh, Meadow, Moor, Mountain, Mystic Grove, Ominous Woods, Origin Valley, Outback, Prairie, Rainforest, Redwood Forest, Sacred Springs, Seasonal Forest, Shield, Shrubland, Sludgepit, Steppe, Temperate Rainforest, Thicket, Tropical Rainforest, Tundra, Wasteland, Wetland, Woodland, Coral Reef, Kelp Forest, Tropics, Volcano, Mangrove, Alps Forest, Canyon Ravine, Glacier, Meadow Forest, Oasis, Orchard, Quagmire, Scrubland, Silkglades, Spruce Woods, Corrupted Sands, Phantasmagoric Inferno, Boneyard, Visceral Heap, Undergarden, Polar Chasm, Spectral Garden, Lush River, Dry River, Sunflower Plains, Desert M, Extreme Hills M, Flower Forest, Taiga M, Swampland M, Ice Plains Spikes, Jungle M, JungleEdge M, Birch Forest M, Birch Forest Hills M, Roofed Forest M, Cold Taiga M, Mega Spruce Taiga, Mega Spruce Taiga, Extreme Hills+ M, Savanna M, Savanna Plateau M, Mesa (Bryce), Mesa Plateau F M, Mesa Plateau M, Twilight Clearing, Dark Forest, Dark Forest Center, Deep Mushroom Forest, Fire Swamp, Twilight Glacier, Twilight Highlands, Highlands Center, Twilight Lake, Firefly Forest, Mushroom Forest, Oak Savanna, Snowy Forest, Twilight Stream, Twilight Swamp, Thornlands, Twilight Forest, Dense Twilight Forest, Tainted Land, Magical Forest, Eerie, Eldritch, Ocean Oil Field, Desert Oil Field, Storage Cell
-spawnBiomes = Extreme Hills,Extreme Hills Edge,Forest,ForestHills,Jungle,JungleHills,Plains,Swampland,Taiga,TaigaHills,Ice Mountains,Ice Plains,Hell
+spawnBiomes = 
 
 // A group of spawnGroupMin to spawnGroupMax Yellow Chocobos will spawn with the
 // probability of spawnProbability around every player. There will be no additional
 // spawning if spawnTotalMax wild Chocobos are active in an area with the radius of spawnLimitChunkRadius chunks.
 spawnTimeDelay = 200
-spawnProbability = 2
+spawnProbability = 0
 spawnGroupMin = 2
 spawnGroupMax = 4
 spawnTotalMax = 3

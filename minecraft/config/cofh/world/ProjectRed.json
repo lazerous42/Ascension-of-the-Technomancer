@@ -1,46 +1,78 @@
 {
-	"Electrotine": {
-		"template": "uniform",
-		"block": [{
-				"name": "ProjRed|Exploration:projectred.exploration.ore",
-				"metadata": 6,
-				"weight": 80
-			},
-			{
-				"name": "minecraft:redstone_ore",
-				"weight": 20
-			}
-		],
-		"clusterSize": 9,
-		"numClusters": 6,
-		"minHeight": 35,
-		"maxHeight": 64,
-		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [],
-		"dimensionRestriction": "blacklist",
-		"dimensions": [-1, 1]
-	},
-	"Quon-Electrotine": {
-		"template": "uniform",
-		"block": [{
-				"name": "ProjRed|Exploration:projectred.exploration.ore",
-				"metadata": 6,
-				"weight": 90
-			},
-			{
-				"name": "minecraft:redstone_ore",
-				"weight": 10
-			}
-		],
-		"clusterSize": 15,
-		"numClusters": 8,
-		"minHeight": 26,
-		"maxHeight": 52,
-		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [113]
-	}
+    "Electrotine": {
+        "enabled": "true",
+        "template": "fractal",
+        "generator": "large-vein",
+        "block": [{
+                "name": "ProjRed|Exploration:projectred.exploration.ore",
+                "metadata": 6,
+                "weight": 800
+            },
+            {
+                "name": "minecraft:redstone_ore",
+                "weight": 200
+            }
+        ],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "sparse": "true",
+        "chunkChance": 4,
+        "clusterSize": 14,
+        "numClusters": 1,
+        "minHeight": 50,
+        "maxHeight": 90,
+        "veinHeight": 9,
+        "veinDiameter": 9,
+        "verticalDensity": 15,
+        "horizontalDensity": 15,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            113
+        ]
+    },
+    "Electrotine-Quon": {
+        "enabled": "true",
+        "template": "fractal",
+        "generator": "large-vein",
+        "block": [{
+                "name": "ProjRed|Exploration:projectred.exploration.ore",
+                "metadata": 6,
+                "weight": 900
+            },
+            {
+                "name": "minecraft:redstone_ore",
+                "weight": 100
+            }
+        ],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "sparse": "true",
+        "chunkChance": 4,
+        "clusterSize": 25,
+        "numClusters": 1,
+        "minHeight": 50,
+        "maxHeight": 90,
+        "veinHeight": 12,
+        "veinDiameter": 12,
+        "verticalDensity": 25,
+        "horizontalDensity": 25,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            113
+        ]
+    }
 }

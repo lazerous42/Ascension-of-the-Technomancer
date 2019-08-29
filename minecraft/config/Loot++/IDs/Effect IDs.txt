@@ -7,6 +7,13 @@
 ##    - Is Instant? <true if an instant effect (like health)>        ##
 ##    - Is Bad? <true if considered a 'bad' effect (only on client)> ##
 #######################################################################
+0
+	- Name: Confusion
+	- Color: 5787222
+	- Is Instant? false
+	- Is Bad? false
+
+
 1
 	- Name: potion.moveSpeed
 	- Color: 8171462
@@ -169,10 +176,10 @@
 
 
 24
-	- Name: potion.wellfedPotion
-	- Color: 0
+	- Name: potion.paralysis
+	- Color: 16767262
 	- Is Instant? false
-	- Is Bad? false
+	- Is Bad? true
 
 
 25
@@ -379,17 +386,17 @@
 
 
 54
-	- Name: potion.sunsBlessing
-	- Color: 16768834
+	- Name: potion.possession
+	- Color: 1280
 	- Is Instant? false
-	- Is Bad? false
+	- Is Bad? true
 
 
 55
-	- Name: potion.fluxtaint
-	- Color: 6697847
+	- Name: potion.wellfedPotion
+	- Color: 0
 	- Is Instant? false
-	- Is Bad? true
+	- Is Bad? false
 
 
 56
@@ -400,17 +407,17 @@
 
 
 57
-	- Name: AddHeart
-	- Color: 0
+	- Name: potion.sunsBlessing
+	- Color: 16768834
 	- Is Instant? false
 	- Is Bad? false
 
 
 58
-	- Name: RemoveHeart
-	- Color: 0
+	- Name: potion.antiWither
+	- Color: 1310740
 	- Is Instant? false
-	- Is Bad? true
+	- Is Bad? false
 
 
 59
@@ -764,395 +771,395 @@
 
 
 109
-	- Name: Blue Curse
-	- Color: 170
+	- Name: AddHeart
+	- Color: 0
 	- Is Instant? false
-	- Is Bad? true
+	- Is Bad? false
 
 
 110
-	- Name: Green Curse
-	- Color: 43520
+	- Name: RemoveHeart
+	- Color: 0
 	- Is Instant? false
 	- Is Bad? true
 
 
 111
-	- Name: Orange Curse
-	- Color: 16755200
+	- Name: potion.fluxtaint
+	- Color: 6697847
 	- Is Instant? false
 	- Is Bad? true
 
 
 112
-	- Name: Red Curse
-	- Color: 16711680
-	- Is Instant? false
-	- Is Bad? true
-
-
-113
-	- Name: Violet Curse
-	- Color: 11141290
-	- Is Instant? false
-	- Is Bad? true
-
-
-114
-	- Name: Yellow Curse
-	- Color: 16777045
-	- Is Instant? false
-	- Is Bad? true
-
-
-115
-	- Name: potion.fallresist
-	- Color: 14548991
-	- Is Instant? false
-	- Is Bad? false
-
-
-116
-	- Name: potion.fear
-	- Color: 2228258
-	- Is Instant? false
-	- Is Bad? false
-
-
-117
-	- Name: potion.leech
-	- Color: 65433
-	- Is Instant? false
-	- Is Bad? false
-
-
-118
-	- Name: potion.paralysis
-	- Color: 16776960
-	- Is Instant? false
-	- Is Bad? true
-
-
-119
-	- Name: potion.penetration
-	- Color: 2236962
-	- Is Instant? false
-	- Is Bad? true
-
-
-120
-	- Name: potion.rage
-	- Color: 16729088
-	- Is Instant? false
-	- Is Bad? true
-
-
-121
-	- Name: potion.recklessness
-	- Color: 16711748
-	- Is Instant? false
-	- Is Bad? true
-
-
-122
-	- Name: potion.swiftswimming
-	- Color: 255
-	- Is Instant? false
-	- Is Bad? false
-
-
-123
-	- Name: potion.weight
-	- Color: 34
-	- Is Instant? false
-	- Is Bad? true
-
-
-124
-	- Name: potion.antiWither
-	- Color: 1310740
-	- Is Instant? false
-	- Is Bad? false
-
-
-125
 	- Name: potion.visexhaust
 	- Color: 6702199
 	- Is Instant? false
 	- Is Bad? true
 
 
-126
+113
 	- Name: potion.infvisexhaust
 	- Color: 6706551
 	- Is Instant? false
 	- Is Bad? true
 
 
-127
+114
 	- Name: potion.unhunger
 	- Color: 4482611
 	- Is Instant? false
 	- Is Bad? true
 
 
+115
+	- Name: Blue Curse
+	- Color: 170
+	- Is Instant? false
+	- Is Bad? true
+
+
+116
+	- Name: Green Curse
+	- Color: 43520
+	- Is Instant? false
+	- Is Bad? true
+
+
+117
+	- Name: Orange Curse
+	- Color: 16755200
+	- Is Instant? false
+	- Is Bad? true
+
+
+118
+	- Name: Red Curse
+	- Color: 16711680
+	- Is Instant? false
+	- Is Bad? true
+
+
+119
+	- Name: Violet Curse
+	- Color: 11141290
+	- Is Instant? false
+	- Is Bad? true
+
+
+120
+	- Name: Yellow Curse
+	- Color: 16777045
+	- Is Instant? false
+	- Is Bad? true
+
+
+121
+	- Name: potion.fallresist
+	- Color: 14548991
+	- Is Instant? false
+	- Is Bad? false
+
+
+122
+	- Name: potion.fear
+	- Color: 2228258
+	- Is Instant? false
+	- Is Bad? false
+
+
+123
+	- Name: potion.leech
+	- Color: 65433
+	- Is Instant? false
+	- Is Bad? false
+
+
+124
+	- Name: potion.paralysis
+	- Color: 16776960
+	- Is Instant? false
+	- Is Bad? true
+
+
+125
+	- Name: potion.penetration
+	- Color: 2236962
+	- Is Instant? false
+	- Is Bad? true
+
+
+126
+	- Name: potion.rage
+	- Color: 16729088
+	- Is Instant? false
+	- Is Bad? true
+
+
+127
+	- Name: potion.recklessness
+	- Color: 16711748
+	- Is Instant? false
+	- Is Bad? true
+
+
 128
-	- Name: imbue.fire
-	- Color: 16729344
+	- Name: potion.swiftswimming
+	- Color: 255
 	- Is Instant? false
 	- Is Bad? false
 
 
 129
-	- Name: imbue.wither
-	- Color: 3881787
+	- Name: potion.weight
+	- Color: 34
 	- Is Instant? false
-	- Is Bad? false
+	- Is Bad? true
 
 
 130
-	- Name: potion.achromatic
-	- Color: 8454143
-	- Is Instant? false
-	- Is Bad? false
-
-
-131
-	- Name: potion.buffGolem
-	- Color: 8428928
-	- Is Instant? false
-	- Is Bad? false
-
-
-132
-	- Name: potion.eldritch
-	- Color: 8409216
-	- Is Instant? false
-	- Is Bad? false
-
-
-133
-	- Name: potion.luck
-	- Color: 15121988
-	- Is Instant? false
-	- Is Bad? false
-
-
-134
-	- Name: potion.visdiscount
-	- Color: 9896128
-	- Is Instant? false
-	- Is Bad? false
-
-
-135
-	- Name: imbue.experience
-	- Color: 14214234
-	- Is Instant? false
-	- Is Bad? false
-
-
-136
-	- Name: imbue.poison
-	- Color: 10145074
-	- Is Instant? false
-	- Is Bad? false
-
-
-137
 	- Name: High Steps
 	- Color: 11189537
 	- Is Instant? false
 	- Is Bad? false
 
 
-138
+131
 	- Name: Slowfall
 	- Color: 14393875
 	- Is Instant? false
 	- Is Bad? false
 
 
-139
+132
 	- Name: potion.binding
 	- Color: 0
 	- Is Instant? false
 	- Is Bad? false
 
 
-140
+133
 	- Name: potion.taintWithdrawl
 	- Color: 0
 	- Is Instant? false
 	- Is Bad? true
 
 
-141
+134
 	- Name: Amphibian
 	- Color: 0
 	- Is Instant? false
 	- Is Bad? false
 
 
-142
+135
 	- Name: Boost
 	- Color: 0
 	- Is Instant? false
 	- Is Bad? false
 
 
-143
+136
 	- Name: Deafness
 	- Color: 0
 	- Is Instant? false
 	- Is Bad? true
 
 
-144
+137
 	- Name: Demon Cloaking
 	- Color: 0
 	- Is Instant? false
 	- Is Bad? false
 
 
-145
+138
 	- Name: Drowning
 	- Color: 0
 	- Is Instant? false
 	- Is Bad? true
 
 
-146
+139
 	- Name: Feather Fall
 	- Color: 0
 	- Is Instant? false
 	- Is Bad? false
 
 
-147
+140
 	- Name: Fire Fuse
 	- Color: 0
 	- Is Instant? false
 	- Is Bad? true
 
 
-148
+141
 	- Name: Flame Cloak
 	- Color: 0
 	- Is Instant? false
 	- Is Bad? false
 
 
-149
+142
 	- Name: Flight
 	- Color: 0
 	- Is Instant? false
 	- Is Bad? false
 
 
-150
+143
 	- Name: Heavy Heart
 	- Color: 0
 	- Is Instant? false
 	- Is Bad? true
 
 
-151
+144
 	- Name: Ice Cloak
 	- Color: 0
 	- Is Instant? false
 	- Is Bad? false
 
 
-152
+145
 	- Name: Inhibit
 	- Color: 0
 	- Is Instant? false
 	- Is Bad? false
 
 
-153
+146
 	- Name: Planar Binding
 	- Color: 0
 	- Is Instant? false
 	- Is Bad? true
 
 
-154
+147
 	- Name: Whirlwind
 	- Color: 0
 	- Is Instant? false
 	- Is Bad? false
 
 
-155
+148
 	- Name: Reciprocation
 	- Color: 16777215
 	- Is Instant? false
 	- Is Bad? false
 
 
-156
+149
 	- Name: Soul Fray
 	- Color: 0
 	- Is Instant? false
 	- Is Bad? true
 
 
-157
+150
 	- Name: Soul Harden
 	- Color: 0
 	- Is Instant? false
 	- Is Bad? false
 
 
-158
+151
 	- Name: immersiveengineering.potion.conductive
 	- Color: 6881280
 	- Is Instant? false
 	- Is Bad? true
 
 
-159
+152
 	- Name: immersiveengineering.potion.flammable
 	- Color: 9387807
 	- Is Instant? false
 	- Is Bad? true
 
 
-160
+153
 	- Name: immersiveengineering.potion.slippery
 	- Color: 1511427
 	- Is Instant? false
 	- Is Bad? true
 
 
-161
+154
 	- Name: immersiveengineering.potion.sticky
 	- Color: 10250240
 	- Is Instant? false
 	- Is Bad? true
 
 
-162
+155
 	- Name: techno:drown
 	- Color: 0
 	- Is Instant? false
 	- Is Bad? true
 
 
-163
+156
 	- Name: techno:slowFall
 	- Color: 0
 	- Is Instant? false
 	- Is Bad? false
 
 
-164
+157
 	- Name: potion.blood_seal
 	- Color: 11278617
 	- Is Instant? false
 	- Is Bad? true
+
+
+158
+	- Name: potion.achromatic
+	- Color: 8454143
+	- Is Instant? false
+	- Is Bad? false
+
+
+159
+	- Name: potion.buffGolem
+	- Color: 8428928
+	- Is Instant? false
+	- Is Bad? false
+
+
+160
+	- Name: potion.eldritch
+	- Color: 8409216
+	- Is Instant? false
+	- Is Bad? false
+
+
+161
+	- Name: potion.luck
+	- Color: 15121988
+	- Is Instant? false
+	- Is Bad? false
+
+
+162
+	- Name: potion.visdiscount
+	- Color: 9896128
+	- Is Instant? false
+	- Is Bad? false
+
+
+163
+	- Name: imbue.poison
+	- Color: 10145074
+	- Is Instant? false
+	- Is Bad? false
+
+
+164
+	- Name: imbue.experience
+	- Color: 14214234
+	- Is Instant? false
+	- Is Bad? false
 
 
 165
@@ -1220,7 +1227,7 @@
 
 174
 	- Name: Restorative Aura
-	- Color: -2735129
+	- Color: -9615578
 	- Is Instant? false
 	- Is Bad? false
 
@@ -1289,37 +1296,366 @@
 
 
 184
+	- Name: potions.paling
+	- Color: 3676513
+	- Is Instant? false
+	- Is Bad? true
+
+
+185
+	- Name: imbue.fire
+	- Color: 16729344
+	- Is Instant? false
+	- Is Bad? false
+
+
+186
+	- Name: imbue.wither
+	- Color: 3881787
+	- Is Instant? false
+	- Is Bad? false
+
+
+187
+	- Name: potion.frost
+	- Color: 3726828
+	- Is Instant? false
+	- Is Bad? true
+
+
+188
+	- Name: potion.transience
+	- Color: 16771227
+	- Is Instant? false
+	- Is Bad? false
+
+
+189
+	- Name: potion.fireskin
+	- Color: 16723714
+	- Is Instant? false
+	- Is Bad? false
+
+
+190
+	- Name: potion.ice_shroud
+	- Color: 5435903
+	- Is Instant? false
+	- Is Bad? false
+
+
+191
+	- Name: potion.static_aura
+	- Color: 28927
+	- Is Instant? false
+	- Is Bad? false
+
+
+192
+	- Name: potion.decay
+	- Color: 3932268
+	- Is Instant? false
+	- Is Bad? true
+
+
+193
+	- Name: potion.sixth_sense
+	- Color: 13041409
+	- Is Instant? false
+	- Is Bad? false
+
+
+194
+	- Name: potion.arcane_jammer
+	- Color: 13585058
+	- Is Instant? false
+	- Is Bad? false
+
+
+195
+	- Name: potion.mind_trick
+	- Color: 6297219
+	- Is Instant? false
+	- Is Bad? true
+
+
+196
+	- Name: potion.mind_control
+	- Color: 3279684
+	- Is Instant? false
+	- Is Bad? true
+
+
+197
+	- Name: potion.font_of_mana
+	- Color: 16770491
+	- Is Instant? false
+	- Is Bad? false
+
+
+198
+	- Name: potion.fear
+	- Color: 12386560
+	- Is Instant? false
+	- Is Bad? true
+
+
+199
 	- Name: imbue.weakness
 	- Color: 16777215
 	- Is Instant? false
 	- Is Bad? false
 
 
-185
+200
 	- Name: imbue.spectre
 	- Color: 12578815
 	- Is Instant? false
 	- Is Bad? false
 
 
-186
-	- Name: potion.paralysis
-	- Color: 16767262
+202
+	- Name: bl.elixir.basilisk
+	- Color: 0
 	- Is Instant? false
-	- Is Bad? true
+	- Is Bad? false
 
 
-187
-	- Name: potion.possession
-	- Color: 1280
+203
+	- Name: bl.elixir.blindman
+	- Color: 0
 	- Is Instant? false
-	- Is Bad? true
+	- Is Bad? false
 
 
-188
-	- Name: potions.paling
-	- Color: 3676513
+204
+	- Name: bl.elixir.catsEyes
+	- Color: 0
 	- Is Instant? false
-	- Is Bad? true
+	- Is Bad? false
+
+
+205
+	- Name: bl.elixir.decay
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+206
+	- Name: bl.elixir.deformed
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+207
+	- Name: bl.elixir.draining
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+208
+	- Name: bl.elixir.drunkard
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+209
+	- Name: bl.elixir.feasting
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+210
+	- Name: bl.elixir.foggedMind
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+211
+	- Name: bl.elixir.gillsgrowth
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+212
+	- Name: bl.elixir.healing
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+213
+	- Name: bl.elixir.heavyweight
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+214
+	- Name: bl.elixir.huntersSense
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+215
+	- Name: bl.elixir.huntersSenseMaster
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+216
+	- Name: bl.elixir.isolatedSenses
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+217
+	- Name: bl.elixir.lightweight
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+218
+	- Name: bl.elixir.limbless
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+219
+	- Name: bl.elixir.lumbering
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+220
+	- Name: bl.elixir.masking
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+221
+	- Name: bl.elixir.nimblefeet
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+222
+	- Name: bl.elixir.petrify
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+223
+	- Name: bl.elixir.poisonsting
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+224
+	- Name: bl.elixir.ripening
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+225
+	- Name: bl.elixir.sagittarius
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+226
+	- Name: bl.elixir.slugarm
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+227
+	- Name: bl.elixir.spiderbreed
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+228
+	- Name: bl.elixir.starvation
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+229
+	- Name: bl.elixir.stenching
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+230
+	- Name: bl.elixir.strength
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+231
+	- Name: bl.elixir.swiftarm
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+232
+	- Name: bl.elixir.toughskin
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+233
+	- Name: bl.elixir.unclouded
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+234
+	- Name: bl.elixir.weakbow
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+235
+	- Name: bl.elixir.weakness
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
+
+
+236
+	- Name: bl.elixir.wings
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? false
 
 

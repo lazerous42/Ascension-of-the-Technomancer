@@ -1,63 +1,59 @@
 {
-  "Cryo": {
-    "Chance": -34,
-    "Message": [{
-      "message": "Is it cold in here, or is it just me?"
-    }],
-    "Block": [{
-      "block": "minecraft:stonebrick",
-      "XOffSet": 0,
-      "YOffSet": 1,
-      "ZOffSet": 0,
-      "Block": "ThermalFoundation:FluidCryotheum",
-      "Falling": true,
-      "RelativeToPlayer": true
-    }]
-  },
-
-  "Pyro": {
-    "Chance": -34,
-    "Message": [{
-      "message": "Is it hot in here, or is it just me?"
-    }],
-    "Block": [{
-      "block": "minecraft:stonebrick",
-      "XOffSet": 0,
-      "YOffSet": 1,
-      "ZOffSet": 0,
-      "Block": "ThermalFoundation:FluidPyrotheum",
-      "Falling": true,
-      "RelativeToPlayer": true
-    }]
-  },
-
-  "BasicFrames": {
-    "chance": 10,
-    "Message": [{
-      "message": "Don't say I never did you any favors."
-    }],
-    "Item": [{
-      "item": {
-        "id": "ThermalExpansion:Frame",
-        "Count": 3
-      },
-      "delay": 20
-    }]
-  },
-
-  "ResonantFrame": {
-    "chance": 2,
-    "Message": [{
-      "message": "Well, it's someones lucky day, isn't it?"
-    }],
-    "Item": [{
-      "item": {
-        "id": "ThermalExpansion:Frame",
-        "damage": 3,
-        "Count": 1
-      },
-      "delay": 20
-    }]
-  }
-
+	"Cryo": {
+		"Chance": -34,
+		"Message": [{
+			"message": "Is it cold in here, or is it just me?"
+		}],
+		"Block": [{
+			"block": "minecraft:stonebrick",
+			"XOffSet": 0,
+			"YOffSet": 1,
+			"ZOffSet": 0,
+			"Block": "ThermalFoundation:FluidCryotheum",
+			"Falling": true,
+			"RelativeToPlayer": true
+		}]
+	},
+	"Pyro": {
+		"Chance": -34,
+		"Message": [{
+			"message": "Is it hot in here, or is it just me?"
+		}],
+		"Block": [{
+			"block": "minecraft:stonebrick",
+			"XOffSet": 0,
+			"YOffSet": 1,
+			"ZOffSet": 0,
+			"Block": "ThermalFoundation:FluidPyrotheum",
+			"Falling": true,
+			"RelativeToPlayer": true
+		}]
+	},
+	"BasicFrames": {
+		"chance": 10,
+		"Message": [{
+			"message": "Don't say I never did you any favors."
+		}],
+		"Item": [{
+			"item": {
+				"id": "ThermalExpansion:Frame",
+				"Count": 3
+			},
+			"delay": 20
+		}]
+	},
+	"ResonantFrame": {
+		"chance": 2,
+		"Message": [{
+			"message": "Well, it's someones lucky day, isn't it?"
+		}],
+		"Item": [{
+			"item": {
+				"id": "ThermalExpansion:Frame",
+				"damage": 3,
+				"Count": 1
+			},
+			"delay": 20
+		}]
+	}
 }

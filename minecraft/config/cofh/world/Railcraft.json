@@ -1,58 +1,314 @@
 {
-	"FireStone": {
-		"template": "uniform",
-		"block": {
-			"name": "Railcraft:ore",
-			"metadata": 5
-		},
-		"material": "minecraft:netherrack",
-		"clusterSize": 2,
-		"numClusters": 4,
-		"minHeight": 1,
-		"maxHeight": 127,
-		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [
-			"all"
-		],
-		"dimensionRestriction": "blacklist",
-		"dimensions": [0, 1]
-	},
-	"Saltpeter": {
-		"template": "uniform",
-		"block": {
-			"name": "Railcraft:ore",
-			"metadata": 1
-		},
-		"material": {
-			"name": "minecraft:sand",
-			"metadata": 0
-		},
-		"clusterSize": 4,
-		"numClusters": 24,
-		"minHeight": 50,
-		"maxHeight": 150,
-		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [],
-		"dimensionRestriction": "blacklist",
-		"dimensions": [-1, 1]
-	},
-	"Sulfur": {
-		"template": "uniform",
-		"block": {
-			"name": "Railcraft:ore",
-			"metadata": 0
-		},
-		"material": "minecraft:stone",
-		"clusterSize": 3,
-		"numClusters": 6,
-		"minHeight": 2,
-		"maxHeight": 176,
-		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [],
-		"dimensionRestriction": "blacklist",
-		"dimensions": [-1, 1]
-	}
+    "AbyssalGeode-Diamond": {
+        "enabled": "true",
+        "template": "underfluid",
+        "generator": "boulder",
+        "genFluid": "water",
+        "block": [{
+                "name": "Railcraft:cube",
+                "metadata": 6,
+                "weight": 99
+            },
+            {
+                "name": "Railcraft:ore",
+                "metadata": 2,
+                "weight": 1
+            }
+        ],
+        "material": [{
+                "name": "minecraft:clay",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:dirt",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:gravel",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:sand",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:stone",
+                "metadata": 0
+            }
+        ],
+        "hollow": "true",
+        "chunkChance": 42,
+        "clusterSize": 5,
+        "sizeVariance": 3,
+        "numClusters": 1,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [{
+            "type": "name",
+            "entry": ["Coral Reef", "Deep Ocean", "FrozenOcean", "Kelp Forest", "Ocean", "Ocean Oil Field", "OceanSpires"]
+        }],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            42
+        ]
+    },
+    "AbyssalGeode-Emerald": {
+        "enabled": "true",
+        "template": "underfluid",
+        "generator": "boulder",
+        "genFluid": "water",
+        "block": [{
+                "name": "Railcraft:cube",
+                "metadata": 6,
+                "weight": 99
+            },
+            {
+                "name": "Railcraft:ore",
+                "metadata": 3,
+                "weight": 1
+            }
+        ],
+        "material": [{
+                "name": "minecraft:clay",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:dirt",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:gravel",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:sand",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:stone",
+                "metadata": 0
+            }
+        ],
+        "hollow": "true",
+        "chunkChance": 41,
+        "clusterSize": 5,
+        "sizeVariance": 3,
+        "numClusters": 1,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [{
+            "type": "name",
+            "entry": ["Coral Reef", "Deep Ocean", "FrozenOcean", "Kelp Forest", "Ocean", "Ocean Oil Field", "OceanSpires"]
+        }],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            42
+        ]
+    },
+    "AbyssalGeode-Lapis": {
+        "enabled": "true",
+        "template": "underfluid",
+        "generator": "boulder",
+        "genFluid": "water",
+        "block": [{
+                "name": "Railcraft:cube",
+                "metadata": 6,
+                "weight": 99
+            },
+            {
+                "name": "Railcraft:ore",
+                "metadata": 4,
+                "weight": 1
+            }
+        ],
+        "material": [{
+                "name": "minecraft:clay",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:dirt",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:gravel",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:sand",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:stone",
+                "metadata": 0
+            }
+        ],
+        "hollow": "true",
+        "chunkChance": 40,
+        "clusterSize": 5,
+        "sizeVariance": 3,
+        "numClusters": 1,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [{
+            "type": "name",
+            "entry": ["Coral Reef", "Deep Ocean", "FrozenOcean", "Kelp Forest", "Ocean", "Ocean Oil Field", "OceanSpires"]
+        }],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            42
+        ]
+    },
+    "FireStone": {
+        "enabled": "true",
+        "template": "underfluid",
+        "generator": "cluster",
+        "block": [{
+                "name": "Railcraft:ore",
+                "metadata": 5,
+                "weight": 1
+            },
+            {
+                "name": "magmaox:MagmaBlock",
+                "metadata": 0,
+                "weight": 99
+            }
+        ],
+        "genFluid": [{
+            "name": "lava",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:netherrack",
+            "metadata": 0
+        }],
+        "chunkChance": 16,
+        "clusterSize": 32,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 127,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [{
+            "type": "dictionary",
+            "entry": "NETHER"
+        }],
+        "dimensionRestriction": "none",
+        "dimensions": [
+
+        ]
+    },
+    "QuarriedStone": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "large-vein",
+        "block": [{
+            "name": "Railcraft:cube",
+            "metadata": 7
+        }],
+        "material": [{
+                "name": "chisel:diorite",
+                "metadata": 0
+            },
+            {
+                "name": "chisel:granite",
+                "metadata": 0
+            },
+            {
+                "name": "chisel:limestone",
+                "metadata": 0
+            },
+            {
+                "name": "chisel:marble",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:stone",
+                "metadata": 0
+            }
+        ],
+        "chunkChance": 24,
+        "clusterSize": 80,
+        "numClusters": 1,
+        "minHeight": 120,
+        "maxHeight": 200,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": [
+
+        ]
+    },
+    "Saltpeter": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "Railcraft:ore",
+            "metadata": 1
+        }],
+        "material": [{
+            "name": "minecraft:sandstone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 4,
+        "numClusters": 24,
+        "minHeight": 50,
+        "maxHeight": 150,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": [
+
+        ]
+    },
+    "Sulfur": {
+        "enabled": "false",
+        "template": "normal",
+        "generator": "lake",
+        "block": [{
+            "name": "minecraft:lava",
+            "metadata": 0
+        }],
+        "useMaterial": "false",
+        "material": [
+
+        ],
+        "outlineBlock": [{
+                "name": "fossil:volcanicRock",
+                "metadata": 0,
+                "weight": 65
+            },
+            {
+                "name": "minecraft:stone",
+                "metadata": 0,
+                "weight": 25
+            },
+            {
+                "name": "Railcraft:ore",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "chunkChance": 5,
+        "numClusters": 1,
+        "meanHeight": 20,
+        "maxVariance": 15,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            9
+        ]
+    }
 }

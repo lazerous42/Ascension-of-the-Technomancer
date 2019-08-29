@@ -1,0 +1,71 @@
+{
+    "CertusQuartz": {
+        "enabled": "true",
+        "template": "normal",
+        "generator": "cluster",
+        "block": [{
+                "name": "appliedenergistics2:tile.OreQuartz",
+                "weight": 90
+            },
+            {
+                "name": "appliedenergistics2:tile.OreQuartzCharged",
+                "weight": 10
+            }
+        ],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 5,
+        "numClusters": 3,
+        "meanHeight": 40,
+        "maxVariance": 18,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            8,
+            101,
+            105,
+            108,
+            118,
+            119
+        ]
+    },
+    "CertusQuartz-Iiloo": {
+        "enabled": "true",
+        "template": "normal",
+        "generator": "cluster",
+        "block": [{
+                "name": "appliedenergistics2:tile.OreQuartz",
+                "weight": 80
+            },
+            {
+                "name": "appliedenergistics2:tile.OreQuartzCharged",
+                "weight": 20
+            }
+        ],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 9,
+        "numClusters": 4,
+        "meanHeight": 40,
+        "maxVariance": 18,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            120
+        ]
+    }
+}

@@ -1,16 +1,37 @@
 {
-
-	"AncientTeleporter":
-	{
+	"AncientTeleporter": {
 		"chance": 1,
-		"Message":
-		[
-			{"message":"I sure hope you know what your getting yourself into"}
-		],
-		"Item":
-		[
-			{"item":{"id":"nevermine:AncientTeleporterBlueprint","Count":1},"delay":20}
+		"Message": [{
+			"message": "I sure hope you know what your getting yourself into"
+		}],
+		"Item": [{
+				"item": {
+					"id": "nevermine:CarvedRune1",
+					"Count": 1
+				},
+				"delay": 20
+			},
+			{
+				"item": {
+					"id": "nevermine:CarvedRune2",
+					"Count": 1
+				},
+				"delay": 40
+			},
+			{
+				"item": {
+					"id": "nevermine:CarvedRune3",
+					"Count": 1
+				},
+				"delay": 20
+			},
+			{
+				"item": {
+					"id": "nevermine:CarvedRune6",
+					"Count": 1
+				},
+				"delay": 40
+			}
 		]
 	}
-
 }

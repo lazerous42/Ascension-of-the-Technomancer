@@ -11,6 +11,13 @@ import mods.auraCascade.Pylon;
 
 print("Initializing 'ClockworkPhase.zs'...");
 
+## Remove nonsense brass recipe / replace stylish brass block recipe
+recipes.remove(<clockworkphase:brassIngot>);
+recipes.remove(<clockworkphase:brassBlock>);
+recipes.addShaped(<clockworkphase:brassBlock>, [[<ore:ingotBrass>, <ore:ingotBrass>, <ore:ingotBrass>], 
+											    [<ore:ingotBrass>, <ore:craftingToolWrench>, <ore:ingotBrass>], 
+											    [<ore:ingotBrass>, <ore:ingotBrass>, <ore:ingotBrass>]]);
+
 ##  Remove Clockwork Phase gear recipes
 recipes.remove(<clockworkphase:gearCopper>);
 recipes.remove(<clockworkphase:gearTin>);
@@ -25,7 +32,9 @@ recipes.remove(<clockworkphase:gearDiamond>);
 recipes.remove(<clockworkphase:gearEmerald>);
 
 recipes.remove(<clockworkphase:gearTemporal>);
-recipes.addShaped(<clockworkphase:gearTemporal>, [[<ore:nuggetTemporal>, <ore:ingotTemporal>, <ore:nuggetTemporal>], [<ore:ingotTemporal>, <ore:craftingToolWrench>, <ore:ingotTemporal>], [<ore:nuggetTemporal>, <ore:ingotTemporal>, <ore:nuggetTemporal>]]);
+recipes.addShaped(<clockworkphase:gearTemporal>, [[<ore:nuggetTemporal>, <ore:ingotTemporal>, <ore:nuggetTemporal>], 
+												  [<ore:ingotTemporal>, <ore:stoneObsidian>, <ore:ingotTemporal>], 
+												  [<ore:nuggetTemporal>, <ore:ingotTemporal>, <ore:nuggetTemporal>]]);
 
 MetalPress.removeRecipe(<clockworkphase:gearTemporal>);
 MetalPress.addRecipe(<clockworkphase:gearTemporal>, <ore:ingotTemporal>, <ImmersiveEngineering:mold:1>, 6400, 6);

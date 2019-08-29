@@ -1,16 +1,72 @@
 {
-	"MagmaBlock": {
-		"template": "uniform",
-		"block": "magmaox:MagmaBlock",
-		"material": "minecraft:netherrack",
-		"clusterSize": 32,
-		"numClusters": 4,
-		"minHeight": 23,
-		"maxHeight": 37,
-		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [-1, -23]
-	}
+    "MagmaBlock": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "magmaox:MagmaBlock",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:netherrack",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 32,
+        "numClusters": 4,
+        "minHeight": 23,
+        "maxHeight": 37,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [{
+            "type": "dictionary",
+            "entry": "NETHER"
+        }],
+        "dimensionRestriction": "none",
+        "dimensions": [
+
+        ]
+    },
+    "MagmaBlock-Vultomas": {
+        "enabled": "true",
+        "template": "surface",
+        "generator": "plate",
+        "block": [{
+            "name": "magmaox:MagmaBlock",
+            "metadata": 0
+        }],
+        "material": [{
+                "name": "BiomesOPlenty:ashStone",
+                "metadata": 0
+            },
+            {
+                "name": "BiomesOPlenty:cragRock",
+                "metadata": 0
+            },
+            {
+                "name": "BiomesOPlenty:driedDirt",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:soul_sand",
+                "metadata": 0
+            }
+        ],
+        "chunkChance": 1,
+        "clusterSize": 32,
+        "numClusters": 4,
+        "sizeVariance": 4,
+        "height": 3,
+        "minHeight": 50,
+        "maxHeight": 75,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            116
+        ]
+    }
 }

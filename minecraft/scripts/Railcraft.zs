@@ -4,12 +4,12 @@
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 ##  Imports
+import mods.gregtech.Assembler;
+import mods.ic2.Compressor;
+import mods.railcraft.CokeOven;
 import mods.railcraft.RockCrusher;
 import mods.railcraft.Rolling;
 import mods.thaumcraft.Infusion;
-import mods.railcraft.CokeOven;
-import mods.gregtech.Assembler;
-import mods.ic2.Compressor;
 
 print("Initializing 'Railcraft.zs'...");
 
@@ -48,10 +48,6 @@ val firestoneOre = <Railcraft:ore:5>;
 val firestoneRaw = <Railcraft:firestone.raw>;
 val firestoneCut = <Railcraft:firestone.cut>;
 val firestoneRefined = <Railcraft:firestone.refined:5000>;
-
-##  OreDict Entries
-<ore:gearSteel>.add(<Railcraft:part.gear:2>);
-<ore:bottleCreosote>.add(bottleCreosote);
 
 ##  Remove Non-GregTech Gears
 recipes.remove(<Railcraft:part.gear>);

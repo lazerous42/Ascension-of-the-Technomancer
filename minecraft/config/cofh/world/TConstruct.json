@@ -1,21 +1,196 @@
- {
- 	"Cobalt": {
- 		"template": "uniform",
- 		"block": {
- 			"name": "TConstruct:SearedBrick",
- 			"metadata": 1
- 		},
- 		"material": "minecraft:netherrack",
- 		"clusterSize": 3,
- 		"numClusters": 7,
- 		"minHeight": 1,
- 		"maxHeight": 128,
- 		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [
-			"all"
-		],
-		"dimensionRestriction": "blacklist",
-		"dimensions": [0, 1]
- 	}
- }
+{
+    "AluminumGravel": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "sparse-cluster",
+        "block": [{
+            "name": "TConstruct:GravelOre",
+            "metadata": 4
+        }],
+        "material": [{
+            "name": "minecraft:gravel",
+            "metadata": 0
+        }],
+        "chunkChance": 5,
+        "clusterSize": 4,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            102,
+            107,
+            112,
+            116
+        ]
+    },
+    "Cobalt": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "TConstruct:SearedBrick",
+            "metadata": 1
+        }],
+        "material": [{
+            "name": "minecraft:netherrack",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 3,
+        "numClusters": 7,
+        "minHeight": 1,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomeRestriction": "whitelist",
+        "biomes": [{
+            "type": "dictionary",
+            "entry": "NETHER"
+        }],
+        "dimensionRestriction": "none",
+        "dimensions": [
+
+        ]
+    },
+    "CobaltGravel": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "sparse-cluster",
+        "block": [{
+            "name": "TConstruct:GravelOre",
+            "metadata": 4
+        }],
+        "material": [{
+            "name": "minecraft:gravel",
+            "metadata": 0
+        }],
+        "chunkChance": 9,
+        "clusterSize": 3,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": [
+
+        ]
+    },
+    "CopperGravel": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "sparse-cluster",
+        "block": [{
+            "name": "TConstruct:GravelOre",
+            "metadata": 2
+        }],
+        "material": [{
+            "name": "minecraft:gravel",
+            "metadata": 0
+        }],
+        "chunkChance": 5,
+        "clusterSize": 4,
+        "numClusters": 3,
+        "minHeight": 1,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": [
+
+        ]
+    },
+    "GoldGravel": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "sparse-cluster",
+        "block": [{
+            "name": "TConstruct:GravelOre",
+            "metadata": 1
+        }],
+        "material": [{
+            "name": "minecraft:gravel",
+            "metadata": 0
+        }],
+        "chunkChance": 5,
+        "clusterSize": 3,
+        "numClusters": 2,
+        "minHeight": 1,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": [
+
+        ]
+    },
+    "IronGravel": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "sparse-cluster",
+        "block": [{
+            "name": "TConstruct:GravelOre",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:gravel",
+            "metadata": 0
+        }],
+        "chunkChance": 5,
+        "clusterSize": 3,
+        "numClusters": 3,
+        "minHeight": 1,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": [
+
+        ]
+    },
+    "TinGravel": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "sparse-cluster",
+        "block": [{
+            "name": "TConstruct:GravelOre",
+            "metadata": 3
+        }],
+        "material": [{
+            "name": "minecraft:gravel",
+            "metadata": 0
+        }],
+        "chunkChance": 5,
+        "clusterSize": 4,
+        "numClusters": 3,
+        "minHeight": 1,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": [
+
+        ]
+    }
+}

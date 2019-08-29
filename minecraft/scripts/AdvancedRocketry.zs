@@ -144,17 +144,17 @@ recipes.remove(<advancedRocketry:satellitePowerSource>);
 recipes.addShaped(<advancedRocketry:satellitePowerSource>, [[null, <ProjRed|Expansion:projectred.expansion.solar_panel>, null], 
 														    [<ore:ingotRedAlloy>, <ore:ingotRedAlloy>, null], 
 														    [null, <ProjRed|Expansion:projectred.expansion.solar_panel>, null]]);
-# Block
+##  Block
 recipes.remove(<advancedRocketry:tile.solarPanel>);
 recipes.addShapeless(<advancedRocketry:tile.solarPanel>, [<libVulpes:blockStructureBlock>, <advancedRocketry:satellitePowerSource>]);
 
-# Steel Gear
+## Steel Gear
 recipes.remove(<libVulpes:libVulpesproductgear:6>);
 
-# Titanium Gear
+## Titanium Gear
 recipes.remove(<libVulpes:libVulpesproductgear:7>);
 
-# Titanium Aluminide Gear
+##  Titanium Aluminide Gear
 recipes.remove(<advancedRocketry:advancedRocketryproductgear>);
 MetalPress.addRecipe(<advancedRocketry:advancedRocketryproductgear>, <ore:ingotTitaniumAluminide>, moldGear, 6400, 6);
 AlloySmelter.addRecipe(<advancedRocketry:advancedRocketryproductgear>, <ore:ingotTitaniumAluminide> * 8, <gregtech:gt.metaitem.01:32303> * 0, 760, 32);
@@ -163,7 +163,7 @@ recipes.addShaped(<advancedRocketry:advancedRocketryproductgear>, [[<ore:stickTi
 																   [<ore:plateTitaniumAluminide>, <ore:craftingToolWrench>, <ore:plateTitaniumAluminide>], 
 																   [<ore:stickTitaniumAluminide>, <ore:plateTitaniumAluminide>, <ore:stickTitaniumAluminide>]]);
 
-# Titanium Iridium Alloy Gear
+##  Titanium Iridium Alloy Gear
 recipes.remove(<advancedRocketry:advancedRocketryproductgear:1>);
 MetalPress.addRecipe(<advancedRocketry:advancedRocketryproductgear:1>, <ore:ingotTitaniumIridium>, moldGear, 6400, 6);
 AlloySmelter.addRecipe(<advancedRocketry:advancedRocketryproductgear:1>, <ore:ingotTitaniumIridium> * 8, <gregtech:gt.metaitem.01:32303> * 0, 760, 32);
@@ -172,16 +172,13 @@ recipes.addShaped(<advancedRocketry:advancedRocketryproductgear:1>, [[<ore:stick
 																     [<ore:plateTitaniumIridium>, <ore:craftingToolWrench>, <ore:plateTitaniumIridium>], 
 																     [<ore:stickTitaniumIridium>, <ore:plateTitaniumIridium>, <ore:stickTitaniumIridium>]]);
 
-# Remove Coal Generator
+##  Coal Generator
 recipes.remove(<libVulpes:tile.coalGenerator>);
-NEI.hide(<libVulpes:tile.coalGenerator>);
 
-# Remove Energy Pipe
+##  Energy Pipe
 recipes.remove(<advancedRocketry:tile.energyPipe>);
-NEI.hide(<advancedRocketry:tile.energyPipe>);
 
-# Remove Liquid Pipe
+##  Liquid Pipe
 recipes.remove(<advancedRocketry:tile.liquidPipe>);
-NEI.hide(<advancedRocketry:tile.liquidPipe>);
 
 print("Initialized 'AdvancedRocketry.zs'");

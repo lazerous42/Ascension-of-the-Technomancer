@@ -1,0 +1,99 @@
+{
+    "BlueTopaz": {
+        "enabled": "true",
+        "template": "normal",
+        "generator": "cluster",
+        "block": [{
+            "name": "arsmagica2:vinteumOre",
+            "metadata": 2
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 5,
+        "numClusters": 2,
+        "meanHeight": 30,
+        "maxVariance": 15,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+    "Chimerite": {
+        "enabled": "true",
+        "template": "cave",
+        "generator": "stalagmite",
+        "block": [{
+            "name": "arsmagica2:vinteumOre",
+            "metadata": 1
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "ceiling": "false",
+        "chunkChance": 3,
+        "numClusters": 1,
+        "genBody": [{
+            "name": "minecraft:air",
+            "metadata": 0
+        }],
+        "genSize": 2,
+        "minHeight": 2,
+        "heightVariance": 3,
+        "sizeVariance": 1,
+        "smooth": "true",
+        "fat": "false",
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+    "Vinteum": {
+        "enabled": "true",
+        "template": "cave",
+        "generator": "stalagmite",
+        "block": [{
+            "name": "arsmagica2:vinteumOre",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "ceiling": "false",
+        "chunkChance": 3,
+        "numClusters": 1,
+        "genBody": [{
+            "name": "minecraft:air",
+            "metadata": 0
+        }],
+        "genSize": 2,
+        "minHeight": 2,
+        "heightVariance": 3,
+        "sizeVariance": 1,
+        "smooth": "true",
+        "fat": "false",
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    }
+}

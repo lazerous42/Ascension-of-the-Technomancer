@@ -11,14 +11,6 @@ print("Initializing 'Natura.zs'...");
 ## Val Statements
 val mushroomStew = <minecraft:mushroom_stew>;
 
-## OreDict Entries
-#<ore:listAllberry>.add(<Natura:berry>);
-#<ore:listAllfruit>.add(<Natura:berry>);
-#<ore:listAllfruit>.add(<Natura:berry:2>);
-#<ore:listAllberry>.add(<Natura:berry:2>);
-#<ore:listAllfruit>.add(<Natura:berry:1>);
-#<ore:listAllberry>.add(<Natura:berry:1>);
-
 ##  Log Fixes
 var logs = [<Natura:tree>, 
 	    	<Natura:tree:1>, 

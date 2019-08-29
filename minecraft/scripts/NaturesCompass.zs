@@ -6,8 +6,8 @@
 print("Initializing 'NaturesCompass.zs'...");
 
 recipes.remove(<naturescompass:NaturesCompass>);
-recipes.addShaped(<naturescompass:NaturesCompass>, [[<witchery:witchsapling:*>, <Botania:dreamwood>, <witchery:witchsapling:*>], 
-						    						[<Botania:dreamwood>, <minecraft:compass>, <Botania:dreamwood>], 
-						    						[<witchery:witchsapling:*>, <Botania:dreamwood>, <witchery:witchsapling:*>]]);
+recipes.addShaped(<naturescompass:NaturesCompass>, [[<witchery:witchsapling:*>, <Botania:manaResource:5>, <witchery:witchsapling:*>], 
+						    						[<Botania:manaResource:5>, <minecraft:compass>, <Botania:manaResource:5>], 
+						    						[<witchery:witchsapling:*>, <Botania:manaResource:5>, <witchery:witchsapling:*>]]);
 
 print("Initialized 'NaturesCompass.zs'");

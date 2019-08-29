@@ -51,103 +51,82 @@ recipes.removeShaped(<aether:zaniteGemstone>);
 
 #RECIPE ADDING
 
-recipes.addShaped(<aether:gravititeSword>,
- [[null, gravitite, null],
-  [File, gravitite, HHammer],
-  [null, stick, null]]);
+recipes.addShaped(<aether:gravititeSword>, [[null, gravitite, null],
+                                            [File, gravitite, HHammer],
+                                            [null, stick, null]]);
 
-recipes.addShaped(<aether:gravititeShovel>,
- [[File, gravitite, HHammer],
-  [null, stick, null],
-  [null, stick, null]]);
+recipes.addShaped(<aether:gravititeShovel>, [[File, gravitite, HHammer],
+                                             [null, stick, null],
+                                             [null, stick, null]]);
 
-recipes.addShaped(<aether:gravititeAxe>,
- [[gravitite, gravitite, HHammer],
-  [gravitite, <ore:stickWood>, null],
-  [File, <ore:stickWood>, null]]);
+recipes.addShaped(<aether:gravititeAxe>, [[gravitite, gravitite, HHammer],
+                                          [gravitite, <ore:stickWood>, null],
+                                          [File, <ore:stickWood>, null]]);
 
-recipes.addShaped(<aether:gravititePickaxe>,
- [[gravitite, gravitite, gravitite],
-  [File, stick, HHammer],
-  [null, stick, null]]);
+recipes.addShaped(<aether:gravititePickaxe>, [[gravitite, gravitite, gravitite],
+                                              [File, stick, HHammer],
+                                              [null, stick, null]]);
 
-recipes.addShaped(<aether:gravititeGloves>,
- [[gravitite, HHammer, gravitite]]);
+recipes.addShaped(<aether:gravititeGloves>, [[gravitite, HHammer, gravitite]]);
 
-recipes.addShaped(<aether:gravititeBoots>,
- [[gravitite, null, gravitite],
-  [gravitite, HHammer, gravitite]]);
+recipes.addShaped(<aether:gravititeBoots>, [[gravitite, null, gravitite],
+                                            [gravitite, HHammer, gravitite]]);
 
-recipes.addShaped(<aether:gravititeLeggings>,
- [[gravitite, gravitite, gravitite],
-  [gravitite, HHammer, gravitite],
-  [gravitite, null, gravitite]]);
+recipes.addShaped(<aether:gravititeLeggings>, [[gravitite, gravitite, gravitite],
+                                               [gravitite, HHammer, gravitite],
+                                               [gravitite, null, gravitite]]);
 
-recipes.addShaped(<aether:gravititeChestplate>,
- [[gravitite, HHammer, gravitite],
-  [gravitite, gravitite, gravitite],
-  [gravitite, gravitite, gravitite]]);
+recipes.addShaped(<aether:gravititeChestplate>, [[gravitite, HHammer, gravitite],
+                                                 [gravitite, gravitite, gravitite],
+                                                 [gravitite, gravitite, gravitite]]);
 
-recipes.addShaped(<aether:gravititeHelmet>,
- [[gravitite, gravitite, gravitite],
-  [gravitite, HHammer, gravitite]]);
+recipes.addShaped(<aether:gravititeHelmet>, [[gravitite, gravitite, gravitite],
+                                             [gravitite, HHammer, gravitite]]);
 
-recipes.addShaped(<aether:chainGloves>,
- [[<ore:ringSteel>, HHammer, <ore:ringSteel>]]);
+recipes.addShaped(<aether:chainGloves>, [[<ore:ringSteel>, HHammer, <ore:ringSteel>]]);
 
-recipes.addShaped(<aether:ironRing>,
- [[null, File, null],
-  [null, <ore:ringAnyIron>, null],
-  [null, HHammer, null]]);
+recipes.addShaped(<aether:ironRing>, [[null, File, null],
+                                      [null, <ore:ringAnyIron>, null],
+                                      [null, HHammer, null]]);
 
-recipes.addShaped(<aether:goldenRing>,
- [[null, File, null],
-  [null, <ore:ringGold>, null],
-  [null, HHammer, null]]);
+recipes.addShaped(<aether:goldenRing>, [[null, File, null],
+                                        [null, <ore:ringGold>, null],
+                                        [null, HHammer, null]]);
 
-recipes.addShapedMirrored(<aether:zaniteRing>,
- [[File, <aether:zaniteGemstone>, HHammer],
-  [<aether:zaniteGemstone>, null, <aether:zaniteGemstone>],
-  [null, <aether:zaniteGemstone>, null]]);
+recipes.addShapedMirrored(<aether:zaniteRing>, [[File, <aether:zaniteGemstone>, HHammer],
+                                                [<aether:zaniteGemstone>, null, <aether:zaniteGemstone>],
+                                                [null, <aether:zaniteGemstone>, null]]);
 
-recipes.addShaped(<aether:ironGloves>,
- [[<ore:plateAnyIron>, HHammer, <ore:plateAnyIron>]]);
+recipes.addShaped(<aether:ironGloves>, [[<ore:plateAnyIron>, HHammer, <ore:plateAnyIron>]]);
 
-recipes.addShaped(<aether:goldenGolves>,
- [[<ore:plateGold>, HHammer, <ore:plateGold>]]);
+recipes.addShaped(<aether:goldenGolves>, [[<ore:plateGold>, HHammer, <ore:plateGold>]]);
 
-recipes.addShaped(<aether:altar>,
- [[<aether:ambrosiumShard>, <ore:craftingBook>, <aether:ambrosiumShard>],
-  [<aether:holystoneWall>, <aether:zaniteBlock>, <aether:holystoneWall>],
-  [<aether:tile.holystoneSingleSlab>, <aether:tile.holystoneSingleSlab>, <aether:tile.holystoneSingleSlab>]]);
+recipes.addShaped(<aether:altar>, [[<aether:ambrosiumShard>, <ore:craftingBook>, <aether:ambrosiumShard>],
+                                   [<aether:holystoneWall>, <aether:zaniteBlock>, <aether:holystoneWall>],
+                                   [<aether:tile.holystoneSingleSlab>, <aether:tile.holystoneSingleSlab>, <aether:tile.holystoneSingleSlab>]]);
 
-recipes.addShaped(<aether:incubator>,
- [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-  [<ore:plankWood>, <aether:ambrosiumTorch>, <ore:plankWood>],
-  [<ore:stoneSmooth>, <ore:blockWool>, <ore:stoneSmooth>]]);
+recipes.addShaped(<aether:incubator>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+                                       [<ore:plankWood>, <aether:ambrosiumTorch>, <ore:plankWood>],
+                                       [<ore:stoneSmooth>, <ore:blockWool>, <ore:stoneSmooth>]]);
 
-recipes.addShapedMirrored(<aether:goldenPendant>,
-  [[File, goldRod, HHammer],
-  [goldRod, <aether:goldenRing>, goldRod]]);
+recipes.addShapedMirrored(<aether:goldenPendant>, [[File, goldRod, HHammer],
+                                                   [goldRod, <aether:goldenRing>, goldRod]]);
 
-recipes.addShapedMirrored(<aether:ironPendant>,
-  [[File, ironRod, HHammer],
-  [ironRod, <aether:ironRing>, ironRod]]);
+recipes.addShapedMirrored(<aether:ironPendant>, [[File, ironRod, HHammer],
+                                                 [ironRod, <aether:ironRing>, ironRod]]);
 
-recipes.addShapedMirrored(<aether:zanitePendant>,
-  [[File, <aether:zaniteGemstone>, HHammer],
-  [<aether:zaniteGemstone>, <aether:zaniteRing>, <aether:zaniteGemstone>]]);
+recipes.addShapedMirrored(<aether:zanitePendant>, [[File, <aether:zaniteGemstone>, HHammer],
+                                                   [<aether:zaniteGemstone>, <aether:zaniteRing>, <aether:zaniteGemstone>]]);
 
-// MACERATOR RECIPE ADDING
+##  Macerator Recipes
 Macerator.addRecipe(<aether:ambrosiumShard> * 2, <aether:ambrosiumOre>);
 Macerator.addRecipe(<aether:zaniteGemstone> * 2, <aether:zaniteOre>);
 Macerator.addRecipe(<aether:zaniteGemstone> * 9, <aether:zaniteBlock>);
 
-// COMPRESSOR RECIPE ADDING
+##  Compressor Recipes
 Compressor.addRecipe(<IC2:itemFuelPlantBall>, <aether:purpleFlower>);
 Compressor.addRecipe(<IC2:itemFuelPlantBall>, <aether:whiteRose>);
 Compressor.addRecipe(<aether:zaniteBlock>, <aether:zaniteGemstone> * 9);
 
-// NAME CHANGES
-
+##  Name Changes
 NEI.overrideName(<aether:aechorPetal>, "Moa Feed");

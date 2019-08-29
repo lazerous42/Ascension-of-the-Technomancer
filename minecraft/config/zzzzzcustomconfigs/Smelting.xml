@@ -16,6 +16,11 @@ The xp parameter determines how much xp the player is given when picking the out
 
 <Smelting>
 	<recipe>
+		<output>clockworkphase:ingotTemporal 1 0</output>
+		<input>clockworkphase:oreTemporal 1 0</input>
+		<xp>5.0</xp>
+	</recipe>
+	<recipe>
 		<output>gregtech:gt.metaitem.01 1 11036</output>
 		<input>dustZinc 1 0</input>
 		<xp>1.0</xp>

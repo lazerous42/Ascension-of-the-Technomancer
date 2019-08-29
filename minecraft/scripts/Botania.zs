@@ -5,12 +5,13 @@
 
 ##  Imports
 import minetweaker.item.IItemStack;
+import mods.botania.Apothecary;
 import mods.botania.ElvenTrade;
 import mods.botania.Lexicon;
 import mods.botania.ManaInfusion;
-import mods.botania.RuneAltar;
-import mods.botania.Apothecary;
 import mods.botania.PureDaisy;
+import mods.botania.RuneAltar;
+import mods.thaumcraft.Arcane;
 
 print("Initializing 'Botania.zs'...");
 ##  Val Definitions
@@ -79,17 +80,26 @@ recipes.addShaped(<Botania:lexicon>, [[nuggetGold, flowerMystical, nuggetGold], 
 recipes.remove(manaweaveCloth);
 ManaInfusion.addInfusion(manaweaveCloth, toughFabric, 1000);
 
-##  Electrotine -> Redstone -> Glowstone loop
+##  Glowstone -> Redstone -> Electrotine loop
 ManaInfusion.removeRecipe(dustRedstone);
-ManaInfusion.addAlchemy(dustRedstone, dustElectrotine, 500);
-ManaInfusion.addAlchemy(dustElectrotine, dustGlowstone, 500);
+ManaInfusion.addAlchemy(dustRedstone, dustGlowstone, 50);
+ManaInfusion.addConjuration(dustRedstone * 2, dustRedstone, 5000);
+
+ManaInfusion.removeRecipe(dustGlowstone);
+ManaInfusion.addAlchemy(dustGlowstone, dustElectrotine, 50);
+ManaInfusion.addConjuration(dustGlowstone * 2, dustGlowstone, 5000);
+
+ManaInfusion.addAlchemy(dustElectrotine, dustRedstone, 50);
+ManaInfusion.addConjuration(dustElectrotine * 2, dustElectrotine, 5000);
 
 ##  Mana Powder
 ManaInfusion.addInfusion(manaPowder, dustElectrotine, 1000);
 
 ##  Petal Apothocary
 recipes.remove(<Botania:altar>);
-recipes.addShaped(<Botania:altar>, [[<ore:slabCobblestone>, <Botania:petal:*>, <ore:slabCobblestone>], [null, <minecraft:cauldron>], [<ore:compressedCobblestone2x>, <ore:compressedCobblestone2x>, <ore:compressedCobblestone2x>]]);
+Arcane.addShaped("ASPECTS", <Botania:altar>, "ordo 25, terra 25", [[<thebetweenlands:Smooth Cragrock Slab>, <Botania:petal:*>, <thebetweenlands:Smooth Cragrock Slab>],
+												  				   [null, <minecraft:cauldron>, null], 
+												  				   [<thebetweenlands:smoothCragrock>, <ore:compressedCobblestone4x>, <thebetweenlands:smoothCragrock>]]);
 
 ##  Glimmering Livingwood
 recipes.remove(<Botania:livingwood:5>);

@@ -11,51 +11,34 @@ import mods.thermalexpansion.Furnace;
 
 print("Initializing '1-InitialScripts.zs'...");
 
+<ore:nuggetManasteel>.remove(<ForbiddenMagic:FMResource:2>);
+<ore:nuggetElvenElementium>.remove(<ForbiddenMagic:FMResource:4>);
+
+##  Ore Dictionary
+#   Remove botania dye
+<ore:dyeWhite>.remove(<Botania:dye>);
+<ore:dyeOrange>.remove(<Botania:dye:1>);
+<ore:dyeMagenta>.remove(<Botania:dye:2>);
+<ore:dyeLightBlue>.remove(<Botania:dye:3>);
+<ore:dyeYellow>.remove(<Botania:dye:4>);
+<ore:dyeLime>.remove(<Botania:dye:5>);
+<ore:dyePink>.remove(<Botania:dye:6>);
+<ore:dyeGray>.remove(<Botania:dye:7>);
+<ore:dyeLightGray>.remove(<Botania:dye:8>);
+<ore:dyeCyan>.remove(<Botania:dye:9>);
+<ore:dyePurple>.remove(<Botania:dye:10>);
+<ore:dyeBlue>.remove(<Botania:dye:11>);
+<ore:dyeBrown>.remove(<Botania:dye:12>);
+<ore:dyeGreen>.remove(<Botania:dye:13>);
+<ore:dyeRed>.remove(<Botania:dye:14>);
+<ore:dyeBlack>.remove(<Botania:dye:15>);
+#   BoP Flesh Block OD entry Removal to prevent exploit with MRF Meat Block crafting into 9 meat ingots
+<ore:blockMeatRaw>.remove(<BiomesOPlenty:flesh>);
+
 ## Bedrockium Furnace Removal
 # Not sure why I can't remove these in the ExU script, here it works, there it doesn't
 furnace.remove(<*>, <ExtraUtilities:cobblestone_compressed:7>);
 Furnace.removeRecipe(<ExtraUtilities:cobblestone_compressed:7>);
-
-<ore:flowerMystical>.add(<Botania:flower:*>);
-<ore:petalMystical>.add(<Botania:petal:*>);
-<ore:shardBalance>.add(<Thaumcraft:ItemShard:6>);
-<ore:nuggetManasteel>.remove(<ForbiddenMagic:FMResource:2>);
-<ore:nuggetElvenElementium>.remove(<ForbiddenMagic:FMResource:4>);
-
-# - Ore Dictionary
-# -- Remove botania dye
-val dyeWhite = <ore:dyeWhite>;
-val dyeOrange = <ore:dyeOrange>;
-val dyeMagenta = <ore:dyeMagenta>;
-val dyeLightBlue = <ore:dyeLightBlue>;
-val dyeYellow = <ore:dyeYellow>;
-val dyeLime = <ore:dyeLime>;
-val dyePink = <ore:dyePink>;
-val dyeGray = <ore:dyeGray>;
-val dyeLightGray = <ore:dyeLightGray>;
-val dyeCyan = <ore:dyeCyan>;
-val dyePurple = <ore:dyePurple>;
-val dyeBlue = <ore:dyeBlue>;
-val dyeBrown = <ore:dyeBrown>;
-val dyeGreen = <ore:dyeGreen>;
-val dyeRed = <ore:dyeRed>;
-val dyeBlack = <ore:dyeBlack>;
-dyeWhite.remove(<Botania:dye>);
-dyeOrange.remove(<Botania:dye:1>);
-dyeMagenta.remove(<Botania:dye:2>);
-dyeLightBlue.remove(<Botania:dye:3>);
-dyeYellow.remove(<Botania:dye:4>);
-dyeLime.remove(<Botania:dye:5>);
-dyePink.remove(<Botania:dye:6>);
-dyeGray.remove(<Botania:dye:7>);
-dyeLightGray.remove(<Botania:dye:8>);
-dyeCyan.remove(<Botania:dye:9>);
-dyePurple.remove(<Botania:dye:10>);
-dyeBlue.remove(<Botania:dye:11>);
-dyeBrown.remove(<Botania:dye:12>);
-dyeGreen.remove(<Botania:dye:13>);
-dyeRed.remove(<Botania:dye:14>);
-dyeBlack.remove(<Botania:dye:15>);
 
 ##  Convert Three Gravel to One Flint
 recipes.addShapeless(<minecraft:flint>, [<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]);
@@ -63,10 +46,6 @@ recipes.addShapeless(<minecraft:flint>, [<minecraft:gravel>, <minecraft:gravel>,
 ##  Sugar should allow food mortar and pestals, not just the GregTech ones
 recipes.addShapeless(<minecraft:sugar>, [<ore:toolMortarandpestle>, <minecraft:reeds>]);
 recipes.addShapeless(<minecraft:sugar>, [<ore:pestleAndMortar>, <minecraft:reeds>]);
-
-##  BoP Flesh Block OD entry Removal to prevent exploit with MRF Meat Block crafting into 9 meat ingots
-val entry = <ore:blockMeatRaw>;
-entry.remove(<BiomesOPlenty:flesh>);
 
 ##  Compass (you will need many for map macking through the Bibliocraft Atlas)
 recipes.remove(<minecraft:compass>);
@@ -145,7 +124,7 @@ Alchemy.removeRecipe(<minecraft:web>);
 
 ##   Blood stained blocks
 recipes.removeShapeless(<Railcraft:brick.bloodstained:2>);
-recipes.addShapeless(<Railcraft:brick.bloodstained:2>, [<minecraft:sandstone:2>, <minecraft:beef>]);
+recipes.addShapeless(<Railcraft:brick.bloodstained:2>, [<minecraft:sandstone:2>, <ore:listAllmeatraw>]);
 recipes.addShapeless(<Railcraft:brick.bloodstained:2>, [<minecraft:sandstone:2>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>]);
 
 ##   Minor things

@@ -1,0 +1,56 @@
+{
+	"Quicksand": {
+		"enabled": "true",
+		"template": "surface",
+		"generator": "lake",
+		"block": [{
+			"name": "Artifacts:quicksand",
+			"metadata": 0
+		}],
+		"useMaterial": "true",
+		"material": [{
+				"name": "BiomesOPlenty:newBopDirt",
+				"metadata": 0
+			},
+			{
+				"name": "BiomesOPlenty:newBopGrass",
+				"metadata": 0
+			},
+			{
+				"name": "minecraft:dirt",
+				"metadata": 0
+			},
+			{
+				"name": "minecraft:grass",
+				"metadata": 0
+			},
+			{
+				"name": "minecraft:sand",
+				"metadata": 0
+			}
+		],
+		"followTerrain": "false",
+		"chunkChance": 32,
+		"numClusters": 1,
+		"retrogen": "false",
+		"biomeRestriction": "whitelist",
+		"biomes": [{
+			"type": "dictionary",
+			"entry": ["SWAMP"]
+		}],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [
+			0,
+			7,
+			9,
+			102,
+			103,
+			107,
+			109,
+			112,
+			114,
+			116,
+			120
+		]
+	}
+}

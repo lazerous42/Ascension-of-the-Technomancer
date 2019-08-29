@@ -1,0 +1,197 @@
+{
+    "OozeSubsurface": {
+        "enabled": "true",
+        "template": "normal",
+        "generator": "lake",
+        "block": [{
+            "name": "arcticmobs:ooze",
+            "metadata": 0
+        }],
+        "useMaterial": "false",
+        "material": [
+
+        ],
+        "outlineBlock": [{
+            "name": "BiomesOPlenty:hardIce",
+            "metadata": 0
+        }],
+        "chunkChance": 18,
+        "numClusters": 1,
+        "meanHeight": 50,
+        "maxVariance": 25,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [{
+            "type": "dictionary",
+            "entry": "COLD"
+        }],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            1
+        ]
+    },
+    "OozeSurface": {
+        "enabled": "true",
+        "template": "surface",
+        "generator": "lake",
+        "block": [{
+            "name": "arcticmobs:ooze",
+            "metadata": 0
+        }],
+        "useMaterial": "false",
+        "material": [
+
+        ],
+        "outlineBlock": [{
+            "name": "BiomesOPlenty:hardIce",
+            "metadata": 0
+        }],
+        "followTerrain": "false",
+        "chunkChance": 52,
+        "numClusters": 1,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [{
+                "type": "dictionary",
+                "entry": ["COLD", "DEAD"]
+            },
+            {
+                "type": "dictionary",
+                "entry": ["COLD", "WASTELAND"]
+            }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            0,
+            1,
+            7
+        ]
+    },
+    "PureLava-Nether": {
+        "enabled": "true",
+        "template": "cave",
+        "generator": "lake",
+        "block": [{
+            "name": "infernomobs:purelava",
+            "metadata": 0
+        }],
+        "useMaterial": "false",
+        "material": [
+
+        ],
+        "outlineBlock": [{
+                "name": "fossil:volcanicRock",
+                "metadata": 0,
+                "weight": 50
+            },
+            {
+                "name": "magmaox:MagmaBlock",
+                "metadata": 0,
+                "weight": 25
+            },
+            {
+                "name": "minecraft:obsidian",
+                "metadata": 0,
+                "weight": 25
+            }
+        ],
+        "ceiling": "false",
+        "chunkChance": 22,
+        "numClusters": 1,
+        "minHeight": 2,
+        "maxHeight": 120,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [{
+            "type": "dictionary",
+            "entry": "NETHER"
+        }],
+        "dimensionRestriction": "none",
+        "dimensions": [
+
+        ]
+    },
+    "PureLavaSubsurface-Vultomas": {
+        "enabled": "true",
+        "template": "normal",
+        "generator": "lake",
+        "block": [{
+            "name": "infernomobs:purelava",
+            "metadata": 0
+        }],
+        "useMaterial": "false",
+        "material": [
+
+        ],
+        "outlineBlock": [{
+                "name": "fossil:volcanicRock",
+                "metadata": 0,
+                "weight": 50
+            },
+            {
+                "name": "magmaox:MagmaBlock",
+                "metadata": 0,
+                "weight": 25
+            },
+            {
+                "name": "minecraft:obsidian",
+                "metadata": 0,
+                "weight": 25
+            }
+        ],
+        "chunkChance": 20,
+        "numClusters": 1,
+        "meanHeight": 50,
+        "maxVariance": 25,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            116
+        ]
+    },
+    "PureLavaSurface-Vultomas": {
+        "enabled": "true",
+        "template": "surface",
+        "generator": "lake",
+        "block": [{
+            "name": "infernomobs:purelava",
+            "metadata": 0
+        }],
+        "useMaterial": "false",
+        "material": [
+
+        ],
+        "outlineBlock": [{
+                "name": "fossil:volcanicRock",
+                "metadata": 0,
+                "weight": 50
+            },
+            {
+                "name": "magmaox:MagmaBlock",
+                "metadata": 0,
+                "weight": 25
+            },
+            {
+                "name": "minecraft:obsidian",
+                "metadata": 0,
+                "weight": 25
+            }
+        ],
+        "followTerrain": "false",
+        "chunkChance": 52,
+        "numClusters": 1,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            116
+        ]
+    }
+}

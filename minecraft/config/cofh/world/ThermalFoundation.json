@@ -1,183 +1,730 @@
 {
-	"Copper": {
-		"template": "uniform",
-		"block": {
-			"name": "ThermalFoundation:Ore",
-			"metadata": 0
-		},
-		"clusterSize": 7,
-		"numClusters": 5,
-		"minHeight": 55,
-		"maxHeight": 176,
-		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [],
-		"dimensionRestriction": "blacklist",
-		"dimensions": [-1, 1]
-	},
-	"Aquanos-Copper": {
-		"template": "uniform",
-		"block": {
-			"name": "ThermalFoundation:Ore",
-			"metadata": 0
-		},
-		"clusterSize": 14,
-		"numClusters": 10,
-		"minHeight": 30,
-		"maxHeight": 128,
-		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [115]
-	},
-	"Tin": {
-		"template": "uniform",
-		"block": {
-			"name": "ThermalFoundation:Ore",
-			"metadata": 1
-		},
-		"clusterSize": 6,
-		"numClusters": 5,
-		"minHeight": 40,
-		"maxHeight": 120,
-		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [],
-		"dimensionRestriction": "blacklist",
-		"dimensions": [-1, 1]
-	},
-	"Vultomas-Tin": {
-		"template": "uniform",
-		"block": {
-			"name": "ThermalFoundation:Ore",
-			"metadata": 1
-		},
-		"clusterSize": 10,
-		"numClusters": 12,
-		"minHeight": 30,
-		"maxHeight": 60,
-		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [116]
-	},
-	"Silver": {
-		"template": "uniform",
-		"block": [{
-				"name": "ThermalFoundation:Ore",
-				"metadata": 2,
-				"weight": 80
-			},
-			{
-				"name": "ThermalFoundation:Ore",
-				"metadata": 3,
-				"weight": 20
-			}
-		],
-		"clusterSize": 6,
-		"numClusters": 4,
-		"minHeight": 2,
-		"maxHeight": 45,
-		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [],
-		"dimensionRestriction": "blacklist",
-		"dimensions": [-1, 1]
-	},
-	"Lead": {
-		"template": "uniform",
-		"block": [{
-				"name": "ThermalFoundation:Ore",
-				"metadata": 3,
-				"weight": 90
-			},
-			{
-				"name": "ThermalFoundation:Ore",
-				"metadata": 2,
-				"weight": 10
-			}
-		],
-		"clusterSize": 7,
-		"numClusters": 6,
-		"minHeight": 46,
-		"maxHeight": 85,
-		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [],
-		"dimensionRestriction": "blacklist",
-		"dimensions": [-1, 1]
-	},
-	"Orrobos-Lead": {
-		"template": "uniform",
-		"block": {
-			"name": "ThermalFoundation:Ore",
-			"metadata": 3
-		},
-		"clusterSize": 12,
-		"numClusters": 10,
-		"minHeight": 28,
-		"maxHeight": 50,
-		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [106]
-	},
-	"Nickel": {
-		"template": "uniform",
-		"block": [{
-				"name": "ThermalFoundation:Ore",
-				"metadata": 4,
-				"weight": 97
-			},
-			{
-				"name": "ThermalFoundation:Ore",
-				"metadata": 5,
-				"weight": 3
-			}
-		],
-		"clusterSize": 5,
-		"numClusters": 4,
-		"minHeight": 2,
-		"maxHeight": 25,
-		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [],
-		"dimensionRestriction": "blacklist",
-		"dimensions": [-1, 1]
-	},
-	"Tenneris-Nickel": {
-		"template": "uniform",
-		"block": {
-			"name": "ThermalFoundation:Ore",
-			"metadata": 4
-		},
-		"clusterSize": 9,
-		"numClusters": 12,
-		"minHeight": 2,
-		"maxHeight": 25,
-		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [103]
-	},
-	"Mithril": {
-		"template": "uniform",
-		"block": {
-			"name": "ThermalFoundation:Ore",
-			"metadata": 6
-		},
-		"clusterSize": 4,
-		"numClusters": 4,
-		"minHeight": 2,
-		"maxHeight": 50,
-		"retrogen": "false",
-		"biomeRestriction": "none",
-		"biomes": [],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [5, 7]
-	}
+    "AerothiumSubsurface-Aether": {
+        "enabled": "true",
+        "template": "normal",
+        "generator": "lake",
+        "block": [{
+            "name": "ThermalFoundation:FluidAerotheum",
+            "metadata": 0
+        }],
+        "useMaterial": "true",
+        "material": [{
+            "name": "aether:holystone",
+            "metadata": 0
+        }],
+        "outlineBlock": [{
+            "name": "aether:holystone",
+            "metadata": 0
+        }],
+        "chunkChance": 2,
+        "numClusters": 1,
+        "meanHeight": 45,
+        "maxVariance": 25,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            3
+        ]
+    },
+    "Copper": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "ThermalFoundation:Ore",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 7,
+        "numClusters": 4,
+        "minHeight": 55,
+        "maxHeight": 176,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            7,
+            112
+        ]
+    },
+    "Copper-Aquanos": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "ThermalFoundation:Ore",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 14,
+        "numClusters": 10,
+        "minHeight": 30,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            112
+        ]
+    },
+    "Copper-Twilight": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "ThermalFoundation:Ore",
+            "metadata": 0
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 7,
+        "numClusters": 4,
+        "minHeight": 25,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+    "CryotheumSubsurface-Iiloo": {
+        "enabled": "true",
+        "template": "normal",
+        "generator": "lake",
+        "block": [{
+            "name": "ThermalFoundation:FluidCryotheum",
+            "metadata": 0
+        }],
+        "useMaterial": "false",
+        "material": [
+
+        ],
+        "outlineBlock": [{
+            "name": "minecraft:packed_ice",
+            "metadata": 0
+        }],
+        "chunkChance": 24,
+        "numClusters": 1,
+        "meanHeight": 40,
+        "maxVariance": 25,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            120
+        ]
+    },
+    "CryotheumSurface-Iiloo": {
+        "enabled": "true",
+        "template": "surface",
+        "generator": "lake",
+        "block": [{
+            "name": "ThermalFoundation:FluidCryotheum",
+            "metadata": 0
+        }],
+        "useMaterial": "false",
+        "material": [
+
+        ],
+        "outlineBlock": [{
+            "name": "minecraft:packed_ice",
+            "metadata": 0
+        }],
+        "followTerrain": "false",
+        "chunkChance": 64,
+        "numClusters": 1,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            120
+        ]
+    },
+    "Lead": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+                "name": "ThermalFoundation:Ore",
+                "metadata": 3,
+                "weight": 75
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 2,
+                "weight": 25
+            }
+        ],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 7,
+        "numClusters": 5,
+        "minHeight": 46,
+        "maxHeight": 85,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            7,
+            102
+        ]
+    },
+    "Lead-Orrobos": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+                "name": "ThermalFoundation:Ore",
+                "metadata": 3,
+                "weight": 90
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 2,
+                "weight": 10
+            }
+        ],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 12,
+        "numClusters": 10,
+        "minHeight": 24,
+        "maxHeight": 56,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            102
+        ]
+    },
+    "Lead-Twilight": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+                "name": "ThermalFoundation:Ore",
+                "metadata": 3,
+                "weight": 75
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 2,
+                "weight": 25
+            }
+        ],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 7,
+        "numClusters": 5,
+        "minHeight": 21,
+        "maxHeight": 70,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+    "Mithril": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "ThermalFoundation:Ore",
+            "metadata": 6
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 4,
+        "numClusters": 4,
+        "minHeight": 2,
+        "maxHeight": 50,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7,
+            9
+        ]
+    },
+    "Nickel": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+                "name": "ThermalFoundation:Ore",
+                "metadata": 4,
+                "weight": 97
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 5,
+                "weight": 3
+            }
+        ],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 5,
+        "numClusters": 3,
+        "minHeight": 2,
+        "maxHeight": 12,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            103
+        ]
+    },
+    "Nickel-Tennaris": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+                "name": "ThermalFoundation:Ore",
+                "metadata": 4,
+                "weight": 97
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 5,
+                "weight": 3
+            }
+        ],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 9,
+        "numClusters": 12,
+        "minHeight": 2,
+        "maxHeight": 25,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            103
+        ]
+    },
+    "PetrothiumSubsurface-Tennaris": {
+        "enabled": "true",
+        "template": "normal",
+        "generator": "lake",
+        "block": [{
+            "name": "ThermalFoundation:FluidPetrotheum",
+            "metadata": 0
+        }],
+        "useMaterial": "false",
+        "material": [
+
+        ],
+        "outlineBlock": [
+
+        ],
+        "chunkChance": 36,
+        "numClusters": 1,
+        "meanHeight": 40,
+        "maxVariance": 25,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            107
+        ]
+    },
+    "PetrothiumSurface-Tennaris": {
+        "enabled": "true",
+        "template": "surface",
+        "generator": "lake",
+        "block": [{
+            "name": "ThermalFoundation:FluidPetrotheum",
+            "metadata": 0
+        }],
+        "useMaterial": "false",
+        "material": [
+
+        ],
+        "outlineBlock": [
+
+        ],
+        "followTerrain": "false",
+        "chunkChance": 64,
+        "numClusters": 1,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            107
+        ]
+    },
+    "PrimalMana": {
+        "enabled": "true",
+        "template": "surface",
+        "generator": "lake",
+        "block": [{
+            "name": "ThermalFoundation:FluidMana",
+            "metadata": 0
+        }],
+        "useMaterial": "false",
+        "material": [
+
+        ],
+        "outlineBlock": [],
+        "followTerrain": "false",
+        "chunkChance": 164,
+        "numClusters": 1,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [{
+            "type": "name",
+            "entry": ["Cherry Blossom Grove", "Enchanted Forest", "Ender Forest", "Fungi Forest", "Garden", "Luminous Cliffs", "Luminous Cliffs Shores", "Magical Forest", "Mystic Grove", "Rainbow Forest", "Sacred Springs", "WitchwoodForest"]
+        }],
+        "dimensionRestriction": "none",
+        "dimensions": []
+    },
+    "PyrotheumSubsurface-Vultomas": {
+        "enabled": "true",
+        "template": "normal",
+        "generator": "lake",
+        "block": "ThermalFoundation:FluidPyrotheum",
+        "useMaterial": "false",
+        "material": [
+
+        ],
+        "outlineBlock": [{
+                "name": "fossil:volcanicRock",
+                "metadata": 0,
+                "weight": 21
+            },
+            {
+                "name": "magmaox:MagmaBlock",
+                "metadata": 0,
+                "weight": 51
+            },
+            {
+                "name": "minecraft:obsidian",
+                "metadata": 0,
+                "weight": 21
+            },
+            {
+                "name": "Railcraft:ore",
+                "metadata": 0,
+                "weight": 7
+            }
+        ],
+        "chunkChance": 24,
+        "numClusters": 1,
+        "meanHeight": 40,
+        "maxVariance": 25,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            116
+        ]
+    },
+    "PyrotheumSurface-Vultomas": {
+        "enabled": "true",
+        "template": "surface",
+        "generator": "lake",
+        "block": [{
+            "name": "ThermalFoundation:FluidPyrotheum",
+            "metadata": 0
+        }],
+        "useMaterial": "false",
+        "material": [
+
+        ],
+        "outlineBlock": [{
+                "name": "fossil:volcanicRock",
+                "metadata": 0,
+                "weight": 21
+            },
+            {
+                "name": "magmaox:MagmaBlock",
+                "metadata": 0,
+                "weight": 51
+            },
+            {
+                "name": "minecraft:obsidian",
+                "metadata": 0,
+                "weight": 21
+            },
+            {
+                "name": "Railcraft:ore",
+                "metadata": 0,
+                "weight": 7
+            }
+        ],
+        "followTerrain": "false",
+        "chunkChance": 64,
+        "numClusters": 1,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            116
+        ]
+    },
+    "Silver": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+                "name": "ThermalFoundation:Ore",
+                "metadata": 2,
+                "weight": 75
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 3,
+                "weight": 25
+            }
+        ],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 6,
+        "numClusters": 4,
+        "minHeight": 2,
+        "maxHeight": 45,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            7,
+            102
+        ]
+    },
+    "Silver-Turbain": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+                "name": "ThermalFoundation:Ore",
+                "metadata": 2,
+                "weight": 90
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 3,
+                "weight": 10
+            }
+        ],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 12,
+        "numClusters": 10,
+        "minHeight": 24,
+        "maxHeight": 56,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            102
+        ]
+    },
+    "Silver-Twilight": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+                "name": "ThermalFoundation:Ore",
+                "metadata": 2,
+                "weight": 75
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 3,
+                "weight": 25
+            }
+        ],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 6,
+        "numClusters": 4,
+        "minHeight": 2,
+        "maxHeight": 20,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+    "Tin": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "ThermalFoundation:Ore",
+            "metadata": 1
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 6,
+        "numClusters": 5,
+        "minHeight": 40,
+        "maxHeight": 120,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            7,
+            112
+        ]
+    },
+    "Tin-Aquanos": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "ThermalFoundation:Ore",
+            "metadata": 1
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 10,
+        "numClusters": 12,
+        "minHeight": 30,
+        "maxHeight": 60,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            112
+        ]
+    },
+    "Tin-Twilight": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "ThermalFoundation:Ore",
+            "metadata": 1
+        }],
+        "material": [{
+            "name": "minecraft:stone",
+            "metadata": 0
+        }],
+        "chunkChance": 1,
+        "clusterSize": 6,
+        "numClusters": 5,
+        "minHeight": 10,
+        "maxHeight": 40,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    }
 }

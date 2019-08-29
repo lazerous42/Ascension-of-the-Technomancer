@@ -4,9 +4,10 @@
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 ##  Imports
+import mods.forestry.Carpenter;
+import mods.ic2.Compressor;
 import mods.immersiveengineering.MetalPress;
 import mods.immersiveengineering.CokeOven;
-import mods.ic2.Compressor;
 
 print("Initializing 'ImmersiveEngineering.zs'...");
 
@@ -18,8 +19,6 @@ val ingotSteel = <ore:ingotSteel>;
 val ingotConstantan = <ore:ingotConstantan>;
 val plankWood = <ore:plankWood>;
 val itemCharcoal = <minecraft:coal:1>;
-val bottleCreosoteIE = <ImmersiveEngineering:fluidContainers>;
-val bottleCreosoteRC = <Railcraft:fluid.creosote.bottle>;
 
 val wireFineAnyCopper = <ore:wireFineAnyCopper>;
 val wireFineElectrum = <ore:wireFineElectrum>;
@@ -32,9 +31,6 @@ val stickTreated = <ImmersiveEngineering:material>;
 val planksTreated = <ImmersiveEngineering:treatedWood>;
 val engineersHammer = <ImmersiveEngineering:tool>;
 
-##  Creosote Bottle Oredict
-#<ore:bottleCreosote>.add(bottleCreosoteIE);
-
 ## Coal Coke
 recipes.remove(blockCoalCoke);
 Compressor.addRecipe(blockCoalCoke, itemCoalCoke * 9);
@@ -45,20 +41,23 @@ CokeOven.removeRecipe(itemCharcoal);
 for logWood in <ore:logWood>.items {
 	CokeOven.addRecipe(itemCharcoal, 250, logWood, 1200); 
 }
-# Coal Coke
+## Coal Coke
 CokeOven.removeRecipe(itemCoalCoke);
 CokeOven.addRecipe(itemCoalCoke, 250, <minecraft:coal>, 1200); 
 
+## Treated Wood
+recipes.remove(planksTreated);
+for log in <ore:logWood>.items {
+    Carpenter.addRecipe(planksTreated * 8, [[log, log, log],
+                                            [log, null, log], 
+                                            [log, log, log]], <liquid:creosote> * 1000, 40);
+}
+
 ##  Treated Sticks
 recipes.remove(<ImmersiveEngineering:material>);
-recipes.addShapedMirrored(<ImmersiveEngineering:material> * 2, [[<ImmersiveEngineering:treatedWood>, null], [<ImmersiveEngineering:treatedWood>, null]]);
-recipes.addShapedMirrored(<ImmersiveEngineering:material> * 4, [[<ore:craftingToolSaw>, null, null], [<ImmersiveEngineering:treatedWood>, null, null], [<ImmersiveEngineering:treatedWood>, null, null]]);
-recipes.addShaped(<ImmersiveEngineering:material> * 4, [[null, <ore:craftingToolSaw>, null], [null, <ImmersiveEngineering:treatedWood>, null], [null, <ImmersiveEngineering:treatedWood>, null]]);
-
-##  Treated Planks Bottle Return Fix (using creosote bottles to make treated planks only returns one bottle no matter how many are in the crafting grid)
-recipes.removeShaped(planksTreated, [[plankWood, plankWood, plankWood], [plankWood, bottleCreosoteIE, plankWood], [plankWood, plankWood, plankWood]]);
-recipes.removeShaped(planksTreated, [[plankWood, plankWood, plankWood], [plankWood, bottleCreosoteRC, plankWood], [plankWood, plankWood, plankWood]]);
-recipes.addShaped(planksTreated * 8, [[plankWood, plankWood, plankWood], [plankWood, <ore:bottleCreosote>.giveBack(<minecraft:glass_bottle>), plankWood], [plankWood, plankWood, plankWood]]);
+recipes.addShapedMirrored(<ImmersiveEngineering:material> * 2, [[planksTreated, null], [planksTreated, null]]);
+recipes.addShapedMirrored(<ImmersiveEngineering:material> * 4, [[<ore:craftingToolSaw>, null, null], [planksTreated, null, null], [planksTreated, null, null]]);
+recipes.addShaped(<ImmersiveEngineering:material> * 4, [[null, <ore:craftingToolSaw>, null], [null, planksTreated, null], [null, planksTreated, null]]);
 
 #lightning rod base
 recipes.remove(<ImmersiveEngineering:metalMultiblock>);

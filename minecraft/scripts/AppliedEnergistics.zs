@@ -121,10 +121,55 @@ val FluixSmartCableWhite = <appliedenergistics2:item.ItemMultiPart:40>;
 val FluixSmartCableYellow = <appliedenergistics2:item.ItemMultiPart:44>;
 
 ##  OreDict Fix
-<ore:itemCertusQuartz>.remove(pureNetherQuartzCrystal);
+#<ore:itemCertusQuartz>.remove(pureNetherQuartzCrystal);
 #<ore:itemCertusQuartz>.add(pureCertusQuartzCrystal);
-<ore:itemNetherQuartz>.remove(pureCertusQuartzCrystal);
+#<ore:itemNetherQuartz>.remove(pureCertusQuartzCrystal);
 #<ore:itemNetherQuartz>.add(pureNetherQuartzCrystal);
+
+##  Tools
+#   Axes
+recipes.remove(<appliedenergistics2:item.ToolCertusQuartzAxe>);
+recipes.remove(<appliedenergistics2:item.ToolNetherQuartzAxe>);
+#   Cutting Knifes
+recipes.remove(<appliedenergistics2:item.ToolCertusQuartzCuttingKnife>);
+recipes.remove(<appliedenergistics2:item.ToolNetherQuartzCuttingKnife>);
+#   Hoes
+recipes.remove(<appliedenergistics2:item.ToolCertusQuartzHoe>);
+recipes.remove(<appliedenergistics2:item.ToolNetherQuartzHoe>);
+#   Shovels
+recipes.remove(<appliedenergistics2:item.ToolCertusQuartzSpade>);
+recipes.remove(<appliedenergistics2:item.ToolNetherQuartzSpade>);
+#   Pickaxes
+recipes.remove(<appliedenergistics2:item.ToolCertusQuartzPickaxe>);
+recipes.remove(<appliedenergistics2:item.ToolNetherQuartzPickaxe>);
+#   Swords
+recipes.remove(<appliedenergistics2:item.ToolCertusQuartzSword>);
+recipes.remove(<appliedenergistics2:item.ToolNetherQuartzSword>);
+#   Wrenchs
+recipes.remove(<appliedenergistics2:item.ToolCertusQuartzWrench>);
+recipes.addShaped(<appliedenergistics2:item.ToolCertusQuartzWrench>, [[<appliedenergistics2:item.ItemMultiMaterial:1>, <ore:craftingToolWrench>, <appliedenergistics2:item.ItemMultiMaterial:1>],
+																	  [<appliedenergistics2:item.ItemMultiMaterial:1>, <appliedenergistics2:item.ItemMultiMaterial:1>, <appliedenergistics2:item.ItemMultiMaterial:1>],
+																	  [null, <appliedenergistics2:item.ItemMultiMaterial:1>, null]]);
+recipes.remove(<appliedenergistics2:item.ToolNetherQuartzWrench>);
+recipes.addShaped(<appliedenergistics2:item.ToolNetherQuartzWrench>, [[<ore:gemQuartz>, <ore:craftingToolWrench>, <ore:gemQuartz>],
+																	  [<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>],
+																	  [null, <ore:gemQuartz>, null]]);
+
+##  Cable Anchors
+recipes.removeShapeless(<appliedenergistics2:item.ItemMultiPart:120>, [<appliedenergistics2:item.ToolCertusQuartzCuttingKnife>]);
+recipes.removeShapeless(<appliedenergistics2:item.ItemMultiPart:120>, [<appliedenergistics2:item.ToolNetherQuartzCuttingKnife>]);
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 2, [<ore:craftingToolKnife>, <ore:ingotIron>]);
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 2, [<ore:craftingToolKnife>, <ore:ingotCopper>]);
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 3, [<ore:craftingToolKnife>, <ore:ingotBronze>]);
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 2, [<ore:craftingToolKnife>, <ore:ingotTin>]);
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 2, [<ore:craftingToolKnife>, <ore:ingotIron>]);
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 4, [<ore:craftingToolKnife>, <ore:ingotSteel>]);
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 4, [<ore:craftingToolKnife>, <ore:ingotAluminium>]);
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 2, [<ore:craftingToolKnife>, <ore:ingotLead>]);
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 2, [<ore:craftingToolKnife>, <ore:ingotNickel>]);
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 2, [<ore:craftingToolKnife>, <ore:ingotSilver>]);
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 3, [<ore:craftingToolKnife>, <ore:ingotBrass>]);
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:120> * 3, [<ore:craftingToolKnife>, <ore:ingotInvar>]);
 
 ##  AE2 Grindstone Changes
 recipes.remove(<appliedenergistics2:tile.BlockCrank>);
