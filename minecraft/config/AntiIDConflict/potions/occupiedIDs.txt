@@ -1,4 +1,4 @@
-Total amount of occupied potion ids: 225
+Total amount of occupied potion ids: 226
 Table of occupied potion ids and their owners
 id:name(class)
 0 : Confusion (com.gw.dm.potion.PotionAddle)
@@ -226,3 +226,4 @@ id:name(class)
 234 : bl.elixir.weakbow (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
 235 : bl.elixir.weakness (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
 236 : bl.elixir.wings (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
+237 : Curse (gravestone.potion.CursePotion)

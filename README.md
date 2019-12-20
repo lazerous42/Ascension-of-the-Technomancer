@@ -24,6 +24,50 @@ UPDATE1: Although I have been MIA for quite a while version 6.0.1 should be revi
 
 ChangeLog
 -- Version 7.0.1 (There's no turning back update)
+- Config: Dimlet file formatting, begin removal of bogus entries
+- Config: Remove extra dimensional biome dimlets
+- Update: CraftTweaker, Xaeros Minimap
+- Config: Sync config
+- Config: AdventureBackpack scrips and NEI filters
+- Config: Blocked Chronomancer Hourglass and Ail Sigil from flightless dimensions
+- Update: Xaeros Minimap
+- Removed: Dimension Guard.  It is a flaming fecal loaf of a mod that provides absolutely no functionality.  It does only one thing (prevent certain items usage in certain dimensions), and it fails spectacularly at that thing.
+- Added: Fancy Block Particles.  Cubic smoke makes me smile
+- Added: ItemBlacklist.  Hopefully this mod will succeed at actually performing is single function
+- Config:  Added new mobs to Doomlike Dungeons themes.  Needs review and maybe some more exotic blocks (prismarine in ocean themed DLDs).
+- Update: OpenComputers, Xaeros Minimap
+- Added: Adventurebackpack
+- Config: Dimension ID re-sorting
+- Config: Moar loot, 
+- Config: Botania prismarine consolidated with VillageNames
+- Update: Xaeros Minimap
+- Config: Moar loot, EtFuturum purpur is now made from chisel blocks
+- Config: ChromatiCraft pylons will no longer spawn in overworld.  The expectation is that users must travel to the Fayweld get into ChromaticCraft
+- Added: Xeno's Reliquary
+- Config: AdvancedHooks.zs
+- Update: ChromatiCraft, DragonAPI, Itit, LibVulpes, ReactorCraft, RotaryCraft, Xaeros Minimap
+- Remove: Cleanup old default options files, extra potentially unused dlls (will auto-download if still required)
+- Config: Completed loot table cleanup
+- Config: Beginning loot table cleanup
+- Update: Reika's mods
+- Config: Converted minetweaker loot table to loot++ to consolidate a much loot control into one place as possible
+- Config: Mob spawn table cleanup
+- Added: Thaumaturgical Knowledge
+- Config: Moar worldgen
+- Config: Activated finite water in CodeChickenCore
+- Update: Xaeros Minimap FP Edition 
+- Config: Disabled Thaumic Tinkerer's Bedrock Dimension.  Can't tell if it's OP, or just poorly implemented.  Probably both.
+- Update: Gendustry, NEI Addons, MineFactory Reloaded, Natura, Nether Ores, OpenModsLib, Thaumic NEI, Tinkers Construct, Xaeros Minimap FP Edition (NOTE: Many of these updates are alpha versions, however they are also the final 1.7.10 versions for most of these mods so they are being pulled in for testing)
+- Config: set climate control dimension black list
+- Config: Reinitialize Loot++ configs to remove references to removed mods
+- Config: Allow artifacts towers in the Betweenlands
+- Remove: Magic Cookies, it was throwing a bunch of NEI errors
+- Config: Disable dark tank from Evilcraft and removed INpureProjects/custom_nei_filters/Evilcraft.js
+- Config: Lowed Dungeon Mobs spawn weights
+- Added: GraveStones mod
+- Config: Disabled Erebus block o' bones in favor of grave stones
+- Config Thermal Expansion machines no longer spawn with default augments
+- Config: Further reduction in GeoStrata rock generation (0.50 -> 0.35)
 - Config: Removed all references to the Ancient Teleporter Blueprint from AoA in favor of the new manual build/rune block system. Removed from loot tables, chance cubes, recipes, and NEI
 - Config: Added dense calcite ore
 - Config: Set biomes/dimensions for Ruins, Dungeon Pack, Doomlike Dungeons, and Roguelike Dungeons

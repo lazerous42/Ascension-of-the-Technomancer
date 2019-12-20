@@ -31,8 +31,7 @@
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
-            102,
-            116
+            102,112
         ]
     }
 }

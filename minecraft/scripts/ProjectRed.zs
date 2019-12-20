@@ -751,8 +751,6 @@ Mixer.addRecipe(<ProjRed|Core:projectred.core.part:43>, [<gregtech:gt.metaitem.0
 Mixer.addRecipe(<ProjRed|Core:projectred.core.part:58>, [<gregtech:gt.metaitem.01:2020>, <ProjRed|Core:projectred.core.part:56> * 8], 400, 30);
 // --- Electrotine Compound
 Mixer.addRecipe(<ProjRed|Core:projectred.core.part:57>, [<minecraft:iron_ingot>, <ProjRed|Core:projectred.core.part:56> * 8], 400, 30);
-// --- Electrotine Dust
-Mixer.addRecipe(<ProjRed|Core:projectred.core.part:56> * 8, [<gregtech:gt.metaitem.01:2303>, <erebus:materials:12>], 200, 8);
 // --- White Iluminator
 Mixer.addRecipe(<ProjRed|Core:projectred.core.part:19>, [<minecraft:glowstone_dust> * 2, <minecraft:dye:15> * 2], 50, 8);
 Mixer.addRecipe(<ProjRed|Core:projectred.core.part:19>, [<minecraft:glowstone_dust> * 2, <BiomesOPlenty:misc:8> * 2], 50, 8);

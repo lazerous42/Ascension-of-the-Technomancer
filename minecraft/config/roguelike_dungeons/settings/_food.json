@@ -1,382 +1,397 @@
 {
     "name": "food",
-    "loot_rules": [
-        {
-            "type": "FOOD",
-            "level" : [0, 1, 2, 3, 4],
-            "each" : true,
-            "quantity" : 24,
-            "loot": [
-                {
-                    "data": {
-                        "max": "4", 
-                        "meta": "0", 
-                        "name": "harvestcraft:delightedmealItem", 
-                        "min": "0"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "harvestcraft:market", 
-                        "min": "1"
-                    }, 
-                    "weight": "4"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "harvestcraft:presser", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
+    "loot_rules": [{
+        "type": "FOOD",
+        "level": [0, 1, 2, 3, 4],
+        "each": true,
+        "quantity": 24,
+        "loot": [{
+                "data": {
+                    "max": "4",
+                    "meta": "0",
+                    "name": "Avaritia:Cosmic_Meatballs",
+                    "min": "1"
                 },
-                {
-                    "data": {
-                        "max": "4", 
-                        "meta": "0", 
-                        "name": "harvestcraft:baconmushroomburgerItem", 
-                        "min": "0"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "4", 
-                        "meta": "0", 
-                        "name": "harvestcraft:heartybreakfastItem", 
-                        "min": "0"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "4", 
-                        "meta": "0", 
-                        "name": "harvestcraft:beefwellingtonItem", 
-                        "min": "0"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "6", 
-                        "meta": "0", 
-                        "name": "forestmobs:paleosalad", 
-                        "min": "1"
-                    }, 
-                    "weight": "3"
-                }, 
-                {
-                    "data": {
-                        "max": "4", 
-                        "meta": "0", 
-                        "name": "harvestcraft:mcpamItem", 
-                        "min": "1"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "6", 
-                        "meta": "0", 
-                        "name": "desertmobs:ambercake", 
-                        "min": "1"
-                    }, 
-                    "weight": "3"
-                }, 
-                {
-                    "data": {
-                        "max": "6", 
-                        "meta": "0", 
-                        "name": "plainsmobs:bulwarkburger", 
-                        "min": "1"
-                    }, 
-                    "weight": "3"
-                }, 
-                {
-                    "data": {
-                        "max": "4", 
-                        "meta": "0", 
-                        "name": "harvestcraft:spagettiandmeatballsItem", 
-                        "min": "0"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "6", 
-                        "meta": "0", 
-                        "name": "shadowmobs:bloodchili", 
-                        "min": "1"
-                    }, 
-                    "weight": "3"
-                }, 
-                {
-                    "data": {
-                        "max": "4", 
-                        "meta": "0", 
-                        "name": "harvestcraft:sausageinbreadItem", 
-                        "min": "0"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "4", 
-                        "meta": "0", 
-                        "name": "harvestcraft:curryItem", 
-                        "min": "0"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "6", 
-                        "meta": "0", 
-                        "name": "freshwatermobs:lapisfishandchips", 
-                        "min": "1"
-                    }, 
-                    "weight": "3"
-                }, 
-                {
-                    "data": {
-                        "max": "4", 
-                        "meta": "0", 
-                        "name": "harvestcraft:deluxechickencurryItem", 
-                        "min": "1"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "4", 
-                        "meta": "0", 
-                        "name": "harvestcraft:beetburgerItem", 
-                        "min": "1"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "4", 
-                        "meta": "0", 
-                        "name": "harvestcraft:epicbaconItem", 
-                        "min": "0"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "4", 
-                        "meta": "0", 
-                        "name": "aether:stomperPop", 
-                        "min": "1"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "4", 
-                        "meta": "0", 
-                        "name": "harvestcraft:randomtacoItem", 
-                        "min": "1"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "6", 
-                        "meta": "0", 
-                        "name": "saltwatermobs:seashellmaki", 
-                        "min": "1"
-                    }, 
-                    "weight": "3"
-                }, 
-                {
-                    "data": {
-                        "max": "4", 
-                        "meta": "0", 
-                        "name": "harvestcraft:meatfeastpizzaItem", 
-                        "min": "1"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "4", 
-                        "meta": "0", 
-                        "name": "minecraft:wheat", 
-                        "min": "1"
-                    }, 
-                    "weight": "10"
-                }, 
-                {
-                    "data": {
-                        "max": "6", 
-                        "meta": "0", 
-                        "name": "mountainmobs:peakskebab", 
-                        "min": "1"
-                    }, 
-                    "weight": "3"
-                }, 
-                {
-                    "data": {
-                        "max": "4", 
-                        "meta": "0", 
-                        "name": "harvestcraft:supremepizzaItem", 
-                        "min": "0"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "6", 
-                        "meta": "0", 
-                        "name": "arcticmobs:palesoup", 
-                        "min": "1"
-                    }, 
-                    "weight": "3"
-                }, 
-                {
-                    "data": {
-                        "max": "4", 
-                        "meta": "0", 
-                        "name": "aether:gummySwet", 
-                        "min": "1"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "4", 
-                        "meta": "0", 
-                        "name": "harvestcraft:chickengumboItem", 
-                        "min": "1"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "6", 
-                        "meta": "0", 
-                        "name": "swampmobs:mosspie", 
-                        "min": "1"
-                    }, 
-                    "weight": "3"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "demonmobs:doomfirescepter", 
-                        "min": "1"
-                    }, 
-                    "weight": "4"
-                }, 
-                {
-                    "data": {
-                        "max": "6", 
-                        "meta": "0", 
-                        "name": "demonmobs:devillasagna", 
-                        "min": "1"
-                    }, 
-                    "weight": "3"
-                }, 
-                {
-                    "data": {
-                        "max": "4", 
-                        "meta": "0", 
-                        "name": "harvestcraft:rainbowcurryItem", 
-                        "min": "0"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "6", 
-                        "meta": "0", 
-                        "name": "junglemobs:tropicalcurry", 
-                        "min": "1"
-                    }, 
-                    "weight": "3"
-                }, 
-                {
-                    "data": {
-                        "max": "4", 
-                        "meta": "0", 
-                        "name": "Avaritia:Cosmic_Meatballs", 
-                        "min": "1"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "4", 
-                        "meta": "0", 
-                        "name": "TwilightForest:item.hydraChop", 
-                        "min": "1"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "2", 
-                        "meta": "0", 
-                        "name": "etfuturum:beetroot_seeds", 
-                        "min": "1"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "6", 
-                        "meta": "0", 
-                        "name": "infernomobs:searingtaco", 
-                        "min": "1"
-                    }, 
-                    "weight": "3"
-                }, 
-                {
-                    "data": {
-                        "max": "4", 
-                        "meta": "0", 
-                        "name": "Avaritia:Ultimate_Stew", 
-                        "min": "1"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "minecraft:bread", 
-                        "min": "1"
-                    }, 
-                    "weight": "10"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "minecraft:golden_apple", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "4", 
-                        "meta": "0", 
-                        "name": "harvestcraft:deluxecheeseburgerItem", 
-                        "min": "0"
-                    }, 
-                    "weight": "5"
-                }
-            ]
-        }
-    ]
+                "weight": "1"
+            },
+            {
+                "data": {
+                    "max": "4",
+                    "meta": "0",
+                    "name": "Avaritia:Ultimate_Stew",
+                    "min": "1"
+                },
+                "weight": "1"
+            },
+            {
+                "data": {
+                    "max": "5",
+                    "meta": "0",
+                    "name": "OpenBlocks:tastyClay",
+                    "min": "2"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "4",
+                    "meta": "0",
+                    "name": "TwilightForest:item.hydraChop",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "4",
+                    "meta": "0",
+                    "name": "aether:gummySwet",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "4",
+                    "meta": "0",
+                    "name": "aether:stomperPop",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "6",
+                    "meta": "0",
+                    "name": "arcticmobs:palesoup",
+                    "min": "1"
+                },
+                "weight": "3"
+            },
+            {
+                "data": {
+                    "max": "6",
+                    "meta": "0",
+                    "name": "demonmobs:devillasagna",
+                    "min": "1"
+                },
+                "weight": "3"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "demonmobs:doomfirescepter",
+                    "min": "1"
+                },
+                "weight": "4"
+            },
+            {
+                "data": {
+                    "max": "6",
+                    "meta": "0",
+                    "name": "desertmobs:ambercake",
+                    "min": "1"
+                },
+                "weight": "3"
+            },
+            {
+                "data": {
+                    "max": "2",
+                    "meta": "0",
+                    "name": "etfuturum:beetroot_seeds",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "6",
+                    "meta": "0",
+                    "name": "forestmobs:paleosalad",
+                    "min": "1"
+                },
+                "weight": "3"
+            },
+            {
+                "data": {
+                    "max": "6",
+                    "meta": "0",
+                    "name": "freshwatermobs:lapisfishandchips",
+                    "min": "1"
+                },
+                "weight": "3"
+            },
+            {
+                "data": {
+                    "max": "4",
+                    "meta": "0",
+                    "name": "harvestcraft:baconmushroomburgerItem",
+                    "min": "0"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "4",
+                    "meta": "0",
+                    "name": "harvestcraft:beefwellingtonItem",
+                    "min": "0"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "4",
+                    "meta": "0",
+                    "name": "harvestcraft:beetburgerItem",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "4",
+                    "meta": "0",
+                    "name": "harvestcraft:chickengumboItem",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "4",
+                    "meta": "0",
+                    "name": "harvestcraft:curryItem",
+                    "min": "0"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "4",
+                    "meta": "0",
+                    "name": "harvestcraft:delightedmealItem",
+                    "min": "0"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "4",
+                    "meta": "0",
+                    "name": "harvestcraft:deluxecheeseburgerItem",
+                    "min": "0"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "4",
+                    "meta": "0",
+                    "name": "harvestcraft:deluxechickencurryItem",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "4",
+                    "meta": "0",
+                    "name": "harvestcraft:epicbaconItem",
+                    "min": "0"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "4",
+                    "meta": "0",
+                    "name": "harvestcraft:heartybreakfastItem",
+                    "min": "0"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "harvestcraft:market",
+                    "min": "1"
+                },
+                "weight": "4"
+            },
+            {
+                "data": {
+                    "max": "4",
+                    "meta": "0",
+                    "name": "harvestcraft:mcpamItem",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "4",
+                    "meta": "0",
+                    "name": "harvestcraft:meatfeastpizzaItem",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "harvestcraft:presser",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "4",
+                    "meta": "0",
+                    "name": "harvestcraft:rainbowcurryItem",
+                    "min": "0"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "4",
+                    "meta": "0",
+                    "name": "harvestcraft:randomtacoItem",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "4",
+                    "meta": "0",
+                    "name": "harvestcraft:sausageinbreadItem",
+                    "min": "0"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "4",
+                    "meta": "0",
+                    "name": "harvestcraft:spagettiandmeatballsItem",
+                    "min": "0"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "4",
+                    "meta": "0",
+                    "name": "harvestcraft:supremepizzaItem",
+                    "min": "0"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "6",
+                    "meta": "0",
+                    "name": "infernomobs:searingtaco",
+                    "min": "1"
+                },
+                "weight": "3"
+            },
+            {
+                "data": {
+                    "max": "6",
+                    "meta": "0",
+                    "name": "junglemobs:tropicalcurry",
+                    "min": "1"
+                },
+                "weight": "3"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "minecraft:bread",
+                    "min": "1"
+                },
+                "weight": "10"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "minecraft:golden_apple",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "4",
+                    "meta": "0",
+                    "name": "minecraft:wheat",
+                    "min": "1"
+                },
+                "weight": "10"
+            },
+            {
+                "data": {
+                    "max": "6",
+                    "meta": "0",
+                    "name": "mountainmobs:peakskebab",
+                    "min": "1"
+                },
+                "weight": "3"
+            },
+            {
+                "data": {
+                    "max": "6",
+                    "meta": "0",
+                    "name": "plainsmobs:bulwarkburger",
+                    "min": "1"
+                },
+                "weight": "3"
+            },
+            {
+                "data": {
+                    "max": "6",
+                    "meta": "0",
+                    "name": "saltwatermobs:seashellmaki",
+                    "min": "1"
+                },
+                "weight": "3"
+            },
+            {
+                "data": {
+                    "max": "6",
+                    "meta": "0",
+                    "name": "shadowmobs:bloodchili",
+                    "min": "1"
+                },
+                "weight": "3"
+            },
+            {
+                "data": {
+                    "max": "6",
+                    "meta": "0",
+                    "name": "swampmobs:mosspie",
+                    "min": "1"
+                },
+                "weight": "3"
+            },
+            {
+                "data": {
+                    "max": "4",
+                    "meta": "0",
+                    "name": "xreliquary:glowing_bread",
+                    "min": "1"
+                },
+                "weight": "1"
+            }
+        ]
+    }]
 }

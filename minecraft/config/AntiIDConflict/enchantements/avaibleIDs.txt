@@ -33,8 +33,6 @@ List of avaible enchantement ids:
 74
 75
 76
-96
-97
 98
 99
 118

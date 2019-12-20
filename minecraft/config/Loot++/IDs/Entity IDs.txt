@@ -110,15 +110,19 @@ ChocoboWhite
 ChocoboYellow
 ChromatiCraft.Ability Fireball
 ChromatiCraft.Aurora
+ChromatiCraft.Bait
 ChromatiCraft.Ball Lightning
+ChromatiCraft.Bezier Particle
 ChromatiCraft.CC Ender Crystal
 ChromatiCraft.ChainGun Shot
 ChromatiCraft.Cluster Ball
 ChromatiCraft.DataCrystal
 ChromatiCraft.Dimension Flare
+ChromatiCraft.Ender Eye T2
 ChromatiCraft.GlowCloud
 ChromatiCraft.Laser Pulse
 ChromatiCraft.Light
+ChromatiCraft.LightGun Shot
 ChromatiCraft.Luma Burst
 ChromatiCraft.Mana Pulse
 ChromatiCraft.Meteor Shot
@@ -151,6 +155,13 @@ Forestry.cart.apiary
 Forestry.cart.beehouse
 Ghast
 Giant
+GraveStone.GSSkeletonCat
+GraveStone.GSSkeletonDog
+GraveStone.GSSkullCrawler
+GraveStone.GSWitherSkullCrawler
+GraveStone.GSZombieCat
+GraveStone.GSZombieDog
+GraveStone.GSZombieSkullCrawler
 GraviSuite.PlasmaBall
 GrimoireOfGaia.Anubis
 GrimoireOfGaia.Banshee
@@ -280,8 +291,6 @@ LeashKnot
 MCA.EntityChoreFishHook
 MCA.EntityGrimReaper
 MCA.EntityHuman
-MagicCookie.IceCube
-MagicCookie.MagicCookieGolem
 Mekanism.BabySkeleton
 Mekanism.Balloon
 Mekanism.Flame
@@ -811,6 +820,8 @@ advancedRocketry.deployedRocket
 advancedRocketry.laserNode
 advancedRocketry.mountDummy
 advancedRocketry.rocket
+adventurebackpack.inflatableBoat
+adventurebackpack.rideableSpider
 aether.aechorPlant
 aether.aerbunny
 aether.aetherCoin
@@ -1060,6 +1071,9 @@ dungeonmobs.DMUmberHulk
 dungeonmobs.DMVescavor
 dynamicswordskills.leapingblow
 dynamicswordskills.swordbeam
+enderutilities.enderarrow
+enderutilities.endermanfighter
+enderutilities.enderpearlreusable
 enderzoo.ConcussionCreeper
 enderzoo.DireWolf
 enderzoo.Enderminy
@@ -2293,6 +2307,23 @@ wizardry.Thunderbolt
 wizardry.Tornado
 wizardry.Wizard
 wizardry.Zombie Minion
+xreliquary.entityBlazeShot
+xreliquary.entityBusterShot
+xreliquary.entityConcussiveShot
+xreliquary.entityEnderShot
+xreliquary.entityEnderStaffProjectile
+xreliquary.entityExorcismShot
+xreliquary.entityHGrenade
+xreliquary.entityHolyWater
+xreliquary.entityKSlime
+xreliquary.entityNeutralShot
+xreliquary.entitySandShot
+xreliquary.entitySeekerShot
+xreliquary.entitySpecialSnowball
+xreliquary.entitySplashAphrodite
+xreliquary.entitySplashFertility
+xreliquary.entityStormShot
+xreliquary.entityThrownPotion
 ## Spawn Egg IDs: in the form <number id> - <entity string id (which it spawns)> ##
 3 - ClayGolem
 7 - enderzoo.Enderminy

@@ -1227,7 +1227,7 @@
 
 174
 	- Name: Restorative Aura
-	- Color: -9615578
+	- Color: -6324852
 	- Is Instant? false
 	- Is Bad? false
 
@@ -1657,5 +1657,12 @@
 	- Color: 0
 	- Is Instant? false
 	- Is Bad? false
+
+
+237
+	- Name: Curse
+	- Color: 0
+	- Is Instant? false
+	- Is Bad? true
 
 

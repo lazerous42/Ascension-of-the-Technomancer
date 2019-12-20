@@ -92,6 +92,51 @@ ManaInfusion.addConjuration(dustGlowstone * 2, dustGlowstone, 5000);
 ManaInfusion.addAlchemy(dustElectrotine, dustRedstone, 50);
 ManaInfusion.addConjuration(dustElectrotine * 2, dustElectrotine, 5000);
 
+## Prismarine
+#  Prismarine
+recipes.remove(<Botania:prismarine>);
+#  Prismarine Bricks
+recipes.remove(<Botania:prismarine:1>);
+#  Dark Prismarine
+recipes.remove(<Botania:prismarine:2>);
+#  Prismarine Stairs
+recipes.remove(<Botania:prismarine0Stairs>);
+recipes.addShapedMirrored(<Botania:prismarine0Stairs> * 4, [[<VillageNames:prismarine>, null, null],
+														    [<VillageNames:prismarine>, <VillageNames:prismarine>, null],
+														    [<VillageNames:prismarine>, <VillageNames:prismarine>, <VillageNames:prismarine>]]);
+#  Prismarine Brick Stairs
+recipes.remove(<Botania:prismarine1Stairs>);
+recipes.addShapedMirrored(<Botania:prismarine1Stairs> * 4, [[<ore:brickPrismarine>, null, null],
+															[<ore:brickPrismarine>, <ore:brickPrismarine>, null],
+															[<ore:brickPrismarine>, <ore:brickPrismarine>, <ore:brickPrismarine>]]);
+#  Dark Prismarine Stairs
+recipes.remove(<Botania:prismarine2Stairs>);
+recipes.addShapedMirrored(<Botania:prismarine2Stairs> * 4, [[<ore:brickDarkPrismarine>, null, null],
+															[<ore:brickDarkPrismarine>, <ore:brickDarkPrismarine>, null],
+															[<ore:brickDarkPrismarine>, <ore:brickDarkPrismarine>, <ore:brickDarkPrismarine>]]);
+#  Prismarine Wall
+recipes.remove(<Botania:prismarine0Wall>);
+recipes.addShapedMirrored(<Botania:prismarine0Wall> * 6, [[<ore:blockPrismarine>, <ore:blockPrismarine>, <ore:blockPrismarine>],
+													  	  [<ore:blockPrismarine>, <ore:blockPrismarine>, <ore:blockPrismarine>],
+													  	  [null, null, null]]);
+#  Prismarine Slab
+recipes.remove(<Botania:prismarine0Slab>);
+recipes.addShapedMirrored(<Botania:prismarine0Slab> * 6, [[<VillageNames:prismarine>, <VillageNames:prismarine>, <VillageNames:prismarine>],
+													  	  [null, null, null],
+													  	  [null, null, null]]);
+#  Prismarine Brick Slab
+recipes.remove(<Botania:prismarine1Slab>);
+recipes.addShapedMirrored(<Botania:prismarine1Slab> * 6, [[<ore:brickPrismarine>, <ore:brickPrismarine>, <ore:brickPrismarine>],
+													  	  [null, null, null],
+													  	  [null, null, null]]);
+#  Dark Prismarine Brick Slab
+recipes.remove(<Botania:prismarine2Slab>);
+recipes.addShapedMirrored(<Botania:prismarine2Slab> * 6, [[<ore:brickDarkPrismarine>, <ore:brickDarkPrismarine>, <ore:brickDarkPrismarine>],
+													  	  [null, null, null],
+													  	  [null, null, null]]);
+#  Sea Lantern
+recipes.remove(<Botania:seaLamp>);
+
 ##  Mana Powder
 ManaInfusion.addInfusion(manaPowder, dustElectrotine, 1000);
 
@@ -287,6 +332,9 @@ Lexicon.removePage("botania.entry.manaAlchemy", 1);
 Lexicon.addCraftingPage("botania.page.manaAlchemy1", "botania.entry.manaAlchemy", 1, [<Botania:alchemyCatalyst>], [[[<ore:livingrock>, <witchery:chalkheart>, <ore:livingrock>], [<AWWayofTime:blockWritingTable>, <Thaumcraft:ItemResource:14>, <AWWayofTime:blockWritingTable>], [<ore:livingrock>, <ore:blockBlaze>, <ore:livingrock>]]]);
 Lexicon.removePage("botania.entry.manaConjuration", 1);
 Lexicon.addCraftingPage("botania.page.manaConjuration1", "botania.entry.manaConjuration", 1, [<Botania:conjurationCatalyst>], [[[<ore:livingrock>, <witchery:ingredient:130>, <ore:livingrock>], [<Botania:pylon:1>, <Botania:alchemyCatalyst>, <Botania:pylon:1>], [<ore:livingrock>, <Botania:storage:1>, <ore:livingrock>]]]);
+
+## Prismarine
+Lexicon.removeEntry("botania.entry.prismarine");
 
 ##  Runes
 Lexicon.removePage("botania.entry.runeAltar", 7);

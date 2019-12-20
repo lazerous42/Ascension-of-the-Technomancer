@@ -36,52 +36,7 @@
 	- Terrain Scale: 1.0
 
 
-50
-	- Name: Soul Network Dimension
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 256.0
-	- Can Respawn Here? true
-	- Terrain Scale: 1.0
-
-
-49
-	- Name: Torment
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 256.0
-	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
-48
-	- Name: Mirror
-	- Height: 128
-	- Has Sky? false
-	- Cloud Height: 256.0
-	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
 47
-	- Name: Spirit World
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 0.0
-	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
-45
-	- Name: Bedrock
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 0.0
-	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
-44
 	- Name: The Last Millenium
 	- Height: 256
 	- Has Sky? true
@@ -90,11 +45,38 @@
 	- Terrain Scale: 1.0
 
 
-43
+46
 	- Name: Underdark
 	- Height: 128
 	- Has Sky? false
 	- Cloud Height: 256.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+45
+	- Name: Torment
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 256.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+44
+	- Name: Mirror
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 256.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+43
+	- Name: Spirit World
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 0.0
 	- Can Respawn Here? false
 	- Terrain Scale: 1.0
 
@@ -168,6 +150,15 @@
 	- Has Sky? false
 	- Cloud Height: 256.0
 	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+34
+	- Name: Soul Network Dimension
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 256.0
+	- Can Respawn Here? true
 	- Terrain Scale: 1.0
 
 
@@ -445,7 +436,7 @@
 	- Name: Proxima
 	- Height: 256
 	- Has Sky? true
-	- Cloud Height: 161.41107
+	- Cloud Height: 175.6321
 	- Can Respawn Here? false
 	- Terrain Scale: 1.0
 

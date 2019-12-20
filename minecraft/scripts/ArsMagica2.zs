@@ -52,6 +52,7 @@ val salisMundus = <Thaumcraft:ItemResource:14>;
 val diamondEtchedComputationalMarix = <ExtraUtilities:decorativeBlock1:12>;
 val firestoneRaw = <Railcraft:firestone.raw>;
 val chestHungry = <Thaumcraft:blockChestHungry>;
+val dustManaEssence = <Artifacts:dust_orichalcum>;
 
 val planksWitchwood = <arsmagica2:planksWitchwood>;
 val torchVinteum = <arsmagica2:VinteumTorch>;
@@ -224,7 +225,7 @@ Pylon.addRecipe(runeYellow * 3, <aura:YELLOW_AURA> * 5000, runeBlank, <aura:YELL
 
 ##  Aracne Compound
 recipes.remove(<arsmagica2:itemOre:1>);
-Alchemy.addRecipe(<arsmagica2:itemOre:1> * 3, [chimerite, quicksilver, <Botania:manaResource:23>, dustPurifiedVinteum], 2, 2500);
+Alchemy.addRecipe(<arsmagica2:itemOre:1> * 4, [chimerite, quicksilver, <Botania:manaResource:23>, dustPurifiedVinteum, dustManaEssence], 2, 2500);
 
 ##  Crystal Phylactery
 recipes.remove(crystalPhylactery);

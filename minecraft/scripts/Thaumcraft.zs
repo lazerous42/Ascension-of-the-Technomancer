@@ -66,7 +66,7 @@ Arcane.addShaped("BASICARTIFACE", <Thaumcraft:blockMetalDevice:2>, "ignis 16, or
 
 ##  Primal Charm
 Arcane.removeRecipe(<Thaumcraft:ItemResource:15>);
-Arcane.addShaped("BASICARTIFACE", <Thaumcraft:ItemResource:15>, "aer 25, terra 25, ignis 25, aqua 25, ordo 25, perditio 25", [[<ore:shardAir>, <ore:shardFire>, <ore:shardWater>], [<AWWayofTime:demonicSlate>, <ore:shardBalance>, <AWWayofTime:demonicSlate>], [<ore:shardEarth>, <ore:shardOrder>, <ore:shardEntropy>]]);
+Arcane.addShaped("BASICARTIFACE", <Thaumcraft:ItemResource:15>, "aer 25, terra 25, ignis 25, aqua 25, ordo 25, perditio 25", [[<ore:shardAir>, <ore:shardFire>, <ore:shardWater>], [<AWWayofTime:demonicSlate>, <ore:shardBalance>, <ThermalFoundation:bucket:5>], [<ore:shardEarth>, <ore:shardOrder>, <ore:shardEntropy>]]);
 
 ##  Mirrored Glass
 Arcane.removeRecipe(<Thaumcraft:ItemResource:10>);

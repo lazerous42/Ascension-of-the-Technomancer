@@ -235,6 +235,11 @@ The following registers the vanilla gold ingot as "ingotGold"
 		<stack2>gregtech:gt.metaitem.01 1 8515</stack2>
 	</ore>
 	<ore>
+		<name>dustDilithium</name>
+		<stack1>libVulpes:libVulpesproductdust 1 0</stack1>
+		<stack2>gregtech:gt.metaitem.01 1 2515</stack2>
+	</ore>
+	<ore>
 		<name>gemDilithium</name>
 		<stack1>libVulpes:libVulpesproductcrystal 1 0</stack1>
 		<stack2>gregtech:gt.metaitem.01 1 8515</stack2>
@@ -510,6 +515,19 @@ The following registers the vanilla gold ingot as "ingotGold"
 		<stack1>Botania:petal 1 32767</stack1>
 	</ore>
 	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Prismarine              -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<ore>
+		<name>brickPrismarine</name>
+		<stack1>Botania:prismarine 1 1</stack1>
+		<stack2>VillageNames:prismarine 1 1</stack2>
+	</ore>
+	<ore>
+		<name>brickDarkPrismarine</name>
+		<stack1>Botania:prismarine 1 2</stack1>
+		<stack2>VillageNames:prismarine 1 2</stack2>
+	</ore>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<!-- Quartz                  -->
 	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<ore>
@@ -569,10 +587,6 @@ The following registers the vanilla gold ingot as "ingotGold"
 	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<!-- Sesame Seeed Fix        -->
 	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
-	<ore>
-		<name>cropSesameseed</name>
-		<stack1>harvestcraft:sesameseedsItem 1 0</stack1>
-	</ore>
 	<ore>
 		<name>cropSesameseed</name>
 		<stack1>harvestcraft:sesameseedsItem 1 0</stack1>

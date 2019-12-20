@@ -1,0 +1,59 @@
+{
+    "PoisonSubsurface-Quoan": {
+        "enabled": "true",
+        "template": "normal",
+        "generator": "lake",
+        "block": [{
+            "name": "BiomesOPlenty:poison",
+            "metadata": 0
+        }],
+        "useMaterial": "false",
+        "material": [
+
+        ],
+        "outlineBlock": [
+
+        ],
+        "chunkChance": 36,
+        "numClusters": 1,
+        "meanHeight": 40,
+        "maxVariance": 25,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            114
+        ]
+    },
+    "PoisonSurface-Quoan": {
+        "enabled": "true",
+        "template": "surface",
+        "generator": "lake",
+        "block": [{
+            "name": "BiomesOPlenty:poison",
+            "metadata": 0
+        }],
+        "useMaterial": "false",
+        "material": [
+
+        ],
+        "outlineBlock": [
+
+        ],
+        "followTerrain": "false",
+        "chunkChance": 64,
+        "numClusters": 1,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            114
+        ]
+    }
+}

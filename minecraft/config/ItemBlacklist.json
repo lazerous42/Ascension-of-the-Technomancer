@@ -1,0 +1,328 @@
+{
+	"__GLOBAL__": [],
+	"-2": [{
+			"item": "AWWayofTime:airSigil",
+			"damage": "*"
+		},
+		{
+			"item": "Botania:flightTiara",
+			"damage": "*"
+		},
+		{
+			"item": "IC2:itemArmorJetpack",
+			"damage": "*"
+		},
+		{
+			"item": "IC2:itemArmorJetpackElectric",
+			"damage": "*"
+		},
+		{
+			"item": "GraviSuite:advNanoChestPlate",
+			"damage": "*"
+		},
+		{
+			"item": "GraviSuite:advJetpack",
+			"damage": "*"
+		},
+		{
+			"item": "Mekanism:ArmoredJetpack",
+			"damage": "*"
+		},
+		{
+			"item": "Mekanism:Jetpack",
+			"damage": "*"
+		},
+		{
+			"item": "ProjRed|Expansion:projectred.expansion.jetpack",
+			"damage": "*"
+		},
+		{
+			"item": "Steamcraft:jetpack",
+			"damage": "*"
+		},
+		{
+			"item": "Thaumcraft:HoverHarness",
+			"damage": "*"
+		},
+		{
+			"item": "advancedRocketry:item.jetPack",
+			"damage": "*"
+		},
+		{
+			"item": "adventurebackpack:steamJetpack",
+			"damage": "*"
+		},
+		{
+			"item": "clockworkphase:hourglassAir",
+			"damage": "*"
+		},
+		{
+			"item": "simplyjetpacks:jetpacks",
+			"damage": "*"
+		},
+		{
+			"item": "simplyjetpacks:jetpacksEIO",
+			"damage": "*"
+		}
+	],
+	"7": [{
+			"item": "AWWayofTime:airSigil",
+			"damage": "*"
+		},
+		{
+			"item": "Botania:flightTiara",
+			"damage": "*"
+		},
+		{
+			"item": "IC2:itemArmorJetpack",
+			"damage": "*"
+		},
+		{
+			"item": "IC2:itemArmorJetpackElectric",
+			"damage": "*"
+		},
+		{
+			"item": "GraviSuite:advNanoChestPlate",
+			"damage": "*"
+		},
+		{
+			"item": "GraviSuite:advJetpack",
+			"damage": "*"
+		},
+		{
+			"item": "Mekanism:ArmoredJetpack",
+			"damage": "*"
+		},
+		{
+			"item": "Mekanism:Jetpack",
+			"damage": "*"
+		},
+		{
+			"item": "ProjRed|Expansion:projectred.expansion.jetpack",
+			"damage": "*"
+		},
+		{
+			"item": "Steamcraft:jetpack",
+			"damage": "*"
+		},
+		{
+			"item": "Thaumcraft:HoverHarness",
+			"damage": "*"
+		},
+		{
+			"item": "advancedRocketry:item.jetPack",
+			"damage": "*"
+		},
+		{
+			"item": "adventurebackpack:steamJetpack",
+			"damage": "*"
+		},
+		{
+			"item": "clockworkphase:hourglassAir",
+			"damage": "*"
+		},
+		{
+			"item": "simplyjetpacks:jetpacks",
+			"damage": "*"
+		},
+		{
+			"item": "simplyjetpacks:jetpacksEIO",
+			"damage": "*"
+		}
+	],
+	"40": [{
+			"item": "AWWayofTime:airSigil",
+			"damage": "*"
+		},
+		{
+			"item": "Botania:flightTiara",
+			"damage": "*"
+		},
+		{
+			"item": "IC2:itemArmorJetpack",
+			"damage": "*"
+		},
+		{
+			"item": "IC2:itemArmorJetpackElectric",
+			"damage": "*"
+		},
+		{
+			"item": "GraviSuite:advNanoChestPlate",
+			"damage": "*"
+		},
+		{
+			"item": "GraviSuite:advJetpack",
+			"damage": "*"
+		},
+		{
+			"item": "Mekanism:ArmoredJetpack",
+			"damage": "*"
+		},
+		{
+			"item": "Mekanism:Jetpack",
+			"damage": "*"
+		},
+		{
+			"item": "ProjRed|Expansion:projectred.expansion.jetpack",
+			"damage": "*"
+		},
+		{
+			"item": "Steamcraft:jetpack",
+			"damage": "*"
+		},
+		{
+			"item": "Thaumcraft:HoverHarness",
+			"damage": "*"
+		},
+		{
+			"item": "advancedRocketry:item.jetPack",
+			"damage": "*"
+		},
+		{
+			"item": "adventurebackpack:steamJetpack",
+			"damage": "*"
+		},
+		{
+			"item": "clockworkphase:hourglassAir",
+			"damage": "*"
+		},
+		{
+			"item": "simplyjetpacks:jetpacks",
+			"damage": "*"
+		},
+		{
+			"item": "simplyjetpacks:jetpacksEIO",
+			"damage": "*"
+		}
+	],
+	"41": [{
+			"item": "AWWayofTime:airSigil",
+			"damage": "*"
+		},
+		{
+			"item": "Botania:flightTiara",
+			"damage": "*"
+		},
+		{
+			"item": "IC2:itemArmorJetpack",
+			"damage": "*"
+		},
+		{
+			"item": "IC2:itemArmorJetpackElectric",
+			"damage": "*"
+		},
+		{
+			"item": "GraviSuite:advNanoChestPlate",
+			"damage": "*"
+		},
+		{
+			"item": "GraviSuite:advJetpack",
+			"damage": "*"
+		},
+		{
+			"item": "Mekanism:ArmoredJetpack",
+			"damage": "*"
+		},
+		{
+			"item": "Mekanism:Jetpack",
+			"damage": "*"
+		},
+		{
+			"item": "ProjRed|Expansion:projectred.expansion.jetpack",
+			"damage": "*"
+		},
+		{
+			"item": "Steamcraft:jetpack",
+			"damage": "*"
+		},
+		{
+			"item": "Thaumcraft:HoverHarness",
+			"damage": "*"
+		},
+		{
+			"item": "advancedRocketry:item.jetPack",
+			"damage": "*"
+		},
+		{
+			"item": "adventurebackpack:steamJetpack",
+			"damage": "*"
+		},
+		{
+			"item": "clockworkphase:hourglassAir",
+			"damage": "*"
+		},
+		{
+			"item": "simplyjetpacks:jetpacks",
+			"damage": "*"
+		},
+		{
+			"item": "simplyjetpacks:jetpacksEIO",
+			"damage": "*"
+		}
+	],
+	"42": [{
+			"item": "AWWayofTime:airSigil",
+			"damage": "*"
+		},
+		{
+			"item": "Botania:flightTiara",
+			"damage": "*"
+		},
+		{
+			"item": "IC2:itemArmorJetpack",
+			"damage": "*"
+		},
+		{
+			"item": "IC2:itemArmorJetpackElectric",
+			"damage": "*"
+		},
+		{
+			"item": "GraviSuite:advNanoChestPlate",
+			"damage": "*"
+		},
+		{
+			"item": "GraviSuite:advJetpack",
+			"damage": "*"
+		},
+		{
+			"item": "Mekanism:ArmoredJetpack",
+			"damage": "*"
+		},
+		{
+			"item": "Mekanism:Jetpack",
+			"damage": "*"
+		},
+		{
+			"item": "ProjRed|Expansion:projectred.expansion.jetpack",
+			"damage": "*"
+		},
+		{
+			"item": "Steamcraft:jetpack",
+			"damage": "*"
+		},
+		{
+			"item": "Thaumcraft:HoverHarness",
+			"damage": "*"
+		},
+		{
+			"item": "advancedRocketry:item.jetPack",
+			"damage": "*"
+		},
+		{
+			"item": "adventurebackpack:steamJetpack",
+			"damage": "*"
+		},
+		{
+			"item": "clockworkphase:hourglassAir",
+			"damage": "*"
+		},
+		{
+			"item": "simplyjetpacks:jetpacks",
+			"damage": "*"
+		},
+		{
+			"item": "simplyjetpacks:jetpacksEIO",
+			"damage": "*"
+		}
+	]
+}

@@ -1,88 +1,92 @@
-saddle = minecraft:saddle,1,0,15
-iron = minecraft:iron_ingot,3,0,10
-gold = minecraft:gold_ingot,3,0,5
-wheat = minecraft:wheat,9,0,30
-clock= minecraft:clock,1,0,10
-gunpowder = minecraft:gunpowder,3,0,80
-leather= minecraft:leather,5,0,80
-torch = minecraft:torch,10,0,100
-coal= minecraft:coal,8,0,30
-arrow= minecraft:arrow,16,0,80
-cocoa= minecraft:dye,2,3,20
-cookie= minecraft:cookie,3,0,30
-lead= minecraft:lead,1,0,15
-nameTag= minecraft:name_tag,1,0,5
-map= minecraft:map,1,0,10
-emerald= minecraft:emerald,1,0,20
-ironHorseArmor= minecraft:iron_horse_armor,1,0,10
-goldHorseArmor= minecraft:golden_horse_armor,1,0,5
-diamondHorseArmor= minecraft:diamond_horse_armor,1,0,1
+AWWayofTime_averageLengtheningCatalyst = AWWayofTime:averageLengtheningCatalyst,1,0,2
+AWWayofTime_averagePowerCatalyst = AWWayofTime:averagePowerCatalyst,1,0,2
+AWWayofTime_greaterLengtheningCatalyst = AWWayofTime:greaterLengtheningCatalyst,1,0,1
+AWWayofTime_greaterPowerCatalyst = AWWayofTime:greaterPowerCatalyst,1,0,1
+AWWayofTime_mundaneLengtheningCatalyst = AWWayofTime:mundaneLengtheningCatalyst,1,0,4
+AWWayofTime_mundanePowerCatalyst = AWWayofTime:mundanePowerCatalyst,1,0,4
+AWWayofTime_standardBindingAgent = AWWayofTime:standardBindingAgent,3,0,6
 
-potion = chocolateQuest:healingPotion 1,0,20
-bullets = chocolateQuest:bullet,9,0,10
+Botania_blackLotus = Botania:blackLotus,1,0,15
 
-elytra = backlytra:elytra,1,0,5
+EnderIO_itemBasicCapacitor0 = EnderIO:itemBasicCapacitor,1,0,10
+EnderIO_itemBasicCapacitor1 = EnderIO:itemBasicCapacitor,1,1,2
+EnderIO_itemBasicCapacitor2 = EnderIO:itemBasicCapacitor,1,2,1
 
-averageLengtheningCatalyst = AWWayofTime:averageLengtheningCatalyst,1,0,2
-averagePowerCatalyst = AWWayofTime:averagePowerCatalyst,1,0,2
-greaterLengtheningCatalyst = AWWayofTime:greaterLengtheningCatalyst,1,0,1
-greaterPowerCatalyst = AWWayofTime:greaterPowerCatalyst,1,0,1
-mundaneLengtheningCatalyst = AWWayofTime:mundaneLengtheningCatalyst,1,0,4
-mundanePowerCatalyst = AWWayofTime:mundanePowerCatalyst,1,0,4
-standardBindingAgent = AWWayofTime:standardBindingAgent,3,0,6
+ExtraUtilities_QED = ExtraUtilities:endConstructor,1,0,2
 
-blackLotus = Botania:blackLotus,1,0,15
-QED = ExtraUtilities:endConstructor,1,0,2
-ic2_itemRecipePart = IC2:itemRecipePart,1,11,20
+IC2_itemRecipePart11 = IC2:itemRecipePart,3,11,20
 
-IronShaft = IC2:itemRecipePart,5,11,25
+MagicBees_frameOblivion = MagicBees:frameOblivion,1,0,18
 
-soulgazer = lycanitesmobs:soulgazer,1,0,5
-soulgazer = lycanitesmobs:soulstone,1,0,1
+TConstruct_heartCanister1 = TConstruct:heartCanister,1,1,2
+TConstruct_heartCanister2 = TConstruct:heartCanister,1,2,1
 
-heartCanister1 = TConstruct:heartCanister,1,1,2
-heartCanister2 = TConstruct:heartCanister,1,2,1
-itemBasicCapacitor0 = EnderIO:itemBasicCapacitor,1,0,10
-itemBasicCapacitor1 = EnderIO:itemBasicCapacitor,1,1,2
-itemBasicCapacitor2 = EnderIO:itemBasicCapacitor,1,2,1
+Thaumcraft_ItemBaubleBlanks0 = Thaumcraft:ItemBaubleBlanks,2,0,4
+Thaumcraft_ItemBaubleBlanks1 = Thaumcraft:ItemBaubleBlanks,2,1,4
+Thaumcraft_ItemBaubleBlanks2 = Thaumcraft:ItemBaubleBlanks,2,2,4
+Thaumcraft_ItemBaubleBlanks3 = Thaumcraft:ItemBaubleBlanks,1,3,1
+Thaumcraft_ItemBaubleBlanks4 = Thaumcraft:ItemBaubleBlanks,1,4,1
+Thaumcraft_ItemBaubleBlanks5 = Thaumcraft:ItemBaubleBlanks,1,5,1
+Thaumcraft_ItemBaubleBlanks6 = Thaumcraft:ItemBaubleBlanks,1,6,1
+Thaumcraft_ItemBaubleBlanks7 = Thaumcraft:ItemBaubleBlanks,1,7,1
+Thaumcraft_ItemBaubleBlanks8 = Thaumcraft:ItemBaubleBlanks,1,8,1
+Thaumcraft_ItemLootBag0 = Thaumcraft:ItemLootBag,3,0,5
+Thaumcraft_ItemLootBag1 = Thaumcraft:ItemLootBag,2,1,4
+Thaumcraft_ItemLootBag2 = Thaumcraft:ItemLootBag,1,2,1
+Thaumcraft_ItemResource2 = Thaumcraft:ItemResource,3,2,5
+Thaumcraft_ItemResource6 = Thaumcraft:ItemResource,3,6,5
+Thaumcraft_ItemResource9 = Thaumcraft:ItemResource,2,9,4
+Thaumcraft_ItemRingRunic = Thaumcraft:ItemRingRunic,1,0,1
+Thaumcraft_ItemThaumonomicon = Thaumcraft:ItemThaumonomicon,1,0,1
+Thaumcraft_FocusPrimal = Thaumcraft:FocusPrimal,1,0,1
+Thaumcraft_BootsTraveller = Thaumcraft:BootsTraveller,1,0,1
 
-ItemBaubleBlanks0 = Thaumcraft:ItemBaubleBlanks,2,0,4
-ItemBaubleBlanks1 = Thaumcraft:ItemBaubleBlanks,2,1,4
-ItemBaubleBlanks2 = Thaumcraft:ItemBaubleBlanks,2,2,4
-ItemBaubleBlanks3 = Thaumcraft:ItemBaubleBlanks,1,3,1
-ItemBaubleBlanks4 = Thaumcraft:ItemBaubleBlanks,1,4,1
-ItemBaubleBlanks5 = Thaumcraft:ItemBaubleBlanks,1,5,1
-ItemBaubleBlanks6 = Thaumcraft:ItemBaubleBlanks,1,6,1
-ItemBaubleBlanks7 = Thaumcraft:ItemBaubleBlanks,1,7,1
-ItemBaubleBlanks8 = Thaumcraft:ItemBaubleBlanks,1,8,1
-ItemLootBag0 = Thaumcraft:ItemLootBag,3,0,5
-ItemLootBag1 = Thaumcraft:ItemLootBag,2,1,4
-ItemLootBag2 = Thaumcraft:ItemLootBag,1,2,1
-tc_ItemResource2 = Thaumcraft:ItemResource,3,2,5
-tc_ItemResource6 = Thaumcraft:ItemResource,3,6,5
-tc_ItemResource9 = Thaumcraft:ItemResource,2,9,4
-ItemRingRunic = Thaumcraft:ItemRingRunic,1,0,1
-ItemThaumonomicon = Thaumcraft:ItemThaumonomicon,1,0,1
-FocusPrimal = Thaumcraft:FocusPrimal,1,0,1
-BootsTraveller = Thaumcraft:BootsTraveller,1,0,1
+ThermalExpansionMachineFrame0 = ThermalExpansion.Frame,1,0,7
+ThermalExpansionMachineFrame1 = ThermalExpansion.Frame,1,1,5
+ThermalExpansionMachineFrame2 = ThermalExpansion.Frame,1,2,3
+ThermalExpansionMachineFrame3 = ThermalExpansion.Frame,1,3,1
 
-MachineFrameBasic = ThermalExpansion.Frame,1,0,7
-MachineFrameHardened = ThermalExpansion.Frame,1,1,5
-MachineFrameReinforced = ThermalExpansion.Frame,1,2,3
-MachineFrameResonant = ThermalExpansion.Frame,1,3,1
+Ofanix = Ztones:ofanix,1,0,1
+StoneTile = Ztones:stoneTile,64,0,16
 
-lexicon = aura:lexicon,1,0,5
+arsmagica2_ArcaneCompendium = arsmagica2:ArcaneCompendium,1,0,5
+arsmagica2_rune17 = arsmagica2:rune,1,17,3
+arsmagica2_rune18 = arsmagica2:rune,1,18,1
+arsmagica2_rune19 = arsmagica2:rune,1,19,6
 
-ArcaneCompendium = arsmagica2:ArcaneCompendium,1,0,5
-am_rune-17 = arsmagica2:rune,1,17,3
-am_rune-18 = arsmagica2:rune,1,18,1
-am_rune-19 = arsmagica2:rune,1,19,6
+aura_lexicon = aura:lexicon,1,0,5
 
-Chocopedia = chococraft:Chocopedia,1,0,2
+backlytra_elytra = backlytra:elytra,1,0,5
 
-frameOblivion = MagicBees:frameOblivion,1,0,18
+chocolateQuest_bullets = chocolateQuest:bullet,9,0,10
+chocolateQuest_potion = chocolateQuest:healingPotion 1,0,20
 
-CarvedRuneOfReality = nevermine:CarvedRune1,1,0,5
-CarvedRuneOfTravel = nevermine:CarvedRune2,1,0,5
-CarvedRuneOfSpace = nevermine:CarvedRune3,1,0,5
-CarvedRuneOfDirection = nevermine:CarvedRune6,1,0,5
+chococraft_Chocopedia = chococraft:Chocopedia,1,0,2
+
+lycanitesmobs_soulgazer = lycanitesmobs:soulgazer,1,0,5
+lycanitesmobs_soulgazer = lycanitesmobs:soulstone,1,0,1
+
+minecraft_arrow = minecraft:arrow,16,0,80
+minecraft_clock  minecraft:clock,1,0,10
+minecraft_coal = minecraft:coal,8,0,30
+minecraft_cookie = minecraft:cookie,3,0,30
+minecraft_diamondHorseArmor = minecraft:diamond_horse_armor,1,0,1
+minecraft_cocoa = minecraft:dye,2,3,20
+minecraft_emerald = minecraft:emerald,1,0,20
+minecraft_ironhorsearmor = minecraft:iron_horse_armor,1,0,10
+minecraft_goldhorsearmor = minecraft:golden_horse_armor,1,0,5
+minecraft_gold = minecraft:gold_ingot,3,0,5
+minecraft_gunpowder = minecraft:gunpowder,3,0,80
+minecraft_iron = minecraft:iron_ingot,3,0,10
+minecraft_lead = minecraft:lead,1,0,15
+minecraft_leather = minecraft:leather,5,0,80
+minecraft_map = minecraft:map,1,0,10
+minecraft_nameTag = minecraft:name_tag,1,0,5
+minecraft_saddle = minecraft:saddle,1,0,15
+minecraft_torch = minecraft:torch,10,0,100
+minecraft_wheat = minecraft:wheat,9,0,30
+
+nevermine_CarvedRune1 = nevermine:CarvedRune1,1,0,5
+nevermine_CarvedRune2 = nevermine:CarvedRune2,1,0,5
+nevermine_CarvedRune3 = nevermine:CarvedRune3,1,0,5
+nevermine_CarvedRune6 = nevermine:CarvedRune6,1,0,5

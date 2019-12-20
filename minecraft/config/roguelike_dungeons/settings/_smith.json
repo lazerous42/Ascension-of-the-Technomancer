@@ -1,202 +1,199 @@
 {
     "name": "smith",
-    "loot_rules": [
-        {
-            "type": "SMITH",
-            "level" : [0, 1, 2, 3, 4],
-            "each" : true,
-            "quantity" : 24,
-            "loot": [
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "dynamicswordskills:dss.skilliron", 
-                        "min": "1"
-                    }, 
-                    "weight": "4"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "3", 
-                        "name": "dynamicswordskills:dss.skillorb", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "dynamicswordskills:dss.skillorb", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "dynamicswordskills:dss.skillstone", 
-                        "min": "1"
-                    }, 
-                    "weight": "3"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Artifacts:artifact", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "2", 
-                        "name": "dynamicswordskills:dss.skillorb", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "6", 
-                        "name": "dynamicswordskills:dss.skillorb", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "7", 
-                        "name": "dynamicswordskills:dss.skillorb", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "4", 
-                        "name": "dynamicswordskills:dss.skillorb", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "8", 
-                        "name": "dynamicswordskills:dss.skillorb", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "9", 
-                        "name": "dynamicswordskills:dss.skillorb", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "dynamicswordskills:dss.skillgold", 
-                        "min": "1"
-                    }, 
-                    "weight": "4"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "dynamicswordskills:dss.skillwood", 
-                        "min": "1"
-                    }, 
-                    "weight": "4"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "11", 
-                        "name": "dynamicswordskills:dss.skillorb", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "1", 
-                        "name": "dynamicswordskills:dss.skillorb", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "5", 
-                        "name": "dynamicswordskills:dss.skillorb", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "dynamicswordskills:dss.skilldiamond", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
+    "loot_rules": [{
+        "type": "SMITH",
+        "level": [0, 1, 2, 3, 4],
+        "each": true,
+        "quantity": 24,
+        "loot": [{
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "Artifacts:artifact",
+                    "min": "1"
                 },
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "10", 
-                        "name": "dynamicswordskills:dss.skillorb", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "12", 
-                        "name": "dynamicswordskills:dss.skillorb", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "13", 
-                        "name": "dynamicswordskills:dss.skillorb", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "backlytra:elytra",
+                    "min": "1"
                 },
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "backlytra:elytra", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }
-            ]
-        }
-    ]
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "dynamicswordskills:dss.skilldiamond",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "dynamicswordskills:dss.skillgold",
+                    "min": "1"
+                },
+                "weight": "4"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "dynamicswordskills:dss.skilliron",
+                    "min": "1"
+                },
+                "weight": "4"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "dynamicswordskills:dss.skillorb",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "1",
+                    "name": "dynamicswordskills:dss.skillorb",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "2",
+                    "name": "dynamicswordskills:dss.skillorb",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "3",
+                    "name": "dynamicswordskills:dss.skillorb",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "4",
+                    "name": "dynamicswordskills:dss.skillorb",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "5",
+                    "name": "dynamicswordskills:dss.skillorb",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "6",
+                    "name": "dynamicswordskills:dss.skillorb",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "7",
+                    "name": "dynamicswordskills:dss.skillorb",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "8",
+                    "name": "dynamicswordskills:dss.skillorb",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "9",
+                    "name": "dynamicswordskills:dss.skillorb",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "10",
+                    "name": "dynamicswordskills:dss.skillorb",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "11",
+                    "name": "dynamicswordskills:dss.skillorb",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "12",
+                    "name": "dynamicswordskills:dss.skillorb",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "13",
+                    "name": "dynamicswordskills:dss.skillorb",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "dynamicswordskills:dss.skillstone",
+                    "min": "1"
+                },
+                "weight": "3"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "dynamicswordskills:dss.skillwood",
+                    "min": "1"
+                },
+                "weight": "4"
+            }
+        ]
+    }]
 }

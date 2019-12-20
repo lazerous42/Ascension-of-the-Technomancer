@@ -1,5 +1,6 @@
 var AdvancedRocketry_enabled = true;
 var AdventOfAscension_enabled = true;
+var AdventureBackpack_enabled = true;
 var AgriCraft_enabled = true;
 var AppliedEnergistics2_enabled = true;
 var ArsMagica2_enabled = true;
@@ -11,8 +12,8 @@ var BuildCraft_enabled = true;
 var CarpentersBlocks_enabled = true;
 var Chisel_enabled = true;
 var ExtraCells_enabled = true;
+var EtFuturum_enabled = true;
 var ExtraUtilities_enabled = true;
-var Evilcraft_enabled = true;
 var Forestry_enabled = true;
 var ForgeMicroblock_enabled = true;
 var Genetics_enabled = true;

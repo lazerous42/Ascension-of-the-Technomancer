@@ -1,0 +1,79 @@
+{
+    "Heatsand-Nether": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "large-vein",
+        "block": [{
+            "name": "Natura:heatsand",
+            "metadata": 0
+        }],
+        "material": [{
+                "name": "BiomesOPlenty:ashStone",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:netherrack",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:soul_sand",
+                "metadata": 0
+            }
+        ],
+        "sparse": "false",
+        "chunkChance": 6,
+        "clusterSize": 64,
+        "numClusters": 1,
+        "minHeight": 20,
+        "maxHeight": 90,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [{
+            "type": "dictionary",
+            "entry": "NETHER"
+        }],
+        "dimensionRestriction": "none",
+        "dimensions": [
+
+        ]
+    },
+    "Heatsand-Vultomas": {
+        "enabled": "true",
+        "template": "surface",
+        "generator": "large-vein",
+        "block": [{
+            "name": "Natura:heatsand",
+            "metadata": 0
+        }],
+        "material": [{
+                "name": "BiomesOPlenty:ashStone",
+                "metadata": 0
+            },
+            {
+                "name": "BiomesOPlenty:driedDirt",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:netherrack",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:soul_sand",
+                "metadata": 0
+            }
+        ],
+        "sparse": "false",
+        "chunkChance": 24,
+        "clusterSize": 96,
+        "numClusters": 1,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            116
+        ]
+    }
+}

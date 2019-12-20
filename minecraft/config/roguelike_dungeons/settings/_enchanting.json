@@ -10,16 +10,70 @@
                 {
                     "data": {
                         "max": "1", 
-                        "meta": "0", 
-                        "name": "chancecubes:chancePendantTier3", 
+                        "meta": "1", 
+                        "name": "Automagy:baubleEnderDisjunction", 
                         "min": "1"
                     }, 
-                    "weight": "3"
+                    "weight": "2"
                 }, 
                 {
                     "data": {
+                        "max": "1", 
+                        "meta": "0", 
+                        "name": "Botania:blackLotus", 
+                        "min": "1"
+                    }, 
+                    "weight": "6"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "0", 
+                        "name": "Botania:lavaPendant", 
+                        "min": "1"
+                    }, 
+                    "weight": "2"
+                },
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "0", 
+                        "name": "Botania:magnetRing", 
+                        "min": "1"
+                    }, 
+                    "weight": "2"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "1000", 
+                        "name": "Botania:manaRing", 
+                        "min": "1"
+                    }, 
+                    "weight": "2"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "0", 
+                        "name": "ChromatiCraft:chromaticraft_item_fragment", 
+                        "min": "1"
+                    }, 
+                    "weight": "10"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "0", 
+                        "name": "ChromatiCraft:chromaticraft_item_help", 
+                        "min": "1"
+                    }, 
+                    "weight": "4"
+                },
+                {
+                    "data": {
                         "max": "8", 
-                        "meta": "14", 
+                        "meta": "0", 
                         "name": "ChromatiCraft:chromaticraft_item_shard", 
                         "min": "2"
                     }, 
@@ -28,7 +82,79 @@
                 {
                     "data": {
                         "max": "8", 
-                        "meta": "15", 
+                        "meta": "1", 
+                        "name": "ChromatiCraft:chromaticraft_item_shard", 
+                        "min": "2"
+                    }, 
+                    "weight": "4"
+                }, 
+                {
+                    "data": {
+                        "max": "8", 
+                        "meta": "2", 
+                        "name": "ChromatiCraft:chromaticraft_item_shard", 
+                        "min": "2"
+                    }, 
+                    "weight": "4"
+                }, 
+                {
+                    "data": {
+                        "max": "8", 
+                        "meta": "3", 
+                        "name": "ChromatiCraft:chromaticraft_item_shard", 
+                        "min": "2"
+                    }, 
+                    "weight": "4"
+                }, 
+                {
+                    "data": {
+                        "max": "8", 
+                        "meta": "4", 
+                        "name": "ChromatiCraft:chromaticraft_item_shard", 
+                        "min": "2"
+                    }, 
+                    "weight": "4"
+                }, 
+                {
+                    "data": {
+                        "max": "8", 
+                        "meta": "5", 
+                        "name": "ChromatiCraft:chromaticraft_item_shard", 
+                        "min": "2"
+                    }, 
+                    "weight": "4"
+                }, 
+                {
+                    "data": {
+                        "max": "8", 
+                        "meta": "6", 
+                        "name": "ChromatiCraft:chromaticraft_item_shard", 
+                        "min": "2"
+                    }, 
+                    "weight": "4"
+                }, 
+                {
+                    "data": {
+                        "max": "8", 
+                        "meta": "7", 
+                        "name": "ChromatiCraft:chromaticraft_item_shard", 
+                        "min": "2"
+                    }, 
+                    "weight": "4"
+                }, 
+                {
+                    "data": {
+                        "max": "8", 
+                        "meta": "8", 
+                        "name": "ChromatiCraft:chromaticraft_item_shard", 
+                        "min": "2"
+                    }, 
+                    "weight": "4"
+                }, 
+                {
+                    "data": {
+                        "max": "8", 
+                        "meta": "9", 
                         "name": "ChromatiCraft:chromaticraft_item_shard", 
                         "min": "2"
                     }, 
@@ -72,21 +198,39 @@
                 }, 
                 {
                     "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "lycanitesmobs:soulgazer", 
-                        "min": "1"
+                        "max": "8", 
+                        "meta": "14", 
+                        "name": "ChromatiCraft:chromaticraft_item_shard", 
+                        "min": "2"
                     }, 
-                    "weight": "5"
+                    "weight": "4"
+                }, 
+                {
+                    "data": {
+                        "max": "8", 
+                        "meta": "15", 
+                        "name": "ChromatiCraft:chromaticraft_item_shard", 
+                        "min": "2"
+                    }, 
+                    "weight": "4"
                 }, 
                 {
                     "data": {
                         "max": "1", 
-                        "meta": "1", 
-                        "name": "Automagy:baubleEnderDisjunction", 
+                        "meta": "0", 
+                        "name": "HardcoreEnderExpansion:knowledge_note", 
                         "min": "1"
                     }, 
-                    "weight": "2"
+                    "weight": "6"
+                },                 
+                {
+                    "data": {
+                        "max": "2", 
+                        "meta": "0", 
+                        "name": "Thaumcraft:ItemBaubleBlanks", 
+                        "min": "1"
+                    }, 
+                    "weight": "4"
                 }, 
                 {
                     "data": {
@@ -100,7 +244,7 @@
                 {
                     "data": {
                         "max": "1", 
-                        "meta": "6", 
+                        "meta": "3", 
                         "name": "Thaumcraft:ItemBaubleBlanks", 
                         "min": "1"
                     }, 
@@ -127,8 +271,26 @@
                 {
                     "data": {
                         "max": "1", 
+                        "meta": "6", 
+                        "name": "Thaumcraft:ItemBaubleBlanks", 
+                        "min": "1"
+                    }, 
+                    "weight": "2"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
                         "meta": "8", 
                         "name": "Thaumcraft:ItemBaubleBlanks", 
+                        "min": "1"
+                    }, 
+                    "weight": "2"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "0", 
+                        "name": "Thaumcraft:ItemRingRunic", 
                         "min": "1"
                     }, 
                     "weight": "2"
@@ -145,8 +307,8 @@
                 {
                     "data": {
                         "max": "1", 
-                        "meta": "0", 
-                        "name": "Thaumcraft:ItemRingRunic", 
+                        "meta": "18", 
+                        "name": "arsmagica2:rune", 
                         "min": "1"
                     }, 
                     "weight": "2"
@@ -155,155 +317,11 @@
                     "data": {
                         "max": "1", 
                         "meta": "0", 
-                        "name": "Botania:blackLotus", 
+                        "name": "chancecubes:chancePendantTier1", 
                         "min": "1"
                     }, 
-                    "weight": "6"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "ChromatiCraft:chromaticraft_item_fragment", 
-                        "min": "1"
-                    }, 
-                    "weight": "10"
-                }, 
-                {
-                    "data": {
-                        "max": "8", 
-                        "meta": "8", 
-                        "name": "ChromatiCraft:chromaticraft_item_shard", 
-                        "min": "2"
-                    }, 
-                    "weight": "4"
-                }, 
-                {
-                    "data": {
-                        "max": "8", 
-                        "meta": "9", 
-                        "name": "ChromatiCraft:chromaticraft_item_shard", 
-                        "min": "2"
-                    }, 
-                    "weight": "4"
-                }, 
-                {
-                    "data": {
-                        "max": "8", 
-                        "meta": "6", 
-                        "name": "ChromatiCraft:chromaticraft_item_shard", 
-                        "min": "2"
-                    }, 
-                    "weight": "4"
-                }, 
-                {
-                    "data": {
-                        "max": "8", 
-                        "meta": "7", 
-                        "name": "ChromatiCraft:chromaticraft_item_shard", 
-                        "min": "2"
-                    }, 
-                    "weight": "4"
-                }, 
-                {
-                    "data": {
-                        "max": "8", 
-                        "meta": "4", 
-                        "name": "ChromatiCraft:chromaticraft_item_shard", 
-                        "min": "2"
-                    }, 
-                    "weight": "4"
-                }, 
-                {
-                    "data": {
-                        "max": "8", 
-                        "meta": "5", 
-                        "name": "ChromatiCraft:chromaticraft_item_shard", 
-                        "min": "2"
-                    }, 
-                    "weight": "4"
-                }, 
-                {
-                    "data": {
-                        "max": "8", 
-                        "meta": "2", 
-                        "name": "ChromatiCraft:chromaticraft_item_shard", 
-                        "min": "2"
-                    }, 
-                    "weight": "4"
-                }, 
-                {
-                    "data": {
-                        "max": "8", 
-                        "meta": "3", 
-                        "name": "ChromatiCraft:chromaticraft_item_shard", 
-                        "min": "2"
-                    }, 
-                    "weight": "4"
-                }, 
-                {
-                    "data": {
-                        "max": "8", 
-                        "meta": "0", 
-                        "name": "ChromatiCraft:chromaticraft_item_shard", 
-                        "min": "2"
-                    }, 
-                    "weight": "4"
-                }, 
-                {
-                    "data": {
-                        "max": "8", 
-                        "meta": "1", 
-                        "name": "ChromatiCraft:chromaticraft_item_shard", 
-                        "min": "2"
-                    }, 
-                    "weight": "4"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "1000", 
-                        "name": "Botania:manaRing", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "minecraft:beacon", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "3", 
-                        "name": "Thaumcraft:ItemBaubleBlanks", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "2", 
-                        "meta": "0", 
-                        "name": "Thaumcraft:ItemBaubleBlanks", 
-                        "min": "1"
-                    }, 
-                    "weight": "4"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "HardcoreEnderExpansion:knowledge_note", 
-                        "min": "1"
-                    }, 
-                    "weight": "6"
-                }, 
+                    "weight": "5"
+                },
                 {
                     "data": {
                         "max": "1", 
@@ -317,46 +335,28 @@
                     "data": {
                         "max": "1", 
                         "meta": "0", 
-                        "name": "ChromatiCraft:chromaticraft_item_help", 
+                        "name": "chancecubes:chancePendantTier3", 
                         "min": "1"
                     }, 
-                    "weight": "4"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "18", 
-                        "name": "arsmagica2:rune", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
+                    "weight": "3"
                 }, 
                 {
                     "data": {
                         "max": "1", 
                         "meta": "0", 
-                        "name": "Botania:magnetRing", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Botania:lavaPendant", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "chancecubes:chancePendantTier1", 
+                        "name": "lycanitesmobs:soulgazer", 
                         "min": "1"
                     }, 
                     "weight": "5"
+                }, 
+                {
+                    "data": {
+                        "max": "1", 
+                        "meta": "0", 
+                        "name": "minecraft:beacon", 
+                        "min": "1"
+                    }, 
+                    "weight": "2"
                 }
             ]
         }

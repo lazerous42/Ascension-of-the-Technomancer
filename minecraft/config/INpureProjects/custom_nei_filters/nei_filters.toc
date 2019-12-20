@@ -2,11 +2,12 @@
 ## Author: Lazerous42
 ## Version: 1.0
 ## Bootstrap: Bootstrap.js
-## Saved Variables: AdvancedRocketry_enabled, AdventOfAscension_enabled, AgriCraft_enabled, AppliedEnergistics2_enabled, ArsMagica2_enabled, Artifacts_enabled, BiblioCraft_enabled, BiomesOPlenty_enabled, Botania_enabled, BuildCraft_enabled, CarpentersBlocks_enabled, Chisel_enabled, ExtraCells_enabled, ExtraUtilities_enabled, 
-## Saved Variables: Evilcraft_enabled, HarvestCraft_enabled, Forestry_enabled, Genetics_enabled, IndustrialCraft2_enabled, ForgeMicroblock_enabled, MalisisDoors_enabled, Mantle_enabled, Mekanism_enabled, MineFactoryReloaded_enabled, Natura_enabled, OpenBlocks_enabled, RecurrentComplex_enabled, StorageDrawers_enabled, ThermalExpansion_enabled, 
-## Saved Variables: TinkersConstruct_enabled, TwilightForest_enabled, Vanilla_enabled, WitchingGadgets_enabled
+## Saved Variables: AdvancedRocketry_enabled, AdventOfAscension_enabled, AdventureBackpack_enabled, AgriCraft_enabled, AppliedEnergistics2_enabled, ArsMagica2_enabled, Artifacts_enabled, BiblioCraft_enabled, BiomesOPlenty_enabled, Botania_enabled, BuildCraft_enabled, CarpentersBlocks_enabled, Chisel_enabled, EtFuturum_enabled, 
+## Saved Variables: ExtraCells_enabled, ExtraUtilities_enabled, HarvestCraft_enabled, Forestry_enabled, Genetics_enabled, IndustrialCraft2_enabled, ForgeMicroblock_enabled, MalisisDoors_enabled, Mantle_enabled, Mekanism_enabled, MineFactoryReloaded_enabled, Natura_enabled, OpenBlocks_enabled, RecurrentComplex_enabled, 
+## Saved Variables: StorageDrawers_enabled, ThermalExpansion_enabled, TinkersConstruct_enabled, TwilightForest_enabled, Vanilla_enabled, WitchingGadgets_enabled
 AdvancedRocketry.js
 AdventOfAscension.js
+AdventureBackpack.js
 AgriCraft.js
 AppliedEnergistics2.js
 ArsMagica2.js
@@ -17,9 +18,9 @@ Botania.js
 BuildCraft.js
 CarpentersBlocks.js
 Chisel.js
+EtFuturum.js
 ExtraCells.js
 ExtraUtilities.js
-Evilcraft.js
 Forestry.js
 ForgeMicroblock.js
 Genetics.js

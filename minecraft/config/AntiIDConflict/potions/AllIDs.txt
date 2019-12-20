@@ -1,5 +1,5 @@
-Total amount of free potion ids: 131
-Total amount of occupied potion ids: 225
+Total amount of free potion ids: 130
+Total amount of occupied potion ids: 226
 Total amount of conflicted potion ids: 0
 All ids and their position:
 0 is Occupied by Confusion (com.gw.dm.potion.PotionAddle)
@@ -239,7 +239,7 @@ All ids and their position:
 234 is Occupied by bl.elixir.weakbow (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
 235 is Occupied by bl.elixir.weakness (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
 236 is Occupied by bl.elixir.wings (thebetweenlands.herblore.elixirs.effects.ElixirEffect$ElixirPotionEffect)
-237 is Avaible
+237 is Occupied by Curse (gravestone.potion.CursePotion)
 238 is Avaible
 239 is Avaible
 240 is Avaible

@@ -1,139 +1,136 @@
 {
     "name": "armour",
-    "loot_rules": [
-        {
-            "type": "ARMOUR",
-            "level" : [0, 1, 2, 3, 4],
-            "each" : true,
-            "quantity" : 24,
-            "loot": [
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Railcraft:armor.steel.legs", 
-                        "min": "1"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "EnderIO:item.darkSteel_boots", 
-                        "min": "1"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Railcraft:armor.steel.helmet", 
-                        "min": "1"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Artifacts:artifact_chainmail_leggings", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "minecraft:golden_horse_armor", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Railcraft:armor.steel.boots", 
-                        "min": "1"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Artifacts:artifact_chainmail_helmet", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Artifacts:artifact_chainmail_boots", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "minecraft:iron_horse_armor", 
-                        "min": "1"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "OpenBlocks:technicolorGlasses", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Railcraft:armor.steel.plate", 
-                        "min": "1"
-                    }, 
-                    "weight": "5"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Artifacts:artifact_chainmail_chestplate", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Thaumcraft:BootsTraveller", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
+    "loot_rules": [{
+        "type": "ARMOUR",
+        "level": [0, 1, 2, 3, 4],
+        "each": true,
+        "quantity": 24,
+        "loot": [{
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "Artifacts:artifact_chainmail_boots",
+                    "min": "1"
                 },
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "backlytra:elytra", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }
-            ]
-        }
-    ]
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "Artifacts:artifact_chainmail_chestplate",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "Artifacts:artifact_chainmail_helmet",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "Artifacts:artifact_chainmail_leggings",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "EnderIO:item.darkSteel_boots",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "OpenBlocks:technicolorGlasses",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "Railcraft:armor.steel.boots",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "Railcraft:armor.steel.helmet",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "Railcraft:armor.steel.legs",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "Railcraft:armor.steel.plate",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "Thaumcraft:BootsTraveller",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "backlytra:elytra",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "minecraft:golden_horse_armor",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "minecraft:iron_horse_armor",
+                    "min": "1"
+                },
+                "weight": "5"
+            }
+        ]
+    }]
 }

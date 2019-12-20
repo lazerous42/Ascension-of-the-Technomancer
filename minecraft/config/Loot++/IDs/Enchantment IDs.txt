@@ -400,48 +400,62 @@
 
 
 89
+	- Name: enchantment.chroma.minetime
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 3
+
+
+90
 	- Name: enchantment.chroma.enderlock
 	- Weight: 0
 	- Min Level: 1
 	- Max Level: 1
 
 
-90
+91
 	- Name: enchantment.chroma.harvestlevel
 	- Weight: 0
 	- Min Level: 1
 	- Max Level: 2
 
 
-91
-	- Name: enchantment.chroma.autocollect
-	- Weight: 0
-	- Min Level: 1
-	- Max Level: 1
-
-
 92
-	- Name: enchantment.chroma.fastsink
+	- Name: enchantment.chroma.datakeep
 	- Weight: 0
 	- Min Level: 1
 	- Max Level: 1
 
 
 93
+	- Name: enchantment.chroma.autocollect
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 1
+
+
+94
+	- Name: enchantment.chroma.fastsink
+	- Weight: 0
+	- Min Level: 1
+	- Max Level: 1
+
+
+95
 	- Name: enchantment.chroma.rareloot
 	- Weight: 0
 	- Min Level: 1
 	- Max Level: 4
 
 
-94
+96
 	- Name: enchantment.chroma.userepair
 	- Weight: 0
 	- Min Level: 1
 	- Max Level: 3
 
 
-95
+97
 	- Name: enchantment.chroma.weaponaoe
 	- Weight: 0
 	- Min Level: 1

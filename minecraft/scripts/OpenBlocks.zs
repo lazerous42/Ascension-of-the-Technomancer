@@ -11,6 +11,9 @@ val gliderWing = <OpenBlocks:generic>;
 val hangGlider = <OpenBlocks:hangglider>;
 val fan = <OpenBlocks:fan>;
 
+## Cursor
+recipes.remove(<OpenBlocks:cursor>);
+
 ## Glider wing
 recipes.remove(gliderWing);
 recipes.addShaped(gliderWing, [[null, null, <nevermine:AmethystIngot>], [null, <nevermine:AmethystIngot>, <nevermine:RammerheadHide>], [<nevermine:AmethystIngot>, <nevermine:RammerheadHide>, <nevermine:RammerheadHide>]]);

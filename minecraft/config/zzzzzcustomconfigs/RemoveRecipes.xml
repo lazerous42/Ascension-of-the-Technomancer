@@ -16,16 +16,19 @@ Recipes added via this mod will NOT be removed!
 
 <RemoveRecipes>
 	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
-	<!--Lunarin Style Iron Brick -->
+	<!-- Project Red             -->
 	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
-	<output1>VillageNames:lunarinIronBlock 1 0</output1>
+	<!-- Circuit Plate           -->
+	<output1>ProjRed|Core:projectred.core.part 2 0</output1>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Railcraft               -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<output2>Railcraft:part.rail 8 3</output2>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Village Names           -->
 	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<!--Lunarin Style Gold Brick -->
-	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
-	<output2>VillageNames:lunarinGoldBlock 1 0</output2>
-	<output3>Railcraft:part.rail 8 3</output3>
-	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
-	<!--Circuit Plate -->
-	<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
-	<output4>ProjRed|Core:projectred.core.part 2 0</output4>
+	<output3>VillageNames:lunarinGoldBlock 1 0</output3>
+	<!--Lunarin Style Iron Brick -->
+	<output4>VillageNames:lunarinIronBlock 1 0</output4>
 </RemoveRecipes>

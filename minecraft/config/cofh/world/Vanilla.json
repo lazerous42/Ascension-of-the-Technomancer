@@ -13,8 +13,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -1,
-            1
+            -1,1
         ]
     },
     "gravel": {
@@ -31,8 +30,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -1,
-            1
+            -1,1
         ]
     },
     "coal": {
@@ -49,8 +47,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -1,
-            1
+            -1,1
         ]
     },
     "iron": {
@@ -67,8 +64,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -1,
-            1
+            -1,1
         ]
     },
     "gold": {
@@ -85,8 +81,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -1,
-            1
+            -1,1
         ]
     },
     "redstone": {
@@ -103,8 +98,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -1,
-            1
+            -1,1
         ]
     },
     "diamond": {
@@ -121,8 +115,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -1,
-            1
+            -1,1
         ]
     },
     "lapis": {
@@ -139,8 +132,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -1,
-            1
+            -1,1
         ]
     },
     "quartz": {

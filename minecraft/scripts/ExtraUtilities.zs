@@ -217,7 +217,7 @@ recipes.addShaped(<ExtraUtilities:endConstructor>, [[obsidianEnderInfused, <ore:
 
 ##  Magnum torch
 QED.removeRecipe(<ExtraUtilities:magnumTorch>);
-QED.addShapedRecipe(<ExtraUtilities:magnumTorch>, [[<minecraft:potion:8229>, <ExtraUtilities:chandelier>, <minecraft:potion:8225>], [<ExtraUtilities:chandelier>, <ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:chandelier>], [<ExtraUtilities:chandelier>, <ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:chandelier>]]);
-QED.addShapedRecipe(<ExtraUtilities:magnumTorch>, [[<minecraft:potion:8225>, <ExtraUtilities:chandelier>, <minecraft:potion:8229>], [<ExtraUtilities:chandelier>, <ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:chandelier>], [<ExtraUtilities:chandelier>, <ExtraUtilities:bedrockiumIngot>, <ExtraUtilities:chandelier>]]);
+QED.addShapedRecipe(<ExtraUtilities:magnumTorch>, [[<minecraft:potion:8229>, <xreliquary:interdiction_torch>, <minecraft:potion:8225>], [<xreliquary:interdiction_torch>, <ExtraUtilities:bedrockiumIngot>, <xreliquary:interdiction_torch>], [<xreliquary:interdiction_torch>, <ExtraUtilities:bedrockiumIngot>, <xreliquary:interdiction_torch>]]);
+QED.addShapedRecipe(<ExtraUtilities:magnumTorch>, [[<minecraft:potion:8225>, <xreliquary:interdiction_torch>, <minecraft:potion:8229>], [<xreliquary:interdiction_torch>, <ExtraUtilities:bedrockiumIngot>, <xreliquary:interdiction_torch>], [<xreliquary:interdiction_torch>, <ExtraUtilities:bedrockiumIngot>, <xreliquary:interdiction_torch>]]);
 
 print("Initialized 'ExtraUtilities.zs'");

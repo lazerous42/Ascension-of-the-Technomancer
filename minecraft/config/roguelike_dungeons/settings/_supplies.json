@@ -9,6 +9,195 @@
                 "data": {
                     "max": "1",
                     "meta": "0",
+                    "name": "AWWayofTime:greaterLengtheningCatalyst",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "Botania:lexicon",
+                    "min": "1"
+                },
+                "weight": "6"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "ChromatiCraft:chromaticraft_block_glowsapling",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "CrystalWing:crystalwing.crystalWing",
+                    "min": "1"
+                },
+                "weight": "3"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "CrystalWing:crystalwing.crystalWingBurned",
+                    "min": "1"
+                },
+                "weight": "4"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "EnderIO:itemBasicCapacitor",
+                    "min": "1"
+                },
+                "weight": "10"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "1",
+                    "name": "EnderIO:itemBasicCapacitor",
+                    "min": "1"
+                },
+                "weight": "4"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "2",
+                    "name": "EnderIO:itemBasicCapacitor",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "EnderIO:itemConduitProbe",
+                    "min": "1"
+                },
+                "weight": "10"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "ExtraUtilities:dark_portal",
+                    "min": "1"
+                },
+                "weight": "3"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "2",
+                    "name": "ExtraUtilities:dark_portal",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "ExtraUtilities:divisionSigil",
+                    "min": "1"
+                },
+                "weight": "10"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "ExtraUtilities:endConstructor",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "ExtraUtilities:golden_bag",
+                    "min": "1"
+                },
+                "weight": "4"
+            },
+            {
+                "data": {
+                    "max": "5",
+                    "meta": "0",
+                    "name": "ExtraUtilities:plant/ender_lilly",
+                    "min": "1"
+                },
+                "weight": "30"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "3",
+                    "name": "ExtraUtilities:watering_can",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "GardenContainers:pottery_pattern_dirty",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "HardcoreEnderExpansion:temple_caller",
+                    "min": "0"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "11",
+                    "name": "IC2:itemRecipePart",
+                    "min": "1"
+                },
+                "weight": "20"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "JABBA:moverDiamond",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "4",
+                    "meta": "2",
+                    "name": "MineFactoryReloaded:rubberwood.sapling",
+                    "min": "1"
+                },
+                "weight": "8"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
                     "name": "MineFactoryReloaded:safarinet.singleuse",
                     "min": "1"
                 },
@@ -17,9 +206,369 @@
             {
                 "data": {
                     "max": "1",
+                    "meta": "4",
+                    "name": "OpenComputers:item",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "4",
+                    "meta": "0",
+                    "name": "PneumaticCraft:nukeVirus",
+                    "min": "1"
+                },
+                "weight": "10"
+            },
+            {
+                "data": {
+                    "max": "4",
+                    "meta": "0",
+                    "name": "PneumaticCraft:stopWorm",
+                    "min": "1"
+                },
+                "weight": "10"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "RandomThings:whitestone",
+                    "min": "1"
+                },
+                "weight": "3"
+            },
+            {
+                "data": {
+                    "max": "12",
+                    "meta": "0",
+                    "name": "RotaryCraft:rotarycraft_item_canola",
+                    "min": "1"
+                },
+                "weight": "40"
+            },
+            {
+                "data": {
+                    "max": "18",
+                    "meta": "9",
+                    "name": "RotaryCraft:rotarycraft_item_shaftcraft",
+                    "min": "6"
+                },
+                "weight": "20"
+            },
+            {
+                "data": {
+                    "max": "12",
+                    "meta": "10",
+                    "name": "RotaryCraft:rotarycraft_item_shaftcraft",
+                    "min": "1"
+                },
+                "weight": "40"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "TConstruct:heartCanister",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "2",
+                    "name": "TConstruct:heartCanister",
+                    "min": "1"
+                },
+                "weight": "1"
+            },
+            {
+                "data": {
+                    "max": "2",
+                    "meta": "1",
+                    "name": "Thaumcraft:ItemBaubleBlanks",
+                    "min": "1"
+                },
+                "weight": "4"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "7",
+                    "name": "Thaumcraft:ItemBaubleBlanks",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "Thaumcraft:ItemThaumonomicon",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "ThermalExpansion:Frame",
+                    "min": "1"
+                },
+                "weight": "3"
+            },
+            {
+                "data": {
+                    "max": "2",
+                    "meta": "1",
+                    "name": "ThermalExpansion:Frame",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "2",
+                    "name": "ThermalExpansion:Frame",
+                    "min": "1"
+                },
+                "weight": "3"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "3",
+                    "name": "ThermalExpansion:Frame",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "appliedenergistics2:item.ItemBasicStorageCell.64k",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "2",
+                    "meta": "0",
+                    "name": "chancecubes:Chance_Cube",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "2",
+                    "meta": "0",
+                    "name": "chancecubes:Chance_Icosahedron",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "chococraft:Chocopedia",
+                    "min": "1"
+                },
+                "weight": "4"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "fossil:figurine",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "1",
+                    "name": "fossil:figurine",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "2",
+                    "name": "fossil:figurine",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "3",
+                    "name": "fossil:figurine",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "4",
+                    "name": "fossil:figurine",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "5",
+                    "name": "fossil:figurine",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "6",
+                    "name": "fossil:figurine",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "7",
+                    "name": "fossil:figurine",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "8",
+                    "name": "fossil:figurine",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "9",
+                    "name": "fossil:figurine",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "10",
+                    "name": "fossil:figurine",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "11",
+                    "name": "fossil:figurine",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "12",
+                    "name": "fossil:figurine",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "13",
+                    "name": "fossil:figurine",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "14",
+                    "name": "fossil:figurine",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "15",
+                    "name": "fossil:figurine",
+                    "min": "1"
+                },
+                "weight": "5"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "minecraft:bucket",
+                    "min": "1"
+                },
+                "weight": "10"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "minecraft:enchanted_book",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "minecraft:name_tag",
+                    "min": "1"
+                },
+                "weight": "10"
+            },
+            {
+                "data": {
+                    "max": "1",
                     "meta": "0",
                     "name": "minecraft:saddle",
                     "min": "1"
+                },
+                "weight": "10"
+            },
+            {
+                "data": {
+                    "max": "32",
+                    "meta": "0",
+                    "name": "minecraft:web",
+                    "min": "8"
                 },
                 "weight": "10"
             },
@@ -63,244 +612,10 @@
                 "data": {
                     "max": "1",
                     "meta": "0",
-                    "name": "ChromatiCraft:chromaticraft_block_glowsapling",
+                    "name": "openmodularturrets:baseTierWood",
                     "min": "1"
                 },
-                "weight": "2"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "0",
-                    "name": "EnderIO:itemBasicCapacitor",
-                    "min": "1"
-                },
-                "weight": "10"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "11",
-                    "name": "IC2:itemRecipePart",
-                    "min": "1"
-                },
-                "weight": "20"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "0",
-                    "name": "minecraft:enchanted_book",
-                    "min": "1"
-                },
-                "weight": "2"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "0",
-                    "name": "chococraft:Chocopedia",
-                    "min": "1"
-                },
-                "weight": "4"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "0",
-                    "name": "Thaumcraft:ItemThaumonomicon",
-                    "min": "1"
-                },
-                "weight": "2"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "2",
-                    "name": "ExtraUtilities:dark_portal",
-                    "min": "1"
-                },
-                "weight": "2"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "0",
-                    "name": "ExtraUtilities:dark_portal",
-                    "min": "1"
-                },
-                "weight": "3"
-            },
-            {
-                "data": {
-                    "max": "12",
-                    "meta": "0",
-                    "name": "RotaryCraft:rotarycraft_item_canola",
-                    "min": "1"
-                },
-                "weight": "40"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "1",
-                    "name": "EnderIO:itemBasicCapacitor",
-                    "min": "1"
-                },
-                "weight": "4"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "2",
-                    "name": "EnderIO:itemBasicCapacitor",
-                    "min": "1"
-                },
-                "weight": "2"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "0",
-                    "name": "minecraft:name_tag",
-                    "min": "1"
-                },
-                "weight": "10"
-            },
-            {
-                "data": {
-                    "max": "2",
-                    "meta": "1",
-                    "name": "Thaumcraft:ItemBaubleBlanks",
-                    "min": "1"
-                },
-                "weight": "4"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "0",
-                    "name": "appliedenergistics2:item.ItemBasicStorageCell.64k",
-                    "min": "1"
-                },
-                "weight": "2"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "0",
-                    "name": "Botania:lexicon",
-                    "min": "1"
-                },
-                "weight": "6"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "7",
-                    "name": "Thaumcraft:ItemBaubleBlanks",
-                    "min": "1"
-                },
-                "weight": "2"
-            },
-            {
-                "data": {
-                    "max": "18",
-                    "meta": "9",
-                    "name": "RotaryCraft:rotarycraft_item_shaftcraft",
-                    "min": "6"
-                },
-                "weight": "20"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "8",
-                    "name": "fossil:figurine",
-                    "min": "1"
-                },
-                "weight": "5"
-            },
-            {
-                "data": {
-                    "max": "4",
-                    "meta": "2",
-                    "name": "MineFactoryReloaded:rubberwood.sapling",
-                    "min": "1"
-                },
-                "weight": "8"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "6",
-                    "name": "fossil:figurine",
-                    "min": "1"
-                },
-                "weight": "5"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "3",
-                    "name": "fossil:figurine",
-                    "min": "1"
-                },
-                "weight": "5"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "0",
-                    "name": "CrystalWing:crystalwing.crystalWing",
-                    "min": "1"
-                },
-                "weight": "3"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "0",
-                    "name": "ExtraUtilities:magnumTorch",
-                    "min": "1"
-                },
-                "weight": "2"
-            },
-            {
-                "data": {
-                    "max": "32",
-                    "meta": "0",
-                    "name": "minecraft:web",
-                    "min": "8"
-                },
-                "weight": "10"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "0",
-                    "name": "ExtraUtilities:endConstructor",
-                    "min": "1"
-                },
-                "weight": "2"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "0",
-                    "name": "minecraft:bucket",
-                    "min": "1"
-                },
-                "weight": "10"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "0",
-                    "name": "HardcoreEnderExpansion:temple_caller",
-                    "min": "0"
-                },
-                "weight": "2"
+                "weight": "15"
             },
             {
                 "data": {
@@ -315,109 +630,10 @@
                 "data": {
                     "max": "1",
                     "meta": "0",
-                    "name": "openmodularturrets:baseTierWood",
+                    "name": "openmodularturrets:leverBlock",
                     "min": "1"
                 },
                 "weight": "15"
-            },
-            {
-                "data": {
-                    "max": "4",
-                    "meta": "0",
-                    "name": "PneumaticCraft:nukeVirus",
-                    "min": "1"
-                },
-                "weight": "10"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "3",
-                    "name": "ThermalExpansion:Frame",
-                    "min": "1"
-                },
-                "weight": "2"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "0",
-                    "name": "ExtraUtilities:golden_bag",
-                    "min": "1"
-                },
-                "weight": "4"
-            },
-            {
-                "data": {
-                    "max": "12",
-                    "meta": "10",
-                    "name": "RotaryCraft:rotarycraft_item_shaftcraft",
-                    "min": "1"
-                },
-                "weight": "40"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "0",
-                    "name": "AWWayofTime:greaterLengtheningCatalyst",
-                    "min": "1"
-                },
-                "weight": "2"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "0",
-                    "name": "GardenContainers:pottery_pattern_dirty",
-                    "min": "1"
-                },
-                "weight": "2"
-            },
-            {
-                "data": {
-                    "max": "2",
-                    "meta": "0",
-                    "name": "chancecubes:Chance_Icosahedron",
-                    "min": "1"
-                },
-                "weight": "5"
-            },
-            {
-                "data": {
-                    "max": "4",
-                    "meta": "0",
-                    "name": "PneumaticCraft:stopWorm",
-                    "min": "1"
-                },
-                "weight": "10"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "2",
-                    "name": "TConstruct:heartCanister",
-                    "min": "1"
-                },
-                "weight": "4"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "1",
-                    "name": "TConstruct:heartCanister",
-                    "min": "1"
-                },
-                "weight": "5"
-            },
-            {
-                "data": {
-                    "max": "5",
-                    "meta": "0",
-                    "name": "ExtraUtilities:plant/ender_lilly",
-                    "min": "1"
-                },
-                "weight": "30"
             },
             {
                 "data": {
@@ -430,246 +646,12 @@
             },
             {
                 "data": {
-                    "max": "1",
+                    "max": "3",
                     "meta": "0",
-                    "name": "openmodularturrets:leverBlock",
-                    "min": "1"
-                },
-                "weight": "15"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "0",
-                    "name": "CrystalWing:crystalwing.crystalWingBurned",
-                    "min": "1"
-                },
-                "weight": "4"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "9",
-                    "name": "fossil:figurine",
-                    "min": "1"
-                },
-                "weight": "5"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "7",
-                    "name": "fossil:figurine",
-                    "min": "1"
-                },
-                "weight": "5"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "4",
-                    "name": "fossil:figurine",
-                    "min": "1"
-                },
-                "weight": "5"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "2",
-                    "name": "fossil:figurine",
-                    "min": "1"
-                },
-                "weight": "5"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "1",
-                    "name": "fossil:figurine",
-                    "min": "1"
-                },
-                "weight": "5"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "0",
-                    "name": "fossil:figurine",
-                    "min": "1"
-                },
-                "weight": "5"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "2",
-                    "name": "ThermalExpansion:Frame",
+                    "name": "xreliquary:interdiction_torch",
                     "min": "1"
                 },
                 "weight": "3"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "0",
-                    "name": "ThermalExpansion:Frame",
-                    "min": "1"
-                },
-                "weight": "3"
-            },
-            {
-                "data": {
-                    "max": "2",
-                    "meta": "1",
-                    "name": "ThermalExpansion:Frame",
-                    "min": "1"
-                },
-                "weight": "5"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "10",
-                    "name": "fossil:figurine",
-                    "min": "1"
-                },
-                "weight": "5"
-            },
-            {
-                "data": {
-                    "max": "2",
-                    "meta": "0",
-                    "name": "chancecubes:Chance_Cube",
-                    "min": "1"
-                },
-                "weight": "5"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "0",
-                    "name": "ExtraUtilities:divisionSigil",
-                    "min": "1"
-                },
-                "weight": "10"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "0",
-                    "name": "JABBA:moverDiamond",
-                    "min": "1"
-                },
-                "weight": "5"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "0",
-                    "name": "RandomThings:whitestone",
-                    "min": "1"
-                },
-                "weight": "3"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "3",
-                    "name": "ExtraUtilities:watering_can",
-                    "min": "1"
-                },
-                "weight": "2"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "0",
-                    "name": "EnderIO:itemConduitProbe",
-                    "min": "1"
-                },
-                "weight": "10"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "15",
-                    "name": "fossil:figurine",
-                    "min": "1"
-                },
-                "weight": "5"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "14",
-                    "name": "fossil:figurine",
-                    "min": "1"
-                },
-                "weight": "5"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "13",
-                    "name": "fossil:figurine",
-                    "min": "1"
-                },
-                "weight": "5"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "12",
-                    "name": "fossil:figurine",
-                    "min": "1"
-                },
-                "weight": "5"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "11",
-                    "name": "fossil:figurine",
-                    "min": "1"
-                },
-                "weight": "5"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "0",
-                    "name": "swampmobs:venomaxeblade",
-                    "min": "1"
-                },
-                "weight": "4"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "5",
-                    "name": "fossil:figurine",
-                    "min": "1"
-                },
-                "weight": "5"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "4",
-                    "name": "OpenComputers:item",
-                    "min": "1"
-                },
-                "weight": "5"
-            },
-            {
-                "data": {
-                    "max": "1",
-                    "meta": "2",
-                    "name": "TConstruct:heartCanister",
-                    "min": "1"
-                },
-                "weight": "1"
             }
         ]
     }]

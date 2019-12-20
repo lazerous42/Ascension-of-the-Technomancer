@@ -149,6 +149,9 @@ RotaryCraft:ingotBedrock
 RotaryCraft:rotarycraft_item_compacts - 3
 
 
+RotaryCraft:ingotTungstenAlloy
+
+
 Russelite
 
 
@@ -353,7 +356,6 @@ beeComb
 Forestry:beeCombs - any
 MagicBees:comb - 0
 ExtraBees:honeyComb - any
-gendustry:HoneyComb - any
 ChromatiCraft:chromaticraft_item_coloredmod - 0
 ChromatiCraft:chromaticraft_item_coloredmod - 1
 ChromatiCraft:chromaticraft_item_coloredmod - 2
@@ -370,6 +372,7 @@ ChromatiCraft:chromaticraft_item_coloredmod - 12
 ChromatiCraft:chromaticraft_item_coloredmod - 13
 ChromatiCraft:chromaticraft_item_coloredmod - 14
 ChromatiCraft:chromaticraft_item_coloredmod - 15
+gendustry:HoneyComb - any
 
 
 beeQueen
@@ -648,6 +651,10 @@ blockCharcoal
 gregtech:gt.blockgem3 - 4
 GardenStuff:stone_block - 0
 Mekanism:BasicBlock - 3
+
+
+blockCharcoalSugar
+MineFactoryReloaded:brick - 15
 
 
 blockCheese
@@ -2631,10 +2638,6 @@ boltBronze
 gregtech:gt.metaitem.01 - 26300
 
 
-boltCadmium
-gregtech:gt.metaitem.01 - 26055
-
-
 boltCarbon
 gregtech:gt.metaitem.01 - 26010
 
@@ -2757,10 +2760,6 @@ gregtech:gt.metaitem.01 - 26372
 
 boltHSSS
 gregtech:gt.metaitem.01 - 26374
-
-
-boltIndium
-gregtech:gt.metaitem.01 - 26056
 
 
 boltInfusedAir
@@ -3185,12 +3184,22 @@ Natura:natura.emptybowl - 12
 breederUranium
 
 
+brickDarkPrismarine
+Botania:prismarine - 2
+VillageNames:prismarine - 2
+
+
 brickEndStone
 etfuturum:end_bricks - 0
 
 
 brickPeat
 Forestry:peat - 0
+
+
+brickPrismarine
+Botania:prismarine - 1
+VillageNames:prismarine - 1
 
 
 bricksClay
@@ -5270,6 +5279,7 @@ gregtech:gt.metaitem.01 - 31009
 
 
 cellPlasmaCadmium
+gregtech:gt.metaitem.01 - 31055
 
 
 cellPlasmaCaesium
@@ -5356,6 +5366,7 @@ gregtech:gt.metaitem.01 - 31001
 
 
 cellPlasmaIndium
+gregtech:gt.metaitem.01 - 31056
 
 
 cellPlasmaIridium
@@ -12156,6 +12167,9 @@ clusterNeodymiumMagnetic
 
 
 clusterNether
+
+
+clusterNetherAdamantine
 
 
 clusterNetherAdamantium
@@ -20600,9 +20614,6 @@ compressedBrass
 compressedBronze
 
 
-compressedCadmium
-
-
 compressedCarbon
 
 
@@ -20765,9 +20776,6 @@ compressedHSSG
 
 
 compressedHSSS
-
-
-compressedIndium
 
 
 compressedIndiumGalliumPhosphide
@@ -21059,28 +21067,28 @@ ImmersiveEngineering:stoneDecoration - 5
 
 
 container_oil
+MagicBees:capsule.void - 5
 Magneticraft:item.bucket_oil - 0
 MagicBees:capsule.magic - 5
-Forestry:canOil - 0
 gregtech:gt.metaitem.01 - 30707
-Forestry:waxCapsuleOil - 0
-MagicBees:capsule.void - 5
 BuildCraft|Energy:bucketOil - 0
+Forestry:waxCapsuleOil - 0
 Forestry:refractoryOil - 0
+Forestry:canOil - 0
 
 
 container_water
-MagicBees:capsule.magic - 1
-minecraft:water_bucket - 0
-evilcraft:bucketEternalWater - 0
-MagicBees:capsule.void - 1
-minecraft:potion - 0
-IC2:itemCellEmpty - 1
-Forestry:refractoryWater - 0
-aether:skyrootWaterBucket - 0
-Forestry:waxCapsuleWater - 0
-Forestry:canWater - 0
 erebus:bambucketWater - 0
+MagicBees:capsule.void - 1
+Forestry:waxCapsuleWater - 0
+MagicBees:capsule.magic - 1
+IC2:itemCellEmpty - 1
+minecraft:potion - 0
+Forestry:canWater - 0
+aether:skyrootWaterBucket - 0
+evilcraft:bucketEternalWater - 0
+minecraft:water_bucket - 0
+Forestry:refractoryWater - 0
 
 
 cookingClam
@@ -21092,6 +21100,9 @@ MoarSigns:NuggetItems - 10
 
 copperRod
 TConstruct:toolRod - 13
+
+
+copper_ingot
 
 
 crafterWood
@@ -27388,8 +27399,8 @@ Botania:manaResource - 13
 dropHoney
 Forestry:honeyDrop - 0
 harvestcraft:honeyItem - 0
-gendustry:HoneyDrop - any
 erebus:materials - 21
+gendustry:HoneyDrop - any
 
 
 dropHoneydew
@@ -32831,6 +32842,9 @@ gregtech:gt.metaitem.01 - 2356
 
 
 dustNether
+
+
+dustNetherAdamantine
 
 
 dustNetherAdamantium
@@ -42329,22 +42343,6 @@ ChromatiCraft:chromaticraft_item_dye - 15
 RotaryCraft:rotarycraft_item_modingots - 32
 RotaryCraft:rotarycraft_item_modingots - 54
 ElectriCraft:electricraft_item_crafting - 0
-gendustry:HoneyDrop - 10
-gendustry:HoneyDrop - 11
-gendustry:HoneyDrop - 12
-gendustry:HoneyDrop - 13
-gendustry:HoneyDrop - 14
-gendustry:HoneyDrop - 15
-gendustry:HoneyDrop - 16
-gendustry:HoneyDrop - 17
-gendustry:HoneyDrop - 18
-gendustry:HoneyDrop - 19
-gendustry:HoneyDrop - 20
-gendustry:HoneyDrop - 21
-gendustry:HoneyDrop - 22
-gendustry:HoneyDrop - 23
-gendustry:HoneyDrop - 24
-gendustry:HoneyDrop - 25
 ProjRed|Exploration:projectred.exploration.lilyseed - 0
 ProjRed|Exploration:projectred.exploration.lilyseed - 1
 ProjRed|Exploration:projectred.exploration.lilyseed - 2
@@ -42377,6 +42375,22 @@ erebus:flower - 12
 erebus:flower - 13
 gregtech:gt.metaitem.01 - 2535
 gregtech:gt.metaitem.01 - 2536
+gendustry:HoneyDrop - 10
+gendustry:HoneyDrop - 11
+gendustry:HoneyDrop - 12
+gendustry:HoneyDrop - 13
+gendustry:HoneyDrop - 14
+gendustry:HoneyDrop - 15
+gendustry:HoneyDrop - 16
+gendustry:HoneyDrop - 17
+gendustry:HoneyDrop - 18
+gendustry:HoneyDrop - 19
+gendustry:HoneyDrop - 20
+gendustry:HoneyDrop - 21
+gendustry:HoneyDrop - 22
+gendustry:HoneyDrop - 23
+gendustry:HoneyDrop - 24
+gendustry:HoneyDrop - 25
 
 
 dyeBlack
@@ -42389,11 +42403,11 @@ ForbiddenMagic:FMResource - 1
 ThaumicHorizons:inkEgg - 0
 ExtraBees:misc - 24
 ChromatiCraft:chromaticraft_item_dye - 0
-gendustry:HoneyDrop - 10
 ProjRed|Exploration:projectred.exploration.lilyseed - 15
 erebus:flower - 0
 gregtech:gt.metaitem.01 - 2535
 gregtech:gt.metaitem.01 - 2536
+gendustry:HoneyDrop - 10
 
 
 dyeBlackCrystal
@@ -42419,9 +42433,9 @@ ChromatiCraft:chromaticraft_item_dye - 4
 RotaryCraft:rotarycraft_item_modingots - 32
 RotaryCraft:rotarycraft_item_modingots - 54
 ElectriCraft:electricraft_item_crafting - 0
-gendustry:HoneyDrop - 14
 ProjRed|Exploration:projectred.exploration.lilyseed - 11
 erebus:flower - 3
+gendustry:HoneyDrop - 14
 
 
 dyeBlueCrystal
@@ -42444,9 +42458,9 @@ IC2:itemCofeePowder - 0
 MineFactoryReloaded:fertilizer - 0
 ExtraBees:misc - 25
 ChromatiCraft:chromaticraft_item_dye - 3
-gendustry:HoneyDrop - 13
 ProjRed|Exploration:projectred.exploration.lilyseed - 12
 erebus:flower - 2
+gendustry:HoneyDrop - 13
 
 
 dyeBrownCrystal
@@ -42546,9 +42560,9 @@ gregtech:gt.metaitem.01 - 2524
 gregtech:gt.metaitem.01 - 8524
 gregtech:gt.metaitem.02 - 32420
 ChromatiCraft:chromaticraft_item_dye - 6
-gendustry:HoneyDrop - 16
 ProjRed|Exploration:projectred.exploration.lilyseed - 9
 erebus:flower - 5
+gendustry:HoneyDrop - 16
 
 
 dyeCyanCrystal
@@ -42563,9 +42577,9 @@ dyeGray
 minecraft:dye - 8
 gregtech:gt.metaitem.02 - 32422
 ChromatiCraft:chromaticraft_item_dye - 8
-gendustry:HoneyDrop - 18
 ProjRed|Exploration:projectred.exploration.lilyseed - 7
 erebus:flower - 7
+gendustry:HoneyDrop - 18
 
 
 dyeGrayCrystal
@@ -42582,8 +42596,8 @@ BiomesOPlenty:misc - 7
 gregtech:gt.metaitem.02 - 32416
 ExtraBees:misc - 22
 ChromatiCraft:chromaticraft_item_dye - 2
-gendustry:HoneyDrop - 12
 ProjRed|Exploration:projectred.exploration.lilyseed - 13
+gendustry:HoneyDrop - 12
 
 
 dyeGreenCrystal
@@ -42601,9 +42615,9 @@ dyeLightBlue
 minecraft:dye - 12
 gregtech:gt.metaitem.02 - 32426
 ChromatiCraft:chromaticraft_item_dye - 12
-gendustry:HoneyDrop - 22
 ProjRed|Exploration:projectred.exploration.lilyseed - 3
 erebus:flower - 10
+gendustry:HoneyDrop - 22
 
 
 dyeLightBlueCrystal
@@ -42618,9 +42632,9 @@ dyeLightGray
 minecraft:dye - 7
 gregtech:gt.metaitem.02 - 32421
 ChromatiCraft:chromaticraft_item_dye - 7
-gendustry:HoneyDrop - 17
 ProjRed|Exploration:projectred.exploration.lilyseed - 8
 erebus:flower - 6
+gendustry:HoneyDrop - 17
 
 
 dyeLightGrayCrystal
@@ -42638,8 +42652,8 @@ dyeLime
 minecraft:dye - 10
 gregtech:gt.metaitem.02 - 32424
 ChromatiCraft:chromaticraft_item_dye - 10
-gendustry:HoneyDrop - 20
 ProjRed|Exploration:projectred.exploration.lilyseed - 5
+gendustry:HoneyDrop - 20
 
 
 dyeLimeCrystal
@@ -42654,9 +42668,9 @@ dyeMagenta
 minecraft:dye - 13
 gregtech:gt.metaitem.02 - 32427
 ChromatiCraft:chromaticraft_item_dye - 13
-gendustry:HoneyDrop - 23
 ProjRed|Exploration:projectred.exploration.lilyseed - 2
 erebus:flower - 11
+gendustry:HoneyDrop - 23
 
 
 dyeMagentaCrystal
@@ -42671,9 +42685,9 @@ dyeOrange
 minecraft:dye - 14
 gregtech:gt.metaitem.02 - 32428
 ChromatiCraft:chromaticraft_item_dye - 14
-gendustry:HoneyDrop - 24
 ProjRed|Exploration:projectred.exploration.lilyseed - 1
 erebus:flower - 12
+gendustry:HoneyDrop - 24
 
 
 dyeOrangeCrystal
@@ -42688,9 +42702,9 @@ dyePink
 minecraft:dye - 9
 gregtech:gt.metaitem.02 - 32423
 ChromatiCraft:chromaticraft_item_dye - 9
-gendustry:HoneyDrop - 19
 ProjRed|Exploration:projectred.exploration.lilyseed - 6
 erebus:flower - 8
+gendustry:HoneyDrop - 19
 
 
 dyePinkCrystal
@@ -42705,9 +42719,9 @@ dyePurple
 minecraft:dye - 5
 gregtech:gt.metaitem.02 - 32419
 ChromatiCraft:chromaticraft_item_dye - 5
-gendustry:HoneyDrop - 15
 ProjRed|Exploration:projectred.exploration.lilyseed - 10
 erebus:flower - 4
+gendustry:HoneyDrop - 15
 
 
 dyePurpleCrystal
@@ -42724,9 +42738,9 @@ gregtech:gt.metaitem.02 - 32415
 evilcraft:hardenedBloodShard - any
 ExtraBees:misc - 19
 ChromatiCraft:chromaticraft_item_dye - 1
-gendustry:HoneyDrop - 11
 ProjRed|Exploration:projectred.exploration.lilyseed - 14
 erebus:flower - 1
+gendustry:HoneyDrop - 11
 
 
 dyeRedCrystal
@@ -42743,9 +42757,9 @@ BiomesOPlenty:misc - 8
 gregtech:gt.metaitem.02 - 32429
 ExtraBees:misc - 23
 ChromatiCraft:chromaticraft_item_dye - 15
-gendustry:HoneyDrop - 25
 ProjRed|Exploration:projectred.exploration.lilyseed - 0
 erebus:flower - 13
+gendustry:HoneyDrop - 25
 
 
 dyeWhiteCrystal
@@ -42763,9 +42777,9 @@ gregtech:gt.metaitem.01 - 2931
 gregtech:gt.metaitem.02 - 32425
 ExtraBees:misc - 20
 ChromatiCraft:chromaticraft_item_dye - 11
-gendustry:HoneyDrop - 21
 ProjRed|Exploration:projectred.exploration.lilyseed - 4
 erebus:flower - 9
+gendustry:HoneyDrop - 21
 
 
 dyeYellowCrystal
@@ -45940,10 +45954,6 @@ frameGtBronze
 gregtech:gt.blockmachines - 4396
 
 
-frameGtCadmium
-gregtech:gt.blockmachines - 4151
-
-
 frameGtCaesium
 gregtech:gt.blockmachines - 4158
 
@@ -48401,9 +48411,6 @@ gemExquisiteBrass
 gemExquisiteBronze
 
 
-gemExquisiteCadmium
-
-
 gemExquisiteCarbon
 
 
@@ -48502,9 +48509,6 @@ gemExquisiteHSSG
 
 
 gemExquisiteHSSS
-
-
-gemExquisiteIndium
 
 
 gemExquisiteInfusedAir
@@ -48971,9 +48975,6 @@ gemFlawlessBrass
 gemFlawlessBronze
 
 
-gemFlawlessCadmium
-
-
 gemFlawlessCarbon
 
 
@@ -49087,9 +49088,6 @@ gemFlawlessHSSG
 
 
 gemFlawlessHSSS
-
-
-gemFlawlessIndium
 
 
 gemFlawlessInfusedAir
@@ -52119,7 +52117,6 @@ ingotButene
 
 
 ingotCadmium
-gregtech:gt.metaitem.01 - 11055
 ReactorCraft:reactorcraft_item_ingots - 1
 RotaryCraft:rotarycraft_item_modingots - 50
 
@@ -52818,9 +52815,6 @@ ingotDoubleBrass
 ingotDoubleBronze
 
 
-ingotDoubleCadmium
-
-
 ingotDoubleCarbon
 
 
@@ -52885,9 +52879,6 @@ ingotDoubleHSSG
 
 
 ingotDoubleHSSS
-
-
-ingotDoubleIndium
 
 
 ingotDoubleIndiumGalliumPhosphide
@@ -56706,6 +56697,9 @@ gregtech:gt.metaitem.01 - 11356
 
 
 ingotNether
+
+
+ingotNetherAdamantine
 
 
 ingotNetherAdamantium
@@ -62618,6 +62612,9 @@ ingotSunnarium
 ingotSunstone
 
 
+ingotSuperconducting
+
+
 ingotSuperconductor
 
 
@@ -65734,6 +65731,9 @@ Magneticraft:limestone - 0
 GeoStrata:geostrata_rock_limestone_smooth - 0
 
 
+listAllWater
+
+
 listAllbeefcooked
 minecraft:cooked_beef - 0
 harvestcraft:firmtofuItem - 0
@@ -67114,7 +67114,7 @@ nuggetBrownLimonite
 
 
 nuggetCadmium
-gregtech:gt.metaitem.01 - 9055
+aobd:nuggetCadmium - 0
 
 
 nuggetCaesium
@@ -74318,6 +74318,9 @@ oreNeodymiumMagnetic
 
 
 oreNether
+
+
+oreNetherAdamantine
 
 
 oreNetherAdamantium
@@ -86502,7 +86505,6 @@ gregtech:gt.metaitem.01 - 17300
 
 
 plateCadmium
-gregtech:gt.metaitem.01 - 17055
 
 
 plateCaesium
@@ -86747,10 +86749,6 @@ plateDoubleBronze
 gregtech:gt.metaitem.01 - 18300
 
 
-plateDoubleCadmium
-gregtech:gt.metaitem.01 - 18055
-
-
 plateDoubleCarbon
 gregtech:gt.metaitem.01 - 18010
 
@@ -86851,10 +86849,6 @@ gregtech:gt.metaitem.01 - 18372
 
 plateDoubleHSSS
 gregtech:gt.metaitem.01 - 18374
-
-
-plateDoubleIndium
-gregtech:gt.metaitem.01 - 18056
 
 
 plateDoubleInvar
@@ -87273,7 +87267,6 @@ gregtech:gt.metaitem.01 - 17374
 
 
 plateIndium
-gregtech:gt.metaitem.01 - 17056
 
 
 plateIndiumGalliumPhosphide
@@ -88746,9 +88739,6 @@ ringBronze
 gregtech:gt.metaitem.01 - 28300
 
 
-ringCadmium
-
-
 ringCarbon
 
 
@@ -88823,9 +88813,6 @@ gregtech:gt.metaitem.01 - 28372
 
 
 ringHSSS
-
-
-ringIndium
 
 
 ringInvar
@@ -89670,10 +89657,6 @@ screwBronze
 gregtech:gt.metaitem.01 - 27300
 
 
-screwCadmium
-gregtech:gt.metaitem.01 - 27055
-
-
 screwCarbon
 gregtech:gt.metaitem.01 - 27010
 
@@ -89787,10 +89770,6 @@ gregtech:gt.metaitem.01 - 27372
 
 screwHSSS
 gregtech:gt.metaitem.01 - 27374
-
-
-screwIndium
-gregtech:gt.metaitem.01 - 27056
 
 
 screwInfusedAir
@@ -91157,6 +91136,9 @@ shrubLavender
 
 silicon
 RotaryCraft:rotarycraft_item_compacts - 10
+
+
+silver_ingot
 
 
 singularityAmethyst
@@ -92649,6 +92631,9 @@ steelRod
 TConstruct:toolRod - 16
 
 
+steel_ingot
+
+
 steeleaf
 gregtech:gt.metaitem.01 - 11339
 TwilightForest:item.steeleafIngot - 0
@@ -92741,10 +92726,6 @@ gregtech:gt.metaitem.01 - 23301
 
 stickBronze
 gregtech:gt.metaitem.01 - 23300
-
-
-stickCadmium
-gregtech:gt.metaitem.01 - 23055
 
 
 stickCaesium
@@ -92905,7 +92886,6 @@ gregtech:gt.metaitem.01 - 23374
 
 
 stickIndium
-gregtech:gt.metaitem.01 - 23056
 
 
 stickIndiumGalliumPhosphide
@@ -93044,10 +93024,6 @@ stickLongBronze
 gregtech:gt.metaitem.02 - 22300
 
 
-stickLongCadmium
-gregtech:gt.metaitem.02 - 22055
-
-
 stickLongCarbon
 gregtech:gt.metaitem.02 - 22010
 
@@ -93155,10 +93131,6 @@ gregtech:gt.metaitem.02 - 22372
 
 stickLongHSSS
 gregtech:gt.metaitem.02 - 22374
-
-
-stickLongIndium
-gregtech:gt.metaitem.02 - 22056
 
 
 stickLongInfusedAir
@@ -94449,6 +94421,9 @@ tinNugget
 MoarSigns:NuggetItems - 8
 
 
+tin_ingot
+
+
 toolBakeware
 harvestcraft:bakewareItem - 0
 
@@ -94540,7 +94515,6 @@ gregtech:gt.metaitem.02 - 3300
 
 
 toolHeadAxeCadmium
-gregtech:gt.metaitem.02 - 3055
 
 
 toolHeadAxeCaesium
@@ -94709,7 +94683,6 @@ gregtech:gt.metaitem.02 - 3374
 
 
 toolHeadAxeIndium
-gregtech:gt.metaitem.02 - 3056
 
 
 toolHeadAxeIndiumGalliumPhosphide
@@ -95164,10 +95137,6 @@ toolHeadBuzzSawBronze
 gregtech:gt.metaitem.02 - 15300
 
 
-toolHeadBuzzSawCadmium
-gregtech:gt.metaitem.02 - 15055
-
-
 toolHeadBuzzSawCarbon
 gregtech:gt.metaitem.02 - 15010
 
@@ -95242,10 +95211,6 @@ gregtech:gt.metaitem.02 - 15372
 
 toolHeadBuzzSawHSSS
 gregtech:gt.metaitem.02 - 15374
-
-
-toolHeadBuzzSawIndium
-gregtech:gt.metaitem.02 - 15056
 
 
 toolHeadBuzzSawInvar
@@ -95500,10 +95465,6 @@ toolHeadChainsawBronze
 gregtech:gt.metaitem.02 - 9300
 
 
-toolHeadChainsawCadmium
-gregtech:gt.metaitem.02 - 9055
-
-
 toolHeadChainsawCarbon
 gregtech:gt.metaitem.02 - 9010
 
@@ -95578,10 +95539,6 @@ gregtech:gt.metaitem.02 - 9372
 
 toolHeadChainsawHSSS
 gregtech:gt.metaitem.02 - 9374
-
-
-toolHeadChainsawIndium
-gregtech:gt.metaitem.02 - 9056
 
 
 toolHeadChainsawInvar
@@ -95836,10 +95793,6 @@ toolHeadDrillBronze
 gregtech:gt.metaitem.02 - 8300
 
 
-toolHeadDrillCadmium
-gregtech:gt.metaitem.02 - 8055
-
-
 toolHeadDrillCarbon
 gregtech:gt.metaitem.02 - 8010
 
@@ -95914,10 +95867,6 @@ gregtech:gt.metaitem.02 - 8372
 
 toolHeadDrillHSSS
 gregtech:gt.metaitem.02 - 8374
-
-
-toolHeadDrillIndium
-gregtech:gt.metaitem.02 - 8056
 
 
 toolHeadDrillInvar
@@ -96197,7 +96146,6 @@ gregtech:gt.metaitem.02 - 6300
 
 
 toolHeadFileCadmium
-gregtech:gt.metaitem.02 - 6055
 
 
 toolHeadFileCaesium
@@ -96322,7 +96270,6 @@ gregtech:gt.metaitem.02 - 6374
 
 
 toolHeadFileIndium
-gregtech:gt.metaitem.02 - 6056
 
 
 toolHeadFileIndiumGalliumPhosphide
@@ -96740,7 +96687,6 @@ gregtech:gt.metaitem.02 - 5300
 
 
 toolHeadHammerCadmium
-gregtech:gt.metaitem.02 - 5055
 
 
 toolHeadHammerCaesium
@@ -96909,7 +96855,6 @@ gregtech:gt.metaitem.02 - 5374
 
 
 toolHeadHammerIndium
-gregtech:gt.metaitem.02 - 5056
 
 
 toolHeadHammerIndiumGalliumPhosphide
@@ -97401,7 +97346,6 @@ gregtech:gt.metaitem.02 - 4300
 
 
 toolHeadHoeCadmium
-gregtech:gt.metaitem.02 - 4055
 
 
 toolHeadHoeCaesium
@@ -97570,7 +97514,6 @@ gregtech:gt.metaitem.02 - 4374
 
 
 toolHeadHoeIndium
-gregtech:gt.metaitem.02 - 4056
 
 
 toolHeadHoeIndiumGalliumPhosphide
@@ -98062,7 +98005,6 @@ gregtech:gt.metaitem.02 - 1300
 
 
 toolHeadPickaxeCadmium
-gregtech:gt.metaitem.02 - 1055
 
 
 toolHeadPickaxeCaesium
@@ -98231,7 +98173,6 @@ gregtech:gt.metaitem.02 - 1374
 
 
 toolHeadPickaxeIndium
-gregtech:gt.metaitem.02 - 1056
 
 
 toolHeadPickaxeIndiumGalliumPhosphide
@@ -98698,10 +98639,6 @@ toolHeadPlowBronze
 gregtech:gt.metaitem.02 - 13300
 
 
-toolHeadPlowCadmium
-gregtech:gt.metaitem.02 - 13055
-
-
 toolHeadPlowCarbon
 gregtech:gt.metaitem.02 - 13010
 
@@ -98820,10 +98757,6 @@ gregtech:gt.metaitem.02 - 13372
 
 toolHeadPlowHSSS
 gregtech:gt.metaitem.02 - 13374
-
-
-toolHeadPlowIndium
-gregtech:gt.metaitem.02 - 13056
 
 
 toolHeadPlowInfusedAir
@@ -99195,7 +99128,6 @@ gregtech:gt.metaitem.02 - 7300
 
 
 toolHeadSawCadmium
-gregtech:gt.metaitem.02 - 7055
 
 
 toolHeadSawCaesium
@@ -99320,7 +99252,6 @@ gregtech:gt.metaitem.02 - 7374
 
 
 toolHeadSawIndium
-gregtech:gt.metaitem.02 - 7056
 
 
 toolHeadSawIndiumGalliumPhosphide
@@ -99713,10 +99644,6 @@ toolHeadSenseBronze
 gregtech:gt.metaitem.02 - 12300
 
 
-toolHeadSenseCadmium
-gregtech:gt.metaitem.02 - 12055
-
-
 toolHeadSenseCarbon
 gregtech:gt.metaitem.02 - 12010
 
@@ -99835,10 +99762,6 @@ gregtech:gt.metaitem.02 - 12372
 
 toolHeadSenseHSSS
 gregtech:gt.metaitem.02 - 12374
-
-
-toolHeadSenseIndium
-gregtech:gt.metaitem.02 - 12056
 
 
 toolHeadSenseInfusedAir
@@ -100222,7 +100145,6 @@ gregtech:gt.metaitem.02 - 2300
 
 
 toolHeadShovelCadmium
-gregtech:gt.metaitem.02 - 2055
 
 
 toolHeadShovelCaesium
@@ -100391,7 +100313,6 @@ gregtech:gt.metaitem.02 - 2374
 
 
 toolHeadShovelIndium
-gregtech:gt.metaitem.02 - 2056
 
 
 toolHeadShovelIndiumGalliumPhosphide
@@ -100883,7 +100804,6 @@ gregtech:gt.metaitem.02 - 300
 
 
 toolHeadSwordCadmium
-gregtech:gt.metaitem.02 - 55
 
 
 toolHeadSwordCaesium
@@ -101052,7 +100972,6 @@ gregtech:gt.metaitem.02 - 374
 
 
 toolHeadSwordIndium
-gregtech:gt.metaitem.02 - 56
 
 
 toolHeadSwordIndiumGalliumPhosphide
@@ -101519,10 +101438,6 @@ toolHeadUniversalSpadeBronze
 gregtech:gt.metaitem.02 - 11300
 
 
-toolHeadUniversalSpadeCadmium
-gregtech:gt.metaitem.02 - 11055
-
-
 toolHeadUniversalSpadeCarbon
 gregtech:gt.metaitem.02 - 11010
 
@@ -101641,10 +101556,6 @@ gregtech:gt.metaitem.02 - 11372
 
 toolHeadUniversalSpadeHSSS
 gregtech:gt.metaitem.02 - 11374
-
-
-toolHeadUniversalSpadeIndium
-gregtech:gt.metaitem.02 - 11056
 
 
 toolHeadUniversalSpadeInfusedAir
@@ -101991,10 +101902,6 @@ toolHeadWrenchBronze
 gregtech:gt.metaitem.02 - 10300
 
 
-toolHeadWrenchCadmium
-gregtech:gt.metaitem.02 - 10055
-
-
 toolHeadWrenchCarbon
 gregtech:gt.metaitem.02 - 10010
 
@@ -102069,10 +101976,6 @@ gregtech:gt.metaitem.02 - 10372
 
 toolHeadWrenchHSSS
 gregtech:gt.metaitem.02 - 10374
-
-
-toolHeadWrenchIndium
-gregtech:gt.metaitem.02 - 10056
 
 
 toolHeadWrenchInvar
@@ -106682,10 +106585,6 @@ turbineBladeBronze
 gregtech:gt.metaitem.02 - 16300
 
 
-turbineBladeCadmium
-gregtech:gt.metaitem.02 - 16055
-
-
 turbineBladeCarbon
 gregtech:gt.metaitem.02 - 16010
 
@@ -106760,10 +106659,6 @@ gregtech:gt.metaitem.02 - 16372
 
 turbineBladeHSSS
 gregtech:gt.metaitem.02 - 16374
-
-
-turbineBladeIndium
-gregtech:gt.metaitem.02 - 16056
 
 
 turbineBladeInvar

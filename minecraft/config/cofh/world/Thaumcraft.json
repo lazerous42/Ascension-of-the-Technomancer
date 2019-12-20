@@ -185,9 +185,7 @@
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
-            0,
-            7,
-            9
+            0,7,9
         ]
     },
     "FireShard": {
@@ -295,9 +293,7 @@
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
-            0,
-            7,
-            9
+            0,7,9
         ]
     },
     "WaterShard": {

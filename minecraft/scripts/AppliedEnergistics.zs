@@ -120,12 +120,6 @@ val FluixSmartCableRed = <appliedenergistics2:item.ItemMultiPart:54>;
 val FluixSmartCableWhite = <appliedenergistics2:item.ItemMultiPart:40>;
 val FluixSmartCableYellow = <appliedenergistics2:item.ItemMultiPart:44>;
 
-##  OreDict Fix
-#<ore:itemCertusQuartz>.remove(pureNetherQuartzCrystal);
-#<ore:itemCertusQuartz>.add(pureCertusQuartzCrystal);
-#<ore:itemNetherQuartz>.remove(pureCertusQuartzCrystal);
-#<ore:itemNetherQuartz>.add(pureNetherQuartzCrystal);
-
 ##  Tools
 #   Axes
 recipes.remove(<appliedenergistics2:item.ToolCertusQuartzAxe>);

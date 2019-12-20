@@ -1,47 +1,59 @@
+Avaritia_CosmicMeatballs = Avaritia:Cosmic_Meatballs,1,0,1
+Avaritia_UltimateStew = Avaritia:Ultimate_Stew,1,0,1
 
-apple = minecraft:apple,5,0,10
-bread = minecraft:bread,5,0,80
-pork = minecraft:porkchop,5,0,70
-cookie = minecraft:cookie,8,0,20
-melon = minecraft:melon,6,0,50
-steak = minecraft:beef,8,0,70
-chicken = minecraft:chicken,6,0,40
-carrot = minecraft:carrot,3,0,30
-potato = minecraft:potato,3,0,30
-potatoPoisoned = minecraft:poisonous_potato,1,0,10
+TastyClay = OpenBlocks:tastyClay,4,0,3
 
-baconmushroomburger = harvestcraft:baconmushroomburgerItem,4,0,5
-beefwellington = harvestcraft:beefwellingtonItem,4,0,5
-beetburger = harvestcraft:beetburgerItem,4,0,5
-chickengumbo = harvestcraft:chickengumboItem,4,0,5
-curry = harvestcraft:curryItem,4,0,5
-delightedmeal = harvestcraft:delightedmealItem,4,0,5
-deluxecheeseburger = harvestcraft:deluxecheeseburgerItem,4,0,5
-deluxechickencurry = harvestcraft:deluxechickencurryItem,4,0,5
-epicbacon = harvestcraft:epicbaconItem,4,0,5
-heartybreakfast = harvestcraft:heartybreakfastItem,4,0,5
-mcpam = harvestcraft:mcpamItem,4,0,5
-meatfeastpizza = harvestcraft:meatfeastpizzaItem,4,0,5
-rainbowcurry = harvestcraft:rainbowcurryItem,4,0,5
-randomtaco = harvestcraft:randomtacoItem,4,0,5
-sausageinbread = harvestcraft:sausageinbreadItem,4,0,5
-spagettiandmeatballs = harvestcraft:spagettiandmeatballsItem,4,0,5
-supremepizza = harvestcraft:supremepizzaItem,4,0,5
+arcticmobs_palesoup = arcticmobs:palesoup,6,0,3
 
-CosmicMeatballs = Avaritia:Cosmic_Meatballs,1,0,1
-UltimateStew = Avaritia:Ultimate_Stew,1,0,1
+demonmobs_devillasagna = demonmobs:devillasagna,6,0,3
 
-beetroot_seeds = etfuturum:beetroot_seeds,2,0,5
+desertmobs_ambercake = desertmobs:ambercake,6,0,3
 
-palesoup = arcticmobs:palesoup,6,0,3
-devillasagna = demonmobs:devillasagna,6,0,3
-ambercake = desertmobs:ambercake,6,0,3
-paleosalad = forestmobs:paleosalad,6,0,3
-lapisfishandchips = freshwatermobs:lapisfishandchips,6,0,3
-searingtaco = infernomobs:searingtaco,6,0,3
-tropicalcurry = junglemobs:tropicalcurry,6,0,3
-peakskebab = mountainmobs:peakskebab,6,0,3
-plainsmobs:bulwarkburger,6,0,3
-saltwatermobs:seashellmaki,6,0,3
-shadowmobs:bloodchili,6,0,3
-swampmobs:mosspie,6,0,3
+etfuturum_beetrootseeds = etfuturum:beetroot_seeds,2,0,5
+
+forestmobs_paleosalad = forestmobs:paleosalad,6,0,3
+
+freshwatermobs_lapisfishandchips = freshwatermobs:lapisfishandchips,6,0,3
+harvestcraft_baconmushroomburger = harvestcraft:baconmushroomburgerItem,4,0,5
+harvestcraft_beefwellington = harvestcraft:beefwellingtonItem,4,0,5
+harvestcraft_beetburger = harvestcraft:beetburgerItem,4,0,5
+harvestcraft_chickengumbo = harvestcraft:chickengumboItem,4,0,5
+harvestcraft_curry = harvestcraft:curryItem,4,0,5
+harvestcraft_delightedmeal = harvestcraft:delightedmealItem,4,0,5
+harvestcraft_deluxecheeseburger = harvestcraft:deluxecheeseburgerItem,4,0,5
+harvestcraft_deluxechickencurry = harvestcraft:deluxechickencurryItem,4,0,5
+harvestcraft_epicbacon = harvestcraft:epicbaconItem,4,0,5
+harvestcraft_heartybreakfast = harvestcraft:heartybreakfastItem,4,0,5
+harvestcraft_mcpam = harvestcraft:mcpamItem,4,0,5
+harvestcraft_meatfeastpizza = harvestcraft:meatfeastpizzaItem,4,0,5
+harvestcraft_rainbowcurry = harvestcraft:rainbowcurryItem,4,0,5
+harvestcraft_randomtaco = harvestcraft:randomtacoItem,4,0,5
+harvestcraft_sausageinbread = harvestcraft:sausageinbreadItem,4,0,5
+harvestcraft_spagettiandmeatballs = harvestcraft:spagettiandmeatballsItem,4,0,5
+harvestcraft_supremepizza = harvestcraft:supremepizzaItem,4,0,5
+
+infernomobs_searingtaco = infernomobs:searingtaco,6,0,3
+
+junglemobs_tropicalcurry = junglemobs:tropicalcurry,6,0,3
+minecraft_apple = minecraft:apple,5,0,10
+minecraft_beef = minecraft:beef,8,0,70
+minecraf_bread = minecraft:bread,5,0,80
+minecraft_carrot = minecraft:carrot,3,0,30
+minecraft_chicken = minecraft:chicken,6,0,40
+minecraft_cookie = minecraft:cookie,8,0,20
+minecraft_melon = minecraft:melon,6,0,50
+minecraft_pork = minecraft:porkchop,5,0,70
+minecraft_potato = minecraft:potato,3,0,30
+minecraft_potatopoisoned = minecraft:poisonous_potato,1,0,10
+
+mountainmobs_peakskebab = mountainmobs:peakskebab,6,0,7
+
+plainsmobs_bulwarkburger = plainsmobs:bulwarkburger,6,0,7
+
+saltwatermobs_seashellmaki = saltwatermobs:seashellmaki,6,0,7
+
+shadowmobs_bloodchili = shadowmobs:bloodchili,6,0,7
+
+swampmobs_mosspie = swampmobs:mosspie,6,0,7
+
+GlowingBread = xreliquary:glowing_bread,3,0,3

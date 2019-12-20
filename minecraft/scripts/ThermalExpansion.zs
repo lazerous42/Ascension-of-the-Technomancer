@@ -221,6 +221,13 @@ recipes.remove(blazingPyrothium);
 recipes.addShapeless(<ThermalFoundation:material:513>, [<minecraft:snowball>, <ore:dustSaltpeter>, <ore:dustElectrotine>, <ore:dustBlizz>]);
 recipes.addShapeless(blazingPyrothium, [<ore:dustCoal>, <ore:dustSulfur>, <ore:itemBlazePowder>, <ore:dustElectrotine>]);
 
+##  Parts
+#   Pneumatic Servo
+recipes.remove(<ThermalExpansion:material>);
+recipes.addShaped(<ThermalExpansion:material>, [[null, <ore:ingotBrass>, null],
+												[<ore:blockGlass>, <ore:dustRedstone>, <ore:blockGlass>],
+												[null, <ore:ingotBrass>, null]]);
+
 ##  Augments
 recipes.remove(<ThermalExpansion:augment:65>);
 recipes.remove(<ThermalExpansion:augment:66>);

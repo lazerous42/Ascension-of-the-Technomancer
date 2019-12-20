@@ -221,7 +221,7 @@
 				<atmosphereDensity>100</atmosphereDensity>
 				<artifact>nevermine:RealmstoneDustopia 0</artifact>
 			</planet>
-			<planet name="Betweenlands" DIMID="67" dimMapping="" customIcon="WaterWorld">
+			<planet name="Betweenlands" DIMID="42" dimMapping="" customIcon="WaterWorld">
 				<isKnown>true</isKnown>
 				<fogColor>1.0,1.0,1.0</fogColor>
 				<skyColor>1.0,1.0,1.0</skyColor>
@@ -231,6 +231,7 @@
 				<orbitalTheta>270</orbitalTheta>
 				<rotationalPeriod>4000</rotationalPeriod>
 				<atmosphereDensity>100</atmosphereDensity>
+				<artifact>thebetweenlands:swampTalisman 0</artifact>
 			</planet>
 		</planet>
 		<planet name="Tennaris" DIMID="109" customIcon="lava">
@@ -285,7 +286,7 @@
 		</planet>
 	</star>
 	<star name="Barnard's Star" temp="110" x="60" y="70" size="0.8" numPlanets="0" numGasGiants="0">
-		<planet name="Atum" DIMID="55" dimMapping="" customIcon="MarsLike">
+		<planet name="Atum" DIMID="40" dimMapping="" customIcon="MarsLike">
 			<isKnown>false</isKnown>
 			<fogColor>1.0,1.0,1.0</fogColor>
 			<skyColor>1.0,1.0,1.0</skyColor>
@@ -535,6 +536,7 @@
 			<orbitalPhi>0</orbitalPhi>
 			<rotationalPeriod>24000</rotationalPeriod>
 			<atmosphereDensity>100</atmosphereDensity>
+			<artifact>MoCreatures:staffportal 0</artifact>
 		</planet>
 		<planet name="Candyland" DIMID="13" dimMapping="" customIcon="EarthLike">
 			<isKnown>false</isKnown>

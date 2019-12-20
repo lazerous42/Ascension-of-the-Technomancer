@@ -87,15 +87,15 @@
 86 is Occupied by: enchantment.chroma.airminer (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentAirMiner)
 87 is Occupied by: enchantment.chroma.phasing (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentPhasingSequence)
 88 is Occupied by: enchantment.chroma.bosskill (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentBossKill)
-89 is Occupied by: enchantment.chroma.enderlock (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentEnderLock)
-90 is Occupied by: enchantment.chroma.harvestlevel (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentHarvestLevel)
-91 is Occupied by: enchantment.chroma.autocollect (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentAutoCollect)
-92 is Occupied by: enchantment.chroma.fastsink (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentFastSinking)
-93 is Occupied by: enchantment.chroma.rareloot (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentRareLoot)
-94 is Occupied by: enchantment.chroma.userepair (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentUseRepair)
-95 is Occupied by: enchantment.chroma.weaponaoe (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentWeaponAOE)
-96 is Avaible
-97 is Avaible
+89 is Occupied by: enchantment.chroma.minetime (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentBetterEfficiency)
+90 is Occupied by: enchantment.chroma.enderlock (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentEnderLock)
+91 is Occupied by: enchantment.chroma.harvestlevel (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentHarvestLevel)
+92 is Occupied by: enchantment.chroma.datakeep (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentDataKeeper)
+93 is Occupied by: enchantment.chroma.autocollect (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentAutoCollect)
+94 is Occupied by: enchantment.chroma.fastsink (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentFastSinking)
+95 is Occupied by: enchantment.chroma.rareloot (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentRareLoot)
+96 is Occupied by: enchantment.chroma.userepair (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentUseRepair)
+97 is Occupied by: enchantment.chroma.weaponaoe (Reika.ChromatiCraft.Magic.Enchantment.EnchantmentWeaponAOE)
 98 is Avaible
 99 is Avaible
 100 is Occupied by: simplyjetpacks.enchantment.fuelEfficiency (tonius.simplyjetpacks.enchantment.EnchantmentFuelEfficiency)

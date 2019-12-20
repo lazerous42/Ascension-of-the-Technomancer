@@ -8,14 +8,27 @@
             "metadata": 0
         }],
         "material": [{
-            "name": "minecraft:netherrack",
-            "metadata": 0
-        }],
+                "name": "BiomesOPlenty:ash",
+                "metadata": 0
+            },
+            {
+                "name": "BiomesOPlenty:ashStone",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:netherrack",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:soul_sand",
+                "metadata": 0
+            }
+        ],
         "chunkChance": 1,
         "clusterSize": 32,
-        "numClusters": 4,
+        "numClusters": 6,
         "minHeight": 23,
-        "maxHeight": 37,
+        "maxHeight": 124,
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [{
@@ -27,15 +40,65 @@
 
         ]
     },
-    "MagmaBlock-Vultomas": {
+    "MagmaBlock-Boulder-Vultomas": {
         "enabled": "true",
         "template": "surface",
-        "generator": "plate",
+        "generator": "boulder",
         "block": [{
             "name": "magmaox:MagmaBlock",
             "metadata": 0
         }],
         "material": [{
+                "name": "BiomesOPlenty:ash",
+                "metadata": 0
+            },
+            {
+                "name": "BiomesOPlenty:ashStone",
+                "metadata": 0
+            },
+            {
+                "name": "BiomesOPlenty:cragRock",
+                "metadata": 0
+            },
+            {
+                "name": "BiomesOPlenty:driedDirt",
+                "metadata": 0
+            },
+            {
+                "name": "minecraft:soul_sand",
+                "metadata": 0
+            }
+        ],
+        "hollow": "false",
+        "count": 3,
+        "followTerrain": "true",
+        "chunkChance": 16,
+        "clusterSize": 5,
+        "sizeVariance": 2,
+        "numClusters": 2,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            116
+        ]
+    },
+    "MagmaBlock-Vultomas": {
+        "enabled": "true",
+        "template": "uniform",
+        "generator": "cluster",
+        "block": [{
+            "name": "magmaox:MagmaBlock",
+            "metadata": 0
+        }],
+        "material": [{
+                "name": "BiomesOPlenty:ash",
+                "metadata": 0
+            },
+            {
                 "name": "BiomesOPlenty:ashStone",
                 "metadata": 0
             },
@@ -55,10 +118,8 @@
         "chunkChance": 1,
         "clusterSize": 32,
         "numClusters": 4,
-        "sizeVariance": 4,
-        "height": 3,
-        "minHeight": 50,
-        "maxHeight": 75,
+        "minHeight": 1,
+        "maxHeight": 100,
         "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [

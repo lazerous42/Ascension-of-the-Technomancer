@@ -28,9 +28,7 @@
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
-            106,
-            111,
-            115
+            106,111,115
         ]
     },
     "ResonatingCrystalSubsurface": {
@@ -80,9 +78,7 @@
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
-            106,
-            111,
-            115
+            106,111,115
         ]
     },
     "ResonatingOre": {
@@ -109,9 +105,7 @@
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
-            106,
-            111,
-            115
+            106,111,115
         ]
     }
 }

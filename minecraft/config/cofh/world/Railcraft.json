@@ -269,7 +269,7 @@
         ]
     },
     "Sulfur": {
-        "enabled": "false",
+        "enabled": "true",
         "template": "normal",
         "generator": "lake",
         "block": [{
@@ -307,8 +307,7 @@
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
-            0,
-            9
+            0,9
         ]
     }
 }

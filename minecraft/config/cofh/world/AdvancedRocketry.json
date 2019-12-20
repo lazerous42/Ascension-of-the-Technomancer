@@ -30,10 +30,7 @@
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
-            102,
-            107,
-            112,
-            116
+            102, 107, 112, 116
         ]
     },
     "DiLithium": {
@@ -60,12 +57,7 @@
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
-            8,
-            101,
-            105,
-            108,
-            118,
-            119
+            8, 101, 105, 108, 118, 119
         ]
     },
     "Iridium": {
@@ -90,12 +82,9 @@
         "biomes": [
 
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            0,
-            7,
-            9,
-            43
+            116, 120
         ]
     },
     "Titanium": {
@@ -129,10 +118,7 @@
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
-            103,
-            109,
-            114,
-            120
+            103, 109, 114, 120
         ]
     }
 }

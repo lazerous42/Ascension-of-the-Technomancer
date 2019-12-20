@@ -1,211 +1,208 @@
 {
     "name": "tools",
-    "loot_rules": [
-        {
-            "type": "TOOLS",
-            "level" : [0, 1, 2, 3, 4],
-            "each" : true,
-            "quantity" : 24,
-            "loot": [
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Thaumcraft:FocusTrade", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Thaumcraft:ItemAxeThaumium", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "2", 
-                        "meta": "0", 
-                        "name": "Ztones:diamondZane", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Thaumcraft:FocusExcavation", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Botania:travelBelt", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Thaumcraft:FocusWarding", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Thaumcraft:FocusFire", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "128", 
-                        "name": "Thaumcraft:WandCasting", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Thaumcraft:FocusShock", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "9", 
-                        "name": "Thaumcraft:WandCasting", 
-                        "min": "1"
-                    }, 
-                    "weight": "4"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "ExtraUtilities:builderswand", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Thaumcraft:FocusHellbat", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Thaumcraft:ItemPickThaumium", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Thaumcraft:FocusPouch", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Thaumcraft:FocusPortableHole", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Ztones:totemTool", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Thaumcraft:FocusFrost", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "ExtraUtilities:creativebuilderswand", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Ztones:terrainEater", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Thaumcraft:ItemHoeThaumium", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }, 
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "Thaumcraft:FocusPech", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
+    "loot_rules": [{
+        "type": "TOOLS",
+        "level": [0, 1, 2, 3, 4],
+        "each": true,
+        "quantity": 24,
+        "loot": [{
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "Botania:travelBelt",
+                    "min": "1"
                 },
-                {
-                    "data": {
-                        "max": "1", 
-                        "meta": "0", 
-                        "name": "backlytra:elytra", 
-                        "min": "1"
-                    }, 
-                    "weight": "2"
-                }
-            ]
-        }
-    ]
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "ExtraUtilities:builderswand",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "ExtraUtilities:creativebuilderswand",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "naturescompass:NaturesCompass",
+                    "min": "1"
+                },
+                "weight": "1"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "Thaumcraft:FocusExcavation",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "Thaumcraft:FocusFire",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "Thaumcraft:FocusFrost",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "Thaumcraft:FocusHellbat",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "Thaumcraft:FocusPech",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "Thaumcraft:FocusPortableHole",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "Thaumcraft:FocusPouch",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "Thaumcraft:FocusShock",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "Thaumcraft:FocusTrade",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "Thaumcraft:FocusWarding",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "Thaumcraft:ItemAxeThaumium",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "Thaumcraft:ItemHoeThaumium",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "Thaumcraft:ItemPickThaumium",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "9",
+                    "name": "Thaumcraft:WandCasting",
+                    "min": "1"
+                },
+                "weight": "4"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "128",
+                    "name": "Thaumcraft:WandCasting",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "2",
+                    "meta": "0",
+                    "name": "Ztones:diamondZane",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "backlytra:elytra",
+                    "min": "1"
+                },
+                "weight": "2"
+            },
+            {
+                "data": {
+                    "max": "1",
+                    "meta": "0",
+                    "name": "xreliquary:emperor_chalice",
+                    "min": "1"
+                },
+                "weight": "1"
+            }
+        ]
+    }]
 }

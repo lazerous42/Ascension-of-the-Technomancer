@@ -110,6 +110,7 @@ Found creative tab: GeoStrata Ores
 Found creative tab: GeoStrata Slabs
 Found creative tab: GeoStrata Stairs
 Found creative tab: GeoStrata Stone
+Found creative tab: tabGraveStone
 Found creative tab: IC2
 Found creative tab: tabGaia
 Found creative tab: CreativeTabName
@@ -123,7 +124,6 @@ Found creative tab: tabMCA
 Found creative tab: tabMCA.gemCutting
 Found creative tab: magicBees
 Found creative tab: food
-Found creative tab: MagicCookies
 Found creative tab: Magneticraft|Industrial Age
 Found creative tab: Magneticraft|Steam Age
 Found creative tab: Magneticraft|Main
@@ -204,6 +204,7 @@ Found creative tab: witchinggadgets
 Found creative tab: ztones
 Found creative tab: advancedRocketryOres
 Found creative tab: advancedRocketry
+Found creative tab: adventurebackpack
 Found creative tab: bdew.ae2stuff
 Found creative tab: ae2wct
 Found creative tab: Aether Materials
@@ -227,6 +228,7 @@ Found creative tab: atum
 Found creative tab: aura
 Found creative tab: avaritiaddons
 Found creative tab: Battlegear2
+Found creative tab: knowledge
 Found creative tab: betterquesting
 Found creative tab: buildersguides
 Found creative tab: catwalks
@@ -249,6 +251,7 @@ Found creative tab: cnpcsw
 Found creative tab: cnpcs
 Found creative tab: DeepResonance
 Found creative tab: dss.skills
+Found creative tab: enderutilities
 Found creative tab: erebus.plants
 Found creative tab: erebus.block
 Found creative tab: erebus.special
@@ -343,6 +346,7 @@ Found creative tab: tabWeeeFlowers
 Found creative tab: tabWitchery
 Found creative tab: wizardry
 Found creative tab: wizardryspells
+Found creative tab: xreliquary
 Setting up ForgeMicroblock Library...
 Setting up ExtraUtilities Library...
 Setting up BuildCraft Library...
@@ -363,6 +367,19 @@ Loading: AdventOfAscension.js
 hide called. Params: nevermine, AncientTeleporterBlueprint
 Regex match found! nevermine:AncientTeleporterBlueprint matches nevermine:AncientTeleporterBlueprint.
 Found ItemStack nevermine:AncientTeleporterBlueprint. 64xitem.AncientTeleporterBlueprint@0
+Loading: AdventureBackpack.js
+hide called. Params: adventurebackpack, copterPack
+Regex match found! adventurebackpack:copterPack matches adventurebackpack:copterPack.
+Found ItemStack adventurebackpack:copterPack. 1xitem.adventurebackpack:copterPack@0
+hide called. Params: adventurebackpack, steamJetpack
+Regex match found! adventurebackpack:steamJetpack matches adventurebackpack:steamJetpack.
+Found ItemStack adventurebackpack:steamJetpack. 1xitem.adventurebackpack:steamJetpack@0
+hide called. Params: adventurebackpack, clockworkCrossbow
+Regex match found! adventurebackpack:clockworkCrossbow matches adventurebackpack:clockworkCrossbow.
+Found ItemStack adventurebackpack:clockworkCrossbow. 1xitem.adventurebackpack:clockworkCrossbow@0
+override called. Params: adventurebackpack, backpackComponent, 0,1,2,3,4
+Regex match found! adventurebackpack:backpackComponent matches adventurebackpack:backpackComponent.
+Found ItemStack adventurebackpack:backpackComponent. 16xitem.adventurebackpack:backpackComponent@0
 Loading: AgriCraft.js
 override called. Params: AgriCraft, waterTank, 0
 Regex match found! AgriCraft:waterTank matches AgriCraft:waterTank.
@@ -376,8 +393,8 @@ Found ItemStack AgriCraft:channelValve. 64xtile.agricraft:channelValve@0
 Loading: AppliedEnergistics2.js
 getFacadeItem called. Returned: appliedenergistics2:item.ItemFacade
 getSubTypes called.
-getNumberOfTypes called. Returned: 4569
-override called. Params: appliedenergistics2, item.ItemFacade, 4026
+getNumberOfTypes called. Returned: 4578
+override called. Params: appliedenergistics2, item.ItemFacade, 566
 Regex match found! appliedenergistics2:item.ItemFacade matches appliedenergistics2:item.ItemFacade.
 Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
 hide called. Params: appliedenergistics2, item.ToolCertusQuartzCuttingKnife
@@ -666,6 +683,9 @@ Found ItemStack Botania:buriedPetals. 64xtile.buriedPetals@0
 hide called. Params: Botania, fakeAir
 Regex match found! Botania:fakeAir matches Botania:fakeAir.
 Found ItemStack Botania:fakeAir. 64xtile.fakeAir@0
+hide called. Params: Botania, prismarine
+Regex match found! Botania:prismarine matches Botania:prismarine.
+Found ItemStack Botania:prismarine. 64xtile.prismarine@0
 hide called. Params: Botania, *Slab*Full
 Regex match found! Botania:*Slab*Full matches Botania:biomeStoneA0SlabFull.
 Regex match found! Botania:*Slab*Full matches Botania:biomeStoneA10SlabFull.
@@ -810,8 +830,8 @@ Found ItemStack BuildCraft|Transport:pipeBlock. 64xtile.pipeBlock@0
 override called. Params: BuildCraft|Core, paintbrush, 0
 Regex match found! BuildCraft|Core:paintbrush matches BuildCraft|Core:paintbrush.
 Found ItemStack BuildCraft|Core:paintbrush. 1xitem.paintbrush@0
-getFacadesSize called. Returned: 7094
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 3403
+getFacadesSize called. Returned: 7024
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 3258
 Loading: CarpentersBlocks.js
 hide called. Params: CarpentersBlocks, blockCarpentersBed
 Regex match found! CarpentersBlocks:blockCarpentersBed matches CarpentersBlocks:blockCarpentersBed.
@@ -820,6 +840,7 @@ hide called. Params: CarpentersBlocks, blockCarpentersDoor
 Regex match found! CarpentersBlocks:blockCarpentersDoor matches CarpentersBlocks:blockCarpentersDoor.
 Found ItemStack CarpentersBlocks:blockCarpentersDoor. 64xtile.blockCarpentersDoor@0
 Loading: Chisel.js
+hide called. Params: chisel, purpur_block
 hide called. Params: chisel, *slab_top
 Regex match found! chisel:*slab_top matches chisel:limestone_slab_top.
 Regex match found! chisel:*slab_top matches chisel:marble_pillar_slab_top.
@@ -827,6 +848,10 @@ Regex match found! chisel:*slab_top matches chisel:marble_slab_top.
 Found ItemStack chisel:limestone_slab_top. 64xtile.chisel.limestone_slab@0
 Found ItemStack chisel:marble_pillar_slab_top. 64xtile.chisel.marble_pillar_slab@0
 Found ItemStack chisel:marble_slab_top. 64xtile.chisel.marble_slab@0
+Loading: EtFuturum.js
+hide called. Params: etfuturum, purpur_block
+Regex match found! etfuturum:purpur_block matches etfuturum:purpur_block.
+Found ItemStack etfuturum:purpur_block. 64xtile.etfuturum.purpur_block@0
 Loading: ExtraCells.js
 override called. Params: extracells, pattern.fluid, 0
 Regex match found! extracells:pattern.fluid matches extracells:pattern.fluid.
@@ -835,9 +860,8 @@ Loading: ExtraUtilities.js
 override called. Params: ExtraUtilities, drum, 0,1
 Regex match found! ExtraUtilities:drum matches ExtraUtilities:drum.
 Found ItemStack ExtraUtilities:drum. 64xtile.extrautils:drum@0
-getRandomMaterial called. Returned: ChromatiCraft:chromaticraft_block_dye_12
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, ChromatiCraft:chromaticraft_block_dye_12
-Loading: Evilcraft.js
+getRandomMaterial called. Returned: ChromatiCraft:chromaticraft_block_dye
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, ChromatiCraft:chromaticraft_block_dye
 Loading: Forestry.js
 hide called. Params: Forestry, crated*
 Regex match found! Forestry:crated* matches Forestry:cratedAcaciaSapling.
@@ -1084,8 +1108,8 @@ override called. Params: Forestry, ffarm, 0,2,3,4,5
 Regex match found! Forestry:ffarm matches Forestry:ffarm.
 Found ItemStack Forestry:ffarm. 64xtile.for.ffarm@0
 Loading: ForgeMicroblock.js
-getRandomMaterial called. Returned: ChromatiCraft:chromaticraft_block_dye_9
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, ChromatiCraft:chromaticraft_block_dye_9
+getRandomMaterial called. Returned: ChromatiCraft:chromaticraft_block_dye_13
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, ChromatiCraft:chromaticraft_block_dye_13
 Loading: Genetics.js
 hide called. Params: Genetics, serumArray
 Regex match found! Genetics:serumArray matches Genetics:serumArray.

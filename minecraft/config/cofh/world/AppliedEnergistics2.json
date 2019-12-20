@@ -28,12 +28,7 @@
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
-            8,
-            101,
-            105,
-            108,
-            118,
-            119
+            8,101,105,108,118,119
         ]
     },
     "CertusQuartz-Iiloo": {

@@ -54,8 +54,7 @@
         ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            7,
-            112
+            7, 112
         ]
     },
     "Copper-Aquanos": {
@@ -125,9 +124,16 @@
 
         ],
         "outlineBlock": [{
-            "name": "minecraft:packed_ice",
-            "metadata": 0
-        }],
+                "name": "libVulpes:libVulpesore0",
+                "metadata": 10,
+                "weight": 3
+            },
+            {
+                "name": "minecraft:packed_ice",
+                "metadata": 0,
+                "weight": 97
+            }
+        ],
         "chunkChance": 24,
         "numClusters": 1,
         "meanHeight": 40,
@@ -155,9 +161,16 @@
 
         ],
         "outlineBlock": [{
-            "name": "minecraft:packed_ice",
-            "metadata": 0
-        }],
+                "name": "libVulpes:libVulpesore0",
+                "metadata": 10,
+                "weight": 3
+            },
+            {
+                "name": "minecraft:packed_ice",
+                "metadata": 0,
+                "weight": 97
+            }
+        ],
         "followTerrain": "false",
         "chunkChance": 64,
         "numClusters": 1,
@@ -202,8 +215,7 @@
         ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            7,
-            102
+            7, 102
         ]
     },
     "Lead-Orrobos": {
@@ -298,8 +310,7 @@
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
-            7,
-            9
+            7, 9
         ]
     },
     "Nickel": {
@@ -464,17 +475,22 @@
         "outlineBlock": [{
                 "name": "fossil:volcanicRock",
                 "metadata": 0,
-                "weight": 21
+                "weight": 20
+            },
+            {
+                "name": "libVulpes:libVulpesore0",
+                "metadata": 10,
+                "weight": 3
             },
             {
                 "name": "magmaox:MagmaBlock",
                 "metadata": 0,
-                "weight": 51
+                "weight": 50
             },
             {
                 "name": "minecraft:obsidian",
                 "metadata": 0,
-                "weight": 21
+                "weight": 20
             },
             {
                 "name": "Railcraft:ore",
@@ -512,6 +528,11 @@
                 "name": "fossil:volcanicRock",
                 "metadata": 0,
                 "weight": 21
+            },
+            {
+                "name": "libVulpes:libVulpesore0",
+                "metadata": 10,
+                "weight": 3
             },
             {
                 "name": "magmaox:MagmaBlock",
@@ -573,8 +594,7 @@
         ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            7,
-            102
+            7, 102
         ]
     },
     "Silver-Turbain": {
@@ -669,8 +689,7 @@
         ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            7,
-            112
+            7, 112
         ]
     },
     "Tin-Aquanos": {
